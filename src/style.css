@@ -14,3 +14,5 @@
 @keyframes sugar-fall{0%{transform:translateY(-5px);opacity:0}15%,75%{opacity:1}100%{transform:translateY(105px);opacity:0}}
 .worksheet-reminder{margin:12px;padding:12px;background:#e4efed;border-radius:6px;font-weight:600;font-size:14px}
 @media(prefers-reduced-motion:reduce){.mixing .sugar-grain{animation:none;opacity:1}.filling .water-stream,.mixing .pour-dish,.mixing .mix-swirl{animation:none}}
+
+@media(prefers-reduced-motion:reduce){.mixing .pour-dish{transform:translate(-70px,-10px) rotate(-25deg)}.filling .water-stream{stroke-dasharray:none}}

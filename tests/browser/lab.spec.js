@@ -14,7 +14,7 @@ test('sugar piles increase with mass and fit inside the scale background',async(
  for(const id of 'CDE'){
   await page.getByRole('button',{name:new RegExp(`Beaker ${id} `)}).click();
   await page.getByRole('button',{name:'Measure & add water'}).click();
-  expect(await page.locator('.water-fill').evaluate(el=>getComputedStyle(el).animationDuration)).toBe('8s');
+  await expect(page.locator('.prep-scene')).toHaveClass(/filling/);
   await page.getByRole('button',{name:'Tare / Zero'}).click();
   await page.getByRole('button',{name:'Weigh sugar'}).click();
   await expect(page.locator('.sugar-on-scale')).toHaveClass(/loaded/);
@@ -37,4 +37,15 @@ test('reset refreshes stale lab cache from server',async({page})=>{
 test('reset keeps the lab reloadable without internet',async({page,context})=>{
  await page.goto('/');await page.evaluate(async()=>{await navigator.serviceWorker.ready;if(!navigator.serviceWorker.controller)await new Promise(r=>navigator.serviceWorker.addEventListener('controllerchange',r,{once:true}));});
  await context.setOffline(true);page.on('dialog',d=>d.accept());await page.getByRole('button',{name:'Reset Lab'}).click();await expect(page.getByRole('button',{name:'Begin Lab'})).toBeEnabled();await page.reload();await expect(page.getByRole('button',{name:'Begin Lab'})).toBeVisible();
+});
+
+for(const reducedMotion of ['reduce','no-preference'])test(`preparation stays gradual with motion setting ${reducedMotion}`,async({page})=>{
+ await page.emulateMedia({reducedMotion});await page.goto('/');await page.getByRole('button',{name:'Begin Lab'}).click();await page.getByRole('button',{name:/Beaker C /}).click();
+ const started=Date.now();await page.getByRole('button',{name:'Measure & add water'}).click();
+ await expect(page.locator('.volume')).toContainText(/^[1-9]\d{0,2} mL/);
+ const scale=await page.locator('.water-fill').evaluate(el=>Number(getComputedStyle(el).transform.split(',')[3]));expect(scale).toBeGreaterThan(0);expect(scale).toBeLessThan(1);
+ await expect(page.getByRole('button',{name:'Tare / Zero'})).toBeEnabled({timeout:10000});expect(Date.now()-started).toBeGreaterThanOrEqual(7800);
+ await page.getByRole('button',{name:'Tare / Zero'}).click();await page.getByRole('button',{name:'Weigh sugar'}).click();await expect(page.locator('.sugar-on-scale')).toHaveClass(/loaded/);
+ await page.getByRole('button',{name:'Add sugar & mix'}).click();await expect(page.locator('.sugar-grains')).toHaveCSS('opacity','1');await expect(page.locator('.volume')).toContainText(/· [1-9]\d? g sugar added/);
+ await expect(page.locator('.worksheet-reminder')).toBeVisible({timeout:10000});
 });
