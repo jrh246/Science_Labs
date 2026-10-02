@@ -8,3 +8,22 @@ test('online reload refreshes HTML instead of retaining a stale cached document'
  await page.reload();
  await expect(page.getByRole('button',{name:'Begin Lab'})).toBeVisible();
 });
+test('sugar piles increase with mass and fit inside the scale background',async({page})=>{
+ await page.goto('/');await page.getByRole('button',{name:'Begin Lab'}).click();
+ const heights=[];
+ for(const id of 'CDE'){
+  await page.getByRole('button',{name:new RegExp(`Beaker ${id} `)}).click();
+  await page.getByRole('button',{name:'Measure & add water'}).click();
+  expect(await page.locator('.water-fill').evaluate(el=>getComputedStyle(el).animationDuration)).toBe('4s');
+  await page.getByRole('button',{name:'Tare / Zero'}).click();
+  await page.getByRole('button',{name:'Weigh sugar'}).click();
+  await expect(page.locator('.sugar-on-scale')).toHaveClass(/loaded/);
+  const pile=await page.locator('.sugar-on-scale span').boundingBox();
+  const background=await page.locator('.scale-station').boundingBox();
+  expect(pile.y).toBeGreaterThanOrEqual(background.y);
+  expect(pile.y+pile.height).toBeLessThan(background.y+background.height);
+  heights.push(pile.height);
+  await page.screenshot({path:`test-results/sugar-${id}.png`,fullPage:true});
+ }
+ expect(heights[1]/heights[0]).toBeCloseTo(2,1);expect(heights[2]/heights[0]).toBeCloseTo(3,1);
+});
