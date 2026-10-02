@@ -43,3 +43,5 @@ The included `.github/workflows/deploy.yml` tests, builds and deploys `dist` on 
 The generated service worker precaches the built HTML, CSS, JavaScript, manifest and SVG icon. Open once online and allow installation to finish before disconnecting. Refresh preserves work. An updated build gets a new cache version. Installation UI varies by browser; tablets can add the site to the home screen. SVG icons may require PNG alternatives for some installation UIs.
 
 Semantic controls, keyboard focus, signed numeric input, text labels, touch targets, tap placement alongside native drag/drop and reduced-motion clock support are included. Conclusions appear only in results. No CDN or remote fonts are used.
+
+Reset Lab clears recorded work and refreshes this lab’s offline cache from the server. If offline, it retains fallback assets so students can start again without internet. It cannot clear Chrome’s general HTTP cache. Preparation uses an 8-second fill, 4-second weighing, and 8-second sugar pour with a reduced-motion alternative. Prepared beakers remind students to record their solution information on the worksheet.
