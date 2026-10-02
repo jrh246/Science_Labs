@@ -30,4 +30,12 @@ document.addEventListener('dragover',e=>{if(e.target.closest('[data-drop]'))e.pr
 document.addEventListener('drop',e=>{const el=e.target.closest('[data-drop]');if(!el)return;e.preventDefault();const id=e.dataTransfer.getData('text/plain');if(id===el.dataset.drop){s.placed[id]=true;message=`Tube ${id} placed.`;}else message='Place the tube in its matching labeled beaker.';save();render();});
 save();
 render();
-if('serviceWorker' in navigator&&import.meta.env.PROD)navigator.serviceWorker.register(`${import.meta.env.BASE_URL}sw.js`).catch(()=>{});
+if('serviceWorker' in navigator&&import.meta.env.PROD){
+  const alreadyControlled=!!navigator.serviceWorker.controller;
+  let reloading=false;
+  navigator.serviceWorker.addEventListener('controllerchange',()=>{
+    if(alreadyControlled&&!reloading){reloading=true;save();location.reload();}
+  });
+  navigator.serviceWorker.register(`${import.meta.env.BASE_URL}sw.js`,{updateViaCache:'none'})
+    .then(registration=>registration.update()).catch(()=>{});
+}
