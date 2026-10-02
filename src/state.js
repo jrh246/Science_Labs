@@ -1,0 +1,11 @@
+import {labConfig as c} from './data/labConfig.js';
+export const measurementNoise=(random=Math.random)=>((random()+random())-1)*c.measurementVariation;
+export const trendValid=(t)=>{const external=c.beakers.find(b=>b.id===t.id).sugarPercent;const change=difference(t);return external===t.sugarPercent?Math.abs(change)<c.isotonicMaxChange:external<t.sugarPercent?change>0:change<0;};
+export function createExperimentRun(random=Math.random){return c.tubes.map(t=>{for(let attempt=0;attempt<100;attempt++){const measured={...t,initialMass:Number((t.initialMass+measurementNoise(random)).toFixed(2)),finalMass:Number((t.baselineFinalMass+measurementNoise(random)).toFixed(2))};if(trendValid(measured))return measured;}throw new Error('Experimental configuration cannot produce the required biological trend.');});}
+export const freshState=()=>({run:createExperimentRun(),step:0,prepared:{},initial:{},placed:{},elapsed:false,final:{},answers:{},attempts:{},valid:{}});
+export const ids=c.beakers.map(b=>b.id);
+export const all=(record)=>ids.every(id=>record[id]);
+export const difference=t=>Number((t.finalMass-t.initialMass).toFixed(2));
+export const correct=(run,id,value)=>String(value).trim()!=='' && Number.isFinite(Number(value)) && Math.abs(Number(value)-difference(run.find(t=>t.id===id)))<=c.tolerance;
+export function advance(s){if(!all(s.placed))return false;s.elapsed=true;return true;}
+export function restore(raw){try {const s=JSON.parse(raw);if(![1,2].includes(s?.version)||!s.state||!Number.isInteger(s.state.step)||s.state.step<0||s.state.step>6)return freshState();const n={...s.state};if(s.version===1)n.run=c.tubes.map(t=>({...t,finalMass:t.baselineFinalMass}));if(!Array.isArray(n.run)||n.run.length!==ids.length||!ids.every(id=>n.run.filter(t=>t.id===id).length===1)||!n.run.every(t=>Number.isFinite(t.initialMass)&&Number.isFinite(t.finalMass)&&t.initialMass>0&&t.finalMass>0&&trendValid(t)))return freshState();for(const k of ['prepared','initial','placed','final','answers','attempts','valid'])if(!n[k]||typeof n[k]!=='object'||Array.isArray(n[k]))return freshState();if(n.step>1&&!all(n.prepared)||n.step>2&&!all(n.initial)||n.step>3&&!all(n.placed)||n.step>4&&!n.elapsed||n.step>5&&(!all(n.final)||!ids.every(id=>correct(n.run,id,n.answers[id]))))return freshState();return n;}catch{return freshState();}}
