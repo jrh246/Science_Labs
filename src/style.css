@@ -16,3 +16,20 @@
 @media(prefers-reduced-motion:reduce){.mixing .sugar-grain{animation:none;opacity:1}.filling .water-stream,.mixing .pour-dish,.mixing .mix-swirl{animation:none}}
 
 @media(prefers-reduced-motion:reduce){.mixing .pour-dish{transform:translate(-70px,-10px) rotate(-25deg)}.filling .water-stream{stroke-dasharray:none}}
+
+/* Tilt over the beaker, then deposit sugar before it dissolves. */
+.sugar-deposit{opacity:0;transform-origin:185px 237px}
+.mixing .pour-dish{transform-origin:185px 75px;animation:tip-dish var(--prep-duration,4s) ease-in-out forwards}
+.mixing .sugar-grain{animation:pour-grain 1.1s linear 2;animation-delay:calc(.5s + var(--grain-delay))}
+.mixing .sugar-deposit{animation:deposit-sugar var(--prep-duration,4s) linear forwards}
+.mixing .mix-swirl{animation:flow 1s linear infinite;opacity:0;animation-delay:2.6s}
+@keyframes tip-dish{0%{opacity:1;transform:rotate(0)}15%,75%{opacity:1;transform:rotate(-45deg)}100%{opacity:0;transform:rotate(-45deg)}}
+@keyframes pour-grain{0%{opacity:0;transform:translateY(0)}15%,85%{opacity:1}100%{opacity:0;transform:translateY(135px)}}
+@keyframes deposit-sugar{0%,12%{opacity:0;transform:scaleY(0)}25%{opacity:1;transform:scaleY(.2)}65%,75%{opacity:1;transform:scaleY(1)}100%{opacity:0;transform:scaleY(.2)}}
+@media(prefers-reduced-motion:reduce){.mixing .pour-dish{transform:rotate(-45deg)}.mixing .sugar-deposit{animation:none;transform:scaleY(1);opacity:1}}
+.mixing .mix-swirl{animation:flow 1s linear infinite,stir-visible var(--prep-duration,4s) linear forwards;animation-delay:0s}
+@keyframes stir-visible{0%,65%{opacity:0}75%,100%{opacity:1}}
+@media(prefers-reduced-motion:reduce){.mixing .mix-swirl{animation:none;opacity:1}}
+.workspace:has(.mixing) .sugar-on-scale span{transform-origin:center bottom;animation:empty-dish var(--prep-duration,4s) linear forwards}
+@keyframes empty-dish{0%{transform:scaleY(1)}75%,100%{transform:scaleY(0)}}
+@media(prefers-reduced-motion:reduce){.workspace:has(.mixing) .sugar-on-scale span{animation:none}}

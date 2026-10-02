@@ -44,4 +44,4 @@ The generated service worker precaches the built HTML, CSS, JavaScript, manifest
 
 Semantic controls, keyboard focus, signed numeric input, text labels, touch targets, tap placement alongside native drag/drop and reduced-motion clock support are included. Conclusions appear only in results. No CDN or remote fonts are used.
 
-Reset Lab clears recorded work and refreshes this lab’s offline cache from the server. If offline, it retains fallback assets so students can start again without internet. It cannot clear Chrome’s general HTTP cache. Preparation uses an 8-second fill, 4-second weighing, and 8-second sugar pour with a reduced-motion alternative. Prepared beakers remind students to record their solution information on the worksheet.
+Reset Lab clears recorded work and refreshes this lab’s offline cache from the server. If offline, it retains fallback assets so students can start again without internet. It cannot clear Chrome’s general HTTP cache. Preparation uses an 4-second fill, 2-second weighing, and 4-second sugar pour with a reduced-motion alternative. Prepared beakers remind students to record their solution information on the worksheet.
