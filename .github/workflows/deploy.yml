@@ -1,19 +1,16 @@
-name: Deploy lab
-
+name: Deploy production and development
 on:
   push:
-    branches: [main]
+    branches: [main, codex/development]
   workflow_dispatch:
-
 permissions:
   contents: read
   pages: write
   id-token: write
-
+# Pages replaces the whole site: always upload both versions together.
 concurrency:
   group: pages
-  cancel-in-progress: true
-
+  cancel-in-progress: false
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -21,17 +18,53 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
+      - name: Check out production
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          path: production
+      - name: Check out development
+        uses: actions/checkout@v4
+        with:
+          ref: codex/development
+          path: development
       - uses: actions/setup-node@v4
         with:
           node-version: 24
           cache: npm
+          cache-dependency-path: |
+            production/package-lock.json
+            development/package-lock.json
       - uses: actions/configure-pages@v5
-      - run: npm ci
-      - run: npm test
-      - run: npm run build
+      - name: Test and build production
+        working-directory: production
+        run: |
+          npm ci
+          npm test
+          npm run build
+      - name: Test and build development
+        working-directory: development
+        run: |
+          npm ci
+          npm test
+          npm run build
+      - name: Assemble both sites and record deployed revisions
+        shell: bash
+        run: |
+          mkdir -p site/dev
+          cp -a production/dist/. site/
+          cp -a development/dist/. site/dev/
+          touch site/.nojekyll
+          printf '{"branch":"main","sha":"%s"}\n' "$(git -C production rev-parse HEAD)" > site/deployment.json
+          printf '{"branch":"codex/development","sha":"%s"}\n' "$(git -C development rev-parse HEAD)" > site/dev/deployment.json
+      - name: Install browser for deployment checks
+        working-directory: development
+        run: npx playwright install --with-deps chromium
+      - name: Verify both sites and browser storage isolation
+        working-directory: development
+        run: npx playwright test --config playwright.deployment.config.js
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: site
       - uses: actions/deploy-pages@v4
         id: deployment

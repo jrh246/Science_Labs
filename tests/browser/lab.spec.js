@@ -4,7 +4,7 @@ test('complete experiment, refresh, offline, and reset',async({page,context})=>{
 for(const [name,width,height] of [['chromebook',1366,768],['ipad',1024,768],['desktop',1920,1080],['mobile',390,844]])test(`layout ${name}`,async({page})=>{await page.setViewportSize({width,height});await page.goto('/');await page.getByRole('button',{name:'Begin Lab'}).click();await expect(page.getByRole('heading',{name:'Prepare the beakers'})).toBeVisible();expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();await page.screenshot({path:`test-results/${name}.png`,fullPage:true});});
 test('online reload refreshes HTML instead of retaining a stale cached document',async({page})=>{
  await page.goto('/');
- await page.evaluate(async()=>{await navigator.serviceWorker.ready;if(!navigator.serviceWorker.controller)await new Promise(resolve=>navigator.serviceWorker.addEventListener('controllerchange',resolve,{once:true}));const name=(await caches.keys()).find(k=>k.startsWith('cell-lab-'));const cache=await caches.open(name);await cache.put(new URL('index.html',location.href),new Response('<html><body>Stale cached page</body></html>',{headers:{'Content-Type':'text/html'}}));await cache.put(location.href,new Response('<html><body>Stale cached page</body></html>',{headers:{'Content-Type':'text/html'}}));});
+ await page.evaluate(async()=>{await navigator.serviceWorker.ready;if(!navigator.serviceWorker.controller)await new Promise(resolve=>navigator.serviceWorker.addEventListener('controllerchange',resolve,{once:true}));const name=(await caches.keys()).find(k=>k.startsWith('science-labs:/:'));const cache=await caches.open(name);await cache.put(new URL('index.html',location.href),new Response('<html><body>Stale cached page</body></html>',{headers:{'Content-Type':'text/html'}}));await cache.put(location.href,new Response('<html><body>Stale cached page</body></html>',{headers:{'Content-Type':'text/html'}}));});
  await page.reload();
  await expect(page.getByRole('button',{name:'Begin Lab'})).toBeVisible();
 });
@@ -18,6 +18,7 @@ test('sugar piles increase with mass and fit inside the scale background',async(
   await page.getByRole('button',{name:'Tare / Zero'}).click();
   await page.getByRole('button',{name:'Weigh sugar'}).click();
   await expect(page.locator('.sugar-on-scale')).toHaveClass(/loaded/);
+  await expect(page.getByRole('button',{name:'Add sugar & mix'})).toBeEnabled();
   const pile=await page.locator('.sugar-on-scale span').boundingBox();
   const background=await page.locator('.scale-station').boundingBox();
   expect(pile.y).toBeGreaterThanOrEqual(background.y);
@@ -29,9 +30,9 @@ test('sugar piles increase with mass and fit inside the scale background',async(
 });
 
 test('reset refreshes stale lab cache from server',async({page})=>{
- await page.goto('/');await page.evaluate(async()=>{await navigator.serviceWorker.ready;const name=(await caches.keys()).find(k=>k.startsWith('cell-lab-'));await (await caches.open(name)).put(new URL('index.html',location.href),new Response('STALE RESET MARKER'));});
+ await page.goto('/');await page.evaluate(async()=>{await navigator.serviceWorker.ready;const name=(await caches.keys()).find(k=>k.startsWith('science-labs:/:'));await (await caches.open(name)).put(new URL('index.html',location.href),new Response('STALE RESET MARKER'));});
  page.on('dialog',d=>d.accept());await page.getByRole('button',{name:'Reset Lab'}).click();await expect(page.getByRole('button',{name:'Begin Lab'})).toBeEnabled();
- const html=await page.evaluate(async()=>{const name=(await caches.keys()).find(k=>k.startsWith('cell-lab-'));return (await (await caches.open(name)).match(new URL('index.html',location.href))).text();});
+ const html=await page.evaluate(async()=>{const name=(await caches.keys()).find(k=>k.startsWith('science-labs:/:'));return (await (await caches.open(name)).match(new URL('index.html',location.href))).text();});
  expect(html).not.toContain('STALE RESET MARKER');expect(html).toContain('Cell Homeostasis');
 });
 test('reset keeps the lab reloadable without internet',async({page,context})=>{

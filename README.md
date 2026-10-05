@@ -45,3 +45,7 @@ The generated service worker precaches the built HTML, CSS, JavaScript, manifest
 Semantic controls, keyboard focus, signed numeric input, text labels, touch targets, tap placement alongside native drag/drop and reduced-motion clock support are included. Conclusions appear only in results. No CDN or remote fonts are used.
 
 Reset Lab clears recorded work and refreshes this lab’s offline cache from the server. If offline, it retains fallback assets so students can start again without internet. It cannot clear Chrome’s general HTTP cache. Preparation uses an 4-second fill, 2-second weighing, and 4-second sugar pour with a reduced-motion alternative. Prepared beakers remind students to record their solution information on the worksheet.
+
+## Production and development
+
+`main` publishes the live lab at https://jrh246.github.io/Science_Labs/. The `codex/development` branch publishes the new library for testing at https://jrh246.github.io/Science_Labs/dev/. Pushes to either branch build both into one Pages deployment. Each address exposes `deployment.json` with its deployed commit. Browser progress and offline caches are isolated between these paths. Keep the deployment workflow synchronized across both branches.
