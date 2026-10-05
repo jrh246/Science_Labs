@@ -1,3 +1,4 @@
+import './preview.js';
 import './library.css';
 import {units,labs,labPath,searchCatalog} from './catalog.js';
 const app=document.querySelector('#app');

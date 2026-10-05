@@ -28,3 +28,11 @@ Authentication, authorization, persistent submissions, grading, and reports belo
 ## Validation
 
 Run `npm ci`, `npm test`, `npm run build`, then `npm run test:e2e`. Install Chromium with `npx playwright install chromium` if needed. Set `PLAYWRIGHT_CHROMIUM_EXECUTABLE` for an existing Chromium installation. Tests cover catalog integrity, hierarchy, search, planned states, progress preservation, responsive layouts, offline entry separation, and the original lab workflow.
+
+## Production and development deployments
+
+`main` publishes at `/Science_Labs/`. `codex/development` publishes at `/Science_Labs/dev/`. A push to either branch rebuilds and tests both branches, assembles a single Pages artifact, and verifies progress/cache isolation in Chromium before publishing. Keep the workflow on both branches in sync. Both branches must be allowed in the `github-pages` environment. Never deploy a single branch artifact by itself: Pages replaces the entire published site.
+
+Each address exposes `deployment.json` with the branch and deployed SHA. Preview pages display a testing banner and use a distinct browser-storage key. Service worker caches are namespaced by their registration path; root workers ignore `/dev/` traffic. The legacy production `cell-lab` progress key remains unchanged. This is operational separation on one origin, not a security boundary for untrusted code.
+
+To promote the reviewed library, merge `codex/development` into `main`. Development edits stay on `codex/development` until that promotion. GitHub Pages preview is public.
