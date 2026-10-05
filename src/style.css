@@ -33,3 +33,5 @@
 .workspace:has(.mixing) .sugar-on-scale span{transform-origin:center bottom;animation:empty-dish var(--prep-duration,4s) linear forwards}
 @keyframes empty-dish{0%{transform:scaleY(1)}75%,100%{transform:scaleY(0)}}
 @media(prefers-reduced-motion:reduce){.workspace:has(.mixing) .sugar-on-scale span{animation:none}}
+
+.library-bar{max-width:1200px;margin:auto;padding:12px 24px;display:flex;align-items:center;gap:20px;font-size:.85rem}.library-bar a{color:#163e46}.library-bar form{margin-left:auto;display:flex;align-items:center;gap:8px}.library-bar input{width:160px;margin:0}.library-bar button{padding:8px 12px}@media(max-width:650px){.library-bar{flex-wrap:wrap}.library-bar form{margin:0;width:100%}.library-bar input{width:100%;min-width:0}.library-bar label{white-space:nowrap}}

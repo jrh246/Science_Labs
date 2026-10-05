@@ -1,4 +1,10 @@
-# Cell Homeostasis Virtual Lab
+# Science Labs
+
+A searchable static library: Home → Science → Biology → Units → Labs. Eight Biology units contain 47 proposed investigations. Osmosis and Cell Homeostasis is the first available virtual lab; other investigations are explicitly marked planned.
+
+Run `npm ci` and `npm run dev` to preview locally. See [ARCHITECTURE.md](ARCHITECTURE.md) for routes, catalog fields, future assignment/reporting boundaries, and validation.
+
+## Existing Cell Homeostasis Virtual Lab
 
 Static, private, seven-step dialysis-tubing investigation aligned to the supplied **Cell Homeostasis Virtual Lab** worksheet. No accounts, APIs, analytics, or server application. All answers stay in browser localStorage. Reset clears saved progress.
 
@@ -28,7 +34,7 @@ npm run preview
 npm run test:e2e
 ```
 
-Output: `dist`. Browser tests use `/usr/bin/chromium` in this cloud environment. For another machine, remove `executablePath` in `playwright.config.js` and run `npx playwright install chromium`. Browser tests cover the full experiment, required gates, incorrect calculation feedback, refresh, offline reload, reset and four viewport widths. Screenshots are written to `test-results`. Chromium checks do not replace testing on actual Safari/iPad or Android hardware.
+Output: `dist`. Browser tests use `/usr/bin/chromium` when available, a path supplied by `PLAYWRIGHT_CHROMIUM_EXECUTABLE`, or Playwright’s installed Chromium. Run `npx playwright install chromium` if needed. Browser tests cover the full experiment, required gates, incorrect calculation feedback, refresh, offline reload, reset and four viewport widths. Screenshots are written to `test-results`. Chromium checks do not replace testing on actual Safari/iPad or Android hardware.
 
 ## Cloudflare Pages
 

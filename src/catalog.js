@@ -1,0 +1,72 @@
+// Stable IDs are independent of titles, textbook editions, and future assignment IDs.
+export const units = [
+  ['chemistry-of-life','The Chemistry of Life','Explore the molecules and interactions that make life possible.',1,3],
+  ['the-cell','The Cell','Investigate the structures, energy, and processes inside living cells.',4,10],
+  ['genetics','Genetics','Follow information from DNA to traits and explore how it is inherited.',11,17],
+  ['evolution','Evolutionary Processes','Use evidence to investigate how populations change over time.',18,20],
+  ['biological-diversity','Biological Diversity','Explore the remarkable variety of life and its shared patterns.',21,29],
+  ['plant-structure-function','Plant Structure and Function','Discover how plants grow, transport materials, and reproduce.',30,32],
+  ['animal-structure-function','Animal Structure and Function','Connect animal structures with the systems that sustain life.',33,43],
+  ['ecology','Ecology','Investigate populations, ecosystems, and biodiversity.',44,47],
+].map(([id,title,description,start,end],i)=>({id,title,description,start,end,number:i+1,subjectId:'biology'}));
+const proposals = [
+['seed-germination','Seed Germination','Design a controlled investigation of the conditions seeds need to germinate.','The Study of Life'],
+['water-surface-tension','Water and Surface Tension','Compare water droplets and investigate cohesion and molecular interactions.','The Chemical Foundation of Life'],
+['food-macromolecules','Identify an Unknown Food Sample','Use indicator tests and controls to investigate biological macromolecules.','Biological Macromolecules'],
+['cell-microscopy','Cells Under the Microscope','Compare cell structures and estimate size using microscopy.','Cell Structure'],
+['osmosis-homeostasis','Osmosis and Cell Homeostasis','Use dialysis tubing as a model cell to investigate water movement across membranes.','Structure and Function of Plasma Membranes'],
+['enzyme-activity','What Affects Enzyme Activity?','Investigate how environmental conditions change enzyme reaction rates.','Metabolism'],
+['yeast-fermentation','Yeast Fermentation and Fuel Sources','Compare carbon dioxide production as yeast uses different sugars.','Cellular Respiration'],
+['light-photosynthesis','Light and Photosynthesis','Investigate photosynthetic activity using floating leaf disks.','Photosynthesis'],
+['cell-signaling','When Does a Cell Respond?','Model receptors, signal amplification, and blocked signaling pathways.','Cell Communication'],
+['mitosis','Measuring Mitosis','Count cell-cycle stages and estimate their relative durations.','Cell Reproduction'],
+['meiosis-variation','How Meiosis Generates Variation','Track chromosomes through crossing over and independent assortment.','Meiosis and Sexual Reproduction'],
+['inheritance-ratios','Investigating Inheritance Ratios','Compare observed offspring traits with genetic predictions.','Mendel’s Experiments and Heredity'],
+['linked-genes','Mapping Linked Genes','Use recombination frequencies to estimate gene order and distances.','Modern Understandings of Inheritance'],
+['dna-replication','How Does DNA Replicate?','Evaluate evidence for competing models of DNA replication.','DNA Structure and Function'],
+['dna-protein','From DNA to Protein','Trace transcription, translation, and the effects of mutations.','Genes and Proteins'],
+['lac-operon','Investigating the Lac Operon','Model how nutrient availability influences gene regulation.','Gene Expression'],
+['gel-electrophoresis','Identify a Sample with Gel Electrophoresis','Compare DNA band patterns and estimate fragment sizes.','Biotechnology and Genomics'],
+['natural-selection','Natural Selection in Changing Habitats','Investigate how food availability affects inherited traits across generations.','Evolution and the Origin of Species'],
+['genetic-drift','Genetic Drift and Natural Selection','Compare allele frequencies in populations of different sizes.','The Evolution of Populations'],
+['phylogenetic-trees','Build a Phylogenetic Tree','Use morphological and sequence evidence to infer evolutionary relationships.','Phylogenies and the History of Life'],
+['viral-spread','Modeling Viral Spread','Investigate contact networks and transmission using a model outbreak.','Viruses'],
+['unknown-prokaryote','Investigate an Unknown Prokaryote','Combine microscopy and metabolic evidence to classify unknown samples.','Prokaryotes: Bacteria and Archaea'],
+['protist-movement','Protist Structure and Movement','Compare locomotion and cellular structures in microscopic organisms.','Protists'],
+['fungal-structures','Fungal Structures and Reproduction','Examine fungi and compare their reproductive structures.','Fungi'],
+['moss-fern','Moss and Fern Life Cycles','Trace gametophyte and sporophyte stages in seedless plants.','Seedless Plants'],
+['seed-dispersal','Seed Dispersal Designs','Test how seed structures and wind affect dispersal distance.','Seed Plants'],
+['animal-body-plans','Classifying Animal Body Plans','Compare symmetry, tissues, and body cavities using evidence.','Introduction to Animal Diversity'],
+['invertebrate-key','Build an Invertebrate Identification Key','Create and test a branching key using observable traits.','Invertebrates'],
+['vertebrate-limbs','Vertebrate Limb Adaptations','Measure homologous structures and investigate form and function.','Vertebrates'],
+['transpiration','What Affects Transpiration?','Compare plant water loss under different environmental conditions.','Plant Form and Physiology'],
+['soil-water','Which Soils Retain Water?','Compare drainage and water retention across soil compositions.','Soil and Plant Nutrition'],
+['flower-pollination','Flower Structure and Pollination','Explore reproductive structures and trace pollination through fertilization.','Plant Reproduction'],
+['body-heat','Body Size and Heat Exchange','Use physical models to relate surface area and volume to cooling.','The Animal Body: Basic Form and Function'],
+['starch-digestion','Investigating Starch Digestion','Explore how digestive conditions affect starch breakdown.','Animal Nutrition and the Digestive System'],
+['reaction-time','Investigating Reaction Time','Analyze repeated measurements of response time and variability.','The Nervous System'],
+['blind-spot','Map Your Visual Blind Spot','Use visual targets to investigate sensory perception.','Sensory Systems'],
+['glucose-feedback','Modeling Blood Glucose Feedback','Track glucose and hormone responses in a feedback model.','The Endocrine System'],
+['muscle-levers','Muscles, Levers, and Movement','Investigate how attachment points change the force needed to lift a load.','The Musculoskeletal System'],
+['breathing','Pressure, Volume, and Breathing','Use a lung model to connect pressure changes with airflow.','The Respiratory System'],
+['blood-flow','Vessel Diameter and Flow','Investigate how vessel size and pressure affect fluid flow.','The Circulatory System'],
+['nephron','Modeling the Nephron','Track filtration, reabsorption, and secretion to explain urine composition.','Osmotic Regulation and Excretion'],
+['immune-memory','Investigating Immune Memory','Compare primary and secondary immune responses.','The Immune System'],
+['embryonic-development','Early Embryonic Development','Identify cleavage, gastrulation, and germ-layer formation.','Animal Reproduction and Development'],
+['microhabitats','Investigating Microhabitats','Compare environmental conditions and organism distributions.','Ecology and the Biosphere'],
+['population-estimates','Estimating Population Size','Test mark–recapture estimates and their sampling assumptions.','Population and Community Ecology'],
+['food-web-energy','Energy Through a Food Web','Track energy budgets and compare transfer between trophic levels.','Ecosystems'],
+['reserve-design','Design a Biodiversity Reserve','Compare habitat protection and connectivity under a fixed budget.','Conservation Biology and Biodiversity'],
+];
+export const labs = proposals.map(([id,title,summary,chapterTitle],i)=>({
+  id,title,summary,chapter:i+1,chapterTitle,subjectId:'biology',
+  unitId:units.find(u=>i+1>=u.start&&i+1<=u.end).id,
+  type:'lab',status:i===4?'available':'planned',modes:i===4?['Virtual']:[],
+  version:1, launchUrl:i===4?'./lab.html':null,
+}));
+export const labPath = lab => `/science/biology/${lab.unitId}/${lab.id}`;
+export function searchCatalog(query,{availableOnly=false}={}) {
+  const terms=query.toLowerCase().trim().split(/\s+/).filter(Boolean);
+  return labs.filter(lab=>(!availableOnly||lab.status==='available')&&terms.every(term=>
+    `${lab.title} ${lab.summary} biology science chapter ${lab.chapter} ${lab.chapterTitle} ${units.find(u=>u.id===lab.unitId).title}`.toLowerCase().includes(term)));
+}
