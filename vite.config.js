@@ -1,6 +1,6 @@
 import {defineConfig} from 'vite';
 import {resolve} from 'node:path';
-import {existsSync,readdirSync} from 'node:fs';
+import {existsSync,readdirSync,readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 const hasLab = existsSync(resolve('lab.html'));
 const hasInvestigation = existsSync(resolve('investigation.html'));
@@ -9,7 +9,10 @@ export default defineConfig({
   build: {rollupOptions: {input: {library: resolve('index.html'), ...(hasLab ? {lab: resolve('lab.html')} : {}), ...(hasInvestigation ? {investigation: resolve('investigation.html')} : {})}}},
   plugins: [{name: 'offline-cache', enforce: 'post', generateBundle: {order: 'post', handler(_, bundle) {
     const files = [...new Set(['./', './index.html', ...resources, ...(hasInvestigation?['./investigation.html']:[]), ...(hasLab ? ['./lab.html'] : []), './manifest.json', './icons/lab.svg', ...Object.keys(bundle).map(x => './' + x)])];
-    const version = createHash('sha256').update(JSON.stringify(bundle)).digest('hex').slice(0, 12);
+    const hash = createHash('sha256').update(JSON.stringify(bundle));
+    // Resource-only revisions must invalidate old offline worksheets too.
+    for(const file of resources)hash.update(readFileSync(resolve('public',file)));
+    const version = hash.digest('hex').slice(0, 12);
     this.emitFile({type: 'asset', fileName: 'sw.js', source: `
 const ROOT = new URL(self.registration.scope);
 const PREFIX = 'science-labs:' + ROOT.pathname + ':';
