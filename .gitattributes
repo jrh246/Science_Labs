@@ -1,0 +1,2 @@
+# PDFs must retain exact byte offsets on Windows and Linux checkouts.
+*.pdf binary
