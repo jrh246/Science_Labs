@@ -20,7 +20,7 @@ test('search, shareable results, planned details, empty results, and unknown rou
  await page.getByRole('link',{name:'What Affects Enzyme Activity?',exact:true}).click();
  await expect(page.getByText('An investigation in the making')).toBeVisible();
  await expect(page.getByRole('link',{name:'Launch virtual lab'})).toHaveCount(0);
- await page.goto('/#/search?q=&available=1');await expect(page.locator('.lab-card')).toHaveCount(1);
+ await page.goto('/#/search?q=&available=1');await expect(page.locator('.lab-card')).toHaveCount(4);
  await page.goto('/#/search?q=unfindable');await expect(page.getByRole('heading',{name:'No matching investigations'})).toBeVisible();
  await page.goto('/#/science/biology/missing');await expect(page.getByRole('heading',{name:'That page isn’t in the library.'})).toBeVisible();
 });

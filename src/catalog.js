@@ -61,8 +61,9 @@ const proposals = [
 export const labs = proposals.map(([id,title,summary,chapterTitle],i)=>({
   id,title,summary,chapter:i+1,chapterTitle,subjectId:'biology',
   unitId:units.find(u=>i+1>=u.start&&i+1<=u.end).id,
-  type:'lab',status:i===4?'available':'planned',modes:i===4?['Virtual']:[],
-  version:1, launchUrl:i===4?'./lab.html':null,
+  type:'lab',status:[4,6,7,9].includes(i)?'available':'planned',modes:[6,7,9].includes(i)?['Virtual','Classroom']:i===4?['Virtual']:[],
+  version:1, launchUrl:i===4?'./lab.html':[6,7,9].includes(i)?`./investigation.html?lab=${id}`:null,
+  resources:[6,7,9].includes(i)?[{label:'Student worksheet (PDF)',url:`./resources/${id}-worksheet.pdf`},{label:'Teacher guide (PDF)',url:`./resources/${id}-teacher-guide.pdf`}]:[],
 }));
 export const labPath = lab => `/science/biology/${lab.unitId}/${lab.id}`;
 export function searchCatalog(query,{availableOnly=false}={}) {

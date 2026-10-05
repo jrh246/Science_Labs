@@ -1,6 +1,6 @@
 # Science Labs
 
-A searchable static library: Home → Science → Biology → Units → Labs. Eight Biology units contain 47 proposed investigations. Osmosis and Cell Homeostasis is the first available virtual lab; other investigations are explicitly marked planned.
+A searchable static library: Home → Science → Biology → Units → Labs. Eight Biology units contain 47 proposed investigations. Four investigations are available: osmosis, photosynthesis, yeast fermentation, and mitosis. The latter three support mixed virtual/classroom data, printable PDF worksheets and teacher guides, and report/data downloads. Other investigations are explicitly marked planned.
 
 Run `npm ci` and `npm run dev` to preview locally. See [ARCHITECTURE.md](ARCHITECTURE.md) for routes, catalog fields, future assignment/reporting boundaries, and validation.
 
@@ -51,3 +51,5 @@ The generated service worker precaches the built HTML, CSS, JavaScript, manifest
 Semantic controls, keyboard focus, signed numeric input, text labels, touch targets, tap placement alongside native drag/drop and reduced-motion clock support are included. Conclusions appear only in results. No CDN or remote fonts are used.
 
 Reset Lab clears recorded work and refreshes this lab’s offline cache from the server. If offline, it retains fallback assets so students can start again without internet. It cannot clear Chrome’s general HTTP cache. Preparation uses an 4-second fill, 2-second weighing, and 4-second sugar pour with a reduced-motion alternative. Prepared beakers remind students to record their solution information on the worksheet.
+
+Resource roadmap: [LAB_RESOURCES_PLAN.md](LAB_RESOURCES_PLAN.md). New lab build order: Biology 2e chapters 8, 7, then 10. Procedures and diagrams are original; simulated results are instructional models rather than empirical measurements.

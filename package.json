@@ -1,1 +1,17 @@
-{"name":"cell-homeostasis-lab","version":"1.0.0","private":true,"type":"module","scripts":{"dev":"vite --host 0.0.0.0","build":"vite build --base=./","preview":"vite preview --host 0.0.0.0","test":"node --test tests/*.test.js","test:e2e":"playwright test"},"devDependencies":{"vite":"^7.1.0","@playwright/test":"^1.55.0"}}
+{
+  "name": "cell-homeostasis-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build --base=./ && node scripts/verify-build.mjs",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "node --test tests/*.test.js",
+    "test:e2e": "playwright test"
+  },
+  "devDependencies": {
+    "vite": "^7.1.0",
+    "@playwright/test": "^1.55.0"
+  }
+}

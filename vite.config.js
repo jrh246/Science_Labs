@@ -1,12 +1,14 @@
 import {defineConfig} from 'vite';
 import {resolve} from 'node:path';
-import {existsSync} from 'node:fs';
+import {existsSync,readdirSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 const hasLab = existsSync(resolve('lab.html'));
+const hasInvestigation = existsSync(resolve('investigation.html'));
+const resources=existsSync('public/resources')?readdirSync('public/resources').filter(x=>x.endsWith('.pdf')).map(x=>'./resources/'+x):[];
 export default defineConfig({
-  build: {rollupOptions: {input: {library: resolve('index.html'), ...(hasLab ? {lab: resolve('lab.html')} : {})}}},
-  plugins: [{name: 'offline-cache', generateBundle(_, bundle) {
-    const files = ['./', './index.html', ...(hasLab ? ['./lab.html'] : []), './manifest.json', './icons/lab.svg', ...Object.keys(bundle).map(x => './' + x)];
+  build: {rollupOptions: {input: {library: resolve('index.html'), ...(hasLab ? {lab: resolve('lab.html')} : {}), ...(hasInvestigation ? {investigation: resolve('investigation.html')} : {})}}},
+  plugins: [{name: 'offline-cache', enforce: 'post', generateBundle: {order: 'post', handler(_, bundle) {
+    const files = [...new Set(['./', './index.html', ...resources, ...(hasInvestigation?['./investigation.html']:[]), ...(hasLab ? ['./lab.html'] : []), './manifest.json', './icons/lab.svg', ...Object.keys(bundle).map(x => './' + x)])];
     const version = createHash('sha256').update(JSON.stringify(bundle)).digest('hex').slice(0, 12);
     this.emitFile({type: 'asset', fileName: 'sw.js', source: `
 const ROOT = new URL(self.registration.scope);
@@ -32,12 +34,13 @@ self.addEventListener('fetch', event => {
       return response;
     }).catch(async () => {
       const cache = await caches.open(CACHE);
-      return cache.match(new URL(${hasLab ? "url.pathname.endsWith('/lab.html') ? './lab.html' : './index.html'" : "'./index.html'"}, ROOT), {ignoreVary: true});
+      const exact=await cache.match(event.request,{ignoreVary:true});if(exact)return exact;
+      return cache.match(new URL(${hasInvestigation ? "url.pathname.endsWith('/investigation.html') ? './investigation.html' : " : ''}${hasLab ? "url.pathname.endsWith('/lab.html') ? './lab.html' : './index.html'" : "'./index.html'"}, ROOT), {ignoreVary: true});
     }));
     return;
   }
   event.respondWith(caches.open(CACHE).then(async cache => await cache.match(event.request, {ignoreVary: true}) || fetch(event.request)));
 });
 `});
-  }}],
+  }}}],
 });
