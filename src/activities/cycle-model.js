@@ -5,8 +5,9 @@ export const molecules = {
   oxygen:{label:'O₂',name:'Oxygen',atoms:[0,0,2],drawing:['O','O']},
 };
 export const zones = [
+  {id:'photo-energy',label:'Energy transfer in',accept:{light:1}},
   {id:'photo-in',label:'Photosynthesis inputs',accept:{co2:6,water:6}},
-  {id:'photo-help',label:'Light absorption',accept:{light:1,chlorophyll:1}},
+  {id:'photo-help',label:'Light absorption',accept:{chlorophyll:1}},
   {id:'photo-out',label:'Photosynthesis outputs',accept:{glucose:1,oxygen:6}},
   {id:'resp-out',label:'Respiration outputs',accept:{co2:6,water:6}},
   {id:'resp-place',label:'Respiration location',accept:{mitochondrion:1}},

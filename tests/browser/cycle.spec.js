@@ -1,5 +1,5 @@
 import {test,expect} from '@playwright/test';
-const solution={light:'photo-help',chlorophyll:'photo-help',mitochondrion:'resp-place',atp:'resp-energy',heat:'resp-energy','glucose-1':'photo-out','glucose-2':'resp-in'};
+const solution={light:'photo-energy',chlorophyll:'photo-help',mitochondrion:'resp-place',atp:'resp-energy',heat:'resp-energy','glucose-1':'photo-out','glucose-2':'resp-in'};
 for(let n=1;n<=12;n++){solution[`co2-${n}`]=n<=6?'photo-in':'resp-out';solution[`water-${n}`]=n<=6?'photo-in':'resp-out';solution[`oxygen-${n}`]=n<=6?'photo-out':'resp-in';}
 
 test('landing choices lead to separate activity and lab, with no embedded activity',async({page})=>{
@@ -15,7 +15,7 @@ test('landing choices lead to separate activity and lab, with no embedded activi
 test('drag, keyboard placement, correction, save, mobile, and offline activity',async({page,context})=>{
  await page.goto('/activity.html');
  await page.getByRole('button',{name:'Check my model'}).click();
- await expect(page.locator('#model-feedback')).toContainText('0 of 7');
+ await expect(page.locator('#model-feedback')).toContainText('0 of 8');
  await page.locator('[data-zone="photo-in"]').scrollIntoViewIfNeeded();
  await page.locator('[data-card="co2-1"]').dragTo(page.locator('[data-zone="photo-in"]'));
  await expect(page.locator('[data-zone="photo-in"] [data-card="co2-1"]')).toHaveCount(1);
