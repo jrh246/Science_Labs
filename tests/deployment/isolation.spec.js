@@ -11,9 +11,12 @@ async function controlled(page,expectedScope){
 }
 test('production and development keep independent progress and offline caches',async({page,context})=>{
  await page.goto('/Science_Labs/');
+ await expect(page.getByRole('heading',{level:1})).toBeVisible();
  // Both the original production lab and a future promoted library are supported.
  const productionLab=await page.getByRole('button',{name:'Begin Lab'}).count()?'/Science_Labs/':'/Science_Labs/lab.html';
- await page.goto(productionLab);await controlled(page,'/Science_Labs/');
+ // Do not interrupt the first worker installation by navigating to the same page again.
+ if(productionLab!=='/Science_Labs/')await page.goto(productionLab);
+ await controlled(page,'/Science_Labs/');
  await page.getByRole('button',{name:'Begin Lab'}).click();
  const original=await page.evaluate(()=>localStorage.getItem('cell-lab'));
  await page.goto('/Science_Labs/dev/');
