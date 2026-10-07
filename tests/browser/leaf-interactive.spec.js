@@ -2,7 +2,7 @@ import {test,expect} from '@playwright/test';
 async function prep(page){for(let n=0;n<3;n++){await page.getByRole('button',{name:'Pull plunger',exact:true}).click();await page.getByRole('button',{name:'Release vacuum',exact:true}).click();}}
 test('lamp and running timer affect disks, pause, persist, and keep exploration out of comparison',async({page})=>{
  await page.goto('/investigation.html?lab=light-photosynthesis');
- await expect(page.getByRole('heading',{name:'Why do we infiltrate the leaf disks?'})).toBeVisible();
+ await expect(page.getByRole('heading',{name:'What is infiltration?'})).toBeVisible();
  await page.getByRole('button',{name:'2. Collect observations',exact:true}).click();await page.locator('#condition').selectOption('2');
  const sim=page.locator('leaf-simulator');await expect(sim.locator('#scene svg')).toHaveAttribute('aria-label',/10 of 10/);await prep(page);
  await expect(sim.locator('#scene svg')).toHaveAttribute('aria-label',/0 of 10/);
