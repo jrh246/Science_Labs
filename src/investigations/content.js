@@ -11,7 +11,7 @@ export const investigations = {
  'light-photosynthesis': {
   id:'light-photosynthesis',title:'Light and Photosynthesis',chapter:8,kind:'leaf',duration:'45–60 minutes',
   question:'How does light level affect the time it takes leaf disks to float?',
-  overview:'Observe oxygen accumulation in infiltrated leaf disks. Compare three light conditions, repeat each treatment, and use flotation time as an indirect measure of net photosynthetic activity.',
+  overview:'First replace trapped air in leaf disks with solution so they sink. Then use the lamp to explore how light changes oxygen accumulation and flotation. For a controlled comparison, keep each trial at its assigned light level for 20 minutes; you can also change the lamp during a trial and examine the exploratory results.',
   conditions:[{id:'dark',label:'Dark control',detail:'0% relative light'},{id:'low',label:'Low light',detail:'25% relative light'},{id:'bright',label:'Bright light',detail:'100% relative light'}],
   interval:2,end:20,yLabel:'Floating disks (of 10)',max:10,
   constants:'10 same-sized disks, same leaf type, 0.2% sodium bicarbonate solution with a trace of detergent, solution depth, and temperature. Only light level changes.',
@@ -24,7 +24,7 @@ export const investigations = {
    'Repeat with new disks for trials 2 and 3. Independent cups, rather than individual disks in a shared cup, are the experimental replicates. Pool independent trials from class groups for a single-period lab; sequential repeats require additional time.',
   ],
   safety:'Use a needle-free syringe and a cool LED light. Keep electrical equipment dry. Do not taste solutions. Teacher supervision is needed for hole punches and glassware.',
-  model:'The virtual assay uses illustrative flotation thresholds with variation between trials. It is not calibrated to a particular leaf or lamp. Real disks can sink again; this simplified simulation models only their first rise.',
+  model:'The interactive assay tracks an illustrative gas balance: light-driven production, continuing respiration, and gas loss. Disks can rise and later sink as lamp settings change. Rates, three preparation cycles, and disk variation are teaching assumptions, not calibrated predictions for a real leaf or lamp. Temperature and bicarbonate remain fixed. Modified-light or incompletely infiltrated trials are exploratory and are excluded from fixed-light means; their readings and lamp histories remain in CSV and text exports.',
   interpretation:'ET50 is the interpolated time when 5 of 10 disks float. Lower ET50 suggests faster net oxygen accumulation under matched conditions. If five disks never float, report “not reached within 20 minutes”; do not treat that as a zero rate.',
   questions:[
    'Which light condition had the shortest ET50? Support your claim with values from at least two treatments and discuss variation between trials.',
@@ -37,7 +37,7 @@ export const investigations = {
    'Students should connect light-driven oxygen production and buoyancy, and recognize that respiration and leaf preparation influence net flotation.',
    'If disks float at time zero, recheck infiltration. If none rise, check leaf condition, light, temperature, bicarbonate preparation, and excess detergent. Keep unexpected real observations; do not replace them with expected values.',
   ],
-  sources:[['OpenStax Biology 2e, 8.2','https://openstax.org/books/biology-2e/pages/8-2-the-light-dependent-reactions-of-photosynthesis'],['College Board, Biology Investigative Labs, Investigation 5','https://secure-media.collegeboard.org/digitalServices/pdf/ap/bio-manual/CB_Bio_Full_Manual_2012.pdf']],
+  sources:[['University of Arizona, floating leaf disk assay','https://mcb.arizona.edu/outreach/resources/science-at-home/photosynthesis'],['OpenStax Biology 2e, 8.2','https://openstax.org/books/biology-2e/pages/8-2-the-light-dependent-reactions-of-photosynthesis'],['College Board, Biology Investigative Labs, Investigation 5','https://secure-media.collegeboard.org/digitalServices/pdf/ap/bio-manual/CB_Bio_Full_Manual_2012.pdf']],
  },
  'yeast-fermentation': {
   id:'yeast-fermentation',title:'Yeast Fermentation and Fuel Sources',chapter:7,kind:'yeast',duration:'45–60 minutes',
