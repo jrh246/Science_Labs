@@ -35,11 +35,12 @@ def introduction(resp, teacher):
     c.setFont('Helvetica',9);c.drawString(54,30,'Companion activity | Supplied classroom cutouts | Development classroom pilot')
     c.save();output.seek(0);return PdfReader(output)
 
-def append_cutouts(lab_id,guide_only=False):
+def append_cutouts(lab_id,guide_only=False,worksheet_only=False):
     if lab_id not in ('light-photosynthesis','yeast-fermentation'):return
     resp=lab_id=='yeast-fermentation'
     for teacher in (False,True):
       if guide_only and not teacher:continue
+      if worksheet_only and teacher:continue
       path=ROOT/'public/resources'/f'{lab_id}-{"teacher-guide" if teacher else "worksheet"}.pdf'
       writer=PdfWriter();writer.append(PdfReader(path));writer.append(introduction(resp,teacher))
       writer.append(PdfReader(PHOTO),pages=None if teacher else (0,3))
