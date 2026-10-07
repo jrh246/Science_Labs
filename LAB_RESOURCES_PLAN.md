@@ -39,3 +39,12 @@ Photosynthesis opens directly to the student prediction/design activity; its tea
 For now, teachers can use the downloadable guide and worksheet to assign classroom components outside the website. No new setup page or login is implied. A separate public Teacher resources page would be an inexpensive interim option, but it would not provide teacher-only access; defer implementing it until requested.
 
 When teacher accounts are introduced, add a Teacher dashboard → Lab library → Customize assignment flow. Teachers select activity modes, instructions, due dates, and assessment settings there, then preview the student view and publish an assignment link. Students open that assignment directly without teacher controls. Persist an assignment ID and content version, enforce teacher authorization on the backend, and preserve virtual/classroom data provenance. Migrate existing URL-based configurations into saved assignments rather than treating URL parameters as access control.
+
+
+## Supplied molecule cutouts and equation activity
+
+Photosynthesis and yeast fermentation now offer an optional Build the equation activity in Predict & plan. Students place four molecule bundles (19 molecules total) and five symbols with keyboard/touch-accessible menus. Feedback checks direction and symbol roles as well as atom counts. Both models save separately by deployment path; these are practice attempts, separate from experimental data and grading. The respiration model explicitly represents aerobic respiration, not fermentation.
+
+The photosynthesis student packet has 7 pages (3 lab + introduction + 3 cutout sheets); its teacher packet has 7 pages. The yeast student packet has 8 pages (3 lab + introduction + 3 reusable molecule sheets + respiration symbols); its teacher packet has 9 pages including all supplied originals and answer keys. Student packets omit the photosynthesis answer page and the text below the respiration symbols. Teacher resources remain public.
+
+Source PDFs are preserved byte-for-byte under resources/source. Rebuild packets with scripts/build-resources.py; it calls scripts/cutout-resources.py only after rebuilding the base packet, preventing duplicate appendices. Requires ReportLab, pypdf, Pillow, and pdftoppm. The respiration student page embeds only the top 330 points of a 200 dpi rendering at original print size, so answer text is absent rather than merely hidden by a crop box. Future editable/fillable handouts should retain this separation and add a structured equation-response field to assignment reporting.

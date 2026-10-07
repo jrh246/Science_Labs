@@ -59,7 +59,7 @@ const proposals = [
 ['reserve-design','Design a Biodiversity Reserve','Compare habitat protection and connectivity under a fixed budget.','Conservation Biology and Biodiversity'],
 ];
 export const labs = proposals.map(([id,title,summary,chapterTitle],i)=>({
-  id,title,summary,chapter:i+1,chapterTitle,subjectId:'biology',
+  id,title,summary:summary+([6,7].includes(i)?' Includes a photosynthesis and cellular respiration equation-building cutout activity.':''),chapter:i+1,chapterTitle,subjectId:'biology',
   unitId:units.find(u=>i+1>=u.start&&i+1<=u.end).id,
   type:'lab',status:[4,6,7,9].includes(i)?'available':'planned',modes:[6,7,9].includes(i)?['Virtual','Classroom']:i===4?['Virtual']:[],
   version:1, launchUrl:i===4?'./lab.html':[6,7,9].includes(i)?`./investigation.html?lab=${id}`:null,
