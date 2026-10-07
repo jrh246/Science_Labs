@@ -23,3 +23,25 @@ test('lamp and running timer affect disks, pause, persist, and keep exploration 
  await page.setViewportSize({width:1440,height:1000});await page.screenshot({path:'test-results/leaf-interactive-desktop.png',fullPage:true});
  await page.getByRole('button',{name:'3. Analyze & explain'}).click();const download=page.waitForEvent('download');await page.getByRole('button',{name:'Download data (CSV)'}).click();const file=await download;const stream=await file.createReadStream();let text='';for await(const chunk of stream)text+=chunk;expect(text).toContain('exploratory');expect(text).toContain('lamp change');
 });
+
+test('syringe pull takes 1.5 seconds and cannot advance the trial mid-pull',async({page})=>{
+ await page.goto('/investigation.html?lab=light-photosynthesis&mode=virtual');
+ const sim=page.locator('leaf-simulator');
+ await sim.getByRole('button',{name:'Pull plunger',exact:true}).click();
+ await expect(sim.getByRole('button',{name:'Start trial',exact:true})).toBeDisabled();
+ const motion=await sim.locator('#syringe-plunger').evaluate(el=>{
+  const a=el.getAnimations()[0];return {duration:a.effect.getTiming().duration,time:a.currentTime};
+ });
+ expect(motion.duration).toBe(1500);expect(motion.time).toBeLessThan(1500);
+ await expect(sim.getByRole('button',{name:'Release vacuum',exact:true})).toBeEnabled();
+ await expect(sim.locator('#syringe-plunger')).toHaveCSS('transform','matrix(1, 0, 0, 1, 116, 0)');
+ await sim.getByRole('button',{name:'Release vacuum',exact:true}).click();
+ await expect(sim.locator('.prep strong')).toHaveText('Infiltration: 1 / 3 vacuum cycles');
+ await page.setViewportSize({width:390,height:844});
+ await sim.locator('.prep').screenshot({path:'test-results/syringe-mobile.png'});
+ await sim.getByRole('button',{name:'Pull plunger',exact:true}).click();
+ await page.getByRole('button',{name:'1. Predict & plan',exact:true}).click();
+ await page.waitForTimeout(1600);
+ await page.getByRole('button',{name:'2. Collect observations',exact:true}).click();
+ await expect(sim.getByRole('button',{name:'Pull plunger',exact:true})).toBeEnabled();
+});
