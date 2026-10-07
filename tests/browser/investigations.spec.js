@@ -2,7 +2,7 @@ import {test,expect} from '@playwright/test';
 import {fieldCells} from '../../src/investigations/model.js';
 const ids=['light-photosynthesis','yeast-fermentation','mitosis'];
 async function open(page,id){await page.goto('/investigation.html?lab='+id);}
-async function prepareLeaf(page){if(await page.locator('leaf-simulator').count()){for(let n=0;n<3;n++){await page.getByRole('button',{name:'Pull plunger',exact:true}).click();await page.getByRole('button',{name:'Release vacuum',exact:true}).click();}}}
+async function prepareLeaf(page){if(await page.locator('leaf-simulator').count()){for(let n=0;n<3;n++){await page.getByRole('button',{name:'Pull plunger',exact:true}).click();await page.getByRole('button',{name:'Release vacuum',exact:true}).click();}await page.getByRole('button',{name:'Add disks to cup',exact:true}).click();}}
 async function finishTrials(page){
  await page.getByRole('button',{name:'2. Collect observations',exact:true}).click();
  if(await page.locator('leaf-simulator').count()){for(const light of ['Off','Low','High'])for(let t=0;t<3;t++){await prepareLeaf(page);await page.getByRole('button',{name:light,exact:true}).click();await page.getByRole('button',{name:'Start trial',exact:true}).click();await page.getByRole('button',{name:'Run remaining time'}).click();await page.getByRole('button',{name:'Collect data and continue'}).click();}return;}

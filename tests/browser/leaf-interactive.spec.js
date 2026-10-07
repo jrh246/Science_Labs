@@ -1,5 +1,5 @@
 import {test,expect} from '@playwright/test';
-async function prep(page){for(let n=0;n<3;n++){await page.getByRole('button',{name:'Pull plunger',exact:true}).click();await page.getByRole('button',{name:'Release vacuum',exact:true}).click();}}
+async function prep(page){await expect(page.locator('leaf-simulator #scene svg')).toHaveAttribute('aria-label',/cup contains no disks/);for(let n=0;n<3;n++){await page.getByRole('button',{name:'Pull plunger',exact:true}).click();await page.getByRole('button',{name:'Release vacuum',exact:true}).click();}await expect(page.locator('leaf-simulator #scene svg')).toHaveAttribute('aria-label',/cup contains no disks/);await page.getByRole('button',{name:'Add disks to cup',exact:true}).click();}
 test('guided sequence collects nine trials then explores without changing comparison data',async({page})=>{
  await page.goto('/investigation.html?lab=light-photosynthesis&mode=virtual');
  const sim=page.locator('leaf-simulator');
@@ -60,4 +60,32 @@ test('syringe pull takes 1.5 seconds and cannot advance the trial mid-pull',asyn
  await page.waitForTimeout(1600);
  await page.getByRole('button',{name:'2. Collect observations',exact:true}).click();
  await expect(sim.getByRole('button',{name:'Pull plunger',exact:true})).toBeEnabled();
+});
+
+
+test('disks stay in the syringe until transfer and the transfer survives reload',async({page})=>{
+ await page.goto('/investigation.html?lab=light-photosynthesis&mode=virtual');
+ const sim=page.locator('leaf-simulator');
+ await expect(sim.locator('#scene svg ellipse')).toHaveCount(1); // Lamp bulb only.
+ await expect(sim.getByRole('button',{name:'Add disks to cup',exact:true})).toBeDisabled();
+ for(let n=0;n<3;n++){
+  await sim.getByRole('button',{name:'Pull plunger',exact:true}).click();
+  await expect(sim.getByRole('button',{name:'Add disks to cup',exact:true})).toBeDisabled();
+  await sim.getByRole('button',{name:'Release vacuum',exact:true}).click();
+ }
+ await expect(sim.getByRole('button',{name:'Add disks to cup',exact:true})).toBeEnabled();
+ await page.reload();
+ await expect(sim.locator('#scene svg')).toHaveAttribute('aria-label',/cup contains no disks/);
+ await expect(sim.getByRole('button',{name:'Off',exact:true})).toBeDisabled();
+ await expect(sim.getByRole('button',{name:'Start trial',exact:true})).toBeDisabled();
+ await sim.getByRole('button',{name:'Add disks to cup',exact:true}).click();
+ await expect(sim.locator('#scene svg ellipse')).toHaveCount(11);
+ await expect(sim.locator('.syringe ellipse')).toHaveCount(1); // Shadow only; no sample left.
+ await page.reload();
+ await expect(sim.locator('#scene svg ellipse')).toHaveCount(11);
+ await expect(sim.getByRole('button',{name:'Disks added to cup',exact:true})).toBeDisabled();
+ await expect(sim.getByRole('button',{name:'Off',exact:true})).toBeEnabled();
+ page.on('dialog',dialog=>dialog.accept());
+ await sim.getByRole('button',{name:'Fresh disks / restart trial'}).click();
+ await expect(sim.locator('#scene svg')).toHaveAttribute('aria-label',/cup contains no disks/);
 });

@@ -2,7 +2,7 @@ import {random} from './model.js';
 export const plannedLight=id=>id==='bright'?100:id==='low'?25:0;
 export function newLeafRun(condition,trial,seed){
  const rng=random(seed+trial*101+['dark','low','bright'].indexOf(condition)*1009);
- return {version:1,ticks:0,light:plannedLight(condition),planned:plannedLight(condition),cycles:0,vacuum:false,altered:false,
+ return {version:1,ticks:0,light:plannedLight(condition),planned:plannedLight(condition),cycles:0,vacuum:false,altered:false,inCup:false,
   disks:Array.from({length:10},()=>({gas:1.35,threshold:.7+rng()*.4,rate:.88+rng()*.24})),points:[],events:[]};
 }
 export const floating=r=>r.disks.filter(d=>d.gas>=d.threshold).length;
@@ -33,6 +33,9 @@ export function restoreLeafRun(value,condition,trial,seed){
  const fallback=()=>newLeafRun(condition,trial,seed);
  if(!value)return fallback();
  const r=structuredClone(value);
+ // Older saved runs already underway had their disks in the cup.
+ if(r.inCup===undefined)r.inCup=r.ticks>0;
+ if(typeof r.inCup!=='boolean')return fallback();
  if(r.version!==1||!Number.isInteger(r.ticks)||r.ticks<0||r.ticks>480||!Number.isInteger(r.cycles)||r.cycles<0||r.cycles>3||typeof r.vacuum!=='boolean'||typeof r.altered!=='boolean'||!Number.isInteger(r.light)||r.light<0||r.light>100||r.planned!==plannedLight(condition))return fallback();
  if(!Array.isArray(r.disks)||r.disks.length!==10||r.disks.some(d=>!Number.isFinite(d.gas)||d.gas<0||d.gas>1.7||!Number.isFinite(d.threshold)||d.threshold<.7||d.threshold>1.1||!Number.isFinite(d.rate)||d.rate<.88||d.rate>1.12))return fallback();
  if(!Array.isArray(r.points)||(r.ticks>0&&r.points.length!==Math.floor(r.ticks/8)+1)||r.points.length>61||r.points.some((p,i)=>p.time!==i*2||p.time>r.ticks/4||!Number.isInteger(p.value)||p.value<0||p.value>10||!Number.isInteger(p.light)||p.light<0||p.light>100))return fallback();

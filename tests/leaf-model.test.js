@@ -16,3 +16,14 @@ test('incomplete preparation is exploratory; pause/restore retains gas and chang
  assert.equal(restoreLeafRun({...r,ticks:Infinity},'bright',2,22).ticks,0);
  const valid=prepare(newLeafRun('bright',1,22));setLeafLight(valid,25);setLeafLight(valid,100);advanceLeaf(valid,20);assert.equal(valid.altered,false);
 });
+
+test('saved disk placement restores and older running trials keep disks in the cup',()=>{
+ const r=newLeafRun('bright',1,22);
+ assert.equal(restoreLeafRun(r,'bright',1,22).inCup,false);
+ const legacy=structuredClone(r);delete legacy.inCup;
+ assert.equal(restoreLeafRun(legacy,'bright',1,22).inCup,false);
+ prepare(legacy);advanceLeaf(legacy,2);
+ assert.equal(restoreLeafRun(legacy,'bright',1,22).inCup,true);
+ r.inCup=true;
+ assert.equal(restoreLeafRun(r,'bright',1,22).inCup,true);
+});
