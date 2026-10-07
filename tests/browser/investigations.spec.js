@@ -21,11 +21,11 @@ for(const id of ids.slice(0,2))test(`${id}: complete virtual investigation, rest
  expect(text).toContain('virtual');expect(text).toContain('"3"');
  await page.screenshot({path:`test-results/${id}-analysis.png`,fullPage:true});
 });
-test('hybrid setup shares sources, accepts classroom data, and labels exports',async({page})=>{
- await open(page,'light-photosynthesis');page.on('dialog',d=>d.accept());
- await page.getByLabel('Data source for Dark control').selectOption('classroom');
- await page.getByRole('button',{name:'Create assignment link'}).click();
- const link=await page.locator('.share-link').inputValue();expect(link).toContain('sources=classroom');
+test('photosynthesis hides teacher setup while existing hybrid links retain classroom data and labels',async({page})=>{
+ await open(page,'light-photosynthesis');
+ await expect(page.getByRole('heading',{name:'Teacher setup',exact:true})).toHaveCount(0);
+ await expect(page.getByRole('button',{name:'Create assignment link'})).toHaveCount(0);
+ const link='/investigation.html?lab=light-photosynthesis&sources=classroom,virtual,virtual';
  await page.goto(link);await page.getByRole('button',{name:'2. Collect observations',exact:true}).click();
  for(let t=1;t<=3;t++){
   await page.locator('#trial').selectOption(String(t));

@@ -31,3 +31,11 @@ Include objectives, preparation/time, materials and relevant safety, classroom p
 ## Verification
 
 Check all six downloads return PDFs, rendered pages have no clipping, student pages omit model keys, names and units match the app, hybrid sources survive refresh/export, and offline downloads work after initial site caching. Scientific models are instructional rather than empirically calibrated. Clinical interpretations of reaction rates or cell counts are outside these labs.
+
+## Student entry and future teacher workspace
+
+Photosynthesis opens directly to the student prediction/design activity; its teacher customization panel and assignment-link builder are removed. The default route is all virtual. Existing hybrid links and saved attempts remain supported so this UI change does not discard classroom work. Other labs retain their current setup pending review of this pattern.
+
+For now, teachers can use the downloadable guide and worksheet to assign classroom components outside the website. No new setup page or login is implied. A separate public Teacher resources page would be an inexpensive interim option, but it would not provide teacher-only access; defer implementing it until requested.
+
+When teacher accounts are introduced, add a Teacher dashboard → Lab library → Customize assignment flow. Teachers select activity modes, instructions, due dates, and assessment settings there, then preview the student view and publish an assignment link. Students open that assignment directly without teacher controls. Persist an assignment ID and content version, enforce teacher authorization on the backend, and preserve virtual/classroom data provenance. Migrate existing URL-based configurations into saved assignments rather than treating URL parameters as access control.
