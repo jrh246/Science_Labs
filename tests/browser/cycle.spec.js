@@ -16,6 +16,7 @@ test('drag, keyboard placement, correction, save, mobile, and offline activity',
  await page.goto('/activity.html');
  await page.getByRole('button',{name:'Check my model'}).click();
  await expect(page.locator('#model-feedback')).toContainText('0 of 7');
+ await page.locator('[data-zone="photo-in"]').scrollIntoViewIfNeeded();
  await page.locator('[data-card="co2-1"]').dragTo(page.locator('[data-zone="photo-in"]'));
  await expect(page.locator('[data-zone="photo-in"] [data-card="co2-1"]')).toHaveCount(1);
  for(const [card,zone] of Object.entries(solution).filter(([id])=>id!=='co2-1')){
