@@ -1,5 +1,7 @@
 import {test,expect} from '@playwright/test';
-const solution={'co2-1':'photo-in','water-2':'photo-in','glucose-1':'photo-out','oxygen-2':'photo-out','co2-2':'resp-out','water-1':'resp-out','glucose-2':'resp-in','oxygen-1':'resp-in',light:'photo-help',chlorophyll:'photo-help',mitochondrion:'resp-place',atp:'resp-energy',heat:'resp-energy'};
+const solution={light:'photo-help',chlorophyll:'photo-help',mitochondrion:'resp-place',atp:'resp-energy',heat:'resp-energy','glucose-1':'photo-out','glucose-2':'resp-in'};
+for(let n=1;n<=12;n++){solution[`co2-${n}`]=n<=6?'photo-in':'resp-out';solution[`water-${n}`]=n<=6?'photo-in':'resp-out';solution[`oxygen-${n}`]=n<=6?'photo-out':'resp-in';}
+
 test('landing choices lead to separate activity and lab, with no embedded activity',async({page})=>{
  await page.goto('/#/science/biology/the-cell/light-photosynthesis');
  await page.getByRole('link',{name:'Start card activity'}).click();
@@ -16,7 +18,7 @@ test('drag, keyboard placement, correction, save, mobile, and offline activity',
  await expect(page.locator('#model-feedback')).toContainText('0 of 7');
  await page.locator('[data-card="co2-1"]').dragTo(page.locator('[data-zone="photo-in"]'));
  await expect(page.locator('[data-zone="photo-in"] [data-card="co2-1"]')).toHaveCount(1);
- for(const [card,zone] of Object.entries(solution).slice(1)){
+ for(const [card,zone] of Object.entries(solution).filter(([id])=>id!=='co2-1')){
    await page.locator(`[data-card="${card}"]`).focus();await page.keyboard.press('Enter');
    await page.locator(`[data-place="${zone}"]`).focus();await page.keyboard.press('Enter');
  }
@@ -36,5 +38,27 @@ test('drag, keyboard placement, correction, save, mobile, and offline activity',
  await expect(page.locator('.bank-cards [data-card="heat"]')).toHaveCount(1);
  await context.setOffline(false);
  page.on('dialog',dialog=>dialog.accept());await page.getByRole('button',{name:'Start over'}).click();
- await expect(page.locator('.bank-cards .molecule-card')).toHaveCount(13);
+ await expect(page.locator('.bank-cards .molecule-card')).toHaveCount(9);
+});
+
+
+test('small screen can move energy directly using the fixed destination bar',async({page})=>{
+ await page.setViewportSize({width:390,height:640});await page.goto('/activity.html');
+ for(const id of ['heat','atp']){
+  await page.locator(`[data-card="${id}"]`).click();
+  await expect(page.locator('.move-dock')).toBeInViewport();
+  await expect(page.locator('[data-zone="resp-energy"]')).not.toBeInViewport();
+  await page.getByLabel('Destination',{exact:true}).selectOption('resp-energy');
+  await page.getByRole('button',{name:'Move here',exact:true}).click();
+  await expect(page.locator(`[data-zone="resp-energy"] [data-card="${id}"]`)).toHaveCount(1);
+ }
+ await page.locator('[data-card="water-1"]').click();
+ await page.getByLabel('Destination',{exact:true}).selectOption('photo-in');
+ await page.getByRole('button',{name:'Move here',exact:true}).click();
+ await page.locator('[data-card="water-2"]').click();
+ await page.getByRole('button',{name:'Move here',exact:true}).click();
+ await expect(page.locator('[data-zone="photo-in"] .molecule-token')).toHaveCount(2);
+ await expect(page.locator('[data-zone="photo-in"] .molecule-tally')).toHaveText('2 H₂O');
+ await page.locator('[data-card="water-3"]').click();
+ await page.screenshot({path:'test-results/cycle-move-dock.png',fullPage:false});
 });
