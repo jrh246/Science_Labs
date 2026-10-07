@@ -43,12 +43,13 @@ test('mitosis supports classification feedback, manual fields, and duration chan
  await page.goto('/investigation.html?lab=mitosis&sources=virtual,classroom');
  await page.getByRole('button',{name:'2. Collect observations',exact:true}).click();
  const seed=await page.evaluate(()=>{const key=Object.keys(localStorage).find(k=>k.includes(':mitosis:v1:virtual,classroom'));return JSON.parse(localStorage.getItem(key)).seed;});
+ await page.getByRole('button',{name:'Load prepared slide'}).click();await page.getByRole('button',{name:'Turn light on'}).click();await page.getByRole('slider',{name:'Fine focus',exact:true}).fill('50');await page.getByRole('button',{name:'40× objective',exact:true}).click();
  const cells=fieldCells('field-a',seed);
  for(let i=0;i<20;i++){await page.locator(`[data-cell="${i}"]`).click();await page.locator(`[data-stage="${cells[i]}"]`).click();}
  await page.getByRole('button',{name:'Review field classifications'}).click();
  await expect(page.getByText('20 / 20 match the model key.',{exact:false})).toBeVisible();
  await page.screenshot({path:'test-results/mitosis-field.png',fullPage:true});
- await page.locator('#condition').selectOption('1');
+ await page.getByRole('button',{name:'Collect data and continue'}).click();
  for(let i=0;i<5;i++)await page.locator(`[name="stage-${i}"]`).fill(i===0?'16':'1');
  await page.getByRole('button',{name:'Save field count'}).click();
  await page.getByRole('button',{name:'Analyze evidence →'}).click();

@@ -73,7 +73,7 @@ export const investigations = {
  'mitosis': {
   id:'mitosis',title:'Measuring Mitosis',chapter:10,kind:'mitosis',duration:'40–55 minutes',
   question:'What can a snapshot of dividing cells tell us about the cell cycle?',
-  overview:'Classify cells in two schematic root-tip fields or count prepared classroom slides. Use stage frequencies to estimate time in each stage under an explicitly assumed cycle duration.',
+  overview:'Load the prepared slide, adjust illumination and focus, and inspect cells at higher power. Classify and collect Field A, then Field B, before exploring microscope controls and cycle-duration assumptions separately. Use stage frequencies to estimate time in each stage under an explicitly assumed cycle duration.',
   conditions:[{id:'field-a',label:'Field A',detail:'20 schematic cells'},{id:'field-b',label:'Field B',detail:'20 schematic cells'}],
   constants:'Use the same scoring definitions and count every cell in each selected field. Group prometaphase with prophase; count telophase/cytokinesis as one event until daughter cells are separated.',
   materials:['Prepared onion root-tip slides, microscope, stage tally sheet','Alternatively: the app’s two schematic fields, with no equipment needed','Calculator; teacher-selected cycle duration (24 hours is an assumption, not a measured value)'],
