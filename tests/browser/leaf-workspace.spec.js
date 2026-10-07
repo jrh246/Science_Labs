@@ -14,7 +14,8 @@ test('legacy classroom settings can open the lamp without overwriting classroom 
  await page.getByRole('button',{name:'Pull plunger',exact:true}).click();
  expect(await page.evaluate(key=>localStorage.getItem(key),key)).toBe(original);
  await page.getByRole('link',{name:'Return to saved lab'}).click();
- await expect(page.getByRole('spinbutton',{name:'Reading at 0 minutes',exact:true})).toHaveValue('2');
+ await expect(page.getByRole('heading',{name:'Dark control · Trial 2 of 3'})).toBeVisible();
+ expect(await page.evaluate(key=>JSON.parse(localStorage.getItem(key)).runs['dark-1'][0].value,key)).toBe(2);
  await page.getByRole('button',{name:'1. Predict & plan',exact:true}).click();
  await expect(page.getByLabel('Prediction — what do you expect, and why?')).toHaveValue('My original prediction');
 });

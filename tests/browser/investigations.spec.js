@@ -5,7 +5,8 @@ async function open(page,id){await page.goto('/investigation.html?lab='+id);}
 async function prepareLeaf(page){if(await page.locator('leaf-simulator').count()){for(let n=0;n<3;n++){await page.getByRole('button',{name:'Pull plunger',exact:true}).click();await page.getByRole('button',{name:'Release vacuum',exact:true}).click();}}}
 async function finishTrials(page){
  await page.getByRole('button',{name:'2. Collect observations',exact:true}).click();
- for(let i=0;i<3;i++){await page.locator('#condition').selectOption(String(i));for(let trial=1;trial<=3;trial++){await page.locator('#trial').selectOption(String(trial));await prepareLeaf(page);await page.getByRole('button',{name:'Run remaining time'}).click();}}
+ if(await page.locator('leaf-simulator').count()){for(const light of ['Off','Low','High'])for(let t=0;t<3;t++){await prepareLeaf(page);await page.getByRole('button',{name:light,exact:true}).click();await page.getByRole('button',{name:'Start trial',exact:true}).click();await page.getByRole('button',{name:'Run remaining time'}).click();await page.getByRole('button',{name:'Collect data and continue'}).click();}return;}
+ for(let i=0;i<3;i++){await page.locator('#condition').selectOption(String(i));for(let trial=1;trial<=3;trial++){await page.locator('#trial').selectOption(String(trial));await page.getByRole('button',{name:'Run remaining time'}).click();}}
 }
 for(const id of ids.slice(0,2))test(`${id}: complete virtual investigation, restore, and export`,async({page})=>{
  await open(page,id);
@@ -29,11 +30,10 @@ test('photosynthesis hides teacher setup while existing hybrid links retain clas
  const link='/investigation.html?lab=light-photosynthesis&sources=classroom,virtual,virtual';
  await page.goto(link);await page.getByRole('button',{name:'2. Collect observations',exact:true}).click();
  for(let t=1;t<=3;t++){
-  await page.locator('#trial').selectOption(String(t));
   for(let time=0;time<=20;time+=2)await page.getByRole('spinbutton',{name:`Reading at ${time} minutes`,exact:true}).fill('0');
   await page.getByRole('button',{name:'Save classroom trial'}).click();
  }
- for(let i=1;i<3;i++){await page.locator('#condition').selectOption(String(i));for(let t=1;t<=3;t++){await page.locator('#trial').selectOption(String(t));await prepareLeaf(page);await page.getByRole('button',{name:'Run remaining time'}).click();}}
+ for(const light of ['Low','High'])for(let t=1;t<=3;t++){await prepareLeaf(page);await page.getByRole('button',{name:light,exact:true}).click();await page.getByRole('button',{name:'Start trial',exact:true}).click();await page.getByRole('button',{name:'Run remaining time'}).click();await page.getByRole('button',{name:'Collect data and continue'}).click();}
  await page.getByRole('button',{name:'Analyze evidence →'}).click();
  await expect(page.locator('.screen-work table')).toContainText('classroom');
  await expect(page.locator('.screen-work table')).toContainText('Not reached by 20 min');
