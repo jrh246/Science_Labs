@@ -14,3 +14,21 @@ test('cycle accepts interchangeable copies and checks both full equations',()=>{
  assert.equal(evaluateCycle({...solution,atp:'resp-out'}).complete,false);
  assert.deepEqual(validPlacements({'co2-1':'photo-in',bogus:'photo-out',heat:'unknown'}),{'co2-1':'photo-in'});
 });
+
+
+test('cycle distinguishes right molecule types needing balance from missing or wrong types',()=>{
+ const check=(p,id='photo-in')=>evaluateCycle(p).zones.find(z=>z.id===id);
+ for(const id of ['photo-in','resp-out']){
+  const p={'co2-1':id,'water-1':id};
+  assert.equal(check(p,id).needsBalancing,true);
+  assert.equal(check(p,id).correct,false);
+  assert.equal(check({...p,'oxygen-1':id},id).needsBalancing,false);
+  assert.equal(check({'co2-1':id},id).needsBalancing,false);
+ }
+ for(const id of ['photo-out','resp-in'])assert.equal(check({'glucose-1':id,'oxygen-1':id},id).needsBalancing,true);
+ assert.equal(check({...solution,'co2-7':'photo-in'}).needsBalancing,true);
+ assert.equal(check({...solution,light:'photo-in'}).needsBalancing,false);
+ assert.equal(check({}).needsBalancing,false);
+ assert.equal(check(solution).needsBalancing,false);
+ assert.equal(check({atp:'resp-energy'},'resp-energy').needsBalancing,false);
+});

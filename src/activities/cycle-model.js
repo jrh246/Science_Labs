@@ -29,7 +29,9 @@ export function evaluateCycle(placements){
   const results=zones.map(z=>{
     const placed=cards.filter(c=>placements[c.id]===z.id);
     const correct=placed.length===Object.values(z.accept).reduce((a,b)=>a+b,0)&&Object.entries(z.accept).every(([type,count])=>placed.filter(c=>c.type===type).length===count);
-    return {...z,correct,atoms:placed.reduce((sum,c)=>sum.map((n,i)=>n+(c.atoms?.[i]||0)),[0,0,0])};
+    const typesCorrect=placed.every(c=>Object.hasOwn(z.accept,c.type))&&Object.keys(z.accept).every(type=>placed.some(c=>c.type===type));
+    const needsBalancing=typesCorrect&&!correct&&Object.keys(z.accept).every(type=>Object.hasOwn(molecules,type));
+    return {...z,correct,typesCorrect,needsBalancing,atoms:placed.reduce((sum,c)=>sum.map((n,i)=>n+(c.atoms?.[i]||0)),[0,0,0])};
   });
   return {zones:results,complete:results.every(z=>z.correct)};
 }

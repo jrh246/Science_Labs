@@ -63,3 +63,21 @@ test('small screen can move energy directly using the fixed destination bar',asy
  await page.locator('[data-card="water-3"]').click();
  await page.screenshot({path:'test-results/cycle-move-dock.png',fullPage:false});
 });
+
+
+test('right input and output types receive balancing feedback without being marked complete',async({page})=>{
+ await page.goto('/activity.html');
+ for(const [card,zone] of [['co2-1','photo-in'],['water-1','photo-in'],['glucose-1','photo-out'],['oxygen-1','photo-out']]){
+  await page.locator(`[data-card="${card}"]`).click();await page.locator(`[data-place="${zone}"]`).click();
+ }
+ await page.getByRole('button',{name:'Check my model'}).click();
+ await expect(page.locator('[data-zone="photo-in"] .zone-feedback')).toContainText('right inputs, but need to balance them');
+ await expect(page.locator('[data-zone="photo-out"] .zone-feedback')).toContainText('right outputs, but need to balance them');
+ await expect(page.locator('#model-feedback')).toContainText('0 of 8');
+ await page.locator('[data-card="oxygen-2"]').click();await page.locator('[data-place="photo-in"]').click();
+ await page.getByRole('button',{name:'Check my model'}).click();
+ await expect(page.locator('[data-zone="photo-in"] .zone-feedback')).toHaveText('Revisit this group');
+ await expect(page.locator('[data-zone="photo-out"] .zone-feedback')).toContainText('right outputs');
+ await page.setViewportSize({width:390,height:844});
+ await expect.poll(()=>page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
+});
