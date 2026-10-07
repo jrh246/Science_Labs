@@ -2,13 +2,14 @@ import {defineConfig} from 'vite';
 import {resolve} from 'node:path';
 import {existsSync,readdirSync,readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
+const hasActivity = existsSync(resolve('activity.html'));
 const hasLab = existsSync(resolve('lab.html'));
 const hasInvestigation = existsSync(resolve('investigation.html'));
 const resources=existsSync('public/resources')?readdirSync('public/resources').filter(x=>x.endsWith('.pdf')).map(x=>'./resources/'+x):[];
 export default defineConfig({
-  build: {rollupOptions: {input: {library: resolve('index.html'), ...(hasLab ? {lab: resolve('lab.html')} : {}), ...(hasInvestigation ? {investigation: resolve('investigation.html')} : {})}}},
+  build: {rollupOptions: {input: {...(hasActivity ? {activity: resolve('activity.html')} : {}), library: resolve('index.html'), ...(hasLab ? {lab: resolve('lab.html')} : {}), ...(hasInvestigation ? {investigation: resolve('investigation.html')} : {})}}},
   plugins: [{name: 'offline-cache', enforce: 'post', generateBundle: {order: 'post', handler(_, bundle) {
-    const files = [...new Set(['./', './index.html', ...resources, ...(hasInvestigation?['./investigation.html']:[]), ...(hasLab ? ['./lab.html'] : []), './manifest.json', './icons/lab.svg', ...Object.keys(bundle).map(x => './' + x)])];
+    const files = [...new Set(['./', './index.html', ...(hasActivity?['./activity.html']:[]), ...resources, ...(hasInvestigation?['./investigation.html']:[]), ...(hasLab ? ['./lab.html'] : []), './manifest.json', './icons/lab.svg', ...Object.keys(bundle).map(x => './' + x)])];
     const hash = createHash('sha256').update(JSON.stringify(bundle));
     // Resource-only revisions must invalidate old offline worksheets too.
     for(const file of resources)hash.update(readFileSync(resolve('public',file)));
@@ -38,7 +39,7 @@ self.addEventListener('fetch', event => {
     }).catch(async () => {
       const cache = await caches.open(CACHE);
       const exact=await cache.match(event.request,{ignoreVary:true});if(exact)return exact;
-      return cache.match(new URL(${hasInvestigation ? "url.pathname.endsWith('/investigation.html') ? './investigation.html' : " : ''}${hasLab ? "url.pathname.endsWith('/lab.html') ? './lab.html' : './index.html'" : "'./index.html'"}, ROOT), {ignoreVary: true});
+      return cache.match(new URL(${hasActivity ? "url.pathname.endsWith('/activity.html') ? './activity.html' : " : ''}${hasInvestigation ? "url.pathname.endsWith('/investigation.html') ? './investigation.html' : " : ''}${hasLab ? "url.pathname.endsWith('/lab.html') ? './lab.html' : './index.html'" : "'./index.html'"}, ROOT), {ignoreVary: true});
     }));
     return;
   }

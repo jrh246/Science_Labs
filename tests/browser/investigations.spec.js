@@ -71,7 +71,7 @@ test('six PDFs are linked and downloadable; lab routes work offline without cros
  const bytes=await page.evaluate(async()=>{const r=await fetch('./resources/light-photosynthesis-worksheet.pdf');return (await r.text()).slice(0,4);});expect(bytes).toBe('%PDF');
 });
 test('new lab overviews expose the right launch link and resources',async({page})=>{
- for(const id of ids){await page.goto(`/#/science/biology/the-cell/${id}`);await expect(page.getByRole('link',{name:'Launch investigation'})).toHaveAttribute('href',`./investigation.html?lab=${id}`);await expect(page.getByRole('link',{name:'Student worksheet (PDF)',exact:true})).toBeVisible();}
+ for(const id of ids){await page.goto(`/#/science/biology/the-cell/${id}`);await expect(page.getByRole('link',{name:id==='mitosis'?'Launch investigation':'Launch virtual lab'})).toHaveAttribute('href',`./investigation.html?lab=${id}`);await expect(page.getByRole('link',{name:'Student worksheet (PDF)',exact:true})).toBeVisible();}
 });
 for(const width of [390,1440])test(`new lab layouts ${width}px`,async({page})=>{
  await page.setViewportSize({width,height:950});

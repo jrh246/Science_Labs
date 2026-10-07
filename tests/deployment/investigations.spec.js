@@ -7,6 +7,10 @@ test('all new preview labs and PDFs survive offline reload at the deployment sub
  const keys=await page.evaluate(()=>Object.keys(localStorage));
  expect(keys.some(k=>k.startsWith('science-labs:/Science_Labs/dev/:light-photosynthesis:'))).toBeTruthy();
  await context.setOffline(true);
+ await page.goto('/Science_Labs/dev/activity.html?offline=1');
+ await expect(page.getByRole('heading',{name:'Matter cycles. Energy flows.'})).toBeVisible();
+ await page.locator('[data-card="light"]').click();await page.locator('[data-place="photo-help"]').click();
+ expect(await page.evaluate(()=>Object.keys(localStorage).some(k=>k==='science-labs:/Science_Labs/dev/:matter-cycle:v1'))).toBeTruthy();
  for(const [id,title] of [['light-photosynthesis','Light and Photosynthesis'],['yeast-fermentation','Yeast Fermentation and Fuel Sources'],['mitosis','Measuring Mitosis']]){
   await page.goto('/Science_Labs/dev/investigation.html?lab='+id);await page.reload();
   await expect(page.getByRole('heading',{name:title,exact:true})).toBeVisible();
