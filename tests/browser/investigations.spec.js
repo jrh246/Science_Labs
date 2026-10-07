@@ -6,7 +6,7 @@ async function prepareLeaf(page){if(await page.locator('leaf-simulator').count()
 async function finishTrials(page){
  await page.getByRole('button',{name:'2. Collect observations',exact:true}).click();
  if(await page.locator('leaf-simulator').count()){for(const light of ['Off','Low','High'])for(let t=0;t<3;t++){await prepareLeaf(page);await page.getByRole('button',{name:light,exact:true}).click();await page.getByRole('button',{name:'Start trial',exact:true}).click();await page.getByRole('button',{name:'Run remaining time'}).click();await page.getByRole('button',{name:'Collect data and continue'}).click();}return;}
- for(let i=0;i<3;i++){await page.locator('#condition').selectOption(String(i));for(let trial=1;trial<=3;trial++){await page.locator('#trial').selectOption(String(trial));await page.getByRole('button',{name:'Run remaining time'}).click();}}
+ for(const fuel of ['No added sugar','Glucose','Sucrose'])for(let trial=1;trial<=3;trial++){const sim=page.locator('yeast-simulator');await sim.getByRole('button',{name:fuel,exact:true}).click();await sim.getByRole('button',{name:'Prepare mixture',exact:true}).click();await sim.getByRole('button',{name:'Connect gas syringe',exact:true}).click();await sim.getByRole('button',{name:'Start trial',exact:true}).click();await sim.getByRole('button',{name:'Run remaining time'}).click();await sim.getByRole('button',{name:'Collect data and continue'}).click();}
 }
 for(const id of ids.slice(0,2))test(`${id}: complete virtual investigation, restore, and export`,async({page})=>{
  await open(page,id);

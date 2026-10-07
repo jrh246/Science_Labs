@@ -42,7 +42,7 @@ export const investigations = {
  'yeast-fermentation': {
   id:'yeast-fermentation',title:'Yeast Fermentation and Fuel Sources',chapter:7,kind:'yeast',duration:'45–60 minutes',
   question:'How does the available sugar affect gas accumulation in a yeast culture?',
-  overview:'Compare baker’s yeast with no added sugar, glucose, and sucrose. Record cumulative gas volume and compare average accumulation rates over the same time interval.',
+  overview:'Prepare fresh mixtures with no added sugar, glucose, and sucrose. Connect each flask to a gas syringe, observe for 30 simulated minutes, and collect three trials per treatment. Then explore temperature or a no-yeast control separately. Compare average gas accumulation rates over the same time interval.',
   conditions:[{id:'none',label:'No added sugar',detail:'Water control'},{id:'glucose',label:'Glucose',detail:'2 g / 50 mL final mixture'},{id:'sucrose',label:'Sucrose',detail:'2 g / 50 mL final mixture'}],
   interval:5,end:30,yLabel:'Collected gas (mL)',max:100,
   constants:'0.5 g baker’s yeast, 50 mL final mixture, 30 °C water bath, identical gas collection apparatus, 30-minute observation. Sugar treatments have equal mass concentration, not equal molarity.',
@@ -55,7 +55,7 @@ export const investigations = {
    'Repeat with fresh mixtures for trials 2 and 3. Pool independent trials from class groups for a single-period lab; sequential repeats require additional time. Compare volume change divided by elapsed time, retain outliers, and explain suspected problems.',
   ],
   safety:'Use baker’s yeast only. Do not taste cultures. Never seal gas production in a rigid closed container or block the syringe plunger. Stop before apparatus capacity is reached. Teacher checks glassware and warm-water handling.',
-  model:'Volumes are illustrative, generated curves with a lag and trial variation. Glucose and sucrose responses overlap; their ranking is not universal. The water control can show small background gas. The model does not establish anaerobic conditions or identify collected gas chemically.',
+  model:'Volumes are illustrative, with a lag and trial variation. The virtual water bath changes gradually; temperature effects from 15 to 40 °C are simplified and omit thermal gas expansion, yeast damage, and substrate depletion. Glucose and sucrose responses overlap; their ranking is not universal. The water control can show small background gas. The model does not establish anaerobic conditions or identify collected gas chemically.',
   interpretation:'Average gas accumulation rate = (final volume − initial volume) / elapsed minutes. Gas from yeast is consistent with CO₂ production, but volume alone does not prove fermentation rather than aerobic metabolism or directly measure ATP yield.',
   questions:[
    'Compare the mean gas accumulation rates for the three treatments. Use numerical evidence and discuss overlap between trials.',
