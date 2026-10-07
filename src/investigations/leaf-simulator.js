@@ -8,12 +8,11 @@ class LeafSimulator extends HTMLElement {
   if(config.guided){
    if(this.r.altered||this.r.ticks>80){this.r=newLeafRun(config.condition,config.trial,config.seed);this.note='Begin a fresh controlled trial to collect data for this comparison.';}
    if(!config.state)this.r.light=0;
-   this.lightConfirmed=this.r.guidedLightConfirmed===true||this.r.ticks>0;
   }
   this.attachShadow({mode:'open'});
   this.shadowRoot.addEventListener('click',e=>{
    const b=e.target.closest('button');if(!b||b.disabled)return;this.focusTarget=b.dataset.light!==undefined?`[data-light="${b.dataset.light}"]`:`[data-action="${b.dataset.action}"]`;
-   if(b.dataset.light!==undefined){setLeafLight(this.r,b.dataset.light);this.lightConfirmed=true;this.r.guidedLightConfirmed=true;this.publish();this.updateLive();return;}
+   if(b.dataset.light!==undefined){setLeafLight(this.r,b.dataset.light);this.publish();this.updateLive();return;}
    const a=b.dataset.action;
    if(a==='collect'){this.dispatchEvent(new CustomEvent('leaf-collect',{bubbles:true,detail:{state:this.r,readings:comparisonReadings(this.r)}}));return;}
    if(a==='transfer'){if(this.r.cycles!==3||this.r.vacuum||this.preparing||this.r.inCup)return;this.r.inCup=true;this.note='Disks added to the cup. Observe the sample and compare it with your prediction.';this.publish();this.render();return;}
@@ -21,7 +20,7 @@ class LeafSimulator extends HTMLElement {
    if(a==='start'){this.running=!this.running;this.note='';if(this.running)this.schedule();else this.stop();}
    if(a==='advance')this.advance(2);
    if(a==='finish')this.advance(Math.max(0,20-this.r.ticks/4));
-   if(a==='fresh'&&confirm(config.guided?'Restart this unfinished trial with fresh disks?':'Replace this exploration with fresh disks? Download exploration data first if you want to keep it.')){this.stop();this.r=newLeafRun(config.condition,config.trial,config.seed);this.lightConfirmed=false;if(config.guided)this.r.light=0;this.note='Fresh disks. Infiltrate before starting a controlled trial.';}
+   if(a==='fresh'&&confirm(config.guided?'Restart this unfinished trial with fresh disks?':'Replace this exploration with fresh disks? Download exploration data first if you want to keep it.')){this.stop();this.r=newLeafRun(config.condition,config.trial,config.seed);if(config.guided)this.r.light=0;this.note='Fresh disks. Infiltrate before starting a controlled trial.';}
    this.publish();this.render();
   });
   this.shadowRoot.addEventListener('input',e=>{if(e.target.id==='intensity'){setLeafLight(this.r,e.target.value);this.publish();this.updateLive();}});
@@ -73,7 +72,7 @@ class LeafSimulator extends HTMLElement {
  advance(minutes){
   if(!this.r.inCup){this.note='Finish syringe preparation and add the disks to the cup before starting.';this.stop();return;}
   if(this.r.vacuum||this.preparing){this.note='Release the syringe vacuum before starting the lamp experiment.';this.stop();return;}
-  if(this.config.guided&&(this.r.cycles<3||!this.lightConfirmed||this.r.light!==this.r.planned))return;
+  if(this.config.guided&&(this.r.cycles<3||this.r.light!==this.r.planned))return;
   const before=this.r.ticks;advanceLeaf(this.r,this.config.guided?Math.min(minutes,20-this.r.ticks/4):minutes);
   if(before<80&&this.r.ticks>=80){this.stop();this.note=this.config.guided?'20 minutes complete. Review your observations, then collect the data to continue.':'20-minute observation window finished. Resume the timer to explore longer.';}
   if(this.r.ticks>=480){this.stop();this.note='120 simulated minutes reached. Use fresh disks to start another experiment.';}
@@ -98,12 +97,12 @@ class LeafSimulator extends HTMLElement {
   root.querySelector('[data-action="fresh"]').disabled=!!this.preparing;
   root.querySelector('#intensity').value=r.light;
   root.querySelector('#run-note').textContent=this.note;
-  root.querySelector('#quality').textContent=this.config.guided?(r.ticks>=80?'Trial finished. Collect these data to move on.':r.cycles<3?'Step 1: complete three syringe pull-and-release cycles.':!r.inCup?'Step 2: add the prepared disks to the cup.':!this.lightConfirmed||r.light!==r.planned?`Step 3: select ${r.planned===0?'Off':r.planned===25?'Low':'High'} (${r.planned}%) for this treatment.`:r.ticks===0?'Step 4: start the timer and observe for 20 simulated minutes.':'Step 4: observe the disks. The lamp stays fixed for a fair comparison.'):!r.inCup?'Prepare the disks in the syringe, then add them to the cup to begin exploring.':r.altered?'Exploratory trial: lighting changed or infiltration was incomplete. Kept in the exploration log, excluded from the fixed-light comparison.':`Controlled comparison target: ${r.planned}% light. Keep that setting and fully infiltrate the disks for all 20 minutes.`;
+  root.querySelector('#quality').textContent=this.config.guided?(r.ticks>=80?'Trial finished. Collect these data to move on.':r.cycles<3?'Step 1: complete three syringe pull-and-release cycles.':!r.inCup?'Step 2: add the prepared disks to the cup.':r.light!==r.planned?`Step 3: select ${r.planned===0?'Off':r.planned===25?'Low':'High'} (${r.planned}%) for this treatment.`:r.ticks===0?'Step 4: start the timer and observe for 20 simulated minutes.':'Step 4: observe the disks. The lamp stays fixed for a fair comparison.'):!r.inCup?'Prepare the disks in the syringe, then add them to the cup to begin exploring.':r.altered?'Exploratory trial: lighting changed or infiltration was incomplete. Kept in the exploration log, excluded from the fixed-light comparison.':`Controlled comparison target: ${r.planned}% light. Keep that setting and fully infiltrate the disks for all 20 minutes.`;
   if(this.config.guided){
    const ready=r.inCup&&r.cycles===3&&!r.vacuum&&!this.preparing;
    root.querySelectorAll('[data-light]').forEach(b=>b.disabled=!ready||r.ticks>0);
    root.querySelector('#intensity').disabled=true;
-   const blocked=!ready||!this.lightConfirmed||r.light!==r.planned||r.ticks>=80;
+   const blocked=!ready||r.light!==r.planned||r.ticks>=80;
    root.querySelector('[data-action="start"]').disabled=blocked;
    root.querySelector('[data-action="advance"]').disabled=blocked||r.ticks===0;
    root.querySelector('[data-action="finish"]').disabled=blocked||r.ticks===0;

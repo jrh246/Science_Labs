@@ -9,9 +9,10 @@ test('guided sequence collects nine trials then explores without changing compar
  for(const [i,light] of ['Off','Low','High'].entries())for(let t=1;t<=3;t++){
   await expect(page.locator('.screen-work')).toContainText(`Trial ${i*3+t} of 9`);
   await prep(page);
-  await expect(sim.getByRole('button',{name:'Start trial',exact:true})).toBeDisabled();
+  if(light==='Off')await expect(sim.getByRole('button',{name:'Start trial',exact:true})).toBeEnabled();
+  else await expect(sim.getByRole('button',{name:'Start trial',exact:true})).toBeDisabled();
   if(i===1&&t===1){await sim.getByRole('button',{name:'High',exact:true}).click();await expect(sim.getByRole('button',{name:'Start trial',exact:true})).toBeDisabled();}
-  await sim.getByRole('button',{name:light,exact:true}).click();
+  if(light!=='Off')await sim.getByRole('button',{name:light,exact:true}).click();
   await sim.getByRole('button',{name:'Start trial',exact:true}).click();
   await expect(sim.locator('#clock')).not.toHaveText('00:00');
   await expect(sim.getByRole('button',{name:'High',exact:true})).toBeDisabled();
