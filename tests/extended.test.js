@@ -2,7 +2,28 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {extendedLabs as labs} from '../src/investigations/extended-content.js';
 import {newRun,advance,valueAt,ready,specimens,counts,mapping,chiSquare,bandDistance,bandSize,record,restoreState,freshState,csv} from '../src/investigations/extended-model.js';
+import {gametes} from '../src/investigations/extended-model.js';
 const find=kind=>labs.find(c=>c.kind===kind);
+test('reciprocal exchanges preserve alleles and leave two parental chromatids',()=>{
+ const c=find('meiosis');
+ for(const condition of [0,1,2])for(const a of [0,1])for(const b of [2,3]){
+  const r=newRun(c,condition,42);r.chromatids=[a,b];const products=gametes(r);
+  assert.equal(products.join('').split('').sort().join(''),'AABBCCaabbcc');
+  assert.equal(products.filter(x=>x==='ABC'||x==='abc').length,condition===0?4:2);
+  if(condition===1)assert.ok(products.includes('Abc')&&products.includes('aBC'));
+  if(condition===2)assert.ok(products.includes('ABc')&&products.includes('abC'));
+  r.prepared=4;r.tallies=[4,0];r.reviewed=true;assert.equal(ready(c,r),true);
+  assert.deepEqual(record(c,r).values,[4,0]); // Incorrect but complete student tallies are retained.
+  assert.deepEqual(record(c,r).settings.gametes,products);
+ }
+});
+test('sampling regions are reproducible, marks do not tally, and legacy partial counts migrate',()=>{
+ const c=find('corn'),s=freshState(c,17),r=s.run;
+ r.region=0;const first=specimens(c,r);r.region=1;assert.notDeepEqual(specimens(c,r),first);
+ assert.deepEqual(specimens(c,r),specimens(c,r));r.marks=[1,2];assert.deepEqual(r.tallies,[0,0]);
+ delete r.tallies;delete r.marks;r.scores=[0,1,null,0];const restored=restoreState(c,JSON.stringify(s));
+ assert.deepEqual(restored.run.tallies,[2,1]);assert.deepEqual(restored.run.marks,[0,1,3]);
+});
 test('time-step size does not change observations and simulated clocks stop at endpoint',()=>{
  for(const c of labs.filter(x=>x.duration))for(let i=0;i<c.conditions.length;i++){
   let r=newRun(c,0,123,i),small=r;for(let n=0;n<c.duration*4;n++)small=advance(c,small,.25);
@@ -23,7 +44,7 @@ test('controls and effects follow the stated mechanisms without treating ordinal
 test('scoring uses student counts and the correct mapping factors',()=>{
  assert.equal(mapping('asci',[60,20,20]),20);assert.equal(mapping('flies',[40,40,10,10]),20);assert.equal(mapping('flies',[0,0,0,0]),null);
  assert.equal(chiSquare([75,25]),0);assert.ok(chiSquare([50,50])>0);
- for(const c of labs.filter(x=>x.categories)){const r=newRun(c,0,42);const answers=specimens(c,r);assert.equal(answers.length,c.count);r.prepared=c.steps.length;r.scores=answers.map(()=>0);assert.equal(ready(c,r),false);r.reviewed=true;assert.equal(ready(c,r),true);assert.equal(counts(r.scores,c.categories.length)[0],c.count);assert.deepEqual(record(c,r).values,counts(r.scores,c.categories.length));}
+ for(const c of labs.filter(x=>x.categories)){const r=newRun(c,0,42);const answers=specimens(c,r);assert.equal(answers.length,c.count);r.prepared=c.steps.length;r.scores=answers.map(()=>0);r.tallies=c.categories.map((_,i)=>i===0?c.count:0);assert.equal(ready(c,r),false);r.reviewed=true;assert.equal(ready(c,r),true);assert.equal(counts(r.scores,c.categories.length)[0],c.count);assert.deepEqual(record(c,r).values,counts(r.scores,c.categories.length));}
 });
 test('gel calibration inverts log-size relationship at each voltage',()=>{for(const voltage of [60,80,100])for(const bp of [500,700,1000,1500,4000])assert.ok(Math.abs(bandSize(bandDistance(bp,1,voltage),1,voltage)-bp)<1e-6);});
 test('preparation, focus, staining and viewing are prerequisites for collection',()=>{

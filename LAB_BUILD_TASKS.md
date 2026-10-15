@@ -25,9 +25,9 @@ Verification: 35 unit tests, 52 browser tests, and 2 deployment/subpath tests pa
 | 4 | Cells Under the Microscope | Calibrate, focus, select objective and measure cells in six fields | Plant wet mounts and a prepared animal slide |
 | 6 | What Changes Enzyme Activity? | Prepare nine reactions; compare timed gas collection at three temperatures | Potato catalase with gas collection |
 | 9 | How Plants Respond to Signals | Track six plants from initial height through seven days | Dwarf peas with GA3 and matched carrier |
-| 11 | Observing Crossing Over | Classify 24 ordered asci and estimate gene-to-centromere distance | Prepared Sordaria cross specimens |
-| 12 | Testing Inheritance Patterns | Classify 144 kernels; compare a stated 3:1 expectation | Documented monohybrid corn ears |
-| 13 | Mapping Linked Genes | Classify 96 offspring; calculate recombination percentage | Optional advanced Drosophila testcross or labeled photograph/data route |
+| 11 | How Crossing Over Creates New Allele Combinations | Pair homologs, reciprocally exchange segments, separate cells and tally four gametes | Original printable strips; Sordaria retained as an optional extension |
+| 12 | Testing Inheritance Patterns | Select ears, mark regions and manually tally 144 kernels; compare a stated 3:1 expectation | Documented monohybrid corn ears |
+| 13 | Mapping Linked Genes | Inspect a sorting pad and magnifier; manually tally 96 offspring and calculate recombination percentage | Optional advanced Drosophila testcross or labeled photograph/data route |
 | 14 | Extracting DNA from Fruit | Compare nine preparations using an ordinal visibility rubric | Fruit extraction with detergent and blank controls |
 | 15 | From DNA to Protein | Compare nine reporter/control reactions using fluorescence | Optional cell-free expression kit with supported controls |
 | 16 | Switching Gene Expression On and Off | Observe growth and fluorescence on four control/treatment plates | Optional approved educational reporter cultures or kit |
@@ -54,3 +54,18 @@ These are operational software labs with illustrative models, not experimentally
 - [x] Verify all ten complete workflows, mobile layout, restore/export, offline deployment and production/dev isolation.
 
 Validation: 35 unit tests, 11 new-lab browser checks, 2 deployment checks; production build verifies 53 cached URLs.
+
+## Interactive bench revision
+
+- [x] Replace the primary chapter 11 activity with original chromosome manipulation and printable strips; preserve Sordaria and its saved work as an optional extension.
+- [x] Make corn sampling an ear-selection and marked-region investigation, with manual counters and independent pencil marks.
+- [x] Give the fly lab a sorting pad, magnifier, inspection marks and manual trait counters.
+- [x] Add tool selection and equipment targets to microscope, catalase, plant response, extraction, cell-free expression, reporter plates and gels.
+- [x] Animate tool use and preparation; require three mashing/spreading passes and separate loading of each gel lane.
+- [x] Preserve keyboard/touch operation, reduced-motion behavior, source-separated data and original student counts.
+- [x] Update and render the 22 student/teacher PDFs, including the optional extension.
+- [x] Inspect all ten layouts at desktop and 390px width.
+
+Equipment drawings remain original teaching illustrations. Preparation interactions are constrained to the assigned protocol; these are not unrestricted equipment simulators.
+
+Interactive revision verification: 37 unit tests, 13 browser walkthrough/interaction checks, and 2 deployment checks passed. The build verifies 55 offline-cache URLs, including the optional Sordaria handouts. All 22 PDFs were rendered and inspected.

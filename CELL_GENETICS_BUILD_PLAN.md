@@ -1,3 +1,5 @@
+> Interactive revision: Chapter 11 now uses an original chromosome-exchange activity with printable strips. Sordaria remains an optional extension. See LAB_BUILD_TASKS.md for the current ten-lab interaction checklist. Earlier planning details below are retained as history.
+
 # Cell and genetics lab build plan
 
 Plan dated October 14, 2026. Implementation and verification status are tracked in LAB_BUILD_TASKS.md; asset findings are in ASSET_REVIEW.md. Build original hybrid investigations for the remaining Cell chapters (4, 6, 9) and Genetics chapters (11–17). Chapter numbers are reading references in descriptions, not student-facing lab titles. This is a preliminary US copyright and licensing assessment and implementation plan, not legal clearance or a completed audit of the existing site.

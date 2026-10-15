@@ -11,53 +11,53 @@
   },
   {
     "path": "public/resources/cell-microscopy-teacher-guide.pdf",
-    "sha256": "22fa800891256e239bf624dad8d82932d2d2f32edadd7f696e37765ee8bf6fab",
-    "bytes": 6642
+    "sha256": "845a5121fe5a8f332f053fff92f0809a8ab3a55be171f0299e86116d09b2aca1",
+    "bytes": 6830
   },
   {
     "path": "public/resources/cell-microscopy-worksheet.pdf",
-    "sha256": "1b7ba7bf6fdb1cafc7aea7794101dbabfcd7bcabcadbc139a34bb44aa478d4be",
-    "bytes": 7116
+    "sha256": "fcf9fd50b3df2193e7230668b0f3ab53b91d12c13c5a1ffba5f1233adfbc07cd",
+    "bytes": 7093
   },
   {
     "path": "public/resources/cell-signaling-teacher-guide.pdf",
-    "sha256": "957d9110a9da1bd918a435875833cc64dd3743e573e2ef4a1a2ba3b72cfc4784",
-    "bytes": 6677
+    "sha256": "635abd788d42417f1db05930ae4d57aab507fa2a375b5daaa669a2f58c13e4bb",
+    "bytes": 6872
   },
   {
     "path": "public/resources/cell-signaling-worksheet.pdf",
-    "sha256": "ecfc3f76e51021c7fbece235e8a63dc18b01c348b2365dba435a0b509483aca0",
-    "bytes": 7080
+    "sha256": "02a60625d542b35f990429b47dac14aceca42168a81ec9f4b1766ea363dc66e1",
+    "bytes": 7051
   },
   {
     "path": "public/resources/dna-protein-teacher-guide.pdf",
-    "sha256": "a80935b0fb42c76416a2febfa8314dcf7d7574e000971df5659bb44dcb686df7",
-    "bytes": 6790
+    "sha256": "1363d63211f13f90660229e9d464485ad6351e4a5b9fbab0b4e48d609d14aa50",
+    "bytes": 6980
   },
   {
     "path": "public/resources/dna-protein-worksheet.pdf",
-    "sha256": "031015d4db46bbe488b7b6de724986d80c85fdabdb0e732e045e7c7ec69d0a92",
-    "bytes": 7148
+    "sha256": "5042414746a45e3c1a1f7d078ee8b33b7147d40f2499625f82c9df85f8e98cc7",
+    "bytes": 7130
   },
   {
     "path": "public/resources/dna-replication-teacher-guide.pdf",
-    "sha256": "d4f68f175726f14500fa5e3853e54020de6f1901e7984d19047896d149a190d6",
-    "bytes": 6819
+    "sha256": "86f04ce52f0d40eeba7aa26f15adaa81fea215c800bf82cfc9df99606a307d13",
+    "bytes": 7010
   },
   {
     "path": "public/resources/dna-replication-worksheet.pdf",
-    "sha256": "ee0dec1210f79f7eb92c2a8736e36dc3b941bbed35d14d63af66fcf07098b2c0",
-    "bytes": 7165
+    "sha256": "29ac0d2ca354ccfa53224b44a668b6cbd81ae008db6d9b7da069fe25fd3b9d7d",
+    "bytes": 7229
   },
   {
     "path": "public/resources/enzyme-activity-teacher-guide.pdf",
-    "sha256": "6d5ea82832a28af3d9e8437aa9b3678ceb107ab4ddff37aecbff566d5e88bb00",
-    "bytes": 6907
+    "sha256": "1e88559308e728eab204c206fb367b2bc7f252bbaff3dde23e43e869e40e99ea",
+    "bytes": 7096
   },
   {
     "path": "public/resources/enzyme-activity-worksheet.pdf",
-    "sha256": "cdc6d1fee2ac702d6987b514589c52dec430b395f40a7c550b41e40b168d51f8",
-    "bytes": 7197
+    "sha256": "8b460e61cb11f8b9270e2385c03e79a9e6415886651b037fb342e57534acf48d",
+    "bytes": 7176
   },
   {
     "path": "public/resources/fermentation-model-evidence.html",
@@ -66,33 +66,33 @@
   },
   {
     "path": "public/resources/gel-electrophoresis-teacher-guide.pdf",
-    "sha256": "cd265cfbd8721159d4e536663e63c5000404f6ccb5a536852751ebd315a72a7d",
-    "bytes": 6842
+    "sha256": "6130918778ef951338d82e5f145ca3ef540cb26376c8d507893ebf661d50100c",
+    "bytes": 7022
   },
   {
     "path": "public/resources/gel-electrophoresis-worksheet.pdf",
-    "sha256": "456d0a57ee5ee06e00dd65530005928a2f060e2da86df2740fff2e0fb0cb88eb",
-    "bytes": 7038
+    "sha256": "d9b4a460b2b13e8843085641e7151236070326ecc8a6799e3bfddaf610fc29ac",
+    "bytes": 7099
   },
   {
     "path": "public/resources/inheritance-ratios-teacher-guide.pdf",
-    "sha256": "51584bab91cc1bf8f0da275f8ab078da39d66e82ed7bd8647925cdb708c17b3b",
-    "bytes": 6630
+    "sha256": "42158029be09b2c0321b38965d452137878c35c34518561a6b23c39eb95cfbd2",
+    "bytes": 6824
   },
   {
     "path": "public/resources/inheritance-ratios-worksheet.pdf",
-    "sha256": "e05793da8bde6b9e7f62294ea7a203de62bf174b578ac0568cce8e1f20436547",
-    "bytes": 6986
+    "sha256": "cc87fa57df45e8f0073a9c59a075fe4af412ea8e96129c9eab5f5e8d8e6c4d2a",
+    "bytes": 7111
   },
   {
     "path": "public/resources/lac-operon-teacher-guide.pdf",
-    "sha256": "20f2e4ebd654823513a51492bec5e97c091d827808a1b57b06de42002f89332d",
-    "bytes": 6884
+    "sha256": "6b6fbfcba1522cd298530ee98faac337cc19194932495c1ab397b3ff6b694cff",
+    "bytes": 7067
   },
   {
     "path": "public/resources/lac-operon-worksheet.pdf",
-    "sha256": "01b29a697e6062887c797b7f20bdf3e44145b5a65731fad29fbbe760ab75fdca",
-    "bytes": 7137
+    "sha256": "25f69c9f8ff42e99f95c2b2722421e65fa7fe90915c9cee5f46ab660cb22c87f",
+    "bytes": 7187
   },
   {
     "path": "public/resources/light-photosynthesis-teacher-guide.pdf",
@@ -106,23 +106,23 @@
   },
   {
     "path": "public/resources/linked-genes-teacher-guide.pdf",
-    "sha256": "ecc5049e3e41982afe3237d515ae3fa47b1cf3dc8b8f4b42b20cd3ef55fdb584",
-    "bytes": 6783
+    "sha256": "aa8d8075eab0678e2dad766ff58b30a22af0a7626e3ebc7f213145612baf3950",
+    "bytes": 6971
   },
   {
     "path": "public/resources/linked-genes-worksheet.pdf",
-    "sha256": "5ed7ca69db5329346bec85e5b0b611d9970c9052b0309557d30b314bc229d3cf",
-    "bytes": 7097
+    "sha256": "0d532a23cbf5f8e69213a0e2ec8dc12044eaf767e8710ebe38198a741c3ae28d",
+    "bytes": 7226
   },
   {
     "path": "public/resources/meiosis-variation-teacher-guide.pdf",
-    "sha256": "172a80348d96ad41b0b279120ce465058a9129979f7dc3db30979ba58f469be9",
-    "bytes": 6666
+    "sha256": "3d6b88ee58c4fd720d57f2478e0b5898c76a9a90ba54f1efab98d7fd587f0cf1",
+    "bytes": 7182
   },
   {
     "path": "public/resources/meiosis-variation-worksheet.pdf",
-    "sha256": "23070e2f5e2ad2d30467231a6deff84e2099a5113c50ba5175fb0b231cd26a6b",
-    "bytes": 6908
+    "sha256": "c33662666fb4c6dbf22987deaf51e8dc75d8be806cde1473cda8c5e6c828ae92",
+    "bytes": 9376
   },
   {
     "path": "public/resources/mitosis-teacher-guide.pdf",
@@ -133,6 +133,16 @@
     "path": "public/resources/mitosis-worksheet.pdf",
     "sha256": "a7fe13041a97d9f742f4a3ee14571162fdaaed636cad67d070197b5230d724db",
     "bytes": 9871
+  },
+  {
+    "path": "public/resources/sordaria-crossing-over-teacher-guide.pdf",
+    "sha256": "4dd66f4008b062d6e3c280979612da648d7dea7455fa73e0461c5369e96e3f40",
+    "bytes": 6853
+  },
+  {
+    "path": "public/resources/sordaria-crossing-over-worksheet.pdf",
+    "sha256": "ce8f4656694eeef8eb1f8f4b81c54a904dece4406ade96a3ea196f79639fd7e2",
+    "bytes": 6893
   },
   {
     "path": "public/resources/yeast-fermentation-balloon-teacher-guide.pdf",

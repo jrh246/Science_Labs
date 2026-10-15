@@ -1,5 +1,5 @@
 import {test,expect} from '@playwright/test';
-import {extendedLabs} from '../../src/investigations/extended-content.js';
+import {extendedLabs,sordariaExtension} from '../../src/investigations/extended-content.js';
 test('all new preview labs and PDFs survive offline reload at the deployment subpath',async({page,context})=>{
  await page.goto('/Science_Labs/dev/investigation.html?lab=light-photosynthesis');
  await expect(page.getByRole('complementary',{name:'Development preview'})).toBeVisible();
@@ -12,7 +12,7 @@ test('all new preview labs and PDFs survive offline reload at the deployment sub
  await expect(page.getByRole('heading',{name:'Matter cycles. Energy flows.'})).toBeVisible();
  await page.locator('[data-card="light"]').click();await page.locator('[data-place="photo-energy"]').click();
  expect(await page.evaluate(()=>Object.keys(localStorage).some(k=>k==='science-labs:/Science_Labs/dev/:matter-cycle:v2'))).toBeTruthy();
- for(const [id,title] of [['light-photosynthesis','Light and Photosynthesis'],['yeast-fermentation','Yeast Fermentation and Fuel Sources'],['mitosis','Measuring Mitosis'],...extendedLabs.map(c=>[c.id,c.title])]){
+ for(const [id,title] of [['light-photosynthesis','Light and Photosynthesis'],['yeast-fermentation','Yeast Fermentation and Fuel Sources'],['mitosis','Measuring Mitosis'],...[...extendedLabs,sordariaExtension].map(c=>[c.id,c.title])]){
   await page.goto('/Science_Labs/dev/investigation.html?lab='+id);await page.reload();
   await expect(page.getByRole('heading',{name:title,exact:true})).toBeVisible();
   if(id==='light-photosynthesis'){await page.getByRole('button',{name:'2. Collect observations',exact:true}).click();await expect(page.locator('leaf-simulator').getByRole('heading',{name:'Control the lamp'})).toBeVisible();}

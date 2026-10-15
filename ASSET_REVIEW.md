@@ -28,3 +28,7 @@ ASSET_INVENTORY.json records public/source paths, byte counts and SHA-256 hashes
 ## Remaining limits
 
 No identified asset requires removal based on the evidence reviewed. This conclusion relies on the owner's confirmation for the supplied PDFs and the repository's visible source/build history; it is not a guarantee against an unknown third-party claim. Physical classroom procedures still need a teacher pilot using actual supplies. Future commercial distribution, newly imported artwork, proprietary materials or disputed provenance should receive an item-specific review.
+
+## Interactive revision provenance
+
+The chromosome strips, allele graphics, corn sampling diagram, equipment icons and CSS animations were authored in this repository. No supplier artwork, worksheet or specimen photograph was imported. The handout generator now produces 22 PDFs: ten primary student/teacher pairs plus the retained Sordaria extension pair. ASSET_INVENTORY.json was refreshed after generation.
