@@ -1,7 +1,7 @@
 import {test,expect} from '@playwright/test';
 test('three classroom methods offer distinct PDFs and leave the virtual gas syringe unchanged',async({page,context})=>{
  for(const route of ['/#/science/biology/the-cell/yeast-fermentation','/investigation.html?lab=yeast-fermentation']){
-  await page.goto(route);const chooser=page.locator('fermentation-downloads');await expect(chooser.getByRole('heading',{name:'Classroom lab options'})).toBeVisible();
+  await page.goto(route);const chooser=page.locator('fermentation-downloads');if(route.startsWith('/investigation')){await expect(chooser).toBeHidden();await page.locator('.classroom-options > summary').click();await expect(chooser).toBeVisible();}else await expect(chooser.getByRole('heading',{name:'Classroom lab options'})).toBeVisible();
   for(const method of ['balloon','cylinder','syringe']){
    await chooser.getByLabel('Classroom collection method').selectOption(method);
    for(const kind of ['worksheet','teacher-guide']){
