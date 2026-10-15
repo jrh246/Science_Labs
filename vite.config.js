@@ -9,7 +9,7 @@ const resources=existsSync('public/resources')?readdirSync('public/resources').f
 export default defineConfig({
   build: {rollupOptions: {input: {...(hasActivity ? {activity: resolve('activity.html')} : {}), library: resolve('index.html'), ...(hasLab ? {lab: resolve('lab.html')} : {}), ...(hasInvestigation ? {investigation: resolve('investigation.html')} : {})}}},
   plugins: [{name: 'offline-cache', enforce: 'post', generateBundle: {order: 'post', handler(_, bundle) {
-    const files = [...new Set(['./', './index.html', ...(hasActivity?['./activity.html']:[]), ...resources, ...(hasInvestigation?['./investigation.html']:[]), ...(hasLab ? ['./lab.html'] : []), './manifest.json', './icons/lab.svg', ...Object.keys(bundle).map(x => './' + x)])];
+    const files = [...new Set(['./', './index.html', ...(hasActivity?['./activity.html']:[]), ...resources, ...(hasInvestigation?['./investigation.html']:[]), ...(hasLab ? ['./lab.html'] : []), './manifest.json', './icons/lab.svg', './THIRD_PARTY_NOTICES.txt', ...Object.keys(bundle).map(x => './' + x)])];
     const hash = createHash('sha256').update(JSON.stringify(bundle));
     // Resource-only revisions must invalidate old offline worksheets too.
     for(const file of resources)hash.update(readFileSync(resolve('public',file)));

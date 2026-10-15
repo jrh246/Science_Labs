@@ -14,13 +14,13 @@ test('navigate from landing through units to the working lab and back',async({pa
  await expect(page.getByRole('heading',{name:'Prepare the beakers'})).toBeVisible();
 });
 test('search, shareable results, planned details, empty results, and unknown routes',async({page})=>{
- await page.goto('/');await page.getByLabel('Search the library',{exact:true}).fill('enzyme');
+ await page.goto('/');await page.getByLabel('Search the library',{exact:true}).fill('surface tension');
  await page.getByRole('button',{name:'Submit library search'}).click();
  await expect(page.locator('.lab-card')).toHaveCount(1);await page.reload();
- await page.getByRole('link',{name:'What Affects Enzyme Activity?',exact:true}).click();
+ await page.getByRole('link',{name:'Water and Surface Tension',exact:true}).click();
  await expect(page.getByText('An investigation in the making')).toBeVisible();
  await expect(page.getByRole('link',{name:'Launch virtual lab'})).toHaveCount(0);
- await page.goto('/#/search?q=&available=1');await expect(page.locator('.lab-card')).toHaveCount(4);
+ await page.goto('/#/search?q=&available=1');await expect(page.locator('.lab-card')).toHaveCount(14);
  await page.goto('/#/search?q=unfindable');await expect(page.getByRole('heading',{name:'No matching investigations'})).toBeVisible();
  await page.goto('/#/science/biology/missing');await expect(page.getByRole('heading',{name:'That page isn’t in the library.'})).toBeVisible();
 });

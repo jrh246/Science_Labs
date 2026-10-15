@@ -1,3 +1,4 @@
+import {extendedById} from './investigations/extended-content.js';
 // Stable IDs are independent of titles, textbook editions, and future assignment IDs.
 export const units = [
   ['chemistry-of-life','The Chemistry of Life','Explore the molecules and interactions that make life possible.',1,3],
@@ -64,7 +65,10 @@ export const labs = proposals.map(([id,title,summary,chapterTitle],i)=>({
   type:'lab',status:[4,6,7,9].includes(i)?'available':'planned',modes:[6,7,9].includes(i)?['Virtual','Classroom']:i===4?['Virtual']:[],
   version:1, launchUrl:i===4?'./lab.html':[6,7,9].includes(i)?`./investigation.html?lab=${id}`:null,
   resources:[6,7,9].includes(i)?[{label:'Student worksheet (PDF)',url:`./resources/${id}-worksheet.pdf`},{label:'Teacher guide (PDF)',url:`./resources/${id}-teacher-guide.pdf`}]:[],
-}));
+})).map(lab=>{
+ const c=extendedById[lab.id];
+ return c?{...lab,title:c.title,summary:c.question,status:'available',modes:['Virtual','Classroom'],launchUrl:`./investigation.html?lab=${lab.id}`,resources:[{label:'Student worksheet (PDF)',url:`./resources/${lab.id}-worksheet.pdf`},{label:'Teacher guide (PDF)',url:`./resources/${lab.id}-teacher-guide.pdf`}]}:lab;
+});
 export const labPath = lab => `/science/biology/${lab.unitId}/${lab.id}`;
 export function searchCatalog(query,{availableOnly=false}={}) {
   const terms=query.toLowerCase().trim().split(/\s+/).filter(Boolean);

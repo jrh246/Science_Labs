@@ -1,0 +1,207 @@
+[
+  {
+    "path": "public/icons/lab.svg",
+    "sha256": "aea66a2ac644a74e031db2119e6b35f5a87dc3b358a2ca18eb30e7f48562f97d",
+    "bytes": 336
+  },
+  {
+    "path": "public/manifest.json",
+    "sha256": "3fe1395847f27a55c34c35dbefeafc837b74869134a7a193da7acc0c4645f9bb",
+    "bytes": 246
+  },
+  {
+    "path": "public/resources/cell-microscopy-teacher-guide.pdf",
+    "sha256": "22fa800891256e239bf624dad8d82932d2d2f32edadd7f696e37765ee8bf6fab",
+    "bytes": 6642
+  },
+  {
+    "path": "public/resources/cell-microscopy-worksheet.pdf",
+    "sha256": "1b7ba7bf6fdb1cafc7aea7794101dbabfcd7bcabcadbc139a34bb44aa478d4be",
+    "bytes": 7116
+  },
+  {
+    "path": "public/resources/cell-signaling-teacher-guide.pdf",
+    "sha256": "957d9110a9da1bd918a435875833cc64dd3743e573e2ef4a1a2ba3b72cfc4784",
+    "bytes": 6677
+  },
+  {
+    "path": "public/resources/cell-signaling-worksheet.pdf",
+    "sha256": "ecfc3f76e51021c7fbece235e8a63dc18b01c348b2365dba435a0b509483aca0",
+    "bytes": 7080
+  },
+  {
+    "path": "public/resources/dna-protein-teacher-guide.pdf",
+    "sha256": "a80935b0fb42c76416a2febfa8314dcf7d7574e000971df5659bb44dcb686df7",
+    "bytes": 6790
+  },
+  {
+    "path": "public/resources/dna-protein-worksheet.pdf",
+    "sha256": "031015d4db46bbe488b7b6de724986d80c85fdabdb0e732e045e7c7ec69d0a92",
+    "bytes": 7148
+  },
+  {
+    "path": "public/resources/dna-replication-teacher-guide.pdf",
+    "sha256": "d4f68f175726f14500fa5e3853e54020de6f1901e7984d19047896d149a190d6",
+    "bytes": 6819
+  },
+  {
+    "path": "public/resources/dna-replication-worksheet.pdf",
+    "sha256": "ee0dec1210f79f7eb92c2a8736e36dc3b941bbed35d14d63af66fcf07098b2c0",
+    "bytes": 7165
+  },
+  {
+    "path": "public/resources/enzyme-activity-teacher-guide.pdf",
+    "sha256": "6d5ea82832a28af3d9e8437aa9b3678ceb107ab4ddff37aecbff566d5e88bb00",
+    "bytes": 6907
+  },
+  {
+    "path": "public/resources/enzyme-activity-worksheet.pdf",
+    "sha256": "cdc6d1fee2ac702d6987b514589c52dec430b395f40a7c550b41e40b168d51f8",
+    "bytes": 7197
+  },
+  {
+    "path": "public/resources/fermentation-model-evidence.html",
+    "sha256": "15b1b3e014d36cd1bde651cb87ad91b0fe4fd44e203d665e43cbaefe841b0200",
+    "bytes": 7439
+  },
+  {
+    "path": "public/resources/gel-electrophoresis-teacher-guide.pdf",
+    "sha256": "cd265cfbd8721159d4e536663e63c5000404f6ccb5a536852751ebd315a72a7d",
+    "bytes": 6842
+  },
+  {
+    "path": "public/resources/gel-electrophoresis-worksheet.pdf",
+    "sha256": "456d0a57ee5ee06e00dd65530005928a2f060e2da86df2740fff2e0fb0cb88eb",
+    "bytes": 7038
+  },
+  {
+    "path": "public/resources/inheritance-ratios-teacher-guide.pdf",
+    "sha256": "51584bab91cc1bf8f0da275f8ab078da39d66e82ed7bd8647925cdb708c17b3b",
+    "bytes": 6630
+  },
+  {
+    "path": "public/resources/inheritance-ratios-worksheet.pdf",
+    "sha256": "e05793da8bde6b9e7f62294ea7a203de62bf174b578ac0568cce8e1f20436547",
+    "bytes": 6986
+  },
+  {
+    "path": "public/resources/lac-operon-teacher-guide.pdf",
+    "sha256": "20f2e4ebd654823513a51492bec5e97c091d827808a1b57b06de42002f89332d",
+    "bytes": 6884
+  },
+  {
+    "path": "public/resources/lac-operon-worksheet.pdf",
+    "sha256": "01b29a697e6062887c797b7f20bdf3e44145b5a65731fad29fbbe760ab75fdca",
+    "bytes": 7137
+  },
+  {
+    "path": "public/resources/light-photosynthesis-teacher-guide.pdf",
+    "sha256": "28baa9c32d54c210817c88161fc9e6abf7c055da2435ef694ebf9b268ac359a4",
+    "bytes": 68929
+  },
+  {
+    "path": "public/resources/light-photosynthesis-worksheet.pdf",
+    "sha256": "0755b74f1accaf7a96f5b17d68274e376bfb6b457bad936d7b6fa10440637c25",
+    "bytes": 67994
+  },
+  {
+    "path": "public/resources/linked-genes-teacher-guide.pdf",
+    "sha256": "ecc5049e3e41982afe3237d515ae3fa47b1cf3dc8b8f4b42b20cd3ef55fdb584",
+    "bytes": 6783
+  },
+  {
+    "path": "public/resources/linked-genes-worksheet.pdf",
+    "sha256": "5ed7ca69db5329346bec85e5b0b611d9970c9052b0309557d30b314bc229d3cf",
+    "bytes": 7097
+  },
+  {
+    "path": "public/resources/meiosis-variation-teacher-guide.pdf",
+    "sha256": "172a80348d96ad41b0b279120ce465058a9129979f7dc3db30979ba58f469be9",
+    "bytes": 6666
+  },
+  {
+    "path": "public/resources/meiosis-variation-worksheet.pdf",
+    "sha256": "23070e2f5e2ad2d30467231a6deff84e2099a5113c50ba5175fb0b231cd26a6b",
+    "bytes": 6908
+  },
+  {
+    "path": "public/resources/mitosis-teacher-guide.pdf",
+    "sha256": "9e56d679cbb8562ed1b236655340f1b25f428d0c9c19065672c3340e54e505ff",
+    "bytes": 8602
+  },
+  {
+    "path": "public/resources/mitosis-worksheet.pdf",
+    "sha256": "a7fe13041a97d9f742f4a3ee14571162fdaaed636cad67d070197b5230d724db",
+    "bytes": 9871
+  },
+  {
+    "path": "public/resources/yeast-fermentation-balloon-teacher-guide.pdf",
+    "sha256": "3b735803795fcbb4d9d1e546ce68fcfab20a1a10d92a7c2174d3ed602ac44e83",
+    "bytes": 10535
+  },
+  {
+    "path": "public/resources/yeast-fermentation-balloon-worksheet.pdf",
+    "sha256": "2c15c5ebe7a93f890838ea8de5c6e6cebd0aa8207b2e594a0f49c4e5c87c1589",
+    "bytes": 8964
+  },
+  {
+    "path": "public/resources/yeast-fermentation-classroom-teacher-guide.pdf",
+    "sha256": "4a901023de8a210bb13af8661f3a3697b540fee84afbed72979a015bd7f123e3",
+    "bytes": 11451
+  },
+  {
+    "path": "public/resources/yeast-fermentation-classroom-worksheet.pdf",
+    "sha256": "95f3e73839efc69cd72bce17e6d96c8ae775e35c59daa6b96f88ba5db595dbde",
+    "bytes": 9331
+  },
+  {
+    "path": "public/resources/yeast-fermentation-cylinder-teacher-guide.pdf",
+    "sha256": "c7c10e00979f210d145f89e9b1dda6d56681d91acae02527d0dbbf6a556481ba",
+    "bytes": 10926
+  },
+  {
+    "path": "public/resources/yeast-fermentation-cylinder-worksheet.pdf",
+    "sha256": "d375f5db7718b87e5e5d1e5d684bf6ee5baa07e418c64c711a01a1d1c4336684",
+    "bytes": 9387
+  },
+  {
+    "path": "public/resources/yeast-fermentation-syringe-teacher-guide.pdf",
+    "sha256": "e294f0cbe32b8a1572e9cd43332ebfec1cdc224412d384c3d11aea090870bb16",
+    "bytes": 10799
+  },
+  {
+    "path": "public/resources/yeast-fermentation-syringe-worksheet.pdf",
+    "sha256": "6d8b1a69356c1a58cc17177809ea0b0a015313e9207753027d2f458236507314",
+    "bytes": 9269
+  },
+  {
+    "path": "public/resources/yeast-fermentation-teacher-guide.pdf",
+    "sha256": "96e82ea17e2c6ca2e1b2368806c72db70d9994409c7f644fb9a63dcf057d9ed3",
+    "bytes": 158078
+  },
+  {
+    "path": "public/resources/yeast-fermentation-worksheet.pdf",
+    "sha256": "9d8edaf79f654b4c0a2d3590cbf89a69e2e372a31ec995eb9f55d19a49feb7cc",
+    "bytes": 186774
+  },
+  {
+    "path": "public/THIRD_PARTY_NOTICES.txt",
+    "sha256": "9ff13425ac1a39fba1a121760d1a0365043ac22b539285ddcbec68e5a1ee25ff",
+    "bytes": 103677
+  },
+  {
+    "path": "resources/source/Cellular_Respiration_Add_On_Cutouts.pdf",
+    "sha256": "c1fa3409c74192fdf8152ecb96e5c2a973d8c6d4e7b0d22ac3cbe73a813f8649",
+    "bytes": 71533
+  },
+  {
+    "path": "resources/source/Cellular_Respiration_Teacher_Instructions.pdf",
+    "sha256": "36dbbc1d44415129eee2cf9d83d5e982ce84921681849bacbdad4398d0158da3",
+    "bytes": 44985
+  },
+  {
+    "path": "resources/source/Photosynthesis_Color_Cutouts.pdf",
+    "sha256": "a0d4f8c4ba588796ecc75aba9e825f9e39fb3b3e167bba81f4e650ea34208696",
+    "bytes": 83590
+  }
+]

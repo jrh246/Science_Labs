@@ -1,4 +1,6 @@
 import '../fermentation-downloads.js';
+import {extendedById} from './extended-content.js';
+import {bootExtended} from './extended-app.js';
 import '../preview.js';
 import '../library.css';
 import './lab.css';
@@ -16,7 +18,8 @@ import {escape,cell,apparatus,chart} from './visuals.js';
 const params=new URLSearchParams(location.search);
 const c=investigations[params.get('lab')];
 const app=document.querySelector('#app');
-if(!c){app.innerHTML='<main><h1>Choose an investigation</h1><p>This lab address is not recognized.</p><a href="./#/science/biology/the-cell">Return to The Cell unit</a></main>';}
+if(extendedById[params.get('lab')])bootExtended(extendedById[params.get('lab')],app);
+else if(!c){app.innerHTML='<main><h1>Choose an investigation</h1><p>This lab address is not recognized.</p><a href="./#/science/biology/the-cell">Return to The Cell unit</a></main>';}
 else boot();
 function boot(){
  const virtualWorkspace=['leaf','yeast','mitosis'].includes(c.kind)&&params.get('mode')==='virtual';

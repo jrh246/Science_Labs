@@ -6,13 +6,13 @@ test('every planned chapter has a unique lab in the correct unit',()=>{
  assert.equal(new Set(labs.map(l=>l.id)).size,47);
  assert.equal(new Set(labs.map(labPath)).size,47);
  for(const lab of labs){const unit=units.find(u=>u.id===lab.unitId);assert.ok(unit);assert.ok(lab.chapter>=unit.start&&lab.chapter<=unit.end);assert.ok(!/chapter \d/i.test(lab.title));}
- assert.deepEqual(labs.filter(l=>l.status==='available').map(l=>l.id),['osmosis-homeostasis','yeast-fermentation','light-photosynthesis','mitosis']);
+ assert.deepEqual(labs.filter(l=>l.status==='available').map(l=>l.chapter),Array.from({length:14},(_,i)=>i+4));
  assert.ok(labs.filter(l=>l.status==='planned').every(l=>!l.launchUrl));
 });
 test('search finds topics, references, and units with availability filtering',()=>{
  assert.equal(searchCatalog('OSMOSIS')[0].id,'osmosis-homeostasis');
  assert.ok(searchCatalog('chapter 8').some(l=>l.chapter===8));
  assert.ok(searchCatalog('genetics').some(l=>l.chapter===13));
- assert.equal(searchCatalog('',{availableOnly:true}).length,4);
+ assert.equal(searchCatalog('',{availableOnly:true}).length,14);
  assert.equal(searchCatalog('unfindable').length,0);
 });

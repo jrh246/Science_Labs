@@ -1,5 +1,7 @@
 # Next labs and downloadable resources
 
+Current expansion: see LAB_BUILD_TASKS.md for the ten new cell/genetics labs and ASSET_REVIEW.md for the October 14 asset review. The sections below retain the earlier development history.
+
 Implementation order: **8. Light and Photosynthesis → 7. Yeast Fermentation and Fuel Sources → 10. Measuring Mitosis**. Numbers are textbook references, not lab titles.
 
 ## Initial development release
