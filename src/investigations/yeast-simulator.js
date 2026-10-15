@@ -4,8 +4,8 @@ import styles from './yeast-simulator.css?inline';
 export const fermentationLesson=`<section class="panel"><h2>How does the gas-collection apparatus work?</h2><p>A flask holds the mixture. A fitted stopper and tube connect it to a gas syringe. Gas entering the barrel can move the freely sliding plunger; the scale measures the collected volume in milliliters.</p><p>A water bath keeps mixtures at a consistent temperature. Use matched amounts, a fresh mixture for each trial, and the same observation time. In a real setup, check for leaks and never block the plunger.</p><p><strong>Before testing:</strong> Predict how the available sugar might affect the measurements. Explain what the no-added-sugar treatment helps you compare.</p></section>`;
 class YeastSimulator extends HTMLElement{
  init(config){
-  this.config=config;this.r=restoreYeastRun(config.state,config.condition,config.trial,config.seed);this.speed=60;this.running=false;this.busy=false;this.note='';
-  if(config.guided&&(this.r.ticks>120||this.r.bath!==30||!this.r.yeast||(this.r.prepared&&this.r.fuel!==config.condition)))this.r=newYeastRun(config.condition,config.trial,config.seed);
+  this.config=config;this.r=restoreYeastRun(config.state,config.condition,config.trial,config.seed,config.modelVersion);this.speed=60;this.running=false;this.busy=false;this.note='';
+  if(config.guided&&(this.r.ticks>120||this.r.bath!==30||!this.r.yeast||(this.r.prepared&&this.r.fuel!==config.condition)))this.r=newYeastRun(config.condition,config.trial,config.seed,config.modelVersion);
   this.attachShadow({mode:'open'});
   this.shadowRoot.addEventListener('click',e=>{const b=e.target.closest('button');if(!b||b.disabled)return;this.focusTarget=b.dataset.fuel?`[data-fuel="${b.dataset.fuel}"]`:`[data-action="${b.dataset.action}"]`;
    if(b.dataset.fuel){this.r.fuel=b.dataset.fuel;this.publish();this.render();return;}
@@ -16,7 +16,7 @@ class YeastSimulator extends HTMLElement{
    if(a==='advance')this.advance(5);
    if(a==='finish')this.advance(30-this.r.ticks/4);
    if(a==='collect'){this.dispatchEvent(new CustomEvent('yeast-collect',{bubbles:true,detail:{state:this.r,readings:yeastReadings(this.r)}}));return;}
-   if(a==='fresh'){if(!confirm('Replace this unfinished mixture? Download exploration data first if you want to keep it.'))return;this.stop();this.r=newYeastRun(config.condition,config.trial,config.seed);this.note='Fresh flask. Choose a treatment and prepare a new mixture.';}
+   if(a==='fresh'){if(!confirm('Replace this unfinished mixture? Download exploration data first if you want to keep it.'))return;this.stop();this.r=newYeastRun(config.condition,config.trial,config.seed,config.modelVersion);this.note='Fresh flask. Choose a treatment and prepare a new mixture.';}
    this.publish();this.render();
   });
   this.shadowRoot.addEventListener('input',e=>{if(e.target.id==='bath'&&!config.guided){this.r.bath=Number(e.target.value);this.publish();this.updateLive();}});

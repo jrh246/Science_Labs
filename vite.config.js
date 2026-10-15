@@ -5,7 +5,7 @@ import {createHash} from 'node:crypto';
 const hasActivity = existsSync(resolve('activity.html'));
 const hasLab = existsSync(resolve('lab.html'));
 const hasInvestigation = existsSync(resolve('investigation.html'));
-const resources=existsSync('public/resources')?readdirSync('public/resources').filter(x=>x.endsWith('.pdf')).map(x=>'./resources/'+x):[];
+const resources=existsSync('public/resources')?readdirSync('public/resources').filter(x=>x.endsWith('.pdf')||x==='fermentation-model-evidence.html').map(x=>'./resources/'+x):[];
 export default defineConfig({
   build: {rollupOptions: {input: {...(hasActivity ? {activity: resolve('activity.html')} : {}), library: resolve('index.html'), ...(hasLab ? {lab: resolve('lab.html')} : {}), ...(hasInvestigation ? {investigation: resolve('investigation.html')} : {})}}},
   plugins: [{name: 'offline-cache', enforce: 'post', generateBundle: {order: 'post', handler(_, bundle) {

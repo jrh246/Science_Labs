@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Fermentation model: evidence and assumptions | Science Labs</title><style>body{font:17px/1.6 system-ui,sans-serif;color:#243e34;background:#fafbf7;max-width:900px;margin:auto;padding:24px}h1,h2{line-height:1.2}a{color:#185b4c}table{border-collapse:collapse;width:100%;font-size:.9rem}td,th{border:1px solid #bdcdc2;padding:12px;text-align:left;vertical-align:top}th{background:#e7efdf}.scroll{overflow:auto}.note{border-left:4px solid #42745e;padding:12px;background:#edf3e9}code{overflow-wrap:anywhere}@media print{body{font-size:11pt;padding:0}}</style></head><body>
+<a href="../investigation.html?lab=yeast-fermentation">Return to the fermentation lab</a>
+<h1>Fermentation model: evidence and assumptions</h1>
+<p>Evidence review and revised teaching model, October 2026. This page explains the design; it is not an experimental dataset. Students should make predictions before reading the model discussion.</p>
+<h2>What the evidence supports</h2>
+<p>Glucose can enter yeast hexose transport and glycolysis without disaccharide hydrolysis. Sucrose commonly undergoes invertase-mediated hydrolysis into glucose and fructose. However, a glucose treatment need not produce immediately measurable gas, and sucrose need not wait for newly synthesized enzyme: the physiological state and enzyme activity of the inoculum matter.</p>
+<p>It is too strong to say yeast cannot take up sucrose. Direct sucrose uptake can be important under some conditions, including adaptation to sucrose. <a href="https://www.jstage.jst.go.jp/article/jgam1955/42/4/42_4_297/_article">Mwesigye and Barford (1996), Mechanism of sucrose utilisation</a>.</p>
+<p>A study of three strains found different invertase activity and sucrose-growth behavior. This supports allowing biological variation, not assigning a universal sugar ranking. Those aerobic bioreactor growth results do not calibrate a 30-minute classroom gas-syringe curve. <a href="https://pubmed.ncbi.nlm.nih.gov/33826723/">Rodrigues, Wahl and Gombert (2021)</a>.</p>
+<p>Rapid sucrose hydrolysis also does not make glucose and fructose uptake identical: a fermentation study found preferential glucose uptake in mixed hexoses. <a href="https://academic.oup.com/jimb/article/4/4/315/5987389">Sugar utilization by yeast during fermentation (1989)</a>.</p>
+<h2>Checking the supplied summaries</h2>
+<ul>
+<li>The 2018 undergraduate report found similar glucose and sucrose CO₂ concentration slopes over ten minutes, with no significant difference between those two treatments. Its probe saturated near eight minutes. It does not establish a consistent early glucose lead or a 20–60 minute crossover. <a href="https://undergradsciencejournals.okstate.edu/index.php/JUBLI/article/viewFile/8728/1869">Crancer et al., supplied report</a>.</li>
+<li>The UNE student report found a larger sucrose mean after sixty minutes with three replicates, but substantial variation. It reported an overall three-group ANOVA, which alone does not establish a glucose-versus-sucrose difference, and did not establish a time-resolved catch-up trajectory. <a href="https://files.uneportfolio.org/wp-content/uploads/sites/890/2018/04/Lab-Write-Up-III.pdf">Niles (2018), supplied student report</a>.</li>
+<li>The supplied 2004 review discusses effects of preferred sugars in industrial yeast. Its abstract does not establish the proposed minute-by-minute curve. <a href="https://pubmed.ncbi.nlm.nih.gov/15450747/">Verstrepen et al. (2004)</a>.</li>
+<li>The second undergraduate report's landing page was accessible, but its PDF could not be retrieved during this review. Its title alone was not used to calibrate kinetics. Homework-answer sites, informal Q&amp;A and video claims were not used as model-parameter evidence.</li>
+</ul>
+<h2>Equal moles are not equal masses</h2>
+<p>Ideal complete alcoholic fermentation produces 2 mol CO₂ per mol glucose and 4 mol CO₂ per mol sucrose, with water consumed in sucrose hydrolysis. This lab instead supplies equal sugar masses: 2 g in 50 mL. Using molar masses of about 180.16 and 342.30 g/mol:</p>
+<p><code>(4 / 342.30) / (2 / 180.16) = 1.0526</code></p>
+<p>Thus sucrose has approximately 5.3% greater theoretical CO₂ yield per gram, not twice the yield. This is a stoichiometric ceiling under complete conversion, not a prediction of the rate or collected volume at thirty minutes. Hydrated glucose products change the mass comparison. The simulation is far from substrate exhaustion and does not use this ratio to force an endpoint.</p>
+<h2>Implemented scenario: gradual startup</h2>
+<p class="note">Version 2 is a phenomenological teaching scenario. The mechanism motivates a slower sucrose startup; the exact minute values and mL/min rates below are design assumptions, not fitted experimental constants. This represents one possible preparation, not all yeast strains or conditions.</p>
+<div class="scroll"><table><thead><tr><th>Component</th><th>Design choice</th><th>Interpretation</th></tr></thead><tbody>
+<tr><td>Initial lag</td><td>Seeded 1–4 minutes for either sugar</td><td>Represents startup/detection delay; no claim of instantaneous measurable glucose gas.</td></tr>
+<tr><td>Glucose startup</td><td>Time constant 1.2 minutes after lag</td><td>Fast gradual activation rather than an abrupt constant-rate switch.</td></tr>
+<tr><td>Sucrose startup</td><td>Seeded time constant 4–7 minutes after lag</td><td>Effective substrate-availability ramp. Does not explicitly simulate invertase concentration, transport or sugar pools.</td></tr>
+<tr><td>Mature base rates at 30°C</td><td>Glucose 0.94; sucrose 0.98 mL/min</td><td>Similar late rates, with sucrose modestly higher in a matched illustrative run. This difference is not derived from the 5.3% yield calculation.</td></tr>
+<tr><td>Trial variability</td><td>Seeded multiplier 0.88–1.12</td><td>Independent trials can overlap; no forced rank or cumulative crossover by 30 minutes.</td></tr>
+<tr><td>Temperature</td><td>Existing thermal equilibration and simplified factor 2^((T−30)/10)</td><td>Changes later accumulation; not calibrated thermal physiology.</td></tr>
+</tbody></table></div>
+<p>For active age a after the lag, the sugar-dependent rate is R × variation × (1 − exp(−a/τ)). Volume integrates that rate in quarter-minute steps. The no-added-sugar background remains small; no-yeast runs produce no biological gas in the model.</p>
+<p>Compare early (0–5 minute) and late (25–30 minute) slopes, total volume, and variation across independent trials. A sucrose curve may reach a similar or slightly higher late rate while still having a lower total volume because of its earlier deficit.</p>
+<h2>Limits and saved work</h2>
+<p>The gas syringe displays collected volume, not ATP production. The model omits substrate depletion, actual biomass growth, specific enzyme kinetics, dissolved-gas losses, leaks, thermal expansion and damage. It does not establish oxygen absence. Longer exploration is illustrative and stops at syringe capacity or 120 minutes.</p>
+<p>Existing investigations retain version 1 for all remaining trials and keep their data. New investigations and an explicit lab reset use version 2. Exports identify the model version. Download old work before resetting; the app does not silently rewrite recorded observations.</p>
+</body></html>

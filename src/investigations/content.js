@@ -55,7 +55,7 @@ export const investigations = {
    'Repeat with fresh mixtures for trials 2 and 3. Pool independent trials from class groups for a single-period lab; sequential repeats require additional time. Compare volume change divided by elapsed time, retain outliers, and explain suspected problems.',
   ],
   safety:'Use baker’s yeast only. Do not taste cultures. Never seal gas production in a rigid closed container or block the syringe plunger. Stop before apparatus capacity is reached. Teacher checks glassware and warm-water handling.',
-  model:'Volumes are illustrative, with a lag and trial variation. The virtual water bath changes gradually; temperature effects from 15 to 40 °C are simplified and omit thermal gas expansion, yeast damage, and substrate depletion. Glucose and sucrose responses overlap; their ranking is not universal. The water control can show small background gas. The model does not establish anaerobic conditions or identify collected gas chemically.',
+  model:'Volumes are illustrative, with a lag, gradual startup, and trial variation. Revised kinetics illustrate substrate availability; the minute-scale parameters are not fitted to experimental data. Saved older investigations retain their earlier kinetics. The virtual water bath changes gradually; temperature effects from 15 to 40 °C are simplified and omit thermal gas expansion, yeast damage, and substrate depletion. Glucose and sucrose responses overlap; their ranking is not universal. The water control can show small background gas. The model does not establish anaerobic conditions or identify collected gas chemically.',
   interpretation:'Average gas accumulation rate = (final volume − initial volume) / elapsed minutes. Gas from yeast is consistent with CO₂ production, but volume alone does not prove fermentation rather than aerobic metabolism or directly measure ATP yield.',
   questions:[
    'Compare the mean gas accumulation rates for the three treatments. Use numerical evidence and discuss overlap between trials.',
@@ -68,7 +68,7 @@ export const investigations = {
    'Fermentation regenerates NAD+ so glycolysis can continue. Fermentation and anaerobic respiration are different pathways; yeast gas volume does not uniquely establish which metabolic processes occurred.',
    'No-added-sugar is not necessarily zero because yeast has internal reserves and apparatus has background effects. A no-yeast control and leak/temperature checks strengthen the inference.',
   ],
-  sources:[['OpenStax Biology 2e, 7.5','https://openstax.org/books/biology-2e/pages/7-5-metabolism-without-oxygen']],
+  sources:[['Scientific evidence and simulation assumptions','./resources/fermentation-model-evidence.html'],['Sucrose physiology varies by strain (Rodrigues et al., 2021)','https://pubmed.ncbi.nlm.nih.gov/33826723/'],['Mechanism of sucrose utilisation (Mwesigye and Barford, 1996)','https://www.jstage.jst.go.jp/article/jgam1955/42/4/42_4_297/_article'],['OpenStax Biology 2e, 7.5','https://openstax.org/books/biology-2e/pages/7-5-metabolism-without-oxygen']],
  },
  'mitosis': {
   id:'mitosis',title:'Measuring Mitosis',chapter:10,kind:'mitosis',duration:'40–55 minutes',
