@@ -1,4 +1,19 @@
 import {specimens,cellLength,valueAt,bands,ladder,bandDistance} from './extended-model.js';
+import {escape as escapeText} from './visuals.js';
+
+export function comparisonGraph(c,records){
+ if(!c.duration||['gel','extraction'].includes(c.kind))return '';
+ const series=c.conditions.map((label,index)=>{
+  const rows=records.filter(r=>r.source==='virtual'&&r.conditionIndex===index&&r.readings.length);
+  const times=[...new Set(rows.flatMap(r=>r.readings.map(p=>p[0])))].sort((a,b)=>a-b);
+  return {label,n:rows.length,points:times.map(t=>{const values=rows.flatMap(r=>r.readings.filter(p=>p[0]===t).map(p=>p[1]));return [t,values.reduce((a,b)=>a+b,0)/values.length];})};
+ }).filter(s=>s.n);
+ if(!series.length)return '';
+ const colors=['#176b80','#b74b12','#6d43a6','#287335'],dashes=['','9 5','2 5','10 4 2 4'];
+ const ymax=Math.max(1,...series.flatMap(s=>s.points.map(p=>p[1])));
+ const chart=svg('Comparison of mean virtual readings by treatment',`<path d="M70 30V260H555" fill="none" stroke="#668585"/>${[0,.25,.5,.75,1].map(f=>text(12,264-f*220,(f*ymax).toFixed(1),12)+text(65+f*475,282,(f*c.duration).toFixed(1),12)).join('')}${series.map((s,i)=>`<polyline points="${s.points.map(([x,y])=>`${70+x/c.duration*475},${260-y/ymax*220}`).join(' ')}" fill="none" stroke="${colors[i]}" stroke-width="3" stroke-dasharray="${dashes[i]}"/>`).join('')}${text(80,20,escapeText(c.unit),12)}${text(240,313,escapeText(c.timeUnit),12)}`);
+ return `<section class="ext-comparison"><h3>Compare treatments over time</h3>${chart}<ul class="ext-legend">${series.map((s,i)=>`<li><svg viewBox="0 0 44 16" aria-hidden="true"><path d="M2 8H42" stroke="${colors[i]}" stroke-width="3" stroke-dasharray="${dashes[i]}"/></svg><span>${escapeText(s.label)} — mean of ${s.n} virtual sample${s.n===1?'':'s'}</span></li>`).join('')}</ul><p>Curves summarize saved virtual readings only. Classroom observations remain separate in the table.</p></section>`;
+}
 const text=(x,y,t,size=14)=>`<text x="${x}" y="${y}" font-size="${size}" fill="#234852">${t}</text>`;
 const svg=(title,body)=>`<svg viewBox="0 0 600 330" role="img" aria-label="${title}" xmlns="http://www.w3.org/2000/svg"><title>${title}</title><defs><linearGradient id="glass"><stop stop-color="#afd7dd" stop-opacity=".7"/><stop offset=".4" stop-color="#fff" stop-opacity=".25"/><stop offset="1" stop-color="#75b4c1" stop-opacity=".5"/></linearGradient></defs>${body}</svg>`;
 export function specimenArt(kind,type,scale=1){
@@ -11,8 +26,8 @@ export function apparatusArt(c,r){let body='';const p=r.time/(c.duration||1),val
   const len=cellLength(r),width=r.objective===40?len*2:len*.5;const focus=Math.abs(r.focus-50)/10;
   body=`<path d="M42 275H172L157 255H74V130L121 69L143 90L110 146V225H160V240H65" fill="#4d6e75" stroke="#244b58" stroke-width="5"/><path d="M113 72L130 40L157 54L140 89" fill="#728e96" stroke="#244b58" stroke-width="4"/><circle cx="83" cy="174" r="13" fill="#afc3ca"/><rect x="124" y="186" width="67" height="9" fill="#354c55"/><circle cx="144" cy="232" r="11" fill="${r.prepared>=2?'#f4cf6b':'#75868a'}"/><circle cx="385" cy="150" r="130" fill="${r.prepared>=2?'#edf0d1':'#23383c'}" stroke="#658387" stroke-width="8"/>`;
   if(loaded&&r.prepared>=2)body+=`<g style="filter:blur(${focus}px)"><${r.conditionIndex===2?'ellipse':'rect'} ${r.conditionIndex===2?`cx="385" cy="145" rx="${width/2}" ry="20"`:`x="${385-width/2}" y="99" width="${width}" height="90" rx="10"`} fill="${r.conditionIndex===1?'#c0d695':'#e5d1df'}" stroke="#607561" stroke-width="3"/><ellipse cx="385" cy="141" rx="12" ry="17" fill="#8e739c"/>${r.conditionIndex===1?Array.from({length:10},(_,i)=>`<ellipse cx="${335+(i%5)*24}" cy="${i<5?113:173}" rx="7" ry="5" fill="#527d42"/>`).join(''):''}</g>`;
-  body+=`<path d="M${385-width/2} 217h${r.ruler*4}" stroke="#a04735" stroke-width="4"/>`+text(245,296,`Ruler: ${r.ruler} divisions | 40x calibration: 2 µm/div`,12)+text(34,316,`10x eyepiece × ${r.objective}x objective = ${r.objective*10}x`,13);
-  if(r.prepared>=3)body+=Array.from({length:21},(_,i)=>`<path d="M${245+i*12} 235v${i%5?8:15}" stroke="#42605e"/>`).join('');
+  body+=`<path d="M${385-width/2} 217h${r.ruler*(r.objective===40?4:1)}" stroke="#a04735" stroke-width="4"/>`+text(245,296,`Ruler: ${r.ruler} divisions | 40x calibration: 2 µm/div`,12)+text(34,316,`10x eyepiece × ${r.objective}x objective = ${r.objective*10}x`,13);
+  if(r.prepared>=3)body+=Array.from({length:Math.min(21,Math.floor((560-(385-width/2))/(r.objective===40?20:5))+1)},(_,i)=>`<path d="M${385-width/2+i*(r.objective===40?20:5)} 235v${i%2?8:15}" stroke="#42605e"/>${i%2?'':text(385-width/2+i*(r.objective===40?20:5),264,i*5,9)}`).join('');
  }
  if(c.kind==='enzyme'){
   body=`<rect x="30" y="155" width="220" height="150" rx="12" fill="#cadfe9" stroke="#779fac"/><path d="M45 180h190" stroke="#5c9ab2"/>${text(42,290,`Bath ${r.setting} C`)}<path d="M105 90v60L65 235Q62 252 82 252h114Q216 252 210 235l-40-85V90Z" fill="url(#glass)" stroke="#527a86" stroke-width="3"/>${loaded?'<path d="M95 190l-22 48h130l-22-48Z" fill="#cbbd88"/>':''}<rect x="102" y="79" width="71" height="21" rx="4" fill="#65777b"/>${r.prepared>=2?'<path d="M139 80V44H304V104" stroke="#6a9aa0" stroke-width="8" fill="none"/>':''}<rect x="285" y="104" width="235" height="66" rx="5" fill="url(#glass)" stroke="#527a86" stroke-width="3"/><rect x="${300+value*6}" y="108" width="9" height="58" fill="#425967"/><path d="M${309+value*6} 137H560M560 111v52" stroke="#718b94" stroke-width="7"/>${Array.from({length:11},(_,i)=>`<path d="M${300+i*20} 105v${i%2?12:22}" stroke="#365c67"/>`).join('')}${text(286,200,`${value.toFixed(1)} mL collected`)}${text(286,224,'Free-moving gas syringe',12)}`;

@@ -13,9 +13,10 @@ for(const c of extendedLabs)test(`${c.id}: complete comparison, restore, analyze
  const errors=[];page.on('pageerror',err=>errors.push(err.message));await page.goto('/investigation.html?lab='+c.id);await expect(page.getByRole('heading',{name:c.title,exact:true})).toBeVisible();
  await expect(page.locator('#classroom-options')).not.toHaveAttribute('open','');
  await page.getByLabel('Prediction —').fill('Predict a measurable difference based on the treatment.');await page.getByRole('button',{name:'Begin observations'}).click();
- await expect(page.locator('[data-act="collect"]')).toBeDisabled();
+ await expect(page.locator('[data-act="collect"]')).toBeDisabled();await expect(page.locator('.ext-next-step')).toContainText(c.steps[0]);
  for(const job of sequence(c))await finish(page,c);
  await expect(page.getByRole('heading',{name:'Comparison complete'})).toBeVisible();await page.reload();await expect(page.getByRole('heading',{name:'Comparison complete'})).toBeVisible();
+ if(c.duration&&!['gel','extraction'].includes(c.kind)){await expect(page.locator('.ext-legend li')).toHaveCount(c.conditions.length);await expect(page.locator('.ext-legend svg')).toHaveCount(c.conditions.length);}
  await page.getByRole('button',{name:'Analyze evidence',exact:true}).click();await expect(page.locator('.ext-scroll tbody tr')).toHaveCount(sequence(c).length);
  for(let i=0;i<3;i++)await page.locator(`[data-note="answer-${i}"]`).fill('Claim supported by my observations, with uncertainty and a control.');
  await page.getByRole('button',{name:'Mark work complete'}).click();await expect(page.getByRole('status')).toContainText('complete');

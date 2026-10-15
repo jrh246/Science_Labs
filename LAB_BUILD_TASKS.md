@@ -43,3 +43,14 @@ These are operational software labs with illustrative models, not experimentally
 - [ ] Choose kit variants, storage and viewing equipment for cell-free and reporter-expression work.
 - [ ] Confirm electrophoresis buffer, voltage, staining and time against purchased equipment.
 - [ ] Collect classroom feedback on timing, accessibility, worksheets and interpretation.
+
+## Follow-up polish review
+
+- [x] Compare the ten new labs with the original guided preparation, collection, review and exploration flow.
+- [x] Add actionable preparation and collection prompts.
+- [x] Add mean time-series comparison plots with colored line-style legends; keep classroom data separate and ordinal scores unconnected.
+- [x] Summarize all three gel bands and include fluorescence alongside colony counts.
+- [x] Align microscope ruler graduations with the selected objective.
+- [x] Verify all ten complete workflows, mobile layout, restore/export, offline deployment and production/dev isolation.
+
+Validation: 35 unit tests, 11 new-lab browser checks, 2 deployment checks; production build verifies 53 cached URLs.
