@@ -32,3 +32,5 @@ No identified asset requires removal based on the evidence reviewed. This conclu
 ## Interactive revision provenance
 
 The chromosome strips, allele graphics, corn sampling diagram, equipment icons and CSS animations were authored in this repository. No supplier artwork, worksheet or specimen photograph was imported. The handout generator now produces 22 PDFs: ten primary student/teacher pairs plus the retained Sordaria extension pair. ASSET_INVENTORY.json was refreshed after generation.
+
+Corn realism revision: rounded kernel highlights, cob gradients and husks are original SVG/CSS in corn-art.js. No photographs or third-party art were imported. Fermentation recipe revision follows Rick's classroom feedback; eight packet hashes were refreshed.

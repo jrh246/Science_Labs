@@ -146,13 +146,13 @@
   },
   {
     "path": "public/resources/yeast-fermentation-balloon-teacher-guide.pdf",
-    "sha256": "3b735803795fcbb4d9d1e546ce68fcfab20a1a10d92a7c2174d3ed602ac44e83",
-    "bytes": 10535
+    "sha256": "548f72372f9af7edf89d8c2747e1d7184e5e8347affb1b763df577c74fdbbb40",
+    "bytes": 10937
   },
   {
     "path": "public/resources/yeast-fermentation-balloon-worksheet.pdf",
-    "sha256": "2c15c5ebe7a93f890838ea8de5c6e6cebd0aa8207b2e594a0f49c4e5c87c1589",
-    "bytes": 8964
+    "sha256": "d45049fd0771ff8336dbb6e6ed68d397daab030b82dc7511a6e918004b8cadec",
+    "bytes": 9121
   },
   {
     "path": "public/resources/yeast-fermentation-classroom-teacher-guide.pdf",
@@ -166,33 +166,33 @@
   },
   {
     "path": "public/resources/yeast-fermentation-cylinder-teacher-guide.pdf",
-    "sha256": "c7c10e00979f210d145f89e9b1dda6d56681d91acae02527d0dbbf6a556481ba",
-    "bytes": 10926
+    "sha256": "252e3465f53d100384fd7f1a85448856c1bd0fe0e76b5cb138dfedd07dd12ba6",
+    "bytes": 11352
   },
   {
     "path": "public/resources/yeast-fermentation-cylinder-worksheet.pdf",
-    "sha256": "d375f5db7718b87e5e5d1e5d684bf6ee5baa07e418c64c711a01a1d1c4336684",
-    "bytes": 9387
+    "sha256": "e5dbb933828e812a7793c615bce0670d83685edd21d97115bb835991a5301486",
+    "bytes": 9548
   },
   {
     "path": "public/resources/yeast-fermentation-syringe-teacher-guide.pdf",
-    "sha256": "e294f0cbe32b8a1572e9cd43332ebfec1cdc224412d384c3d11aea090870bb16",
-    "bytes": 10799
+    "sha256": "9334cd20baa33c2cad85dc04cd07d1fc0648939bc7f02590a975511179697d42",
+    "bytes": 11241
   },
   {
     "path": "public/resources/yeast-fermentation-syringe-worksheet.pdf",
-    "sha256": "6d8b1a69356c1a58cc17177809ea0b0a015313e9207753027d2f458236507314",
-    "bytes": 9269
+    "sha256": "35d7d4e079242048b859365b70267dc7dd216eab27a95382bf51b15e58253bea",
+    "bytes": 9429
   },
   {
     "path": "public/resources/yeast-fermentation-teacher-guide.pdf",
-    "sha256": "96e82ea17e2c6ca2e1b2368806c72db70d9994409c7f644fb9a63dcf057d9ed3",
-    "bytes": 158078
+    "sha256": "051fdc5766c5a50b3f6900b586677ddff2d926c90dcbcf66fda07759bd863551",
+    "bytes": 159503
   },
   {
     "path": "public/resources/yeast-fermentation-worksheet.pdf",
-    "sha256": "9d8edaf79f654b4c0a2d3590cbf89a69e2e372a31ec995eb9f55d19a49feb7cc",
-    "bytes": 186774
+    "sha256": "57bda9254b8aac73d86a44768648ab2989eafa23125dd98c4fb52a161d96b971",
+    "bytes": 186974
   },
   {
     "path": "public/THIRD_PARTY_NOTICES.txt",

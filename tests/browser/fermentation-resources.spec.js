@@ -2,8 +2,9 @@ import {test,expect} from '@playwright/test';
 test('three classroom methods offer distinct PDFs and leave the virtual gas syringe unchanged',async({page,context})=>{
  for(const route of ['/#/science/biology/the-cell/yeast-fermentation','/investigation.html?lab=yeast-fermentation']){
   await page.goto(route);const chooser=page.locator('fermentation-downloads');if(route.startsWith('/investigation')){await expect(chooser).toBeHidden();await page.locator('.classroom-options > summary').click();await expect(chooser).toBeVisible();}else await expect(chooser.getByRole('heading',{name:'Classroom lab options'})).toBeVisible();
+  await expect(chooser).toContainText('20 g yeast in 500 mL water');await expect(chooser).toContainText('160 g glucose or sucrose in 1,000 mL water');
   for(const method of ['balloon','cylinder','syringe']){
-   await chooser.getByLabel('Classroom collection method').selectOption(method);
+   await chooser.getByLabel('Classroom collection method').selectOption(method);if(method==='balloon')await expect(chooser.locator('#description')).toContainText('60 minutes');
    for(const kind of ['worksheet','teacher-guide']){
     const path=`./resources/yeast-fermentation-${method}-${kind}.pdf`;await expect(chooser.locator(`a[href="${path}"]`)).toBeVisible();
     const r=await page.request.get(path);expect(r.ok()).toBeTruthy();expect((await r.body()).subarray(0,4).toString()).toBe('%PDF');

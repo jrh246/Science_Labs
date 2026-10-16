@@ -63,7 +63,7 @@ METHODS=[
  baseline='Record V0 before the first timed reading. Retain raw Vt readings; calculate net volume = Vt - V0. Flag an unexpected decrease rather than silently replacing it.',
  result='net collected volume',count='n')]
 for METHOD in METHODS:
- m=METHOD; balloon=m['id']=='balloon';unit=m['unit'];result=m['result']
+ m=METHOD; balloon=m['id']=='balloon';unit=m['unit'];result=m['result'];schedule=list(range(0,61,10)) if balloon else list(range(0,31,5))
  T=title('Teacher guide','1. Organize a full comparison set')+[
  p('Question: How does the available sugar affect gas accumulation in a yeast culture? This download is specifically for '+m['label'].lower()+'. Use the same method for all flasks in a pooled comparison.'),
  h('Equipment and measurement'),p(m['equipment']),p(m['principle']),
@@ -71,14 +71,16 @@ for METHOD in METHODS:
  table([['Students','Example allocation of the 9 flasks'],['18: nine pairs','Each pair prepares 1.'],['12: six pairs','Three pairs prepare 2; three pairs prepare 1.'],['10: five pairs','Four pairs prepare 2; one pair prepares 1.'],['9: three pairs and one trio','Each team prepares 2; the teacher prepares the ninth. Or assign the trio 3.']],[160,344]),Spacer(1,12),
  p('Assign one or two flask IDs per pair and record ownership on page 4. Roles: mix/prepare, measure/time, record/share. Pairs can combine roles. Each flask needs its own start time and elapsed-time record.'),
  p('Demo: distribute observation and analysis roles while the teacher operates equipment. If using just one flask per treatment, report n = 1; do not call three time readings three trials. Share matched independent class trials to complete a set.'),
- p('Allow about 10-15 minutes to plan/prepare, 30 minutes to observe, and 15-20 minutes to pool/analyze. Use a second lesson for analysis if needed. Pilot the equipment and small-flask volumes before class.'),
+ p('Allow 10-15 minutes to prepare, '+('60 minutes for balloon observations' if balloon else 'up to 30 minutes for gas-volume observations, stopping sooner at equipment capacity')+', and 15-20 minutes to analyze. Balloon work may need two lessons. The classroom pilot took longer than 30 minutes for balloon inflation; doubling the recipe is a new trial condition, not a guaranteed shorter lag.'),
  PageBreak()]+title('Teacher guide','2. Stocks, flask sizes, and supply planning')+[
  p('Choose one flask size and recipe per pooled set. These are proposed pilot volumes, not a promise of measurable gas in one lesson. Keep all treatments at the same measured temperature; a teacher-managed 30 C water bath is one possible condition.'),
  table([['Flask capacity','Treatment stock*','Yeast suspension','Final liquid'],['50 mL','10 mL','10 mL','20 mL'],['100 mL','20 mL','20 mL','40 mL'],['Custom: ____ mL','____ mL','____ mL','____ mL']],[126]*4),
  p('*Plain water for N; glucose stock for G; sucrose stock for S. Examples leave 60% headspace for gas/foam. Lower the fill if the pilot requires it; do not fill a 50 mL flask with 50 mL culture.','Small'),
- h('Optional stock recipe'),
- p('For each sugar: dissolve 80 g glucose OR sucrose and bring to a final volume of 1,000 mL with water (8% mass/volume). Disperse 20 g dry baker\'s yeast and bring to 1,000 mL (2% suspension). Keep plain water separately. Equal volumes of sugar stock and yeast give 4% sugar and 1% yeast in the flask. N has no added sugar.'),
- p('These match the virtual mass concentrations, not its 50 mL culture volume. Record the glucose product (including any dextrose monohydrate). Equal sugar mass is not equal molarity. Teachers may substitute a piloted recipe.'),
+ h('Revised classroom stocks - keep yeast and sugar separate'),
+ table([['Batch option','Yeast stock','Each sugar stock'],['500 mL water per stock','20 g yeast + 500 mL water','80 g glucose OR sucrose + 500 mL water'],['1,000 mL water per stock','40 g yeast + 1,000 mL water','160 g glucose OR sucrose + 1,000 mL water']],[110,197,197]),
+ p('Target: 20 g yeast and 80 g sugar per 1,000 mL total water when combining matched batches. Prepare glucose and sucrose in separate labeled bottles. The no-added-sugar control uses plain water in place of sugar stock.'),
+ p('Volumes above mean WATER ADDED, not solution made up to final volume. Dissolved sugar increases volume. Equal measured stock aliquots are a practical approximation; combine equal fractions of the two prepared batches to preserve the exact per-water recipe. Do not label these as exact mass/volume percentages.','Small'),
+ p('This is twice the earlier classroom recipe. It differs from the virtual 0.5 g yeast + 2 g sugar in 50 mL final mixture; do not compare absolute gas volumes as if recipes matched. Record glucose product and any recipe deviations.','Small'),
  p('Prepare labeled sugar stocks ahead. Prepare yeast close to use following package hydration guidance. Do not add sugar to shared yeast stock. Gently resuspend before EVERY aliquot because yeast settles. Use separate labeled transfer tools and equilibrate all stocks to the chosen test temperature.'),
  table([['For one 9-flask set','50 mL flasks','100 mL flasks'],['Plain water / glucose / sucrose (each)','30 mL','60 mL'],['Yeast suspension (all 9)','90 mL','180 mL'],['Sets from 1 L of EACH stock*','11','5']],[256,124,124]),
  p('*Before losses; yeast is limiting. For B sets and V mL of each stock per flask: each treatment stock = 3 x B x V; yeast = 9 x B x V. Allow extra for spills, pilot and optional controls.','Small'),
@@ -86,7 +88,7 @@ for METHOD in METHODS:
  PageBreak()]+title('Teacher guide','3. Set up, measure, and interpret')+[
  p(m['setup']),
  p('Label assigned flasks; dispense treatment stock first. Gently resuspend yeast stock immediately before each aliquot. Add yeast last, mix consistently, promptly connect the collector and start that flask\'s timer. Record the initial reading and any connection delay.'),
- p('Read at 0, 5, 10, 15, 20, 25 and 30 elapsed minutes, or a shared teacher-selected schedule. '+m['read']),
+ p('Read at '+', '.join(map(str,schedule))+' elapsed minutes, or a shared teacher-selected schedule. '+m['read']),
  p(m['baseline']+' '+m['flags']),
  h('Pooling and interpretation'),
  p(('Average only comparable numeric circumferences; report n and the number NI at each time. If NI occurs, label any numeric-only mean; it does not represent all three flasks. ' if balloon else 'Subtract each flask\'s own V0 before pooling. Average comparable net volumes and report actual n at each time. ')+ 'Keep raw readings and flag leaks, missing data and any exclusions; do not silently discard unusual results.'),
@@ -115,6 +117,7 @@ for METHOD in METHODS:
  h('Teacher-selected setup'),
  table([['Setting','Your assignment'],['Method / measurement / unit',m['label']+' / '+m['measurement']+' / '+unit],['Flask capacity / final liquid','____ mL / ____ mL'],['Treatment stock / yeast suspension per flask','____ mL / ____ mL'],['Sugar stock / yeast stock concentration','____________ / ____________'],['Temperature / interval / end time','____ C / ____ min / ____ min']],[230,274]),Spacer(1,10),
  p('Prediction: Compare the three treatments and explain your reasoning.'),lines(3),Spacer(1,8),p('What will you change and measure? Name three things to keep the same.'),lines(3),Spacer(1,8),
+ p('Revised classroom target: 20 g yeast + 80 g sugar per 1,000 mL total water. Stock options are 20 g yeast / 500 mL water and 80 g sugar / 500 mL water; or 40 g and 160 g, respectively, per 1,000 mL water each. Water-added amounts are not exact final solution volumes.','Small'),
  p('Confirm IDs, stock labels, volumes and timing with your teacher. Wear eye protection, do not taste cultures, and never seal a culture in a rigid closed container. Follow the teacher\'s equipment setup instructions.','Small'),
  PageBreak()]+title('Student worksheet','2. Prepare and record your own flasks')+[
  p('Label each flask and add its assigned treatment stock. Have the yeast stock gently remixed before taking your aliquot. Add yeast last, mix consistently, promptly connect the '+('balloon' if balloon else 'gas collector')+', and start that flask\'s timer. Use a fresh mixture per flask.'),
@@ -122,7 +125,7 @@ for METHOD in METHODS:
  p('Flask A ID: ____ Treatment: __________ Start time: ____ Temp: ____ C','Small'),
  p('Flask B ID: ____ Treatment: __________ Start time: ____ Temp: ____ C','Small'),
  p('Measurement: '+m['measurement']+' ('+unit+'). '+('Record actual circumference in each column.' if balloon else 'Baseline V0: A ____ mL; B ____ mL. Net = raw Vt - V0.'),'Small'),
- table(([['Elapsed min*','A ('+unit+')','B ('+unit+')','Notes']] if balloon else [['Elapsed min*','A raw mL','A net mL','B raw mL','B net mL','Notes']])+[[str(t)]+['']*(3 if balloon else 5) for t in range(0,31,5)], [80,100,100,224] if balloon else [70,70,70,70,70,154],height=30),
+ table(([['Elapsed min*','A ('+unit+')','B ('+unit+')','Notes']] if balloon else [['Elapsed min*','A raw mL','A net mL','B raw mL','B net mL','Notes']])+[[str(t)]+['']*(3 if balloon else 5) for t in schedule], [80,100,100,224] if balloon else [70,70,70,70,70,154],height=30),
  p('*Use the teacher-assigned schedule if different. Each flask has its own elapsed time. Leave B unused if you have only one flask. '+('Record first visible inflation separately: A ____ min; B ____ min.' if balloon else 'Do not reset or empty the collector during a trial. Stop before it reaches capacity and tell the teacher.'),'Small'),
  p('Describe problems or observations; keep raw readings and explain any flags.'),lines(3),Spacer(1,8),p(m['safety'],'Small'),
  p('Share flask IDs, readings, units, temperature and notes. Nine separate flasks are nine trials; repeated time readings from one flask are still one trial.','Small'),
@@ -130,7 +133,7 @@ for METHOD in METHODS:
  p('Set ID: ______  Measurement: '+result+' ('+unit+')','Small'),
  p('Pool matching recipes, flask sizes and equipment. Keep virtual data separate. '+m['flags']+('' if balloon else ' Copy net volumes, after subtracting each flask\'s own initial reading.'),'Small')]
  for name,prefix in [('No added sugar','N'),('Glucose','G'),('Sucrose','S')]:
-  S += [h(name),table([['Elapsed min',prefix+'1',prefix+'2',prefix+'3','Mean ('+unit+')',m['count']],*[[str(t),'','','',''] for t in range(0,31,5)]],[78,65,65,65,111,120],height=18),Spacer(1,5)]
+  S += [h(name),table([['Elapsed min',prefix+'1',prefix+'2',prefix+'3','Mean ('+unit+')',m['count']],*[[str(t),'','','',''] for t in schedule]],[78,65,65,65,111,120],height=18),Spacer(1,5)]
  S += [p('Mean = sum of comparable numeric readings / number of readings (n). '+('Report NI separately; a numeric-only mean with n below 3 does not represent all three flasks. ' if balloon else 'Record actual n if readings are missing or excluded. ')+'Retain flagged readings and explain exclusions. Relabel times if the teacher assigns a different schedule.','Small'),PageBreak()]+title('Student worksheet','4. Compare evidence and explain')+[
  p('Graph '+result+' ('+unit+') versus elapsed minutes. Label scales and units. Use different colors or symbols and a legend for the treatments. Mark missing'+('/NI' if balloon else '')+' data as gaps, not zero; label means with n when below three.','Small'),Graph(),p('Legend: No sugar ______  Glucose ______  Sucrose ______','Small'),
  p('1. Compare treatments using numbers, units and variation among trials. Does the treatment with the highest final reading also have the fastest increase over the final interval?'),lines(2),Spacer(1,8),

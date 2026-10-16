@@ -1,3 +1,4 @@
+import {cornKernel} from './corn-art.js';
 import {specimens,cellLength,valueAt,bands,ladder,bandDistance} from './extended-model.js';
 import {escape as escapeText} from './visuals.js';
 
@@ -18,7 +19,7 @@ const text=(x,y,t,size=14)=>`<text x="${x}" y="${y}" font-size="${size}" fill="#
 const svg=(title,body)=>`<svg viewBox="0 0 600 330" role="img" aria-label="${title}" xmlns="http://www.w3.org/2000/svg"><title>${title}</title><defs><linearGradient id="glass"><stop stop-color="#afd7dd" stop-opacity=".7"/><stop offset=".4" stop-color="#fff" stop-opacity=".25"/><stop offset="1" stop-color="#75b4c1" stop-opacity=".5"/></linearGradient></defs>${body}</svg>`;
 export function specimenArt(kind,type,scale=1){
  if(kind==='asci'){const patterns=[[0,0,0,0,1,1,1,1],[0,0,1,1,1,1,0,0],[0,0,1,1,0,0,1,1]];return `<svg viewBox="0 0 200 65" role="img" aria-label="Ordered spore colors: ${patterns[type].map(x=>x?'tan':'dark').join(', ')}"><rect x="6" y="12" width="188" height="40" rx="20" fill="#eef1de" stroke="#71978b"/>${patterns[type].map((s,i)=>`<ellipse cx="${20+i*23}" cy="32" rx="8" ry="13" fill="${s?'#d5a46e':'#302f34'}"/>`).join('')}</svg>`;}
- if(kind==='corn')return `<svg viewBox="0 0 50 55" role="img" aria-label="${type?'Yellow':'Purple'} kernel"><path d="M10 8Q25 0 40 8L39 37Q25 55 11 37Z" fill="${type?'#e7c46a':'#674264'}" stroke="#58422d" stroke-width="2"/><path d="M17 11Q25 7 32 11" stroke="#ffffff65" stroke-width="3" fill="none"/></svg>`;
+ if(kind==='corn')return cornKernel(type,type,'reference');
  const dark=[1,3].includes(type),short=[1,2].includes(type);return `<svg viewBox="0 0 120 105" role="img" aria-label="${dark?'Dark':'Gray'} body and ${short?'short':'long'} wings"><path d="M48 44L18 28M46 54L15 57M47 65L25 92M72 44L102 28M74 54L105 57M73 65L95 92" stroke="#364544" fill="none" stroke-width="3"/><ellipse cx="60" cy="62" rx="16" ry="28" fill="${dark?'#37313a':'#a5a9a4'}" stroke="#273632"/><path d="M45 62H75M46 72H74" stroke="#273632"/><ellipse cx="${short?43:36}" cy="${short?51:57}" rx="${short?10:17}" ry="${short?14:32}" transform="rotate(25 40 55)" fill="#d9e5e8bb" stroke="#5e7781"/><ellipse cx="${short?77:84}" cy="${short?51:57}" rx="${short?10:17}" ry="${short?14:32}" transform="rotate(-25 80 55)" fill="#d9e5e8bb" stroke="#5e7781"/><circle cx="60" cy="25" r="14" fill="${dark?'#38303b':'#a3a9a2'}"/><circle cx="51" cy="23" r="5" fill="#a34b42"/><circle cx="69" cy="23" r="5" fill="#a34b42"/></svg>`;
 }
 export function apparatusArt(c,r){let body='';const p=r.time/(c.duration||1),value=valueAt(c,r,r.time),loaded=r.prepared>0;

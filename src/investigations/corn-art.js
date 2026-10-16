@@ -1,0 +1,12 @@
+// Original vector artwork; geometry and highlights never change the scored phenotype.
+export function cornKernel(type,index=0,prefix='kernel'){
+ const id=`${prefix}-${index}`,purple=type===0;
+ const hue=purple?['#d4afd3','#9d6a9c','#673e67','#38243e']:['#fff1ba','#efcd70','#d4a347','#946327'];
+ const bend=(index*7%5)-2;
+ return `<svg viewBox="0 0 50 55" role="img" aria-label="${purple?'Purple':'Yellow'} kernel"><defs><radialGradient id="${id}" cx="32%" cy="24%" r="85%"><stop stop-color="${hue[0]}"/><stop offset=".32" stop-color="${hue[1]}"/><stop offset=".78" stop-color="${hue[2]}"/><stop offset="1" stop-color="${hue[3]}"/></radialGradient></defs><path d="M5 12Q${12+bend} 4 26 5Q43 4 46 13L45 37Q42 50 26 52Q9 51 5 39Z" fill="${hue[3]}" opacity=".5"/><path d="M5 10Q${12+bend} 2 26 3Q43 2 45 12L43 36Q40 48 26 49Q10 48 6 37Z" fill="url(#${id})" stroke="${hue[3]}" stroke-width=".8"/><path d="M11 13Q20 7 34 10" fill="none" stroke="${hue[0]}" stroke-width="2.5" stroke-linecap="round" opacity=".7"/><path d="M37 15Q41 29 34 41" fill="none" stroke="${hue[3]}" stroke-width="1.2" opacity=".35"/><path d="M15 37Q23 43 30 41" fill="none" stroke="${hue[0]}" stroke-width=".7" opacity=".3"/></svg>`;
+}
+
+export function cornEarPreview(index=0,neutral=false){
+ const id=`ear-preview-${index}-${neutral?'plain':'color'}`;
+ return `<svg viewBox="0 0 180 430" role="img" aria-label="${neutral?'Corn ear with sampling regions':'Genetic corn ear'}"><defs><linearGradient id="${id}"><stop stop-color="#70522e"/><stop offset=".28" stop-color="#dac48c"/><stop offset=".7" stop-color="#b19760"/><stop offset="1" stop-color="#60472b"/></linearGradient></defs><path d="M83 393l-8 32h28l-6-32" fill="#a68d59"/><path d="M90 8C35 10 25 65 27 130L32 348Q34 396 90 404Q146 396 148 348L153 130C155 65 145 10 90 8Z" fill="url(#${id})" stroke="#87683b" stroke-width="2"/>${Array.from({length:144},(_,j)=>{const row=Math.floor(j/6),col=j%6,w=14+Math.min(row,23-row,3)*1.1;const x=90+(col-2.5)*(w+1)-w/2,y=22+row*15.5;const color=neutral?'#d3ba7c':(j*17+index*11)%13<3?'#e7bd61':'#775176';return `<rect x="${x}" y="${y}" width="${w}" height="15" rx="5" fill="${color}" stroke="#694d34" stroke-width=".6"/><path d="M${x+3} ${y+3}h${w-7}" stroke="#fff3" stroke-width="1.4"/>`;}).join('')}<path d="M43 360Q17 338 16 276Q4 371 75 410L78 389Q50 380 43 360" fill="#a7a56a"/><path d="M137 360Q163 338 164 276Q176 371 105 410L102 389Q130 380 137 360" fill="#858b50"/><path d="M23 309Q25 375 72 399M157 309Q155 375 108 399" stroke="#d6cd91" fill="none" stroke-width="2"/></svg>`;
+}

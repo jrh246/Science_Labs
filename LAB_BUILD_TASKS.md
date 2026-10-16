@@ -69,3 +69,11 @@ Validation: 35 unit tests, 11 new-lab browser checks, 2 deployment checks; produ
 Equipment drawings remain original teaching illustrations. Preparation interactions are constrained to the assigned protocol; these are not unrestricted equipment simulators.
 
 Interactive revision verification: 37 unit tests, 13 browser walkthrough/interaction checks, and 2 deployment checks passed. The build verifies 55 offline-cache URLs, including the optional Sordaria handouts. All 22 PDFs were rendered and inspected.
+
+## Classroom pilot follow-up: corn and fermentation
+
+- Corn artwork now uses original rounded, shaded kernels, a tapered cob and husked ear previews; phenotype assignments and tallies are unchanged.
+- Rick reported balloon inflation taking longer than 30 minutes. Revised physical stocks use 20 g yeast / 500 mL water and 80 g of either sugar / 500 mL water, or double both masses and water volumes. The target is 20 g yeast + 80 g sugar per 1,000 mL water added, with an explicit distinction from final solution volume.
+- Balloon worksheets now offer 0-60 minutes at 10-minute intervals. Volume collectors retain their capacity-limited 0-30 minute schedule. Longer or different schedules remain teacher-selected.
+- Physical and virtual recipes are explicitly distinct; the virtual kinetic model was not recalibrated from this single classroom observation.
+- All eight fermentation PDFs were regenerated and rendered; targeted corn and resource browser checks passed.
