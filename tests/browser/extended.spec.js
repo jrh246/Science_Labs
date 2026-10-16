@@ -52,7 +52,17 @@ test('corn marks remain separate from tallies and restore at phone width',async(
  await page.setViewportSize({width:390,height:844});
  await page.goto('/investigation.html?lab=inheritance-ratios');await page.getByRole('button',{name:'Begin observations'}).click();
  await page.locator('[data-act="ear-0"]').click();await expect(page.locator('.corn-region-ear')).toBeVisible();
- await page.locator('[data-act="region-2"]').click();await page.locator('[data-act="mark-0"]').click();
+ await page.locator('[data-act="region-2"]').click();
+ const ear=await page.locator('.corn-ear').elementHandle(),kernel=await page.locator('[data-act="mark-0"]').elementHandle();
+ await page.locator('[data-act="mark-0"]').click();
+ expect(await ear.evaluate(el=>el===document.querySelector('.corn-ear'))).toBeTruthy();
+ expect(await kernel.evaluate(el=>el===document.querySelector('[data-act="mark-0"]'))).toBeTruthy();
+ await expect(page.locator('[data-act="mark-0"]')).toHaveAttribute('aria-pressed','true');
+ await page.locator('[data-act="mark-0"]').press('Space');
+ await expect(page.locator('[data-act="mark-0"]')).toHaveAttribute('aria-pressed','false');
+ await expect(page.locator('[data-act="mark-0"]')).toBeFocused();
+ await page.locator('[data-act="mark-0"]').press('Space');
+ expect(await ear.evaluate(el=>el===document.querySelector('.corn-ear'))).toBeTruthy();
  await expect(page.getByLabel('Purple tally',{exact:true})).toHaveText('0');await expect(page.getByLabel('Yellow tally',{exact:true})).toHaveText('0');
  await page.getByRole('button',{name:'Add Purple',exact:true}).click();await page.getByRole('button',{name:'Add Yellow',exact:true}).click();await page.getByRole('button',{name:'Subtract Yellow',exact:true}).click();
  await page.reload();await expect(page.getByLabel('Purple tally',{exact:true})).toHaveText('1');await expect(page.locator('[data-act="mark-0"]')).toHaveAttribute('aria-pressed','true');

@@ -70,7 +70,9 @@ export function bootExtended(c,app){
  else if(a.startsWith('ear-')){if(+a.slice(4)!==r.conditionIndex)return;r.prepared=1;}
  else if(a.startsWith('region-')){r.region=+a.slice(7);r.prepared=c.steps.length;}
  else if(a.startsWith('inspect-'))r.selected=+a.slice(8);
- else if(a.startsWith('mark-')){const i=+a.slice(5);r.marks=r.marks.includes(i)?r.marks.filter(x=>x!==i):[...r.marks,i];}
+ else if(a.startsWith('mark-')){const i=+a.slice(5);r.marks=r.marks.includes(i)?r.marks.filter(x=>x!==i):[...r.marks,i];
+ // Keep the corn specimen mounted so marking does not restart its arrival animation.
+ if(c.kind==='corn'){const marked=r.marks.includes(i);b.classList.toggle('marked',marked);b.setAttribute('aria-pressed',String(marked));b.setAttribute('aria-label',`Kernel ${i+1}${marked?', marked':''}`);b.querySelector('span').textContent=marked?'✓':String(i+1);save();app.querySelector('.ext-message').textContent=warning;return;}}
  else if(a.startsWith('tally-')){const [,op,index]=a.split('-'),i=+index;r.tallies[i]=Math.max(0,Math.min(c.count||4,r.tallies[i]+(op==='plus'?1:-1)));r.reviewed=false;}
  else if(a.startsWith('chromatid-')){const i=+a.slice(10);r.chromatids=[...r.chromatids.filter(x=>Math.floor(x/2)!==Math.floor(i/2)),i].sort();}
  else if(a.startsWith('cut-'))r.cut=+a.slice(4);
