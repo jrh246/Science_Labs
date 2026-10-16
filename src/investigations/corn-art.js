@@ -1,9 +1,16 @@
 // Original vector artwork; geometry and highlights never change the scored phenotype.
 export function cornKernel(type,index=0,prefix='kernel'){
  const id=`${prefix}-${index}`,purple=type===0;
- const hue=purple?['#777766','#3b3c32','#252521','#111515']:['#ffe675','#f9bc16','#da8d08','#80501a'];
- const bend=(index*7%5)-2,crease=19+index%7;
- return `<svg width="50" height="55" viewBox="0 0 50 55" preserveAspectRatio="none" role="img" aria-label="${purple?'Purple':'Yellow'} kernel"><defs><radialGradient id="${id}" cx="35%" cy="27%" r="78%"><stop stop-color="${hue[0]}"/><stop offset=".35" stop-color="${hue[1]}"/><stop offset=".78" stop-color="${hue[2]}"/><stop offset="1" stop-color="${hue[3]}"/></radialGradient></defs><path d="M2 9Q${8+bend} 1 22 2L37 3Q48 4 49 15L47 43Q44 53 32 54L13 53Q2 52 1 41Z" fill="url(#${id})" stroke="${hue[3]}" stroke-width="1.2"/><path d="M9 11Q18 6 34 9M8 16L7 30" fill="none" stroke="${hue[0]}" stroke-width="2" stroke-linecap="round" opacity=".45"/><path d="M${crease} 12Q${crease-5} 23 ${crease-1} 34M38 17Q43 33 37 45" fill="none" stroke="${hue[3]}" stroke-width="1.4" opacity="${purple?'.65':'.24'}"/><path d="M${crease+2} 14Q${crease-2} 25 ${crease+1} 32M12 44Q23 49 32 46" fill="none" stroke="${hue[0]}" stroke-width=".9" opacity=".3"/></svg>`;
+ // Stable variation keeps each kernel's appearance consistent when students tally or mark it.
+ let seed=Math.imul(index+1,2654435761)>>>0;
+ const random=()=>{seed=(Math.imul(seed,1664525)+1013904223)>>>0;return seed/4294967296;};
+ const tint=Math.round(random()*10)-5;
+ const hue=purple?[`hsl(${286+tint} 30% 66%)`,`hsl(${285+tint} 38% 43%)`,`hsl(${282+tint} 40% 30%)`,'#38203f']:['#ffe675','#f9bc16','#da8d08','#80501a'];
+ const top=2+random()*3,left=1+random()*2,right=47+random()*2;
+ const crown=20+random()*10,shoulder=12+random()*6,base=23+random()*9;
+ const crease=17+random()*12,tilt=(random()-.5)*7;
+ const shape=`M${left} 24C${left-1} ${shoulder} ${crown-14} ${top-1} ${crown} ${top}C${crown+14} ${top-1} ${right} ${shoulder-3} ${right} 24C${right+1} 39 ${base+14} 52 ${base} 53C${base-16} 55 ${left-1} 42 ${left} 24Z`;
+ return `<svg width="50" height="55" viewBox="0 0 50 55" preserveAspectRatio="none" role="img" aria-label="${purple?'Purple':'Yellow'} kernel"><defs><radialGradient id="${id}" cx="${30+random()*15}%" cy="${22+random()*12}%" r="78%"><stop stop-color="${hue[0]}"/><stop offset=".35" stop-color="${hue[1]}"/><stop offset=".78" stop-color="${hue[2]}"/><stop offset="1" stop-color="${hue[3]}"/></radialGradient></defs><g transform="rotate(${tilt} 25 28)"><path d="${shape}" fill="url(#${id})" stroke="${hue[3]}" stroke-width=".8"/><path d="M10 16Q${crown-4} ${top+3} ${crown+9} ${top+7}M8 22L8 29" fill="none" stroke="${hue[0]}" stroke-width="2" stroke-linecap="round" opacity=".4"/><path d="M${crease} 13Q${crease-5} 23 ${crease-1} ${30+random()*9}M38 19Q43 33 35 44" fill="none" stroke="${hue[3]}" stroke-width="1.2" opacity="${purple?'.42':'.24'}"/><path d="M${crease+2} 15Q${crease-2} 25 ${crease+1} 32M14 43Q23 49 32 45" fill="none" stroke="${hue[0]}" stroke-width=".9" opacity=".25"/></g></svg>`;
 }
 
 export function cornEarPreview(index=0,neutral=false){
