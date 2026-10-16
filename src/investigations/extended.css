@@ -41,3 +41,12 @@
 .corn-ear .marked:after{border-color:#fff;filter:drop-shadow(0 1px 1px #111)}
 .ear-preview>svg{overflow:visible}
 .ear-preview svg svg{width:50px;height:55px}
+
+/* Match the wide reference kernels, with neighboring surfaces almost touching. */
+.corn-ear{grid-template-columns:repeat(4,minmax(0,1fr));max-width:390px;padding:3px 2px 5px;gap:0}
+.corn-ear button{height:auto;min-height:0;aspect-ratio:2.05;display:block}
+.corn-ear button svg{position:absolute;inset:-1px -2px;width:calc(100% + 4px);height:calc(100% + 2px);pointer-events:none}
+.corn-ear button:nth-child(n){transform:none;filter:none}
+.corn-ear button:nth-child(4n+1),.corn-ear button:nth-child(4n){filter:brightness(.9)}
+.corn-ear button span{top:28%}
+.corn-ear .marked:after{inset:6px 20%;border-bottom-width:2px}
