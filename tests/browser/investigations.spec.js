@@ -54,9 +54,9 @@ test('mitosis supports classification feedback, manual fields, and duration chan
  await page.getByRole('button',{name:'Save field count'}).click();
  await page.getByRole('button',{name:'Analyze evidence →'}).click();
  await expect(page.locator('.screen-work table')).toContainText('40 cells');
- await expect(page.locator('.screen-work table tbody tr').first()).toContainText('18.00');
+ await expect(page.locator('.screen-work table tbody tr').first()).toContainText('20.40');
  await page.locator('#cycle-hours').fill('12');await page.locator('#cycle-hours').press('Tab');
- await expect(page.locator('.screen-work table tbody tr').first()).toContainText('9.00');
+ await expect(page.locator('.screen-work table tbody tr').first()).toContainText('10.20');
  await page.reload();await expect(page.locator('#cycle-hours')).toHaveValue('12');
 });
 test('six PDFs are linked and downloadable; lab routes work offline without cross-lab progress',async({page,context})=>{

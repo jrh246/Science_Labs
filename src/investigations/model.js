@@ -13,8 +13,9 @@ export function makeSeries(c,condition,trial,seed){
  const lag=condition==='none'?0:1+rng()*3;
  return times(c).map(time=>({time,value:Math.round(Math.max(0,time-lag)*rate*10)/10}));
 }
-export function fieldCells(field,seed){
- const counts=field==='field-a'?[14,3,1,1,1]:[13,3,2,1,1];
+export function fieldCells(field,seed,version=2){
+ // Small, curated samples: most cells are in interphase; rare phases may be absent in one field.
+ const counts=version===1?(field==='field-a'?[14,3,1,1,1]:[13,3,2,1,1]):(field==='field-a'?[18,1,1,0,0]:[17,1,0,1,1]);
  const cells=counts.flatMap((count,stage)=>Array(count).fill(stage));const rng=random(seed+(field==='field-a'?10:20));
  for(let i=cells.length-1;i>0;i--){const j=Math.floor(rng()*(i+1));[cells[i],cells[j]]=[cells[j],cells[i]];}
  return cells;
@@ -29,7 +30,7 @@ export function mean(values){return values.length?values.reduce((a,b)=>a+b,0)/va
 export function tally(answers){return stages.map((_,s)=>answers.filter(a=>a===s).length);}
 export function stageStats(counts,hours){const total=counts.reduce((a,b)=>a+b,0);return counts.map((count,i)=>({stage:stages[i],count,percent:total?count/total*100:0,hours:total?count/total*hours:0}));}
 export function validateReadings(c,values){return values.length===times(c).length&&values.every(v=>v!==''&&Number.isFinite(Number(v))&&Number(v)>=0&&Number(v)<=c.max&&(c.kind!=='leaf'||Number.isInteger(Number(v))));}
-export function fresh(c,sources){return {version:1,seed:Math.floor(Math.random()*1e9),step:0,sources:c.conditions.map((_,i)=>sources?.[i]==='classroom'?'classroom':'virtual'),notes:{prediction:'',design:'',observations:'',answers:['','','','']},runs:{},classifications:{},counts:{},reviewed:{},cycleHours:24,complete:false};}
+export function fresh(c,sources){return {version:1,...(c.kind==='mitosis'?{mitosisModelVersion:2}:{}),seed:Math.floor(Math.random()*1e9),step:0,sources:c.conditions.map((_,i)=>sources?.[i]==='classroom'?'classroom':'virtual'),notes:{prediction:'',design:'',observations:'',answers:['','','','']},runs:{},classifications:{},counts:{},reviewed:{},cycleHours:24,complete:false};}
 export function restored(c,raw,sources){
  try{
   const s=JSON.parse(raw);if(s.version!==1||!Number.isInteger(s.seed)||!Number.isInteger(s.step)||s.step<0||s.step>2||s.sources.length!==c.conditions.length||!s.sources.every(x=>['classroom','virtual'].includes(x)))throw Error();
@@ -44,6 +45,7 @@ export function restored(c,raw,sources){
     const run=s.runs[condition.id+'-'+t];if(run&&(!Array.isArray(run)||run.length>times(c).length||run.some((x,i)=>!x||x.time!==times(c)[i]||!Number.isFinite(x.value)||x.value<0||x.value>c.max||(c.kind==='leaf'&&!Number.isInteger(x.value)))))throw Error();
    }
   }
+  if(c.kind==='mitosis'&&s.mitosisModelVersion!==2)s.mitosisModelVersion=1;
   return s;
  }catch{return fresh(c,sources);}
 }

@@ -31,10 +31,10 @@ test('classroom validation permits unexpected trends but rejects missing and inv
 });
 test('mitosis preserves counts and interprets stage fractions against an assumed duration',()=>{
  const counts=tally([...fieldCells('field-a',98),...fieldCells('field-b',98)]);
- assert.deepEqual(counts,[27,6,3,2,2]);
- const rows=stageStats(counts,24);assert.ok(Math.abs(rows[0].hours-16.2)<1e-10);
+ assert.deepEqual(counts,[35,2,1,1,1]);
+ const rows=stageStats(counts,24);assert.ok(Math.abs(rows[0].hours-21)<1e-10);
  assert.equal(rows.reduce((n,r)=>n+r.percent,0),100);
- assert.ok(Math.abs(stageStats(counts,12)[0].hours-8.1)<1e-10);
+ assert.ok(Math.abs(stageStats(counts,12)[0].hours-10.5)<1e-10);
 });
 test('saved progress restores separately and corrupt observation data reset safely',()=>{
  const c=configs['light-photosynthesis'];const s=fresh(c,['classroom','virtual','virtual']);
@@ -42,4 +42,12 @@ test('saved progress restores separately and corrupt observation data reset safe
  assert.deepEqual(restored(c,JSON.stringify(s)),s);
  s.runs['dark-1'][0].value=100;assert.deepEqual(restored(c,JSON.stringify(s)).runs,{});
  assert.equal(completedData(c,fresh(c)),false);
+});
+
+test('mitosis retains legacy saved fields and uses revised fields for fresh work',()=>{
+ const c=configs.mitosis,s=fresh(c);assert.equal(s.mitosisModelVersion,2);
+ delete s.mitosisModelVersion;assert.equal(restored(c,JSON.stringify(s)).mitosisModelVersion,1);
+ assert.deepEqual(tally([...fieldCells('field-a',98,1),...fieldCells('field-b',98,1)]),[27,6,3,2,2]);
+ assert.deepEqual(tally(fieldCells('field-a',98)),[18,1,1,0,0]);
+ assert.deepEqual(tally(fieldCells('field-b',98)),[17,1,0,1,1]);
 });

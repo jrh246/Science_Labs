@@ -86,7 +86,7 @@ export const investigations = {
    'Calculate each stage count / total count × 100. Multiply that fraction by the assumed cycle duration. Explain the assumptions needed to turn a snapshot into a time estimate.',
   ],
   safety:'Use prepared slides only. Carry microscopes with two hands and handle slide edges carefully. The classroom route does not require stains, acids, or cutting root tips.',
-  model:'The virtual fields are original teaching diagrams, not microscope photographs or empirical samples. Each contains 20 cells. They practice recognition and frequency calculations; the curated distribution is not a validated biological estimate.',
+  model:'The virtual fields are original teaching diagrams, not microscope photographs or measured samples. Each contains 20 cells. The revised model makes interphase dominant and allows a rare stage to be absent from one small field. Published onion-root mitotic indices vary with growth conditions, treatment and sampling; these curated counts are not a universal expected ratio or a fitted experimental dataset. A zero count does not mean a stage never occurs.',
   interpretation:'Estimated stage time = stage count / total count × assumed cycle duration. This assumes representative sampling of an asynchronous, steadily cycling population with comparable cycle lengths. Non-cycling cells, sampling bias, and differential cell loss can invalidate the estimate.',
   questions:[
    'Which stage is most common? Give its count, percentage, and estimated duration, and distinguish observation from inference.',
@@ -95,11 +95,12 @@ export const investigations = {
    'Compare the two fields and identify one sampling limitation. Explain how you would improve the count.',
   ],
   teacherNotes:[
-   'The schematic fields together contain 27 interphase, 6 prophase, 3 metaphase, 2 anaphase, and 2 telophase cells (40 total). Order is shuffled per attempt. Review feedback appears only after all cells in a virtual field are classified.',
-   'At an assumed 24-hour cycle, the modeled durations are 16.2, 3.6, 1.8, 1.2, and 1.2 hours respectively. These are worked examples for the schematic sample, not reference durations for real roots.',
+   'The schematic fields together contain 35 interphase, 2 prophase, 1 metaphase, 1 anaphase, and 1 telophase cells (40 total). Order is shuffled per attempt. Review feedback appears only after all cells in a virtual field are classified.',
+   'Revised percentages are 87.5% interphase, 5% prophase, and 2.5% each for metaphase, anaphase and telophase (12.5% mitotic index). This is the smallest 40-cell teaching allocation with every mitotic stage represented and prophase most common among dividing cells. Ali et al. (2019) report treatment-dependent mitotic indices of 6.26-11.63% in their experiment; this supports reducing the former 32.5%, but does not validate our exact allocation. Old saved attempts retain their original fields; reset starts revised fields.',
+   'At an assumed 24-hour cycle, the modeled durations are 21.0, 1.2, 0.6, 0.6, and 0.6 hours respectively. These are worked examples for the schematic sample, not reference durations for real roots.',
    'Score the quality of morphological evidence and limitations. Classroom counts should not be corrected to match the schematic distribution. In this simplified key, prometaphase is pooled with prophase.',
   ],
-  sources:[['OpenStax Biology 2e, 10.2','https://openstax.org/books/biology-2e/pages/10-2-the-cell-cycle']],
+  sources:[['Onion-root mitotic and phase indices: Ali et al. (2019)','https://link.springer.com/article/10.1186/s42269-019-0171-1'],['OpenStax Biology 2e, 10.2','https://openstax.org/books/biology-2e/pages/10-2-the-cell-cycle']],
  },
 };
 export const buildOrder = ['light-photosynthesis','yeast-fermentation','mitosis'];
