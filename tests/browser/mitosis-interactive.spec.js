@@ -55,3 +55,23 @@ test('completed fields prompt review, identify mismatches, and support correctio
  for(const i of [2,17]){await sim.getByRole('button',{name:`Revisit Cell ${i+1}`,exact:true}).click();await expect(sim.locator('#classify-title')).toHaveText(`Record a stage for Cell ${i+1}`);await sim.locator(`[data-stage="${cells[i]}"]`).click();await expect(sim.getByRole('button',{name:'Collect data and continue'})).toBeDisabled();await expect(sim.locator('#review')).toBeEmpty();await sim.getByRole('button',{name:'Review field classifications'}).click();}
  await expect(sim.locator('#review')).toContainText('20 / 20 match');await expect(sim.locator('.review-list li')).toHaveCount(0);await expect(sim.locator('.cell-map .review-mismatch')).toHaveCount(0);await expect(sim.getByRole('button',{name:'Collect data and continue'})).toBeEnabled();
 });
+
+test('cell map matches numbered field positions and enlarged cell drawings',async({page})=>{
+ await page.goto('/investigation.html?lab=mitosis');await page.getByRole('button',{name:'2. Collect observations',exact:true}).click();await prepare(page);
+ const sim=page.locator('mitosis-simulator');
+ await sim.getByRole('button',{name:'10× objective',exact:true}).click();
+ await expect(sim.locator('.overview-cell')).toHaveCount(20);
+ const drawings=await sim.locator('.overview-cell svg g').evaluateAll(nodes=>nodes.map(n=>n.innerHTML));
+ for(const i of [0,3,4,9,19]){
+  await sim.locator(`.cell-map [data-cell="${i}"]`).click();await expect(sim.locator('.overview-cell.selected-cell')).toHaveAttribute('data-field-cell',String(i));await expect(sim.locator('.overview-cell.selected-cell .cell-number')).toHaveText(String(i+1));
+  await sim.getByRole('button',{name:'40× objective',exact:true}).click();await expect(sim.locator('.detail-cell .cell-number')).toHaveText(String(i+1));expect(await sim.locator('.detail-cell svg g').innerHTML()).toBe(drawings[i]);await sim.getByRole('button',{name:'10× objective',exact:true}).click();
+ }
+ for(const width of [1366,390]){
+  await page.setViewportSize({width,height:844});
+  for(const selector of ['.overview-cell','.cell-map button']){
+   const boxes=await sim.locator(selector).evaluateAll(nodes=>nodes.map(n=>{const b=n.getBoundingClientRect();return {x:b.x,y:b.y};}));
+   for(let i=0;i<20;i++){expect(Math.abs(boxes[i].y-boxes[Math.floor(i/4)*4].y)).toBeLessThan(1);if(i%4)expect(boxes[i].x).toBeGreaterThan(boxes[i-1].x);else if(i)expect(boxes[i].y).toBeGreaterThan(boxes[i-4].y);}
+  }
+  await page.screenshot({path:`test-results/mitosis-map-${width}.png`,fullPage:true});
+ }
+});
