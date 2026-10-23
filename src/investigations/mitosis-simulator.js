@@ -10,14 +10,14 @@ class MitosisSimulator extends HTMLElement{
    this.focusTarget=b.dataset.cell!==undefined?`[data-cell="${b.dataset.cell}"]`:b.dataset.stage!==undefined?`[data-stage="${b.dataset.stage}"]`:b.dataset.objective?`[data-objective="${b.dataset.objective}"]`:`[data-action="${b.dataset.action}"]`;
    if(b.dataset.cell!==undefined)r.selected=Number(b.dataset.cell);
    if(b.dataset.objective)r.objective=Number(b.dataset.objective);
-   if(b.dataset.stage!==undefined&&canClassify(r)){const i=r.selected;r.answers[i]=Number(b.dataset.stage);r.checked=false;this.note=`Cell ${i+1} recorded as ${stages[r.answers[i]]}.`;const next=r.answers.findIndex(a=>a===null);if(next>=0)r.selected=next;}
+   if(b.dataset.stage!==undefined&&canClassify(r)){const i=r.selected;r.answers[i]=Number(b.dataset.stage);r.checked=false;this.note=`Cell ${i+1} recorded as ${stages[r.answers[i]]}.`;const next=r.answers.findIndex(a=>a===null);if(next>=0)r.selected=next;if(r.answers.every(a=>a!==null))this.note+=' All 20 cells are labeled. Click Review field classifications to check your selections.';}
    if(b.dataset.practice){r.practiceField=b.dataset.practice;r.answers=Array(20).fill(null);r.selected=0;r.checked=false;this.note='Practice field changed. Classifications for this practice field start fresh.';}
    if(b.dataset.action==='load'){r.loaded=true;this.note='Prepared slide secured on the stage. Turn on the light.';}
    if(b.dataset.action==='light')r.light=!r.light;
    if(b.dataset.action==='next-cell'){const n=r.answers.findIndex(a=>a===null);r.selected=n>=0?n:(r.selected+1)%20;}
    if(b.dataset.action==='review'&&r.answers.every(a=>a!==null)){r.checked=true;this.note='Review the feedback. Your own classifications will be retained when you collect the field.';}
    if(b.dataset.action==='collect'&&r.checked&&r.answers.every(a=>a!==null)){this.dispatchEvent(new CustomEvent('mitosis-collect',{bubbles:true,detail:{state:r}}));return;}
-   this.publish();this.render();
+   this.publish();this.render();if(b.dataset.revisit!==undefined){this.shadowRoot.querySelector('.classify-box').scrollIntoView({block:'center',behavior:'instant'});this.shadowRoot.querySelector('[data-stage]').focus({preventScroll:true});}
   });
   this.shadowRoot.addEventListener('input',e=>{const id=e.target.id;if(['focus','brightness','hours'].includes(id)){this.r[id]=Number(e.target.value);if(this.r.objective===10&&focused(this.r))this.r.located=true;this.publish();this.updateLive();}});
   this.render();
@@ -32,7 +32,7 @@ class MitosisSimulator extends HTMLElement{
  }
  updateLive(){const root=this.shadowRoot,r=this.r,cells=this.cells(),count=r.answers.filter(a=>a!==null).length,ready=canClassify(r);
   root.querySelector('#equipment').innerHTML=this.microscope();root.querySelector('#view').innerHTML=this.view();
-  root.querySelector('#step').textContent=!r.loaded?'Step 1: load the prepared root-tip slide.':!r.light?'Step 2: turn on the light.':!r.located?'Step 3: use low power and adjust focus until the cells are clear.':r.objective!==40?'Step 4: switch to the 40× objective to inspect chromosomes.':!focused(r)?'Adjust fine focus and illumination until chromosome details are clear.':r.checked?'Review your classifications, then collect the field to continue.':`Step 5: classify every cell once (${count} / 20 recorded).`;
+  root.querySelector('#step').textContent=!r.loaded?'Step 1: load the prepared root-tip slide.':!r.light?'Step 2: turn on the light.':!r.located?'Step 3: use low power and adjust focus until the cells are clear.':r.objective!==40?'Step 4: switch to the 40× objective to inspect chromosomes.':!focused(r)?'Adjust fine focus and illumination until chromosome details are clear.':r.checked?'Review your classifications, then collect the field to continue.':count===20?'All 20 cells are labeled. Click Review field classifications to check your selections.':`Step 5: classify every cell once (${count} / 20 recorded).`;
   root.querySelector('[data-action="load"]').disabled=r.loaded;
   root.querySelector('[data-action="light"]').disabled=!r.loaded;root.querySelector('[data-action="light"]').textContent=r.light?'Turn light off':'Turn light on';
   root.querySelector('[data-objective="40"]').disabled=!r.located;
@@ -42,11 +42,12 @@ class MitosisSimulator extends HTMLElement{
   root.querySelector('#view-caption').textContent=`${r.objective*10}× total magnification · ${r.objective===10?'field overview':`Cell ${r.selected+1}`} · ${focused(r)?'in focus':'adjust the view'}`;
   root.querySelector('#classify-title').textContent=`Record a stage for Cell ${r.selected+1}`;
   root.querySelectorAll('[data-stage]').forEach(b=>{b.disabled=!ready;b.setAttribute('aria-pressed',r.answers[r.selected]===Number(b.dataset.stage));});
-  root.querySelectorAll('[data-cell]').forEach(b=>{b.disabled=!r.loaded;b.setAttribute('aria-pressed',r.selected===Number(b.dataset.cell));});
+  root.querySelectorAll('.cell-map [data-cell]').forEach(b=>{b.disabled=!r.loaded;b.setAttribute('aria-pressed',r.selected===Number(b.dataset.cell));const mismatch=r.checked&&r.answers[Number(b.dataset.cell)]!==cells[Number(b.dataset.cell)];b.classList.toggle('review-mismatch',mismatch);b.setAttribute('aria-label',`Cell ${Number(b.dataset.cell)+1}${r.answers[Number(b.dataset.cell)]!==null?', classified':''}${mismatch?', does not match model key':''}`);});
   root.querySelector('[data-action="review"]').disabled=count!==20||!ready;
   root.querySelector('#note').textContent=this.note;
   root.querySelector('#tally').innerHTML=`<table><caption>Your classifications: ${count} / 20 cells</caption><thead><tr><th>Stage</th><th>Count</th></tr></thead><tbody>${tally(r.answers).map((n,i)=>`<tr><td>${stages[i]}</td><td>${n}</td></tr>`).join('')}</tbody></table>`;
-  root.querySelector('#review').innerHTML=r.checked?`<p><strong>${r.answers.filter((a,i)=>a===cells[i]).length} / 20 match the model key.</strong> Practice feedback only. Your classifications are retained.</p><p>Selected cell ${r.selected+1}: ${stages[cells[r.selected]]}. ${stageClues[cells[r.selected]]}</p>`:'';
+  const mismatches=r.answers.flatMap((answer,i)=>answer!==cells[i]?[i]:[]);
+  root.querySelector('#review').innerHTML=r.checked?`<p><strong>${20-mismatches.length} / 20 match the model key.</strong> Practice feedback only. Your classifications are retained.</p>${mismatches.length?`<p>These selections do not match. Revisit each cell, inspect its chromosomes, and choose a stage again. Then click <strong>Review field classifications</strong> to check your revisions.</p><ul class="review-list">${mismatches.map(i=>`<li><strong>Cell ${i+1}</strong>: you selected <strong>${stages[r.answers[i]]}</strong>; the model classification is <strong>${stages[cells[i]]}</strong>. <span>${stageClues[cells[i]]}</span><button data-cell="${i}" data-revisit="${i}">Revisit Cell ${i+1}</button></li>`).join('')}</ul>`:'<p>All selections match the model key.</p>'}`:'';
   if(this.config.guided){root.querySelector('[data-action="collect"]').disabled=!r.checked||count!==20;root.querySelector('#collect-status').textContent=r.checked?'Field reviewed - collect your data':'Classify all 20 cells and review before collecting';}
   else{root.querySelector('#hours-value').textContent=r.hours;root.querySelector('#estimates').innerHTML=`<p>Practice only: assuming a ${r.hours}-hour cycle and ${count} classified cells.</p><table><thead><tr><th>Stage</th><th>Percent</th><th>Est. hours</th></tr></thead><tbody>${stageStats(tally(r.answers),r.hours).map(row=>`<tr><td>${row.stage}</td><td>${row.percent.toFixed(1)}%</td><td>${row.hours.toFixed(2)}</td></tr>`).join('')}</tbody></table>`;}
  }

@@ -40,3 +40,18 @@ test('legacy microscope attempts retain the original key until explicitly reset'
  expect(await page.evaluate(k=>JSON.parse(localStorage.getItem(k)).mitosisModelVersion,key)).toBe(2);
  await expect(page.getByText(/This saved attempt keeps the original cell fields/)).toHaveCount(0);
 });
+
+test('completed fields prompt review, identify mismatches, and support corrections',async({page})=>{
+ await page.goto('/investigation.html?lab=mitosis');await page.getByRole('button',{name:'2. Collect observations',exact:true}).click();await prepare(page);
+ const sim=page.locator('mitosis-simulator');
+ const seed=await page.evaluate(()=>JSON.parse(localStorage.getItem(Object.keys(localStorage).find(k=>k.includes(':mitosis:v1:')))).seed);
+ const cells=fieldCells('field-a',seed);
+ for(const [i,stage] of cells.entries()){await sim.locator(`.cell-map [data-cell="${i}"]`).click();await sim.locator(`[data-stage="${i===2||i===17?(stage+1)%5:stage}"]`).click();}
+ await expect(sim.locator('#note')).toContainText('Click Review field classifications');await expect(sim.locator('#step')).toContainText('Click Review field classifications');
+ await expect(sim.locator('#review')).toBeEmpty();await sim.getByRole('button',{name:'Review field classifications'}).click();
+ await expect(sim.locator('#review')).toContainText('18 / 20 match');await expect(sim.locator('.review-list li')).toHaveCount(2);
+ for(const i of [2,17]){const row=sim.locator(`.review-list li:has([data-revisit="${i}"])`);await expect(row).toContainText('you selected');await expect(row).toContainText('the model classification is');await expect(sim.locator(`.cell-map [data-cell="${i}"]`)).toHaveAccessibleName(/does not match/);}
+ await page.reload();await expect(sim.locator('.review-list li')).toHaveCount(2);
+ for(const i of [2,17]){await sim.getByRole('button',{name:`Revisit Cell ${i+1}`,exact:true}).click();await expect(sim.locator('#classify-title')).toHaveText(`Record a stage for Cell ${i+1}`);await sim.locator(`[data-stage="${cells[i]}"]`).click();await expect(sim.getByRole('button',{name:'Collect data and continue'})).toBeDisabled();await expect(sim.locator('#review')).toBeEmpty();await sim.getByRole('button',{name:'Review field classifications'}).click();}
+ await expect(sim.locator('#review')).toContainText('20 / 20 match');await expect(sim.locator('.review-list li')).toHaveCount(0);await expect(sim.locator('.cell-map .review-mismatch')).toHaveCount(0);await expect(sim.getByRole('button',{name:'Collect data and continue'})).toBeEnabled();
+});
