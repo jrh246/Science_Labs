@@ -79,3 +79,25 @@ test('chromosome exchange restricts nonsister choice and preserves placement on 
  await page.locator('[data-act="pick-gamete-0"]').click();await page.locator('[data-act="place-gamete-2"]').click();await expect(page.getByRole('status')).toContainText('Keep the two');
  await page.locator('[data-act="place-gamete-0"]').click();await page.reload();await expect(page.locator('[data-act="place-gamete-0"]')).toContainText('A');await expect(page.locator('[data-act="pick-gamete-0"]')).toBeDisabled();
 });
+
+test('corn Punnett prediction gives feedback, persists and exports without changing observations',async({page})=>{
+ await page.setViewportSize({width:390,height:844});
+ await page.goto('/investigation.html?lab=inheritance-ratios');
+ const panel=page.locator('.punnett-panel');await expect(panel).toBeVisible();
+ await panel.getByRole('button',{name:'Check my Punnett square'}).click();await expect(panel.getByRole('status')).toContainText('Complete all four');
+ for(const [i,v] of ['PP','Pp','Pp','PP'].entries())await panel.locator(`[data-punnett="${i}"]`).selectOption(v);
+ await panel.getByRole('button').click();await expect(panel.getByRole('status')).toContainText('Recheck');
+ await panel.locator('[data-punnett="3"]').selectOption('pp');
+ await panel.locator('[data-punnett="purple"]').selectOption('2');await panel.locator('[data-punnett="yellow"]').selectOption('2');
+ await panel.getByRole('button').click();await expect(panel.getByRole('status')).toContainText('genotype combinations are correct');
+ await panel.locator('[data-punnett="purple"]').selectOption('3');await panel.locator('[data-punnett="yellow"]').selectOption('1');
+ await panel.getByRole('button').click();await expect(panel.getByRole('status')).toContainText('36 purple and 12 yellow');
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();
+ await panel.screenshot({path:'test-results/punnett-mobile.png'});
+ await page.reload();await expect(panel.locator('[data-punnett="3"]')).toHaveValue('pp');await expect(panel.locator('[data-punnett="purple"]')).toHaveValue('3');
+ const download=page.waitForEvent('download');await page.getByRole('button',{name:'Download lab report',exact:true}).click();
+ const stream=await(await download).createReadStream();let report='';for await(const chunk of stream)report+=chunk;
+ expect(report).toContain('PP | Pp');expect(report).toContain('Purple outcomes out of 4: 3');
+ await page.getByRole('button',{name:'Begin observations'}).click();await expect(page.locator('.corn-rack')).toBeVisible();
+ await page.getByRole('button',{name:'1. Predict and plan',exact:true}).click();await expect(panel.locator('[data-punnett="yellow"]')).toHaveValue('1');
+});
