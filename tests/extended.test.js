@@ -8,10 +8,10 @@ test('reciprocal exchanges preserve alleles and leave two parental chromatids',(
  const c=find('meiosis');
  for(const condition of [0,1,2])for(const a of [0,1])for(const b of [2,3]){
   const r=newRun(c,condition,42);r.chromatids=[a,b];const products=gametes(r);
-  assert.equal(products.join('').split('').sort().join(''),'AABBCCaabbcc');
-  assert.equal(products.filter(x=>x==='ABC'||x==='abc').length,condition===0?4:2);
-  if(condition===1)assert.ok(products.includes('Abc')&&products.includes('aBC'));
-  if(condition===2)assert.ok(products.includes('ABc')&&products.includes('abC'));
+  assert.equal(products.join('').split('').sort().join(''),'AABBCCDDEEFFGGHHaabbccddeeffgghh');
+  assert.equal(products.filter(x=>x==='ABCDEFGH'||x==='abcdefgh').length,condition===0?4:2);
+  if(condition===1)assert.ok(products.includes('ABCdefgh')&&products.includes('abcDEFGH'));
+  if(condition===2)assert.ok(products.includes('ABCDEFgh')&&products.includes('abcdefGH'));
   r.prepared=4;r.tallies=[4,0];r.reviewed=true;assert.equal(ready(c,r),true);
   assert.deepEqual(record(c,r).values,[4,0]); // Incorrect but complete student tallies are retained.
   assert.deepEqual(record(c,r).settings.gametes,products);

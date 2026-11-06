@@ -1,5 +1,5 @@
 import {emptyPunnett,restorePunnett} from './punnett.js';
-export function gametes(r){const out=['ABC','ABC','abc','abc'];if(r.conditionIndex===0)return out;const [a,b]=r.chromatids?.length===2?r.chromatids:[0,2],cut=r.conditionIndex===1?1:2;const left=out[a],right=out[b];out[a]=left.slice(0,cut)+right.slice(cut);out[b]=right.slice(0,cut)+left.slice(cut);return out;}
+export function gametes(r){const out=['ABCDEFGH','ABCDEFGH','abcdefgh','abcdefgh'];if(r.conditionIndex===0)return out;const [a,b]=r.chromatids?.length===2?r.chromatids:[0,2],cut=r.conditionIndex===1?3:6;const left=out[a],right=out[b];out[a]=left.slice(0,cut)+right.slice(cut);out[b]=right.slice(0,cut)+left.slice(cut);return out;}
 export const clamp=(n,a,b)=>Math.min(b,Math.max(a,n));
 export function random(seed){let x=seed>>>0;return()=>{x=(Math.imul(x,1664525)+1013904223)>>>0;return x/4294967296;};}
 export function sequence(c){return c.conditions.flatMap((condition,conditionIndex)=>Array.from({length:c.repeats},(_,i)=>({condition,conditionIndex,repeat:i+1})));}

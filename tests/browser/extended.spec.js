@@ -16,7 +16,7 @@ async function finish(page,c){
  if(c.kind==='meiosis'){
  await page.locator('[data-act="mei-pair"]').click();
  await expect(page.locator('[data-act="mei-exchange"]')).toBeVisible();const control=await page.getByRole('heading',{name:'No exchange comparison',exact:true}).count();
- if(!control){await page.locator('[data-act="chromatid-0"]').click();await page.locator('[data-act="chromatid-2"]').click();const ab=await page.getByRole('heading',{name:'Exchange between A and B',exact:true}).count();await page.locator(`[data-act="cut-${ab?1:2}"]`).click();}
+ if(!control){await page.locator('[data-act="chromatid-0"]').click();await page.locator('[data-act="chromatid-2"]').click();const ab=await page.getByRole('heading',{name:'Exchange between C and D',exact:true}).count();await page.locator(`[data-act="cut-${ab?1:2}"]`).click();}
  await page.locator('[data-act="mei-exchange"]').click();await page.locator('[data-act="mei-first"]').click();for(let i=0;i<4;i++){await page.locator(`[data-act="pick-gamete-${i}"]`).click();await page.locator(`[data-act="place-gamete-${i}"]`).click();}
  for(let i=0;i<4;i++)await page.locator('[data-act="tally-plus-0"]').click();await page.locator('[data-act="review"]').click();
  }
@@ -75,8 +75,17 @@ test('chromosome exchange restricts nonsister choice and preserves placement on 
  await page.locator('[data-act="chromatid-0"]').click();await page.locator('[data-act="chromatid-1"]').click();
  await expect(page.locator('[data-act="chromatid-0"]')).toHaveAttribute('aria-pressed','false');
  await page.locator('[data-act="chromatid-2"]').click();await page.locator('[data-act="cut-2"]').click();await expect(page.locator('[data-act="mei-exchange"]')).toBeDisabled();
- await page.locator('[data-act="cut-1"]').click();await page.locator('[data-act="mei-exchange"]').click();await page.locator('[data-act="mei-first"]').click();
- await page.locator('[data-act="pick-gamete-0"]').click();await page.locator('[data-act="place-gamete-2"]').click();await expect(page.getByRole('status')).toContainText('Keep the two');
+ await page.locator('[data-act="cut-1"]').click();
+ await expect(page.locator('.parent-0')).toContainText('Mother');await expect(page.locator('.parent-1')).toContainText('Father');
+ await page.setViewportSize({width:390,height:844});expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();
+ await page.locator('.chromosome-pair').screenshot({path:'test-results/crossing-parent-mobile.png'});
+ await page.locator('[data-act="mei-exchange"]').click();await expect(page.locator('.moving-tail')).toHaveCount(2);
+ await page.locator('.exchange-animation').screenshot({path:'test-results/crossing-exchange-mobile.png'});
+ await expect(page.locator('[data-act="mei-first"]')).toBeVisible();
+ await expect(page.locator('[data-act="chromatid-1"] svg')).toHaveAttribute('aria-label','Chromatid M2: ABCdefgh');
+ await page.locator('.chromosome-pair').screenshot({path:'test-results/crossing-result-mobile.png'});
+ await page.locator('[data-act="mei-first"]').click();
+ await page.locator('[data-act="pick-gamete-0"]').click();await expect(page.locator('[data-act="place-gamete-2"]')).toBeDisabled();
  await page.locator('[data-act="place-gamete-0"]').click();await page.reload();await expect(page.locator('[data-act="place-gamete-0"]')).toContainText('A');await expect(page.locator('[data-act="pick-gamete-0"]')).toBeDisabled();
 });
 

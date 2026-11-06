@@ -1,5 +1,5 @@
 """Build original worksheets and guides from the same definitions as the ten labs."""
-import json, subprocess, shutil
+import json, subprocess, shutil, sys
 from pathlib import Path
 from xml.sax.saxutils import escape
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, PageBreak
@@ -37,7 +37,7 @@ EXPECT={
  'microscope':'Students should apply the objective-specific calibration and acknowledge sampling uncertainty. Look for evidence of cell walls in plant schematics and chloroplasts in the aquatic leaf. Onion bulb epidermis generally lacks visible chloroplasts. Do not grade real cells against simulated sizes.',
  'enzyme':'In the modeled 10-35 C comparison, warmer conditions increase initial gas collection rate. This limited range does not establish the temperature optimum or demonstrate denaturation. Check equal extract concentration and gas leaks before interpreting physical differences.',
  'plant':'Model treatment plants elongate more than carrier controls. Compare changes from baseline. The endpoint is a whole-plant response; it cannot identify a receptor or prove all steps of a signaling pathway.',
- 'meiosis':'The no-exchange model yields ABC, ABC, abc and abc. An exchange between A and B yields ABC, Abc, aBC and abc; an exchange between B and C yields ABC, ABc, abC and abc (order varies with chosen chromatids). Each single exchange produces two parental and two recombinant chromatids. Recombination rearranges existing alleles; it does not create new ones. This controlled model does not estimate crossover frequency in organisms.',
+ 'meiosis':'The no-exchange model yields ABCDEFGH, ABCDEFGH, abcdefgh and abcdefgh. An exchange between C and D yields ABCDEFGH, ABCdefgh, abcDEFGH and abcdefgh; an exchange between F and G yields ABCDEFGH, ABCDEFgh, abcdefGH and abcdefgh (order varies with chosen chromatids). Each single exchange produces two parental and two recombinant chromatids. Recombination rearranges existing alleles; it does not create new ones. This controlled model does not estimate crossover frequency in organisms.',
  'asci':'4:4 is first-division segregation. 2:4:2 and 2:2:2:2 are second-division patterns. The simple distance estimate is half the second-division percentage because half the chromatids are recombinant in a single crossover. Multiple crossovers complicate interpretation.',
  'corn':'For the defined Pp x Pp model, expected phenotypes are 3 purple:1 yellow. Expected counts equal total x 0.75 and total x 0.25. Chi-square summarizes squared deviations divided by expected counts; do not infer a p-value without the distribution and its assumptions.',
  'flies':'Gray/long and dark/short are parental; gray/short and dark/long are recombinant for this stated cross. Recombination percent = recombinant offspring / total x 100. Male Drosophila are not suitable heterozygous parents for this crossover assay. Two-point data do not determine three-gene order.',
@@ -58,6 +58,7 @@ def virtual_instructions(c):
  return text
 
 for c in DATA:
+ if len(sys.argv)>1 and c['id'] not in sys.argv[1:]:continue
  labels=(['Parental gametes','Recombinant gametes'] if c['kind']=='meiosis' else c.get('categories')) or (['Largest band (bp)','Middle band (bp)','Smallest band (bp)'] if c['kind']=='gel' else ['Colonies','Fluorescence 0/1'] if c['kind']=='regulation' else [c['unit']])
  student=title(c,'Student worksheet / preparation')+[p('Name: _____________________  Class: __________  Date: __________'),h('Before predicting'),p(c['intro']),h('Investigation question'),p(c['question']),p('Prediction and reasoning:'),lines(3),p('Controls, independent variable, measurement and sampling plan:'),lines(3),h('How to use the virtual lab'),p(c['setup']),p(virtual_instructions(c)+' Review observations, then click Collect data and continue. Complete the assigned comparison before exploring.'),PageBreak()]
  student+=title(c,'Student worksheet / observations')+[p('Label every sample virtual or classroom. Keep independent replicates separate; retain unexpected results. Units: '+c['unit']),table([['Condition / sample','Repeat','Source']+labels]+[[cond,str(i),'']+['']*len(labels) for cond in c['conditions'] for i in range(1,c['repeats']+1)],[160,40,60]+[244/len(labels)]*len(labels)),h('Equipment and observations'),p('Record calibration, initial values, specimen selection, ambiguous observations or method changes. Use additional paper for larger classroom counts.'),lines(5),PageBreak()]
@@ -72,14 +73,14 @@ for c in DATA:
  student += [h('Explore after the comparison'),p('Propose one additional test. Change one condition or sample choice, collect exploration separately, and explain what the new evidence adds.'),lines(3),p('Important limits: '+c['limits'],'LabSmall')]
  if c['kind']=='meiosis':
   from reportlab.graphics.shapes import Drawing, Rect, String, Circle, Line
-  student += [PageBreak()]+title(c,'Printable chromosome strips')+[p('Print one sheet for each model, or use removable tape to reuse strips. Cut around each strip. The dot is the centromere. Matching letters mark corresponding gene positions. Pair the two same-color strips as sister chromatids.'),p('For crossing over, cut ONE strip of each color at the same gap between genes. Exchange the complete right-hand segments. Keep the other two strips unchanged.')]
+  student += [PageBreak()]+title(c,'Printable chromosome strips')+[p('Print one sheet for each model, or use removable tape to reuse strips. Cut around each strip. The dot between B and C marks the centromere. Blue strips came from the mother; orange strips came from the father of the organism making gametes. Matching letters mark corresponding gene positions. Pair the two same-color strips as sister chromatids.'),p('For crossing over, cut ONE strip of each color at the same assigned gap (C-D or F-G). Exchange the complete right-hand segments. Keep the other two strips unchanged.')]
   drawing=Drawing(504,340)
-  for row,genes in enumerate(['ABC','ABC','abc','abc']):
+  for row,genes in enumerate(['ABCDEFGH','ABCDEFGH','abcdefgh','abcdefgh']):
    y=285-row*70
    drawing.add(Rect(8,y,475,45,fillColor=colors.HexColor('#d1e8ed' if row<2 else '#f5ddca'),strokeColor=colors.HexColor('#546f6b')))
-   drawing.add(Circle(35,y+22,8,fillColor=colors.HexColor('#50665c')))
-   for j,gene in enumerate(genes):drawing.add(String(105+j*145,y+15,gene,fontName='Helvetica-Bold',fontSize=22))
-   drawing.add(String(12,y-12,'Homolog '+str(1 if row<2 else 2)+' / chromatid '+str(row+1),fontSize=9))
+   drawing.add(Circle(137,y+22,8,fillColor=colors.HexColor('#50665c')))
+   for j,gene in enumerate(genes):drawing.add(String(40+j*58,y+15,gene,fontName='Helvetica-Bold',fontSize=22))
+   drawing.add(String(12,y-12,('Mother / M' if row<2 else 'Father / F')+str(row%2+1),fontSize=9))
   student += [drawing,p('Draw four gamete circles on another sheet. Separate homologs first, then sisters. Place one resulting strip in each circle; record its allele string and whether it is parental or recombinant.'),p('Optional evidence extension: the separate Sordaria activity connects chromosome modeling to ordered spore patterns.')]
  build(c,'worksheet',student)
  teacher=title(c,'Teacher guide / classroom preparation')+[h('Learning target'),p(c['question']),h('Timing and materials'),p(c['time']),p(c['materials']),h('Classroom route')]
