@@ -1,10 +1,11 @@
 import {emptyPunnett,restorePunnett} from './punnett.js';
-export function gametes(r){const out=['ABCDEFGH','ABCDEFGH','abcdefgh','abcdefgh'];if(r.conditionIndex===0)return out;const [a,b]=r.chromatids?.length===2?r.chromatids:[0,2],cut=r.conditionIndex===1?3:6;const left=out[a],right=out[b];out[a]=left.slice(0,cut)+right.slice(cut);out[b]=right.slice(0,cut)+left.slice(cut);return out;}
+export function gametes(r){const out=['ABCDEFGH','ABCDEFGH','abcdefgh','abcdefgh'];const [a,b]=r.chromatids?.length===2?r.chromatids:[0,2],cut=r.cut===2?6:3;const left=out[a],right=out[b];out[a]=left.slice(0,cut)+right.slice(cut);out[b]=right.slice(0,cut)+left.slice(cut);return out;}
+export function meioticProducts(r){const alleles=gametes(r);return r.placed.map((chromatid,i)=>({chromatid,alleles:alleles[chromatid],role:r.conditionIndex===0?(i===r.eggSide*2?'Egg':'Polar body'):(r.spermMature?'Sperm':'Spermatid')}));}
 export const clamp=(n,a,b)=>Math.min(b,Math.max(a,n));
 export function random(seed){let x=seed>>>0;return()=>{x=(Math.imul(x,1664525)+1013904223)>>>0;return x/4294967296;};}
 export function sequence(c){return c.conditions.flatMap((condition,conditionIndex)=>Array.from({length:c.repeats},(_,i)=>({condition,conditionIndex,repeat:i+1})));}
 export function newRun(c,index,seed=12345,conditionOverride){const job=sequence(c)[index]||sequence(c)[0];const ci=conditionOverride??job.conditionIndex;
- return {conditionIndex:ci,repeat:job.repeat,seed:(seed+index*7919)>>>0,prepared:0,time:0,readings:[],scores:[],selected:0,reviewed:false,focus:50,objective:10,ruler:20,light:false,viewer:false,stained:false,setting:c.settings?.[ci]??(c.kind==='gel'?80:1),estimates:['','',''],note:'',tallies:c.kind==='meiosis'?[0,0]:c.categories?.map(()=>0),marks:[],region:null,chromatids:[],cut:null,placed:[],carry:null,lanes:[]};}
+ return {conditionIndex:ci,repeat:job.repeat,seed:(seed+index*7919)>>>0,prepared:0,time:0,readings:[],scores:[],selected:0,reviewed:false,focus:50,objective:10,ruler:20,light:false,viewer:false,stained:false,setting:c.settings?.[ci]??(c.kind==='gel'?80:1),estimates:['','',''],note:'',tallies:c.kind==='meiosis'?[0,0]:c.categories?.map(()=>0),marks:[],region:null,chromatids:[],cut:null,placed:[],carry:null,lanes:[],eggSide:0,eggActivated:false,spermMature:false};}
 export function specimens(c,r){const rng=random(r.seed+(r.region??0)*104729);return Array.from({length:c.count||0},()=>{const p=rng();if(c.kind==='corn')return p<.75?0:1;if(c.kind==='flies')return p<.41?0:p<.82?1:p<.91?2:3;return p<.58?0:p<.8?1:2;});}
 export function cellLength(r){return Math.round(([130,65,35][r.conditionIndex])*(.85+random(r.seed)()*.3));}
 export function valueAt(c,r,t){const v=.90+random(r.seed)()*.20,ci=r.conditionIndex;
@@ -29,7 +30,8 @@ export const bands=[[4000,2000,1000,500],[3000,1500,700],[2500,1200,600],[3000,1
 export function bandDistance(bp,progress=1,voltage=80){return (88-20*Math.log10(bp))*progress*(voltage/80);}
 export function bandSize(distance,progress=1,voltage=80){return 10**((88-distance/progress/(voltage/80))/20);}
 export function ready(c,r){if(r.prepared<c.steps.length)return false;
- if(['corn','flies','meiosis'].includes(c.kind))return Array.isArray(r.tallies)&&r.tallies.length===(c.kind==='meiosis'?2:c.categories.length)&&r.tallies.every(x=>Number.isInteger(x)&&x>=0)&&r.tallies.reduce((a,b)=>a+b,0)===(c.kind==='meiosis'?4:c.count)&&r.reviewed;
+ if(c.kind==='meiosis')return r.placed.length===4&&new Set(r.placed).size===4&&r.placed.every(i=>Number.isInteger(i)&&i>=0&&i<4)&&(r.conditionIndex===0?r.eggActivated:r.spermMature);
+ if(['corn','flies'].includes(c.kind))return Array.isArray(r.tallies)&&r.tallies.length===(c.kind==='meiosis'?2:c.categories.length)&&r.tallies.every(x=>Number.isInteger(x)&&x>=0)&&r.tallies.reduce((a,b)=>a+b,0)===(c.kind==='meiosis'?4:c.count)&&r.reviewed;
  if(c.categories)return r.scores.length===c.count&&r.scores.every(x=>Number.isInteger(x)&&x>=0&&x<c.categories.length)&&r.reviewed;
  if(c.kind==='microscope')return r.objective===40&&Math.abs(r.focus-50)<=12&&Number.isFinite(r.ruler)&&r.ruler>0;
  if(r.time<c.duration)return false;
@@ -37,22 +39,23 @@ export function ready(c,r){if(r.prepared<c.steps.length)return false;
  if(['expression','regulation'].includes(c.kind))return r.viewer;
  return true;
 }
-export function result(c,r){if(['corn','flies','meiosis'].includes(c.kind))return [...r.tallies];if(c.categories)return counts(r.scores,c.categories.length);if(c.kind==='microscope')return [r.ruler*2];if(c.kind==='gel')return r.estimates.map(Number);if(c.kind==='regulation')return [valueAt(c,r,r.time),r.conditionIndex===3?1:0];return [+valueAt(c,r,r.time).toFixed(2)];}
-export function record(c,r,source='virtual',values=result(c,r),note=''){return {condition:c.conditions[r.conditionIndex],conditionIndex:r.conditionIndex,repeat:r.repeat,source,values,unit:c.unit,note,readings:source==='virtual'?r.readings:[],modelVersion:source==='virtual'?c.version:null,settings:source==='virtual'?{setting:r.setting,seed:r.seed,region:r.region??null,...(c.kind==='meiosis'?{chromatids:r.chromatids,cut:r.cut,gametes:gametes(r)}:{})}:null};}
+export function result(c,r){if(c.kind==='meiosis'){const parental=gametes(r).filter(x=>['ABCDEFGH','abcdefgh'].includes(x)).length;return [parental,4-parental];}if(['corn','flies'].includes(c.kind))return [...r.tallies];if(c.categories)return counts(r.scores,c.categories.length);if(c.kind==='microscope')return [r.ruler*2];if(c.kind==='gel')return r.estimates.map(Number);if(c.kind==='regulation')return [valueAt(c,r,r.time),r.conditionIndex===3?1:0];return [+valueAt(c,r,r.time).toFixed(2)];}
+export function record(c,r,source='virtual',values=result(c,r),note=''){return {condition:c.conditions[r.conditionIndex],conditionIndex:r.conditionIndex,repeat:r.repeat,source,values,unit:c.unit,note,readings:source==='virtual'?r.readings:[],modelVersion:source==='virtual'?c.version:null,settings:source==='virtual'?{setting:r.setting,seed:r.seed,region:r.region??null,...(c.kind==='meiosis'?{chromatids:r.chromatids,cut:r.cut,products:meioticProducts(r),eggSide:r.eggSide,eggActivated:r.eggActivated,spermMature:r.spermMature}:{})}:null};}
 export function freshState(c,seed=Date.now()>>>0){return {version:1,seed,step:0,records:[],exploration:[],run:newRun(c,0,seed),prediction:'',...(c.kind==='corn'?{punnett:emptyPunnett()}:{}),design:'',answers:['','',''],complete:false};}
 export function restoreState(c,raw){try{const s=JSON.parse(raw);if(!s||s.version!==1||!Array.isArray(s.records)||s.records.length>sequence(c).length)throw Error();
  const validRecord=x=>x&&['virtual','classroom'].includes(x.source)&&Number.isInteger(x.conditionIndex)&&x.conditionIndex>=0&&x.conditionIndex<c.conditions.length&&Array.isArray(x.values)&&x.values.every(Number.isFinite);
  if(!s.records.every(validRecord)||!s.run||!Number.isFinite(s.run.time)||!Array.isArray(s.run.scores)||!Array.isArray(s.run.readings))throw Error();
  const r=s.run;
    if(r.tallies===undefined&&['corn','flies'].includes(c.kind)&&Array.isArray(r.scores)){r.tallies=counts(r.scores.filter(Number.isInteger),c.categories.length);r.marks=r.scores.flatMap((v,i)=>Number.isInteger(v)?[i]:[]);}
-   const defaults=newRun(c,0,s.seed);for(const field of ['tallies','marks','region','chromatids','cut','placed','carry','lanes'])if(r[field]===undefined)r[field]=defaults[field];
+   const defaults=newRun(c,0,s.seed);for(const field of ['tallies','marks','region','chromatids','cut','placed','carry','lanes','eggSide','eggActivated','spermMature'])if(r[field]===undefined)r[field]=defaults[field];
    if(r.tallies!==undefined&&(!Array.isArray(r.tallies)||r.tallies.some(x=>!Number.isInteger(x)||x<0)))throw Error();
    for(const field of ['marks','chromatids','placed','lanes'])if(!Array.isArray(r[field]))throw Error();
    if(r.region!==null&&![0,1,2].includes(r.region))throw Error();
    if(r.carry!==null&&![0,1,2,3].includes(r.carry))throw Error();
    if(r.cut!==null&&![1,2].includes(r.cut))throw Error();
-   if(c.kind==='meiosis'&&r.prepared>=2&&r.conditionIndex>0&&(r.chromatids.length!==2||Math.floor(r.chromatids[0]/2)===Math.floor(r.chromatids[1]/2)||r.cut!==r.conditionIndex))throw Error();
+   if(c.kind==='meiosis'&&r.prepared>=2&&(r.chromatids.length!==2||Math.floor(r.chromatids[0]/2)===Math.floor(r.chromatids[1]/2)||![1,2].includes(r.cut)))throw Error();
    if(new Set(r.placed.filter(Number.isInteger)).size!==r.placed.filter(Number.isInteger).length)throw Error();
+   if(c.kind==='meiosis'&&(![0,1].includes(r.eggSide)||typeof r.eggActivated!=='boolean'||typeof r.spermMature!=='boolean'))throw Error();
    if(r.chromatids.some(x=>!Number.isInteger(x)||x<0||x>3)||r.placed.some(x=>x!==null&&(!Number.isInteger(x)||x<0||x>3)))throw Error();
  if(!Number.isInteger(r.conditionIndex)||r.conditionIndex<0||r.conditionIndex>=c.conditions.length||!Number.isInteger(r.prepared)||r.prepared<0||r.prepared>c.steps.length||r.time<0||r.time>c.duration||!Number.isInteger(r.selected)||r.selected<0||r.selected>=(c.count||1))throw Error();
  if(![r.seed,r.focus,r.objective,r.ruler,r.setting].every(Number.isFinite)||!Array.isArray(r.estimates)||r.estimates.length!==3||!r.readings.every(x=>Array.isArray(x)&&x.length===2&&x.every(Number.isFinite)))throw Error();

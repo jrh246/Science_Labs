@@ -4,19 +4,23 @@ import {extendedLabs as labs} from '../src/investigations/extended-content.js';
 import {newRun,advance,valueAt,ready,specimens,counts,mapping,chiSquare,bandDistance,bandSize,record,restoreState,freshState,csv} from '../src/investigations/extended-model.js';
 import {gametes} from '../src/investigations/extended-model.js';
 const find=kind=>labs.find(c=>c.kind===kind);
-test('reciprocal exchanges preserve alleles and leave two parental chromatids',()=>{
- const c=find('meiosis');
- for(const condition of [0,1,2])for(const a of [0,1])for(const b of [2,3]){
-  const r=newRun(c,condition,42);r.chromatids=[a,b];const products=gametes(r);
+test('both gametogenesis pathways conserve alleles and distinguish egg from polar bodies',()=>{
+ const c=find('meiosis');assert.equal(c.conditions.length,2);
+ for(const condition of [0,1])for(const cut of [1,2])for(const a of [0,1])for(const b of [2,3]){
+  const r=newRun(c,condition,42);r.chromatids=[a,b];r.cut=cut;const products=gametes(r);
   assert.equal(products.join('').split('').sort().join(''),'AABBCCDDEEFFGGHHaabbccddeeffgghh');
-  assert.equal(products.filter(x=>x==='ABCDEFGH'||x==='abcdefgh').length,condition===0?4:2);
-  if(condition===1)assert.ok(products.includes('ABCdefgh')&&products.includes('abcDEFGH'));
-  if(condition===2)assert.ok(products.includes('ABCDEFgh')&&products.includes('abcdefGH'));
-  r.prepared=4;r.tallies=[4,0];r.reviewed=true;assert.equal(ready(c,r),true);
-  assert.deepEqual(record(c,r).values,[4,0]); // Incorrect but complete student tallies are retained.
-  assert.deepEqual(record(c,r).settings.gametes,products);
+  assert.equal(products.filter(x=>x==='ABCDEFGH'||x==='abcdefgh').length,2);
+  if(cut===1)assert.ok(products.includes('ABCdefgh')&&products.includes('abcDEFGH'));
+  if(cut===2)assert.ok(products.includes('ABCDEFgh')&&products.includes('abcdefGH'));
+  r.prepared=4;r.placed=[0,1,2,3];assert.equal(ready(c,r),false);
+  r.eggActivated=true;r.spermMature=true;assert.equal(ready(c,r),true);
+  assert.deepEqual(record(c,r).values,[2,2]);
+  assert.equal(record(c,r).settings.products.filter(p=>p.role==='Egg').length,condition===0?1:0);
+  assert.equal(record(c,r).settings.products.filter(p=>p.role==='Sperm').length,condition===1?4:0);
+  if(condition===0){r.eggSide=1;assert.equal(record(c,r).settings.products[2].role,'Egg');}
  }
 });
+
 test('sampling regions are reproducible, marks do not tally, and legacy partial counts migrate',()=>{
  const c=find('corn'),s=freshState(c,17),r=s.run;
  r.region=0;const first=specimens(c,r);r.region=1;assert.notDeepEqual(specimens(c,r),first);
