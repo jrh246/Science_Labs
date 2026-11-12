@@ -1,3 +1,4 @@
+import {learningDesign} from './learning-design.js';
 // Original lab content. The textbook links align concepts; simulated values are not textbook data.
 export const stages = ['Interphase','Prophase','Metaphase','Anaphase','Telophase'];
 export const stageClues = [
@@ -104,3 +105,5 @@ export const investigations = {
  },
 };
 export const buildOrder = ['light-photosynthesis','yeast-fermentation','mitosis'];
+
+for(const c of Object.values(investigations))c.learningPlan=learningDesign[c.id];

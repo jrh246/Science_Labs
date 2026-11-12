@@ -10,3 +10,8 @@ export function restoreMicroscope(value,answers){
  if(r.answers.some(a=>a===null))r.checked=false;
  return r;
 }
+
+export function reuseMicroscope(r){
+ if(r.loaded)return false;
+ Object.assign(r,{loaded:true,light:true,brightness:65,objective:40,focus:50,located:true,preparation:'matched'});return true;
+}

@@ -77,3 +77,54 @@ Interactive revision verification: 37 unit tests, 13 browser walkthrough/interac
 - Balloon worksheets now offer 0-60 minutes at 10-minute intervals. Volume collectors retain their capacity-limited 0-30 minute schedule. Longer or different schedules remain teacher-selected.
 - Physical and virtual recipes are explicitly distinct; the virtual kinetic model was not recalibrated from this single classroom observation.
 - All eight fermentation PDFs were regenerated and rendered; targeted corn and resource browser checks passed.
+
+## November 2026 extraction revision
+
+The current DNA activity supersedes the nine-preparation flow above: one hands-on preparation, two matched simulated controls, three descriptive observations, and two evidence-based responses. The central outcomes are explaining membrane disruption and separation, interpreting controls, and limiting claims about crude precipitate. Original shaded vector artwork shows fruit texture, crushed tissue, liquid levels, filter residue, glass and precipitated material. Mouse/touch/pen dragging and equivalent click/keyboard actions operate the same state machine. Classroom data remain explicitly labeled and are never replaced with model answers.
+
+## November 2026 learning and repetition review
+
+- [x] Audit all 14 available catalog labs, the Sordaria extension, and the matter-cycle activity; record guidance for all 33 planned entries in `LAB_LEARNING_REVIEW.md`.
+- [x] Reduce required enzyme reactions from 9 to 3, plant samples from 6 to 2, expression reactions from 9 to 3, and identical gels from 2 to 1.
+- [x] Retain useful samples and add explicit comparisons of individual corn, fly, and Sordaria samples before pooling.
+- [x] Offer fresh matched preparation after initial procedure practice; retain every new observation and classification.
+- [x] Reduce identical plate-spreading passes from 3 to 1. This supersedes the spreading requirement in the earlier interactive revision.
+- [x] Preserve earlier multi-trial attempts under their original browser-storage keys.
+- [x] Update the 24 affected worksheets and guides, with no added near-empty overflow pages.
+
+The shorter pathways teach controlled contrasts; their prompts state that a single sample per condition cannot estimate variability. Physical independent replication remains appropriate for claims about reliability.
+
+Validation for this review: 50 unit tests passed; production build verified 55 offline URLs; 68 of 69 browser checks passed in the full run. The existing fermentation-resource check timed out waiting for service-worker setup. Its test now waits for initial caching before navigation and passed both isolated and parallel reruns. Five focused checks passed against the final build, including single-sample graph labels and full-field setup reuse. Both deployment/isolation checks passed. All 24 revised PDFs (108 pages, including unchanged appended cutouts) were rendered and visually inspected; content bounds and pagination were checked. `git diff --check` passed.
+
+## DNA teaching and report corrections
+
+- [x] Define release, separate, filtrate, precipitate and lipid bilayer before the prediction, with access during the procedure.
+- [x] Explain detergent interaction with membrane lipids and partial release by mechanical disruption.
+- [x] Present required checkpoints before next-step directions; pause equipment until the response is corrected.
+- [x] Retain checkpoint response history without assigning a grade to the overall lab.
+- [x] Add completed/draft PDF download and print reports with all recorded evidence and explanations; include a structured response attachment and JSON export for future assessment.
+- [x] Revise the new no-detergent model to faint material, preserving earlier recorded observations.
+- [x] Update the three-page worksheet and two-page teacher guide.
+
+Future lab acceptance criterion: an end-of-lab PDF report and print action are mandatory. A downloadable blank worksheet is not a completed student report. Verify long text, source labels, offline availability, and fidelity to saved student responses.
+
+Validation for the DNA corrections: all 54 unit tests and all 9 dedicated DNA browser tests passed; the 2 report tests were rerun after final print styling. Both deployment checks passed against a local root/development fixture, including first-use PDF generation offline at the development subpath. The final production build verified 56 offline-cache URLs. Downloaded virtual, classroom, in-progress and browser-printed reports were rendered and inspected; Unicode names, long answers, response-history attachments and content bounds were checked. The three-page worksheet and two-page guide were rendered and visually checked. Asset hashes and `git diff --check` passed.
+
+## Name and period on other lab reports
+
+- [x] Add optional Name and Class / period to all 13 other report-enabled labs, including the Sordaria extension.
+- [x] Save details with each attempt and include them in existing report downloads and print views.
+- [x] Preserve older observations and completion status when details are entered.
+
+Validation: all 54 unit tests passed; production build verified 56 offline-cache URLs. Browser review covered fields, old saves, report downloads, native printing and reload persistence across all 13 labs. Representative core/extended forms passed offline reload and mobile/desktop layout review. `git diff --check` passed.
+
+## Virtual-only DNA to RNA to Protein lab
+
+- [x] Add a separate Genetics catalog entry, explicitly Virtual only, with no classroom route.
+- [x] Guide DNA replication, RNA transcription, capping/splicing/tailing, nuclear-pore export and ribosomal translation.
+- [x] Require location decisions, base pairing on both DNA template orientations, tRNA/codon matching, stop recognition and explanatory writing.
+- [x] Explain that replication is distinct from gene expression and is not required before every transcription event.
+- [x] Use original shaded molecular/cell artwork and short animations, with drag, click/tap, keyboard and reduced-motion alternatives.
+- [x] Retain optional name/period and all recorded responses in PDF, print and structured JSON exports, including draft/offline use.
+
+Validation: all 58 unit tests passed. Eleven focused browser checks passed across the new lab, catalog and existing extraction reports; the three new-lab checks were rerun after hover-contrast and keyboard-focus fixes. All three deployment checks passed, including first-use offline PDF download and independent root/development progress. The final build verified 56 offline-cache URLs. Desktop, tablet and phone screenshots were reviewed. Completed/downloaded and browser-printed reports (three pages each), plus a five-page long-answer draft, were rendered and inspected; text bounds, Unicode, all long paragraphs and embedded response data were verified. `git diff --check` passed.

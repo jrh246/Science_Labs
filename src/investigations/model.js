@@ -30,7 +30,7 @@ export function mean(values){return values.length?values.reduce((a,b)=>a+b,0)/va
 export function tally(answers){return stages.map((_,s)=>answers.filter(a=>a===s).length);}
 export function stageStats(counts,hours){const total=counts.reduce((a,b)=>a+b,0);return counts.map((count,i)=>({stage:stages[i],count,percent:total?count/total*100:0,hours:total?count/total*hours:0}));}
 export function validateReadings(c,values){return values.length===times(c).length&&values.every(v=>v!==''&&Number.isFinite(Number(v))&&Number(v)>=0&&Number(v)<=c.max&&(c.kind!=='leaf'||Number.isInteger(Number(v))));}
-export function fresh(c,sources){return {version:1,...(c.kind==='mitosis'?{mitosisModelVersion:2}:{}),seed:Math.floor(Math.random()*1e9),step:0,sources:c.conditions.map((_,i)=>sources?.[i]==='classroom'?'classroom':'virtual'),notes:{prediction:'',design:'',observations:'',answers:['','','','']},runs:{},classifications:{},counts:{},reviewed:{},cycleHours:24,complete:false};}
+export function fresh(c,sources){return {version:1,studentName:'',studentClass:'',...(c.kind==='mitosis'?{mitosisModelVersion:2}:{}),seed:Math.floor(Math.random()*1e9),step:0,sources:c.conditions.map((_,i)=>sources?.[i]==='classroom'?'classroom':'virtual'),notes:{prediction:'',design:'',observations:'',answers:['','','','']},runs:{},classifications:{},counts:{},reviewed:{},cycleHours:24,complete:false};}
 export function restored(c,raw,sources){
  try{
   const s=JSON.parse(raw);if(s.version!==1||!Number.isInteger(s.seed)||!Number.isInteger(s.step)||s.step<0||s.step>2||s.sources.length!==c.conditions.length||!s.sources.every(x=>['classroom','virtual'].includes(x)))throw Error();
@@ -46,6 +46,7 @@ export function restored(c,raw,sources){
    }
   }
   if(c.kind==='mitosis'&&s.mitosisModelVersion!==2)s.mitosisModelVersion=1;
+  for(const field of ['studentName','studentClass'])if(typeof s[field]!=='string')s[field]='';
   return s;
  }catch{return fresh(c,sources);}
 }
@@ -53,3 +54,10 @@ export function completedData(c,s){return c.conditions.every(condition=>{
  if(c.kind==='mitosis')return s.sources[c.conditions.indexOf(condition)]==='classroom'?!!s.counts[condition.id]?.some(x=>x>0):s.classifications[condition.id]?.length===20&&s.classifications[condition.id].every(x=>Number.isInteger(x))&&!!s.reviewed[condition.id];
  return [1,2,3].every(t=>s.runs[condition.id+'-'+t]?.length===times(c).length);
 });}
+
+// A completed virtual observation unlocks setup reuse; classroom data do not.
+export function hasPriorVirtualSample(c,s,current){
+ return c.conditions.some((condition,i)=>s.sources[i]==='virtual'&&(c.kind==='mitosis'
+  ? condition.id!==current&&s.reviewed[condition.id]===true&&s.classifications[condition.id]?.length===20&&s.classifications[condition.id].every(Number.isInteger)
+  : [1,2,3].some(trial=>condition.id+'-'+trial!==current&&s.runs[condition.id+'-'+trial]?.length===times(c).length)));
+}

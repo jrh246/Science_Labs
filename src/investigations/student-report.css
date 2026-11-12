@@ -1,0 +1,23 @@
+.student-report-controls{margin:20px 0;color:#264737}.student-report-buttons{display:flex;flex-wrap:wrap;gap:12px}.student-report-buttons button{min-height:44px;font:inherit;cursor:pointer}.student-report-status{min-height:1.5em;margin:12px 0 0;font-size:.95rem}.student-report-help{font-size:.85rem;line-height:1.5;max-width:70ch}.student-report-print{display:none}
+.osmosis-report-controls{margin:28px 0;padding:22px;border:1px solid #cbd8d4;border-radius:10px;background:white}.osmosis-report-controls h2{font-size:1.3rem;letter-spacing:normal;line-height:1.3;margin:0 0 12px}
+@media print{
+ @page student-lab-report{size:letter;margin:.6in}
+ html.student-report-printing{background:white!important}
+ body.student-report-printing{background:white!important;margin:0!important;padding:0!important;color:#203d35!important}
+ body.student-report-printing>*:not(.student-report-print){display:none!important}
+ body.student-report-printing>.student-report-print{display:block!important;page:student-lab-report;width:auto;max-width:none;margin:0;padding:0;font:10pt/1.3 Arial,sans-serif;color:#203d35}
+ .student-report-print header{display:block;background:none;color:inherit;margin:0;padding:0;border:0}
+ .student-report-print h1{font-size:23pt;line-height:1.15;margin:0 0 12pt}
+ .student-report-print h1,.student-report-print h2,.student-report-print h3{letter-spacing:normal;text-transform:none}
+ .student-report-print h2{font-size:14pt;margin:16pt 0 7pt;break-after:avoid}
+ .student-report-print h3{font-size:10pt;margin:0 0 4pt;break-after:avoid}
+ .student-report-print .short-response{break-inside:avoid}
+ .student-report-print .student-report-sample-summary{break-inside:avoid}
+ .student-report-print p{white-space:pre-wrap;overflow-wrap:anywhere;margin:0 0 7pt;line-height:inherit;color:inherit;orphans:3;widows:3}
+ .student-report-print .report-eyebrow,.student-report-print .report-note{font-size:9pt;color:#56675e}
+ .student-report-print table{border-collapse:collapse;width:100%;table-layout:fixed;font:9pt/1.3 Arial,sans-serif;margin:4pt 0 12pt}
+ .student-report-print thead{display:table-header-group;background:#eaf0e8}
+ .student-report-print thead,.student-report-print tbody{font:inherit;color:inherit}
+ .student-report-print th,.student-report-print td{text-align:left;vertical-align:top;padding:4pt 5pt;border:0;border-bottom:1px solid #cbd5cb;overflow-wrap:anywhere;white-space:pre-wrap}
+ .student-report-print tr{break-inside:avoid}
+}

@@ -44,3 +44,8 @@ export function investigationYeastVersion(s){
  // trials not yet begun. Never mix kinetics within a saved comparison.
  return Object.keys(s.runs||{}).length||Object.keys(s.yeastRuns||{}).length||s.yeastExploration?1:2;
 }
+
+export function prepareMatchedYeast(r,condition){
+ if(r.ticks||r.prepared||r.fuel!==condition||!r.yeast||r.bath!==30)return false;
+ r.prepared=true;r.connected=true;r.preparation='matched';return true;
+}

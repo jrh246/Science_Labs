@@ -1,0 +1,17 @@
+.lab-completion-status {
+  min-height: 1.5em;
+  margin: 0.75rem 0;
+  color: #225b45;
+  font-weight: 600;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+.lab-completion-status.lab-save-error {
+  color: #9a332b;
+}
+
+.storage-warning[hidden],
+.ext-storage[hidden] {
+  display: none;
+}

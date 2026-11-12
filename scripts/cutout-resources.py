@@ -1,7 +1,7 @@
 """Append supplied cutouts to freshly generated lab packets (called by build-resources.py)."""
 from pathlib import Path
 from io import BytesIO
-import subprocess
+import subprocess, shutil
 from PIL import Image
 from pypdf import PdfReader, PdfWriter
 from reportlab.pdfgen import canvas
@@ -50,7 +50,12 @@ def append_cutouts(lab_id,guide_only=False,worksheet_only=False):
         else:
           # Rasterize only the card area so hidden PDF text cannot expose the key.
           prefix=ROOT/'tmp/pdfs/respiration-cards-source'
-          subprocess.run(['pdftoppm','-r','200','-singlefile','-png',str(RESP),str(prefix)],check=True)
+          if shutil.which('pdftoppm'):
+            subprocess.run(['pdftoppm','-r','200','-singlefile','-png',str(RESP),str(prefix)],check=True)
+          else:
+            import pymupdf
+            with pymupdf.open(RESP) as source:
+              source[0].get_pixmap(matrix=pymupdf.Matrix(200/72,200/72)).save(str(prefix)+'.png')
           im=Image.open(str(prefix)+'.png');im=im.crop((0,0,im.width,round(im.height*330/792)))
           out=BytesIO();c=canvas.Canvas(out,pagesize=(612,792))
           c.drawImage(ImageReader(im),0,462,width=612,height=330)

@@ -1,3 +1,4 @@
+import {openPlannedCollection} from './planning-helpers.js';
 import {test,expect} from '@playwright/test';
 test('legacy classroom settings can open the lamp without overwriting classroom work',async({page})=>{
  await page.goto('/investigation.html?lab=light-photosynthesis');
@@ -8,8 +9,10 @@ test('legacy classroom settings can open the lamp without overwriting classroom 
   localStorage.setItem(key,JSON.stringify(state));return key;
  });
  await page.reload();await expect(page.getByText('Saved classroom settings are active',{exact:true})).toBeVisible();
+ await openPlannedCollection(page);
  const original=await page.evaluate(key=>localStorage.getItem(key),key);
  await page.getByRole('link',{name:'Open interactive lamp',exact:true}).click();
+ await openPlannedCollection(page);
  await expect(page.locator('leaf-simulator').getByRole('heading',{name:'Control the lamp'})).toBeVisible();
  await page.getByRole('button',{name:'Pull plunger',exact:true}).click();
  expect(await page.evaluate(key=>localStorage.getItem(key),key)).toBe(original);

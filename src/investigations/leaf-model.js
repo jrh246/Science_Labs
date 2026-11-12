@@ -42,3 +42,9 @@ export function restoreLeafRun(value,condition,trial,seed){
  if(!Array.isArray(r.events)||r.events.some(e=>!Number.isFinite(e.time)||e.time<0||e.time>r.ticks/4||!Number.isInteger(e.light)||e.light<0||e.light>100))return fallback();
  return r;
 }
+
+export function prepareMatchedLeaf(r){
+ if(r.ticks||r.inCup||r.vacuum)return false;
+ while(r.cycles<3){infiltrate(r);infiltrate(r);}
+ r.inCup=true;r.preparation='matched';return true;
+}

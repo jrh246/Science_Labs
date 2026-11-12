@@ -1,3 +1,4 @@
+import {openPlannedCollection} from '../browser/planning-helpers.js';
 import {test,expect} from '@playwright/test';
 import {extendedLabs,sordariaExtension} from '../../src/investigations/extended-content.js';
 test('all new preview labs and PDFs survive offline reload at the deployment subpath',async({page,context})=>{
@@ -15,7 +16,15 @@ test('all new preview labs and PDFs survive offline reload at the deployment sub
  for(const [id,title] of [['light-photosynthesis','Light and Photosynthesis'],['yeast-fermentation','Yeast Fermentation and Fuel Sources'],['mitosis','Measuring Mitosis'],...[...extendedLabs,sordariaExtension].map(c=>[c.id,c.title])]){
   await page.goto('/Science_Labs/dev/investigation.html?lab='+id);await page.reload();
   await expect(page.getByRole('heading',{name:title,exact:true})).toBeVisible();
-  if(id==='light-photosynthesis'){await page.getByRole('button',{name:'2. Collect observations',exact:true}).click();await expect(page.locator('leaf-simulator').getByRole('heading',{name:'Control the lamp'})).toBeVisible();}
+  if(id==='light-photosynthesis'){await openPlannedCollection(page);await expect(page.locator('leaf-simulator').getByRole('heading',{name:'Control the lamp'})).toBeVisible();}
+  if(id==='dna-replication'){
+   // The generator and fonts must load on their first use while offline at /dev/.
+   const event=page.waitForEvent('download');
+   await page.getByRole('button',{name:'Download report (PDF)',exact:true}).click();
+   const download=await event;expect(download.suggestedFilename()).toBe('dna-replication-lab-report.pdf');
+   const stream=await download.createReadStream();const chunks=[];for await(const chunk of stream)chunks.push(chunk);
+   expect(Buffer.concat(chunks).subarray(0,5).toString()).toBe('%PDF-');
+  }
   for(const type of ['worksheet','teacher-guide']){
    expect(await page.evaluate(async path=>{const r=await fetch(path);return (await r.text()).slice(0,4);},`./resources/${id}-${type}.pdf`)).toBe('%PDF');
   }

@@ -1,6 +1,6 @@
 # Science Labs
 
-A searchable static library: Home → Science → Biology → Units → Labs. Eight Biology units contain 47 proposed investigations. Four investigations are available: osmosis, photosynthesis, yeast fermentation, and mitosis. The latter three support mixed virtual/classroom data, printable PDF worksheets and teacher guides, and report/data downloads. Other investigations are explicitly marked planned.
+A searchable static library: Home → Science → Biology → Units → Labs. Eight Biology units contain 48 catalog investigations. Fifteen investigations are available, plus an optional Sordaria extension and a matter-cycle card activity. Modular investigations support virtual/classroom data, printable worksheets and teacher guides, and report/data downloads. The other 33 catalog entries are explicitly marked planned. See [LAB_LEARNING_REVIEW.md](LAB_LEARNING_REVIEW.md) for the learning purpose and required work in every implemented lab and design guidance for all planned entries.
 
 Run `npm ci` and `npm run dev` to preview locally. See [ARCHITECTURE.md](ARCHITECTURE.md) for routes, catalog fields, future assignment/reporting boundaries, and validation.
 
@@ -53,3 +53,17 @@ Semantic controls, keyboard focus, signed numeric input, text labels, touch targ
 Reset Lab clears recorded work and refreshes this lab’s offline cache from the server. If offline, it retains fallback assets so students can start again without internet. It cannot clear Chrome’s general HTTP cache. Preparation uses an 4-second fill, 2-second weighing, and 4-second sugar pour with a reduced-motion alternative. Prepared beakers remind students to record their solution information on the worksheet.
 
 Resource roadmap: [LAB_RESOURCES_PLAN.md](LAB_RESOURCES_PLAN.md). New lab build order: Biology 2e chapters 8, 7, then 10. Procedures and diagrams are original; simulated results are instructional models rather than empirical measurements.
+
+## Fruit DNA extraction workspace
+
+The DNA activity (`investigation.html?lab=dna-replication`) now uses a dedicated interactive bench. Students move fruit, mash it, add measured ingredients, filter and layer alcohol. One preparation and two model-prepared controls replace nine repeated preparations. Two mechanism checks and two evidence explanations focus the activity on membranes, separation, controls and limits of visual evidence. Classroom entry, downloads, offline access and earlier-work export are supported. The worksheet includes concept support, observations, and explanations in three pages; the teacher guide is two pages. Students can download their own completed lab report as a PDF or print it, including all recorded responses. See `ARCHITECTURE.md` for state and validation details.
+
+## Learning-focused workflows
+
+The required comparisons now use three enzyme reactions, two plants, three expression reactions, and one gel. Extra independent trials remain optional when studying reliability. Sampling remains required in microscopy, mitosis, inheritance, linkage, Sordaria, photosynthesis, and yeast because the questions use sample differences. After one completed virtual sample, a matched-preparation shortcut removes repeated setup while retaining fresh readings, measurements, and classifications. Reporter plates require one spreading pass instead of three.
+
+Each modular lab explains why its amount of work is required. Earlier multi-trial work in the shortened labs is preserved and downloadable; new comparisons start separately. The worksheets and teacher guides match the revised workflows.
+
+## Virtual-only molecular genetics lab
+
+`investigation.html?lab=genetic-information` opens **DNA to RNA to Protein** in Genetics. It is a supplemental virtual-only activity, separate from fruit extraction and the fluorescent-protein investigation. Students place enzymes, build short complementary DNA and RNA windows, process/export mRNA and decode three amino-acid codons plus a stop signal. Required location checks and two explanations distinguish copying the genome from expressing a gene. Reports include optional name/period, PDF download, printing and recorded-response JSON. No classroom route or wet-lab materials are presented.

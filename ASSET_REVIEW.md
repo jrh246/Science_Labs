@@ -34,3 +34,19 @@ No identified asset requires removal based on the evidence reviewed. This conclu
 The chromosome strips, allele graphics, corn sampling diagram, equipment icons and CSS animations were authored in this repository. No supplier artwork, worksheet or specimen photograph was imported. The handout generator now produces 22 PDFs: ten primary student/teacher pairs plus the retained Sordaria extension pair. ASSET_INVENTORY.json was refreshed after generation.
 
 Corn realism revision: rounded kernel highlights, cob gradients and husks are original SVG/CSS in corn-art.js. No photographs or third-party art were imported. Fermentation recipe revision follows Rick's classroom feedback; eight packet hashes were refreshed.
+
+## November 2026 extraction assets
+
+The revised extraction workbench uses original inline SVG in `src/investigations/extraction-art.js`: seeded fruit texture, mashed tissue, shaded glass, folded sample bags, filter residue and crude precipitate. No external images or fonts are bundled. `scripts/build-dna-resources.py` generates the matching two-page worksheet and teacher guide. The two updated PDF hashes and sizes are recorded in `ASSET_INVENTORY.json`.
+
+## Learning review resource update — 2026-11-08
+
+Updated 24 original worksheet/teacher-guide PDFs for the revised comparisons, sampling explanations, and fresh-sample setup controls. Existing teacher-supplied cutout originals and method-specific classroom fermentation packets are unchanged. The original cutout crop can now render with PyMuPDF when Poppler is unavailable. No external artwork was added in this review. Resource hashes and sizes are refreshed in `ASSET_INVENTORY.json`.
+
+## DNA report and explanations revision
+
+Updated the original DNA worksheet and teacher guide for the glossary, membrane mechanism, explicit checkpoints, mechanical-release control and completed report. PDF reports are generated locally with pdfmake 0.3.14 (MIT) and bundled Roboto fonts (SIL OFL 1.1). Notices are included below the existing notices in `public/THIRD_PARTY_NOTICES.txt`; dependency inventory and asset hashes are refreshed. No external graphics or source worksheet text was copied.
+
+## Genetic information virtual lab
+
+Cell, nuclear envelope/pore, DNA strands, enzyme components, tRNAs, ribosome and peptide art are original inline SVG in `genetics-art.js`; no external raster assets or scientific figures were copied. Gradients and short state-driven animations provide volume and movement while labels identify the schematic scale. Reduced-motion mode removes movement. Biological references are NHGRI transcription/translation and OpenStax Biology 2e sections 14.3 and 15.4. The existing bundled PDF generator and fonts are reused.

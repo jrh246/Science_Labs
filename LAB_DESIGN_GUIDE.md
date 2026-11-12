@@ -2,6 +2,16 @@
 
 Established 2026-11-11 from the fruit DNA extraction and DNA to RNA to Protein redesigns. These are the design requirements for new labs and the review criteria for existing labs. The companion [audit](LAB_DESIGN_AUDIT.md) applies them to the current local implementation.
 
+## Three priorities in every lab
+
+Apply these requirements to every new lab and every revision of an existing lab:
+
+- **Meaningful interactivity:** students manipulate tools, specimens, molecules, or investigation settings; make observations or measurements; and see the consequences of their actions. Tie the main interactions to the learning goals (G01, G05–G07, G16).
+- **Visual realism:** equipment, specimens, materials, and processes should look convincing and behave plausibly. Show appropriate shape, scale relationships, depth, lighting, texture, and movement where they help students understand the science (G03–G06).
+- **Ninth-grade student language:** write student directions, questions, feedback, labels, tooltips, report prompts, and student handouts for ninth-grade comprehension. Explain necessary scientific terms where students use them (G08–G10).
+
+Record separate review evidence for each priority. Carry these checks through the full student pathway, including intermediate states, errors, and the report. Preserve students' own written responses verbatim when checking the reading level of authored prompts and directions.
+
 ## Learning comes before the procedure
 
 **G01 — Define the evidence of learning.** Before building an apparatus or animation, write:
@@ -50,13 +60,19 @@ Identify model-supplied primers, automatic extension, schematic sizes, accelerat
 
 **G05 — Put tools and components at their work sites.** Students should use the object that performs the action, place or use it where the action happens, and see the resulting change. A meaningful microscope measurement or specimen classification is just as valid as a molecular placement; the interaction should fit the learning goal.
 
+Plan the main student actions before choosing artwork. For each learning goal, identify what the student controls, what changes visibly, and what observation or explanation provides evidence of learning. Navigation buttons and a running animation alone do not establish meaningful interaction. Use direct manipulation where it fits the task, with accessible tap/select and keyboard alternatives. Measurement, classification, graph interpretation, and balancing a model also count when the student makes the relevant decisions.
+
 For a molecular model, use sites such as a DNA fork, primer's 3′ end, promoter, RNA end, intron, nuclear pore, or current ribosome codon. For a bench lab, use the bag, tube, pipette destination, microscope control, gel well, or other actual apparatus feature. Avoid a generic drop box when the relevant work site is visible.
 
 Show the consequence: DNA opening or extension, an intron removed and exons joined, mRNA crossing a pore, an amino acid delivered, liquid added, a sample mashed, or a band revealed. Animation illustrates the transition; it must not silently add student responses or erase mistakes.
 
-**G06 — Keep artwork, targets, and choices aligned.** Use shared geometry for the drawn component and its interaction target. A growing strand's next-nucleotide target must move with polymerase and point to the next available site, rather than the last completed base. Check both template directions and RNA synthesis, not just the first DNA frame.
+**G06 — Make visuals realistic and keep artwork, targets, and choices aligned.** Use shared geometry for the drawn component and its interaction target. A growing strand's next-nucleotide target must move with polymerase and point to the next available site, rather than the last completed base. Check both template directions and RNA synthesis, not just the first DNA frame.
 
 Keep the component tray immediately below or beside the active drawing. Remove a second highlighted matching diagram when the same information is already clear on the molecule. Use scientifically plausible shapes, proportions, depth, labels, and motion where useful. Original SVG or other code-based artwork is suitable when it supports accurate, responsive interaction.
+
+Treat visual realism as a core design requirement. Use recognizable apparatus and specimens, plausible materials and proportions, visible fluid levels or sample changes, and motion that matches the action. For example, fruit should visibly change when mashed, liquid should enter the selected container, and an enzyme should act where it is placed. Microscopy views must provide visible structures consistent with the model's stated resolution. Review the initial, intermediate, and final states of each important process.
+
+Molecular and microscopic scenes may use clear scientific schematics to show otherwise invisible processes. Explain exaggerated scale, artificial colors, omitted details, and accelerated movement where these affect interpretation. Keep labels, contrast, and interaction targets readable while improving detail, depth, lighting, and texture. The visual result must communicate the science accurately.
 
 **G07 — Avoid answers supplied by position or decoration.** Shuffle answer banks when fixed order reveals the answer, as with tRNA choices. Keep the shuffled order stable within an attempt, including corrections and reload. Preserve molecule identity, correct base sequences, direction labels, lane identity, and other scientifically meaningful order. Do not randomize the biology to randomize the choices.
 
@@ -64,7 +80,7 @@ A target highlight may teach where to practice an action. Decide separately whet
 
 ## Write for ninth-grade readers
 
-**G08 — Define important terms at first use.** Use short sentences, concrete verbs, and one action per instruction where practical. Keep necessary scientific vocabulary and explain it in context.
+**G08 — Write all student-facing language at a ninth-grade level and define terms at first use.** Use short sentences, concrete verbs, and one action per instruction where practical. Keep necessary scientific vocabulary and explain it in context. Apply the same reading target to directions, questions, answer choices, hints, feedback, labels, tooltips, report prompts, and student handouts. Students should be able to explain what to do next and why the action matters.
 
 Examples:
 
@@ -81,7 +97,7 @@ Define primer, promoter, intron, exon, anticodon, and other new terms where stud
 
 **G09 — Make required thinking explicit and enforce its timing.** Say that a required response must be answered before continuing. Gate the relevant controls and navigation in the state model as well as the interface. Do not reveal the next action instructions or the predicted result before the response is recorded.
 
-A prediction records what the student expects and why; it may be wrong. Do not require a prediction to match the modeled outcome. A required knowledge check can ask for revision with feedback before continuation. Preserve the initial response and revisions when recorded, and mark older attempts without that history as unrecorded.
+A prediction records what the student expects and why; it may be wrong. Do not require a prediction to match the modeled outcome. A required knowledge check can ask for revision with feedback before continuation. Preserve the initial response and revisions when recorded, and mark older attempts without that history as unrecorded. Retain the first recorded prediction when students revise their current writing. Label prediction timing as unrecorded when earlier observations already exist. Optional checkers that reveal expected results must respect the prediction gate too.
 
 **G10 — Give clear, useful feedback.** Correct answers should say **“Correct!”** and explain why. Wrong answers should name the relevant misconception or suggest what to reconsider. “Check passed” alone is insufficient. Pair color with text or an icon. Keep feedback near the question or action and announce important updates to assistive technology.
 
@@ -131,6 +147,9 @@ Test real interaction sequences: drag, release, then tap; wrong placement follow
 
 **G17 — Validate the learning contract with appropriate checks.** Match checks to the change. For a new or substantially redesigned interactive lab, review:
 
+- Meaningful student interaction for each main learning goal, including a visible response to manipulation or a decision.
+- Visual realism and scientific plausibility in the key starting, intermediate, and final states; inspect desktop and phone views.
+- Ninth-grade language across all authored student text; use a reading-level screen as a diagnostic and teacher/student review to check understanding.
 - Scientific rules, controls, units, and limits; use a qualified content review where needed.
 - A complete student attempt, wrong answers and placements, required gates, and saved partial attempts.
 - Evidence and reports for an unfinished attempt, a corrected attempt, and a completed attempt.

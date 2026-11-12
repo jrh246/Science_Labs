@@ -69,6 +69,7 @@ export const labs = proposals.map(([id,title,summary,chapterTitle],i)=>({
  const c=extendedById[lab.id];
  return c?{...lab,title:c.title,summary:c.question,status:'available',modes:['Virtual','Classroom'],launchUrl:`./investigation.html?lab=${lab.id}`,resources:[{label:'Student worksheet (PDF)',url:`./resources/${lab.id}-worksheet.pdf`},{label:'Teacher guide (PDF)',url:`./resources/${lab.id}-teacher-guide.pdf`}]}:lab;
 });
+labs.push({id:'genetic-information',title:'DNA to RNA to Protein',summary:'Work inside a eukaryotic cell: replicate DNA, transcribe and process RNA, then translate codons into an amino-acid chain. Track where each process happens.',chapter:15,chapterTitle:'Genes and Proteins',subjectId:'biology',unitId:'genetics',type:'lab',status:'available',modes:['Virtual'],virtualOnly:true,version:1,launchUrl:'./investigation.html?lab=genetic-information',resources:[]});
 export const labPath = lab => `/science/biology/${lab.unitId}/${lab.id}`;
 export function searchCatalog(query,{availableOnly=false}={}) {
   const terms=query.toLowerCase().trim().split(/\s+/).filter(Boolean);

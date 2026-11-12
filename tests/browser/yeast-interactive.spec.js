@@ -1,10 +1,11 @@
+import {openPlannedCollection} from './planning-helpers.js';
 import {test,expect} from '@playwright/test';
 async function prepare(page,fuel){const sim=page.locator('yeast-simulator');await sim.getByRole('button',{name:fuel,exact:true}).click();await sim.getByRole('button',{name:'Prepare mixture',exact:true}).click();await sim.getByRole('button',{name:'Connect gas syringe',exact:true}).click();}
 test('fermentation guides nine prepared trials, restores progress, and protects comparison during exploration',async({page})=>{
- await page.goto('/investigation.html?lab=yeast-fermentation');
+ await page.goto('/investigation.html?lab=yeast-fermentation');await openPlannedCollection(page);
  await expect(page.getByRole('heading',{name:'How does the gas-collection apparatus work?'})).toBeVisible();
  await expect(page.getByRole('heading',{name:'Teacher setup'})).toHaveCount(0);
- await page.getByRole('button',{name:'2. Collect observations',exact:true}).click();
+ await openPlannedCollection(page);
  const sim=page.locator('yeast-simulator');
  await expect(page.locator('#condition,#trial')).toHaveCount(0);
  await expect(sim.locator('#apparatus svg')).toHaveAttribute('aria-label',/Empty flask.*disconnected/);
@@ -13,7 +14,8 @@ test('fermentation guides nine prepared trials, restores progress, and protects 
  for(const [i,fuel] of ['No added sugar','Glucose','Sucrose'].entries())for(let t=1;t<=3;t++){
   await expect(page.locator('.screen-work')).toContainText(`Trial ${i*3+t} of 9`);
   if(i>0)await expect(sim.getByRole('button',{name:'Prepare mixture',exact:true})).toBeDisabled();
-  await prepare(page,fuel);
+  if(i===0&&t===1){await expect(sim.getByRole('button',{name:'Prepare fresh matched mixture',exact:true})).toHaveCount(0);await prepare(page,fuel);}
+  else {if(i>0)await expect(sim.getByRole('button',{name:'Prepare fresh matched mixture',exact:true})).toBeDisabled();await sim.getByRole('button',{name:fuel,exact:true}).click();await sim.getByRole('button',{name:'Prepare fresh matched mixture',exact:true}).click();await expect(sim.locator('#clock')).toHaveText('00:00');await expect(sim.getByRole('button',{name:'Collect data and continue'})).toBeDisabled();if(i===0&&t===2)await page.reload();}
   await expect(sim.locator('#apparatus svg')).toHaveAttribute('aria-label',/Prepared mixture; gas syringe connected/);
   await expect(sim.getByRole('slider',{name:'Water bath temperature'})).toBeDisabled();
   await sim.getByRole('button',{name:'Start trial',exact:true}).click();await expect(sim.locator('#clock')).not.toHaveText('00:00');
@@ -39,11 +41,11 @@ test('fermentation guides nine prepared trials, restores progress, and protects 
 
 test('saved fermentation classroom data and notes stay separate from the virtual apparatus workspace',async({page})=>{
  await page.goto('/investigation.html?lab=yeast-fermentation&sources=classroom,virtual,virtual');
- await page.getByRole('button',{name:'2. Collect observations',exact:true}).click();
+ await openPlannedCollection(page);
  for(let time=0;time<=30;time+=5)await page.getByRole('spinbutton',{name:`Reading at ${time} minutes`,exact:true}).fill(String(time/10));
  await page.getByRole('button',{name:'Save classroom trial'}).click();
  await expect(page.getByRole('heading',{name:'No added sugar · Trial 2 of 3'})).toBeVisible();
- await page.getByRole('link',{name:'Open interactive fermentation apparatus'}).click();
+ await page.getByRole('link',{name:'Open interactive fermentation apparatus'}).click();await openPlannedCollection(page);
  await expect(page.locator('yeast-simulator')).toBeVisible();
  await expect(page.getByRole('heading',{name:'No added sugar · Trial 1 of 3'})).toBeVisible();
  await page.getByRole('link',{name:'Return to saved lab'}).click();
