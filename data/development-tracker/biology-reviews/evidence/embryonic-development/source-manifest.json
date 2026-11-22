@@ -1,0 +1,24 @@
+{
+  "capturedAt": "2026-11-15T20:55:43.124Z",
+  "scope": "Actual reviewed working-tree files; unrelated changes and previous student attempts preserved.",
+  "files": {
+    "src/investigations/embryo-content.js": "c51e73798bee8b1bc5c735a4d7c62498ef970e583ca93225ed9a60645f126423",
+    "src/investigations/embryo-model.js": "490f5050ef679301e8f6149cbbe83497c04f565fedea8735ff8082e1d0884432",
+    "src/investigations/embryo-art.js": "fd59a88a7c9b2615c55fdc66a260999b8a98961aa5ded4a28380e7193e65fe7f",
+    "src/investigations/embryo-report.js": "ac3bdc6ee551e0e7108d0c9d9b2a52299b47b76b620cf5a1365b7a02a10ed125",
+    "src/investigations/embryo-app.js": "beee96e73f502d654886137432ea30ca9d326a75b2a56d89356c1badaa2643dd",
+    "src/investigations/embryo.css": "34d0410a43471f2151a35c985d1f60a982ab49868ecad0f5a39ff97553649c8c",
+    "tests/embryo.test.js": "371209f87a6bf656363fc083ad6b4d4f1134c5a71534ccecc3a6e3cabe19eb28",
+    "tests/browser/embryo.spec.js": "f2c6f62b8cdab896758fa9400aab38a8e864e8f50a627477267eee266a2db777",
+    "src/investigations/guided-lab-shell.js": "7718d1ab83d65ac8551b25323338c5c2bb4c73afc988331f3c29b767a9abc55f",
+    "src/investigations/student-report.js": "5cdec89cf015cada33fbf14585705605f2a33f90d84aa0ebb248ab6c0d0d5ca0",
+    "src/investigations/lab-report-pdf.js": "d3313db4efc5086da99bbd244ba4ceada0c2a37351ef0b4d67255b76d4f20d4c",
+    "src/catalog.js": "021c153a750fc55764eff6f50dd6492a608a1e4302ef1e1c40ff56e1701ebc1e",
+    "src/investigations/app.js": "b49802cc4e8def0578259e7a0d0597394d5a4c0167d53fcab045eaf374480bc0",
+    "src/investigations/learning-design.js": "c60bb92dd7b8aa385b5d706fd2b3dd0a6261a54261614ed73af94138344caf35",
+    "scripts/build-biology-resources.py": "6c950c857ccc7a5903363b9742922ded31cb0624974d20199567df30a3b01546",
+    "scripts/verify-resources.py": "78fe7d283ee9125a82797a9fcffde0ce9f7dd3937dd4ab522ddfd32eabd1f62e",
+    "public/resources/embryonic-development-worksheet.pdf": "491d46d965d1b97355374e57f1dc2de250e6b6ef1f9d6d25d8c807534218dedb",
+    "public/resources/embryonic-development-teacher-guide.pdf": "e392200b73c7af8928240245c47f036432bd106cea72a530250996ec54685f06"
+  }
+}

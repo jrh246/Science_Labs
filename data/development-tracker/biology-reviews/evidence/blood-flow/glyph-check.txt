@@ -1,0 +1,1 @@
+complete.pdf: no missing/replacement glyphs; 53 complete source fragments retained across 4 pages (layout whitespace ignored).

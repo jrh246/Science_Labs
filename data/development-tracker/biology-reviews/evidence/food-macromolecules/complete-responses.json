@@ -1,0 +1,374 @@
+{
+  "schemaVersion": 2,
+  "labId": "food-macromolecules",
+  "title": "Identify an Unknown Food Sample",
+  "question": "Which types of biological molecules can you detect in an unknown sample?",
+  "student": {
+    "name": "Zoë García",
+    "class": "Period 5"
+  },
+  "status": "Complete",
+  "grading": "not_graded",
+  "exportedAt": "2026-11-15T09:06:09.108Z",
+  "exportTimeZone": "America/Los_Angeles",
+  "exportedAtDisplay": "Nov 15, 2026, 1:06 AM PST",
+  "sections": [
+    {
+      "heading": "Prediction and investigation design",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Required before setup: Could a positive starch test tell you whether U also contains protein? Predict which evidence you would need and explain why.",
+          "text": "A positive starch test alone cannot tell whether U has protein. I predict that separate indicators are needed."
+        },
+        {
+          "type": "response",
+          "prompt": "Required before setup: Why use both positive and negative controls? Explain why each indicator needs a separate portion of the same unknown.",
+          "text": "The positive control shows a known response; the negative control shows the blank. Keep the portions separate so indicators do not mix."
+        },
+        {
+          "type": "paragraph",
+          "text": "Prediction timing: Before setup and observations."
+        },
+        {
+          "type": "paragraph",
+          "text": "Use one unknown sample divided into separate portions for four different tests. Each test provides different evidence. Model-prepared controls show known comparison results. After placing one portion, you may prepare matched fresh portions without repeating that motion. You must still run and interpret each different test."
+        }
+      ]
+    },
+    {
+      "heading": "Indicator evidence for sample U",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Sources: unknown appearances are model-generated; observations and molecule claims are student interpretations. Positive and negative control results are supplied comparison data. They are not independent student trials."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Test",
+            "Recorded appearance",
+            "Molecule claim",
+            "Preparation / evidence"
+          ],
+          "rows": [
+            [
+              "Reducing sugars",
+              "Orange-red solid in the liquid",
+              "Detected",
+              "Student-placed fresh portion of U. Correct after feedback"
+            ],
+            [
+              "Starch",
+              "Blue-black solution",
+              "Detected",
+              "Model-prepared matched fresh portion of U. Correct first check"
+            ],
+            [
+              "Protein",
+              "Blue solution",
+              "Not detected by this test",
+              "Model-prepared matched fresh portion of U. Correct first check"
+            ],
+            [
+              "Lipids",
+              "Dark red spot remains after rinsing",
+              "Detected",
+              "Model-prepared matched fresh portion of U. Correct first check"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Evidence by learning goal",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Use controls and separate portions to make interpretable tests."
+        },
+        {
+          "type": "response",
+          "prompt": "How do the positive and negative controls help you interpret sample U? Why did you keep the unknown portions separate?",
+          "text": "My controls explanation compares the actual observations with both supplied controls. Different indicators detect different targets; not detected is limited by the method."
+        },
+        {
+          "type": "paragraph",
+          "text": "Identify reducing sugars, starch, protein, and lipids from test evidence."
+        },
+        {
+          "type": "response",
+          "prompt": "Use all four recorded observations to explain which molecule types were detected in U. Compare the results with your prediction.",
+          "text": "My evidence explanation compares the actual observations with both supplied controls. Different indicators detect different targets; not detected is limited by the method."
+        },
+        {
+          "type": "paragraph",
+          "text": "Support a conclusion while respecting the limits of indicator tests."
+        },
+        {
+          "type": "response",
+          "prompt": "Does a negative reducing-sugar result prove there are no carbohydrates? Can these tests identify an exact food or exact amounts? Explain the limits using your evidence.",
+          "text": "My inference explanation compares the actual observations with both supplied controls. Different indicators detect different targets; not detected is limited by the method."
+        }
+      ]
+    },
+    {
+      "heading": "Supplied control notes and feedback",
+      "blocks": [
+        {
+          "type": "table",
+          "columns": [
+            "Assay",
+            "Supplied positive control",
+            "Supplied negative control",
+            "Interpretation status"
+          ],
+          "rows": [
+            [
+              "Reducing sugars",
+              "Glucose solution",
+              "Water blank",
+              "Correct after feedback"
+            ],
+            [
+              "Starch",
+              "Starch solution",
+              "Water blank",
+              "Correct first check"
+            ],
+            [
+              "Protein",
+              "Albumin protein solution",
+              "Water blank",
+              "Correct first check"
+            ],
+            [
+              "Lipids",
+              "Vegetable oil spot",
+              "Water blank",
+              "Correct first check"
+            ]
+          ]
+        },
+        {
+          "type": "response",
+          "prompt": "Benedict’s reagent is still blue before heating. What should you conclude?",
+          "text": "The test is not ready to interpret; use the required heating step."
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct! Correct interpretation needs the completed test. Reducing-sugar results are judged after heating and against the known controls. Revised after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "What does a negative indicator result establish?",
+          "text": "The target was not detected under these test conditions."
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct! A negative result is limited by the method and its sensitivity. It does not prove that the sample is empty or that all other molecule types are absent. Correct on the first recorded check."
+        }
+      ]
+    },
+    {
+      "heading": "Model limits and sources",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "This is a virtual model with synthetic sample compositions and clear test results. Real foods, mixtures, colors, test sensitivity, and contamination can affect a result. Amounts too low to make a clear change may be missed. A negative result means not detected by this test, not proof that the substance is completely absent. These tests do not identify every biological molecule or give exact amounts. Heating, staining, rinsing, and drying are shortened. Drawings and liquid levels are schematic, not measurements. This is not a physical laboratory protocol."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pratt (2011), Journal of Microbiology & Biology Education: Macromolecule assays: https://pmc.ncbi.nlm.nih.gov/articles/PMC3577220/"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hillsborough College: Biological molecules laboratory manual: https://pressbooks.hcfl.edu/bio1ss/chapter/lab-5-biological-molecules/"
+        }
+      ],
+      "keepFirst": 3
+    }
+  ],
+  "activityVersion": 1,
+  "locale": "en",
+  "attemptId": "food-3732204146-1794733566578",
+  "data": {
+    "schemaVersion": 1,
+    "activityVersion": 1,
+    "labId": "food-macromolecules",
+    "attemptId": "food-3732204146-1794733566578",
+    "seed": 3732204146,
+    "locale": "en",
+    "stage": 2,
+    "active": "lipid",
+    "studentName": "Zoë García",
+    "studentClass": "Period 5",
+    "prediction": "A positive starch test alone cannot tell whether U has protein. I predict that separate indicators are needed.",
+    "design": "The positive control shows a known response; the negative control shows the blank. Keep the portions separate so indicators do not mix.",
+    "initialPlan": {
+      "prediction": "A positive starch test alone cannot tell whether U has protein. I predict that separate indicators are needed.",
+      "design": "The positive control shows a known response; the negative control shows the blank. Keep the portions separate so indicators do not mix.",
+      "recordedAt": "2026-11-15T09:06:06.661Z",
+      "timing": "Before setup and observations"
+    },
+    "runs": {
+      "sugar": {
+        "prepared": true,
+        "preparationSource": "Student-placed fresh portion of U",
+        "preparationSourceId": "student-placed",
+        "reagent": true,
+        "held": false,
+        "heated": true,
+        "stained": false,
+        "rinsed": false,
+        "observation": "positive-appearance",
+        "claim": "detected",
+        "record": {
+          "observation": "positive-appearance",
+          "claim": "detected",
+          "source": "Student interpretation of model unknown against supplied controls",
+          "correctAfterFeedback": true
+        },
+        "attempts": [
+          {
+            "observation": "negative-appearance",
+            "claim": "not-detected",
+            "correct": false
+          },
+          {
+            "observation": "positive-appearance",
+            "claim": "detected",
+            "correct": true
+          }
+        ]
+      },
+      "starch": {
+        "prepared": true,
+        "preparationSource": "Model-prepared matched fresh portion of U",
+        "preparationSourceId": "model-matched",
+        "reagent": true,
+        "held": false,
+        "heated": false,
+        "stained": false,
+        "rinsed": false,
+        "observation": "positive-appearance",
+        "claim": "detected",
+        "record": {
+          "observation": "positive-appearance",
+          "claim": "detected",
+          "source": "Student interpretation of model unknown against supplied controls",
+          "correctAfterFeedback": false
+        },
+        "attempts": [
+          {
+            "observation": "positive-appearance",
+            "claim": "detected",
+            "correct": true
+          }
+        ]
+      },
+      "protein": {
+        "prepared": true,
+        "preparationSource": "Model-prepared matched fresh portion of U",
+        "preparationSourceId": "model-matched",
+        "reagent": true,
+        "held": false,
+        "heated": false,
+        "stained": false,
+        "rinsed": false,
+        "observation": "negative-appearance",
+        "claim": "not-detected",
+        "record": {
+          "observation": "negative-appearance",
+          "claim": "not-detected",
+          "source": "Student interpretation of model unknown against supplied controls",
+          "correctAfterFeedback": false
+        },
+        "attempts": [
+          {
+            "observation": "negative-appearance",
+            "claim": "not-detected",
+            "correct": true
+          }
+        ]
+      },
+      "lipid": {
+        "prepared": true,
+        "preparationSource": "Model-prepared matched fresh portion of U",
+        "preparationSourceId": "model-matched",
+        "reagent": false,
+        "held": false,
+        "heated": false,
+        "stained": true,
+        "rinsed": true,
+        "observation": "positive-appearance",
+        "claim": "detected",
+        "record": {
+          "observation": "positive-appearance",
+          "claim": "detected",
+          "source": "Student interpretation of model unknown against supplied controls",
+          "correctAfterFeedback": false
+        },
+        "attempts": [
+          {
+            "observation": "positive-appearance",
+            "claim": "detected",
+            "correct": true
+          }
+        ]
+      }
+    },
+    "checks": {
+      "unheated": {
+        "value": "wait",
+        "attempts": [
+          {
+            "value": "absent",
+            "correct": false
+          },
+          {
+            "value": "wait",
+            "correct": true
+          }
+        ],
+        "correct": true
+      },
+      "negative": {
+        "value": "limited",
+        "attempts": [
+          {
+            "value": "limited",
+            "correct": true
+          }
+        ],
+        "correct": true
+      }
+    },
+    "answers": {
+      "controls": "My controls explanation compares the actual observations with both supplied controls. Different indicators detect different targets; not detected is limited by the method.",
+      "evidence": "My evidence explanation compares the actual observations with both supplied controls. Different indicators detect different targets; not detected is limited by the method.",
+      "inference": "My inference explanation compares the actual observations with both supplied controls. Different indicators detect different targets; not detected is limited by the method."
+    },
+    "complete": true
+  },
+  "evidence": [
+    {
+      "goalId": "controls",
+      "answerId": "controls",
+      "writing": "My controls explanation compares the actual observations with both supplied controls. Different indicators detect different targets; not detected is limited by the method.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "evidence",
+      "answerId": "evidence",
+      "writing": "My evidence explanation compares the actual observations with both supplied controls. Different indicators detect different targets; not detected is limited by the method.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "inference",
+      "answerId": "inference",
+      "writing": "My inference explanation compares the actual observations with both supplied controls. Different indicators detect different targets; not detected is limited by the method.",
+      "status": "not_graded"
+    }
+  ]
+}

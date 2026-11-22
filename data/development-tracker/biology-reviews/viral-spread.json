@@ -1,0 +1,336 @@
+{
+  "schemaVersion": 1,
+  "labId": "viral-spread",
+  "taskId": "BIO-07-REVIEW",
+  "reviewedBy": "Codex - separate development review",
+  "reviewedOn": "2026-11-15",
+  "sourceSnapshot": "sha256:3367077ada4bf40716a0967453756215c140fcf68424d9502993c453556f9f09",
+  "decision": "pass",
+  "summary": "English virtual-only review passed after exact once-only touch handling, example-specific envelope acquisition and printable shared-map refinements. Actual zero-effect outcomes retained; external/classroom/hardware/AUD-10 acceptance separate.",
+  "blockers": [],
+  "checks": {
+    "G01": {
+      "status": "pass",
+      "notes": "Three goals connect host dependence, ordered paths and controlled inference with receptor/contact placement, actual counts/difference, checks and original explanations; no mastery inferred from navigation.",
+      "evidence": [
+        "src/investigations/viral-content.js",
+        "src/investigations/viral-report.js",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/complete-responses.json"
+      ]
+    },
+    "G02": {
+      "status": "pass",
+      "notes": "One open control and one chosen closure share the same start/rules. First rounds are observed; optional later rounds are model-provided. Related time points are not independent repeats and deterministic identical reruns add no variability evidence.",
+      "evidence": [
+        "src/investigations/viral-content.js",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/review-notes.md"
+      ]
+    },
+    "G03": {
+      "status": "pass",
+      "notes": "OpenStax 21.2 and archived CDC teaching reference read. Viral enzymes copy RNA, host ribosomes make proteins, and this example gains envelopes during budding. Previous-round-only transmission and every closure outcome verified; no clinical parameters/effectiveness claim.",
+      "evidence": [
+        "src/investigations/viral-model.js",
+        "tests/viral.test.js",
+        "https://openstax.org/books/biology-2e/pages/21-2-virus-infections-and-hosts",
+        "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson1/section10.html"
+      ]
+    },
+    "G04": {
+      "status": "pass",
+      "notes": "One enveloped RNA-virus example, shortened steps, enlarged size, nonmeasured yield, certain modeled exposure, no recovery/immunity, fixed links and finite three-round inference are explained where needed and in reports/resources.",
+      "evidence": [
+        "src/investigations/viral-content.js",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/complete.pdf"
+      ]
+    },
+    "G05": {
+      "status": "pass",
+      "notes": "Particle works at a membrane receptor; closure tool works on the chosen contact. Students see copying/network changes, trace collected frames and calculate actual comparisons, including valid zero-effect closures.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/viral-spread/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/cell-attached.png",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/closure-setup.png",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/zero-difference.png"
+      ]
+    },
+    "G06": {
+      "status": "pass",
+      "notes": "Initial/attached/copied cell, setup, both first/final networks and phone/tablet states inspected. Corrected intracellular protein cores vs budding envelopes. Model/app/print map share coordinates; working spike and 44px targets align; text/status tables supplement color.",
+      "evidence": [
+        "src/investigations/viral-art.js",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/cell-copies.png",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/phone-cell-copies.png",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/phone-network-round-1.png",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/tablet-closure.png"
+      ]
+    },
+    "G07": {
+      "status": "pass",
+      "notes": "Stable seeded concept order and fixed meaningful person/contact identities persist. Choice of closure does not force an expected success; any actual outcome is accepted. Model observations do not reroll on correction/reload.",
+      "evidence": [
+        "src/investigations/viral-model.js",
+        "src/investigations/guided-lab-shell.js",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/model-tests.txt"
+      ]
+    },
+    "G08": {
+      "status": "pass",
+      "notes": "Full authored English directions/errors/checks/reports/resources manually reviewed; receptor/envelope/RNA/ribosome/enzyme and I/S vocabulary defined. Core heuristic grade about 7 is diagnostic only; comprehension pending.",
+      "evidence": [
+        "src/investigations/viral-content.js",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/reading-screen.json",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/review-notes.md"
+      ]
+    },
+    "G09": {
+      "status": "pass",
+      "notes": "Required first plan precedes cell copying/spread; bare reference map supplies planning context without outcomes. Attachment gates copying. Closure is fixed before either run, first-round gates automatic remainder, checked interpretation gates explanation.",
+      "evidence": [
+        "tests/viral.test.js",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/browser-tests.txt"
+      ]
+    },
+    "G10": {
+      "status": "pass",
+      "notes": "Explicit Correct!/Try again and local action feedback; current wrong work retained, edits clear stale checks and block next action. Touch now activates once across redraws. Meaningful corrections require prior actual errors.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/viral-spread/unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-exact-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/complete-responses.json"
+      ]
+    },
+    "G11": {
+      "status": "pass",
+      "notes": "Shared helper confirms only successful writes, supports repeat save and denied/retry, and preserves identity versus academic edits. Browser cases verify completion/reload and native touch behavior.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/viral-spread/browser-tests.txt",
+        "src/investigations/completion-status.js"
+      ]
+    },
+    "G12": {
+      "status": "pass",
+      "notes": "Stable root-scoped v1 key/schema preserves valid receptor/closure/frame/interpretation/correction/writing state. Root/development attempts/caches separate. Shared touch fix leaves earlier recorded samples/states intact.",
+      "evidence": [
+        "src/investigations/viral-model.js",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-followup-manifest.json"
+      ]
+    },
+    "G13": {
+      "status": "pass",
+      "notes": "Actual named completed and neutral draft PDF download plus native print include optional name/period, safe filename, readable date/time/zone and correct work status.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/viral-spread/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/draft.pdf",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/native-print.pdf"
+      ]
+    },
+    "G14": {
+      "status": "pass",
+      "notes": "Reports group first plan, host evidence, source-labeled observed frames, chosen closure/timing, current student comparisons including unconfirmed values, genuine corrections, checks and original goal-linked writing. Raw history retained separately; no click-log grade/submission claim.",
+      "evidence": [
+        "src/investigations/viral-report.js",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/complete-responses.json"
+      ]
+    },
+    "G15": {
+      "status": "pass",
+      "notes": "All 35 final resource/report pages rendered/inspected. Full Unicode/long final marker, named identity/time, repeated table headers and grouped model limits/sources preserved. PDF/print/JSON share a snapshot; first offline PDF and export recovery pass.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/viral-spread/pdf-inspection.json",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/pdf-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/pdf-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/pdf-contact-3.png",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/pdf-contact-4.png",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/pdf-contact-5.png",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/long-offline.pdf",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/long-native-print.pdf",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.md",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.md"
+      ]
+    },
+    "G16": {
+      "status": "pass",
+      "notes": "Mouse, native touch drag-release-next-tap, keyboard/focus, 44px phone targets, reduced motion, resize/scroll/reload exercised. Exact round, increment, column toggle and rotation tests catch replacement-DOM double activation. Physical hardware/AT remains pending.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/viral-spread/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-exact-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-followup-manifest.json",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/phone-network-round-1.png",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.json",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.md",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-native-focus-regressions.txt"
+      ]
+    },
+    "G17": {
+      "status": "pass",
+      "notes": "137 model/report checks pass. Broad 50-case run: 49 pass, sole new assertion plural-word typo fixed; focused exact-tap 2/2 passes. All lab/catalog workflows pass, including six earlier labs. Initial failure/rerun retained. All 53 resources verified; standalone/platform builds compile.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/viral-spread/model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/initial-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-regression-initial.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-exact-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/platform-build.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/review-notes.md"
+      ]
+    },
+    "G18": {
+      "status": "pass",
+      "notes": "English content, stable activity/contact/question IDs, locale/version and original writing retained. Shared presentation centralizes future translation points; remaining strings and reviewed language delivery await AUD-10. No Spanish switching/printing claim.",
+      "evidence": [
+        "src/investigations/viral-content.js",
+        "src/investigations/guided-lab-shell.js",
+        "src/investigations/viral-report.js"
+      ]
+    },
+    "RESOURCES": {
+      "status": "pass",
+      "notes": "Four-page student companion includes the shared-coordinate planning map; two-page teacher guide contains current rules/limits. Current prompts, links/hashes and every page inspected. Python remains build-time tooling; virtual only.",
+      "evidence": [
+        "scripts/build-biology-resources.py",
+        "public/resources/viral-spread-worksheet.pdf",
+        "public/resources/viral-spread-teacher-guide.pdf",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/resource-check.txt"
+      ]
+    },
+    "ACCESS": {
+      "status": "pass",
+      "notes": "Guest/free lab/report use requires no login. Private runtime worker and role/entitlement/publication policy unchanged; 23-lab compiled release is not uploaded/registered/published. Existing BIO-01 40-test API protection evidence reused, not a live teacher/billing/email test.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/viral-spread/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/platform-build.txt",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/platform-tests.txt"
+      ]
+    },
+    "TRACKING": {
+      "status": "pass",
+      "notes": "Stable biological-diversity unit/lab/route, actual English activity and handouts mirrored in validated generated outputs. Spanish/standards approvals unchanged. Shared copies refreshed after acceptance; no full-course approval inferred.",
+      "evidence": [
+        "src/catalog.js",
+        "data/curriculum/dataset.json",
+        "data/development-tracker/activity-checklist.csv"
+      ]
+    }
+  },
+  "artifacts": {
+    "workflow": [
+      "data/development-tracker/biology-reviews/evidence/viral-spread/review-notes.md",
+      "data/development-tracker/biology-reviews/evidence/viral-spread/complete-responses.json",
+      "data/development-tracker/biology-reviews/evidence/viral-spread/source-manifest.json",
+      "data/development-tracker/biology-reviews/evidence/viral-spread/reading-screen.json",
+      "data/development-tracker/biology-reviews/evidence/viral-spread/touch-followup-manifest.json"
+    ],
+    "visuals": [
+      "data/development-tracker/biology-reviews/evidence/viral-spread/cell-initial.png",
+      "data/development-tracker/biology-reviews/evidence/viral-spread/cell-attached.png",
+      "data/development-tracker/biology-reviews/evidence/viral-spread/cell-copies.png",
+      "data/development-tracker/biology-reviews/evidence/viral-spread/closure-setup.png",
+      "data/development-tracker/biology-reviews/evidence/viral-spread/open-round-1.png",
+      "data/development-tracker/biology-reviews/evidence/viral-spread/open-round-3.png",
+      "data/development-tracker/biology-reviews/evidence/viral-spread/closed-round-1.png",
+      "data/development-tracker/biology-reviews/evidence/viral-spread/closed-round-3.png",
+      "data/development-tracker/biology-reviews/evidence/viral-spread/zero-difference.png",
+      "data/development-tracker/biology-reviews/evidence/viral-spread/phone-cell-copies.png",
+      "data/development-tracker/biology-reviews/evidence/viral-spread/phone-network-round-1.png",
+      "data/development-tracker/biology-reviews/evidence/viral-spread/tablet-closure.png",
+      "data/development-tracker/biology-reviews/evidence/viral-spread/phone-explain.png"
+    ],
+    "pdfReports": [
+      "data/development-tracker/biology-reviews/evidence/viral-spread/draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/viral-spread/development-draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/viral-spread/unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/viral-spread/complete.pdf",
+      "data/development-tracker/biology-reviews/evidence/viral-spread/long-offline.pdf",
+      "data/development-tracker/biology-reviews/evidence/viral-spread/pdf-inspection.json"
+    ],
+    "nativePrint": [
+      "data/development-tracker/biology-reviews/evidence/viral-spread/native-print.pdf",
+      "data/development-tracker/biology-reviews/evidence/viral-spread/long-native-print.pdf"
+    ],
+    "tests": [
+      "data/development-tracker/biology-reviews/evidence/viral-spread/model-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/viral-spread/browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/viral-spread/initial-browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/viral-spread/touch-regression-initial.txt",
+      "data/development-tracker/biology-reviews/evidence/viral-spread/touch-exact-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/viral-spread/resource-check.txt",
+      "data/development-tracker/biology-reviews/evidence/viral-spread/platform-build.txt",
+      "data/development-tracker/biology-reviews/evidence/viral-spread/review-notes.md"
+    ],
+    "resources": [
+      "public/resources/viral-spread-worksheet.pdf",
+      "public/resources/viral-spread-teacher-guide.pdf"
+    ]
+  },
+  "externalValidation": {
+    "teacherStudentComprehension": {
+      "status": "pending",
+      "notes": "Not yet performed; development checks do not establish classroom comprehension."
+    },
+    "physicalDevices": {
+      "status": "pending",
+      "notes": "Not yet performed; browser emulation is not physical-device acceptance."
+    },
+    "classroomProtocol": {
+      "status": "pending",
+      "notes": "Record the selected modes and actual protocol validation separately."
+    }
+  },
+  "futureWork": [
+    {
+      "id": "AUD-10",
+      "status": "planned",
+      "notes": "Full native language switching and translated printing are not certified by the localization-readiness check."
+    }
+  ],
+  "history": [
+    {
+      "finding": "Phone visual review showed round 2 after one requested advance; native touch click hit a replacement control after the deliberate tap. Cell drawing also showed fully enveloped particles free in cytoplasm.",
+      "resolution": "Suppress the pending compatibility click by gesture; add exact one-tap round/toggle/increment regressions and earlier-lab checks. Draw protein coats inside and enveloped particles budding/leaving; update example-specific wording/resources. Final checks pending."
+    },
+    {
+      "finding": "New exact-drop test expected plural wording for one drop; an initial correction command failed to parse without changing files.",
+      "resolution": "Corrected the test using a staged script. Broad group retained at 49/50; focused single-increment/toggle/rotation cases pass 2/2. Final viral clock explicitly stays at round 0 after start and advances once to round 1. All 35 final PDF pages inspected."
+    }
+  ],
+  "followups": [
+    {
+      "id": "shared-touch-focus-2026-11-15",
+      "reviewedOn": "2026-11-15",
+      "reviewedBy": "Codex - shared interaction follow-up",
+      "decision": "pass",
+      "summary": "Pending native compatibility mousedown no longer steals newly assigned focus. Existing deliberate next-tap/mouse/keyboard behavior verified in39 selected browser cases; original lab review snapshot retained.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.json",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.md",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-native-focus-regressions.txt"
+      ]
+    },
+    {
+      "id": "shared-response-pagination-2026-11-15",
+      "recordedAt": "2026-11-15T17:05:24.794Z",
+      "scope": "Shared PDF question/answer page-break guard; original review remains its point-in-time snapshot. Representative current starch, stored heat/fungal and legacy enzyme reports checked; not a full rerun of this lab.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.md",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.json",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/pagination-corrected.txt",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-model-tests.txt"
+      ]
+    },
+    {
+      "id": "shared-scientific-symbols-2026-11-15",
+      "recordedAt": "2026-11-15T18:31:00.197Z",
+      "scope": "Shared offline scientific-symbol glyph fallback only; original source snapshot/history unchanged. Representative new/old outputs and legacy wrappers validated, not full rerun of this lab.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.md",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.json",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/glyph-all-artifacts.txt"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+✔ plan gates processes, retains initial reasoning (1.5697ms)
+✔ division and current wrong/blank reading cannot bypass later scene; correction meaningful (0.2739ms)
+✖ ingression precedes invagination; wrong tissue label rejected without state change or premature correction claim (24.7813ms)
+✔ saved view-only review direct return preserves completion; academic edit immediately gates and raw blank restores (0.676ms)
+✔ faithful report full Unicode/current status without inferred grade (1.5229ms)
+✔ PDF symbol formatting preserves complete original scientific writing and report snapshot (26.1507ms)
+✔ PDF symbol engine supports legacy inline runs/table strings without changing attached response text (0.3925ms)
+✔ all 14 reports preserve completed work and use a shared faithful PDF/print snapshot (23.2534ms)
+✔ partial reports never fill hidden observations or invent completed work (3.2036ms)
+✔ core reports retain mixed sources, unreached thresholds, student classifications and uncollected readings (1.6318ms)
+✔ extended reports retain measured estimates, cell products, source separation and draft classifications (0.8067ms)
+✔ osmosis identity restores without changing existing or legacy measurement data (0.4869ms)
+✔ reports escape student HTML, sanitize filenames, and preserve long answers verbatim (0.5786ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 12
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 191.9557
+
+✖ failing tests:
+
+test at tests\embryo.test.js:1:1712
+✖ ingression precedes invagination; wrong tissue label rejected without state change or premature correction claim (24.7813ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert(!JSON.stringify(embryoReport(r)).includes('Correct after feedback'))
+  
+      at TestContext.<anonymous> (file:///C:/Projects/Science_Labs/tests/embryo.test.js:1:2344)
+      at Test.runInAsyncScope (node:async_hooks:228:14)
+      at Test.run (node:internal/test_runner/test:1118:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:787:18)
+      at Test.postRun (node:internal/test_runner/test:1247:19)
+      at Test.run (node:internal/test_runner/test:1175:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:787:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

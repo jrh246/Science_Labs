@@ -1,0 +1,17 @@
+{
+  "capturedAt": "2026-11-15T18:31:00.186Z",
+  "scope": "Shared PDF rendering/verification, not student response/schema changes. Original accepted snapshots preserved.",
+  "files": {
+    "src/investigations/lab-report-pdf.js": "d3313db4efc5086da99bbd244ba4ceada0c2a37351ef0b4d67255b76d4f20d4c",
+    "src/investigations/report-text-fonts.js": "65a629f92f229d61f23f43e0ef11a14422c80d638a2b94588ea5e4ce1463a051",
+    "src/investigations/report-symbol-font.js": "815c0cb83b85b20f428e8866eb6a61bf87807dc94387e74f9a72844aabcab4a9",
+    "src/assets/fonts/DejaVuSans.ttf": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+    "public/licenses/dejavu-fonts.txt": "d75938dec098f06f0ac3c00853065d94f020be1c3c62ef1dc2975ba15b4d9b0e",
+    "scripts/build-report-symbol-font.mjs": "7a50e56cd1efe0e7aba38801798866aa0c3ee8d0005d72470014d8a0cb690545",
+    "scripts/verify-report-glyphs.py": "162a5d1dc2208a31d2425c1ecea25ce2aebbcefdbae41235a3aad356ffe9e1ba",
+    "scripts/verify-report-pagination.py": "c39ae3bbc0141112aa1425d7812c0e1f709ae43ba7709c5ed204fef398e70344",
+    "tests/report-fonts.test.js": "9d2a59dfa3083e9db4c012d519228e7d5eab2089af89153f5677009c954eab2a",
+    "REPORT_FONT_ASSETS.md": "26407c4607520edf8626ade978c7a433d6df0aa12c5b633143d561e4a17bdb8b",
+    "LAB_DESIGN_GUIDE.md": "30880f9cd2c128d5e87d536eb648170a762861caa3b213f738fe0e977c0b2af7"
+  }
+}

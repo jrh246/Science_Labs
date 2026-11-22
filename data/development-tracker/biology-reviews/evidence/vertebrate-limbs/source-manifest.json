@@ -1,0 +1,21 @@
+{
+  "capturedAt": "2026-11-15T14:34:43.433Z",
+  "scope": "Actual reviewed working-tree files; unrelated changes and previous student attempts preserved.",
+  "files": {
+    "src/investigations/limbs-content.js": "0cfbab1f3791d329b6fe95bce81603939305df3ed5919cc2cfbad89923774f1b",
+    "src/investigations/limbs-model.js": "c39f20da1fd111371268eb69ee45f42954537cb735ff31ef4de7702340e7affd",
+    "src/investigations/limbs-art.js": "3136acbc7941f55b27c4c0fe37c11798488f6d4795c63bf136c524b67fba17d0",
+    "src/investigations/limbs-report.js": "a1615ba65eac9bf89ef8a166e83142288c5e1390e7d7c57e5ba6a5ea4e5db838",
+    "src/investigations/limbs-app.js": "bc95c76f46683c4df4907980835dc0478b6735ca07be7154282d6b00f8ff8e4e",
+    "src/investigations/limbs.css": "39694405531c43a6fe419dd48e9797e6cc911437f93eec5d1cda2840a27bec7b",
+    "tests/limbs.test.js": "e24db3d8c2aae8d6129811a9726f2b64c26800a9e2e7009fdf8645cbf003a9ab",
+    "tests/browser/limbs.spec.js": "5076e9291161dab0f0e8d5f6e84ea52c45a74471b50cb1ee93b95f2c2a9e3e27",
+    "src/investigations/guided-lab-shell.js": "7718d1ab83d65ac8551b25323338c5c2bb4c73afc988331f3c29b767a9abc55f",
+    "src/catalog.js": "aba6cec5e3cfdb762f699b20858aa3cf96889167373714a6fb43b8791fa4d44f",
+    "src/investigations/app.js": "9befafeee61b7cb31687ab1b6e274c80b5dd89d29f46d907dc60a6fae194295d",
+    "scripts/build-biology-resources.py": "35d03900f42110eb9c08f71281bb8646e9fdaea75245cc2011cec13cd0fb916e",
+    "scripts/verify-resources.py": "d5e5da25ee7277e019473132d2002a8e8c1b7c607604a033cd10174a515667f1",
+    "public/resources/vertebrate-limbs-worksheet.pdf": "ee86ee583240b9e8b015ae9944ae9679ae6a1da9a548460ce82a58468d2f5fa1",
+    "public/resources/vertebrate-limbs-teacher-guide.pdf": "481d404ef9ceb49a9f33e9f4249d87ac9139d3aee1cbc751835a8da175a7a479"
+  }
+}

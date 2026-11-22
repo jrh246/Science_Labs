@@ -1,0 +1,488 @@
+{
+  "schemaVersion": 2,
+  "labId": "vertebrate-limbs",
+  "title": "Vertebrate Limb Adaptations",
+  "question": "How can shared bone positions and model proportions help us compare a human arm, bat wing and dolphin flipper?",
+  "student": {
+    "name": "Zoë García",
+    "class": "Period 5"
+  },
+  "status": "Complete",
+  "grading": "not_graded",
+  "exportedAt": "2026-11-15T14:30:40.093Z",
+  "exportTimeZone": "America/Los_Angeles",
+  "exportedAtDisplay": "Nov 15, 2026, 6:30 AM PST",
+  "sections": [
+    {
+      "heading": "First prediction and comparison plan",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Required before handling the models: Can an arm, wing and flipper have corresponding bones even when they work differently? Predict which part of a bat wing might support its broad membrane.",
+          "text": "The arm, wing and flipper may keep corresponding bones despite different uses. Long bat digits might support its membrane."
+        },
+        {
+          "type": "response",
+          "prompt": "Required before handling the models: Why should you compare corresponding regions rather than just the longest bone? Why could drawings at different scales make raw lengths misleading?",
+          "text": "Compare corresponding positions and use the same supplied humerus reference. Raw picture lengths alone could differ because of drawing scale."
+        },
+        {
+          "type": "paragraph",
+          "text": "Timing: Before bone tags or diagram measurements."
+        }
+      ]
+    },
+    {
+      "heading": "Corresponding bone regions",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Student annotations of supplied teaching drawings. Tags identify existing parts; no bones were added, assembled or dissected."
+        },
+        {
+          "type": "response",
+          "prompt": "Human arm model",
+          "text": "Humerus · upper arm region: Humerus · upper arm; Radius and ulna · forearm region: Radius and ulna · forearm; Wrist and digits region: Wrist and digits.\nCorrect after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "Bat wing model",
+          "text": "Humerus · upper arm region: Humerus · upper arm; Radius and ulna · forearm region: Radius and ulna · forearm; Wrist and digits region: Wrist and digits.\nCorrect first check."
+        },
+        {
+          "type": "response",
+          "prompt": "Dolphin flipper model",
+          "text": "Humerus · upper arm region: Humerus · upper arm; Radius and ulna · forearm region: Radius and ulna · forearm; Wrist and digits region: Wrist and digits.\nCorrect first check."
+        }
+      ]
+    },
+    {
+      "heading": "Diagram measurements and proportions",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Each supplied humerus reference is 100 diagram units. Read the defined, straightened third-digit ray from metacarpal base A to tip B, to the nearest 5 diagram units. The ray includes metacarpal plus phalanges. Students may use the visible markers or their equivalent text positions. Measurements are of constructed illustrations, not natural species averages or physical specimens."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Model",
+            "Current ray span (diagram units)",
+            "Reading status",
+            "Current ray ÷ 100",
+            "Ratio status"
+          ],
+          "rows": [
+            [
+              "Human arm model",
+              "80",
+              "Correct after feedback",
+              "0.80",
+              "Correct after feedback"
+            ],
+            [
+              "Bat wing model",
+              "270",
+              "Correct first check",
+              "2.70",
+              "Correct first check"
+            ],
+            [
+              "Dolphin flipper model",
+              "180",
+              "Correct first check",
+              "1.80",
+              "Correct first check"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "No checked reading was reopened."
+        }
+      ]
+    },
+    {
+      "heading": "Structure and selected use",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Human arm model",
+          "text": "Handle and grasp objects.\nCorrect after feedback. Five separate digit rays include a thumb that can oppose the fingers. This helps with handling objects. The drawing shows a selected open-hand pose."
+        },
+        {
+          "type": "response",
+          "prompt": "Bat wing model",
+          "text": "Support a membrane during flight.\nCorrect after feedback. Long digits support a skin membrane. The thumb remains short and free. The radius is long; the ulna is reduced and partly fused with it. Shape and muscle control both matter in flight."
+        },
+        {
+          "type": "response",
+          "prompt": "Dolphin flipper model",
+          "text": "Steer and stay steady in water.\nCorrect after feedback. Digits remain inside a shared soft-tissue flipper. Some have extra phalanges. Flippers help steer and keep the body steady in water; they are not shown as the main source of forward thrust."
+        }
+      ]
+    },
+    {
+      "heading": "Evidence by learning goal",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Identify corresponding forelimb regions despite differences in shape and use."
+        },
+        {
+          "type": "response",
+          "prompt": "Compare the humerus, forearm and wrist/digit regions in all three models. What positions remain similar? Explain how the reduced bat ulna and extra dolphin phalanges modify the shared pattern without creating unrelated structures.",
+          "text": "My homology explanation uses the supplied forelimb models. Corresponding upper-arm, forearm and wrist/digit positions support the shared pattern despite different forms. The bat ulna is reduced and its long digits support a membrane; the dolphin has extra phalanges within some digits and a steering flipper. My diagram spans 80, 270, 180 units give ratios 0.80, 2.70, 1.80 to the supplied 100-unit reference. These constructed values are not real-animal averages or performance measurements. Common ancestry does not make a living human the ancestor of a living bat or rank fitness."
+        },
+        {
+          "type": "paragraph",
+          "text": "Measure a defined diagram span and compare its ratio to a common supplied reference."
+        },
+        {
+          "type": "response",
+          "prompt": "Use your three recorded ray spans and ratios to compare these drawings. Why did we rescale every humerus to 100 units? Explain why your values are diagram measurements rather than real species averages, and why the defined pose matters.",
+          "text": "My proportion explanation uses the supplied forelimb models. Corresponding upper-arm, forearm and wrist/digit positions support the shared pattern despite different forms. The bat ulna is reduced and its long digits support a membrane; the dolphin has extra phalanges within some digits and a steering flipper. My diagram spans 80, 270, 180 units give ratios 0.80, 2.70, 1.80 to the supplied 100-unit reference. These constructed values are not real-animal averages or performance measurements. Common ancestry does not make a living human the ancestor of a living bat or rank fitness."
+        },
+        {
+          "type": "paragraph",
+          "text": "Connect modified structure to selected function while limiting claims about ancestry and performance."
+        },
+        {
+          "type": "response",
+          "prompt": "Connect the human hand, bat membrane and dolphin flipper to the selected uses. What does the shared bone pattern support about ancestry? Why do these drawings alone not measure flight or swimming performance, prove a fitness ranking, or make a living human the ancestor of a bat?",
+          "text": "My inference explanation uses the supplied forelimb models. Corresponding upper-arm, forearm and wrist/digit positions support the shared pattern despite different forms. The bat ulna is reduced and its long digits support a membrane; the dolphin has extra phalanges within some digits and a steering flipper. My diagram spans 80, 270, 180 units give ratios 0.80, 2.70, 1.80 to the supplied 100-unit reference. These constructed values are not real-animal averages or performance measurements. Common ancestry does not make a living human the ancestor of a living bat or rank fitness."
+        }
+      ]
+    },
+    {
+      "heading": "Concept checks",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "What makes these forelimb regions homologous?",
+          "text": "Their corresponding structures were inherited from a shared ancestor, even though their uses may differ.\nCorrect! Homology concerns shared origin. Shapes and functions can change in descendant lineages. Living humans, bats and dolphins each have their own evolutionary history. Correct on first recorded check."
+        },
+        {
+          "type": "response",
+          "prompt": "What does a ray-to-humerus ratio compare in this lab?",
+          "text": "A constructed diagram span relative to its supplied 100-unit upper-arm reference.\nCorrect! Dividing a span by a reference length compares proportions. These illustration values are not calibrated measurements of real animals or performance. Correct on first recorded check."
+        },
+        {
+          "type": "response",
+          "prompt": "A dolphin digit contains more phalanges than a human finger. What does that mean?",
+          "text": "More small bones along that digit, not necessarily more digits.\nCorrect! Phalanges are bones within a digit. Extra phalanges can lengthen a digit inside a flipper. A changed form does not create an evolutionary ranking. Revised after feedback."
+        }
+      ]
+    },
+    {
+      "heading": "Model limits and sources",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "These are original simplified teaching drawings, not X-rays, measured specimens or species averages. The supplied humerus reference is 100 diagram units in every rescaled model. Third-digit ray spans of 80, 270 and 180 diagram units are constructed illustration values, not published measurements. Bone widths, poses, joint details and soft tissues are simplified. The selected ray is straightened, so its end-to-end span is defined for this drawing; other poses could change the span seen in a flat view. Tags annotate existing parts; they do not add or move real bones. The bat ulna is reduced; it is not drawn as a second full-sized radius. Some dolphin digits have extra phalanges, which does not mean extra fingers. These models illustrate shared ancestry and modified form but do not reconstruct a complete family tree or measure force, speed, flight efficiency, survival or fitness. A living human is not the ancestor of living bats or dolphins. No physical dissection or measurement protocol is supplied."
+        },
+        {
+          "type": "paragraph",
+          "text": "University of Minnesota: Comparative Anatomy: https://open.lib.umn.edu/evolutionbiology/chapter/how-do-we-know-evolution-has-occurred-comparative-anatomy-2/"
+        },
+        {
+          "type": "paragraph",
+          "text": "University of Michigan Animal Diversity Web: Bat Wings and Tails: https://animaldiversity.org/collections/mammal_anatomy/bat_wings/"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cooper et al. (2017): Dolphin Flipper Development and Hyperphalangy: https://cooperbonelab.com/wp-content/uploads/2017/12/cooperetal2017cetaceanflipperevodevo.pdf"
+        }
+      ],
+      "keepFirst": 4
+    }
+  ],
+  "activityVersion": 1,
+  "locale": "en",
+  "attemptId": "limbs-3751671877-1794753034309",
+  "data": {
+    "schemaVersion": 1,
+    "activityVersion": 1,
+    "labId": "vertebrate-limbs",
+    "attemptId": "limbs-3751671877-1794753034309",
+    "seed": 3751671877,
+    "locale": "en",
+    "stage": 3,
+    "studentName": "Zoë García",
+    "studentClass": "Period 5",
+    "prediction": "The arm, wing and flipper may keep corresponding bones despite different uses. Long bat digits might support its membrane.",
+    "design": "Compare corresponding positions and use the same supplied humerus reference. Raw picture lengths alone could differ because of drawing scale.",
+    "initialPlan": {
+      "prediction": "The arm, wing and flipper may keep corresponding bones despite different uses. Long bat digits might support its membrane.",
+      "design": "Compare corresponding positions and use the same supplied humerus reference. Raw picture lengths alone could differ because of drawing scale.",
+      "timing": "Before bone tags or diagram measurements",
+      "recordedAt": "2026-11-15T14:30:34.543Z"
+    },
+    "current": "dolphin",
+    "rows": {
+      "human": {
+        "tags": {
+          "humerus": "humerus",
+          "forearm": "forearm",
+          "hand": "hand"
+        },
+        "tagRecord": {
+          "tags": {
+            "humerus": "humerus",
+            "forearm": "forearm",
+            "hand": "hand"
+          },
+          "correctAfterFeedback": true,
+          "sourceId": "student-annotated-supplied-limb-model"
+        },
+        "tagAttempts": [
+          {
+            "tags": {
+              "humerus": "hand",
+              "forearm": "forearm",
+              "hand": "humerus"
+            },
+            "correct": false
+          },
+          {
+            "tags": {
+              "humerus": "humerus",
+              "forearm": "forearm",
+              "hand": "hand"
+            },
+            "correct": true
+          }
+        ],
+        "caliperPlaced": true,
+        "jaw": "80",
+        "reading": {
+          "value": 80,
+          "correctAfterFeedback": true,
+          "sourceId": "student-aligned-jaw-on-supplied-diagram"
+        },
+        "readingAttempts": [
+          {
+            "value": "350",
+            "correct": false
+          },
+          {
+            "value": "80",
+            "correct": true
+          }
+        ],
+        "ratio": "0.80",
+        "ratioRecord": {
+          "value": "0.80",
+          "correctAfterFeedback": true,
+          "sourceId": "student-calculated-diagram-ratio"
+        },
+        "ratioAttempts": [
+          {
+            "value": "99",
+            "correct": false
+          },
+          {
+            "value": "0.80",
+            "correct": true
+          }
+        ]
+      },
+      "bat": {
+        "tags": {
+          "humerus": "humerus",
+          "forearm": "forearm",
+          "hand": "hand"
+        },
+        "tagRecord": {
+          "tags": {
+            "humerus": "humerus",
+            "forearm": "forearm",
+            "hand": "hand"
+          },
+          "correctAfterFeedback": false,
+          "sourceId": "student-annotated-supplied-limb-model"
+        },
+        "tagAttempts": [
+          {
+            "tags": {
+              "humerus": "humerus",
+              "forearm": "forearm",
+              "hand": "hand"
+            },
+            "correct": true
+          }
+        ],
+        "caliperPlaced": true,
+        "jaw": "270",
+        "reading": {
+          "value": 270,
+          "correctAfterFeedback": false,
+          "sourceId": "student-aligned-jaw-on-supplied-diagram"
+        },
+        "readingAttempts": [
+          {
+            "value": "270",
+            "correct": true
+          }
+        ],
+        "ratio": "2.70",
+        "ratioRecord": {
+          "value": "2.70",
+          "correctAfterFeedback": false,
+          "sourceId": "student-calculated-diagram-ratio"
+        },
+        "ratioAttempts": [
+          {
+            "value": "2.70",
+            "correct": true
+          }
+        ]
+      },
+      "dolphin": {
+        "tags": {
+          "humerus": "humerus",
+          "forearm": "forearm",
+          "hand": "hand"
+        },
+        "tagRecord": {
+          "tags": {
+            "humerus": "humerus",
+            "forearm": "forearm",
+            "hand": "hand"
+          },
+          "correctAfterFeedback": false,
+          "sourceId": "student-annotated-supplied-limb-model"
+        },
+        "tagAttempts": [
+          {
+            "tags": {
+              "humerus": "humerus",
+              "forearm": "forearm",
+              "hand": "hand"
+            },
+            "correct": true
+          }
+        ],
+        "caliperPlaced": true,
+        "jaw": "180",
+        "reading": {
+          "value": 180,
+          "correctAfterFeedback": false,
+          "sourceId": "student-aligned-jaw-on-supplied-diagram"
+        },
+        "readingAttempts": [
+          {
+            "value": "180",
+            "correct": true
+          }
+        ],
+        "ratio": "1.80",
+        "ratioRecord": {
+          "value": "1.80",
+          "correctAfterFeedback": false,
+          "sourceId": "student-calculated-diagram-ratio"
+        },
+        "ratioAttempts": [
+          {
+            "value": "1.80",
+            "correct": true
+          }
+        ]
+      }
+    },
+    "functions": {
+      "human": "handle",
+      "bat": "fly",
+      "dolphin": "steer"
+    },
+    "functionRecord": {
+      "values": {
+        "human": "handle",
+        "bat": "fly",
+        "dolphin": "steer"
+      },
+      "correctAfterFeedback": true,
+      "sourceId": "student-linked-supplied-structure-to-selected-use"
+    },
+    "functionAttempts": [
+      {
+        "values": {
+          "human": "fly",
+          "bat": "fly",
+          "dolphin": "fly"
+        },
+        "correct": false
+      },
+      {
+        "values": {
+          "human": "handle",
+          "bat": "fly",
+          "dolphin": "steer"
+        },
+        "correct": true
+      }
+    ],
+    "checks": {
+      "digits": {
+        "attempts": [
+          {
+            "value": "fingers",
+            "correct": false
+          },
+          {
+            "value": "segments",
+            "correct": true
+          }
+        ],
+        "value": "segments",
+        "correct": true
+      },
+      "homology": {
+        "attempts": [
+          {
+            "value": "origin",
+            "correct": true
+          }
+        ],
+        "value": "origin",
+        "correct": true
+      },
+      "ratio": {
+        "attempts": [
+          {
+            "value": "model",
+            "correct": true
+          }
+        ],
+        "value": "model",
+        "correct": true
+      }
+    },
+    "answers": {
+      "homology": "My homology explanation uses the supplied forelimb models. Corresponding upper-arm, forearm and wrist/digit positions support the shared pattern despite different forms. The bat ulna is reduced and its long digits support a membrane; the dolphin has extra phalanges within some digits and a steering flipper. My diagram spans 80, 270, 180 units give ratios 0.80, 2.70, 1.80 to the supplied 100-unit reference. These constructed values are not real-animal averages or performance measurements. Common ancestry does not make a living human the ancestor of a living bat or rank fitness.",
+      "proportion": "My proportion explanation uses the supplied forelimb models. Corresponding upper-arm, forearm and wrist/digit positions support the shared pattern despite different forms. The bat ulna is reduced and its long digits support a membrane; the dolphin has extra phalanges within some digits and a steering flipper. My diagram spans 80, 270, 180 units give ratios 0.80, 2.70, 1.80 to the supplied 100-unit reference. These constructed values are not real-animal averages or performance measurements. Common ancestry does not make a living human the ancestor of a living bat or rank fitness.",
+      "inference": "My inference explanation uses the supplied forelimb models. Corresponding upper-arm, forearm and wrist/digit positions support the shared pattern despite different forms. The bat ulna is reduced and its long digits support a membrane; the dolphin has extra phalanges within some digits and a steering flipper. My diagram spans 80, 270, 180 units give ratios 0.80, 2.70, 1.80 to the supplied 100-unit reference. These constructed values are not real-animal averages or performance measurements. Common ancestry does not make a living human the ancestor of a living bat or rank fitness."
+    },
+    "complete": true
+  },
+  "evidence": [
+    {
+      "goalId": "homology",
+      "answerId": "homology",
+      "writing": "My homology explanation uses the supplied forelimb models. Corresponding upper-arm, forearm and wrist/digit positions support the shared pattern despite different forms. The bat ulna is reduced and its long digits support a membrane; the dolphin has extra phalanges within some digits and a steering flipper. My diagram spans 80, 270, 180 units give ratios 0.80, 2.70, 1.80 to the supplied 100-unit reference. These constructed values are not real-animal averages or performance measurements. Common ancestry does not make a living human the ancestor of a living bat or rank fitness.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "proportion",
+      "answerId": "proportion",
+      "writing": "My proportion explanation uses the supplied forelimb models. Corresponding upper-arm, forearm and wrist/digit positions support the shared pattern despite different forms. The bat ulna is reduced and its long digits support a membrane; the dolphin has extra phalanges within some digits and a steering flipper. My diagram spans 80, 270, 180 units give ratios 0.80, 2.70, 1.80 to the supplied 100-unit reference. These constructed values are not real-animal averages or performance measurements. Common ancestry does not make a living human the ancestor of a living bat or rank fitness.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "inference",
+      "answerId": "inference",
+      "writing": "My inference explanation uses the supplied forelimb models. Corresponding upper-arm, forearm and wrist/digit positions support the shared pattern despite different forms. The bat ulna is reduced and its long digits support a membrane; the dolphin has extra phalanges within some digits and a steering flipper. My diagram spans 80, 270, 180 units give ratios 0.80, 2.70, 1.80 to the supplied 100-unit reference. These constructed values are not real-animal averages or performance measurements. Common ancestry does not make a living human the ancestor of a living bat or rank fitness.",
+      "status": "not_graded"
+    }
+  ]
+}

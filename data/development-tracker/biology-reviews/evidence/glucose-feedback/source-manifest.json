@@ -1,0 +1,25 @@
+{
+  "capturedAt": "2026-11-15T18:49:03.124Z",
+  "scope": "Actual reviewed working-tree files; unrelated changes and previous student attempts preserved.",
+  "files": {
+    "src/investigations/glucose-content.js": "51db9cfddd0f93e9fae2bda00c0986764d8ef2a860307228653375c649cdada4",
+    "src/investigations/glucose-model.js": "a70f64d628b2736fb856f8d7668437880ab22a15a8bdbac2d663866c015e03a3",
+    "src/investigations/glucose-art.js": "68875b99d2e7422f96c1bd7aa7b2d34006505dc2a5d3d999cb7bc776e6bd8f05",
+    "src/investigations/glucose-report.js": "df4733082e985a703b7ca553abb699b04bf10166bf657f7e380149869cde825f",
+    "src/investigations/glucose-app.js": "32908609ec6ea3370a7632f4a48ebe414c7f3a58fc96704ba3ff3901a4ce9f69",
+    "src/investigations/glucose.css": "6763883d56ac00ebf27ccc43d9e4b301b7331d54d4376c071249829cc3c5aecb",
+    "tests/glucose.test.js": "0a05182ea1a68fbb5bfacfe1936648c45ee789b8235cceebf039ad36bd9d88ba",
+    "tests/browser/glucose.spec.js": "0836523dd4f32466a9dfcfaec4be0cb2fbb876dbf4d498aa3701a6aa3f730591",
+    "playwright.config.js": "70865f8f9ed1357df33c2877d7f248a356c398c78badd6fba9e66cfb132176e3",
+    "src/investigations/guided-lab-shell.js": "7718d1ab83d65ac8551b25323338c5c2bb4c73afc988331f3c29b767a9abc55f",
+    "src/investigations/student-report.js": "5cdec89cf015cada33fbf14585705605f2a33f90d84aa0ebb248ab6c0d0d5ca0",
+    "src/investigations/lab-report-pdf.js": "d3313db4efc5086da99bbd244ba4ceada0c2a37351ef0b4d67255b76d4f20d4c",
+    "src/catalog.js": "e824b672287bdce244787ba8cf08816682fb159bf8d3bb7619ec8728dc1a0e7e",
+    "src/investigations/app.js": "4e0d058b41d02d58054c9e413e4f9a05b78853d873de46ee36cb961a21dd9578",
+    "src/investigations/learning-design.js": "2666e59a9bd9bba43e9e42f32c3c548cce3b9be4cb455eb0759de7bd6192775a",
+    "scripts/build-biology-resources.py": "6c950c857ccc7a5903363b9742922ded31cb0624974d20199567df30a3b01546",
+    "scripts/verify-resources.py": "baaa949f38458f2e53606450615b383b8187427b0d427b7d4e2373c2b438c7ef",
+    "public/resources/glucose-feedback-worksheet.pdf": "060c368553d44fce746a7f64081e0182e0ce977e2be041bb127263fd2be439bc",
+    "public/resources/glucose-feedback-teacher-guide.pdf": "eadc59bd8f9114dd9144000b6b2cb4110ed61cc3950bde80b2a80a21ae5500c4"
+  }
+}

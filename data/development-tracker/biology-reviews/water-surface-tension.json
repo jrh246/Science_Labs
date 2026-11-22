@@ -1,0 +1,409 @@
+{
+  "schemaVersion": 1,
+  "labId": "water-surface-tension",
+  "taskId": "BIO-02-REVIEW",
+  "reviewedBy": "Codex - separate development review",
+  "reviewedOn": "2026-11-15",
+  "sourceSnapshot": "sha256:c3fe5e5fd76da8c46b354d8e6e8c3da563a36cff7eedcd7c7722cd855daece02",
+  "decision": "pass",
+  "summary": "English virtual-only development review passed after compact-scene geometry, readable caption, long-report grouping, teacher packet pagination and catalog-test corrections. External comprehension, physical devices/protocol and AUD-10 delivery remain separate.",
+  "blockers": [],
+  "checks": {
+    "G01": {
+      "status": "pass",
+      "notes": "Three explicit learning goals connect the recorded design, retained count/volume, two concept checks and original mechanism/limit explanations. Navigation does not infer mastery.",
+      "evidence": [
+        "src/investigations/surface-content.js",
+        "src/investigations/surface-report.js",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/complete-responses.json"
+      ]
+    },
+    "G02": {
+      "status": "pass",
+      "notes": "One run per distinct liquid; first three individual drops demonstrate growth, optional five-drop additions reduce repeated motions. Drops are not independent trials and repeatability requires independent runs.",
+      "evidence": [
+        "src/investigations/surface-content.js",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/complete.pdf"
+      ]
+    },
+    "G03": {
+      "status": "pass",
+      "notes": "ACS institutional teaching sources support molecular attraction, water domes and surfactant effects. Water stays H2O; surface tension is not a solid skin. Exact virtual thresholds/doses are synthetic and are not attributed to empirical sources.",
+      "evidence": [
+        "src/investigations/surface-content.js",
+        "src/investigations/surface-model.js",
+        "https://www.acs.org/middleschoolchemistry/lessonplans/chapter5/lesson2.html",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/review-notes.md"
+      ]
+    },
+    "G04": {
+      "status": "pass",
+      "notes": "Limits are beside the bench and in reports/handouts: indirect count comparison, synthetic values, enlarged art, fluid simplifications, real confounds and limited repeatability.",
+      "evidence": [
+        "src/investigations/surface-content.js",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/high-dome.png",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/complete.pdf"
+      ]
+    },
+    "G05": {
+      "status": "pass",
+      "notes": "Students clean the actual coin, place a dedicated dropper at the coin, add drops and see the dome/spill, then interpret counts and calculate retained volume. Correcting the spilling-drop error changes recorded evidence.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/initial-coin.png",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/high-dome.png",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/water-spill.png"
+      ]
+    },
+    "G06": {
+      "status": "pass",
+      "notes": "Inspected initial/residue, cleaned/growing dome and spilled states at desktop and phone/tablet. Coin, glass dropper and transparent fluid look plausible at declared scale. Compact frame and target percentages share the same coordinates and pass drag/scroll/resize/reload checks.",
+      "evidence": [
+        "src/investigations/surface-art.js",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/high-dome.png",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/phone-placed-dropper.png",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/tablet-placed-dropper.png",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/detergent-spill.png"
+      ]
+    },
+    "G07": {
+      "status": "pass",
+      "notes": "Concept and tool ordering is stable per attempt and does not reveal correct concepts. Scientifically meaningful liquid identity, equal drop size and observation order are retained.",
+      "evidence": [
+        "src/investigations/surface-model.js",
+        "src/investigations/surface-app.js",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/browser-tests.txt"
+      ]
+    },
+    "G08": {
+      "status": "pass",
+      "notes": "Reviewed the full authored pathway, errors, checks, reports and handouts for ninth-grade wording. Cohesion, surface tension, polarity, hydrogen bonds, surfactant and retained amounts are defined. Teacher/student comprehension stays pending.",
+      "evidence": [
+        "src/investigations/surface-content.js",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/review-notes.md",
+        "public/resources/water-surface-tension-worksheet.pdf",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/phone-explain.png"
+      ]
+    },
+    "G09": {
+      "status": "pass",
+      "notes": "Required written prediction/design gate setup in both model and UI. First plan is retained before apparatus/results. Reasoned predictions can be wrong; no later outcome is shown before planning.",
+      "evidence": [
+        "src/investigations/surface-model.js",
+        "tests/surface.test.js",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/complete-responses.json"
+      ]
+    },
+    "G10": {
+      "status": "pass",
+      "notes": "Correct! feedback explains interpretation and concepts. Wrong tool, spilling-drop count and concept selections get usable correction feedback; prior incorrect entries remain in structured evidence. Later BIO-03 follow-up: current unconfirmed work is retained; repeated correct checks do not invent corrections; edit feedback/next-step gates clear immediately; rapid real tool choices after dragging remain usable. Verified by the 116-test model suite, 25-test browser group and three edit/recheck cases. BIO-07 shared touch follow-up: suppress the pending native compatibility click across replacement DOM, reset on the next physical pointerdown. All six earlier lab browser files passed in the 50-check group; its only failure was a new singular/plural assertion typo, corrected in the focused 2/2 exact-tap rerun. Verify one increment/toggle/rotation and preserve the next deliberate tap. Science and saved observations unchanged; original acceptance snapshots retained.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/followup-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/followup-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/followup-edit-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-exact-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-regression-initial.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-followup-manifest.json"
+      ]
+    },
+    "G11": {
+      "status": "pass",
+      "notes": "Completion confirms actual successful writes near the control. Browser checks cover repeats, denied storage/retry, reload and editing behavior. Optional identity changes preserve completion; substantive changes clear it.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/browser-tests.txt",
+        "src/investigations/completion-status.js"
+      ]
+    },
+    "G12": {
+      "status": "pass",
+      "notes": "New stable v1 key is separate for root/development and leaves earlier keys untouched. Partial counts, apparatus and final work restore without regenerating an observed threshold. New incomplete/corrupt states do not claim completion.",
+      "evidence": [
+        "src/investigations/surface-model.js",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/browser-tests.txt",
+        "tests/surface.test.js"
+      ]
+    },
+    "G13": {
+      "status": "pass",
+      "notes": "Named complete and neutral draft PDFs plus native print contain actual work, optional name/period and readable local export date/time/zone. PDF export is separate from browser printing and from blank handouts.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/draft.pdf",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/native-print.pdf",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/browser-tests.txt"
+      ]
+    },
+    "G14": {
+      "status": "pass",
+      "notes": "A shared immutable snapshot reports first planning, model source/units, retained counts/volumes, automatic additions, goal-linked writing, checked concepts and meaningful corrections. Raw attempts are retained, not replaced by a chronological log. Follow-up: wrong current entries are retained as unconfirmed work rather than omitted. A real wrong unfinished attempt was exported/printed; 109 model/report tests and the targeted two-lab browser check passed. Later BIO-03 follow-up: current unconfirmed work is retained; repeated correct checks do not invent corrections; edit feedback/next-step gates clear immediately; rapid real tool choices after dragging remain usable. Verified by the 116-test model suite, 25-test browser group and three edit/recheck cases.",
+      "evidence": [
+        "src/investigations/surface-report.js",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/unconfirmed-current-work.pdf",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/unconfirmed-current-work-print.pdf",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/partial-followup-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/partial-followup-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/followup-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/followup-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/followup-edit-tests.txt"
+      ]
+    },
+    "G15": {
+      "status": "pass",
+      "notes": "All 27 current PDF pages rendered and inspected, including handouts, draft/complete/long/offline/native print and both development drafts. Unicode and final long-answer marker retained. Keep limits/sources together to prevent orphan source-only pages; export failure/retry tested. Follow-up: wrong current entries are retained as unconfirmed work rather than omitted. A real wrong unfinished attempt was exported/printed; 109 model/report tests and the targeted two-lab browser check passed. Later BIO-03 follow-up: current unconfirmed work is retained; repeated correct checks do not invent corrections; edit feedback/next-step gates clear immediately; rapid real tool choices after dragging remain usable. Verified by the 116-test model suite, 25-test browser group and three edit/recheck cases.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/pdf-inspection.json",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/pdf-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/pdf-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/pdf-contact-3.png",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/pdf-contact-4.png",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/long-offline.pdf",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/unconfirmed-current-work.pdf",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/unconfirmed-current-work-print.pdf",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/partial-followup-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/partial-followup-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/followup-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/followup-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/followup-edit-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.md",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.md"
+      ]
+    },
+    "G16": {
+      "status": "pass",
+      "notes": "Actual Chromium mouse drag, native touch drag then tap, keyboard/select-place, reduced motion, 390/768/desktop widths, scroll/resize/reload and readable phone geometry pass. Meaningful scene descriptions and clear text accompany the graphics. Physical hardware acceptance remains pending. Later BIO-03 follow-up: current unconfirmed work is retained; repeated correct checks do not invent corrections; edit feedback/next-step gates clear immediately; rapid real tool choices after dragging remain usable. Verified by the 116-test model suite, 25-test browser group and three edit/recheck cases. BIO-07 shared touch follow-up: suppress the pending native compatibility click across replacement DOM, reset on the next physical pointerdown. All six earlier lab browser files passed in the 50-check group; its only failure was a new singular/plural assertion typo, corrected in the focused 2/2 exact-tap rerun. Verify one increment/toggle/rotation and preserve the next deliberate tap. Science and saved observations unchanged; original acceptance snapshots retained.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/phone-placed-dropper.png",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/tablet-placed-dropper.png",
+        "src/investigations/touch-buttons.js",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/followup-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/followup-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/followup-edit-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-exact-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-regression-initial.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-followup-manifest.json",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.json",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.md",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-native-focus-regressions.txt"
+      ]
+    },
+    "G17": {
+      "status": "pass",
+      "notes": "108 model/report checks and 18 browser checks pass, including both new labs, catalog regression, root/development isolation and first offline PDFs. Resource parity/hash checks and both build paths pass. Initial review failures/fixes retained; not classroom certification. Follow-up: wrong current entries are retained as unconfirmed work rather than omitted. A real wrong unfinished attempt was exported/printed; 109 model/report tests and the targeted two-lab browser check passed. Later BIO-03 follow-up: current unconfirmed work is retained; repeated correct checks do not invent corrections; edit feedback/next-step gates clear immediately; rapid real tool choices after dragging remain usable. Verified by the 116-test model suite, 25-test browser group and three edit/recheck cases. BIO-07 shared touch follow-up: suppress the pending native compatibility click across replacement DOM, reset on the next physical pointerdown. All six earlier lab browser files passed in the 50-check group; its only failure was a new singular/plural assertion typo, corrected in the focused 2/2 exact-tap rerun. Verify one increment/toggle/rotation and preserve the next deliberate tap. Science and saved observations unchanged; original acceptance snapshots retained.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/platform-build.txt",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/unconfirmed-current-work.pdf",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/unconfirmed-current-work-print.pdf",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/partial-followup-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/partial-followup-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/followup-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/followup-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/followup-edit-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-exact-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-regression-initial.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-followup-manifest.json"
+      ]
+    },
+    "G18": {
+      "status": "pass",
+      "notes": "Stable IDs and original writing are independent of English authored content; report locale/version is explicit. Question/goals/check content is separated; remaining shared app/status strings need extraction during AUD-10. English-only availability is truthful; Spanish/native switching and translated print are future work.",
+      "evidence": [
+        "src/investigations/surface-content.js",
+        "src/investigations/surface-report.js",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/review-notes.md"
+      ]
+    },
+    "RESOURCES": {
+      "status": "pass",
+      "notes": "Matching three-page worksheet and two-page teacher guide use current question/prompts/conditions/limits and Unicode fonts; hashes and links verified. Virtual-only scope and pending physical protocol extension are explicit. Blank resources do not replace completed work PDFs.",
+      "evidence": [
+        "public/resources/water-surface-tension-worksheet.pdf",
+        "public/resources/water-surface-tension-teacher-guide.pdf",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/pdf-contact-1.png"
+      ]
+    },
+    "ACCESS": {
+      "status": "pass",
+      "notes": "Standalone guest access/exports and public catalog launch tested. New immutable platform manifest compiles without publishing; worker remains disabled there. Generic membership/favorites/assignment/publication policy is unchanged and its 40 passing API regressions are retained from BIO-01, not misreported as a new lab-specific live deployment test.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/platform-build.txt",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/platform-tests.txt",
+        "src/platform/runtime-bridge.js",
+        "scripts/build-platform.mjs"
+      ]
+    },
+    "TRACKING": {
+      "status": "pass",
+      "notes": "Stable water-surface-tension ID/unit/route retained. Actual catalog and curriculum implementation/resources/English availability updated; CSV/checklists regenerated. Spanish, standards and whole-course approval are unchanged.",
+      "evidence": [
+        "src/catalog.js",
+        "data/curriculum/dataset.json",
+        "data/development-tracker/COURSE_CHECKLIST.md",
+        "data/development-tracker/biology-reviews/evidence/water-surface-tension/review-notes.md"
+      ]
+    }
+  },
+  "artifacts": {
+    "workflow": [
+      "data/development-tracker/biology-reviews/evidence/water-surface-tension/browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/water-surface-tension/review-notes.md"
+    ],
+    "visuals": [
+      "data/development-tracker/biology-reviews/evidence/water-surface-tension/initial-coin.png",
+      "data/development-tracker/biology-reviews/evidence/water-surface-tension/growing-dome.png",
+      "data/development-tracker/biology-reviews/evidence/water-surface-tension/high-dome.png",
+      "data/development-tracker/biology-reviews/evidence/water-surface-tension/water-spill.png",
+      "data/development-tracker/biology-reviews/evidence/water-surface-tension/detergent-spill.png",
+      "data/development-tracker/biology-reviews/evidence/water-surface-tension/phone-placed-dropper.png",
+      "data/development-tracker/biology-reviews/evidence/water-surface-tension/tablet-placed-dropper.png",
+      "data/development-tracker/biology-reviews/evidence/water-surface-tension/phone-explain.png"
+    ],
+    "pdfReports": [
+      "data/development-tracker/biology-reviews/evidence/water-surface-tension/draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/water-surface-tension/complete.pdf",
+      "data/development-tracker/biology-reviews/evidence/water-surface-tension/long-offline.pdf",
+      "data/development-tracker/biology-reviews/evidence/water-surface-tension/pdf-inspection.json",
+      "data/development-tracker/biology-reviews/evidence/water-surface-tension/unconfirmed-current-work.pdf"
+    ],
+    "nativePrint": [
+      "data/development-tracker/biology-reviews/evidence/water-surface-tension/native-print.pdf",
+      "data/development-tracker/biology-reviews/evidence/water-surface-tension/long-native-print.pdf",
+      "data/development-tracker/biology-reviews/evidence/water-surface-tension/unconfirmed-current-work-print.pdf"
+    ],
+    "tests": [
+      "data/development-tracker/biology-reviews/evidence/water-surface-tension/model-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/water-surface-tension/browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/water-surface-tension/resource-check.txt",
+      "data/development-tracker/biology-reviews/evidence/water-surface-tension/platform-build.txt",
+      "data/development-tracker/biology-reviews/evidence/water-surface-tension/partial-followup-model-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/water-surface-tension/partial-followup-browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/water-surface-tension/followup-model-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/water-surface-tension/followup-browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/water-surface-tension/followup-edit-tests.txt"
+    ],
+    "resources": [
+      "public/resources/water-surface-tension-worksheet.pdf",
+      "public/resources/water-surface-tension-teacher-guide.pdf"
+    ]
+  },
+  "externalValidation": {
+    "teacherStudentComprehension": {
+      "status": "pending",
+      "notes": "Not yet performed; development checks do not establish classroom comprehension."
+    },
+    "physicalDevices": {
+      "status": "pending",
+      "notes": "Not yet performed; browser emulation is not physical-device acceptance."
+    },
+    "classroomProtocol": {
+      "status": "pending",
+      "notes": "Record the selected modes and actual protocol validation separately."
+    }
+  },
+  "futureWork": [
+    {
+      "id": "AUD-10",
+      "status": "planned",
+      "notes": "Full native language switching and translated printing are not certified by the localization-readiness check."
+    }
+  ],
+  "history": [
+    {
+      "finding": "Phone review found the full-width diagram reduced the dropper and diagram labels too far.",
+      "resolution": "Added a compact view with the same source coordinates, computed the matching coin target from that view, and moved dose/height text into readable page text. Retests pending."
+    },
+    {
+      "finding": "Separate review also found compact caption clipping, a source-only last print page, sparse forced teacher pagination and a former-planned library assertion.",
+      "resolution": "Adjusted compact caption, grouped limits/sources for PDF and print, removed unnecessary teacher page break, updated available/planned catalog checks. Final 108 model/report, 18 browser checks passed; all 27 final PDF pages inspected."
+    },
+    {
+      "recordedOn": "2026-11-15",
+      "sourceSnapshotBefore": "sha256:0d03585b39fdf002d00f1b342eaf574ba4f2df0281396dcf97a5131d8d169c0e",
+      "finding": "Food-lab report design exposed a fidelity gap in unfinished reports: incorrect selections appeared missing.",
+      "resolution": "Seed reports now retain the current selected count/percentage with check status; surface reports retain current typed count/volume with unconfirmed labels. Confirmed results and old saved work are unchanged. Follow-up model/browser/PDF/native-print checks passed."
+    },
+    {
+      "recordedOn": "2026-11-15",
+      "sourceSnapshotBefore": "sha256:ba7ce50671faf762cb0e6050aa9da08790fcfe1293f91d55a1467b209bfc441d",
+      "finding": "Report/current-edit and rapid post-drag behavior were strengthened while building BIO-03.",
+      "resolution": "Preserved current wrong entries, distinguished actual correction history, cleared stale feedback/next actions, and suppressed only generated drag clicks. Current regression outcomes: 116 model/report, 25 browser-group, 3 edit/recheck checks passed. Existing science parameters, IDs and observations retained."
+    },
+    {
+      "id": "BIO-07-touch-once",
+      "finding": "A native compatibility click could hit a new control after a touch redraw; discovered from viral round-2 phone evidence.",
+      "resolution": "BIO-07 shared touch follow-up: suppress the pending native compatibility click across replacement DOM, reset on the next physical pointerdown. All six earlier lab browser files passed in the 50-check group; its only failure was a new singular/plural assertion typo, corrected in the focused 2/2 exact-tap rerun. Verify one increment/toggle/rotation and preserve the next deliberate tap. Science and saved observations unchanged; original acceptance snapshots retained.",
+      "sourceSnapshot": "sha256:615ccee6e5fe3033f3dba30fc3914477c955e54bf3a2271d32febc0b2a768c60",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/viral-spread/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-exact-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-regression-initial.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-followup-manifest.json"
+      ]
+    }
+  ],
+  "followups": [
+    {
+      "id": "shared-touch-focus-2026-11-15",
+      "reviewedOn": "2026-11-15",
+      "reviewedBy": "Codex - shared interaction follow-up",
+      "decision": "pass",
+      "summary": "Pending native compatibility mousedown no longer steals newly assigned focus. Existing deliberate next-tap/mouse/keyboard behavior verified in39 selected browser cases; original lab review snapshot retained.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.json",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.md",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-native-focus-regressions.txt"
+      ]
+    },
+    {
+      "id": "shared-response-pagination-2026-11-15",
+      "recordedAt": "2026-11-15T17:05:24.788Z",
+      "scope": "Shared PDF question/answer page-break guard; original review remains its point-in-time snapshot. Representative current starch, stored heat/fungal and legacy enzyme reports checked; not a full rerun of this lab.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.md",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.json",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/pagination-corrected.txt",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-model-tests.txt"
+      ]
+    },
+    {
+      "id": "shared-scientific-symbols-2026-11-15",
+      "recordedAt": "2026-11-15T18:31:00.192Z",
+      "scope": "Shared offline scientific-symbol glyph fallback only; original source snapshot/history unchanged. Representative new/old outputs and legacy wrappers validated, not full rerun of this lab.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.md",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.json",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/glyph-all-artifacts.txt"
+      ]
+    }
+  ],
+  "followUps": [
+    {
+      "id": "pdf-delivery-and-symbols-2026-11-15",
+      "recordedAt": "2026-11-16T01:43:40.984Z",
+      "scope": "Local source/public/member PDF transport and resource glyphs only. Original development-review snapshot retained; this is not a new full learning or user review.",
+      "findings": "Unsupported handout scientific glyphs repaired with a licensed fallback; both resource files regenerated and selected in a new local release.",
+      "evidence": [
+        "data/development-tracker/pdf-audits/2026-11-15/summary.json",
+        "data/development-tracker/pdf-audits/2026-11-15/pdf-inspection.json",
+        "data/development-tracker/pdf-audits/2026-11-15/delivery-audit.json"
+      ]
+    }
+  ]
+}

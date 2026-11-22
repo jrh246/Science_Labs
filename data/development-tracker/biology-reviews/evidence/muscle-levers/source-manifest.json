@@ -1,0 +1,24 @@
+{
+  "capturedAt": "2026-11-15T19:03:20.024Z",
+  "scope": "Actual reviewed working-tree files; unrelated changes and previous student attempts preserved.",
+  "files": {
+    "src/investigations/lever-content.js": "767f35a9897408c3e2e10dede4384a772c3d21194dc283d0923a0467996f6120",
+    "src/investigations/lever-model.js": "7df3111322a06b1d7345ecdf16d36410507bbf4a3d377267786b29ba922af81d",
+    "src/investigations/lever-art.js": "f56309d41915f93fe4541bc050f2537218130bf963652c2a098affeeda1fb52b",
+    "src/investigations/lever-report.js": "927cb5f88f9b7b5b9b34995b4165b1cf6a2dcbde69ed60c1b5c65298c848abb9",
+    "src/investigations/lever-app.js": "8f05be2be3a7f19b1b015147973fe6bbb7ba1831f64fef34ddd54d54e15fc11d",
+    "src/investigations/lever.css": "475da5ebd5381db8825bde472fa33145d0b16af366a0cbbb8c6e8c52191739bb",
+    "tests/lever.test.js": "cac646e5055826313fa1c551a44c9859365e1e6ecde685e2b8094b7bf60c9af6",
+    "tests/browser/lever.spec.js": "370cc1cf9ce5a7c0f4b5f8594d24788ae8e0bf28a07f4b54a1a217e902f36fc7",
+    "src/investigations/guided-lab-shell.js": "7718d1ab83d65ac8551b25323338c5c2bb4c73afc988331f3c29b767a9abc55f",
+    "src/investigations/student-report.js": "5cdec89cf015cada33fbf14585705605f2a33f90d84aa0ebb248ab6c0d0d5ca0",
+    "src/investigations/lab-report-pdf.js": "d3313db4efc5086da99bbd244ba4ceada0c2a37351ef0b4d67255b76d4f20d4c",
+    "src/catalog.js": "56f10827127e854a7ee8aa4989273a8fd32a1731a77b6953b4fdd6bbe98d8aff",
+    "src/investigations/app.js": "08e7cc403eac8c5f1ff35465a5e97c824fb3e549371852e6c309b6c059bb0796",
+    "src/investigations/learning-design.js": "8c03288fc65f6c339c8d30f5732a6219f39f0a692de5e0b00d0e21ebe9d60337",
+    "scripts/build-biology-resources.py": "6c950c857ccc7a5903363b9742922ded31cb0624974d20199567df30a3b01546",
+    "scripts/verify-resources.py": "c1281ee639c4a7b0606cd76c7ef10bf90534e26159273b3cb1d1af981a3a5f2f",
+    "public/resources/muscle-levers-worksheet.pdf": "2e8d202309e7fbd1ee489cfee5dcca018e56e7e7d7e6b12ae36f06893ba7346f",
+    "public/resources/muscle-levers-teacher-guide.pdf": "1caf4cab381f09f22f1cba5e3d2cec7e535feea89807f3c165663fc5e9769c83"
+  }
+}

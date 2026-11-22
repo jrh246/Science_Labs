@@ -1,0 +1,58 @@
+node.exe : [WebServer] (node:50840) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([WebServer] (no... env being set.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] 
+[WebServer] (!) Some chunks are larger than 500 kB after minification. Consider:
+[WebServer] - Using dynamic import() to code-split the application
+[WebServer] - Use build.rollupOptions.output.manualChunks to improve chunking: 
+https://rollupjs.org/configuration-options/#output-manualchunks
+[WebServer] - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[WebServer] (node:57540) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 7 tests using 1 worker
+
+(node:22672) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 tests\browser\biology-browser-contract.mjs:5:2 › reaction-time: complete corrected attempt, truthful saves, named PDF/JSON/native print and edits (10.8s)
+  ok 2 tests\browser\biology-browser-contract.mjs:6:2 › reaction-time: denied storage/retry, Unicode long writing and first offline PDF/native print (9.1s)
+  ok 3 tests\browser\biology-browser-contract.mjs:7:2 › reaction-time: unfinished neutral PDF and export failure recovery (930ms)
+  ok 4 tests\browser\biology-browser-contract.mjs:8:2 › reaction-time: root/development progress isolation and first offline development PDF (1.8s)
+  ok 5 tests\browser\reaction.spec.js:11:1 › reaction view-only review preserves actual trials and empty/current math edits invalidate dependent checks (10.3s)
+  ok 6 tests\browser\reaction.spec.js:12:1 › reaction actual hidden/reloaded waits excluded without losing prior valid observations or resuming old clock (9.0s)
+  x  7 tests\browser\reaction.spec.js:13:1 › reaction native card drag-release-nextphysical tap, touch timing, fixed keyboard method and responsive plots (12.5s)
+
+
+  1) tests\browser\reaction.spec.js:13:1 › reaction native card drag-release-nextphysical tap, touch timing, fixed keyboard method and responsive plots 
+
+    Error: expect(locator).toBeFocused() failed
+
+    Locator:  locator('[data-lab-action="statistics"]')
+    Expected: focused
+    Received: inactive
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toBeFocused" locator('[data-lab-action="statistics"]') with timeout 5000ms
+      - waiting for locator('[data-lab-action="statistics"]')
+        14 × locator resolved to <button type="button" class="seed-primary" data-lab-action="statistics">Describe the three values</button>
+           - unexpected value "inactive"
+
+
+      11 | test('reaction view-only review preserves actual trials and empty/current math edits invalidate dependent checks',async({page:p})=>{await fullAttempt(p);await a(p,'complete').click();await p.getByText('Review the same saved evidence',{exact:true}).click();await a(p,'review-trials').click();const before=await p.locator('[data-reaction-trial] td').allTextContents();await expect(a(p,'trial')).toBeDisabled();await a(p,'statistics').click();await a(p,'explain').click();await expect(a(p,'complete')).toHaveText('Work saved as complete');await p.getByText('Review the same saved evidence',{exact:true}).click();await a(p,'review-statistics').click();await entry(p,'range').fill('');await expect(a(p,'explain')).toBeDisabled();await p.reload();await expect(entry(p,'range')).toHaveValue('');expect(await p.locator('[data-reaction-trial] td').allTextContents()).toEqual(before);await downloadBiologyPdf(p,out,'edited-unconfirmed.pdf');});
+      12 | test('reaction actual hidden/reloaded waits excluded without losing prior valid observations or resuming old clock',async({page:p})=>{await plan(p);await pathway(p);await trial(p);const first=await p.locator('[data-reaction-trial="1"] td').textContent();await a(p,'trial').click();await p.reload();await expect(p.locator('[data-reaction-excluded]')).toContainText('1 interrupted');await expect(p.locator('[data-reaction-trial="1"] td')).toHaveText(first);await expect(p.locator('[data-reaction-trial="2"] td')).toHaveText('Not recorded');await expect(p.locator('.reaction-cue-label')).toHaveText('READY');await a(p,'trial').click();await p.evaluate(()=>{Object.defineProperty(document,'visibilityState',{value:'hidden',configurable:true});document.dispatchEvent(new Event('visibilitychange'));Object.defineProperty(document,'visibilityState',{value:'visible',configurable:true});});await expect(p.locator('[data-reaction-excluded]')).toContainText('2 interrupted');await downloadBiologyPdf(p,out,'interrupted.pdf');for(let i=1;i<3;i++)await trial(p,{index:i});await stats(p);});
+    > 13 | test('reaction native card drag-release-nextphysical tap, touch timing, fixed keyboard method and responsive plots',async({browser})=>{const ctx=await browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true,reducedMotion:'reduce'}),p=await ctx.newPage();await plan(p);await p.locator('.reaction-pathway').evaluate(el=>el.scrollIntoView({block:'start'}));const x=await p.locator('[data-tool="sensory"]').boundingBox(),y=await p.locator('[data-place="sensory"]').boundingBox(),cdp=await ctx.newCDPSession(p);await cdp.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x:x.x+x.width/2,y:x.y+x.height/2}]});for(let i=1;i<=8;i++)await cdp.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x:x.x+x.width/2+(y.x+y.width/2-x.x-x.width/2)*i/8,y:x.y+x.height/2+(y.y+y.height/2-x.y-x.height/2)*i/8}]});await cdp.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});await p.locator('[data-tool="processing"]').tap();await p.locator('[data-place="processing"]').tap();for(const id of ['motor','muscle']){await p.locator(`[data-tool="${id}"]`).focus();await p.keyboard.press('Enter');await p.locator(`[data-place="${id}"]`).focus();await p.keyboard.press('Enter');}await a(p,'pathway-check').click();await shot(p,'phone-pathway');for(const size of [{width:390,height:844},{width:768,height:1024}]){await p.setViewportSize(size);const g=await p.locator('.reaction-pathway').boundingBox();for(const[id,xy]of Object.entries({sensory:[268,170],processing:[357,110],motor:[425,266],muscle:[645,398]})){const b=await p.locator(`[data-place="${id}"]`).boundingBox();expect(Math.abs(b.x+b.width/2-(g.x+g.width*xy[0]/800))).toBeLessThan(2);expect(Math.abs(b.y+b.height/2-(g.y+g.height*xy[1]/520))).toBeLessThan(2);expect(b.width).toBeGreaterThanOrEqual(44);expect(b.height).toBeGreaterThanOrEqual(44);}}await shot(p,'tablet-pathway');await p.setViewportSize({width:390,height:844});await a(p,'trials').click();for(let i=0;i<3;i++){await a(p,'trial').tap();await expect(p.locator('.reaction-cue-label')).toHaveText('RESPOND');await pad(p).tap();await expect(p.locator('.reaction-cue-label')).toHaveText('RECORDED');if(i===2)await expect(a(p,'statistics')).toBeFocused();}await stats(p);await p.setViewportSize({width:390,height:844});await p.getByText('Review the same saved evidence',{exact:true}).click();await a(p,'review-statistics').click();await shot(p,'phone-plot');expect(await p.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);await ctx.close();const pc=await browser.newContext(),q=await pc.newPage();await plan(q,'keyboard');await pathway(q);for(let i=0;i<3;i++)await trial(q,{mode:'keyboard',index:i});await expect(a(q,'statistics')).toBeFocused();await stats(q);await pc.close();});
+         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ^
+      14 |
+        at C:\Projects\Science_Labs\tests\browser\reaction.spec.js:13:2199
+
+    Error Context: test-results\reaction-reaction-native-c-c77f8-method-and-responsive-plots\error-context.md
+
+  1 failed
+    tests\browser\reaction.spec.js:13:1 › reaction native card drag-release-nextphysical tap, touch timing, fixed keyboard method and responsive plots 
+  6 passed (1.0m)

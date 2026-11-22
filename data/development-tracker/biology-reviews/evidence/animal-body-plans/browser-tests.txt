@@ -1,0 +1,55 @@
+node.exe : [WebServer] (node:52580) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([WebServer] (no... env being set.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] 
+[WebServer] (!) Some chunks are larger than 500 kB after minification. Consider:
+[WebServer] - Using dynamic import() to code-split the application
+[WebServer] - Use build.rollupOptions.output.manualChunks to improve chunking: 
+https://rollupjs.org/configuration-options/#output-manualchunks
+[WebServer] - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[WebServer] (node:46452) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 6 tests using 1 worker
+
+(node:51988) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 tests\browser\biology-browser-contract.mjs:5:2 › animal-body-plans: complete corrected attempt, truthful saves, named PDF/JSON/native print and edits (6.0s)
+  ok 2 tests\browser\biology-browser-contract.mjs:6:2 › animal-body-plans: denied storage/retry, Unicode long writing and first offline PDF/native print (3.3s)
+  ok 3 tests\browser\biology-browser-contract.mjs:7:2 › animal-body-plans: unfinished neutral PDF and export failure recovery (891ms)
+  ok 4 tests\browser\biology-browser-contract.mjs:8:2 › animal-body-plans: root/development progress isolation and first offline development PDF (1.5s)
+  ok 5 tests\browser\bodyplans.spec.js:8:1 › body plans keyboard lens, mouse probe after resize/scroll, current-edited evidence and view-only completion (3.5s)
+  x  6 tests\browser\bodyplans.spec.js:10:1 › body plans native touch lens drag-release, next physical tap, continuous plane slider and phone targets (5.9s)
+
+
+  1) tests\browser\bodyplans.spec.js:10:1 › body plans native touch lens drag-release, next physical tap, continuous plane slider and phone targets 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: locator('.bodyplans-section')
+    Expected: visible
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" locator('.bodyplans-section') with timeout 5000ms
+      - waiting for locator('.bodyplans-section')
+
+
+       8 | test('body plans keyboard lens, mouse probe after resize/scroll, current-edited evidence and view-only completion',async({page})=>{await fullAttempt(page);await a(page,'complete').click();await page.getByText('Review the same classified examples',{exact:true}).click();await page.locator('[data-lab-action="specimen"][data-id="roundworm"]').click();await a(page,'explain').click();await expect(a(page,'complete')).toHaveText('Work saved as complete');await page.getByText('Review the same classified examples',{exact:true}).click();await page.locator('[data-lab-action="specimen"][data-id="roundworm"]').click();await entry(page,'cavity').selectOption('coelom');await expect(a(page,'explain')).toBeDisabled();await entry(page,'cavity').selectOption('');await page.reload();await expect(entry(page,'cavity')).toHaveValue('');await entry(page,'cavity').selectOption('coelom');await page.reload();await expect(entry(page,'cavity')).toHaveValue('coelom');await expect(page.locator('.bodyplans-classification-feedback')).not.toContainText('Correct!');await downloadBiologyPdf(page,out,'edited-unconfirmed.pdf');await page.setViewportSize({width:768,height:1024});await page.locator('.bodyplans-section').scrollIntoViewIfNeeded();const tool=await page.locator('[data-tool="probe"]').boundingBox(),target=await page.locator('[data-place="gut"]').boundingBox();await page.mouse.move(tool.x+tool.width/2,tool.y+tool.height/2);await page.mouse.down();await page.mouse.move(target.x+target.width/2,target.y+target.height/2,{steps:8});await page.mouse.up();await expect(page.locator('.bodyplans-probe')).toContainText('gut lumen');await shot(page,'tablet-roundworm');await page.goto('/investigation.html?lab='+id);await page.locator('[data-lab-action="specimen"][data-id="sponge"]').click();await entry(page,'angle').focus();await page.keyboard.press('Home');await page.keyboard.press('ArrowRight');await expect(pClass(page)).toHaveText('15°');});
+       9 | const pClass=p=>p.locator('#bodyplan-angle-value');
+    > 10 | test('body plans native touch lens drag-release, next physical tap, continuous plane slider and phone targets',async({browser})=>{const context=await browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true,reducedMotion:'reduce'}),page=await context.newPage();await plan(page);for(const angle of [0,90]){await setAngle(page,angle);await a(page,'test-plane').tap();}await page.locator('.bodyplans-whole').evaluate(el=>el.scrollIntoView({block:'center'}));const x=await page.locator('[data-tool="lens"]').boundingBox(),y=await page.locator('[data-place="section"]').boundingBox(),client=await context.newCDPSession(page);expect(y.width).toBeGreaterThanOrEqual(44);expect(y.height).toBeGreaterThanOrEqual(44);async function drag(x,y,xx,yy){await client.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x,y}]});for(let i=1;i<=8;i++)await client.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x:x+(xx-x)*i/8,y:y+(yy-y)*i/8}]});await client.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});}await drag(x.x+x.width/2,x.y+x.height/2,y.x+y.width/2,y.y+y.height/2);await expect(page.locator('.bodyplans-section')).toBeVisible();await page.locator('[data-lab-action="specimen"][data-id="roundworm"]').tap();await expect(page.locator('h3')).toHaveText('Roundworm');await entry(page,'angle').scrollIntoViewIfNeeded();const b=await entry(page,'angle').boundingBox();await drag(b.x+8,b.y+b.height/2,b.x+b.width*.6,b.y+b.height/2);expect(Number(await entry(page,'angle').inputValue())).toBeGreaterThan(30);await page.reload();expect(Number(await entry(page,'angle').inputValue())).toBeGreaterThan(30);await page.locator('[data-tool="lens"]').focus();await page.keyboard.press('Enter');await page.locator('[data-place="section"]').focus();await page.keyboard.press('Enter');await expect(page.locator('[data-place="gut"]')).toBeFocused();for(const name of ['gut','between']){const box=await page.locator(`[data-place="${name}"]`).boundingBox();expect(box.width).toBeGreaterThanOrEqual(44);expect(box.height).toBeGreaterThanOrEqual(44);}expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);await shot(page,'phone-section');await context.close();});
+         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ^
+      11 |
+        at C:\Projects\Science_Labs\tests\browser\bodyplans.spec.js:10:1179
+
+    Error Context: test-results\bodyplans-body-plans-nativ-1e327-ne-slider-and-phone-targets\error-context.md
+
+  1 failed
+    tests\browser\bodyplans.spec.js:10:1 › body plans native touch lens drag-release, next physical tap, continuous plane slider and phone targets 
+  5 passed (28.5s)

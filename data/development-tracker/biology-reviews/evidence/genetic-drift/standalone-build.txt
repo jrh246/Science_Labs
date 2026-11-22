@@ -1,0 +1,42 @@
+
+> cell-homeostasis-lab@1.0.0 build
+> vite build --base=./ && node scripts/verify-build.mjs
+
+vite v7.3.6 building client environment for production...
+transforming...
+✓ 116 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                               0.65 kB │ gzip:   0.36 kB
+dist/activity.html                            0.77 kB │ gzip:   0.41 kB
+dist/lab.html                                 0.84 kB │ gzip:   0.42 kB
+dist/investigation.html                       1.01 kB │ gzip:   0.45 kB
+dist/sw.js                                    4.96 kB
+dist/assets/report-identity-HDTcUcLN.css      3.81 kB │ gzip:   1.17 kB
+dist/assets/library-BEhjV8CM.css              6.83 kB │ gzip:   2.30 kB
+dist/assets/activity-CEgFJJFy.css             7.76 kB │ gzip:   2.25 kB
+dist/assets/lab-BNuBkTRH.css                 11.47 kB │ gzip:   3.16 kB
+dist/assets/investigation-B4Iow1q9.css       85.27 kB │ gzip:  18.85 kB
+dist/assets/report-identity-GQQx72nU.js       4.74 kB │ gzip:   1.99 kB
+dist/assets/preview-CLQDbEhl.js               7.44 kB │ gzip:   3.31 kB
+dist/assets/activity-DtYBoCnp.js             15.15 kB │ gzip:   6.17 kB
+dist/assets/library-yXYVsRBy.js              22.15 kB │ gzip:   8.03 kB
+dist/assets/lab-Dq5ZgrUt.js                  32.05 kB │ gzip:  11.89 kB
+dist/assets/extended-content-DgjOe3pt.js     42.04 kB │ gzip:  14.91 kB
+dist/assets/runtime-bridge-BWUsm5c-.js       81.87 kB │ gzip:  29.99 kB
+dist/assets/investigation-D8TjHeuf.js       421.69 kB │ gzip: 137.36 kB
+dist/assets/lab-report-pdf-BcQRdXfr.js    1,644.28 kB │ gzip: 761.99 kB
+node.exe : 
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: 
+https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 3.04s
+Verified 72 offline-cache URLs against the final build.

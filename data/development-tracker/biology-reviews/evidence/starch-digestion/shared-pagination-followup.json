@@ -1,0 +1,9 @@
+{
+  "capturedAt": "2026-11-15T17:05:24.782Z",
+  "scope": "Shared PDF layout only; response text/schema, grading, saving and original review snapshots unchanged.",
+  "files": {
+    "src/investigations/student-report.js": "743cf8baa9b1494ee11aed5139e0b0761a647bfaa2cfe097235fd26bcf79032d",
+    "scripts/verify-report-pagination.py": "0203443997e857ceb2a3c2887cc30fb3b60bd600f6c523ea7681d9b1a57e769f",
+    "LAB_DESIGN_GUIDE.md": "dd4accf814cde4d74f4049b0094903a1e017e0d024f1d0d0698cbc71f70efd91"
+  }
+}

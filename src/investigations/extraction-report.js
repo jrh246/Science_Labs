@@ -87,6 +87,7 @@ export function extractionReportFilename(report, format = 'pdf') {
 }
 
 export function extractionReportDocument(report) {
+  if(report.document)return report.document;
   const sections = [
     section('Investigation and prediction', response(report.prediction.prompt, report.prediction.response)),
     evidenceSection(report.evidence),

@@ -1,0 +1,2 @@
+import {defineConfig} from '@playwright/test';
+export default defineConfig({testDir:'./tests/platform',workers:1,timeout:120000,use:{baseURL:'http://localhost:4310',launchOptions:{...(process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE?{executablePath:process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE}:{})}},webServer:{command:'npm run dev:platform',url:'http://localhost:4310/api/health',reuseExistingServer:true,timeout:120000}});

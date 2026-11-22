@@ -1,5 +1,28 @@
 # Next labs and downloadable resources
 
+## Biology expansion resource workflow
+
+Follow BIOLOGY_BUILD_TASKS.md and the per-lab JSON reviews for current acceptance. Verified November 15, 2026: all 33 sequential build/review pairs are complete, all 48 main Biology catalog entries are locally available, and 105 resource PDFs pass current prompt/link/hash checks. Completed-report exports are additionally tested in each lab’s evidence; blank handouts are not substitutes. Native translations, classroom/physical-device acceptance and publication remain separate. The November 12 counts below describe the earlier AUD-08/09 snapshot; scripts/verify-resources.py reports current totals, prompt/link parity and hashes.
+
+New builders: scripts/build-seed-resources.py; scripts/build-surface-resources.py; and scripts/build-biology-resources.py food-macromolecules food-content.js foodContent. The generic builder reads current authored prompts, controls, limits and teacher notes, embeds a Unicode font (Windows Arial or Linux DejaVu, configurable with LAB_RESOURCE_FONT), and updates only its generated resource hashes.
+
+Run these authoring tools in a Python environment with ReportLab, pypdf, PyMuPDF and Pillow. scripts/render-biology-review.py LAB_ID renders retained reports/handouts for visual review and checks text fidelity. Python is a build-time authoring dependency; deployed labs use static browser assets and the existing Node API.
+
+Browser review artifacts write to tmp by default. Set BIOLOGY_CAPTURE_LAB to the active stable lab ID when deliberately capturing retained acceptance evidence. Preserve already accepted artifacts during later regression runs. Rebuild the standalone app after resource changes to refresh its offline cache, and keep production publishing as a separate decision.
+
+
+## Current resource status — AUD-08/09, 2026-11-12
+
+There are **39 public PDF resources**, including a separate two-page [DNA to RNA to Protein teacher guide](public/resources/genetic-information-teacher-guide.pdf), the osmosis worksheet/guide, method-specific fermentation packets, and the updated legacy fermentation overviews. The genetics guide is linked from the catalog and the lab. All 153 pages were rendered and visually reviewed. Completed student reports are separate generated PDF/print exports, with optional name/period and unfinished/complete status; blank handouts do not replace them.
+
+The current generators read live lab definitions and shared prompts. Use `scripts/build-resources.py` for the core three, `scripts/build-extended-resources.py` for the ten shared extended pathways, `scripts/build-dna-resources.py` for dedicated extraction, `scripts/build-osmosis-resources.py` for osmosis, `scripts/build-fermentation-classroom.py` for all three physical collectors and their overview URLs, and `scripts/build-genetics-resources.py` for the virtual-only information-flow guide. The core builder appends supplied cutouts once after rebuilding its base packets. Node, ReportLab, pypdf, Pillow, and Poppler are required as used by the generators.
+
+After rebuilding resources, render and inspect the changed pages, refresh the `ASSET_INVENTORY.json` PDF hashes, and run `python scripts/verify-resources.py`. The checker compares current questions, analysis prompts, learning-purpose notes, condition names, dedicated prompts, classroom recipes, catalog downloads, and hashes. Rebuild the app afterward so offline copies include the resource revision. The current build verifies **62 cache URLs**. The [audit](LAB_DESIGN_AUDIT.md) records report, offline, interaction, and deployment checks plus the remaining classroom and physical-device acceptance.
+
+Keep physical classroom method sheets with their real measurement units, time series, and observations alongside the online report. The online form exports what students enter there. Matter-cycle cards remain optional practice/discussion with separate saved placements and a paper response page. A separately assigned full-lab version would need the completed-work reporting contract.
+
+The sections below retain earlier design history; their original page counts and controls describe those earlier revisions.
+
 Current expansion: see LAB_BUILD_TASKS.md for the ten new cell/genetics labs and ASSET_REVIEW.md for the October 14 asset review. The sections below retain the earlier development history.
 
 Implementation order: **8. Light and Photosynthesis → 7. Yeast Fermentation and Fuel Sources → 10. Measuring Mitosis**. Numbers are textbook references, not lab titles.
@@ -54,6 +77,15 @@ Source PDFs are preserved byte-for-byte under resources/source. Rebuild packets 
 
 ## Interactive leaf-disk model
 
-The photosynthesis virtual collector now uses leaf-model.js and a leaf-simulator component. Infiltration is taught before prediction and demonstrated with three syringe pull/release cycles. Lamp intensity can be changed at any time (Off/Low/High or 0-100%). A 30x/60x/120x clock, pause/resume, two-minute advance, and fast-forward controls integrate gas production, respiration, and loss; disks can rise and sink. The timer pauses at 20 minutes and can resume to 120. Navigation disconnects the timer, and reload resumes only on request.
+The photosynthesis virtual collector now uses leaf-model.js and a leaf-simulator component. A general infiltration explanation is available before prediction. Detailed equipment directions and the three syringe pull/release cycles follow the required prediction and design. Lamp intensity can be changed at any time (Off/Low/High or 0-100%). A 30x/60x/120x clock, pause/resume, two-minute advance, and fast-forward controls integrate gas production, respiration, and loss; disks can rise and sink. The timer pauses at 20 minutes and can resume to 120. Navigation disconnects the timer, and reload resumes only on request.
 
 Fully infiltrated runs held at the assigned intensity contribute 0-20 minute readings to comparison means. Other runs remain exploratory and are exported with light history. A fresh-disks reset replaces only the selected trial after confirmation. Legacy precomputed observations remain until a new interactive trial is begun. Persisted interactive trials live in leafRuns alongside the existing investigation state; numerical gas parameters are illustrative, not experimentally calibrated. Photosynthesis handouts include an extra preparation/exploration page. Teacher guidance separates model behavior from classroom expectations.
+
+
+## Future language versions — required, not yet implemented
+
+Plan Spanish and other reviewed, available language editions of worksheets, collector sheets, teacher resources, and completed student reports. Teachers must be able to choose the output language without changing their own app interface; an English-speaking teacher printing Spanish student materials is the initial acceptance example. Students need the matching in-app language option.
+
+Generate translated PDF and native-print text from versioned localized definitions tied to stable lab/question IDs. Keep the English/legacy resource URLs and previous student work usable. Expose only languages actually available for a given resource, with an explicit notice/fallback for missing versions. Preserve scientific symbols, units, recorded values, student names, and verbatim student answers. Include output-language/version metadata and distinguish translated copies from the original submitted evidence.
+
+Translation requires scientific/language review plus rendered layout checks for blank resources, partial/completed reports, long writing, accents/scripts, fonts, and appropriate offline assets. Review private teacher additions separately. Publisher translations and source-edition language metadata do not establish translated app or resource readiness. Follow [G18](LAB_DESIGN_GUIDE.md#g18) and track remaining implementation in AUD-10. No translated resource is marked complete by this planning update.

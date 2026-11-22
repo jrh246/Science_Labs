@@ -1,0 +1,347 @@
+{
+  "schemaVersion": 2,
+  "labId": "natural-selection",
+  "title": "Natural Selection in Changing Habitats",
+  "question": "How can a change in food supply change inherited traits in the next generation?",
+  "student": {
+    "name": "Zoë García",
+    "class": "Period 5"
+  },
+  "status": "Complete",
+  "grading": "not_graded",
+  "exportedAt": "2026-11-15T10:08:33.321Z",
+  "exportTimeZone": "America/Los_Angeles",
+  "exportedAtDisplay": "Nov 15, 2026, 2:08 AM PST",
+  "sections": [
+    {
+      "heading": "Prediction and controlled comparison",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Required before observations: Would the same beak type do best with small, soft seeds and with large, hard seeds? Explain your prediction.",
+          "text": "Different inherited beaks may do best with different foods."
+        },
+        {
+          "type": "response",
+          "prompt": "Required before observations: Both habitats begin with 12 small-beaked and 12 deep-beaked birds. Why start with the same population and change only the food supply?",
+          "text": "Use the same starting population and reproduction rule; change food."
+        },
+        {
+          "type": "paragraph",
+          "text": "Prediction timing: Before feeding or population observations."
+        },
+        {
+          "type": "paragraph",
+          "text": "Both branches start with the same 24 birds, equal time to feed, and the same reproduction rule. Only the main seed type changes. These are alternative model habitats, not the same birds tested twice."
+        }
+      ]
+    },
+    {
+      "heading": "Feeding evidence",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Source: model-provided handling time after student seed placement. Time units are illustrative, not measured seconds."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Seed type",
+            "Small beak: time units",
+            "Deep beak: time units"
+          ],
+          "rows": [
+            [
+              "Small, soft",
+              1,
+              2
+            ],
+            [
+              "Large, hard",
+              6,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Population evidence",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Each branch starts with 12 small and 12 deep beaks (50% deep). Survivor and offspring counts are supplied by the model. Percentages and direction claims are student interpretations."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Habitat",
+            "Survivors: small / deep",
+            "Offspring: small / deep",
+            "Deep-beak % / change",
+            "Interpretation"
+          ],
+          "rows": [
+            [
+              "Mostly small, soft seeds",
+              "9 / 6",
+              "14 / 10",
+              "42% / decrease",
+              "Correct after feedback"
+            ],
+            [
+              "Mostly large, hard seeds",
+              "3 / 9",
+              "6 / 18",
+              "75% / increase",
+              "Correct first check"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Family tracing: soft: student placed a surviving small-beak pair; the example offspring keeps that category; hard: student placed a surviving deep-beak pair; the example offspring keeps that category. The rest of each next generation is model-provided."
+        },
+        {
+          "type": "paragraph",
+          "text": "Try each of two seed types with each beak once. Each pairing adds a different feeding comparison. Then follow one new generation in each habitat. Birds within a habitat are not independent habitat trials. No identical three-trial recipe is required."
+        }
+      ]
+    },
+    {
+      "heading": "Evidence by learning goal",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Compare how a beak trait performs in different food environments."
+        },
+        {
+          "type": "response",
+          "prompt": "Compare the deep-beak percentages in both new generations with the starting 50%. Use the feeding evidence to explain why the advantage depended on the habitat. How did the results compare with your prediction?",
+          "text": "My environment evidence compares 42% and 75% deep beaks with the initial 50%. Existing inherited traits affect feeding and surviving parents. Fixed survival and simple inheritance limit claims about wild birds."
+        },
+        {
+          "type": "paragraph",
+          "text": "Connect existing variation, survival, inheritance and a change in trait frequency."
+        },
+        {
+          "type": "response",
+          "prompt": "Explain the chain from existing beak differences to feeding, survival, parents and offspring. Why can the population change even though an individual bird does not change its inherited beak type?",
+          "text": "My inheritance evidence compares 42% and 75% deep beaks with the initial 50%. Existing inherited traits affect feeding and surviving parents. Fixed survival and simple inheritance limit claims about wild birds."
+        },
+        {
+          "type": "paragraph",
+          "text": "Use population evidence without claiming that individuals changed their inherited beaks."
+        },
+        {
+          "type": "response",
+          "prompt": "What does this model help explain? Name one assumption that limits a claim about real birds. What evidence from independent populations or real families would help test that claim?",
+          "text": "My inference evidence compares 42% and 75% deep beaks with the initial 50%. Existing inherited traits affect feeding and surviving parents. Fixed survival and simple inheritance limit claims about wild birds."
+        }
+      ]
+    },
+    {
+      "heading": "Concept checks and revisions",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Why did the deep-beak percentage change in the new generation?",
+          "text": "Birds with existing traits left different shares of the next generation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct! Correct reasoning follows existing variation and different contributions to offspring. A bird does not choose a new inherited beak because it needs one. Revised after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "If the beak differences could not pass to offspring, would better survival alone establish inherited evolution of beak type?",
+          "text": "No. We would also need evidence that the trait differences pass to offspring."
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct! Survival matters, but inherited evolution also requires a link between parental variation and offspring. Fitness means contribution to later generations in a given environment. Correct on the first recorded check."
+        }
+      ]
+    },
+    {
+      "heading": "Model limits and sources",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "These are invented model birds and results, not measurements of wild finches. Real beak size varies continuously and involves many genes and both parents. Here, offspring keep the beak category of same-type parents. Survival is fixed by illustrative rules, not chance; all survivors have equal average reproduction. The next generation is rounded to 24 birds. The model leaves out mutation, migration, mate choice and changing population size. Two habitats do not establish repeatability or the size of a real-world effect. Birds and seeds are enlarged, and feeding and breeding time are shortened."
+        },
+        {
+          "type": "paragraph",
+          "text": "University of Michigan: Evolution and Natural Selection: https://sites.lsa.umich.edu/globalchange/lectures/processes-of-evolution-natural-selection/"
+        },
+        {
+          "type": "paragraph",
+          "text": "OpenStax Biology 2e: Adaptive Evolution: https://openstax.org/books/biology-2e/pages/19-3-adaptive-evolution"
+        }
+      ],
+      "keepFirst": 3
+    }
+  ],
+  "activityVersion": 1,
+  "locale": "en",
+  "attemptId": "selection-3735947865-1794737310297",
+  "data": {
+    "schemaVersion": 1,
+    "activityVersion": 1,
+    "labId": "natural-selection",
+    "attemptId": "selection-3735947865-1794737310297",
+    "seed": 3735947865,
+    "locale": "en",
+    "stage": 3,
+    "studentName": "Zoë García",
+    "studentClass": "Period 5",
+    "prediction": "Different inherited beaks may do best with different foods.",
+    "design": "Use the same starting population and reproduction rule; change food.",
+    "initialPlan": {
+      "prediction": "Different inherited beaks may do best with different foods.",
+      "design": "Use the same starting population and reproduction rule; change food.",
+      "timing": "Before feeding or population observations",
+      "recordedAt": "2026-11-15T10:08:30.474Z"
+    },
+    "feeding": {
+      "small-soft": {
+        "beak": "small",
+        "seed": "soft",
+        "cost": 1,
+        "sourceId": "model-feeding-rule"
+      },
+      "deep-soft": {
+        "beak": "deep",
+        "seed": "soft",
+        "cost": 2,
+        "sourceId": "model-feeding-rule"
+      },
+      "small-hard": {
+        "beak": "small",
+        "seed": "hard",
+        "cost": 6,
+        "sourceId": "model-feeding-rule"
+      },
+      "deep-hard": {
+        "beak": "deep",
+        "seed": "hard",
+        "cost": 2,
+        "sourceId": "model-feeding-rule"
+      }
+    },
+    "lastFeeding": {
+      "seed": "hard",
+      "beak": "deep"
+    },
+    "active": "hard",
+    "runs": {
+      "soft": {
+        "season": true,
+        "family": {
+          "type": "small",
+          "parentCount": 2,
+          "offspringType": "small",
+          "sourceId": "student-traced-model-family"
+        },
+        "offspring": true,
+        "entered": "42",
+        "claim": "decrease",
+        "record": {
+          "percent": 42,
+          "claim": "decrease",
+          "correctAfterFeedback": true,
+          "sourceId": "student-interpreted-model-counts"
+        },
+        "attempts": [
+          {
+            "entered": "99",
+            "claim": "same",
+            "correct": false
+          },
+          {
+            "entered": "42",
+            "claim": "decrease",
+            "correct": true
+          }
+        ]
+      },
+      "hard": {
+        "season": true,
+        "family": {
+          "type": "deep",
+          "parentCount": 2,
+          "offspringType": "deep",
+          "sourceId": "student-traced-model-family"
+        },
+        "offspring": true,
+        "entered": "75",
+        "claim": "increase",
+        "record": {
+          "percent": 75,
+          "claim": "increase",
+          "correctAfterFeedback": false,
+          "sourceId": "student-interpreted-model-counts"
+        },
+        "attempts": [
+          {
+            "entered": "75",
+            "claim": "increase",
+            "correct": true
+          }
+        ]
+      }
+    },
+    "checks": {
+      "individual": {
+        "attempts": [
+          {
+            "value": "need",
+            "correct": false
+          },
+          {
+            "value": "parents",
+            "correct": true
+          }
+        ],
+        "value": "parents",
+        "correct": true
+      },
+      "survival": {
+        "attempts": [
+          {
+            "value": "inherit",
+            "correct": true
+          }
+        ],
+        "value": "inherit",
+        "correct": true
+      }
+    },
+    "answers": {
+      "environment": "My environment evidence compares 42% and 75% deep beaks with the initial 50%. Existing inherited traits affect feeding and surviving parents. Fixed survival and simple inheritance limit claims about wild birds.",
+      "inheritance": "My inheritance evidence compares 42% and 75% deep beaks with the initial 50%. Existing inherited traits affect feeding and surviving parents. Fixed survival and simple inheritance limit claims about wild birds.",
+      "inference": "My inference evidence compares 42% and 75% deep beaks with the initial 50%. Existing inherited traits affect feeding and surviving parents. Fixed survival and simple inheritance limit claims about wild birds."
+    },
+    "complete": true
+  },
+  "evidence": [
+    {
+      "goalId": "environment",
+      "answerId": "environment",
+      "writing": "My environment evidence compares 42% and 75% deep beaks with the initial 50%. Existing inherited traits affect feeding and surviving parents. Fixed survival and simple inheritance limit claims about wild birds.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "inheritance",
+      "answerId": "inheritance",
+      "writing": "My inheritance evidence compares 42% and 75% deep beaks with the initial 50%. Existing inherited traits affect feeding and surviving parents. Fixed survival and simple inheritance limit claims about wild birds.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "inference",
+      "answerId": "inference",
+      "writing": "My inference evidence compares 42% and 75% deep beaks with the initial 50%. Existing inherited traits affect feeding and surviving parents. Fixed survival and simple inheritance limit claims about wild birds.",
+      "status": "not_graded"
+    }
+  ]
+}

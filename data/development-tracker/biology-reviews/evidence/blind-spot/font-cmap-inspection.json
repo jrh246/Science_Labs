@@ -1,0 +1,60 @@
+{
+  "scope": "Actual bundled font character maps; not a general Unicode/language certification.",
+  "coverage": {
+    "Roboto-Italic.ttf": {
+      "U+03B1": true,
+      "U+03B2": true,
+      "U+00EB": true,
+      "U+00F1": true,
+      "U+2192": false,
+      "U+2212": true,
+      "U+00B2": true,
+      "U+207B": true,
+      "U+00B7": true
+    },
+    "Roboto-Medium.ttf": {
+      "U+03B1": true,
+      "U+03B2": true,
+      "U+00EB": true,
+      "U+00F1": true,
+      "U+2192": false,
+      "U+2212": true,
+      "U+00B2": true,
+      "U+207B": true,
+      "U+00B7": true
+    },
+    "Roboto-MediumItalic.ttf": {
+      "U+03B1": true,
+      "U+03B2": true,
+      "U+00EB": true,
+      "U+00F1": true,
+      "U+2192": false,
+      "U+2212": true,
+      "U+00B2": true,
+      "U+207B": true,
+      "U+00B7": true
+    },
+    "Roboto-Regular.ttf": {
+      "U+03B1": true,
+      "U+03B2": true,
+      "U+00EB": true,
+      "U+00F1": true,
+      "U+2192": false,
+      "U+2212": true,
+      "U+00B2": true,
+      "U+207B": true,
+      "U+00B7": true
+    },
+    "Pinned DejaVu Sans": {
+      "U+03B1": true,
+      "U+03B2": true,
+      "U+00EB": true,
+      "U+00F1": true,
+      "U+2192": true,
+      "U+2212": true,
+      "U+00B2": true,
+      "U+207B": true,
+      "U+00B7": true
+    }
+  }
+}

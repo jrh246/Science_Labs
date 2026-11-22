@@ -1,0 +1,356 @@
+{
+  "schemaVersion": 2,
+  "labId": "unknown-prokaryote",
+  "title": "Investigate an Unknown Prokaryote",
+  "question": "How can cell shape and metabolic evidence narrow an unknown to a reference profile?",
+  "student": {
+    "name": "Zoë García",
+    "class": "Period 5"
+  },
+  "status": "Complete",
+  "grading": "not_graded",
+  "exportedAt": "2026-11-15T11:59:22.259Z",
+  "exportTimeZone": "America/Los_Angeles",
+  "exportedAtDisplay": "Nov 15, 2026, 3:59 AM PST",
+  "sections": [
+    {
+      "heading": "Prediction and controlled comparison",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Required before observations: Could cell shape alone identify one of four reference profiles? Predict why another test might help.",
+          "text": "Shape is shared by several microbes, so metabolic evidence may narrow the match."
+        },
+        {
+          "type": "response",
+          "prompt": "Required before observations: Why compare U in broth with glucose and in matched broth without glucose? What should stay the same?",
+          "text": "Use the same U, indicator, medium and growth conditions except added glucose."
+        },
+        {
+          "type": "paragraph",
+          "text": "Timing: Before microscopy or broth observations."
+        },
+        {
+          "type": "paragraph",
+          "text": "Use one unknown U throughout. The two broths have the same starting medium, indicator, sample amount and modeled growth conditions; only added glucose differs. Broth is a nutrient liquid. A supplied positive reference shows yellow liquid and trapped gas; a blank with no cells stays red with no gas. These reference controls are model-provided."
+        }
+      ]
+    },
+    {
+      "heading": "Microscope evidence",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Slide U was placed on the model stage; the supplied 2 µm scale is a reference, not student calibration."
+        },
+        {
+          "type": "response",
+          "prompt": "Current student-observed shape",
+          "text": "rod"
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct after feedback."
+        },
+        {
+          "type": "paragraph",
+          "text": "Field source: illustrated model of one pure reference profile. Cells are not independent cultures, and this view cannot resolve DNA or establish a nuclear structure."
+        }
+      ]
+    },
+    {
+      "heading": "Broth comparison",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Source: model-provided growth after student-guided or matched preparation. Indicator color reports acid; the small collector reports visible gas separately."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Condition",
+            "Current color",
+            "Current gas observation",
+            "Interpretation"
+          ],
+          "rows": [
+            [
+              "U + glucose",
+              "yellow",
+              "No visible gas detected",
+              "Correct after feedback"
+            ],
+            [
+              "U without glucose",
+              "red",
+              "No visible gas detected",
+              "Correct after feedback"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Preparation source: glucose: Student added U; control: Model-prepared matched U."
+        },
+        {
+          "type": "paragraph",
+          "text": "Supplied positive reference: yellow with visible trapped gas. Supplied blank with no cells: red with no visible gas. They are not student measurements."
+        }
+      ]
+    },
+    {
+      "heading": "Reference match",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Student-selected profile",
+          "text": "C"
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct! Consistent with reference profile C. Revised after feedback."
+        },
+        {
+          "type": "paragraph",
+          "text": "This is a match within four invented profiles, not a real species or domain identification."
+        }
+      ]
+    },
+    {
+      "heading": "Evidence by learning goal",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Use a clear microscope field to record an observable shape without inventing hidden cell details."
+        },
+        {
+          "type": "response",
+          "prompt": "Describe the shape you observed and how focusing helped. Why would this light-microscope view alone not identify a real species or distinguish all Bacteria from Archaea?",
+          "text": "My microscopy explanation: U had rod cells and yellow glucose broth with no visible gas pocket. The no-glucose control stayed red without visible gas. Together these observations fit profile C, while shape or yellow color alone does not. These are invented profiles, so more validated tests or sequence evidence would be needed for a real identification."
+        },
+        {
+          "type": "paragraph",
+          "text": "Compare matched broth conditions and distinguish acid evidence from visible gas."
+        },
+        {
+          "type": "response",
+          "prompt": "Compare the color and gas in U with and without glucose. What does the control help you explain? Why does a yellow color not guarantee a visible gas bubble?",
+          "text": "My metabolism explanation: U had rod cells and yellow glucose broth with no visible gas pocket. The no-glucose control stayed red without visible gas. Together these observations fit profile C, while shape or yellow color alone does not. These are invented profiles, so more validated tests or sequence evidence would be needed for a real identification."
+        },
+        {
+          "type": "paragraph",
+          "text": "Combine traits to match a limited reference set and explain the limits of identification."
+        },
+        {
+          "type": "response",
+          "prompt": "Use both cell shape and the broth results to support your selected reference profile. Compare the evidence with your prediction. Why is this only a reference match, and what further evidence would help identify a real organism?",
+          "text": "My inference explanation: U had rod cells and yellow glucose broth with no visible gas pocket. The no-glucose control stayed red without visible gas. Together these observations fit profile C, while shape or yellow color alone does not. These are invented profiles, so more validated tests or sequence evidence would be needed for a real identification."
+        }
+      ]
+    },
+    {
+      "heading": "Concept checks",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Could rod shape alone separate reference profiles A and C?",
+          "text": "No. Both are rods; another observation is needed.\nCorrect! A shape can be shared by many microbes. Combine the shape with the observed gas result to separate these two reference profiles. Correct on first recorded check."
+        },
+        {
+          "type": "response",
+          "prompt": "Does a yellow glucose broth by itself prove that visible gas was produced?",
+          "text": "No. Read the indicator color and the gas collector separately.\nCorrect! The indicator reports acid accumulation. Some fermentation pathways produce acid without detectable gas. Inspect the small upside-down collector for a gas pocket. Correct on first recorded check."
+        },
+        {
+          "type": "response",
+          "prompt": "What conclusion is supported by this activity?",
+          "text": "U matches one profile within this defined teaching set.\nCorrect! A limited reference match is narrower than a species identification. Many real organisms share these traits, and both Bacteria and Archaea include similar cell shapes. Revised after feedback."
+        }
+      ]
+    },
+    {
+      "heading": "Model limits and sources",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The unknown and four reference profiles are synthetic teaching examples, not real species or measured cultures. The field is an illustrated light-microscope view with a supplied scale, not an actual micrograph. It cannot show DNA or prove the absence of a nucleus. Real cultures can be mixed and can change with growth conditions. Broth colors, visible gas and shortened growth time are simplified. A missing bubble means no visible gas was detected here, not proof of zero production. Fermentation can produce acid without visible gas. Matching these few traits does not identify a real species, establish relatedness, or distinguish every bacterium from every archaeon. No live culture or physical protocol is provided."
+        },
+        {
+          "type": "paragraph",
+          "text": "OpenStax Biology 2e: Prokaryotic Structure: https://openstax.org/books/biology-2e/pages/22-2-structure-of-prokaryotes-bacteria-and-archaea"
+        },
+        {
+          "type": "paragraph",
+          "text": "American Society for Microbiology: Carbohydrate Fermentation Protocol: https://asm.org/asm/media/protocol-images/carbohydrate-fermentation-protocol.pdf"
+        }
+      ],
+      "keepFirst": 3
+    }
+  ],
+  "activityVersion": 1,
+  "locale": "en",
+  "attemptId": "prok-3742597330-1794743959762",
+  "data": {
+    "schemaVersion": 1,
+    "activityVersion": 1,
+    "labId": "unknown-prokaryote",
+    "attemptId": "prok-3742597330-1794743959762",
+    "seed": 3742597330,
+    "profileId": "C",
+    "locale": "en",
+    "stage": 3,
+    "studentName": "Zoë García",
+    "studentClass": "Period 5",
+    "prediction": "Shape is shared by several microbes, so metabolic evidence may narrow the match.",
+    "design": "Use the same U, indicator, medium and growth conditions except added glucose.",
+    "initialPlan": {
+      "prediction": "Shape is shared by several microbes, so metabolic evidence may narrow the match.",
+      "design": "Use the same U, indicator, medium and growth conditions except added glucose.",
+      "timing": "Before microscopy or broth observations",
+      "recordedAt": "2026-11-15T11:59:20.083Z"
+    },
+    "slideLoaded": true,
+    "focus": 50,
+    "shape": "rod",
+    "shapeRecord": {
+      "value": "rod",
+      "correctAfterFeedback": true,
+      "sourceId": "student-interpreted-model-field"
+    },
+    "shapeAttempts": [
+      {
+        "value": "round",
+        "correct": false
+      },
+      {
+        "value": "rod",
+        "correct": true
+      }
+    ],
+    "broths": {
+      "glucose": {
+        "prepared": true,
+        "sourceId": "student-added-U"
+      },
+      "control": {
+        "prepared": true,
+        "sourceId": "model-prepared-matched-U"
+      }
+    },
+    "grown": true,
+    "entries": {
+      "glucose-color": "yellow",
+      "glucose-gas": "not-detected",
+      "control-color": "red",
+      "control-gas": "not-detected"
+    },
+    "brothRecord": {
+      "entries": {
+        "glucose-color": "yellow",
+        "glucose-gas": "not-detected",
+        "control-color": "red",
+        "control-gas": "not-detected"
+      },
+      "correctAfterFeedback": true,
+      "sourceId": "student-interpreted-model-broths"
+    },
+    "brothAttempts": [
+      {
+        "entries": {
+          "glucose-color": "blue",
+          "glucose-gas": "not-detected",
+          "control-color": "yellow",
+          "control-gas": "visible"
+        },
+        "correct": false
+      },
+      {
+        "entries": {
+          "glucose-color": "yellow",
+          "glucose-gas": "not-detected",
+          "control-color": "red",
+          "control-gas": "not-detected"
+        },
+        "correct": true
+      }
+    ],
+    "chosenProfile": "C",
+    "profileRecord": {
+      "id": "C",
+      "correctAfterFeedback": true,
+      "sourceId": "student-reference-match"
+    },
+    "profileAttempts": [
+      {
+        "value": "A",
+        "correct": false
+      },
+      {
+        "value": "C",
+        "correct": true
+      }
+    ],
+    "checks": {
+      "scope": {
+        "attempts": [
+          {
+            "value": "species",
+            "correct": false
+          },
+          {
+            "value": "reference",
+            "correct": true
+          }
+        ],
+        "value": "reference",
+        "correct": true
+      },
+      "shape-only": {
+        "attempts": [
+          {
+            "value": "combine",
+            "correct": true
+          }
+        ],
+        "value": "combine",
+        "correct": true
+      },
+      "acid-gas": {
+        "attempts": [
+          {
+            "value": "separate",
+            "correct": true
+          }
+        ],
+        "value": "separate",
+        "correct": true
+      }
+    },
+    "answers": {
+      "microscopy": "My microscopy explanation: U had rod cells and yellow glucose broth with no visible gas pocket. The no-glucose control stayed red without visible gas. Together these observations fit profile C, while shape or yellow color alone does not. These are invented profiles, so more validated tests or sequence evidence would be needed for a real identification.",
+      "metabolism": "My metabolism explanation: U had rod cells and yellow glucose broth with no visible gas pocket. The no-glucose control stayed red without visible gas. Together these observations fit profile C, while shape or yellow color alone does not. These are invented profiles, so more validated tests or sequence evidence would be needed for a real identification.",
+      "inference": "My inference explanation: U had rod cells and yellow glucose broth with no visible gas pocket. The no-glucose control stayed red without visible gas. Together these observations fit profile C, while shape or yellow color alone does not. These are invented profiles, so more validated tests or sequence evidence would be needed for a real identification."
+    },
+    "complete": true
+  },
+  "evidence": [
+    {
+      "goalId": "microscopy",
+      "answerId": "microscopy",
+      "writing": "My microscopy explanation: U had rod cells and yellow glucose broth with no visible gas pocket. The no-glucose control stayed red without visible gas. Together these observations fit profile C, while shape or yellow color alone does not. These are invented profiles, so more validated tests or sequence evidence would be needed for a real identification.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "metabolism",
+      "answerId": "metabolism",
+      "writing": "My metabolism explanation: U had rod cells and yellow glucose broth with no visible gas pocket. The no-glucose control stayed red without visible gas. Together these observations fit profile C, while shape or yellow color alone does not. These are invented profiles, so more validated tests or sequence evidence would be needed for a real identification.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "inference",
+      "answerId": "inference",
+      "writing": "My inference explanation: U had rod cells and yellow glucose broth with no visible gas pocket. The no-glucose control stayed red without visible gas. Together these observations fit profile C, while shape or yellow color alone does not. These are invented profiles, so more validated tests or sequence evidence would be needed for a real identification.",
+      "status": "not_graded"
+    }
+  ]
+}

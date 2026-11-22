@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-11-16T03:10:17.522Z",
+  "scope": "Classroom pairing research and review artifact; no lab design, delivery modes, publication, student attempts or user approval changed.",
+  "coverage": {
+    "labs": 49,
+    "options": 135,
+    "csvDataRows": 135,
+    "optionsPerLab": "2–3",
+    "sources": 115
+  },
+  "checks": {
+    "sourceValidator": "passed",
+    "modeValidator": "passed",
+    "userReviewValidator": "passed",
+    "sequentialBuildQueueValidator": "passed",
+    "browserSuite": "tests/platform/classroom-options.spec.js",
+    "browserLastRun": "passed",
+    "browserFailures": [],
+    "browserCoverage": [
+      "All 49 labs and 135 options visible by default",
+      "Multi-word search and URL persistence",
+      "Unit, match, provenance, new-build and first-option filters",
+      "Empty search state and safe text handling",
+      "No horizontal overflow at 390, 768 and 1440 CSS pixels",
+      "Phone and desktop screenshots visually inspected"
+    ]
+  },
+  "retainedUserReview": {
+    "reviewed": [
+      "genetic-information",
+      "inheritance-ratios",
+      "osmosis-homeostasis"
+    ],
+    "inReview": "natural-selection"
+  },
+  "limits": [
+    "Sources are reviewed resource pages or publisher excerpts, not locally piloted protocols.",
+    "Original adaptations require development before classroom use.",
+    "Related-concept choices may require a virtual question or model redesign; none selected here."
+  ]
+}

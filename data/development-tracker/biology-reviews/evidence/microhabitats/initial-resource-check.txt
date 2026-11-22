@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\Projects\Science_Labs\scripts\verify-resources.py", line 220, in <module>
+    for fragment in [data['habitat']['question'],data['habitat']['limits'],*[q['prompt'] for q in data['habitat']['explanations']]]:
+                     ~~~~^^^^^^^^^^^
+KeyError: 'habitat'

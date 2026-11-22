@@ -1,0 +1,25 @@
+{
+  "capturedAt": "2026-11-15T17:29:37.728Z",
+  "scope": "Actual reviewed working-tree files; unrelated changes and previous student attempts preserved.",
+  "files": {
+    "src/investigations/reaction-content.js": "a93776668ff9489b91d98dbed1256af5c2d0a4fa59a19e4bc2f3e53dbee2ba5c",
+    "src/investigations/reaction-model.js": "a43cf7a3be6dede3e2892fc5fa3118bfbf9b6ec9b88e7ac006830c2e7a9cefc0",
+    "src/investigations/reaction-art.js": "41920672ed9d04aab6274fae2499f5dcdf8a8e349a6735f62f362c2a1baa489b",
+    "src/investigations/reaction-report.js": "dd5c1ae5a5ba7a8e8f181a78e76f7b38835ce8243d244e082f69698d5a8461f6",
+    "src/investigations/reaction-app.js": "90037b43c27df2dec57e2e7959c5db624b585016a033349a0173ef902dcaf089",
+    "src/investigations/reaction.css": "940f27bb97376cf8cc6a6ba1b14bebfe953c01e9d48697b8182885018fd6a7cd",
+    "tests/reaction.test.js": "6f0c48a088b3907c3098573e4f67f78dd735039f2d4cc8712acb4c5aa4f1cb2a",
+    "tests/browser/reaction.spec.js": "ddca2db5b5c2006f9b5e6299d0be6ddc4597cb236e272a84cf06148574726b76",
+    "src/investigations/guided-lab-shell.js": "7718d1ab83d65ac8551b25323338c5c2bb4c73afc988331f3c29b767a9abc55f",
+    "src/investigations/touch-buttons.js": "33f99bee6dec2cca7ab374626563e5457f77ca164c4747387c6a84d85571b432",
+    "src/investigations/student-report.js": "743cf8baa9b1494ee11aed5139e0b0761a647bfaa2cfe097235fd26bcf79032d",
+    "LAB_DESIGN_GUIDE.md": "68a89dc4129ac9cf6d9eb2460f1a076526f9f127f2ccb81a7b7a3fa019ce3fff",
+    "src/catalog.js": "87816afbe7f95d9a05f630f4d9d504fc2f16e65c8de12be55da165b13666ea43",
+    "src/investigations/app.js": "7a9bf3165fa7c58df97e450f74e08139bfd5201f6ed90835255f2031e39721f0",
+    "scripts/build-biology-resources.py": "6c950c857ccc7a5903363b9742922ded31cb0624974d20199567df30a3b01546",
+    "scripts/verify-resources.py": "62795f258694d289bfa87079224461cf07f5d2ea62fd0112eb1d90519d58a8b7",
+    "scripts/verify-report-pagination.py": "0203443997e857ceb2a3c2887cc30fb3b60bd600f6c523ea7681d9b1a57e769f",
+    "public/resources/reaction-time-worksheet.pdf": "ad945032e1a0e915fd25cbaba6814be64847e299f879f83a00227b526e31c40e",
+    "public/resources/reaction-time-teacher-guide.pdf": "aaa5e3c32ba7a2fd2e250f975ebd724a553c7a0dc49ca4cab962d70cc350de14"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "labId": "muscle-levers",
+  "locale": "en",
+  "scope": "Authored core directions/questions; excludes teacher notes, sources and student writing. Dynamic app/diagram/report wording is reviewed manually.",
+  "method": "Approximate Flesch-Kincaid with heuristic syllable counts and explicit scientific-word exceptions. Short fragments and technical terms can distort the score; no pass/fail or language certification.",
+  "overall": {
+    "words": 696,
+    "sentences": 63,
+    "wordsPerSentence": 11,
+    "approximateFleschKincaidGrade": 6.4
+  },
+  "fragments": {
+    "intro": {
+      "words": 75,
+      "sentences": 7,
+      "wordsPerSentence": 10.7,
+      "approximateFleschKincaidGrade": 5.1
+    },
+    "prediction": {
+      "words": 29,
+      "sentences": 2,
+      "wordsPerSentence": 14.5,
+      "approximateFleschKincaidGrade": 6.7
+    },
+    "design": {
+      "words": 32,
+      "sentences": 3,
+      "wordsPerSentence": 10.7,
+      "approximateFleschKincaidGrade": 5.2
+    },
+    "controls": {
+      "words": 51,
+      "sentences": 5,
+      "wordsPerSentence": 10.2,
+      "approximateFleschKincaidGrade": 5.3
+    },
+    "sampling": {
+      "words": 44,
+      "sentences": 4,
+      "wordsPerSentence": 11,
+      "approximateFleschKincaidGrade": 6.7
+    },
+    "limits": {
+      "words": 189,
+      "sentences": 13,
+      "wordsPerSentence": 14.5,
+      "approximateFleschKincaidGrade": 8.7
+    },
+    "explanation:torque": {
+      "words": 31,
+      "sentences": 2,
+      "wordsPerSentence": 15.5,
+      "approximateFleschKincaidGrade": 6.1
+    },
+    "explanation:compare": {
+      "words": 30,
+      "sentences": 3,
+      "wordsPerSentence": 10,
+      "approximateFleschKincaidGrade": 8
+    },
+    "explanation:biology": {
+      "words": 45,
+      "sentences": 3,
+      "wordsPerSentence": 15,
+      "approximateFleschKincaidGrade": 6.8
+    },
+    "check:force": {
+      "words": 59,
+      "sentences": 9,
+      "wordsPerSentence": 6.6,
+      "approximateFleschKincaidGrade": 4.8
+    },
+    "check:tendon": {
+      "words": 60,
+      "sentences": 6,
+      "wordsPerSentence": 10,
+      "approximateFleschKincaidGrade": 5.2
+    },
+    "check:limit": {
+      "words": 51,
+      "sentences": 6,
+      "wordsPerSentence": 8.5,
+      "approximateFleschKincaidGrade": 6.5
+    }
+  }
+}

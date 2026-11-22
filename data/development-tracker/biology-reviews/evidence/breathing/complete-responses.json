@@ -1,0 +1,373 @@
+{
+  "schemaVersion": 2,
+  "labId": "breathing",
+  "title": "Pressure, Volume and Breathing",
+  "question": "How do changes in a model chest move air into and out of its lung balloons?",
+  "student": {
+    "name": "Zoë García",
+    "class": "Period 5"
+  },
+  "status": "Complete",
+  "grading": "not_graded",
+  "exportedAt": "2026-11-15T19:18:38.334Z",
+  "exportTimeZone": "America/Los_Angeles",
+  "exportedAtDisplay": "Nov 15, 2026, 11:18 AM PST",
+  "sections": [
+    {
+      "heading": "First prediction and controlled-comparison design",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Required before observing: Predict how pulling the lower sheet and then releasing it could affect the lung balloons. Why might airflow stop even while the sheet stays lowered?",
+          "text": "Pulling the sheet down may enlarge the balloons by lowering pressure around them. I predict that airway flow can stop after a held position settles."
+        },
+        {
+          "type": "response",
+          "prompt": "Required before observing: How could a sealed jar and a jar with a wide side vent test the role of the space around the balloons? What should stay the same? Why is a held position different from continuing movement?",
+          "text": "Keep the open airway, balloons and sheet movement the same; change the jar side seal once. Compare movement with a settled pause, not three identical cycles. These are supplied phases, not my measured breaths."
+        },
+        {
+          "type": "paragraph",
+          "text": "Timing: Before assembly or model airflow."
+        }
+      ]
+    },
+    {
+      "heading": "Pressure and airflow evidence",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Supplied qualitative phases, not student pressure/volume/time measurements. B is inside the balloons; C is the separate space around them. Prepared resting state supplied after assembly. Same airway, balloons and sheet movement; a very wide vent with slow pull is a limiting comparison."
+        },
+        {
+          "type": "response",
+          "prompt": "Sealed · sheet moving down · current record",
+          "text": "Viewed supplied phase. Current B pressure versus outside: Lower than outside air. Current net airway flow: Into the lung balloons through the airway.\nCorrect after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "Sealed · sheet moving down · earlier record needing revision",
+          "text": "Higher than outside air; Out of the lung balloons through the airway. Needs correction; retained as feedback evidence."
+        },
+        {
+          "type": "response",
+          "prompt": "Sealed · lowered sheet held, flow settled · current record",
+          "text": "Viewed supplied phase. Current B pressure versus outside: Equal or nearly equal to outside air. Current net airway flow: No net flow through the airway.\nCorrect after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "Sealed · lowered sheet held, flow settled · earlier record needing revision",
+          "text": "Lower than outside air; Into the lung balloons through the airway. Needs correction; retained as feedback evidence."
+        },
+        {
+          "type": "response",
+          "prompt": "Sealed · sheet returning up · current record",
+          "text": "Viewed supplied phase. Current B pressure versus outside: Higher than outside air. Current net airway flow: Out of the lung balloons through the airway.\nCorrect after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "Sealed · sheet returning up · earlier record needing revision",
+          "text": "Lower than outside air; Into the lung balloons through the airway. Needs correction; retained as feedback evidence."
+        },
+        {
+          "type": "response",
+          "prompt": "Wide jar vent · slow downward movement · current record",
+          "text": "Viewed supplied phase. Current B pressure versus outside: Equal or nearly equal to outside air. Current net airway flow: No net flow through the airway.\nCorrect after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "Wide jar vent · slow downward movement · earlier record needing revision",
+          "text": "Lower than outside air; Into the lung balloons through the airway. Needs correction; retained as feedback evidence."
+        }
+      ]
+    },
+    {
+      "heading": "Evidence by learning goal",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Relate inward and outward airway flow to pressure inside the lung balloons compared with outside air."
+        },
+        {
+          "type": "response",
+          "prompt": "Use your inward and outward flow records. How did sheet movement change space around the balloons, and which pressure difference drove air through the airway? How is quiet expiration different from pushing with a muscle?",
+          "text": "My gradient explanation uses supplied qualitative phases, not measured pressures: moving sheet down expands the jar space C, lowering surrounding pressure and expanding the balloons B. B briefly below outside drives inward airway flow. Held lowered after settling: B equals outside, no net airway flow, while C remains lower and balloons remain larger. Returning sheet up and balloon elastic recoil briefly makes B higher than outside, driving outflow. C can rise yet stay below outside; it is not B. At rest the supplied balloons retain volume. The wide side vent lets air into C during the slow pull, preventing a substantial jar pressure drop/balloon expansion in this limiting model; airway B is not blocked or punctured. A person has thin fluid-filled pleural spaces, moving ribs and a muscular diaphragm, not a common air-filled jar or externally pulled rubber. Quiet expiration mainly recoil/relaxation; forced expiration can use muscles. No clinical result or Boyle calculation for an open changing gas sample is established."
+        },
+        {
+          "type": "paragraph",
+          "text": "Separate a moving phase from a settled held position and distinguish the two model air spaces."
+        },
+        {
+          "type": "response",
+          "prompt": "Compare the downward-moving phase with the lowered, settled pause. Why can balloons stay larger without continuing net airway flow? Distinguish pressure inside a balloon from pressure around it.",
+          "text": "My pause explanation uses supplied qualitative phases, not measured pressures: moving sheet down expands the jar space C, lowering surrounding pressure and expanding the balloons B. B briefly below outside drives inward airway flow. Held lowered after settling: B equals outside, no net airway flow, while C remains lower and balloons remain larger. Returning sheet up and balloon elastic recoil briefly makes B higher than outside, driving outflow. C can rise yet stay below outside; it is not B. At rest the supplied balloons retain volume. The wide side vent lets air into C during the slow pull, preventing a substantial jar pressure drop/balloon expansion in this limiting model; airway B is not blocked or punctured. A person has thin fluid-filled pleural spaces, moving ribs and a muscular diaphragm, not a common air-filled jar or externally pulled rubber. Quiet expiration mainly recoil/relaxation; forced expiration can use muscles. No clinical result or Boyle calculation for an open changing gas sample is established."
+        },
+        {
+          "type": "paragraph",
+          "text": "Use the sealed/vent comparison to explain the pressure mechanism and the model’s biological limits."
+        },
+        {
+          "type": "response",
+          "prompt": "Compare the sealed and wide-vent model results with your prediction. Where did air enter through the vent? Why is this not a punctured lung balloon or blocked airway? Explain two ways this jar differs from a person’s chest.",
+          "text": "My model explanation uses supplied qualitative phases, not measured pressures: moving sheet down expands the jar space C, lowering surrounding pressure and expanding the balloons B. B briefly below outside drives inward airway flow. Held lowered after settling: B equals outside, no net airway flow, while C remains lower and balloons remain larger. Returning sheet up and balloon elastic recoil briefly makes B higher than outside, driving outflow. C can rise yet stay below outside; it is not B. At rest the supplied balloons retain volume. The wide side vent lets air into C during the slow pull, preventing a substantial jar pressure drop/balloon expansion in this limiting model; airway B is not blocked or punctured. A person has thin fluid-filled pleural spaces, moving ribs and a muscular diaphragm, not a common air-filled jar or externally pulled rubber. Quiet expiration mainly recoil/relaxation; forced expiration can use muscles. No clinical result or Boyle calculation for an open changing gas sample is established."
+        }
+      ]
+    },
+    {
+      "heading": "Concept checks",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Which pressure difference directly drives airflow through the open airway?",
+          "text": "Pressure inside the lung balloons compared with outside air.\nCorrect! Airway flow follows the pressure difference between balloon air and outside air. Jar pressure acts on the balloon wall and helps change its volume. Correct on first recorded check."
+        },
+        {
+          "type": "response",
+          "prompt": "The sheet stays down after airway flow has settled. Must air keep entering?",
+          "text": "No. Inside pressure has equalized with outside air, so net airway flow stops.\nCorrect! A large volume and ongoing flow are different. Open-airway pressure can equal outside pressure while a stretched balloon remains expanded. Revised after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "What important feature of a person does the jar fail to show?",
+          "text": "Thin fluid-filled pleural spaces and a moving rib cage.\nCorrect! The real chest uses muscle movement, pleural coupling and elastic lung tissue. The jar is an explanatory analogy, not a complete chest. Correct on first recorded check."
+        }
+      ]
+    },
+    {
+      "heading": "Model limits and sources",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "This is a qualitative, prepared model, not a lung-function test or a construction protocol. A resting seal and partly expanded balloons are supplied after assembly. It does not calculate gas pressure, volume or time. Flow arrows show a paused explanatory phase, not a continuing flow at a held endpoint. Inside-balloon pressure equals outside air when open-airway flow has settled; pressure around a stretched balloon can still be lower. The wide-vent example assumes a very large opening and slow sheet movement, so jar pressure stays near outside pressure and no substantial balloon expansion occurs. Real leaks can have different effects. The vent is in the jar wall, not the airway or balloon. In a person, the pleural space is a thin fluid-filled space around each lung, not one large air-filled jar. Ribs move and a real diaphragm changes shape by muscle action. Rubber must be pulled by a hand and has different elastic properties. Lungs retain air after quiet expiration; they do not empty completely. Quiet expiration mainly uses elastic recoil as muscles relax; forced expiration can use muscles. Gas exchange, blood flow, oxygen use, airway disease and clinical treatment are not modeled."
+        },
+        {
+          "type": "paragraph",
+          "text": "OpenStax Anatomy and Physiology2e22.3: pressure and ventilation: https://openstax.org/books/anatomy-and-physiology-2e/pages/22-3-the-process-of-breathing"
+        },
+        {
+          "type": "paragraph",
+          "text": "Australian National University: diaphragm lung model: https://science.anu.edu.au/engagement/science-lab-experiments-home-school/how-make-lung-model"
+        },
+        {
+          "type": "paragraph",
+          "text": "University of Akron: model lung teaching and limits: https://www.uakron.edu/polymer/agpa-k12outreach/lesson-plans/making-a-model-lung"
+        }
+      ],
+      "keepFirst": 4
+    }
+  ],
+  "activityVersion": 1,
+  "locale": "en",
+  "attemptId": "breath-3768952077-1794770314509",
+  "data": {
+    "schemaVersion": 1,
+    "activityVersion": 1,
+    "labId": "breathing",
+    "attemptId": "breath-3768952077-1794770314509",
+    "seed": 3768952077,
+    "locale": "en",
+    "stage": 2,
+    "studentName": "Zoë García",
+    "studentClass": "Period 5",
+    "prediction": "Pulling the sheet down may enlarge the balloons by lowering pressure around them. I predict that airway flow can stop after a held position settles.",
+    "design": "Keep the open airway, balloons and sheet movement the same; change the jar side seal once. Compare movement with a settled pause, not three identical cycles. These are supplied phases, not my measured breaths.",
+    "initialPlan": {
+      "prediction": "Pulling the sheet down may enlarge the balloons by lowering pressure around them. I predict that airway flow can stop after a held position settles.",
+      "design": "Keep the open airway, balloons and sheet movement the same; change the jar side seal once. Compare movement with a settled pause, not three identical cycles. These are supplied phases, not my measured breaths.",
+      "timing": "Before assembly or model airflow"
+    },
+    "phase": "leak",
+    "airway": true,
+    "sheet": true,
+    "vent": true,
+    "observations": {
+      "in": {
+        "viewed": true,
+        "values": {
+          "pressure": "lower",
+          "flow": "in"
+        },
+        "attempts": [
+          {
+            "values": {
+              "pressure": "higher",
+              "flow": "out"
+            },
+            "correct": false
+          },
+          {
+            "values": {
+              "pressure": "lower",
+              "flow": "in"
+            },
+            "correct": true
+          }
+        ],
+        "record": {
+          "values": {
+            "pressure": "lower",
+            "flow": "in"
+          },
+          "correctAfterFeedback": true,
+          "sourceId": "student-interpreted-supplied-qualitative-mechanism"
+        }
+      },
+      "hold": {
+        "viewed": true,
+        "values": {
+          "pressure": "equal",
+          "flow": "none"
+        },
+        "attempts": [
+          {
+            "values": {
+              "pressure": "lower",
+              "flow": "in"
+            },
+            "correct": false
+          },
+          {
+            "values": {
+              "pressure": "equal",
+              "flow": "none"
+            },
+            "correct": true
+          }
+        ],
+        "record": {
+          "values": {
+            "pressure": "equal",
+            "flow": "none"
+          },
+          "correctAfterFeedback": true,
+          "sourceId": "student-interpreted-supplied-qualitative-mechanism"
+        }
+      },
+      "out": {
+        "viewed": true,
+        "values": {
+          "pressure": "higher",
+          "flow": "out"
+        },
+        "attempts": [
+          {
+            "values": {
+              "pressure": "lower",
+              "flow": "in"
+            },
+            "correct": false
+          },
+          {
+            "values": {
+              "pressure": "higher",
+              "flow": "out"
+            },
+            "correct": true
+          }
+        ],
+        "record": {
+          "values": {
+            "pressure": "higher",
+            "flow": "out"
+          },
+          "correctAfterFeedback": true,
+          "sourceId": "student-interpreted-supplied-qualitative-mechanism"
+        }
+      },
+      "leak": {
+        "viewed": true,
+        "values": {
+          "pressure": "equal",
+          "flow": "none"
+        },
+        "attempts": [
+          {
+            "values": {
+              "pressure": "lower",
+              "flow": "in"
+            },
+            "correct": false
+          },
+          {
+            "values": {
+              "pressure": "equal",
+              "flow": "none"
+            },
+            "correct": true
+          }
+        ],
+        "record": {
+          "values": {
+            "pressure": "equal",
+            "flow": "none"
+          },
+          "correctAfterFeedback": true,
+          "sourceId": "student-interpreted-supplied-qualitative-mechanism"
+        }
+      }
+    },
+    "checks": {
+      "pause": {
+        "attempts": [
+          {
+            "value": "forever",
+            "correct": false
+          },
+          {
+            "value": "stop",
+            "correct": true
+          }
+        ],
+        "value": "stop",
+        "correct": true
+      },
+      "flow": {
+        "attempts": [
+          {
+            "value": "inside",
+            "correct": true
+          }
+        ],
+        "value": "inside",
+        "correct": true
+      },
+      "pleura": {
+        "attempts": [
+          {
+            "value": "fluid",
+            "correct": true
+          }
+        ],
+        "value": "fluid",
+        "correct": true
+      }
+    },
+    "answers": {
+      "gradient": "My gradient explanation uses supplied qualitative phases, not measured pressures: moving sheet down expands the jar space C, lowering surrounding pressure and expanding the balloons B. B briefly below outside drives inward airway flow. Held lowered after settling: B equals outside, no net airway flow, while C remains lower and balloons remain larger. Returning sheet up and balloon elastic recoil briefly makes B higher than outside, driving outflow. C can rise yet stay below outside; it is not B. At rest the supplied balloons retain volume. The wide side vent lets air into C during the slow pull, preventing a substantial jar pressure drop/balloon expansion in this limiting model; airway B is not blocked or punctured. A person has thin fluid-filled pleural spaces, moving ribs and a muscular diaphragm, not a common air-filled jar or externally pulled rubber. Quiet expiration mainly recoil/relaxation; forced expiration can use muscles. No clinical result or Boyle calculation for an open changing gas sample is established.",
+      "pause": "My pause explanation uses supplied qualitative phases, not measured pressures: moving sheet down expands the jar space C, lowering surrounding pressure and expanding the balloons B. B briefly below outside drives inward airway flow. Held lowered after settling: B equals outside, no net airway flow, while C remains lower and balloons remain larger. Returning sheet up and balloon elastic recoil briefly makes B higher than outside, driving outflow. C can rise yet stay below outside; it is not B. At rest the supplied balloons retain volume. The wide side vent lets air into C during the slow pull, preventing a substantial jar pressure drop/balloon expansion in this limiting model; airway B is not blocked or punctured. A person has thin fluid-filled pleural spaces, moving ribs and a muscular diaphragm, not a common air-filled jar or externally pulled rubber. Quiet expiration mainly recoil/relaxation; forced expiration can use muscles. No clinical result or Boyle calculation for an open changing gas sample is established.",
+      "model": "My model explanation uses supplied qualitative phases, not measured pressures: moving sheet down expands the jar space C, lowering surrounding pressure and expanding the balloons B. B briefly below outside drives inward airway flow. Held lowered after settling: B equals outside, no net airway flow, while C remains lower and balloons remain larger. Returning sheet up and balloon elastic recoil briefly makes B higher than outside, driving outflow. C can rise yet stay below outside; it is not B. At rest the supplied balloons retain volume. The wide side vent lets air into C during the slow pull, preventing a substantial jar pressure drop/balloon expansion in this limiting model; airway B is not blocked or punctured. A person has thin fluid-filled pleural spaces, moving ribs and a muscular diaphragm, not a common air-filled jar or externally pulled rubber. Quiet expiration mainly recoil/relaxation; forced expiration can use muscles. No clinical result or Boyle calculation for an open changing gas sample is established."
+    },
+    "complete": true,
+    "explainVisited": true
+  },
+  "evidence": [
+    {
+      "goalId": "gradient",
+      "answerId": "gradient",
+      "writing": "My gradient explanation uses supplied qualitative phases, not measured pressures: moving sheet down expands the jar space C, lowering surrounding pressure and expanding the balloons B. B briefly below outside drives inward airway flow. Held lowered after settling: B equals outside, no net airway flow, while C remains lower and balloons remain larger. Returning sheet up and balloon elastic recoil briefly makes B higher than outside, driving outflow. C can rise yet stay below outside; it is not B. At rest the supplied balloons retain volume. The wide side vent lets air into C during the slow pull, preventing a substantial jar pressure drop/balloon expansion in this limiting model; airway B is not blocked or punctured. A person has thin fluid-filled pleural spaces, moving ribs and a muscular diaphragm, not a common air-filled jar or externally pulled rubber. Quiet expiration mainly recoil/relaxation; forced expiration can use muscles. No clinical result or Boyle calculation for an open changing gas sample is established.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "pause",
+      "answerId": "pause",
+      "writing": "My pause explanation uses supplied qualitative phases, not measured pressures: moving sheet down expands the jar space C, lowering surrounding pressure and expanding the balloons B. B briefly below outside drives inward airway flow. Held lowered after settling: B equals outside, no net airway flow, while C remains lower and balloons remain larger. Returning sheet up and balloon elastic recoil briefly makes B higher than outside, driving outflow. C can rise yet stay below outside; it is not B. At rest the supplied balloons retain volume. The wide side vent lets air into C during the slow pull, preventing a substantial jar pressure drop/balloon expansion in this limiting model; airway B is not blocked or punctured. A person has thin fluid-filled pleural spaces, moving ribs and a muscular diaphragm, not a common air-filled jar or externally pulled rubber. Quiet expiration mainly recoil/relaxation; forced expiration can use muscles. No clinical result or Boyle calculation for an open changing gas sample is established.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "model",
+      "answerId": "model",
+      "writing": "My model explanation uses supplied qualitative phases, not measured pressures: moving sheet down expands the jar space C, lowering surrounding pressure and expanding the balloons B. B briefly below outside drives inward airway flow. Held lowered after settling: B equals outside, no net airway flow, while C remains lower and balloons remain larger. Returning sheet up and balloon elastic recoil briefly makes B higher than outside, driving outflow. C can rise yet stay below outside; it is not B. At rest the supplied balloons retain volume. The wide side vent lets air into C during the slow pull, preventing a substantial jar pressure drop/balloon expansion in this limiting model; airway B is not blocked or punctured. A person has thin fluid-filled pleural spaces, moving ribs and a muscular diaphragm, not a common air-filled jar or externally pulled rubber. Quiet expiration mainly recoil/relaxation; forced expiration can use muscles. No clinical result or Boyle calculation for an open changing gas sample is established.",
+      "status": "not_graded"
+    }
+  ]
+}

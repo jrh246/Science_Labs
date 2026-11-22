@@ -195,6 +195,7 @@ test('osmosis and card practice keep storage failures visible alongside action f
     ['/activity.html', '[data-action="check"]', '.cycle-storage']
   ]) {
     await page.goto(url);
+    if(url==='/lab.html')await page.locator('#osmosis-prediction').fill('Water will move toward more sugar.');
     await denySaving(page);
     await page.locator(button).click();
     await expect(page.locator(status)).toContainText('could not be saved');

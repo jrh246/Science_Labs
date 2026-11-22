@@ -1,0 +1,86 @@
+{
+  "labId": "seed-dispersal",
+  "locale": "en",
+  "scope": "Authored core directions/questions; excludes teacher notes, sources and student writing. Dynamic app/diagram/report wording is reviewed manually.",
+  "method": "Approximate Flesch-Kincaid with heuristic syllable counts and explicit scientific-word exceptions. Short fragments and technical terms can distort the score; no pass/fail or language certification.",
+  "overall": {
+    "words": 684,
+    "sentences": 64,
+    "wordsPerSentence": 10.7,
+    "approximateFleschKincaidGrade": 7.6
+  },
+  "fragments": {
+    "intro": {
+      "words": 74,
+      "sentences": 7,
+      "wordsPerSentence": 10.6,
+      "approximateFleschKincaidGrade": 7.8
+    },
+    "prediction": {
+      "words": 31,
+      "sentences": 2,
+      "wordsPerSentence": 15.5,
+      "approximateFleschKincaidGrade": 8.3
+    },
+    "design": {
+      "words": 26,
+      "sentences": 2,
+      "wordsPerSentence": 13,
+      "approximateFleschKincaidGrade": 8.1
+    },
+    "controls": {
+      "words": 58,
+      "sentences": 7,
+      "wordsPerSentence": 8.3,
+      "approximateFleschKincaidGrade": 4.5
+    },
+    "sampling": {
+      "words": 55,
+      "sentences": 6,
+      "wordsPerSentence": 9.2,
+      "approximateFleschKincaidGrade": 8.4
+    },
+    "limits": {
+      "words": 128,
+      "sentences": 10,
+      "wordsPerSentence": 12.8,
+      "approximateFleschKincaidGrade": 10.4
+    },
+    "explanation:controls": {
+      "words": 35,
+      "sentences": 3,
+      "wordsPerSentence": 11.7,
+      "approximateFleschKincaidGrade": 7.8
+    },
+    "explanation:variation": {
+      "words": 40,
+      "sentences": 4,
+      "wordsPerSentence": 10,
+      "approximateFleschKincaidGrade": 5.4
+    },
+    "explanation:inference": {
+      "words": 36,
+      "sentences": 3,
+      "wordsPerSentence": 12,
+      "approximateFleschKincaidGrade": 7.8
+    },
+    "check:mass": {
+      "words": 70,
+      "sentences": 6,
+      "wordsPerSentence": 11.7,
+      "approximateFleschKincaidGrade": 6.8
+    },
+    "check:releases": {
+      "words": 71,
+      "sentences": 7,
+      "wordsPerSentence": 10.1,
+      "approximateFleschKincaidGrade": 5.2
+    },
+    "check:fitness": {
+      "words": 60,
+      "sentences": 7,
+      "wordsPerSentence": 8.6,
+      "approximateFleschKincaidGrade": 9.2
+    }
+  }
+}

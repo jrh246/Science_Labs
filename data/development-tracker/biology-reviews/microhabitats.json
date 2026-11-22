@@ -1,0 +1,320 @@
+{
+  "schemaVersion": 1,
+  "labId": "microhabitats",
+  "taskId": "BIO-30-REVIEW",
+  "reviewedBy": "Codex - separate development review",
+  "reviewedOn": "2026-11-15",
+  "sourceSnapshot": "sha256:e9a14f9d0ab7e6152eb7894fc86a04cfa7f9bbfd9329849bdb83adbb0b5f5776",
+  "checks": {
+    "G01": {
+      "status": "pass",
+      "notes": "Authored goals map to retained decisions/calculations and original explanations. Student places actual quadrat and soil probe at first ground location; matched later setup supplied. Counts six distinct organism scenes, can toggle visible woodlouse markers as reversible aids, calculates habitat means and checks overlap, then explains confounding/detection limits.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/microhabitats/build-brief.md",
+        "data/development-tracker/biology-reviews/evidence/microhabitats/complete-responses.json"
+      ]
+    },
+    "G02": {
+      "status": "pass",
+      "notes": "Three different locations per habitat reveal spatial variation/overlap, not copied counts or six independent controlled experiments. Repetitive equipment placement removed after first demonstration. Direct saved comparison return avoids re-counting unchanged scenes.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/microhabitats/build-brief.md",
+        "data/development-tracker/biology-reviews/evidence/microhabitats/review-notes.md"
+      ]
+    },
+    "G03": {
+      "status": "pass",
+      "notes": "OpenStax44.1 abiotic/biotic ecology and45.1 quadrat/distribution text consulted. Frozen original teaching counts and invented probe readings, moisture index not percent. Preselected disjoint1m²plots, complete detection/matched time/depth/no movement assumptions explicit. Association not moisture-only cause, universal preference or representative population estimate.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/microhabitats/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/microhabitats/final-model-tests.txt"
+      ]
+    },
+    "G04": {
+      "status": "pass",
+      "notes": "Supplied versus observed values and model boundaries reviewed beside work and in reports. OpenStax44.1 abiotic/biotic ecology and45.1 quadrat/distribution text consulted. Frozen original teaching counts and invented probe readings, moisture index not percent. Preselected disjoint1m²plots, complete detection/matched time/depth/no movement assumptions explicit. Association not moisture-only cause, universal preference or representative population estimate.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/microhabitats/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/microhabitats/review-notes.md"
+      ]
+    },
+    "G05": {
+      "status": "pass",
+      "notes": "Student places actual quadrat and soil probe at first ground location; matched later setup supplied. Counts six distinct organism scenes, can toggle visible woodlouse markers as reversible aids, calculates habitat means and checks overlap, then explains confounding/detection limits.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/microhabitats/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/microhabitats/visual-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/microhabitats/visual-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/microhabitats/visual-contact-3.png"
+      ]
+    },
+    "G06": {
+      "status": "pass",
+      "notes": "Ten desktop/phone/tablet states inspected. Original metal square frame, soil/litter and segmented seven-legged-pair woodlice are recognizable explanatory top views. Added visible placed probe beside its supplied readings; enlarged organisms and supplied positions/colors explicit. No clipping/overflow/target mismatch found in current screenshots.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/microhabitats/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/microhabitats/visual-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/microhabitats/visual-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/microhabitats/visual-contact-3.png"
+      ]
+    },
+    "G07": {
+      "status": "pass",
+      "notes": "Choice identity/meaningful sequence preserved, shuffled banks stable for an attempt. Current rejection/correction reviewed. Review fixed missing verifier-data registration (initial KeyError retained), showed actual placed soil probe, and corrected draft report that prematurely claimed first setup demonstrated. New partial-state test checks not started/frame only/probe complete. Current wrong/blank counts/calculations remain unconfirmed and gate dependent actions immediately.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/microhabitats/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/microhabitats/final-browser-tests.txt"
+      ]
+    },
+    "G08": {
+      "status": "pass",
+      "notes": "Full UI, resources and human report pathway manually read; microhabitat/abiotic/biotic/quadrat/mean/range/index defined. Heuristic8.5/10.2words supports review, not classroom comprehension. Wrong count feedback distinguishes animals from leaves; no clinical or field-calibration claim.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/microhabitats/reading-screen.json",
+        "data/development-tracker/biology-reviews/evidence/microhabitats/review-notes.md"
+      ]
+    },
+    "G09": {
+      "status": "pass",
+      "notes": "Initial reasoning gates model/UI before observation; current academic edits immediately disable dependent actions and preserve raw values on reload.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/microhabitats/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/microhabitats/final-browser-tests.txt"
+      ]
+    },
+    "G10": {
+      "status": "pass",
+      "notes": "Correct!/Try again feedback explains the rule; current wrong/blank stays unconfirmed and actual revision distinct. Review fixed missing verifier-data registration (initial KeyError retained), showed actual placed soil probe, and corrected draft report that prematurely claimed first setup demonstrated. New partial-state test checks not started/frame only/probe complete. Current wrong/blank counts/calculations remain unconfirmed and gate dependent actions immediately.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/microhabitats/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/microhabitats/edited-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/microhabitats/final-model-tests.txt"
+      ]
+    },
+    "G11": {
+      "status": "pass",
+      "notes": "Actual successful/repeated/reloaded completion, denied storage/retry, identity versus academic edits; view-only saved-evidence return preserves completion.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/microhabitats/final-browser-tests.txt"
+      ]
+    },
+    "G12": {
+      "status": "pass",
+      "notes": "Versioned scoped attempt/locale and stable IDs retain original reasoning/current wrong/blank/corrections across reload. No regenerated observations on review.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/microhabitats/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/microhabitats/final-model-tests.txt"
+      ]
+    },
+    "G13": {
+      "status": "pass",
+      "notes": "Actual named and neutral completed/draft downloadable PDFs plus native print; optional name/period, safe filename and standard local timestamp checked.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/microhabitats/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/microhabitats/draft.pdf",
+        "data/development-tracker/biology-reviews/evidence/microhabitats/native-print.pdf"
+      ]
+    },
+    "G14": {
+      "status": "pass",
+      "notes": "Human report groups meaningful learning evidence, supplied context, current raw entries/status and original writing, no click-log grade or authenticated submission claim.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/microhabitats/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/microhabitats/complete-responses.json"
+      ]
+    },
+    "G15": {
+      "status": "pass",
+      "notes": "All34 final resource/report/native pages inspected in five contacts: teacher2/student3, complete3, partial2/3 and long6/6. Completed prompt/start and full source-text/glyph checks pass, long final marker present, no clipping/extra blank page. Full prompt-answer starts, original source text/glyphs, long first-offline/native final marker checked.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/microhabitats/pdf-inspection.json",
+        "data/development-tracker/biology-reviews/evidence/microhabitats/pagination-check.txt",
+        "data/development-tracker/biology-reviews/evidence/microhabitats/glyph-check.txt",
+        "data/development-tracker/biology-reviews/evidence/microhabitats/glyph-all.txt",
+        "data/development-tracker/biology-reviews/evidence/microhabitats/pdf-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/microhabitats/pdf-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/microhabitats/pdf-contact-3.png",
+        "data/development-tracker/biology-reviews/evidence/microhabitats/pdf-contact-4.png",
+        "data/development-tracker/biology-reviews/evidence/microhabitats/pdf-contact-5.png"
+      ]
+    },
+    "G16": {
+      "status": "pass",
+      "notes": "Native touch drag-release-next action, keyboard and resized mouse,44px phone targets/no overflow/reduced motion/reload exercised. Physical hardware/AT remain separate.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/microhabitats/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/microhabitats/visual-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/microhabitats/visual-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/microhabitats/visual-contact-3.png"
+      ]
+    },
+    "G17": {
+      "status": "pass",
+      "notes": "Initial13/final14 focused model/report/font checks and initial/final6 full browser workflows pass;99 current resource PDFs validate after verifier registration fix. Private runtime compile passes. Current full resource validation and private platform compile passed. Software is not independent science/classroom acceptance.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/microhabitats/model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/microhabitats/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/microhabitats/initial-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/microhabitats/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/microhabitats/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/microhabitats/platform-build.txt"
+      ]
+    },
+    "G18": {
+      "status": "pass",
+      "notes": "Stable English authored/question/condition IDs, locale and original student writing retained. Native app languages and reviewed Spanish printing remain AUD-10.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/microhabitats/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/microhabitats/review-notes.md"
+      ]
+    },
+    "RESOURCES": {
+      "status": "pass",
+      "notes": "Current shared-content teacher/student resources, actual rendered pages and prompt/link/hash parity checked. All34 final resource/report/native pages inspected in five contacts: teacher2/student3, complete3, partial2/3 and long6/6. Completed prompt/start and full source-text/glyph checks pass, long final marker present, no clipping/extra blank page.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/microhabitats/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/microhabitats/pdf-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/microhabitats/pdf-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/microhabitats/pdf-contact-3.png",
+        "data/development-tracker/biology-reviews/evidence/microhabitats/pdf-contact-4.png",
+        "data/development-tracker/biology-reviews/evidence/microhabitats/pdf-contact-5.png"
+      ]
+    },
+    "ACCESS": {
+      "status": "pass",
+      "notes": "Guest/free route, reports/print/offline remain account-free; paid/staff/publishing policy preserved. Private compile only, no public deployment.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/microhabitats/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/microhabitats/platform-build.txt"
+      ]
+    },
+    "TRACKING": {
+      "status": "pass",
+      "notes": "Actual local English implementation/resources/catalog and curriculum/tracker regenerated. Standards/native-language/full-course/publication approvals separate.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/microhabitats/build-brief.md",
+        "data/development-tracker/biology-reviews/evidence/microhabitats/review-notes.md"
+      ]
+    }
+  },
+  "artifacts": {
+    "workflow": [
+      "data/development-tracker/biology-reviews/evidence/microhabitats/build-brief.md",
+      "data/development-tracker/biology-reviews/evidence/microhabitats/review-notes.md",
+      "data/development-tracker/biology-reviews/evidence/microhabitats/reading-screen.json",
+      "data/development-tracker/biology-reviews/evidence/microhabitats/complete-responses.json",
+      "data/development-tracker/biology-reviews/evidence/microhabitats/source-manifest.json"
+    ],
+    "visuals": [
+      "data/development-tracker/biology-reviews/evidence/microhabitats/visual-contact-1.png",
+      "data/development-tracker/biology-reviews/evidence/microhabitats/visual-contact-2.png",
+      "data/development-tracker/biology-reviews/evidence/microhabitats/visual-contact-3.png"
+    ],
+    "pdfReports": [
+      "data/development-tracker/biology-reviews/evidence/microhabitats/comparison-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/microhabitats/complete.pdf",
+      "data/development-tracker/biology-reviews/evidence/microhabitats/count-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/microhabitats/development-draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/microhabitats/draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/microhabitats/edited-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/microhabitats/long-offline.pdf"
+    ],
+    "nativePrint": [
+      "data/development-tracker/biology-reviews/evidence/microhabitats/long-native-print.pdf",
+      "data/development-tracker/biology-reviews/evidence/microhabitats/native-print.pdf"
+    ],
+    "tests": [
+      "data/development-tracker/biology-reviews/evidence/microhabitats/final-model-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/microhabitats/final-browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/microhabitats/pagination-check.txt",
+      "data/development-tracker/biology-reviews/evidence/microhabitats/glyph-check.txt",
+      "data/development-tracker/biology-reviews/evidence/microhabitats/glyph-all.txt",
+      "data/development-tracker/biology-reviews/evidence/microhabitats/resource-check.txt",
+      "data/development-tracker/biology-reviews/evidence/microhabitats/platform-build.txt"
+    ],
+    "resources": [
+      "public/resources/microhabitats-worksheet.pdf",
+      "public/resources/microhabitats-teacher-guide.pdf"
+    ]
+  },
+  "externalValidation": {
+    "teacherStudentComprehension": {
+      "status": "pending",
+      "notes": "Not performed; development checks do not establish classroom comprehension."
+    },
+    "physicalDevices": {
+      "status": "pending",
+      "notes": "Emulation is not physical-device or assistive-technology acceptance."
+    },
+    "classroomProtocol": {
+      "status": "not-applicable",
+      "notes": "Virtual-only activity; no physical protocol supplied."
+    }
+  },
+  "history": [
+    {
+      "event": "Review fixed missing verifier-data registration (initial KeyError retained), showed actual placed soil probe, and corrected draft report that prematurely claimed first setup demonstrated. New partial-state test checks not started/frame only/probe complete. Current wrong/blank counts/calculations remain unconfirmed and gate dependent actions immediately.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/microhabitats/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/microhabitats/final-browser-tests.txt"
+      ]
+    }
+  ],
+  "decision": "pass",
+  "summary": "BIO-30 development review passed for matched-area organism counts, meaningful spatial variation/overlap and cautious environmental inference. Corrected actual probe/report/verifier issues. External classroom/devices/AT, translations and release remain separate.",
+  "blockers": [],
+  "followUps": [
+    {
+      "date": "2026-11-15",
+      "scope": "Shared native-print heading fragmentation correction; original full review/source snapshot retained.",
+      "sourceFiles": [
+        "src/investigations/student-report.css"
+      ],
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/population-estimates/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/shared-native-regression.txt",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/shared-native-followup/inspection.json",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/shared-native-followup/contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/shared-native-followup/contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/shared-native-followup/contact-3.png"
+      ],
+      "result": "Normal and long first-offline native regression passed and current pages inspected. Not a complete lab reapproval or classroom/device/language acceptance."
+    },
+    {
+      "date": "2026-11-15",
+      "scope": "Shared downloaded PDF table header plus first data row; original full source review retained.",
+      "sourceFiles": [
+        "src/investigations/student-report.js",
+        "tests/browser/biology-browser-contract.mjs"
+      ],
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/shared-table-regression.txt",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/shared-table-pagination.txt",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/shared-table-followup/inspection.json",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/shared-table-followup/contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/shared-table-followup/contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/shared-table-followup/contact-3.png"
+      ],
+      "result": "Corrected/long first-offline report regressions passed; all21downloaded pages inspected and8normal/long PDF/native prompt-start checks pass. Limited follow-up, not full reapproval or external acceptance."
+    },
+    {
+      "date": "2026-11-15",
+      "scope": "Final shared PDF section-heading and short/long downloaded/native regression. Earlier full source review retained.",
+      "sourceFiles": [
+        "src/investigations/student-report.js",
+        "scripts/verify-report-pagination.py",
+        "tests/browser/biology-browser-contract.mjs"
+      ],
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/reserve-design/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/final-six-lab-browser-regression.txt",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/shared-section-followup/verification.txt",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/shared-section-followup/inspection.json",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/shared-section-followup/contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/shared-section-followup/contact-2.png"
+      ],
+      "result": "All37browser workflows pass;24normal/long PDF/native section+response checks pass,10focused heading pages inspected. Limited layout/software follow-up, not full scientific/classroom/device/language reapproval."
+    }
+  ]
+}

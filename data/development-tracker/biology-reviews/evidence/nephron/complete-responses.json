@@ -1,0 +1,468 @@
+{
+  "schemaVersion": 2,
+  "labId": "nephron",
+  "title": "Modeling the Nephron",
+  "question": "How do filtration, recovery and secretion change the fluid that becomes urine?",
+  "student": {
+    "name": "Zoë García",
+    "class": "Period 5"
+  },
+  "status": "Complete",
+  "grading": "not_graded",
+  "exportedAt": "2026-11-15T20:08:44.962Z",
+  "exportTimeZone": "America/Los_Angeles",
+  "exportedAtDisplay": "Nov 15, 2026, 12:08 PM PST",
+  "sections": [
+    {
+      "heading": "First prediction and tracking design",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Required before observing: Predict whether both useful glucose and waste urea could enter the first filtrate. Will that filtrate have the same makeup as final urine? Explain your reasons.",
+          "text": "I predict that glucose and urea can both enter filtrate, with later recovery and secretion changing final urine. A filter may separate by barrier properties rather than deciding what is useful."
+        },
+        {
+          "type": "response",
+          "prompt": "Required before observing: How could tracking a substance before filtering, after recovery and after secretion help explain its final amount? Why would repeating the same model three times add little evidence about real variation?",
+          "text": "Track each substance separately through the same model. Units are chosen and different between substances; never add rows or infer human concentrations. Different directions/regions add evidence, not three duplicate trials."
+        },
+        {
+          "type": "paragraph",
+          "text": "Timing: Before any filter fate or transport observation."
+        }
+      ]
+    },
+    {
+      "heading": "First filter fates",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Water",
+          "text": "Traced a supplied portion into the filtrate: 20 chosen units. Correct after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "Glucose",
+          "text": "Traced a supplied portion into the filtrate: 4 chosen units. Correct first trace."
+        },
+        {
+          "type": "response",
+          "prompt": "Urea",
+          "text": "Traced a supplied portion into the filtrate: 6 chosen units. Correct first trace."
+        },
+        {
+          "type": "response",
+          "prompt": "Potassium K⁺",
+          "text": "Traced a supplied portion into the filtrate: 4 chosen units. Correct first trace."
+        },
+        {
+          "type": "response",
+          "prompt": "Red blood cell",
+          "text": "Traced this marker staying in blood. Correct after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "Large plasma protein",
+          "text": "Traced this marker staying in blood. Correct first trace."
+        },
+        {
+          "type": "response",
+          "prompt": "Filter feedback evidence",
+          "text": "Mismatches needing feedback: Water toward blood-only claim; Red blood cell toward filtrate. Current fate/status is shown separately. Rejected routes did not move material."
+        }
+      ]
+    },
+    {
+      "heading": "Recovery and secretion directions",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Student glucose trace",
+          "text": "Traced proximal glucose recovery from tubule side through cell and tissue fluid to blood;4filtered units recovered, transport machinery supplied. Correct after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "Other recovery source",
+          "text": "Model-supplied across nephron regions: water19, urea2 and potassium4 units. Not all at the glucose port; not student measurements."
+        },
+        {
+          "type": "response",
+          "prompt": "Student potassium secretion trace",
+          "text": "Traced one late-tubule example from blood-facing transport through epithelium to tubule;2chosen potassium units added to tubule. Correct after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "Transport feedback evidence",
+          "text": "Mismatches needing feedback: Glucose recovery: glucose at the blood-facing side; Potassium secretion: potassium at the tubule-facing side. Current trace/status is shown separately."
+        }
+      ]
+    },
+    {
+      "heading": "Current bookkeeping and student final calculations",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Each substance uses its own arbitrary scale. Do not combine rows or infer concentrations/proportions/human rates. Supplied transfers and current blood ledger below are distinct from student final calculations."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Substance",
+            "Initial blood",
+            "Filtered",
+            "Recovered",
+            "Secreted",
+            "Current blood"
+          ],
+          "rows": [
+            [
+              "Water",
+              100,
+              20,
+              19,
+              0,
+              99
+            ],
+            [
+              "Glucose",
+              20,
+              4,
+              4,
+              0,
+              20
+            ],
+            [
+              "Urea",
+              30,
+              6,
+              2,
+              0,
+              26
+            ],
+            [
+              "Potassium K⁺",
+              20,
+              4,
+              4,
+              2,
+              18
+            ],
+            [
+              "Red blood cell",
+              2,
+              0,
+              0,
+              0,
+              2
+            ],
+            [
+              "Large plasma protein",
+              2,
+              0,
+              0,
+              0,
+              2
+            ]
+          ]
+        },
+        {
+          "type": "response",
+          "prompt": "Water · student excreted-unit calculation",
+          "text": "1\nCorrect after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "Glucose · student excreted-unit calculation",
+          "text": "0\nCorrect after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "Urea · student excreted-unit calculation",
+          "text": "4\nCorrect after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "Potassium K⁺ · student excreted-unit calculation",
+          "text": "2\nCorrect after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "Earlier balance set needing revision",
+          "text": "Water: 999; Glucose: empty; Urea: empty; Potassium K⁺: empty. Needs correction; retained as feedback evidence."
+        }
+      ]
+    },
+    {
+      "heading": "Evidence by learning goal",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Explain why the first filtrate can contain useful small substances while blood cells and large proteins stay in blood."
+        },
+        {
+          "type": "response",
+          "prompt": "Compare glucose, urea, the red blood cell and the large-protein marker at the first filter. How do these fates support or change your prediction? Why is filtration not a test for whether a substance is useful or waste?",
+          "text": "My filter explanation: supplied filter portions water20/glucose4/urea6/K4 entered the capsule/tubule; red cell and large-protein marker stayed in blood. Pressure/barrier properties do not identify waste only. Proximal glucose moved from tubule through the cell and tissue fluid to capillary blood, recovering4; sodium-linked uptake/basal carrier and pump gradients are supplied. Other water19/urea2/K4 recovery supplied across segments, not all at the glucose port. Late-tubule K secretion from blood through epithelium into lumen added2. Final within-row balances: water20−19+0=1, glucose4−4+0=0, urea6−2+0=4, potassium4−4+2=2. Blood+urine remains initial per substance:99+1=100water,20+0glucose,26+4urea,18+2K, cells2/protein2 in blood. Different substances have different unit scales, so no sum, mixture percentages, human renal rates or concentrations. Urea recycling and regulated variable potassium/water transport are simplified; small proteins can filter/recover. Filtrate is processed before urinary passages/ureter, not sent straight to bladder. One chosen model does not establish clinical function or variation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Trace recovery back to blood and secretion toward the tubule at appropriate sites."
+        },
+        {
+          "type": "response",
+          "prompt": "Trace glucose from the proximal tubule back to blood, then trace the late-tubule potassium secretion example in the opposite direction. Distinguish blood, tubule cells, nearby tissue fluid and the tubule interior. Which recovery amounts were supplied across other nephron regions?",
+          "text": "My directions explanation: supplied filter portions water20/glucose4/urea6/K4 entered the capsule/tubule; red cell and large-protein marker stayed in blood. Pressure/barrier properties do not identify waste only. Proximal glucose moved from tubule through the cell and tissue fluid to capillary blood, recovering4; sodium-linked uptake/basal carrier and pump gradients are supplied. Other water19/urea2/K4 recovery supplied across segments, not all at the glucose port. Late-tubule K secretion from blood through epithelium into lumen added2. Final within-row balances: water20−19+0=1, glucose4−4+0=0, urea6−2+0=4, potassium4−4+2=2. Blood+urine remains initial per substance:99+1=100water,20+0glucose,26+4urea,18+2K, cells2/protein2 in blood. Different substances have different unit scales, so no sum, mixture percentages, human renal rates or concentrations. Urea recycling and regulated variable potassium/water transport are simplified; small proteins can filter/recover. Filtrate is processed before urinary passages/ureter, not sent straight to bladder. One chosen model does not establish clinical function or variation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Use filtered minus recovered plus secreted amounts to explain what is excreted, with model limits."
+        },
+        {
+          "type": "response",
+          "prompt": "Use your final calculations for water, glucose, urea and potassium. Why is final urine different from the first filtrate? Why can potassium be both recovered and secreted? Explain why these bookkeeping counts do not give a person’s urine concentrations or health result.",
+          "text": "My balance explanation: supplied filter portions water20/glucose4/urea6/K4 entered the capsule/tubule; red cell and large-protein marker stayed in blood. Pressure/barrier properties do not identify waste only. Proximal glucose moved from tubule through the cell and tissue fluid to capillary blood, recovering4; sodium-linked uptake/basal carrier and pump gradients are supplied. Other water19/urea2/K4 recovery supplied across segments, not all at the glucose port. Late-tubule K secretion from blood through epithelium into lumen added2. Final within-row balances: water20−19+0=1, glucose4−4+0=0, urea6−2+0=4, potassium4−4+2=2. Blood+urine remains initial per substance:99+1=100water,20+0glucose,26+4urea,18+2K, cells2/protein2 in blood. Different substances have different unit scales, so no sum, mixture percentages, human renal rates or concentrations. Urea recycling and regulated variable potassium/water transport are simplified; small proteins can filter/recover. Filtrate is processed before urinary passages/ureter, not sent straight to bladder. One chosen model does not establish clinical function or variation."
+        }
+      ]
+    },
+    {
+      "heading": "Concept checks",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "No glucose units remain in final model urine. What explains this?",
+          "text": "Glucose entered the filtrate, then was recovered to blood.\nCorrect! The glucose marker passed the first filter. Proximal-tubule transport returned the modeled glucose to blood, rather than proving it never entered the filtrate. Revised after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "Which direction describes the potassium secretion example?",
+          "text": "From blood through a late-tubule cell into the tubule fluid.\nCorrect! Secretion adds material to tubule fluid. Reabsorption returns material to blood; excretion carries final material away in urine. Correct on first recorded check."
+        },
+        {
+          "type": "response",
+          "prompt": "Must every filtered urea unit remain in urine, and must these amounts fit every person?",
+          "text": "No. Some urea can be recovered/recycled; these amounts are chosen model bookkeeping.\nCorrect! Urea transport is more complex than a one-way waste pipe. Keep this chosen net recovery and the separate unit scales distinct from human concentrations. Correct on first recorded check."
+        }
+      ]
+    },
+    {
+      "heading": "Model limits and sources",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Marker sizes, colors and counts are explanatory. Counts use a separate arbitrary scale for each substance; do not turn them into urine percentages, concentrations or human filtration/recovery rates. All amounts are chosen for bookkeeping. Pressure drives filtration; the filter does not recognize only waste. Cells and this large-protein marker stay in blood, but real small proteins can be filtered and recovered. The glucose trace shows a net proximal-tubule route through cells, tissue fluid and capillaries; sodium-linked carriers and supporting pumps are supplied details. Other water, urea and potassium recovery is supplied across the nephron, not all at that glucose site. Potassium secretion is one regulated late-tubule example, not an unchanging rule for every person. Urea can move in both directions and recycle; the model only gives a chosen net recovery. Hormones(chemical messages), detailed transport/energy steps, acid–base balance, many solutes and changing flow are omitted. Final urine goes through collecting passages to the ureter; filtrate does not go straight from the glomerulus to the bladder. One ideal model cannot show human variation, diagnose kidney function or predict treatment."
+        },
+        {
+          "type": "paragraph",
+          "text": "OpenStax Biology2e41.2: kidney and nephron processes: https://openstax.org/books/biology-2e/pages/41-2-the-kidneys-and-osmoregulatory-organs"
+        },
+        {
+          "type": "paragraph",
+          "text": "OpenStax Anatomy and Physiology2e25.5: pressure-driven filtration: https://openstax.org/books/anatomy-and-physiology-2e/pages/25-5-physiology-of-urine-formation"
+        },
+        {
+          "type": "paragraph",
+          "text": "OpenStax Anatomy and Physiology2e25.6: recovery and secretion sites: https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption"
+        }
+      ],
+      "keepFirst": 4
+    }
+  ],
+  "activityVersion": 1,
+  "locale": "en",
+  "attemptId": "neph-3771958769-1794773321201",
+  "data": {
+    "schemaVersion": 1,
+    "activityVersion": 1,
+    "labId": "nephron",
+    "attemptId": "neph-3771958769-1794773321201",
+    "seed": 3771958769,
+    "locale": "en",
+    "stage": 6,
+    "studentName": "Zoë García",
+    "studentClass": "Period 5",
+    "prediction": "I predict that glucose and urea can both enter filtrate, with later recovery and secretion changing final urine. A filter may separate by barrier properties rather than deciding what is useful.",
+    "design": "Track each substance separately through the same model. Units are chosen and different between substances; never add rows or infer human concentrations. Different directions/regions add evidence, not three duplicate trials.",
+    "initialPlan": {
+      "prediction": "I predict that glucose and urea can both enter filtrate, with later recovery and secretion changing final urine. A filter may separate by barrier properties rather than deciding what is useful.",
+      "design": "Track each substance separately through the same model. Units are chosen and different between substances; never add rows or infer human concentrations. Different directions/regions add evidence, not three duplicate trials.",
+      "timing": "Before any filter fate or transport observation"
+    },
+    "routes": {
+      "water": "filter",
+      "glucose": "filter",
+      "urea": "filter",
+      "potassium": "filter",
+      "cell": "blood",
+      "protein": "blood"
+    },
+    "routeAttempts": [
+      {
+        "substance": "water",
+        "site": "blood",
+        "correct": false
+      },
+      {
+        "substance": "cell",
+        "site": "filter",
+        "correct": false
+      },
+      {
+        "substance": "water",
+        "site": "filter",
+        "correct": true
+      },
+      {
+        "substance": "glucose",
+        "site": "filter",
+        "correct": true
+      },
+      {
+        "substance": "urea",
+        "site": "filter",
+        "correct": true
+      },
+      {
+        "substance": "potassium",
+        "site": "filter",
+        "correct": true
+      },
+      {
+        "substance": "cell",
+        "site": "blood",
+        "correct": true
+      },
+      {
+        "substance": "protein",
+        "site": "blood",
+        "correct": true
+      }
+    ],
+    "glucoseTrace": true,
+    "otherRecovery": true,
+    "potassiumTrace": true,
+    "transportAttempts": [
+      {
+        "phase": "glucose-recovery",
+        "tool": "glucose",
+        "site": "basal",
+        "correct": false
+      },
+      {
+        "phase": "glucose-recovery",
+        "tool": "glucose",
+        "site": "apical",
+        "correct": true
+      },
+      {
+        "phase": "potassium-secretion",
+        "tool": "potassium",
+        "site": "apical",
+        "correct": false
+      },
+      {
+        "phase": "potassium-secretion",
+        "tool": "potassium",
+        "site": "basal",
+        "correct": true
+      }
+    ],
+    "calculations": {
+      "water": "1",
+      "glucose": "0",
+      "urea": "4",
+      "potassium": "2"
+    },
+    "calculationAttempts": [
+      {
+        "values": {
+          "water": "999",
+          "glucose": "",
+          "urea": "",
+          "potassium": ""
+        },
+        "correct": false
+      },
+      {
+        "values": {
+          "water": "1",
+          "glucose": "0",
+          "urea": "4",
+          "potassium": "2"
+        },
+        "correct": true
+      }
+    ],
+    "calculationRecord": {
+      "values": {
+        "water": "1",
+        "glucose": "0",
+        "urea": "4",
+        "potassium": "2"
+      },
+      "correctAfterFeedback": true,
+      "sourceId": "student-calculated-chosen-nephron-unit-balance"
+    },
+    "checks": {
+      "glucose": {
+        "attempts": [
+          {
+            "value": "blocked",
+            "correct": false
+          },
+          {
+            "value": "recovered",
+            "correct": true
+          }
+        ],
+        "value": "recovered",
+        "correct": true
+      },
+      "secretion": {
+        "attempts": [
+          {
+            "value": "into",
+            "correct": true
+          }
+        ],
+        "value": "into",
+        "correct": true
+      },
+      "urea": {
+        "attempts": [
+          {
+            "value": "net",
+            "correct": true
+          }
+        ],
+        "value": "net",
+        "correct": true
+      }
+    },
+    "answers": {
+      "filter": "My filter explanation: supplied filter portions water20/glucose4/urea6/K4 entered the capsule/tubule; red cell and large-protein marker stayed in blood. Pressure/barrier properties do not identify waste only. Proximal glucose moved from tubule through the cell and tissue fluid to capillary blood, recovering4; sodium-linked uptake/basal carrier and pump gradients are supplied. Other water19/urea2/K4 recovery supplied across segments, not all at the glucose port. Late-tubule K secretion from blood through epithelium into lumen added2. Final within-row balances: water20−19+0=1, glucose4−4+0=0, urea6−2+0=4, potassium4−4+2=2. Blood+urine remains initial per substance:99+1=100water,20+0glucose,26+4urea,18+2K, cells2/protein2 in blood. Different substances have different unit scales, so no sum, mixture percentages, human renal rates or concentrations. Urea recycling and regulated variable potassium/water transport are simplified; small proteins can filter/recover. Filtrate is processed before urinary passages/ureter, not sent straight to bladder. One chosen model does not establish clinical function or variation.",
+      "directions": "My directions explanation: supplied filter portions water20/glucose4/urea6/K4 entered the capsule/tubule; red cell and large-protein marker stayed in blood. Pressure/barrier properties do not identify waste only. Proximal glucose moved from tubule through the cell and tissue fluid to capillary blood, recovering4; sodium-linked uptake/basal carrier and pump gradients are supplied. Other water19/urea2/K4 recovery supplied across segments, not all at the glucose port. Late-tubule K secretion from blood through epithelium into lumen added2. Final within-row balances: water20−19+0=1, glucose4−4+0=0, urea6−2+0=4, potassium4−4+2=2. Blood+urine remains initial per substance:99+1=100water,20+0glucose,26+4urea,18+2K, cells2/protein2 in blood. Different substances have different unit scales, so no sum, mixture percentages, human renal rates or concentrations. Urea recycling and regulated variable potassium/water transport are simplified; small proteins can filter/recover. Filtrate is processed before urinary passages/ureter, not sent straight to bladder. One chosen model does not establish clinical function or variation.",
+      "balance": "My balance explanation: supplied filter portions water20/glucose4/urea6/K4 entered the capsule/tubule; red cell and large-protein marker stayed in blood. Pressure/barrier properties do not identify waste only. Proximal glucose moved from tubule through the cell and tissue fluid to capillary blood, recovering4; sodium-linked uptake/basal carrier and pump gradients are supplied. Other water19/urea2/K4 recovery supplied across segments, not all at the glucose port. Late-tubule K secretion from blood through epithelium into lumen added2. Final within-row balances: water20−19+0=1, glucose4−4+0=0, urea6−2+0=4, potassium4−4+2=2. Blood+urine remains initial per substance:99+1=100water,20+0glucose,26+4urea,18+2K, cells2/protein2 in blood. Different substances have different unit scales, so no sum, mixture percentages, human renal rates or concentrations. Urea recycling and regulated variable potassium/water transport are simplified; small proteins can filter/recover. Filtrate is processed before urinary passages/ureter, not sent straight to bladder. One chosen model does not establish clinical function or variation."
+    },
+    "complete": true
+  },
+  "evidence": [
+    {
+      "goalId": "filter",
+      "answerId": "filter",
+      "writing": "My filter explanation: supplied filter portions water20/glucose4/urea6/K4 entered the capsule/tubule; red cell and large-protein marker stayed in blood. Pressure/barrier properties do not identify waste only. Proximal glucose moved from tubule through the cell and tissue fluid to capillary blood, recovering4; sodium-linked uptake/basal carrier and pump gradients are supplied. Other water19/urea2/K4 recovery supplied across segments, not all at the glucose port. Late-tubule K secretion from blood through epithelium into lumen added2. Final within-row balances: water20−19+0=1, glucose4−4+0=0, urea6−2+0=4, potassium4−4+2=2. Blood+urine remains initial per substance:99+1=100water,20+0glucose,26+4urea,18+2K, cells2/protein2 in blood. Different substances have different unit scales, so no sum, mixture percentages, human renal rates or concentrations. Urea recycling and regulated variable potassium/water transport are simplified; small proteins can filter/recover. Filtrate is processed before urinary passages/ureter, not sent straight to bladder. One chosen model does not establish clinical function or variation.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "directions",
+      "answerId": "directions",
+      "writing": "My directions explanation: supplied filter portions water20/glucose4/urea6/K4 entered the capsule/tubule; red cell and large-protein marker stayed in blood. Pressure/barrier properties do not identify waste only. Proximal glucose moved from tubule through the cell and tissue fluid to capillary blood, recovering4; sodium-linked uptake/basal carrier and pump gradients are supplied. Other water19/urea2/K4 recovery supplied across segments, not all at the glucose port. Late-tubule K secretion from blood through epithelium into lumen added2. Final within-row balances: water20−19+0=1, glucose4−4+0=0, urea6−2+0=4, potassium4−4+2=2. Blood+urine remains initial per substance:99+1=100water,20+0glucose,26+4urea,18+2K, cells2/protein2 in blood. Different substances have different unit scales, so no sum, mixture percentages, human renal rates or concentrations. Urea recycling and regulated variable potassium/water transport are simplified; small proteins can filter/recover. Filtrate is processed before urinary passages/ureter, not sent straight to bladder. One chosen model does not establish clinical function or variation.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "balance",
+      "answerId": "balance",
+      "writing": "My balance explanation: supplied filter portions water20/glucose4/urea6/K4 entered the capsule/tubule; red cell and large-protein marker stayed in blood. Pressure/barrier properties do not identify waste only. Proximal glucose moved from tubule through the cell and tissue fluid to capillary blood, recovering4; sodium-linked uptake/basal carrier and pump gradients are supplied. Other water19/urea2/K4 recovery supplied across segments, not all at the glucose port. Late-tubule K secretion from blood through epithelium into lumen added2. Final within-row balances: water20−19+0=1, glucose4−4+0=0, urea6−2+0=4, potassium4−4+2=2. Blood+urine remains initial per substance:99+1=100water,20+0glucose,26+4urea,18+2K, cells2/protein2 in blood. Different substances have different unit scales, so no sum, mixture percentages, human renal rates or concentrations. Urea recycling and regulated variable potassium/water transport are simplified; small proteins can filter/recover. Filtrate is processed before urinary passages/ureter, not sent straight to bladder. One chosen model does not establish clinical function or variation.",
+      "status": "not_graded"
+    }
+  ]
+}

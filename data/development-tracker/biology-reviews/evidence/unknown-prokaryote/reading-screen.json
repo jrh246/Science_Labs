@@ -1,0 +1,86 @@
+{
+  "labId": "unknown-prokaryote",
+  "locale": "en",
+  "scope": "Authored core directions/questions; excludes teacher notes, sources and student writing. Dynamic app/diagram/report wording is reviewed manually.",
+  "method": "Approximate Flesch-Kincaid with heuristic syllable counts and explicit scientific-word exceptions. Short fragments and technical terms can distort the score; no pass/fail or language certification.",
+  "overall": {
+    "words": 577,
+    "sentences": 60,
+    "wordsPerSentence": 9.6,
+    "approximateFleschKincaidGrade": 7.8
+  },
+  "fragments": {
+    "intro": {
+      "words": 45,
+      "sentences": 5,
+      "wordsPerSentence": 9,
+      "approximateFleschKincaidGrade": 9.7
+    },
+    "prediction": {
+      "words": 19,
+      "sentences": 2,
+      "wordsPerSentence": 9.5,
+      "approximateFleschKincaidGrade": 9.9
+    },
+    "design": {
+      "words": 21,
+      "sentences": 2,
+      "wordsPerSentence": 10.5,
+      "approximateFleschKincaidGrade": 5.4
+    },
+    "controls": {
+      "words": 55,
+      "sentences": 5,
+      "wordsPerSentence": 11,
+      "approximateFleschKincaidGrade": 6.7
+    },
+    "sampling": {
+      "words": 49,
+      "sentences": 4,
+      "wordsPerSentence": 12.3,
+      "approximateFleschKincaidGrade": 7.7
+    },
+    "limits": {
+      "words": 113,
+      "sentences": 9,
+      "wordsPerSentence": 12.6,
+      "approximateFleschKincaidGrade": 9
+    },
+    "explanation:microscopy": {
+      "words": 27,
+      "sentences": 2,
+      "wordsPerSentence": 13.5,
+      "approximateFleschKincaidGrade": 8.9
+    },
+    "explanation:metabolism": {
+      "words": 29,
+      "sentences": 3,
+      "wordsPerSentence": 9.7,
+      "approximateFleschKincaidGrade": 5.3
+    },
+    "explanation:inference": {
+      "words": 37,
+      "sentences": 3,
+      "wordsPerSentence": 12.3,
+      "approximateFleschKincaidGrade": 8.4
+    },
+    "check:shape-only": {
+      "words": 57,
+      "sentences": 9,
+      "wordsPerSentence": 6.3,
+      "approximateFleschKincaidGrade": 4.9
+    },
+    "check:acid-gas": {
+      "words": 66,
+      "sentences": 10,
+      "wordsPerSentence": 6.6,
+      "approximateFleschKincaidGrade": 8.8
+    },
+    "check:scope": {
+      "words": 59,
+      "sentences": 6,
+      "wordsPerSentence": 9.8,
+      "approximateFleschKincaidGrade": 9.2
+    }
+  }
+}

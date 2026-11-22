@@ -1,0 +1,14 @@
+✔ heat first plan/current geometry and both cube/probe/initial setups gate a single shared interval (17.4255ms)
+✔ heat geometric scaling distinguishes total area from area per volume and uniform cooling is bounded/curved (0.4828ms)
+✔ heat checked rounded model readings drive finite-interval rates and separate energy estimates (0.8569ms)
+✔ heat view-only snapshots preserve work, current empty/read/calculation edits clear dependencies and survive reload (1.5004ms)
+✔ heat current interpretations gate concepts and preserve meaningful correction, ratios and original model source (1.2954ms)
+✔ heat report retains supplied versus student-calculated sources, Unicode, identity and honest completion (1.0909ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 110.3704

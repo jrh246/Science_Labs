@@ -1,0 +1,258 @@
+{
+  "schemaVersion": 2,
+  "labId": "embryonic-development",
+  "title": "Early Embryonic Development",
+  "question": "How do cell division and cell movement build an early embryo?",
+  "student": {
+    "name": "",
+    "class": ""
+  },
+  "status": "In progress",
+  "grading": "not_graded",
+  "exportedAt": "2026-11-15T22:08:28.190Z",
+  "exportTimeZone": "America/Los_Angeles",
+  "exportedAtDisplay": "Nov 15, 2026, 2:08 PM PST",
+  "sections": [
+    {
+      "heading": "First prediction and investigation design",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Required before observing: If a zygote divides into two cells with little overall growth, what should happen to average cell size? Will cell division alone arrange the gut lining inside? Explain.",
+          "text": "I predict average cells become smaller with cleavage while total volume changes little. Movement may arrange the gut internally."
+        },
+        {
+          "type": "response",
+          "prompt": "Required before observing: What evidence would distinguish dividing cells from cells moving inward? How could a section through an embryo reveal structures hidden by its surface?",
+          "text": "Use successive sections to distinguish division and cell movement, not three independent embryos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Before the first division or supplied section"
+        }
+      ]
+    },
+    {
+      "heading": "Observed process and current interpretation",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "First cleavage: current cell count and average relative cell volume",
+          "text": "Count: 2; average volume: .5of chosen initial1. Correct first check."
+        },
+        {
+          "type": "response",
+          "prompt": "cleavage process",
+          "text": "Current placement: division furrow. Correct first placement."
+        },
+        {
+          "type": "response",
+          "prompt": "cell ingression",
+          "text": "Current placement: vegetal cell group. Correct first placement."
+        },
+        {
+          "type": "response",
+          "prompt": "sheet invagination",
+          "text": "Current placement: vegetal sheet. Correct first placement."
+        },
+        {
+          "type": "response",
+          "prompt": "future epidermis / ectoderm",
+          "text": "Current placement: outer cell layer. Correct first placement."
+        },
+        {
+          "type": "response",
+          "prompt": "future larval skeleton / mesoderm",
+          "text": "Current placement: internal mesoderm cells. Correct first placement."
+        },
+        {
+          "type": "response",
+          "prompt": "future gut lining / endoderm",
+          "text": "Current placement: gut-pouch wall. Correct first placement."
+        },
+        {
+          "type": "paragraph",
+          "text": "Later cleavage/cavity, molecular controls, further mesoderm populations and final gut extension are model-supplied or omitted. Fate labels record interpretation, not transplantation or mature organ formation."
+        }
+      ]
+    },
+    {
+      "heading": "Learning evidence",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Use your cell count and average relative volume. How did cleavage change cell number and cell size without doubling the whole embryo? What was assumed?",
+          "text": "My cleavage evidence: first cleavage made2cells of average relative volume0.5 from total1, little overall growth and no halving of chromosome sets. Later divisions and cavity supplied, not measured stages or a fixed count. Mesoderm cell ingression at the vegetal side moved individual cells inside; sheet invagination bent vegetal tissue into an open early gut pouch. These distinct movements support my prediction that division alone does not show the complete body plan. Its lumen is different from the surrounding blastocoel, not a complete through-gut. Blue outer ectoderm gives epidermis/neurons, pink mesoderm includes larval skeletal cells, tan endoderm forms gut lining. Pink tip includes more mesoderm. Future-tissue labels record supplied origins, not transformations caused by a label; organs can combine origins. Cells keep dividing during gastrulation and stages overlap. Molecular signals, adhesion, unequal later divisions, other mesoderm and later gut extension omitted. Original reduced-count enlarged sections are not photographs, human timing or three nested rings shared by every animal."
+        },
+        {
+          "type": "response",
+          "prompt": "Compare ingression and invagination in the sections. What moved, and where? Why is the remaining blastocoel different from the inside of the early gut pouch?",
+          "text": "My movement evidence: first cleavage made2cells of average relative volume0.5 from total1, little overall growth and no halving of chromosome sets. Later divisions and cavity supplied, not measured stages or a fixed count. Mesoderm cell ingression at the vegetal side moved individual cells inside; sheet invagination bent vegetal tissue into an open early gut pouch. These distinct movements support my prediction that division alone does not show the complete body plan. Its lumen is different from the surrounding blastocoel, not a complete through-gut. Blue outer ectoderm gives epidermis/neurons, pink mesoderm includes larval skeletal cells, tan endoderm forms gut lining. Pink tip includes more mesoderm. Future-tissue labels record supplied origins, not transformations caused by a label; organs can combine origins. Cells keep dividing during gastrulation and stages overlap. Molecular signals, adhesion, unequal later divisions, other mesoderm and later gut extension omitted. Original reduced-count enlarged sections are not photographs, human timing or three nested rings shared by every animal."
+        },
+        {
+          "type": "response",
+          "prompt": "Use your three tissue labels to explain ectoderm, mesoderm and endoderm. Why are these origins not a claim that all organs, animals or stages form three nested rings? Compare the result with your prediction.",
+          "text": "Evidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nFINAL LONG ANSWER"
+        }
+      ]
+    },
+    {
+      "heading": "Concept checks",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Two early cells each have half the starting volume in this model. What changed?",
+          "text": "Starting material was divided; total volume stayed about the same.\nCorrect! Cleavage uses mitotic divisions, with DNA copied between divisions. Early cells become smaller without a matching increase in total embryo size; this does not halve chromosome sets. Revised after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "Is the blastocoel the inside of the new gut pouch?",
+          "text": "No. Cells line the new pouch, separating its lumen from the surrounding blastocoel.\nCorrect! The blastocoel is a preexisting space. Invagination makes a separate pouch with a new inside, called its lumen."
+        },
+        {
+          "type": "response",
+          "prompt": "Does placing a future-tissue label turn a cell into that tissue?",
+          "text": "No. It labels a supplied developmental origin; signals and later differentiation are not simulated in full.\nCorrect! Labels record your interpretation. Real differentiation involves gene activity and interactions; sea-urchin mesoderm here includes cells within the blastocoel."
+        }
+      ]
+    },
+    {
+      "heading": "Model limits and sources",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "These original drawings are enlarged teaching sections, not photographs, measured embryos or a complete three-dimensional cell map. Relative volume uses a chosen initial total of1and an equal first division, with little net growth. Later divisions can be unequal and cells can keep dividing during gastrulation. Cell number and wall thickness are reduced in the drawings. Real stages overlap and involve many signals, changes in adhesion and cell shape. Some mesoderm cells enter the cavity before gut invagination; more mesoderm populations and later gut extension are supplied or omitted here. The early gut pouch is open at its base and is not yet a complete through-gut. The blastocoel is not the gut lumen. Germ-layer names describe origins, not three permanent nested rings. Other animals, including mammals, develop differently. No human ages, clinical outcomes or live-embryo procedures are modeled."
+        },
+        {
+          "type": "paragraph",
+          "text": "OpenStax Biology2e43.6: early cleavage and germ layers: https://openstax.org/books/biology-2e/pages/43-6-fertilization-and-early-embryonic-development"
+        },
+        {
+          "type": "paragraph",
+          "text": "McClay and colleagues: Gastrulation in the sea urchin, relevant overview: https://pmc.ncbi.nlm.nih.gov/articles/PMC7941261/"
+        }
+      ]
+    }
+  ],
+  "data": {
+    "schemaVersion": 1,
+    "activityVersion": 1,
+    "labId": "embryonic-development",
+    "attemptId": "embryo-3779144791-1794780507223",
+    "seed": 3779144791,
+    "locale": "en",
+    "stage": 2,
+    "frame": 4,
+    "studentName": "",
+    "studentClass": "",
+    "prediction": "I predict average cells become smaller with cleavage while total volume changes little. Movement may arrange the gut internally.",
+    "design": "Use successive sections to distinguish division and cell movement, not three independent embryos.",
+    "initialPlan": {
+      "prediction": "I predict average cells become smaller with cleavage while total volume changes little. Movement may arrange the gut internally.",
+      "design": "Use successive sections to distinguish division and cell movement, not three independent embryos.",
+      "timing": "Before the first division or supplied section"
+    },
+    "count": "2",
+    "volume": ".5",
+    "readAttempts": [
+      {
+        "count": "2",
+        "volume": ".5",
+        "correct": true
+      }
+    ],
+    "readRecord": {
+      "count": "2",
+      "volume": ".5",
+      "correctAfterFeedback": false
+    },
+    "placements": [
+      {
+        "frame": 0,
+        "tool": "cleavage",
+        "site": "furrow",
+        "correct": true
+      },
+      {
+        "frame": 2,
+        "tool": "ingression",
+        "site": "vegetal",
+        "correct": true
+      },
+      {
+        "frame": 3,
+        "tool": "invagination",
+        "site": "plate",
+        "correct": true
+      },
+      {
+        "frame": 4,
+        "tool": "epidermis",
+        "site": "outer",
+        "correct": true
+      },
+      {
+        "frame": 4,
+        "tool": "skeleton",
+        "site": "inner-cells",
+        "correct": true
+      },
+      {
+        "frame": 4,
+        "tool": "lining",
+        "site": "pouch",
+        "correct": true
+      }
+    ],
+    "fates": {
+      "epidermis": "outer",
+      "skeleton": "inner-cells",
+      "lining": "pouch"
+    },
+    "checks": {
+      "growth": {
+        "attempts": [
+          {
+            "value": "meiosis",
+            "correct": false
+          },
+          {
+            "value": "divide",
+            "correct": true
+          }
+        ],
+        "value": "divide",
+        "correct": true
+      },
+      "cavity": {
+        "attempts": [
+          {
+            "value": "distinct",
+            "correct": true
+          }
+        ],
+        "value": "distinct",
+        "correct": true
+      },
+      "origin": {
+        "attempts": [
+          {
+            "value": "label",
+            "correct": true
+          }
+        ],
+        "value": "label",
+        "correct": true
+      }
+    },
+    "answers": {
+      "cleavage": "My cleavage evidence: first cleavage made2cells of average relative volume0.5 from total1, little overall growth and no halving of chromosome sets. Later divisions and cavity supplied, not measured stages or a fixed count. Mesoderm cell ingression at the vegetal side moved individual cells inside; sheet invagination bent vegetal tissue into an open early gut pouch. These distinct movements support my prediction that division alone does not show the complete body plan. Its lumen is different from the surrounding blastocoel, not a complete through-gut. Blue outer ectoderm gives epidermis/neurons, pink mesoderm includes larval skeletal cells, tan endoderm forms gut lining. Pink tip includes more mesoderm. Future-tissue labels record supplied origins, not transformations caused by a label; organs can combine origins. Cells keep dividing during gastrulation and stages overlap. Molecular signals, adhesion, unequal later divisions, other mesoderm and later gut extension omitted. Original reduced-count enlarged sections are not photographs, human timing or three nested rings shared by every animal.",
+      "movement": "My movement evidence: first cleavage made2cells of average relative volume0.5 from total1, little overall growth and no halving of chromosome sets. Later divisions and cavity supplied, not measured stages or a fixed count. Mesoderm cell ingression at the vegetal side moved individual cells inside; sheet invagination bent vegetal tissue into an open early gut pouch. These distinct movements support my prediction that division alone does not show the complete body plan. Its lumen is different from the surrounding blastocoel, not a complete through-gut. Blue outer ectoderm gives epidermis/neurons, pink mesoderm includes larval skeletal cells, tan endoderm forms gut lining. Pink tip includes more mesoderm. Future-tissue labels record supplied origins, not transformations caused by a label; organs can combine origins. Cells keep dividing during gastrulation and stages overlap. Molecular signals, adhesion, unequal later divisions, other mesoderm and later gut extension omitted. Original reduced-count enlarged sections are not photographs, human timing or three nested rings shared by every animal.",
+      "layers": "Evidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nFINAL LONG ANSWER"
+    },
+    "complete": false
+  },
+  "activityVersion": 1,
+  "locale": "en",
+  "attemptId": "embryo-3779144791-1794780507223"
+}

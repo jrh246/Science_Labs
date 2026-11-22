@@ -1,0 +1,152 @@
+[
+  {
+    "file": "public/resources/vertebrate-limbs-teacher-guide.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      3092,
+      2923
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "public/resources/vertebrate-limbs-worksheet.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1793,
+      1621,
+      2582
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/bone-unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1781,
+      2319,
+      2134
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/complete.pdf",
+    "pages": 4,
+    "pageCharacters": [
+      1844,
+      2862,
+      2690,
+      1597
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/development-draft.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1920,
+      2192,
+      1839
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/draft.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1910,
+      2192,
+      1839
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/edited-unconfirmed.pdf",
+    "pages": 4,
+    "pageCharacters": [
+      1853,
+      2845,
+      2819,
+      1600
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/function-unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1856,
+      2381,
+      2134
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/long-native-print.pdf",
+    "pages": 7,
+    "pageCharacters": [
+      2238,
+      3019,
+      1055,
+      837,
+      837,
+      1041,
+      2157
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/long-offline.pdf",
+    "pages": 7,
+    "pageCharacters": [
+      1853,
+      2850,
+      1694,
+      905,
+      905,
+      905,
+      2709
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/native-print.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2232,
+      3034,
+      3399
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/ratio-unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1856,
+      2310,
+      2134
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/tag-edited-unconfirmed.pdf",
+    "pages": 4,
+    "pageCharacters": [
+      1842,
+      2936,
+      2707,
+      1600
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1856,
+      2338,
+      2134
+    ],
+    "finalLongMarker": false
+  }
+]

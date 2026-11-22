@@ -1,0 +1,18 @@
+{
+  "capturedAt": "2026-11-15T10:51:29.040Z",
+  "scope": "Actual working-tree hashes; unrelated edits preserved; not a clean commit.",
+  "files": {
+    "src/investigations/phylo-content.js": "ff9ef805134d9e809616dd1ffd119b1dcfab22ac06bded017ab61d470948369f",
+    "src/investigations/phylo-model.js": "b65daf1d7bd2aff0d207ee2ff9971c2e682b5843098d7ddf88a77547558338c2",
+    "src/investigations/phylo-art.js": "8a0185188fe5dd8b0a65476e6c70da6ee70b3ec84263460e4ccbacebaa032683",
+    "src/investigations/phylo-report.js": "4a678cce4c8692ea9bab46ff83d65e58c645642da4d41b804cf86322592a079d",
+    "src/investigations/phylo-app.js": "e11fee18cf56b293a3d386c8042fcfcaa56e33af8aaa815f90ce92fdc1013f49",
+    "src/investigations/phylo.css": "aafaa21e0710297723c63045b71a7617528bdd0f217d9fbc88056a5003ddb0ef",
+    "src/investigations/app.js": "6be4026a0992cf1db21ee249fc1dc5ec867f32e01e0fd711887cbf944994b9ed",
+    "src/catalog.js": "f021c2e103d23d1856acd0668b900b66d1debd7c22c52f853cbde3ed2c66246d",
+    "tests/phylo.test.js": "a18de402c3b1392ec50bca82976feed06e654d4acec88fa98328a50651605b57",
+    "tests/browser/phylo.spec.js": "327059ce405b4a64af089bdcf388d00631e782df0d1919e05ded259425929072",
+    "scripts/biology-reading-screen.mjs": "687ea0f921aa8373caee0f2d48f31375dfb0080861ed7d25629747f7f2dbc786",
+    "scripts/verify-resources.py": "728e2e00672f5556ecaa154747f8c46ab8943d78826754bf9f8345e37f48817c"
+  }
+}

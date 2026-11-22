@@ -1,0 +1,39 @@
+✔ prediction gates model actions and retains first writing after revision (0.7007ms)
+✔ source/hormone/receptor/glucose site errors retained; correct sites cause distinct changes (0.1717ms)
+✔ wrong/empty interpretation remains unconfirmed, records meaningful correction, then distinct fall challenge (0.219ms)
+✔ academic interpretation edits revoke current confirmation without deleting source traces or earlier reasoning (0.382ms)
+✔ reports keep current wrong answers and meaningful feedback rather than invented clinical measurements (13.2337ms)
+✖ complete snapshot preserves original Unicode writing, source distinctions, immutable example values and reload (4.3618ms)
+✔ PDF symbol formatting preserves complete original scientific writing and report snapshot (14.3192ms)
+✔ PDF symbol engine supports legacy inline runs/table strings without changing attached response text (0.2358ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 7
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 111.4892
+
+✖ failing tests:
+
+test at tests\glucose.test.js:8:1
+✖ complete snapshot preserves original Unicode writing, source distinctions, immutable example values and reload (4.3618ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert(r.complete)
+  
+      at TestContext.<anonymous> (file:///C:/Projects/Science_Labs/tests/glucose.test.js:8:207)
+      at Test.runInAsyncScope (node:async_hooks:228:14)
+      at Test.run (node:internal/test_runner/test:1118:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:787:18)
+      at Test.postRun (node:internal/test_runner/test:1247:19)
+      at Test.run (node:internal/test_runner/test:1175:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:787:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

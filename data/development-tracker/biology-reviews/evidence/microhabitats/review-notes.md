@@ -1,0 +1,11 @@
+# BIO-30 separate review
+
+Read relevant OpenStax44.1 ecology/abiotic-biotic and45.1 quadrat/distribution paragraphs. Facts consulted, original words/art/data, no source figures, field data or assessments copied. Six preselected frozen nonoverlapping1m²locations at same imagined time: shade counts4/6/3and open2/3/1. Means4.3/2.0, ranges3–6/1–3, shared3. Temperature overlaps20°C; moisture relative index is invented, not percent water/humidity. Complete detection/depth/time/no movement supplied. Descriptive association in one site, not independent controlled habitat replication, random representative survey or moisture causation.
+
+Reviewed ten visual states: first quadrat/probe setup, six distinct woodlouse scenes and phone/tablet markers. Added actual visible probe after placement. Repetitive later equipment setups supplied; no count/response copied. Reversible markers are view-only aids, raw typed count and conditions remain distinct.
+
+Actual draft report originally asserted a completed setup before it occurred. Changed to not demonstrated/frame-only/probe-complete and added partial-state test. Actual count/calculation wrongs and blank edits remain unconfirmed; current edits invalidate downstream confirmation and gate immediately. Direct saved comparison view/return preserves completion. Initial resource checker failed KeyError because new content was imported but omitted from returned data object; corrected registration and future integration helper, preserved initial failure.
+
+Initial13/final14 focused tests and both6-browser groups pass;99resource validations and current private compilation pass. All34 final PDF/resource/native pages viewed, teacher2/student3, completed3, partial2/3, long6/6. Prompt-answer start/glyph/source parity checks pass; full long tail visible. Draft setup now truthful, no clipped table/writing or blank page. Manual wording/definition review, heuristic8.5/10.2words only.
+
+Desktop Chromium emulated touch/keyboard/mouse/reduced-motion/phone/tablet/reload tested. Real physical devices/AT, teacher/student comprehension, native language selection and reviewed translated print/app, standards/full-course and production release approval remain separate. No public deployment, account requirement, commit or push.

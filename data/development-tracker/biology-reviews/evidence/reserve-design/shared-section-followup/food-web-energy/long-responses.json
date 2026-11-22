@@ -1,0 +1,286 @@
+{
+  "schemaVersion": 2,
+  "labId": "food-web-energy",
+  "title": "Energy Through a Food Web",
+  "question": "Where does food energy go, and how much becomes new tissue at the next feeding level?",
+  "student": {
+    "name": "",
+    "class": ""
+  },
+  "status": "In progress",
+  "grading": "not_graded",
+  "exportedAt": "2026-11-15T22:08:39.907Z",
+  "exportTimeZone": "America/Los_Angeles",
+  "exportedAtDisplay": "Nov 15, 2026, 2:08 PM PST",
+  "sections": [
+    {
+      "heading": "First prediction and design",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Required before tracing: If a consumer eats food, must all that food energy become its new tissue? Predict other destinations. Must the same percent reach every next feeding level? Explain.",
+          "text": "I predict food energy can remain in feces or new tissue, and respiration eventually releases heat. Different feeding levels may transfer different percentages."
+        },
+        {
+          "type": "response",
+          "prompt": "Required before tracing: Why compare production over the same area and period? How would you avoid counting the same transferred energy twice when following a branching food web?",
+          "text": "Use production over the same1m²and model period. Follow each original input to distinct destinations; do not count transferred portions again as fresh energy."
+        },
+        {
+          "type": "paragraph",
+          "text": "Before feeding links or energy values were shown"
+        }
+      ]
+    },
+    {
+      "heading": "Food paths and energy calculations",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Plant → grasshopper",
+          "text": "Recorded food-to-eater link; supplied300kJ in this model."
+        },
+        {
+          "type": "response",
+          "prompt": "Plant → rabbit",
+          "text": "Recorded food-to-eater link; supplied200kJ in this model."
+        },
+        {
+          "type": "response",
+          "prompt": "Grasshopper → hawk",
+          "text": "Recorded food-to-eater link; supplied15kJ in this model."
+        },
+        {
+          "type": "response",
+          "prompt": "Rabbit → hawk",
+          "text": "Recorded food-to-eater link; supplied10kJ in this model."
+        },
+        {
+          "type": "response",
+          "prompt": "Current feeding choice needing feedback",
+          "text": "No incorrect feeding choice recorded."
+        },
+        {
+          "type": "response",
+          "prompt": "Grasshopper current new-tissue calculation",
+          "text": "30kJ. Correct first check."
+        },
+        {
+          "type": "response",
+          "prompt": "Current producer→herbivore and herbivore→hawk level transfers",
+          "text": "5percent and10percent. Correct first check."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Supplied consumer budget",
+            "Eaten",
+            "Unabsorbed",
+            "Respired",
+            "New tissue"
+          ],
+          "rows": [
+            [
+              "Grasshopper",
+              300,
+              90,
+              180,
+              30
+            ],
+            [
+              "Rabbit",
+              200,
+              60,
+              120,
+              20
+            ],
+            [
+              "Hawk",
+              25,
+              5,
+              15,
+              5
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Grasshopper new tissue30was checked earlier; current response/status is shown above. Rabbit/hawk budgets were supplied. All kJ per1m²per model period. Producer net production1000; herbivores combined50; hawk5. Final distinct destinations315respired/eventual heat,155chemical energy in unabsorbed food,530remaining new tissue. Later decomposition not included."
+        }
+      ]
+    },
+    {
+      "heading": "Learning evidence",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Use your four feeding links to trace energy to the hawk along two paths. Why do the arrows point from food to eater? Why is this not a count of individual animals?",
+          "text": "My web evidence: plant→grasshopper→hawk and plant→rabbit→hawk trace food chemical energy to eater, not numbers of animals. Chosen net plant production1000after plant respiration,300eaten by hopper and200rabbit. Hopper300−90unabsorbed−180respired=30new tissue; rabbit20and hawk5supplied. Hawk eats15hopper+10rabbit=25, with5unabsorbed+15respired+5new tissue. Level production50/1000×100=5%and5/50×100=10%, different from5/25×100=20%of food eaten by hawk. Final distinct destinations315eventual heat,155chemical energy in feces and530remaining new tissue(500plant+15hopper+10rabbit+5hawk)=1000. Not all untransferred energy is already heat; decomposers can later use detrital chemical energy, nutrients cycle but food energy is not recycled from heat. Summing1000+50+5double-counts transfers. Matched1m²/period required; remaining new tissue is not total standing biomass. Sunlight/plant respiration outside starting net budget; later decomposition/death/other excretion/exports omitted. Original toy diets/values/icon sizes not empirical rates, universal10%or population predictions. My prediction about several destinations/different transfers is compared with this evidence."
+        },
+        {
+          "type": "response",
+          "prompt": "Use the grasshopper budget and the supplied final totals for heat, unabsorbed food and remaining new living tissue. Why should distinct final destinations add to the starting net plant production without energy being destroyed? Why is detrital chemical energy different from heat?",
+          "text": "My budget evidence: plant→grasshopper→hawk and plant→rabbit→hawk trace food chemical energy to eater, not numbers of animals. Chosen net plant production1000after plant respiration,300eaten by hopper and200rabbit. Hopper300−90unabsorbed−180respired=30new tissue; rabbit20and hawk5supplied. Hawk eats15hopper+10rabbit=25, with5unabsorbed+15respired+5new tissue. Level production50/1000×100=5%and5/50×100=10%, different from5/25×100=20%of food eaten by hawk. Final distinct destinations315eventual heat,155chemical energy in feces and530remaining new tissue(500plant+15hopper+10rabbit+5hawk)=1000. Not all untransferred energy is already heat; decomposers can later use detrital chemical energy, nutrients cycle but food energy is not recycled from heat. Summing1000+50+5double-counts transfers. Matched1m²/period required; remaining new tissue is not total standing biomass. Sunlight/plant respiration outside starting net budget; later decomposition/death/other excretion/exports omitted. Original toy diets/values/icon sizes not empirical rates, universal10%or population predictions. My prediction about several destinations/different transfers is compared with this evidence."
+        },
+        {
+          "type": "response",
+          "prompt": "Show both level-transfer calculations using the supplied production values. Why do their percentages differ from one another and from a consumer’s production divided by its own ingested food? Compare your prediction and name two model limits.",
+          "text": "Evidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nFINAL LONG ANSWER"
+        }
+      ]
+    },
+    {
+      "heading": "Concept checks",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "What happens to the90kJ in the grasshopper’s unabsorbed food?",
+          "text": "It remains chemical energy in feces and can enter a detrital food path.\nCorrect! Unabsorbed food retains chemical energy. Respiration and eventual heat release are different destinations; energy is conserved. Revised after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "What denominator measures producer-to-herbivore level transfer here?",
+          "text": "Producer net production1000kJ over the same area and period.\nCorrect! Level transfer compares higher-level new production with lower-level new production. Dividing by food actually eaten answers a different question."
+        },
+        {
+          "type": "response",
+          "prompt": "Can1000+50+5be used as three separate energy inputs?",
+          "text": "No. Some of the same energy is transferred through these levels, so that sum double-counts it.\nCorrect! Consumer production comes from earlier food energy. Track the original input to distinct final destinations instead of summing repeated transfers."
+        }
+      ]
+    },
+    {
+      "heading": "Limits and sources",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Original drawings, food links and energy values are teaching assumptions, not photographs, empirical species diets or universal rates. Organism size and arrow width do not encode biomass, abundance or energy amount. Start with1000kJ of net plant production after plant respiration; sunlight input and plant respiration lie outside this budget. Only new production from this period is followed. Some remains uneaten in living tissue at the end; it is not all standing biomass. Unabsorbed food remains chemical energy in the detrital path, which includes waste and dead material. Later decomposition, death, other excretion and exports are not simulated. Decomposers can use detrital chemical energy and release heat; nutrients cycle, but heat is not recycled as food energy. Respired energy is not destroyed. The supplied transfer percentages are not constants for every ecosystem or a prediction of animal population size."
+        },
+        {
+          "type": "paragraph",
+          "text": "OpenStax Biology2e46.2: food-web direction, production and level transfer: https://openstax.org/books/biology-2e/pages/46-2-energy-flow-through-ecosystems"
+        }
+      ],
+      "keepFirst": 2
+    }
+  ],
+  "data": {
+    "schemaVersion": 1,
+    "activityVersion": 1,
+    "labId": "food-web-energy",
+    "attemptId": "energy-3779156546-1794780518978",
+    "seed": 3779156546,
+    "locale": "en",
+    "stage": 4,
+    "studentName": "",
+    "studentClass": "",
+    "prediction": "I predict food energy can remain in feces or new tissue, and respiration eventually releases heat. Different feeding levels may transfer different percentages.",
+    "design": "Use production over the same1m²and model period. Follow each original input to distinct destinations; do not count transferred portions again as fresh energy.",
+    "initialPlan": {
+      "prediction": "I predict food energy can remain in feces or new tissue, and respiration eventually releases heat. Different feeding levels may transfer different percentages.",
+      "design": "Use production over the same1m²and model period. Follow each original input to distinct destinations; do not count transferred portions again as fresh energy.",
+      "timing": "Before feeding links or energy values were shown"
+    },
+    "links": {
+      "plant-hopper": true,
+      "plant-rabbit": true,
+      "hopper-hawk": true,
+      "rabbit-hawk": true
+    },
+    "placements": [
+      {
+        "food": "plant",
+        "eater": "hopper",
+        "correct": true
+      },
+      {
+        "food": "plant",
+        "eater": "rabbit",
+        "correct": true
+      },
+      {
+        "food": "hopper",
+        "eater": "hawk",
+        "correct": true
+      },
+      {
+        "food": "rabbit",
+        "eater": "hawk",
+        "correct": true
+      }
+    ],
+    "values": {
+      "tissue": "30",
+      "first": "5",
+      "second": "10"
+    },
+    "budgetAttempts": [
+      {
+        "value": "30",
+        "correct": true
+      }
+    ],
+    "budgetRecord": {
+      "value": "30",
+      "correctAfterFeedback": false
+    },
+    "laterSeen": true,
+    "transferAttempts": [
+      {
+        "first": "5",
+        "second": "10",
+        "correct": true
+      }
+    ],
+    "transferRecord": {
+      "first": "5",
+      "second": "10",
+      "correctAfterFeedback": false
+    },
+    "checks": {
+      "waste": {
+        "attempts": [
+          {
+            "value": "heat",
+            "correct": false
+          },
+          {
+            "value": "detrital",
+            "correct": true
+          }
+        ],
+        "value": "detrital",
+        "correct": true
+      },
+      "level": {
+        "attempts": [
+          {
+            "value": "production",
+            "correct": true
+          }
+        ],
+        "value": "production",
+        "correct": true
+      },
+      "sum": {
+        "attempts": [
+          {
+            "value": "double",
+            "correct": true
+          }
+        ],
+        "value": "double",
+        "correct": true
+      }
+    },
+    "answers": {
+      "web": "My web evidence: plant→grasshopper→hawk and plant→rabbit→hawk trace food chemical energy to eater, not numbers of animals. Chosen net plant production1000after plant respiration,300eaten by hopper and200rabbit. Hopper300−90unabsorbed−180respired=30new tissue; rabbit20and hawk5supplied. Hawk eats15hopper+10rabbit=25, with5unabsorbed+15respired+5new tissue. Level production50/1000×100=5%and5/50×100=10%, different from5/25×100=20%of food eaten by hawk. Final distinct destinations315eventual heat,155chemical energy in feces and530remaining new tissue(500plant+15hopper+10rabbit+5hawk)=1000. Not all untransferred energy is already heat; decomposers can later use detrital chemical energy, nutrients cycle but food energy is not recycled from heat. Summing1000+50+5double-counts transfers. Matched1m²/period required; remaining new tissue is not total standing biomass. Sunlight/plant respiration outside starting net budget; later decomposition/death/other excretion/exports omitted. Original toy diets/values/icon sizes not empirical rates, universal10%or population predictions. My prediction about several destinations/different transfers is compared with this evidence.",
+      "budget": "My budget evidence: plant→grasshopper→hawk and plant→rabbit→hawk trace food chemical energy to eater, not numbers of animals. Chosen net plant production1000after plant respiration,300eaten by hopper and200rabbit. Hopper300−90unabsorbed−180respired=30new tissue; rabbit20and hawk5supplied. Hawk eats15hopper+10rabbit=25, with5unabsorbed+15respired+5new tissue. Level production50/1000×100=5%and5/50×100=10%, different from5/25×100=20%of food eaten by hawk. Final distinct destinations315eventual heat,155chemical energy in feces and530remaining new tissue(500plant+15hopper+10rabbit+5hawk)=1000. Not all untransferred energy is already heat; decomposers can later use detrital chemical energy, nutrients cycle but food energy is not recycled from heat. Summing1000+50+5double-counts transfers. Matched1m²/period required; remaining new tissue is not total standing biomass. Sunlight/plant respiration outside starting net budget; later decomposition/death/other excretion/exports omitted. Original toy diets/values/icon sizes not empirical rates, universal10%or population predictions. My prediction about several destinations/different transfers is compared with this evidence.",
+      "transfer": "Evidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nFINAL LONG ANSWER"
+    },
+    "complete": false
+  },
+  "locale": "en",
+  "activityVersion": 1,
+  "attemptId": "energy-3779156546-1794780518978"
+}

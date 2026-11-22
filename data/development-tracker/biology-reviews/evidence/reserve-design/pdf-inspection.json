@@ -1,0 +1,121 @@
+[
+  {
+    "file": "public/resources/reserve-design-teacher-guide.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      2971,
+      2650
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "public/resources/reserve-design-worksheet.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1758,
+      2071,
+      2466
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/reserve-design/budget-unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1832,
+      1777,
+      1395
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/reserve-design/complete.pdf",
+    "pages": 4,
+    "pageCharacters": [
+      1826,
+      2199,
+      4877,
+      2298
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/reserve-design/copied-unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1838,
+      2044,
+      2406
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/reserve-design/development-draft.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      1649,
+      1964
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/reserve-design/draft.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      1639,
+      1964
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/reserve-design/edited-unconfirmed.pdf",
+    "pages": 4,
+    "pageCharacters": [
+      1812,
+      2566,
+      4635,
+      1673
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/reserve-design/long-native-print.pdf",
+    "pages": 7,
+    "pageCharacters": [
+      1775,
+      2677,
+      2747,
+      837,
+      837,
+      837,
+      2375
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/reserve-design/long-offline.pdf",
+    "pages": 8,
+    "pageCharacters": [
+      1812,
+      2552,
+      3043,
+      905,
+      905,
+      905,
+      1302,
+      1395
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/reserve-design/native-print.pdf",
+    "pages": 4,
+    "pageCharacters": [
+      1792,
+      2103,
+      4777,
+      2202
+    ],
+    "finalLongMarker": false
+  }
+]

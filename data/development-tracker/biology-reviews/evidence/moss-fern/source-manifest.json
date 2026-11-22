@@ -1,0 +1,21 @@
+{
+  "capturedAt": "2026-11-15T12:54:49.977Z",
+  "scope": "Actual reviewed working-tree files; unrelated changes and previous student attempts preserved.",
+  "files": {
+    "src/investigations/seedless-content.js": "f8e41b0bae3b08f9b8e41ea625a65071cd3260fb48476b14f75cbe3ed93c5d46",
+    "src/investigations/seedless-model.js": "f741e0bba744b04c9eb17668ce08faf905c3a5f14e23e57f92c2186350527ddb",
+    "src/investigations/seedless-art.js": "a896c1c30f421daf0116401d7e22f35a750b31925f3d317a54465b08609c3106",
+    "src/investigations/seedless-report.js": "98a4bb63d104faeda1b1f3f9ce32d636d5fb0644d110447015cc3315619dab06",
+    "src/investigations/seedless-app.js": "32d3c17a36b1c482d73bf756173d3730935cc2078e8c4b048f1c8c6ed7788940",
+    "src/investigations/seedless.css": "746828a901659bd1f6ffd85d8fbc29264e29f185a4bc901755ad706d47d9afaf",
+    "src/investigations/guided-lab-shell.js": "7718d1ab83d65ac8551b25323338c5c2bb4c73afc988331f3c29b767a9abc55f",
+    "src/investigations/app.js": "bfe6f399328c61e9d6de14eecc8b42ff72c747a6074ce70fd1a72c6203e10540",
+    "src/catalog.js": "a3506162d1a7759801cc89a98bd197508096ca1cf99bc75f2528f539553e117e",
+    "tests/seedless.test.js": "44988a5c5166fc02946e4858fc018d50e9d8df2082a84d314be0639bfec318de",
+    "tests/browser/seedless.spec.js": "98dff22463f6c423acf6612b75df925d2e32c5184e39ee37b5387aba5f4900d2",
+    "scripts/build-biology-resources.py": "35d03900f42110eb9c08f71281bb8646e9fdaea75245cc2011cec13cd0fb916e",
+    "scripts/verify-resources.py": "e2fbabbe192bd0ea30b295f69c9b51371d9b6850996c38095c3de37967c0b2fc",
+    "public/resources/moss-fern-worksheet.pdf": "2e0e671a77a89efc6a78bf6dc4b5455a230bc872d72a645026135133066ecf83",
+    "public/resources/moss-fern-teacher-guide.pdf": "dd9c1836646c81d25f870549253dde45020fc760528650493f9fd129813c3306"
+  }
+}

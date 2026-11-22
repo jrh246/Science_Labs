@@ -1,0 +1,2825 @@
+{
+  "schemaVersion": 2,
+  "labId": "seed-dispersal",
+  "title": "Seed Dispersal Designs",
+  "question": "How does wing area affect model-seed landing distance when mass, release height and the fan setting are kept the same?",
+  "student": {
+    "name": "Zoë García",
+    "class": "Period 5"
+  },
+  "status": "Complete",
+  "grading": "not_graded",
+  "exportedAt": "2026-11-15T13:33:57.211Z",
+  "exportTimeZone": "America/Los_Angeles",
+  "exportedAtDisplay": "Nov 15, 2026, 5:33 AM PST",
+  "sections": [
+    {
+      "heading": "Prediction and controlled comparison",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Required before releases: Which wing design do you predict will have the greater mean (average) landing distance at your chosen fan setting? Explain why one release might not settle the question.",
+          "text": "The larger effective wing may have a greater mean distance, but releases may vary and overlap."
+        },
+        {
+          "type": "response",
+          "prompt": "Required before releases: Why keep total mass and release height the same? How will repeated releases help you distinguish a design difference from variation between drops?",
+          "text": "Keep total mass, release height and nominal wind the same. Compare three separate releases per design and their means and ranges."
+        },
+        {
+          "type": "paragraph",
+          "text": "Timing: Before balance or flight observations."
+        },
+        {
+          "type": "paragraph",
+          "text": "Chosen nominal wind: 1 m/s. Release height: 2.0 m. Both total model masses: 0.20 g. These are supplied model settings."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Design",
+            "Effective area",
+            "Student placed on model balance"
+          ],
+          "rows": [
+            [
+              "Small wing",
+              "10 cm²",
+              "Yes; supplied display 0.20 g"
+            ],
+            [
+              "Large wing",
+              "20 cm²",
+              "Yes; supplied display 0.20 g"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The small wing has an effective area of 10 cm² and the large wing 20 cm². Both supplied models have a total mass of 0.20 g, including their bodies and matched ballast, or added weight. Verify both on the model balance. Release from 2.0 m with the same nominal fan setting. Modeled gusts and small differences in drag create variation between releases."
+        }
+      ]
+    },
+    {
+      "heading": "Landing-distance evidence",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Distances refer to first ground contact from the vertical release line, read to 0.1 m. Airtime is model-computed, not timed by the student. Each row is a separate synthetic release; no field measurements or independent plants are claimed."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Design / release",
+            "Current distance (m)",
+            "Reading source",
+            "Evidence status",
+            "Model airtime (s)"
+          ],
+          "rows": [
+            [
+              "Small wing / 1",
+              "0.7",
+              "Student-guided release; Student read the model ruler",
+              "Correct after feedback",
+              "1.23"
+            ],
+            [
+              "Small wing / 2",
+              "1.0",
+              "Model-provided release; Model-provided reading",
+              "Supplied model result",
+              "1.32"
+            ],
+            [
+              "Small wing / 3",
+              "0.9",
+              "Model-provided release; Model-provided reading",
+              "Supplied model result",
+              "1.30"
+            ],
+            [
+              "Large wing / 1",
+              "1.5",
+              "Student-guided release; Student read the model ruler",
+              "Correct first check",
+              "1.61"
+            ],
+            [
+              "Large wing / 2",
+              "2.1",
+              "Model-provided release; Model-provided reading",
+              "Supplied model result",
+              "1.82"
+            ],
+            [
+              "Large wing / 3",
+              "1.9",
+              "Model-provided release; Model-provided reading",
+              "Supplied model result",
+              "1.71"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "No previously recorded reading was reopened."
+        }
+      ]
+    },
+    {
+      "heading": "Current student comparison",
+      "blocks": [
+        {
+          "type": "table",
+          "columns": [
+            "Design",
+            "Current mean (m)",
+            "Current range (m)",
+            "Status"
+          ],
+          "rows": [
+            [
+              "Small wing",
+              "0.9",
+              "0.3",
+              "Correct after feedback"
+            ],
+            [
+              "Large wing",
+              "1.8",
+              "0.6",
+              "Correct after feedback"
+            ]
+          ]
+        },
+        {
+          "type": "response",
+          "prompt": "Design with the greater rounded mean",
+          "text": "Large wing\nCorrect after feedback."
+        },
+        {
+          "type": "paragraph",
+          "text": "Means and ranges use the recorded 0.1 m values, including separately identified model-provided readings. A range is largest minus smallest; it does not describe all possible landings."
+        }
+      ]
+    },
+    {
+      "heading": "Evidence by learning goal",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Control model-seed mass, release height and nominal airflow while comparing effective wing area."
+        },
+        {
+          "type": "response",
+          "prompt": "Describe the design difference and the controls you verified. How can air resistance and time in the air affect sideways movement? Why is this a model rather than a complete simulation of a maple seed?",
+          "text": "My controls explanation uses actual distances 0.7, 1, 0.9 m for the small wing and 1.5, 2.1, 1.9 m for the large wing. Both masses were supplied as 0.20 g, with the same height and nominal wind. Separate drops vary, so means and ranges add context to one landing. I read the first distance for each design, and four later readings were model-provided. This drag-based paper model omits real maple rotation and lift. Distance alone does not measure habitat quality, survival or fitness."
+        },
+        {
+          "type": "paragraph",
+          "text": "Measure landing distance and compare means and ranges using repeated releases."
+        },
+        {
+          "type": "response",
+          "prompt": "Use both sets of three distances, their means and their ranges. How much did releases vary within each design? Compare your results with your prediction and explain why one drop could be misleading. Identify any readings supplied by the model.",
+          "text": "My variation explanation uses actual distances 0.7, 1, 0.9 m for the small wing and 1.5, 2.1, 1.9 m for the large wing. Both masses were supplied as 0.20 g, with the same height and nominal wind. Separate drops vary, so means and ranges add context to one landing. I read the first distance for each design, and four later readings were model-provided. This drag-based paper model omits real maple rotation and lift. Distance alone does not measure habitat quality, survival or fitness."
+        },
+        {
+          "type": "paragraph",
+          "text": "Use actual model results to support a limited claim about dispersal rather than survival or all real seeds."
+        },
+        {
+          "type": "response",
+          "prompt": "State a conclusion supported by your actual results at the chosen fan setting. Why does a longer landing distance not by itself prove greater survival or fitness in nature? What additional real evidence would you need?",
+          "text": "My inference explanation uses actual distances 0.7, 1, 0.9 m for the small wing and 1.5, 2.1, 1.9 m for the large wing. Both masses were supplied as 0.20 g, with the same height and nominal wind. Separate drops vary, so means and ranges add context to one landing. I read the first distance for each design, and four later readings were model-provided. This drag-based paper model omits real maple rotation and lift. Distance alone does not measure habitat quality, survival or fitness."
+        }
+      ]
+    },
+    {
+      "heading": "Concept checks",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Why keep total mass the same when comparing the two wing areas?",
+          "text": "Changing mass too could change the flight, making the wing-area comparison harder to interpret.\nCorrect! Mass and the way air acts on a design both affect its motion. Matching mass, release height and nominal wind helps focus this model comparison on area. Correct on first recorded check."
+        },
+        {
+          "type": "response",
+          "prompt": "What do the three releases per design help show?",
+          "text": "Variation in the synthetic releases, so a mean and range add context to a single landing.\nCorrect! Each release has a separate modeled gust/drag variation. The mean summarizes the set; the range is largest minus smallest. Three synthetic releases are not a large field study. Correct on first recorded check."
+        },
+        {
+          "type": "response",
+          "prompt": "Which conclusion goes beyond the evidence collected?",
+          "text": "The farther-traveling design must always leave more surviving offspring in nature.\nCorrect! Distance is one part of dispersal. Landing habitat, germination, competition and survival also matter. The model did not measure reproduction or natural selection. Revised after feedback."
+        }
+      ]
+    },
+    {
+      "heading": "Model limits and sources",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "These are artificial teaching designs and synthetic flight data, not measured seeds or calibrated fan experiments. Mass, effective area, release height and air settings are supplied model quantities. The balance displays the supplied total mass. A simple two-dimensional gravity and air-resistance calculation uses assumed drag properties, with seeded gust/drag variation. It does not simulate realistic wing rotation, lift, swirling air around rotating wings, canopy collisions or complex turbulence. The flight drawing and timing are illustrative; seed symbols are enlarged. A landing is the first ground contact, with no bouncing or rolling. Three releases show model variation but do not establish a reliable difference in real field conditions. Greater distance alone does not prove better survival or evolutionary fitness. No physical fan/drop protocol is supplied."
+        },
+        {
+          "type": "paragraph",
+          "text": "NASA Glenn Research Center: Drag Equation: https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/drag-equation/"
+        },
+        {
+          "type": "paragraph",
+          "text": "Science Buddies: Gone with the Wind — Plant Seed Dispersal: https://www.sciencebuddies.org/stem-activities/gone-with-the-wind-plant-seed-dispersal"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lentink et al. (2009): Leading-Edge Vortices Elevate Lift of Autorotating Plant Seeds: https://lentinklab.com/wp-content/uploads/2022/06/1354400160_2009-maple-science-lentink.pdf"
+        }
+      ],
+      "keepFirst": 4
+    }
+  ],
+  "activityVersion": 1,
+  "locale": "en",
+  "attemptId": "dispersal-3748266831-1794749629263",
+  "data": {
+    "schemaVersion": 1,
+    "activityVersion": 1,
+    "labId": "seed-dispersal",
+    "attemptId": "dispersal-3748266831-1794749629263",
+    "seed": 3748266831,
+    "locale": "en",
+    "stage": 3,
+    "studentName": "Zoë García",
+    "studentClass": "Period 5",
+    "prediction": "The larger effective wing may have a greater mean distance, but releases may vary and overlap.",
+    "design": "Keep total mass, release height and nominal wind the same. Compare three separate releases per design and their means and ranges.",
+    "wind": 1,
+    "initialPlan": {
+      "prediction": "The larger effective wing may have a greater mean distance, but releases may vary and overlap.",
+      "design": "Keep total mass, release height and nominal wind the same. Compare three separate releases per design and their means and ranges.",
+      "baseWindMps": 1,
+      "timing": "Before balance or flight observations",
+      "recordedAt": "2026-11-15T13:33:49.452Z"
+    },
+    "weighed": {
+      "small": true,
+      "large": true
+    },
+    "balanceDesign": "large",
+    "loaded": null,
+    "trials": {
+      "small": [
+        {
+          "id": "small-1",
+          "designId": "small",
+          "release": 1,
+          "seed": 828558317,
+          "x": 0.7202256487411691,
+          "flightTimeS": 1.234093769294188,
+          "points": [
+            {
+              "t": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "t": 0.020000000000000004,
+              "x": 0.0002748088505706125,
+              "y": 0.0021333142161098417
+            },
+            {
+              "t": 0.04000000000000002,
+              "x": 0.0010573677054611463,
+              "y": 0.008036166524955576
+            },
+            {
+              "t": 0.06000000000000004,
+              "x": 0.0023846394012273847,
+              "y": 0.017532171628395987
+            },
+            {
+              "t": 0.08000000000000006,
+              "x": 0.004312389040173926,
+              "y": 0.030407690222071796
+            },
+            {
+              "t": 0.10000000000000007,
+              "x": 0.006900983993714408,
+              "y": 0.046411957721314234
+            },
+            {
+              "t": 0.12000000000000009,
+              "x": 0.010205846219624634,
+              "y": 0.06526665740814891
+            },
+            {
+              "t": 0.1400000000000001,
+              "x": 0.014271931332625618,
+              "y": 0.0866789934489052
+            },
+            {
+              "t": 0.16000000000000011,
+              "x": 0.019131096445868925,
+              "y": 0.11035464609050687
+            },
+            {
+              "t": 0.18000000000000013,
+              "x": 0.024801404754235975,
+              "y": 0.13600870737558296
+            },
+            {
+              "t": 0.20000000000000015,
+              "x": 0.031287653638999366,
+              "y": 0.16337381310694898
+            },
+            {
+              "t": 0.22000000000000017,
+              "x": 0.038582603298283745,
+              "y": 0.19220539619741114
+            },
+            {
+              "t": 0.24000000000000019,
+              "x": 0.04666853486272075,
+              "y": 0.2222843971952383
+            },
+            {
+              "t": 0.2600000000000002,
+              "x": 0.05551889054634688,
+              "y": 0.25341795632371433
+            },
+            {
+              "t": 0.2800000000000002,
+              "x": 0.06509984586389876,
+              "y": 0.28543864793568036
+            },
+            {
+              "t": 0.3000000000000002,
+              "x": 0.07537173618855814,
+              "y": 0.3182027651178307
+            },
+            {
+              "t": 0.32000000000000023,
+              "x": 0.0862903093947218,
+              "y": 0.3515880676458793
+            },
+            {
+              "t": 0.34000000000000025,
+              "x": 0.0978078070913952,
+              "y": 0.385491302929768
+            },
+            {
+              "t": 0.36000000000000026,
+              "x": 0.1098738936670613,
+              "y": 0.41982571523445683
+            },
+            {
+              "t": 0.3800000000000003,
+              "x": 0.12243645939631519,
+              "y": 0.454518681254899
+            },
+            {
+              "t": 0.4000000000000003,
+              "x": 0.1354423247636013,
+              "y": 0.4895095515804131
+            },
+            {
+              "t": 0.4200000000000003,
+              "x": 0.14883787057167763,
+              "y": 0.5247477358530347
+            },
+            {
+              "t": 0.44000000000000034,
+              "x": 0.16256961411111834,
+              "y": 0.5601910413237791
+            },
+            {
+              "t": 0.46000000000000035,
+              "x": 0.17658474679760341,
+              "y": 0.5958042566977418
+            },
+            {
+              "t": 0.48000000000000037,
+              "x": 0.19083164388781912,
+              "y": 0.6315579626989369
+            },
+            {
+              "t": 0.5000000000000003,
+              "x": 0.2052603525042622,
+              "y": 0.6674275453489168
+            },
+            {
+              "t": 0.5200000000000004,
+              "x": 0.2198230603896906,
+              "y": 0.7033923858137711
+            },
+            {
+              "t": 0.5400000000000004,
+              "x": 0.23447454462829534,
+              "y": 0.739435200620914
+            },
+            {
+              "t": 0.5600000000000004,
+              "x": 0.24917259702063535,
+              "y": 0.7755415072678622
+            },
+            {
+              "t": 0.5800000000000004,
+              "x": 0.2638784208728761,
+              "y": 0.8116991922156226
+            },
+            {
+              "t": 0.6000000000000004,
+              "x": 0.27855699264224115,
+              "y": 0.8478981606502477
+            },
+            {
+              "t": 0.6200000000000004,
+              "x": 0.2931773811502704,
+              "y": 0.8841300500026735
+            },
+            {
+              "t": 0.6400000000000005,
+              "x": 0.3077130169060921,
+              "y": 0.920387991907659
+            },
+            {
+              "t": 0.6600000000000005,
+              "x": 0.3221419044327518,
+              "y": 0.9566664099662142
+            },
+            {
+              "t": 0.6800000000000005,
+              "x": 0.3364467713025222,
+              "y": 0.9929608432808966
+            },
+            {
+              "t": 0.7000000000000005,
+              "x": 0.35061514878515754,
+              "y": 1.0292677881980192
+            },
+            {
+              "t": 0.7200000000000005,
+              "x": 0.3646393805031019,
+              "y": 1.065584552958869
+            },
+            {
+              "t": 0.7400000000000005,
+              "x": 0.37851655716603905,
+              "y": 1.1019091219825015
+            },
+            {
+              "t": 0.7600000000000006,
+              "x": 0.39224837721772593,
+              "y": 1.1382400282314882
+            },
+            {
+              "t": 0.7800000000000006,
+              "x": 0.40584093497118545,
+              "y": 1.1745762335140837
+            },
+            {
+              "t": 0.8000000000000006,
+              "x": 0.41930443944948276,
+              "y": 1.2109170176278379
+            },
+            {
+              "t": 0.8200000000000006,
+              "x": 0.4326528686255008,
+              "y": 1.247261877939748
+            },
+            {
+              "t": 0.8400000000000006,
+              "x": 0.4459035650277121,
+              "y": 1.2836104413299718
+            },
+            {
+              "t": 0.8600000000000007,
+              "x": 0.45907677973771754,
+              "y": 1.319962390418531
+            },
+            {
+              "t": 0.8800000000000007,
+              "x": 0.4721951726593269,
+              "y": 1.3563174056815968
+            },
+            {
+              "t": 0.9000000000000007,
+              "x": 0.48528327761407897,
+              "y": 1.392675124495619
+            },
+            {
+              "t": 0.9200000000000007,
+              "x": 0.4983669413477953,
+              "y": 1.4290351173877394
+            },
+            {
+              "t": 0.9400000000000007,
+              "x": 0.5114727459490083,
+              "y": 1.4653968808951574
+            },
+            {
+              "t": 0.9600000000000007,
+              "x": 0.5246274245051635,
+              "y": 1.5017598455274406
+            },
+            {
+              "t": 0.9800000000000008,
+              "x": 0.5378572800630674,
+              "y": 1.5381233964691456
+            },
+            {
+              "t": 1.0000000000000007,
+              "x": 0.5511876181046178,
+              "y": 1.574486903935748
+            },
+            {
+              "t": 1.0200000000000007,
+              "x": 0.5646422027691655,
+              "y": 1.6108497595724218
+            },
+            {
+              "t": 1.0400000000000007,
+              "x": 0.5782427469099172,
+              "y": 1.647211415013428
+            },
+            {
+              "t": 1.0600000000000007,
+              "x": 0.5920084457198314,
+              "y": 1.6835714187278799
+            },
+            {
+              "t": 1.0800000000000007,
+              "x": 0.60595556306416,
+              "y": 1.7199294475685574
+            },
+            {
+              "t": 1.1000000000000008,
+              "x": 0.6200970787880921,
+              "y": 1.756285329992434
+            },
+            {
+              "t": 1.1200000000000008,
+              "x": 0.6344424041259021,
+              "y": 1.7926390586906764
+            },
+            {
+              "t": 1.1400000000000008,
+              "x": 0.6489971709441331,
+              "y": 1.8289907912908072
+            },
+            {
+              "t": 1.1600000000000008,
+              "x": 0.6637630989512506,
+              "y": 1.865340838801872
+            },
+            {
+              "t": 1.1800000000000008,
+              "x": 0.6787379432652662,
+              "y": 1.9016896424876426
+            },
+            {
+              "t": 1.2000000000000008,
+              "x": 0.6939155229268213,
+              "y": 1.9380377407973977
+            },
+            {
+              "t": 1.2200000000000009,
+              "x": 0.709285829159279,
+              "y": 1.9743857287899973
+            },
+            {
+              "t": 1.234093769294188,
+              "x": 0.7202256487411691,
+              "y": 2
+            }
+          ],
+          "dragFactor": 0.9686806591227651,
+          "gustFactor": 0.7365026521496474,
+          "phase": 5.485106255343664,
+          "referenceAreaCm2": 10,
+          "massG": 0.2,
+          "baseWindMps": 1,
+          "sourceId": "student-guided-model-release",
+          "cursor": "0.7",
+          "reading": {
+            "value": 0.7,
+            "sourceId": "student-read-model-ruler",
+            "correctAfterFeedback": true
+          },
+          "attempts": [
+            {
+              "value": "4.9",
+              "correct": false
+            },
+            {
+              "value": "0.7",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "small-2",
+          "designId": "small",
+          "release": 2,
+          "seed": 3210646900,
+          "x": 1.0410426337406802,
+          "flightTimeS": 1.3154111552318635,
+          "points": [
+            {
+              "t": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "t": 0.020000000000000004,
+              "x": 0.0008109034973557377,
+              "y": 0.0021131463877799767
+            },
+            {
+              "t": 0.04000000000000002,
+              "x": 0.0029631236774295667,
+              "y": 0.00789151254804892
+            },
+            {
+              "t": 0.06000000000000004,
+              "x": 0.006322342414481913,
+              "y": 0.017099839139233422
+            },
+            {
+              "t": 0.08000000000000006,
+              "x": 0.0108047016008304,
+              "y": 0.02950396585042191
+            },
+            {
+              "t": 0.10000000000000007,
+              "x": 0.01635436043676703,
+              "y": 0.04485635930873317
+            },
+            {
+              "t": 0.12000000000000009,
+              "x": 0.022926421324256766,
+              "y": 0.06289315526054214
+            },
+            {
+              "t": 0.1400000000000001,
+              "x": 0.030475781755836644,
+              "y": 0.0833389141203312
+            },
+            {
+              "t": 0.16000000000000011,
+              "x": 0.03895132636941781,
+              "y": 0.10591511089040223
+            },
+            {
+              "t": 0.18000000000000013,
+              "x": 0.04829416665817254,
+              "y": 0.13034929556044997
+            },
+            {
+              "t": 0.20000000000000015,
+              "x": 0.05843851535123359,
+              "y": 0.15638304673374123
+            },
+            {
+              "t": 0.22000000000000017,
+              "x": 0.0693139909971562,
+              "y": 0.1837778427619013
+            },
+            {
+              "t": 0.24000000000000019,
+              "x": 0.0808484633429193,
+              "y": 0.21231866865480947
+            },
+            {
+              "t": 0.2600000000000002,
+              "x": 0.0929708558086908,
+              "y": 0.2418155860473836
+            },
+            {
+              "t": 0.2800000000000002,
+              "x": 0.10561357080528959,
+              "y": 0.27210368430012816
+            },
+            {
+              "t": 0.3000000000000002,
+              "x": 0.1187143853288117,
+              "y": 0.30304187540151584
+            },
+            {
+              "t": 0.32000000000000023,
+              "x": 0.13221778378371224,
+              "y": 0.33451095551680077
+            },
+            {
+              "t": 0.34000000000000025,
+              "x": 0.14607576501842093,
+              "y": 0.36641127759279685
+            },
+            {
+              "t": 0.36000000000000026,
+              "x": 0.160248195166142,
+              "y": 0.39866029203086745
+            },
+            {
+              "t": 0.3800000000000003,
+              "x": 0.1747027894778108,
+              "y": 0.43119013248380905
+            },
+            {
+              "t": 0.4000000000000003,
+              "x": 0.1894148044890627,
+              "y": 0.4639453584016422
+            },
+            {
+              "t": 0.4200000000000003,
+              "x": 0.20436651325126964,
+              "y": 0.4968809164370566
+            },
+            {
+              "t": 0.44000000000000034,
+              "x": 0.21954652522412635,
+              "y": 0.5299603476592993
+            },
+            {
+              "t": 0.46000000000000035,
+              "x": 0.23494900122609075,
+              "y": 0.5631542439886255
+            },
+            {
+              "t": 0.48000000000000037,
+              "x": 0.25057280381261693,
+              "y": 0.5964389424847665
+            },
+            {
+              "t": 0.5000000000000003,
+              "x": 0.2664206150919384,
+              "y": 0.6297954375870863
+            },
+            {
+              "t": 0.5200000000000004,
+              "x": 0.28249804735349365,
+              "y": 0.66320848711927
+            },
+            {
+              "t": 0.5400000000000004,
+              "x": 0.29881276680874735,
+              "y": 0.6966658863677496
+            },
+            {
+              "t": 0.5600000000000004,
+              "x": 0.3153736469610066,
+              "y": 0.7301578847951281
+            },
+            {
+              "t": 0.5800000000000004,
+              "x": 0.33218996533288636,
+              "y": 0.7636767212752121
+            },
+            {
+              "t": 0.6000000000000004,
+              "x": 0.349270655199668,
+              "y": 0.7972162556985206
+            },
+            {
+              "t": 0.6200000000000004,
+              "x": 0.36662362234695445,
+              "y": 0.8307716771246191
+            },
+            {
+              "t": 0.6400000000000005,
+              "x": 0.3842551354775039,
+              "y": 0.864339271181027
+            },
+            {
+              "t": 0.6600000000000005,
+              "x": 0.4021692975699591,
+              "y": 0.8979162320166226
+            },
+            {
+              "t": 0.6800000000000005,
+              "x": 0.42036760412847124,
+              "y": 0.9315005067287999
+            },
+            {
+              "t": 0.7000000000000005,
+              "x": 0.43884859279511396,
+              "y": 0.9650906627292618
+            },
+            {
+              "t": 0.7200000000000005,
+              "x": 0.4576075872110862,
+              "y": 0.9986857709294601
+            },
+            {
+              "t": 0.7400000000000005,
+              "x": 0.4766365363308566,
+              "y": 1.0322852998523764
+            },
+            {
+              "t": 0.7600000000000006,
+              "x": 0.49592394866571726,
+              "y": 1.0658890177558142
+            },
+            {
+              "t": 0.7800000000000006,
+              "x": 0.5154549192245392,
+              "y": 1.0994969015337868
+            },
+            {
+              "t": 0.8000000000000006,
+              "x": 0.5352112452968523,
+              "y": 1.133109052507099
+            },
+            {
+              "t": 0.8200000000000006,
+              "x": 0.5551716257446933,
+              "y": 1.1667256201947727
+            },
+            {
+              "t": 0.8400000000000006,
+              "x": 0.5753119371757467,
+              "y": 1.200346735762696
+            },
+            {
+              "t": 0.8600000000000007,
+              "x": 0.5956055792801939,
+              "y": 1.2339724570797084
+            },
+            {
+              "t": 0.8800000000000007,
+              "x": 0.6160238807244709,
+              "y": 1.2676027271971746
+            },
+            {
+              "t": 0.9000000000000007,
+              "x": 0.6365365562857561,
+              "y": 1.3012373476471895
+            },
+            {
+              "t": 0.9200000000000007,
+              "x": 0.6571122053492061,
+              "y": 1.334875967285661
+            },
+            {
+              "t": 0.9400000000000007,
+              "x": 0.6777188414412699,
+              "y": 1.3685180865639397
+            },
+            {
+              "t": 0.9600000000000007,
+              "x": 0.6983244421093067,
+              "y": 1.402163076182296
+            },
+            {
+              "t": 0.9800000000000008,
+              "x": 0.7188975081673329,
+              "y": 1.435810208152331
+            },
+            {
+              "t": 1.0000000000000007,
+              "x": 0.7394076211164106,
+              "y": 1.4694586964643879
+            },
+            {
+              "t": 1.0200000000000007,
+              "x": 0.7598259874421831,
+              "y": 1.5031077439023377
+            },
+            {
+              "t": 1.0400000000000007,
+              "x": 0.7801259585336311,
+              "y": 1.5367565911375625
+            },
+            {
+              "t": 1.0600000000000007,
+              "x": 0.8002835152070475,
+              "y": 1.5704045641095834
+            },
+            {
+              "t": 1.0800000000000007,
+              "x": 0.8202777063069379,
+              "y": 1.6040511158788988
+            },
+            {
+              "t": 1.1000000000000008,
+              "x": 0.8400910316286719,
+              "y": 1.6376958596066982
+            },
+            {
+              "t": 1.1200000000000008,
+              "x": 0.8597097604831913,
+              "y": 1.6713385900387232
+            },
+            {
+              "t": 1.1400000000000008,
+              "x": 0.8791241785923695,
+              "y": 1.7049792917878943
+            },
+            {
+              "t": 1.1600000000000008,
+              "x": 0.8983287576272151,
+              "y": 1.7386181337486442
+            },
+            {
+              "t": 1.1800000000000008,
+              "x": 0.9173222435173878,
+              "y": 1.7722554500537924
+            },
+            {
+              "t": 1.2000000000000008,
+              "x": 0.9361076615886351,
+              "y": 1.8058917090202073
+            },
+            {
+              "t": 1.2200000000000009,
+              "x": 0.9546922385352207,
+              "y": 1.8395274724461568
+            },
+            {
+              "t": 1.2400000000000009,
+              "x": 0.9730872431196345,
+              "y": 1.8731633483554002
+            },
+            {
+              "t": 1.260000000000001,
+              "x": 0.9913077492362994,
+              "y": 1.9067999407794052
+            },
+            {
+              "t": 1.280000000000001,
+              "x": 1.0093723265239982,
+              "y": 1.9404378003949065
+            },
+            {
+              "t": 1.300000000000001,
+              "x": 1.0273026650324022,
+              "y": 1.9740773797731965
+            },
+            {
+              "t": 1.3154111552318635,
+              "x": 1.0410426337406802,
+              "y": 2
+            }
+          ],
+          "dragFactor": 1.1311787139624359,
+          "gustFactor": 0.9602490932680665,
+          "phase": 2.223389642954534,
+          "referenceAreaCm2": 10,
+          "massG": 0.2,
+          "baseWindMps": 1,
+          "sourceId": "model-provided-release-and-reading",
+          "cursor": "1",
+          "reading": {
+            "value": 1,
+            "sourceId": "model-provided-reading",
+            "correctAfterFeedback": false
+          },
+          "attempts": []
+        },
+        {
+          "id": "small-3",
+          "designId": "small",
+          "release": 3,
+          "seed": 625630975,
+          "x": 0.929184163945833,
+          "flightTimeS": 1.296274125681616,
+          "points": [
+            {
+              "t": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "t": 0.020000000000000004,
+              "x": 0.0005306706366527362,
+              "y": 0.0021221396252423482
+            },
+            {
+              "t": 0.04000000000000002,
+              "x": 0.0019544526187035773,
+              "y": 0.0079572150131783
+            },
+            {
+              "t": 0.06000000000000004,
+              "x": 0.004212547347964346,
+              "y": 0.017299043474609293
+            },
+            {
+              "t": 0.08000000000000006,
+              "x": 0.007283619478001458,
+              "y": 0.029923699675431487
+            },
+            {
+              "t": 0.10000000000000007,
+              "x": 0.011163587451841116,
+              "y": 0.0455792451535316
+            },
+            {
+              "t": 0.12000000000000009,
+              "x": 0.01585122681223141,
+              "y": 0.06398845041615087
+            },
+            {
+              "t": 0.1400000000000001,
+              "x": 0.02134004048404721,
+              "y": 0.08485876889271414
+            },
+            {
+              "t": 0.16000000000000011,
+              "x": 0.02761508041113473,
+              "y": 0.10789461427361521
+            },
+            {
+              "t": 0.18000000000000013,
+              "x": 0.03465298913521244,
+              "y": 0.13280878154685113
+            },
+            {
+              "t": 0.20000000000000015,
+              "x": 0.042423785571978186,
+              "y": 0.15933141953542157
+            },
+            {
+              "t": 0.22000000000000017,
+              "x": 0.050893335679180696,
+              "y": 0.1872160538186138
+            },
+            {
+              "t": 0.24000000000000019,
+              "x": 0.060025833011293966,
+              "y": 0.2162428227222774
+            },
+            {
+              "t": 0.2600000000000002,
+              "x": 0.06978591482797246,
+              "y": 0.24621942523401982
+            },
+            {
+              "t": 0.2800000000000002,
+              "x": 0.08014025187730228,
+              "y": 0.27698038882240295
+            },
+            {
+              "t": 0.3000000000000002,
+              "x": 0.09105858589074943,
+              "y": 0.3083852362428052
+            },
+            {
+              "t": 0.32000000000000023,
+              "x": 0.10251426562524506,
+              "y": 0.3403160330564642
+            },
+            {
+              "t": 0.34000000000000025,
+              "x": 0.11448436779520414,
+              "y": 0.3726746790888715
+            },
+            {
+              "t": 0.36000000000000026,
+              "x": 0.12694949870328573,
+              "y": 0.40538019487201765
+            },
+            {
+              "t": 0.3800000000000003,
+              "x": 0.13989336729120866,
+              "y": 0.4383661609735693
+            },
+            {
+              "t": 0.4000000000000003,
+              "x": 0.15330220846799397,
+              "y": 0.47157839739097845
+            },
+            {
+              "t": 0.4200000000000003,
+              "x": 0.1671641216783312,
+              "y": 0.5049729202465285
+            },
+            {
+              "t": 0.44000000000000034,
+              "x": 0.18146837631152582,
+              "y": 0.5385141801382214
+            },
+            {
+              "t": 0.46000000000000035,
+              "x": 0.19620472386651944,
+              "y": 0.572173566560818
+            },
+            {
+              "t": 0.48000000000000037,
+              "x": 0.2113627470922056,
+              "y": 0.6059281521153206
+            },
+            {
+              "t": 0.5000000000000003,
+              "x": 0.2269312684942273,
+              "y": 0.6397596457969285
+            },
+            {
+              "t": 0.5200000000000004,
+              "x": 0.24289783433944453,
+              "y": 0.6736535242499716
+            },
+            {
+              "t": 0.5400000000000004,
+              "x": 0.25924828526184135,
+              "y": 0.7075983118941166
+            },
+            {
+              "t": 0.5600000000000004,
+              "x": 0.2759664204810249,
+              "y": 0.7415849841440234
+            },
+            {
+              "t": 0.5800000000000004,
+              "x": 0.2930337592549747,
+              "y": 0.7756064718142982
+            },
+            {
+              "t": 0.6000000000000004,
+              "x": 0.3104294003393492,
+              "y": 0.8096572487322287
+            },
+            {
+              "t": 0.6200000000000004,
+              "x": 0.328129977811171,
+              "y": 0.843732988261943
+            },
+            {
+              "t": 0.6400000000000005,
+              "x": 0.34610970957103254,
+              "y": 0.8778302776887309
+            },
+            {
+              "t": 0.6600000000000005,
+              "x": 0.36434053312515247,
+              "y": 0.9119463821201808
+            },
+            {
+              "t": 0.6800000000000005,
+              "x": 0.38279232183650064,
+              "y": 0.9460790516903292
+            },
+            {
+              "t": 0.7000000000000005,
+              "x": 0.4014331736923455,
+              "y": 0.9802263674065239
+            },
+            {
+              "t": 0.7200000000000005,
+              "x": 0.4202297637282534,
+              "y": 1.0143866219915172
+            },
+            {
+              "t": 0.7400000000000005,
+              "x": 0.43914775053472865,
+              "y": 1.0485582326067602
+            },
+            {
+              "t": 0.7600000000000006,
+              "x": 0.45815222670968664,
+              "y": 1.0827396824788926
+            },
+            {
+              "t": 0.7800000000000006,
+              "x": 0.4772082026698514,
+              "y": 1.1169294882874772
+            },
+            {
+              "t": 0.8000000000000006,
+              "x": 0.4962811128705602,
+              "y": 1.1511261898153533
+            },
+            {
+              "t": 0.8200000000000006,
+              "x": 0.5153373331970912,
+              "y": 1.1853283579239295
+            },
+            {
+              "t": 0.8400000000000006,
+              "x": 0.5343446980923341,
+              "y": 1.2195346165000978
+            },
+            {
+              "t": 0.8600000000000007,
+              "x": 0.5532730059052647,
+              "y": 1.2537436737226486
+            },
+            {
+              "t": 0.8800000000000007,
+              "x": 0.572094501026448,
+              "y": 1.2879543578877515
+            },
+            {
+              "t": 0.9000000000000007,
+              "x": 0.5907843216708956,
+              "y": 1.3221656531635841
+            },
+            {
+              "t": 0.9200000000000007,
+              "x": 0.6093209027214872,
+              "y": 1.3563767310332586
+            },
+            {
+              "t": 0.9400000000000007,
+              "x": 0.6276863238903365,
+              "y": 1.3905869738237593
+            },
+            {
+              "t": 0.9600000000000007,
+              "x": 0.6458665946015235,
+              "y": 1.4247959875714264
+            },
+            {
+              "t": 0.9800000000000008,
+              "x": 0.6638518684303522,
+              "y": 1.45900360248542
+            },
+            {
+              "t": 1.0000000000000007,
+              "x": 0.6816365816083021,
+              "y": 1.4932098603690172
+            },
+            {
+              "t": 1.0200000000000007,
+              "x": 0.6992195119522702,
+              "y": 1.5274149894670748
+            },
+            {
+              "t": 1.0400000000000007,
+              "x": 0.7166037565186099,
+              "y": 1.5616193682490422
+            },
+            {
+              "t": 1.0600000000000007,
+              "x": 0.7337966282276571,
+              "y": 1.5958234805391278
+            },
+            {
+              "t": 1.0800000000000007,
+              "x": 0.7508094735677441,
+              "y": 1.6300278651080458
+            },
+            {
+              "t": 1.1000000000000008,
+              "x": 0.7676574151977712,
+              "y": 1.6642330632978781
+            },
+            {
+              "t": 1.1200000000000008,
+              "x": 0.7843590247736805,
+              "y": 1.6984395684332547
+            },
+            {
+              "t": 1.1400000000000008,
+              "x": 0.8009359326009198,
+              "y": 1.7326477806667184
+            },
+            {
+              "t": 1.1600000000000008,
+              "x": 0.8174123817611215,
+              "y": 1.7668579705212126
+            },
+            {
+              "t": 1.1800000000000008,
+              "x": 0.8338147351965666,
+              "y": 1.8010702537546197
+            },
+            {
+              "t": 1.2000000000000008,
+              "x": 0.8501709448941831,
+              "y": 1.835284579325345
+            },
+            {
+              "t": 1.2200000000000009,
+              "x": 0.866509992830311,
+              "y": 1.8695007312457095
+            },
+            {
+              "t": 1.2400000000000009,
+              "x": 0.882861313751963,
+              "y": 1.9037183440464989
+            },
+            {
+              "t": 1.260000000000001,
+              "x": 0.8992542102006007,
+              "y": 1.9379369305245446
+            },
+            {
+              "t": 1.280000000000001,
+              "x": 0.9157172704326739,
+              "y": 1.9721559194906688
+            },
+            {
+              "t": 1.296274125681616,
+              "x": 0.929184163945833,
+              "y": 2
+            }
+          ],
+          "dragFactor": 1.0939742823131384,
+          "gustFactor": 0.894598348531872,
+          "phase": 3.380206889607641,
+          "referenceAreaCm2": 10,
+          "massG": 0.2,
+          "baseWindMps": 1,
+          "sourceId": "model-provided-release-and-reading",
+          "cursor": "0.9",
+          "reading": {
+            "value": 0.9,
+            "sourceId": "model-provided-reading",
+            "correctAfterFeedback": false
+          },
+          "attempts": []
+        }
+      ],
+      "large": [
+        {
+          "id": "large-1",
+          "designId": "large",
+          "release": 1,
+          "seed": 2239878143,
+          "x": 1.500526057647472,
+          "flightTimeS": 1.605181179515922,
+          "points": [
+            {
+              "t": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "t": 0.020000000000000004,
+              "x": 0.001029174881946553,
+              "y": 0.002094553370658159
+            },
+            {
+              "t": 0.04000000000000002,
+              "x": 0.0037595658278972346,
+              "y": 0.007749793595028061
+            },
+            {
+              "t": 0.06000000000000004,
+              "x": 0.008038649147065785,
+              "y": 0.01663725769293935
+            },
+            {
+              "t": 0.08000000000000006,
+              "x": 0.013786326547094538,
+              "y": 0.028431071454390045
+            },
+            {
+              "t": 0.10000000000000007,
+              "x": 0.020955179114808868,
+              "y": 0.042795676671788366
+            },
+            {
+              "t": 0.12000000000000009,
+              "x": 0.0295055296982361,
+              "y": 0.05939161477821594
+            },
+            {
+              "t": 0.1400000000000001,
+              "x": 0.03939238903309352,
+              "y": 0.07788845567690533
+            },
+            {
+              "t": 0.16000000000000011,
+              "x": 0.05056055143499322,
+              "y": 0.09797756017131107
+            },
+            {
+              "t": 0.18000000000000013,
+              "x": 0.06294442904175951,
+              "y": 0.119381186411232
+            },
+            {
+              "t": 0.20000000000000015,
+              "x": 0.07647012199597733,
+              "y": 0.14185713593797886
+            },
+            {
+              "t": 0.22000000000000017,
+              "x": 0.09105815885022711,
+              "y": 0.16519955997399782
+            },
+            {
+              "t": 0.24000000000000019,
+              "x": 0.10662607257045485,
+              "y": 0.18923705822758063
+            },
+            {
+              "t": 0.2600000000000002,
+              "x": 0.12309046331080975,
+              "y": 0.21382919352400748
+            },
+            {
+              "t": 0.2800000000000002,
+              "x": 0.14036848039812122,
+              "y": 0.23886231164097804
+            },
+            {
+              "t": 0.3000000000000002,
+              "x": 0.1583787941086369,
+              "y": 0.2642452742140077
+            },
+            {
+              "t": 0.32000000000000023,
+              "x": 0.17704217822674656,
+              "y": 0.28990546802778516
+            },
+            {
+              "t": 0.34000000000000025,
+              "x": 0.1962818276152509,
+              "y": 0.3157852732302242
+            },
+            {
+              "t": 0.36000000000000026,
+              "x": 0.2160235169787006,
+              "y": 0.34183905372350504
+            },
+            {
+              "t": 0.3800000000000003,
+              "x": 0.2361956823226353,
+              "y": 0.3680306620235275
+            },
+            {
+              "t": 0.4000000000000003,
+              "x": 0.25672948258720923,
+              "y": 0.39433141359707924
+            },
+            {
+              "t": 0.4200000000000003,
+              "x": 0.27755887853142336,
+              "y": 0.42071846985040584
+            },
+            {
+              "t": 0.44000000000000034,
+              "x": 0.2986207498672692,
+              "y": 0.44717356565086264
+            },
+            {
+              "t": 0.46000000000000035,
+              "x": 0.31985505956251015,
+              "y": 0.4736820206049568
+            },
+            {
+              "t": 0.48000000000000037,
+              "x": 0.34120506545721285,
+              "y": 0.5002319796555117
+            },
+            {
+              "t": 0.5000000000000003,
+              "x": 0.362617573152869,
+              "y": 0.5268138358292127
+            },
+            {
+              "t": 0.5200000000000004,
+              "x": 0.3840432199220536,
+              "y": 0.5534197950989549
+            },
+            {
+              "t": 0.5400000000000004,
+              "x": 0.4054367766845057,
+              "y": 0.5800435498597087
+            },
+            {
+              "t": 0.5600000000000004,
+              "x": 0.42675745357068817,
+              "y": 0.6066800333198752
+            },
+            {
+              "t": 0.5800000000000004,
+              "x": 0.44796919401941837,
+              "y": 0.6333252322110308
+            },
+            {
+              "t": 0.6000000000000004,
+              "x": 0.46904094257487977,
+              "y": 0.6599760397059145
+            },
+            {
+              "t": 0.6200000000000004,
+              "x": 0.4899468724406954,
+              "y": 0.6866301344003571
+            },
+            {
+              "t": 0.6400000000000005,
+              "x": 0.5106665603080422,
+              "y": 0.7132858747317089
+            },
+            {
+              "t": 0.6600000000000005,
+              "x": 0.5311850978910744,
+              "y": 0.7399422013181856
+            },
+            {
+              "t": 0.6800000000000005,
+              "x": 0.551493131855917,
+              "y": 0.7665985424291298
+            },
+            {
+              "t": 0.7000000000000005,
+              "x": 0.5715868262893787,
+              "y": 0.7932547201360228
+            },
+            {
+              "t": 0.7200000000000005,
+              "x": 0.5914677443873354,
+              "y": 0.8199108566389836
+            },
+            {
+              "t": 0.7400000000000005,
+              "x": 0.6111426485243673,
+              "y": 0.8465672818017227
+            },
+            {
+              "t": 0.7600000000000006,
+              "x": 0.6306232201870442,
+              "y": 0.8732244440509561
+            },
+            {
+              "t": 0.7800000000000006,
+              "x": 0.6499257033314018,
+              "y": 0.8998828275028679
+            },
+            {
+              "t": 0.8000000000000006,
+              "x": 0.6690704765117251,
+              "y": 0.9265428784782502
+            },
+            {
+              "t": 0.8200000000000006,
+              "x": 0.6880815606085369,
+              "y": 0.9532049444807444
+            },
+            {
+              "t": 0.8400000000000006,
+              "x": 0.7069860701762833,
+              "y": 0.9798692282748687
+            },
+            {
+              "t": 0.8600000000000007,
+              "x": 0.7258136173776683,
+              "y": 1.0065357589637935
+            },
+            {
+              "t": 0.8800000000000007,
+              "x": 0.7445956782274835,
+              "y": 1.0332043809991056
+            },
+            {
+              "t": 0.9000000000000007,
+              "x": 0.7633649314905335,
+              "y": 1.0598747609395824
+            },
+            {
+              "t": 0.9200000000000007,
+              "x": 0.7821545811103735,
+              "y": 1.0865464106090346
+            },
+            {
+              "t": 0.9400000000000007,
+              "x": 0.800997673510479,
+              "y": 1.1132187241868547
+            },
+            {
+              "t": 0.9600000000000007,
+              "x": 0.819926421501377,
+              "y": 1.1398910257997952
+            },
+            {
+              "t": 0.9800000000000008,
+              "x": 0.8389715468119978,
+              "y": 1.1665626234595856
+            },
+            {
+              "t": 1.0000000000000007,
+              "x": 0.8581616533839425,
+              "y": 1.1932328647777475
+            },
+            {
+              "t": 1.0200000000000007,
+              "x": 0.8775226434542366,
+              "y": 1.2199011898277663
+            },
+            {
+              "t": 1.0400000000000007,
+              "x": 0.8970771880377364,
+              "y": 1.246567176824227
+            },
+            {
+              "t": 1.0600000000000007,
+              "x": 0.9168442626528496,
+              "y": 1.2732305769236576
+            },
+            {
+              "t": 1.0800000000000007,
+              "x": 0.9368387579895814,
+              "y": 1.299891335367675
+            },
+            {
+              "t": 1.1000000000000008,
+              "x": 0.9570711737083282,
+              "y": 1.32654959730725
+            },
+            {
+              "t": 1.1200000000000008,
+              "x": 0.9775474017292697,
+              "y": 1.3532056978748344
+            },
+            {
+              "t": 1.1400000000000008,
+              "x": 0.9982686033058404,
+              "y": 1.3798601373110113
+            },
+            {
+              "t": 1.1600000000000008,
+              "x": 1.0192311819744122,
+              "y": 1.4065135431103701
+            },
+            {
+              "t": 1.1800000000000008,
+              "x": 1.040426852248594,
+              "y": 1.4331666221440011
+            },
+            {
+              "t": 1.2000000000000008,
+              "x": 1.0618428017888024,
+              "y": 1.4598201064752747
+            },
+            {
+              "t": 1.2200000000000009,
+              "x": 1.0834619428173635,
+              "y": 1.486474697061336
+            },
+            {
+              "t": 1.2400000000000009,
+              "x": 1.1052632468308206,
+              "y": 1.5131310096943729
+            },
+            {
+              "t": 1.260000000000001,
+              "x": 1.1272221552166257,
+              "y": 1.5397895273736006
+            },
+            {
+              "t": 1.280000000000001,
+              "x": 1.1493110572106173,
+              "y": 1.5664505628209247
+            },
+            {
+              "t": 1.300000000000001,
+              "x": 1.1714998257063383,
+              "y": 1.593114234090784
+            },
+            {
+              "t": 1.320000000000001,
+              "x": 1.1937564007001642,
+              "y": 1.619780455228646
+            },
+            {
+              "t": 1.340000000000001,
+              "x": 1.2160474095732399,
+              "y": 1.646448942772907
+            },
+            {
+              "t": 1.360000000000001,
+              "x": 1.2383388129239914,
+              "y": 1.6731192376576007
+            },
+            {
+              "t": 1.380000000000001,
+              "x": 1.2605965642427084,
+              "y": 1.6997907408551305
+            },
+            {
+              "t": 1.400000000000001,
+              "x": 1.2827872713570434,
+              "y": 1.7264627599991682
+            },
+            {
+              "t": 1.420000000000001,
+              "x": 1.3048788472976274,
+              "y": 1.7531345633418522
+            },
+            {
+              "t": 1.440000000000001,
+              "x": 1.3268411380852783,
+              "y": 1.7798054368043286
+            },
+            {
+              "t": 1.460000000000001,
+              "x": 1.3486465149915432,
+              "y": 1.8064747396287433
+            },
+            {
+              "t": 1.480000000000001,
+              "x": 1.3702704191430748,
+              "y": 1.8331419542551408
+            },
+            {
+              "t": 1.500000000000001,
+              "x": 1.3916918469881965,
+              "y": 1.8598067265169869
+            },
+            {
+              "t": 1.5200000000000011,
+              "x": 1.4128937661585341,
+              "y": 1.886468893030967
+            },
+            {
+              "t": 1.5400000000000011,
+              "x": 1.4338634526446061,
+              "y": 1.9131284936805457
+            },
+            {
+              "t": 1.5600000000000012,
+              "x": 1.4545927419298508,
+              "y": 1.9397857682705197
+            },
+            {
+              "t": 1.5800000000000012,
+              "x": 1.475078188725862,
+              "y": 1.9664411376644277
+            },
+            {
+              "t": 1.6000000000000012,
+              "x": 1.495321132128537,
+              "y": 1.9930951709114646
+            },
+            {
+              "t": 1.605181179515922,
+              "x": 1.500526057647472,
+              "y": 2
+            }
+          ],
+          "dragFactor": 0.9003169059753419,
+          "gustFactor": 1.0276641597505658,
+          "phase": 5.513153354406489,
+          "referenceAreaCm2": 20,
+          "massG": 0.2,
+          "baseWindMps": 1,
+          "sourceId": "student-guided-model-release",
+          "cursor": "1.5",
+          "reading": {
+            "value": 1.5,
+            "sourceId": "student-read-model-ruler",
+            "correctAfterFeedback": false
+          },
+          "attempts": [
+            {
+              "value": "1.5",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "large-2",
+          "designId": "large",
+          "release": 2,
+          "seed": 196971878,
+          "x": 2.1031769657604245,
+          "flightTimeS": 1.816843296381315,
+          "points": [
+            {
+              "t": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "t": 0.020000000000000004,
+              "x": 0.002509136008612326,
+              "y": 0.0020484640240052894
+            },
+            {
+              "t": 0.04000000000000002,
+              "x": 0.008608151345658725,
+              "y": 0.007450010217513983
+            },
+            {
+              "t": 0.06000000000000004,
+              "x": 0.017386115115627997,
+              "y": 0.015808111250226724
+            },
+            {
+              "t": 0.08000000000000006,
+              "x": 0.02829982011142773,
+              "y": 0.02680175775852874
+            },
+            {
+              "t": 0.10000000000000007,
+              "x": 0.041000185428531184,
+              "y": 0.04012467734626539
+            },
+            {
+              "t": 0.12000000000000009,
+              "x": 0.05523761413091767,
+              "y": 0.05546627750677517
+            },
+            {
+              "t": 0.1400000000000001,
+              "x": 0.07081056710567694,
+              "y": 0.07251553255407515
+            },
+            {
+              "t": 0.16000000000000011,
+              "x": 0.08754057063347373,
+              "y": 0.09097394911012982
+            },
+            {
+              "t": 0.18000000000000013,
+              "x": 0.10526274720523335,
+              "y": 0.11056849662514995
+            },
+            {
+              "t": 0.20000000000000015,
+              "x": 0.12382426973462224,
+              "y": 0.13106022735252967
+            },
+            {
+              "t": 0.22000000000000017,
+              "x": 0.1430859322361559,
+              "y": 0.15224777366759198
+            },
+            {
+              "t": 0.24000000000000019,
+              "x": 0.16292422288479397,
+              "y": 0.1739666804160525
+            },
+            {
+              "t": 0.2600000000000002,
+              "x": 0.18323275132261357,
+              "y": 0.19608605977651372
+            },
+            {
+              "t": 0.2800000000000002,
+              "x": 0.2039227177709097,
+              "y": 0.2185039236794563
+            },
+            {
+              "t": 0.3000000000000002,
+              "x": 0.22492250855218188,
+              "y": 0.24114217688322198
+            },
+            {
+              "t": 0.32000000000000023,
+              "x": 0.24617664131136482,
+              "y": 0.2639418735337949
+            },
+            {
+              "t": 0.34000000000000025,
+              "x": 0.26764429276973,
+              "y": 0.28685904339504287
+            },
+            {
+              "t": 0.36000000000000026,
+              "x": 0.28929760004000366,
+              "y": 0.3098611960747966
+            },
+            {
+              "t": 0.3800000000000003,
+              "x": 0.31111987358756293,
+              "y": 0.33292449550909853
+            },
+            {
+              "t": 0.4000000000000003,
+              "x": 0.33310381314625515,
+              "y": 0.3560315381783986
+            },
+            {
+              "t": 0.4200000000000003,
+              "x": 0.3552497825103174,
+              "y": 0.37916964548331744
+            },
+            {
+              "t": 0.44000000000000034,
+              "x": 0.37756417488194394,
+              "y": 0.40232957777577677
+            },
+            {
+              "t": 0.46000000000000035,
+              "x": 0.4000578851734992,
+              "y": 0.42550458461648843
+            },
+            {
+              "t": 0.48000000000000037,
+              "x": 0.4227448968610293,
+              "y": 0.44868971694465276
+            },
+            {
+              "t": 0.5000000000000003,
+              "x": 0.44564098651149003,
+              "y": 0.47188133878734334
+            },
+            {
+              "t": 0.5200000000000004,
+              "x": 0.4687625473005959,
+              "y": 0.495076787372416
+            },
+            {
+              "t": 0.5400000000000004,
+              "x": 0.49212553250013613,
+              "y": 0.5182741404543443
+            },
+            {
+              "t": 0.5600000000000004,
+              "x": 0.5157445202128355,
+              "y": 0.5414720582152277
+            },
+            {
+              "t": 0.5800000000000004,
+              "x": 0.5396319010236411,
+              "y": 0.5646696743728442
+            },
+            {
+              "t": 0.6000000000000004,
+              "x": 0.5637971903878921,
+              "y": 0.5878665172870078
+            },
+            {
+              "t": 0.6200000000000004,
+              "x": 0.588246467320506,
+              "y": 0.6110624470698243
+            },
+            {
+              "t": 0.6400000000000005,
+              "x": 0.6129819402388652,
+              "y": 0.6342575991050694
+            },
+            {
+              "t": 0.6600000000000005,
+              "x": 0.6380016396859037,
+              "y": 0.6574523280592104
+            },
+            {
+              "t": 0.6800000000000005,
+              "x": 0.6632992362171162,
+              "y": 0.680647149483303
+            },
+            {
+              "t": 0.7000000000000005,
+              "x": 0.6888639801045109,
+              "y": 0.7038426785029227
+            },
+            {
+              "t": 0.7200000000000005,
+              "x": 0.7146807578270394,
+              "y": 0.7270395669040266
+            },
+            {
+              "t": 0.7400000000000005,
+              "x": 0.7407302587022697,
+              "y": 0.7502384411752292
+            },
+            {
+              "t": 0.7600000000000006,
+              "x": 0.766989243561291,
+              "y": 0.7734398447931712
+            },
+            {
+              "t": 0.7800000000000006,
+              "x": 0.793430906134447,
+              "y": 0.7966441882757145
+            },
+            {
+              "t": 0.8000000000000006,
+              "x": 0.8200253168171026,
+              "y": 0.8198517103252841
+            },
+            {
+              "t": 0.8200000000000006,
+              "x": 0.8467399377052931,
+              "y": 0.8430624528013367
+            },
+            {
+              "t": 0.8400000000000006,
+              "x": 0.8735401971888535,
+              "y": 0.8662762513700328
+            },
+            {
+              "t": 0.8600000000000007,
+              "x": 0.9003901119108207,
+              "y": 0.8894927425686039
+            },
+            {
+              "t": 0.8800000000000007,
+              "x": 0.9272529434960368,
+              "y": 0.9127113867927201
+            },
+            {
+              "t": 0.9000000000000007,
+              "x": 0.9540918770852895,
+              "y": 0.9359315054777148
+            },
+            {
+              "t": 0.9200000000000007,
+              "x": 0.9808707083775943,
+              "y": 0.9591523296113795
+            },
+            {
+              "t": 0.9400000000000007,
+              "x": 1.0075545256076057,
+              "y": 0.9823730557927123
+            },
+            {
+              "t": 0.9600000000000007,
+              "x": 1.034110372722604,
+              "y": 1.0055929054255024
+            },
+            {
+              "t": 0.9800000000000008,
+              "x": 1.0605078800497005,
+              "y": 1.0288111823687913
+            },
+            {
+              "t": 1.0000000000000007,
+              "x": 1.0867198490415624,
+              "y": 1.052027324484622
+            },
+            {
+              "t": 1.0200000000000007,
+              "x": 1.1127227783314613,
+              "y": 1.0752409450165068
+            },
+            {
+              "t": 1.0400000000000007,
+              "x": 1.1384973193646146,
+              "y": 1.0984518605537748
+            },
+            {
+              "t": 1.0600000000000007,
+              "x": 1.1640286513152318,
+              "y": 1.121660103412437
+            },
+            {
+              "t": 1.0800000000000007,
+              "x": 1.189306766818596,
+              "y": 1.1448659174977796
+            },
+            {
+              "t": 1.1000000000000008,
+              "x": 1.2143266621760722,
+              "y": 1.1680697380040512
+            },
+            {
+              "t": 1.1200000000000008,
+              "x": 1.2390884280274623,
+              "y": 1.191272156550133
+            },
+            {
+              "t": 1.1400000000000008,
+              "x": 1.2635972389098995,
+              "y": 1.214473874454611
+            },
+            {
+              "t": 1.1600000000000008,
+              "x": 1.287863242512234,
+              "y": 1.2376756477422683
+            },
+            {
+              "t": 1.1800000000000008,
+              "x": 1.3119013516768685,
+              "y": 1.2608782280884563
+            },
+            {
+              "t": 1.2000000000000008,
+              "x": 1.3357309442102785,
+              "y": 1.2840823042096534
+            },
+            {
+              "t": 1.2200000000000009,
+              "x": 1.3593754772852238,
+              "y": 1.3072884481793408
+            },
+            {
+              "t": 1.2400000000000009,
+              "x": 1.3828620246349457,
+              "y": 1.3304970707894004
+            },
+            {
+              "t": 1.260000000000001,
+              "x": 1.4062207458700229,
+              "y": 1.3537083894099124
+            },
+            {
+              "t": 1.280000000000001,
+              "x": 1.429484298136555,
+              "y": 1.376922410865904
+            },
+            {
+              "t": 1.300000000000001,
+              "x": 1.4526872010398624,
+              "y": 1.4001389307099554
+            },
+            {
+              "t": 1.320000000000001,
+              "x": 1.475865166342008,
+              "y": 1.4233575490048667
+            },
+            {
+              "t": 1.340000000000001,
+              "x": 1.4990544044523642,
+              "y": 1.4465777014361576
+            },
+            {
+              "t": 1.360000000000001,
+              "x": 1.5222909201916681,
+              "y": 1.4697987033540016
+            },
+            {
+              "t": 1.380000000000001,
+              "x": 1.5456098107134086,
+              "y": 1.493019803301824
+            },
+            {
+              "t": 1.400000000000001,
+              "x": 1.5690445787717135,
+              "y": 1.516240241816742
+            },
+            {
+              "t": 1.420000000000001,
+              "x": 1.5926264746657532,
+              "y": 1.5394593108560402
+            },
+            {
+              "t": 1.440000000000001,
+              "x": 1.6163838800868757,
+              "y": 1.5626764091540943
+            },
+            {
+              "t": 1.460000000000001,
+              "x": 1.6403417466676582,
+              "y": 1.5858910891500717
+            },
+            {
+              "t": 1.480000000000001,
+              "x": 1.6645211012213699,
+              "y": 1.6091030918164655
+            },
+            {
+              "t": 1.500000000000001,
+              "x": 1.6889386284370316,
+              "y": 1.6323123666983663
+            },
+            {
+              "t": 1.5200000000000011,
+              "x": 1.7136063401704462,
+              "y": 1.655519075655582
+            },
+            {
+              "t": 1.5400000000000011,
+              "x": 1.7385313384976862,
+              "y": 1.6787235800831521
+            },
+            {
+              "t": 1.5600000000000012,
+              "x": 1.7637156774633134,
+              "y": 1.7019264126663143
+            },
+            {
+              "t": 1.5800000000000012,
+              "x": 1.7891563260747596,
+              "y": 1.725128235905875
+            },
+            {
+              "t": 1.6000000000000012,
+              "x": 1.8148452326911795,
+              "y": 1.7483297906449518
+            },
+            {
+              "t": 1.6200000000000012,
+              "x": 1.8407694886488073,
+              "y": 1.771531838571412
+            },
+            {
+              "t": 1.6400000000000012,
+              "x": 1.866911586855183,
+              "y": 1.7947351031149374
+            },
+            {
+              "t": 1.6600000000000013,
+              "x": 1.8932497692412096,
+              "y": 1.8179402132762745
+            },
+            {
+              "t": 1.6800000000000013,
+              "x": 1.919758455416424,
+              "y": 1.8411476547116281
+            },
+            {
+              "t": 1.7000000000000013,
+              "x": 1.9464087436265385,
+              "y": 1.8643577318598668
+            },
+            {
+              "t": 1.7200000000000013,
+              "x": 1.9731689741295233,
+              "y": 1.8875705440768806
+            },
+            {
+              "t": 1.7400000000000013,
+              "x": 2.0000053443327634,
+              "y": 1.9107859776830132
+            },
+            {
+              "t": 1.7600000000000013,
+              "x": 2.026882564406907,
+              "y": 1.9340037146084048
+            },
+            {
+              "t": 1.7800000000000014,
+              "x": 2.0537645415565495,
+              "y": 1.9572232570267682
+            },
+            {
+              "t": 1.8000000000000014,
+              "x": 2.0806150806484345,
+              "y": 1.980443966101728
+            },
+            {
+              "t": 1.816843296381315,
+              "x": 2.1031769657604245,
+              "y": 2
+            }
+          ],
+          "dragFactor": 1.1878119869157673,
+          "gustFactor": 1.2515559363644568,
+          "phase": 2.486315779523483,
+          "referenceAreaCm2": 20,
+          "massG": 0.2,
+          "baseWindMps": 1,
+          "sourceId": "model-provided-release-and-reading",
+          "cursor": "2.1",
+          "reading": {
+            "value": 2.1,
+            "sourceId": "model-provided-reading",
+            "correctAfterFeedback": false
+          },
+          "attempts": []
+        },
+        {
+          "id": "large-3",
+          "designId": "large",
+          "release": 3,
+          "seed": 2443790061,
+          "x": 1.8908082070315624,
+          "flightTimeS": 1.7101552522726124,
+          "points": [
+            {
+              "t": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "t": 0.020000000000000004,
+              "x": 0.0015297263240592399,
+              "y": 0.002076310568055578
+            },
+            {
+              "t": 0.04000000000000002,
+              "x": 0.0054253744822039505,
+              "y": 0.0076281511748901324
+            },
+            {
+              "t": 0.06000000000000004,
+              "x": 0.01129084317472445,
+              "y": 0.01629270144692461
+            },
+            {
+              "t": 0.08000000000000006,
+              "x": 0.018890967108815222,
+              "y": 0.027736879364142108
+            },
+            {
+              "t": 0.10000000000000007,
+              "x": 0.02807553371788504,
+              "y": 0.04162709012998583
+            },
+            {
+              "t": 0.12000000000000009,
+              "x": 0.03873382228531169,
+              "y": 0.05762677554239022
+            },
+            {
+              "t": 0.1400000000000001,
+              "x": 0.0507701856181406,
+              "y": 0.07540722174432032
+            },
+            {
+              "t": 0.16000000000000011,
+              "x": 0.0640933282203819,
+              "y": 0.09466101225018478
+            },
+            {
+              "t": 0.18000000000000013,
+              "x": 0.07861332996008687,
+              "y": 0.11511242091540855
+            },
+            {
+              "t": 0.20000000000000015,
+              "x": 0.09424224368202021,
+              "y": 0.1365229312536359
+            },
+            {
+              "t": 0.22000000000000017,
+              "x": 0.11089577568755733,
+              "y": 0.1586922907393709
+            },
+            {
+              "t": 0.24000000000000019,
+              "x": 0.12849480424955015,
+              "y": 0.18145638163044925
+            },
+            {
+              "t": 0.2600000000000002,
+              "x": 0.14696626983977398,
+              "y": 0.20468326426079345
+            },
+            {
+              "t": 0.2800000000000002,
+              "x": 0.16624338636893454,
+              "y": 0.22826847167075062
+            },
+            {
+              "t": 0.3000000000000002,
+              "x": 0.1862653037623386,
+              "y": 0.2521302771283429
+            },
+            {
+              "t": 0.32000000000000023,
+              "x": 0.2069764022979993,
+              "y": 0.2762053460605711
+            },
+            {
+              "t": 0.34000000000000025,
+              "x": 0.22832538708647573,
+              "y": 0.30044496009466654
+            },
+            {
+              "t": 0.36000000000000026,
+              "x": 0.2502643163383275,
+              "y": 0.3248118590832014
+            },
+            {
+              "t": 0.3800000000000003,
+              "x": 0.2727476593152759,
+              "y": 0.3492776678347639
+            },
+            {
+              "t": 0.4000000000000003,
+              "x": 0.29573144720708044,
+              "y": 0.37382083726408255
+            },
+            {
+              "t": 0.4200000000000003,
+              "x": 0.31917255480167356,
+              "y": 0.3984250182919169
+            },
+            {
+              "t": 0.44000000000000034,
+              "x": 0.34302813229635915,
+              "y": 0.4230777894745339
+            },
+            {
+              "t": 0.46000000000000035,
+              "x": 0.36725519363161613,
+              "y": 0.44776966860333506
+            },
+            {
+              "t": 0.48000000000000037,
+              "x": 0.3918103589299992,
+              "y": 0.47249334998641007
+            },
+            {
+              "t": 0.5000000000000003,
+              "x": 0.41664974281378087,
+              "y": 0.49724312040375435
+            },
+            {
+              "t": 0.5200000000000004,
+              "x": 0.44172897664996885,
+              "y": 0.5220144166550363
+            },
+            {
+              "t": 0.5400000000000004,
+              "x": 0.4670033504646166,
+              "y": 0.5468034957605014
+            },
+            {
+              "t": 0.5600000000000004,
+              "x": 0.4924280589022132,
+              "y": 0.571607195204958
+            },
+            {
+              "t": 0.5800000000000004,
+              "x": 0.5179585348426872,
+              "y": 0.5964227653155256
+            },
+            {
+              "t": 0.6000000000000004,
+              "x": 0.5435508538957208,
+              "y": 0.6212477592162501
+            },
+            {
+              "t": 0.6200000000000004,
+              "x": 0.5691621928199473,
+              "y": 0.646079968118231
+            },
+            {
+              "t": 0.6400000000000005,
+              "x": 0.5947513248815859,
+              "y": 0.6709173912871224
+            },
+            {
+              "t": 0.6600000000000005,
+              "x": 0.6202791352481395,
+              "y": 0.695758231155751
+            },
+            {
+              "t": 0.6800000000000005,
+              "x": 0.6457091397275779,
+              "y": 0.7206009049492788
+            },
+            {
+              "t": 0.7000000000000005,
+              "x": 0.6710079905620299,
+              "y": 0.7454440650425389
+            },
+            {
+              "t": 0.7200000000000005,
+              "x": 0.6961459536313842,
+              "y": 0.7702866211961835
+            },
+            {
+              "t": 0.7400000000000005,
+              "x": 0.7210973423769119,
+              "y": 0.7951277588867317
+            },
+            {
+              "t": 0.7600000000000006,
+              "x": 0.7458408950593526,
+              "y": 0.8199669491714103
+            },
+            {
+              "t": 0.7800000000000006,
+              "x": 0.7703600836300719,
+              "y": 0.8448039468859886
+            },
+            {
+              "t": 0.8000000000000006,
+              "x": 0.7946433444909826,
+              "y": 0.869638775406316
+            },
+            {
+              "t": 0.8200000000000006,
+              "x": 0.8186842236854976,
+              "y": 0.8944716976375321
+            },
+            {
+              "t": 0.8400000000000006,
+              "x": 0.842481431505706,
+              "y": 0.9193031742479637
+            },
+            {
+              "t": 0.8600000000000007,
+              "x": 0.8660388040088679,
+              "y": 0.944133811359697
+            },
+            {
+              "t": 0.8800000000000007,
+              "x": 0.8893651713937701,
+              "y": 0.9689643008770373
+            },
+            {
+              "t": 0.9000000000000007,
+              "x": 0.9124741354892477,
+              "y": 0.9937953573244942
+            },
+            {
+              "t": 0.9200000000000007,
+              "x": 0.9353837606705827,
+              "y": 1.0186276554414722
+            },
+            {
+              "t": 0.9400000000000007,
+              "x": 0.9581161842928907,
+              "y": 1.0434617728235427
+            },
+            {
+              "t": 0.9600000000000007,
+              "x": 0.9806971541970757,
+              "y": 1.0682981416107804
+            },
+            {
+              "t": 0.9800000000000008,
+              "x": 1.0031555020194343,
+              "y": 1.0931370126221391
+            },
+            {
+              "t": 1.0000000000000007,
+              "x": 1.0255225619626758,
+              "y": 1.117978434461051
+            },
+            {
+              "t": 1.0200000000000007,
+              "x": 1.0478315454213827,
+              "y": 1.1428222490308166
+            },
+            {
+              "t": 1.0400000000000007,
+              "x": 1.070116882458261,
+              "y": 1.1676681036768242
+            },
+            {
+              "t": 1.0600000000000007,
+              "x": 1.09241354164691,
+              "y": 1.1925154789088925
+            },
+            {
+              "t": 1.0800000000000007,
+              "x": 1.114756340257673,
+              "y": 1.2173637294526227
+            },
+            {
+              "t": 1.1000000000000008,
+              "x": 1.1371792571609876,
+              "y": 1.242212135335324
+            },
+            {
+              "t": 1.1200000000000008,
+              "x": 1.159714761122653,
+              "y": 1.2670599589218117
+            },
+            {
+              "t": 1.1400000000000008,
+              "x": 1.182393167307273,
+              "y": 1.2919065033499446
+            },
+            {
+              "t": 1.1600000000000008,
+              "x": 1.2052420347153847,
+              "y": 1.316751167718323
+            },
+            {
+              "t": 1.1800000000000008,
+              "x": 1.2282856168823195,
+              "y": 1.341593494658248
+            },
+            {
+              "t": 1.2000000000000008,
+              "x": 1.2515443774042596,
+              "y": 1.366433206552913
+            },
+            {
+              "t": 1.2200000000000009,
+              "x": 1.2750345806997878,
+              "y": 1.391270227591442
+            },
+            {
+              "t": 1.2400000000000009,
+              "x": 1.298767966871179,
+              "y": 1.41610468998194
+            },
+            {
+              "t": 1.260000000000001,
+              "x": 1.3227515176459168,
+              "y": 1.440936923899539
+            },
+            {
+              "t": 1.280000000000001,
+              "x": 1.346987318237491,
+              "y": 1.4657674320110259
+            },
+            {
+              "t": 1.300000000000001,
+              "x": 1.3714725176725135,
+              "y": 1.4905968506000196
+            },
+            {
+              "t": 1.320000000000001,
+              "x": 1.396199387807139,
+              "y": 1.5154259003303008
+            },
+            {
+              "t": 1.340000000000001,
+              "x": 1.421155479014731,
+              "y": 1.5402553304604678
+            },
+            {
+              "t": 1.360000000000001,
+              "x": 1.4463238684665325,
+              "y": 1.5650858608100882
+            },
+            {
+              "t": 1.380000000000001,
+              "x": 1.4716834951177642,
+              "y": 1.589918125945141
+            },
+            {
+              "t": 1.400000000000001,
+              "x": 1.4972095739890237,
+              "y": 1.614752625888062
+            },
+            {
+              "t": 1.420000000000001,
+              "x": 1.5228740810983332,
+              "y": 1.639589687174628
+            },
+            {
+              "t": 1.440000000000001,
+              "x": 1.5486462994236738,
+              "y": 1.6644294373061053
+            },
+            {
+              "t": 1.460000000000001,
+              "x": 1.5744934155094397,
+              "y": 1.6892717946309395
+            },
+            {
+              "t": 1.480000000000001,
+              "x": 1.6003811557144743,
+              "y": 1.714116474505634
+            },
+            {
+              "t": 1.500000000000001,
+              "x": 1.6262744505810487,
+              "y": 1.7389630113161212
+            },
+            {
+              "t": 1.5200000000000011,
+              "x": 1.6521381153478663,
+              "y": 1.7638107946875428
+            },
+            {
+              "t": 1.5400000000000011,
+              "x": 1.6779375342275384,
+              "y": 1.7886591170748316
+            },
+            {
+              "t": 1.5600000000000012,
+              "x": 1.703639335742397,
+              "y": 1.813507229006414
+            },
+            {
+              "t": 1.5800000000000012,
+              "x": 1.7292120462124954,
+              "y": 1.8383543976306036
+            },
+            {
+              "t": 1.6000000000000012,
+              "x": 1.7546267084864735,
+              "y": 1.8631999639453938
+            },
+            {
+              "t": 1.6200000000000012,
+              "x": 1.779857453275908,
+              "y": 1.8880433942017827
+            },
+            {
+              "t": 1.6400000000000012,
+              "x": 1.8048820110642327,
+              "y": 1.912884321447714
+            },
+            {
+              "t": 1.6600000000000013,
+              "x": 1.8296821535558758,
+              "y": 1.937722573979835
+            },
+            {
+              "t": 1.6800000000000013,
+              "x": 1.8542440550194028,
+              "y": 1.9625581885212873
+            },
+            {
+              "t": 1.7000000000000013,
+              "x": 1.8785585656302706,
+              "y": 1.9873914071541994
+            },
+            {
+              "t": 1.7101552522726124,
+              "x": 1.8908082070315624,
+              "y": 2
+            }
+          ],
+          "dragFactor": 1.0373287371359767,
+          "gustFactor": 1.204729578224942,
+          "phase": 4.476459850040842,
+          "referenceAreaCm2": 20,
+          "massG": 0.2,
+          "baseWindMps": 1,
+          "sourceId": "model-provided-release-and-reading",
+          "cursor": "1.9",
+          "reading": {
+            "value": 1.9,
+            "sourceId": "model-provided-reading",
+            "correctAfterFeedback": false
+          },
+          "attempts": []
+        }
+      ]
+    },
+    "activeTrial": "large-3",
+    "cursor": "1.9",
+    "comparisonEntries": {
+      "small-mean": "0.9",
+      "small-range": "0.3",
+      "large-mean": "1.8",
+      "large-range": "0.6",
+      "rank": "large"
+    },
+    "comparisonRecord": {
+      "entries": {
+        "small-mean": "0.9",
+        "small-range": "0.3",
+        "large-mean": "1.8",
+        "large-range": "0.6",
+        "rank": "large"
+      },
+      "correctAfterFeedback": true,
+      "sourceId": "student-calculated-recorded-data"
+    },
+    "comparisonAttempts": [
+      {
+        "entries": {
+          "small-mean": "99",
+          "small-range": "",
+          "large-mean": "",
+          "large-range": "",
+          "rank": ""
+        },
+        "correct": false
+      },
+      {
+        "entries": {
+          "small-mean": "0.9",
+          "small-range": "0.3",
+          "large-mean": "1.8",
+          "large-range": "0.6",
+          "rank": "large"
+        },
+        "correct": true
+      }
+    ],
+    "checks": {
+      "fitness": {
+        "attempts": [
+          {
+            "value": "range",
+            "correct": false
+          },
+          {
+            "value": "survival",
+            "correct": true
+          }
+        ],
+        "value": "survival",
+        "correct": true
+      },
+      "mass": {
+        "attempts": [
+          {
+            "value": "control",
+            "correct": true
+          }
+        ],
+        "value": "control",
+        "correct": true
+      },
+      "releases": {
+        "attempts": [
+          {
+            "value": "variation",
+            "correct": true
+          }
+        ],
+        "value": "variation",
+        "correct": true
+      }
+    },
+    "answers": {
+      "controls": "My controls explanation uses actual distances 0.7, 1, 0.9 m for the small wing and 1.5, 2.1, 1.9 m for the large wing. Both masses were supplied as 0.20 g, with the same height and nominal wind. Separate drops vary, so means and ranges add context to one landing. I read the first distance for each design, and four later readings were model-provided. This drag-based paper model omits real maple rotation and lift. Distance alone does not measure habitat quality, survival or fitness.",
+      "variation": "My variation explanation uses actual distances 0.7, 1, 0.9 m for the small wing and 1.5, 2.1, 1.9 m for the large wing. Both masses were supplied as 0.20 g, with the same height and nominal wind. Separate drops vary, so means and ranges add context to one landing. I read the first distance for each design, and four later readings were model-provided. This drag-based paper model omits real maple rotation and lift. Distance alone does not measure habitat quality, survival or fitness.",
+      "inference": "My inference explanation uses actual distances 0.7, 1, 0.9 m for the small wing and 1.5, 2.1, 1.9 m for the large wing. Both masses were supplied as 0.20 g, with the same height and nominal wind. Separate drops vary, so means and ranges add context to one landing. I read the first distance for each design, and four later readings were model-provided. This drag-based paper model omits real maple rotation and lift. Distance alone does not measure habitat quality, survival or fitness."
+    },
+    "complete": true
+  },
+  "evidence": [
+    {
+      "goalId": "controls",
+      "answerId": "controls",
+      "writing": "My controls explanation uses actual distances 0.7, 1, 0.9 m for the small wing and 1.5, 2.1, 1.9 m for the large wing. Both masses were supplied as 0.20 g, with the same height and nominal wind. Separate drops vary, so means and ranges add context to one landing. I read the first distance for each design, and four later readings were model-provided. This drag-based paper model omits real maple rotation and lift. Distance alone does not measure habitat quality, survival or fitness.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "variation",
+      "answerId": "variation",
+      "writing": "My variation explanation uses actual distances 0.7, 1, 0.9 m for the small wing and 1.5, 2.1, 1.9 m for the large wing. Both masses were supplied as 0.20 g, with the same height and nominal wind. Separate drops vary, so means and ranges add context to one landing. I read the first distance for each design, and four later readings were model-provided. This drag-based paper model omits real maple rotation and lift. Distance alone does not measure habitat quality, survival or fitness.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "inference",
+      "answerId": "inference",
+      "writing": "My inference explanation uses actual distances 0.7, 1, 0.9 m for the small wing and 1.5, 2.1, 1.9 m for the large wing. Both masses were supplied as 0.20 g, with the same height and nominal wind. Separate drops vary, so means and ranges add context to one landing. I read the first distance for each design, and four later readings were model-provided. This drag-based paper model omits real maple rotation and lift. Distance alone does not measure habitat quality, survival or fitness.",
+      "status": "not_graded"
+    }
+  ]
+}

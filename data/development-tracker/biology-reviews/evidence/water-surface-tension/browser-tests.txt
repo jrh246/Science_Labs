@@ -1,0 +1,45 @@
+
+node.exe : [WebServer] (node:55432) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([WebServer] (no... env being set.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] 
+[WebServer] (!) Some chunks are larger than 500 kB after minification. Consider:
+[WebServer] - Using dynamic import() to code-split the application
+[WebServer] - Use build.rollupOptions.output.manualChunks to improve chunking: 
+https://rollupjs.org/configuration-options/#output-manualchunks
+[WebServer] - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+[WebServer] (node:47288) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+
+Running 18 tests using 1 worker
+
+
+
+(node:43376) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[1/18] tests\browser\library.spec.js:3:1 › navigate from landing through units to the working lab and back
+[2/18] tests\browser\library.spec.js:17:1 › search, shareable results, planned details, empty results, and unknown routes
+[3/18] tests\browser\library.spec.js:30:1 › catalog and lab stay separate after offline navigation
+[4/18] tests\browser\library.spec.js:37:35 › library layout at 390px
+[5/18] tests\browser\library.spec.js:37:35 › library layout at 768px
+[6/18] tests\browser\library.spec.js:37:35 › library layout at 1440px
+[7/18] tests\browser\seed-germination.spec.js:10:1 › Seed Germination full student workflow, corrections, named reports, save/reload/edit and mobile review
+[8/18] tests\browser\seed-germination.spec.js:17:1 › Seed Germination prediction gates, keyboard placement, wrong target, stable reload and touch drag at phone width
+[9/18] tests\browser\seed-germination.spec.js:27:1 › Seed Germination denied save, retry, long Unicode report and first PDF offline
+[10/18] tests\browser\seed-germination.spec.js:30:1 › Seed Germination draft report and PDF failure recovery
+[11/18] tests\browser\seed-germination.spec.js:32:1 › Seed Germination mouse tool placement stays aligned after scrolling and resizing
+[12/18] tests\browser\seed-germination.spec.js:45:1 › Seed Germination ordinary touch selection and clock tap
+[13/18] tests\browser\surface.spec.js:10:1 › surface-tension complete workflow, wrong interpretation, reports, native print, reload and completion edits
+[14/18] tests\browser\surface.spec.js:11:1 › surface-tension mouse, keyboard, touch drag then tap, resize, stable reload and reduced motion
+[15/18] tests\browser\surface.spec.js:12:1 › surface-tension draft, storage denial/retry, long Unicode native print and first PDF offline
+[16/18] tests\browser\surface.spec.js:13:1 › surface-tension PDF failure leaves native print available and can recover
+[17/18] tests\browser\surface.spec.js:15:1 › surface-tension mouse tool placement remains aligned after scroll and resize
+[18/18] tests\browser\surface.spec.js:21:1 › new Biology labs keep root and development attempts/caches separate with first offline PDFs
+  18 passed (31.2s)

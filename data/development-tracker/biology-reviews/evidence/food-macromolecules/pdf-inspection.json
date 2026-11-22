@@ -1,0 +1,94 @@
+[
+  {
+    "file": "public/resources/food-macromolecules-teacher-guide.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2687,
+      2538,
+      1099
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "public/resources/food-macromolecules-worksheet.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1540,
+      1326,
+      1656
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/food-macromolecules/complete.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2150,
+      2151,
+      952
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/food-macromolecules/development-draft.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      1937,
+      1644
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/food-macromolecules/draft.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      1937,
+      1644
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/food-macromolecules/long-native-print.pdf",
+    "pages": 6,
+    "pageCharacters": [
+      2148,
+      1723,
+      1161,
+      1161,
+      1118,
+      1886
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/food-macromolecules/long-offline.pdf",
+    "pages": 6,
+    "pageCharacters": [
+      2185,
+      1782,
+      1217,
+      1217,
+      1217,
+      2114
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/food-macromolecules/native-print.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      2116,
+      2908
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/food-macromolecules/unconfirmed.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      2264,
+      1723
+    ],
+    "finalLongMarker": false
+  }
+]

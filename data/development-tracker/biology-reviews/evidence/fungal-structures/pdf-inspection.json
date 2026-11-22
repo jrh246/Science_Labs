@@ -1,0 +1,109 @@
+[
+  {
+    "file": "public/resources/fungal-structures-teacher-guide.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      3001,
+      3026
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "public/resources/fungal-structures-worksheet.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1430,
+      1528,
+      2651
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/fungal-structures/complete.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1829,
+      3140,
+      2702
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/fungal-structures/development-draft.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1509,
+      1707,
+      1699
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/fungal-structures/draft.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1499,
+      1707,
+      1699
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/fungal-structures/edited-unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1838,
+      3115,
+      2705
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/fungal-structures/long-native-print.pdf",
+    "pages": 7,
+    "pageCharacters": [
+      1801,
+      2723,
+      837,
+      837,
+      837,
+      1427,
+      1600
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/fungal-structures/long-offline.pdf",
+    "pages": 7,
+    "pageCharacters": [
+      1838,
+      2794,
+      905,
+      905,
+      905,
+      1310,
+      2039
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/fungal-structures/native-print.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1795,
+      3040,
+      2606
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/fungal-structures/unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1736,
+      1707,
+      1699
+    ],
+    "finalLongMarker": false
+  }
+]

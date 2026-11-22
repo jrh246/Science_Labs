@@ -1,0 +1,80 @@
+{
+  "labId": "phylogenetic-trees",
+  "locale": "en",
+  "scope": "Authored core directions/questions; excludes teacher notes, sources and student writing. Dynamic app/diagram/report wording is reviewed manually.",
+  "method": "Approximate Flesch-Kincaid with heuristic syllable counts and explicit scientific-word exceptions. Short fragments and technical terms can distort the score; no pass/fail or language certification.",
+  "overall": {
+    "words": 513,
+    "sentences": 45,
+    "wordsPerSentence": 11.4,
+    "approximateFleschKincaidGrade": 7.7
+  },
+  "fragments": {
+    "intro": {
+      "words": 52,
+      "sentences": 5,
+      "wordsPerSentence": 10.4,
+      "approximateFleschKincaidGrade": 7.1
+    },
+    "prediction": {
+      "words": 29,
+      "sentences": 2,
+      "wordsPerSentence": 14.5,
+      "approximateFleschKincaidGrade": 10.4
+    },
+    "design": {
+      "words": 20,
+      "sentences": 1,
+      "wordsPerSentence": 20,
+      "approximateFleschKincaidGrade": 12.9
+    },
+    "controls": {
+      "words": 39,
+      "sentences": 3,
+      "wordsPerSentence": 13,
+      "approximateFleschKincaidGrade": 11.3
+    },
+    "sampling": {
+      "words": 41,
+      "sentences": 3,
+      "wordsPerSentence": 13.7,
+      "approximateFleschKincaidGrade": 9
+    },
+    "limits": {
+      "words": 103,
+      "sentences": 10,
+      "wordsPerSentence": 10.3,
+      "approximateFleschKincaidGrade": 6.4
+    },
+    "explanation:traits": {
+      "words": 35,
+      "sentences": 3,
+      "wordsPerSentence": 11.7,
+      "approximateFleschKincaidGrade": 6.5
+    },
+    "explanation:dna": {
+      "words": 30,
+      "sentences": 3,
+      "wordsPerSentence": 10,
+      "approximateFleschKincaidGrade": 6.8
+    },
+    "explanation:tree": {
+      "words": 35,
+      "sentences": 2,
+      "wordsPerSentence": 17.5,
+      "approximateFleschKincaidGrade": 7.4
+    },
+    "check:shape": {
+      "words": 66,
+      "sentences": 6,
+      "wordsPerSentence": 11,
+      "approximateFleschKincaidGrade": 8.9
+    },
+    "check:rotation": {
+      "words": 63,
+      "sentences": 7,
+      "wordsPerSentence": 9,
+      "approximateFleschKincaidGrade": 6.1
+    }
+  }
+}

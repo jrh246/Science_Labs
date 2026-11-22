@@ -1,0 +1,28 @@
+{
+  "environment": "local",
+  "releaseId": "48a1e3b34228bf78fe711ff2",
+  "changedLabs": [
+    "body-heat",
+    "nephron",
+    "water-surface-tension"
+  ],
+  "changes": [
+    {
+      "labId": "body-heat",
+      "before": "0e03f7bab011f9c98ed478ea",
+      "after": "48a1e3b34228bf78fe711ff2"
+    },
+    {
+      "labId": "nephron",
+      "before": "0e03f7bab011f9c98ed478ea",
+      "after": "48a1e3b34228bf78fe711ff2"
+    },
+    {
+      "labId": "water-surface-tension",
+      "before": "0e03f7bab011f9c98ed478ea",
+      "after": "48a1e3b34228bf78fe711ff2"
+    }
+  ],
+  "publicationAndAccessPreserved": true,
+  "assignmentVersionsUntouched": true
+}

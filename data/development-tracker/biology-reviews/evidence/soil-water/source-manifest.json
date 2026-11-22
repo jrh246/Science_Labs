@@ -1,0 +1,21 @@
+{
+  "capturedAt": "2026-11-15T15:27:59.735Z",
+  "scope": "Actual reviewed working-tree files; unrelated changes and previous student attempts preserved.",
+  "files": {
+    "src/investigations/soil-content.js": "7ec2fe278a3d5e807f07deff81a22ad0b4c27d1877b47f0930ca9b1977fa3bc5",
+    "src/investigations/soil-model.js": "2003068c752ba6c1cc3c4c70ce885f3af1d4d7a037023c999e7ff3c49dc7b124",
+    "src/investigations/soil-art.js": "f7c2c2f92e577e69be9286b176ca7fa52882713b7e65093d8273e989f6bf7d0b",
+    "src/investigations/soil-report.js": "2e1d442044069951fe655841d9d9ec479fa1bf25158920372dbcfecdc811873e",
+    "src/investigations/soil-app.js": "c3d433294dc205902aae29cb890bbefa2f7040f63caa2be235358cff1dcaa319",
+    "src/investigations/soil.css": "1fc2d5eb9b81f3d2b884e5849d3772f179b8f4e249653e22dc5d9b1b2126d869",
+    "tests/soil.test.js": "61c40cc46b8c1b9dc5d125405466d47b0dfe882ca9bb8ccdfe3d33d04c7bd8bf",
+    "tests/browser/soil.spec.js": "223e60d810acb95cfed5470f4efbcdef281134000f3c000a9ffd0e774a0b82b4",
+    "src/investigations/guided-lab-shell.js": "7718d1ab83d65ac8551b25323338c5c2bb4c73afc988331f3c29b767a9abc55f",
+    "src/catalog.js": "47b2fe0fbcf4764ef4113d9b8eb4cc22185cb703a1c4660398b1a73f214b0b2f",
+    "src/investigations/app.js": "41abe764259aefc83c5c21419a3b9cbccfe1257f67b648bfa03b74f91fc96355",
+    "scripts/build-biology-resources.py": "706d65398814fd5ee809c6516b69305d26295c4342b6e9426a16220b4a31be7f",
+    "scripts/verify-resources.py": "c5003050d0ac28af6965cf5aa4e99324c73566b703c665c773bc1db40cd7a458",
+    "public/resources/soil-water-worksheet.pdf": "8c70f46037a117ad1ba46509d919a1586c35098cd182849bb7669aa25c72c030",
+    "public/resources/soil-water-teacher-guide.pdf": "f3fa9e9f1777da001b2b2f07472446d63f5f6c4f92ddb643e2b164ba70ab2c23"
+  }
+}

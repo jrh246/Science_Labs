@@ -1,0 +1,1 @@
+Pinned font/VFS/coverage rebuild byte-identical; licenses retained with unmodified font.

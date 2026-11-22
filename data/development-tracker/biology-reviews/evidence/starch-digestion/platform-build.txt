@@ -1,0 +1,58 @@
+
+> cell-homeostasis-lab@1.0.0 build:platform
+> node scripts/build-platform.mjs
+
+vite v7.3.6 building client environment for production...
+transforming...
+✓ 207 modules transformed.
+rendering chunks...
+computing gzip size...
+.platform-build/runtime/index.html                               0.65 kB │ gzip:   0.36 kB
+.platform-build/runtime/activity.html                            0.77 kB │ gzip:   0.41 kB
+.platform-build/runtime/lab.html                                 0.84 kB │ gzip:   0.42 kB
+.platform-build/runtime/investigation.html                       1.01 kB │ gzip:   0.45 kB
+.platform-build/runtime/sw.js                                    6.33 kB
+.platform-build/runtime/assets/report-identity-HDTcUcLN.css      3.81 kB │ gzip:   1.17 kB
+.platform-build/runtime/assets/library-BEhjV8CM.css              6.83 kB │ gzip:   2.30 kB
+.platform-build/runtime/assets/activity-CEgFJJFy.css             7.76 kB │ gzip:   2.25 kB
+.platform-build/runtime/assets/lab-BNuBkTRH.css                 11.47 kB │ gzip:   3.16 kB
+.platform-build/runtime/assets/investigation-CLk3RNsR.css      113.82 kB │ gzip:  23.15 kB
+.platform-build/runtime/assets/report-identity-E2z6qRFC.js       4.74 kB │ gzip:   1.99 kB
+.platform-build/runtime/assets/preview-DHLk4GbE.js              12.97 kB │ gzip:   5.46 kB
+.platform-build/runtime/assets/activity-zh31igD_.js             15.04 kB │ gzip:   6.10 kB
+.platform-build/runtime/assets/library-BftqdBbm.js              26.84 kB │ gzip:   8.34 kB
+.platform-build/runtime/assets/lab-Bkslj8O8.js                  31.76 kB │ gzip:  11.80 kB
+.platform-build/runtime/assets/extended-content-BMB37dt9.js     42.04 kB │ gzip:  14.91 kB
+.platform-build/runtime/assets/runtime-bridge-BH4dmBoD.js       82.11 kB │ gzip:  30.09 kB
+.platform-build/runtime/assets/investigation-CuPjyf6O.js       946.21 kB │ gzip: 306.20 kB
+.platform-build/runtime/assets/lab-report-pdf-BcQRdXfr.js    1,644.28 kB │ gzip: 761.99 kB
+node.exe : 
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: 
+https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 3.25s
+vite v7.3.6 building client environment for production...
+transforming...
+✓ 31 modules transformed.
+rendering chunks...
+computing gzip size...
+dist-platform/platform.html                          0.41 kB │ gzip:   0.28 kB
+dist-platform/assets/platform-CKKDZ-Cp.css           9.07 kB │ gzip:   2.85 kB
+dist-platform/assets/platform-DxkT2T4R.js          119.56 kB │ gzip:  40.19 kB
+dist-platform/assets/lab-report-pdf-BcQRdXfr.js  1,644.28 kB │ gzip: 761.99 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: 
+https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 2.29s
+Built portal and immutable lab release 0e4e1aa4ab0607e3a95cc864 (36 labs). Upload runtime files to the private release bucket before registering the release.

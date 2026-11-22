@@ -1,0 +1,22 @@
+[
+  {
+    "lab": "microhabitats",
+    "file": "complete",
+    "pages": 3
+  },
+  {
+    "lab": "microhabitats",
+    "file": "long-offline",
+    "pages": 6
+  },
+  {
+    "lab": "immune-memory",
+    "file": "complete",
+    "pages": 4
+  },
+  {
+    "lab": "immune-memory",
+    "file": "long-offline",
+    "pages": 8
+  }
+]

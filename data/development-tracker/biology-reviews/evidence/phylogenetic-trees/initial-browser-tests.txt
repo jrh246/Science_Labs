@@ -1,0 +1,39 @@
+node.exe : [WebServer] (node:45460) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([WebServer] (no... env being set.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+[WebServer] 
+[WebServer] (!) Some chunks are larger than 500 kB after minification. Consider:
+[WebServer] - Using dynamic import() to code-split the application
+[WebServer] - Use build.rollupOptions.output.manualChunks to improve chunking: 
+https://rollupjs.org/configuration-options/#output-manualchunks
+[WebServer] - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+[WebServer] (node:58352) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+
+Running 12 tests using 1 worker
+
+(node:54128) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+
+[1/12] tests\browser\library.spec.js:3:1 › navigate from landing through units to the working lab and back
+[2/12] tests\browser\library.spec.js:17:1 › search, shareable results, planned details, empty results, and unknown routes
+[3/12] tests\browser\library.spec.js:30:1 › catalog and lab stay separate after offline navigation
+[4/12] tests\browser\library.spec.js:37:35 › library layout at 390px
+[5/12] tests\browser\library.spec.js:37:35 › library layout at 768px
+[6/12] tests\browser\library.spec.js:37:35 › library layout at 1440px
+[7/12] tests\browser\phylo.spec.js:9:1 › phylo full evidence comparison, wrong/current tree, rotation, save, named PDF/JSON/native print and edits
+[8/12] tests\browser\phylo.spec.js:10:1 › phylo actual mouse placements after resize and keyboard columns/focus; edited checked columns block progression
+[9/12] tests\browser\phylo.spec.js:11:1 › phylo native touch drag-release-then-tap, reduced motion and phone targets
+[10/12] tests\browser\phylo.spec.js:12:1 › phylo denied save/retry, long Unicode explanation and first offline PDF/native print
+[11/12] tests\browser\phylo.spec.js:13:1 › phylo draft export failure recovery and native print availability
+[12/12] tests\browser\phylo.spec.js:14:1 › phylo root/development isolated progress and first offline development PDF
+  12 passed (23.5s)

@@ -1,0 +1,14 @@
+✔ transpiration first prediction, cover, pan, correct off-pan controller and initial readings gate one interval (2.4569ms)
+✔ transpiration isolates all three model factors with explicit normalized passage/gradient settings (0.763ms)
+✔ transpiration derives comparisons from rounded recorded changes rather than higher final mass (13.0775ms)
+✔ transpiration raw current readings/empty calculations and archived time snapshots survive reload (1.5386ms)
+✔ transpiration leaf-phase/pathway choices require current calculations and preserve corrections (0.7826ms)
+✔ transpiration report retains synthetic sources, units, first plan, Unicode and honest completed identity (0.8636ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 95.2801

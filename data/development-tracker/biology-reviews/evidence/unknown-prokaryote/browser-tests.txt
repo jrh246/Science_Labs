@@ -1,0 +1,65 @@
+node.exe : [WebServer] (node:46008) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([WebServer] (no... env being set.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] 
+[WebServer] (!) Some chunks are larger than 500 kB after minification. Consider:
+[WebServer] - Using dynamic import() to code-split the application
+[WebServer] - Use build.rollupOptions.output.manualChunks to improve chunking: 
+https://rollupjs.org/configuration-options/#output-manualchunks
+[WebServer] - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[WebServer] (node:29156) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 7 tests using 1 worker
+
+(node:49496) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 tests\browser\biology-browser-contract.mjs:5:2 › unknown-prokaryote: complete corrected attempt, truthful saves, named PDF/JSON/native print and edits (3.5s)
+  ok 2 tests\browser\biology-browser-contract.mjs:6:2 › unknown-prokaryote: denied storage/retry, Unicode long writing and first offline PDF/native print (1.9s)
+  ok 3 tests\browser\biology-browser-contract.mjs:7:2 › unknown-prokaryote: unfinished neutral PDF and export failure recovery (835ms)
+  ok 4 tests\browser\biology-browser-contract.mjs:8:2 › unknown-prokaryote: root/development progress isolation and first offline development PDF (1.4s)
+  ok 5 tests\browser\prok.spec.js:9:1 › prok keyboard slide/focus, mouse tube placement after resize, retained edits and view-only focus (1.2s)
+  ok 6 tests\browser\prok.spec.js:10:1 › prok native touch slide drag, continuous focus drag and immediate shape-check tap (1.5s)
+  x  7 tests\browser\prok.spec.js:12:1 › prok corrected entries invalidate stale feedback and completion while preserving the sample (2.0m)
+
+
+  1) tests\browser\prok.spec.js:12:1 › prok corrected entries invalidate stale feedback and completion while preserving the sample 
+
+    Test timeout of 120000ms exceeded.
+
+    Error: locator.click: Test timeout of 120000ms exceeded.
+    Call log:
+      - waiting for locator('[data-lab-action="review-broths"]')
+        - locator resolved to <button type="button" data-lab-action="review-broths">Review broths</button>
+      - attempting click action
+        2 × waiting for element to be visible, enabled and stable
+          - element is not visible
+        - retrying click action
+        - waiting 20ms
+        2 × waiting for element to be visible, enabled and stable
+          - element is not visible
+        - retrying click action
+          - waiting 100ms
+        226 × waiting for element to be visible, enabled and stable
+            - element is not visible
+          - retrying click action
+            - waiting 500ms
+
+
+      10 | test('prok native touch slide drag, continuous focus drag and immediate shape-check tap',async({browser})=>{await fs.mkdir(out,{recursive:true});const context=await browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true,reducedMotion:'reduce'}),page=await context.newPage();await plan(page);const client=await context.newCDPSession(page);async function drag(ax,ay,bx,by){await client.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x:ax,y:ay}]});for(let i=1;i<=10;i++)await client.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x:ax+(bx-ax)*i/10,y:ay+(by-ay)*i/10}]});await client.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});}await page.locator('.prok-workbench').evaluate(el=>el.scrollIntoView({block:'center'}));let a=await page.locator('[data-tool="slide"]').boundingBox(),b=await page.locator('[data-place="stage"]').boundingBox();expect(b.width).toBeGreaterThanOrEqual(44);expect(b.height).toBeGreaterThanOrEqual(44);await drag(a.x+a.width/2,a.y+a.height/2,b.x+b.width/2,b.y+b.height/2);await page.locator('[data-entry="focus"]').scrollIntoViewIfNeeded();a=await page.locator('[data-entry="focus"]').boundingBox();await drag(a.x+10+(a.width-20)*.1,a.y+a.height/2,a.x+a.width/2,a.y+a.height/2);expect(Number(await page.locator('[data-entry="focus"]').inputValue())).toBeGreaterThanOrEqual(35);expect(Number(await page.locator('[data-entry="focus"]').inputValue())).toBeLessThanOrEqual(65);const shape=(await page.locator('.prok-field svg').getAttribute('aria-label')).includes('rod-shaped')?'rod':'round';await page.locator('[data-entry="shape"]').selectOption(shape);await page.locator('[data-lab-action="shape"]').tap();await expect(page.locator('.prok-shape-feedback')).toContainText('Correct!');await page.screenshot({path:out+'/phone-focused.png',fullPage:true});await page.locator('[data-lab-action="broths"]').tap();for(const id of ['glucose','control']){const box=await page.locator(`[data-place="${id}"]`).boundingBox();expect(box.width).toBeGreaterThanOrEqual(44);expect(box.height).toBeGreaterThanOrEqual(44);}expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);await page.screenshot({path:out+'/phone-broths.png',fullPage:true});await context.close();});
+      11 |
+    > 12 | test('prok corrected entries invalidate stale feedback and completion while preserving the sample',async({page})=>{await fullAttempt(page);const profile=await page.locator('[data-entry="profile"]').inputValue();await page.locator('[data-lab-action="complete"]').click();await page.locator('[data-entry="profile"]').selectOption(profile==='A'?'B':'A');await expect(page.locator('.prok-match-feedback')).not.toContainText('Correct!');await expect(page.locator('[data-lab-action="check"]').first()).toBeDisabled();await expect(page.locator('[data-lab-action="complete"]')).toBeDisabled();await page.reload();await expect(page.locator('[data-entry="profile"]')).not.toHaveValue(profile);await page.locator('[data-entry="profile"]').selectOption(profile);await page.locator('[data-lab-action="match"]').click();await expect(page.locator('[data-lab-action="complete"]')).toBeEnabled();await page.getByText('Review the same saved evidence',{exact:true}).click();await page.locator('[data-lab-action="review-broths"]').click();await page.locator('[data-entry="glucose-color"]').selectOption('blue');await expect(page.locator('.prok-broth-feedback')).not.toContainText('Correct!');await expect(page.locator('[data-lab-action="match-stage"]')).toBeDisabled();await page.reload();await expect(page.locator('[data-entry="glucose-color"]')).toHaveValue('blue');await page.locator('[data-entry="glucose-color"]').selectOption('yellow');await page.locator('[data-lab-action="record-broths"]').click();await page.locator('[data-lab-action="match-stage"]').click();await page.getByText('Review the same saved evidence',{exact:true}).click();await page.locator('[data-lab-action="review-shape"]').click();const shape=await page.locator('[data-entry="shape"]').inputValue();await page.locator('[data-entry="shape"]').selectOption(shape==='rod'?'round':'rod');await expect(page.locator('.prok-shape-feedback')).not.toContainText('Correct!');await expect(page.locator('[data-lab-action="broths"]')).toBeDisabled();});
+         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ^
+      13 |
+        at C:\Projects\Science_Labs\tests\browser\prok.spec.js:12:936
+
+    Error Context: test-results\prok-prok-corrected-entrie-885e9-while-preserving-the-sample\error-context.md
+
+  1 failed
+    tests\browser\prok.spec.js:12:1 › prok corrected entries invalidate stale feedback and completion while preserving the sample 
+  6 passed (2.3m)

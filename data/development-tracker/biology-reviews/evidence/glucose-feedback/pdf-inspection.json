@@ -1,0 +1,119 @@
+[
+  {
+    "file": "public/resources/glucose-feedback-teacher-guide.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      2704,
+      2507
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "public/resources/glucose-feedback-worksheet.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1640,
+      1470,
+      2511
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/glucose-feedback/complete.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2578,
+      3982,
+      2473
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/glucose-feedback/development-draft.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1793,
+      1252,
+      1571
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/glucose-feedback/draft.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1783,
+      1252,
+      1571
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/glucose-feedback/edited-unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2567,
+      3699,
+      2476
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/glucose-feedback/fall-unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2590,
+      1662,
+      1571
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/glucose-feedback/long-native-print.pdf",
+    "pages": 7,
+    "pageCharacters": [
+      2666,
+      2928,
+      837,
+      837,
+      837,
+      1170,
+      1472
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/glucose-feedback/long-offline.pdf",
+    "pages": 7,
+    "pageCharacters": [
+      2568,
+      3073,
+      905,
+      905,
+      905,
+      1456,
+      1571
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/glucose-feedback/native-print.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2684,
+      3742,
+      2376
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/glucose-feedback/rise-unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2418,
+      1404,
+      1571
+    ],
+    "finalLongMarker": false
+  }
+]

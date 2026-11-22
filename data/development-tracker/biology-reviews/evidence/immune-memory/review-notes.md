@@ -1,0 +1,11 @@
+# BIO-28 separate development review
+
+Reviewed the actual cell/graph UI, feedback and reports, not only test expectations. BCR native-feature binding differs from helper contact with processed peptide/presentation protein. Helper supplied already activated; clone/late help supplied, memory is not antibody. Broad source no-delay/no-symptoms claims deliberately excluded. Consulted relevant text of OpenStax Biology42.2, A&P21.4 and Microbiology18.4; no source art/curves copied.
+
+Confirmed/fixed: release was initially skipped by graph transition. Added an observable release stage before the graph. Added uptake/process marking. Centered the displayed-fragment caption (right-position A cell could push it offstage); redirected release arrow upward away from memory cell. Later stage instruction names observed release. Removed premature new-B pattern statement from the generic draft report.
+
+Separate findings: first qualifying sampled days8/4 and peaks8/14, not exact response onset, absolute concentration or immunity. New B classification adds specificity evidence, not duplicated readings. Seeded receptor location stable. Current rejected receptor and reading/blank edits remain explicit, no premature corrected claim. View-only graph/direct return preserves completion; substantive edit invalidates and gates immediately.
+
+All45 current PDF/native/resource pages reviewed: no clipping, blank pages, missing glyphs or lost long-answer tail. Small goal paragraph at one boundary is followed by the actual question/answer pair together on the next page; no orphaned response question. Completed17 prompt pairs and110 source fragments verified. Teacher2/student3 pages. Initial and final13 focused model/report/font checks and6 browser workflows passed.95 resources and private platform compile pass. English heuristic7.9/11.5words supports manual definitions review only.
+
+Phone/tablet behavior via desktop Chromium touch emulation, keyboard/mouse/reduced motion and resize tested. Actual physical devices, assistive technology, teacher/student comprehension, native translated app/resources and release/domain deployment remain separate. No account or payment prerequisite added, no production publish/commit/push.

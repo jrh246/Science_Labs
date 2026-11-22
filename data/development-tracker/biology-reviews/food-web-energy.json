@@ -1,0 +1,297 @@
+{
+  "schemaVersion": 1,
+  "labId": "food-web-energy",
+  "taskId": "BIO-32-REVIEW",
+  "reviewedBy": "Codex - separate development review",
+  "reviewedOn": "2026-11-15",
+  "sourceSnapshot": "sha256:444cd522a06a414544ee958da61421c4b2a5be7cd930bfa12b17c9d4729f090e",
+  "checks": {
+    "G01": {
+      "status": "pass",
+      "notes": "Authored goals map to retained decisions/calculations and original explanations. Food-energy tracers at actual eater mouths build four distinct branched links and amounts; student balances one consumer then computes two matched production-to-production transfers, supplies original causal/limit explanations. Later budgets supplied after the first calculation, source history retained.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/build-brief.md",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/complete-responses.json"
+      ]
+    },
+    "G02": {
+      "status": "pass",
+      "notes": "Four different food links, one detailed consumer calculation and two different level transfers. Later consumer budgets supplied instead of repeat calculations; saved review returns without repeating links. Not independent ecosystem trials.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/build-brief.md",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/review-notes.md"
+      ]
+    },
+    "G03": {
+      "status": "pass",
+      "notes": "Relevant OpenStax46.2 production/food-web/level-transfer text consulted; no source figures/field values or loose NPE assimilation wording copied. Original matched-period/area web, net producer start after its respiration, conservative consumer budgets and final315heat+155unabsorbed+530remaining new tissue=1000. Production differs from standing biomass; level5%/10% differs from hawk5/25=20%of food eaten, no universal10%or recycled-energy claim.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/final-model-tests.txt"
+      ]
+    },
+    "G04": {
+      "status": "pass",
+      "notes": "Supplied versus observed values and model boundaries reviewed beside work and in reports. Relevant OpenStax46.2 production/food-web/level-transfer text consulted; no source figures/field values or loose NPE assimilation wording copied. Original matched-period/area web, net producer start after its respiration, conservative consumer budgets and final315heat+155unabsorbed+530remaining new tissue=1000. Production differs from standing biomass; level5%/10% differs from hawk5/25=20%of food eaten, no universal10%or recycled-energy claim.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/review-notes.md"
+      ]
+    },
+    "G05": {
+      "status": "pass",
+      "notes": "Food-energy tracers at actual eater mouths build four distinct branched links and amounts; student balances one consumer then computes two matched production-to-production transfers, supplies original causal/limit explanations. Later budgets supplied after the first calculation, source history retained.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/visual-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/visual-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/visual-contact-3.png"
+      ]
+    },
+    "G06": {
+      "status": "pass",
+      "notes": "Ten actual web/arrow/budget/phone/tablet states inspected. Original recognizable grass/grasshopper/rabbit/hawk, source/eater direction, stable shuffled tools and aligned mouth sites. Corrected head-centered targets, missing individual budget arrowheads and misleading anatomical budget outputs by drawing a labeled whole-animal budget boundary. Supplied colors/scale/rates and arrow widths explicit.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/visual-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/visual-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/visual-contact-3.png"
+      ]
+    },
+    "G07": {
+      "status": "pass",
+      "notes": "Choice identity/meaningful sequence preserved, shuffled banks stable for an attempt. Current rejection/correction reviewed. Separate review reopened changes-required for numeric answer leaks in pre-observation limits/prompts, mouth geometry, premature feedback claims and budget arrow/boundary issues. Fixed retained later-budget observation history/current-edit status. Actual long PDF table-header orphan preserved and fixed via supported keepWithHeaderRows1; normal/long PDF/native source snapshots checked separately. Initial/final functional groups pass, not automatic scientific approval.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/final-browser-tests.txt"
+      ]
+    },
+    "G08": {
+      "status": "pass",
+      "notes": "Full UI/resource/report pathway manually read. Producer/consumer/trophic level/production/biomass/respiration/egestion/detrital path explained. Short feedback and same-area/time language; heuristic8.7/10.7words only, classroom comprehension pending.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/reading-screen.json",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/review-notes.md"
+      ]
+    },
+    "G09": {
+      "status": "pass",
+      "notes": "Initial reasoning gates model/UI before observation; current academic edits immediately disable dependent actions and preserve raw values on reload.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/final-browser-tests.txt"
+      ]
+    },
+    "G10": {
+      "status": "pass",
+      "notes": "Correct!/Try again feedback explains the rule; current wrong/blank stays unconfirmed and actual revision distinct. Separate review reopened changes-required for numeric answer leaks in pre-observation limits/prompts, mouth geometry, premature feedback claims and budget arrow/boundary issues. Fixed retained later-budget observation history/current-edit status. Actual long PDF table-header orphan preserved and fixed via supported keepWithHeaderRows1; normal/long PDF/native source snapshots checked separately. Initial/final functional groups pass, not automatic scientific approval.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/edited-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/final-model-tests.txt"
+      ]
+    },
+    "G11": {
+      "status": "pass",
+      "notes": "Actual successful/repeated/reloaded completion, denied storage/retry, identity versus academic edits; view-only saved-evidence return preserves completion.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/final-browser-tests.txt"
+      ]
+    },
+    "G12": {
+      "status": "pass",
+      "notes": "Versioned scoped attempt/locale and stable IDs retain original reasoning/current wrong/blank/corrections across reload. No regenerated observations on review.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/final-model-tests.txt"
+      ]
+    },
+    "G13": {
+      "status": "pass",
+      "notes": "Actual named and neutral completed/draft downloadable PDFs plus native print; optional name/period, safe filename and standard local timestamp checked.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/draft.pdf",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/native-print.pdf"
+      ]
+    },
+    "G14": {
+      "status": "pass",
+      "notes": "Human report groups meaningful learning evidence, supplied context, current raw entries/status and original writing, no click-log grade or authenticated submission claim.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/complete-responses.json"
+      ]
+    },
+    "G15": {
+      "status": "pass",
+      "notes": "All39 current teacher/student/report/native pages inspected in five contacts; teacher2/student3, complete3, partial2/3 and long7/7. Completed17 prompt pairs/67source fragments, long15prompt pairs in both formats, glyphs and full tail verified. Additional21older corrected/long downloaded pages inspected in three contacts and8normal/long PDF/native prompt-start regressions pass; no clipping/blank page/lone table header. Full prompt-answer starts, original source text/glyphs, long first-offline/native final marker checked.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/pdf-inspection.json",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/pagination-check.txt",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/glyph-check.txt",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/glyph-all.txt",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/pdf-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/pdf-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/pdf-contact-3.png",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/pdf-contact-4.png",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/pdf-contact-5.png"
+      ]
+    },
+    "G16": {
+      "status": "pass",
+      "notes": "Native touch drag-release-next action, keyboard and resized mouse,44px phone targets/no overflow/reduced motion/reload exercised. Physical hardware/AT remain separate.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/visual-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/visual-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/visual-contact-3.png"
+      ]
+    },
+    "G17": {
+      "status": "pass",
+      "notes": "Initial13/final14 focused model/report/font tests, initial/final6browser cases and actual390px budget follow-up1pass. Four earlier corrected/long/offline report regressions pass,8paired pagination checks,103resource PDFs verified and current private compile passes. Current full resource validation and private platform compile passed. Software is not independent science/classroom acceptance.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/initial-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/platform-build.txt"
+      ]
+    },
+    "G18": {
+      "status": "pass",
+      "notes": "Stable English authored/question/condition IDs, locale and original student writing retained. Native app languages and reviewed Spanish printing remain AUD-10.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/review-notes.md"
+      ]
+    },
+    "RESOURCES": {
+      "status": "pass",
+      "notes": "Current shared-content teacher/student resources, actual rendered pages and prompt/link/hash parity checked. All39 current teacher/student/report/native pages inspected in five contacts; teacher2/student3, complete3, partial2/3 and long7/7. Completed17 prompt pairs/67source fragments, long15prompt pairs in both formats, glyphs and full tail verified. Additional21older corrected/long downloaded pages inspected in three contacts and8normal/long PDF/native prompt-start regressions pass; no clipping/blank page/lone table header.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/pdf-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/pdf-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/pdf-contact-3.png",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/pdf-contact-4.png",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/pdf-contact-5.png"
+      ]
+    },
+    "ACCESS": {
+      "status": "pass",
+      "notes": "Guest/free route, reports/print/offline remain account-free; paid/staff/publishing policy preserved. Private compile only, no public deployment.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/platform-build.txt"
+      ]
+    },
+    "TRACKING": {
+      "status": "pass",
+      "notes": "Actual local English implementation/resources/catalog and curriculum/tracker regenerated. Standards/native-language/full-course/publication approvals separate.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/build-brief.md",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/review-notes.md"
+      ]
+    }
+  },
+  "artifacts": {
+    "workflow": [
+      "data/development-tracker/biology-reviews/evidence/food-web-energy/build-brief.md",
+      "data/development-tracker/biology-reviews/evidence/food-web-energy/review-notes.md",
+      "data/development-tracker/biology-reviews/evidence/food-web-energy/reading-screen.json",
+      "data/development-tracker/biology-reviews/evidence/food-web-energy/complete-responses.json",
+      "data/development-tracker/biology-reviews/evidence/food-web-energy/source-manifest.json"
+    ],
+    "visuals": [
+      "data/development-tracker/biology-reviews/evidence/food-web-energy/visual-contact-1.png",
+      "data/development-tracker/biology-reviews/evidence/food-web-energy/visual-contact-2.png",
+      "data/development-tracker/biology-reviews/evidence/food-web-energy/visual-contact-3.png"
+    ],
+    "pdfReports": [
+      "data/development-tracker/biology-reviews/evidence/food-web-energy/budget-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/food-web-energy/complete.pdf",
+      "data/development-tracker/biology-reviews/evidence/food-web-energy/development-draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/food-web-energy/draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/food-web-energy/edited-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/food-web-energy/feeding-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/food-web-energy/long-offline.pdf",
+      "data/development-tracker/biology-reviews/evidence/food-web-energy/transfer-unconfirmed.pdf"
+    ],
+    "nativePrint": [
+      "data/development-tracker/biology-reviews/evidence/food-web-energy/long-native-print.pdf",
+      "data/development-tracker/biology-reviews/evidence/food-web-energy/native-print.pdf"
+    ],
+    "tests": [
+      "data/development-tracker/biology-reviews/evidence/food-web-energy/final-model-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/food-web-energy/final-browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/food-web-energy/pagination-check.txt",
+      "data/development-tracker/biology-reviews/evidence/food-web-energy/glyph-check.txt",
+      "data/development-tracker/biology-reviews/evidence/food-web-energy/glyph-all.txt",
+      "data/development-tracker/biology-reviews/evidence/food-web-energy/resource-check.txt",
+      "data/development-tracker/biology-reviews/evidence/food-web-energy/platform-build.txt"
+    ],
+    "resources": [
+      "public/resources/food-web-energy-worksheet.pdf",
+      "public/resources/food-web-energy-teacher-guide.pdf"
+    ]
+  },
+  "externalValidation": {
+    "teacherStudentComprehension": {
+      "status": "pending",
+      "notes": "Not performed; development checks do not establish classroom comprehension."
+    },
+    "physicalDevices": {
+      "status": "pending",
+      "notes": "Emulation is not physical-device or assistive-technology acceptance."
+    },
+    "classroomProtocol": {
+      "status": "not-applicable",
+      "notes": "Virtual-only activity; no physical protocol supplied."
+    }
+  },
+  "history": [
+    {
+      "event": "Separate review identified required corrections before acceptance.",
+      "notes": "Remove pre-observation numeric comparison leaks; align mouth sites; avoid premature feedback claims; correct budget arrowheads and distinguish whole-animal accounting paths from anatomical outputs.",
+      "date": "2026-11-15"
+    },
+    {
+      "event": "Separate review identified required corrections before acceptance.",
+      "notes": "Final long-report review found a lone PDF table header. Keep header plus first row together, and check long native/download prompt pairs against their own actual response snapshot.",
+      "date": "2026-11-15"
+    },
+    {
+      "event": "Separate review reopened changes-required for numeric answer leaks in pre-observation limits/prompts, mouth geometry, premature feedback claims and budget arrow/boundary issues. Fixed retained later-budget observation history/current-edit status. Actual long PDF table-header orphan preserved and fixed via supported keepWithHeaderRows1; normal/long PDF/native source snapshots checked separately. Initial/final functional groups pass, not automatic scientific approval.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/final-browser-tests.txt"
+      ]
+    }
+  ],
+  "decision": "pass",
+  "summary": "BIO-32 development review passed for food-to-eater branching, conserved energy destinations and distinct matched level transfers. Fixed answer timing/source attribution/geometry and actual PDF header fragmentation with retained before/after evidence. External classroom/devices/AT, translations and release remain separate.",
+  "blockers": [],
+  "followUps": [
+    {
+      "date": "2026-11-15",
+      "scope": "Final shared PDF section-heading and short/long downloaded/native regression. Earlier full source review retained.",
+      "sourceFiles": [
+        "src/investigations/student-report.js",
+        "scripts/verify-report-pagination.py",
+        "tests/browser/biology-browser-contract.mjs"
+      ],
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/reserve-design/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/final-six-lab-browser-regression.txt",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/shared-section-followup/verification.txt",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/shared-section-followup/inspection.json",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/shared-section-followup/contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/shared-section-followup/contact-2.png"
+      ],
+      "result": "All37browser workflows pass;24normal/long PDF/native section+response checks pass,10focused heading pages inspected. Limited layout/software follow-up, not full scientific/classroom/device/language reapproval."
+    }
+  ]
+}

@@ -1,0 +1,909 @@
+{
+  "schemaVersion": 2,
+  "labId": "invertebrate-key",
+  "title": "Build an Invertebrate Identification Key",
+  "question": "How can you build and test a two-choice key using the visible traits of a defined set of invertebrates?",
+  "student": {
+    "name": "Zoë García",
+    "class": "Period 5"
+  },
+  "status": "Complete",
+  "grading": "not_graded",
+  "exportedAt": "2026-11-15T14:10:38.984Z",
+  "exportTimeZone": "America/Los_Angeles",
+  "exportedAtDisplay": "Nov 15, 2026, 6:10 AM PST",
+  "sections": [
+    {
+      "heading": "First prediction and evidence plan",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Required before observations: Which visible traits might separate an adult beetle, spider, shelled snail and earthworm? Explain why one question might not identify all four.",
+          "text": "Jointed walking legs and an external coiled shell could separate these four examples. One question may leave more than one example in a group."
+        },
+        {
+          "type": "response",
+          "prompt": "Required before observations: How could you check that every example has a clear route through your key? What would be wrong with a question that sends all remaining examples down the same branch?",
+          "text": "Use visible traits to make two nonempty branches at every question. Test a route for each of the four covered examples and check that every endpoint is distinct."
+        },
+        {
+          "type": "paragraph",
+          "text": "Timing: Before virtual example observations or key construction."
+        }
+      ]
+    },
+    {
+      "heading": "Observed model traits",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Student readings of supplied intact drawings. No live specimens, field measurements or independent biological samples."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Covered example",
+            "Current jointed walking legs",
+            "Current external coiled shell",
+            "Evidence status"
+          ],
+          "rows": [
+            [
+              "Adult beetle example",
+              "6",
+              "no",
+              "Correct after feedback"
+            ],
+            [
+              "Spider example",
+              "8",
+              "no",
+              "Correct first check"
+            ],
+            [
+              "Shelled snail example",
+              "0",
+              "yes",
+              "Correct first check"
+            ],
+            [
+              "Earthworm example",
+              "0",
+              "no",
+              "Correct first check"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Student-built identification key",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Current key version: 3. Questions are selected by the student; partitions use the checked model-trait data. Prior key states remain in the structured snapshot."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Step",
+            "Question",
+            "Yes",
+            "No"
+          ],
+          "rows": [
+            [
+              "1",
+              "Any jointed walking legs?",
+              "Go to step 2",
+              "Go to step 3"
+            ],
+            [
+              "2",
+              "Exactly six jointed walking legs?",
+              "Adult beetle example",
+              "Spider example"
+            ],
+            [
+              "3",
+              "An external coiled shell?",
+              "Shelled snail example",
+              "Earthworm example"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Questions rejected because they did not split their group: Fewer than ten jointed walking legs? In the group Adult beetle example, Spider example, Shelled snail example, Earthworm example, one branch was empty."
+        },
+        {
+          "type": "paragraph",
+          "text": "No earlier-version test work was archived."
+        }
+      ]
+    },
+    {
+      "heading": "Current key test coverage",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Card A — student-followed route",
+          "text": "Any jointed walking legs? No → An external coiled shell? No\nEndpoint: Earthworm example. Correct after feedback. Card identity is model-provided; the route choices are student work."
+        },
+        {
+          "type": "response",
+          "prompt": "Card B — student-followed route",
+          "text": "Any jointed walking legs? Yes → Exactly six jointed walking legs? Yes\nEndpoint: Adult beetle example. Correct first checks. Card identity is model-provided; the route choices are student work."
+        },
+        {
+          "type": "response",
+          "prompt": "Card C — student-followed route",
+          "text": "Any jointed walking legs? Yes → Exactly six jointed walking legs? No\nEndpoint: Spider example. Correct first checks. Card identity is model-provided; the route choices are student work."
+        },
+        {
+          "type": "response",
+          "prompt": "Card D — student-followed route",
+          "text": "Any jointed walking legs? No → An external coiled shell? Yes\nEndpoint: Shelled snail example. Correct first checks. Card identity is model-provided; the route choices are student work."
+        }
+      ]
+    },
+    {
+      "heading": "Evidence by learning goal",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Record visible traits while distinguishing walking legs from other appendages."
+        },
+        {
+          "type": "response",
+          "prompt": "Use two examples to explain how you counted walking legs and checked for a coiled shell. How did you avoid counting antennae or tentacles as legs? Which evidence was supplied and which choices did you make?",
+          "text": "My observe explanation uses the four supplied intact models. The adult beetle has six jointed walking legs, the spider eight, and the snail and earthworm zero. Only the snail example has a coiled shell. Antennae and tentacles are not walking legs. My first question split the examples by jointed legs; later questions used the shell and six-leg contrast. Every card followed a route to one distinct endpoint. Another valid question order could work. These tests cover the same four examples, not new populations. Eight legs alone cannot identify every wild arachnid, and this identification key is not a family tree."
+        },
+        {
+          "type": "paragraph",
+          "text": "Construct a complete two-choice key with questions that split the remaining group."
+        },
+        {
+          "type": "response",
+          "prompt": "Describe your first question and the groups on its Yes and No branches. Explain how your later questions separated each remaining example. If you rejected or revised a question, explain why; otherwise give an example of a question that would fail to split one of your groups.",
+          "text": "My construct explanation uses the four supplied intact models. The adult beetle has six jointed walking legs, the spider eight, and the snail and earthworm zero. Only the snail example has a coiled shell. Antennae and tentacles are not walking legs. My first question split the examples by jointed legs; later questions used the shell and six-leg contrast. Every card followed a route to one distinct endpoint. Another valid question order could work. These tests cover the same four examples, not new populations. Eight legs alone cannot identify every wild arachnid, and this identification key is not a family tree."
+        },
+        {
+          "type": "paragraph",
+          "text": "Test every covered endpoint and explain the scope and limits of an identification key."
+        },
+        {
+          "type": "response",
+          "prompt": "Use your four card tests to explain how you checked every endpoint. Could another order of questions still work? Why should someone use a broader, appropriate key for a wild animal instead of assuming that eight legs always means spider? Why is this key not an evolutionary tree?",
+          "text": "My test explanation uses the four supplied intact models. The adult beetle has six jointed walking legs, the spider eight, and the snail and earthworm zero. Only the snail example has a coiled shell. Antennae and tentacles are not walking legs. My first question split the examples by jointed legs; later questions used the shell and six-leg contrast. Every card followed a route to one distinct endpoint. Another valid question order could work. These tests cover the same four examples, not new populations. Eight legs alone cannot identify every wild arachnid, and this identification key is not a family tree."
+        }
+      ]
+    },
+    {
+      "heading": "Concept checks",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "A question sends all remaining examples to Yes. Does it make a useful split?",
+          "text": "No. A useful split needs at least one remaining example on each branch.\nCorrect! A key question should narrow the group using a visible difference. An empty branch adds a step without separating the remaining examples. Correct on first recorded check."
+        },
+        {
+          "type": "response",
+          "prompt": "Why test all four modeled cards after building the key?",
+          "text": "To check that each covered example has a clear route to its own endpoint.\nCorrect! Each card represents a different covered example. The tests check routes and coverage; they are not biological repeat trials. Correct on first recorded check."
+        },
+        {
+          "type": "response",
+          "prompt": "What does this key establish about an unfamiliar wild animal with eight legs?",
+          "text": "The key is too limited to establish its identity; other arachnids can also have eight legs.\nCorrect! Keys work within a defined set of organisms and traits. Identification requires appropriate coverage and more evidence when needed. The question order does not show evolutionary relationships. Revised after feedback."
+        }
+      ]
+    },
+    {
+      "heading": "Model limits and sources",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The drawings are selected intact examples, not photographs, field samples or a complete survey of invertebrates. The beetle is an adult. All walking legs are visible; missing legs, hidden structures, larvae and other species are outside this model. Cards reuse the same four modeled examples in a new order, not new independent organisms. Trait values and card identities are supplied by the model; your observations, questions, route choices and explanations are student work. The key separates only its listed examples. Eight walking legs alone do not identify every wild animal as a spider: other arachnids also have eight legs. A branching identification key is not an evolutionary tree. No collecting or live-handling protocol is supplied."
+        },
+        {
+          "type": "paragraph",
+          "text": "National Park Service: Using Dichotomous Keys: https://home.nps.gov/teachers/classrooms/dichotomous-key.htm"
+        },
+        {
+          "type": "paragraph",
+          "text": "Natural History Museum: Classification Exploration: https://www.nhm.ac.uk/schools/teaching-resources/key-stage-2/life-cycles-habitats-and-classification/practical-activity-classification-exploration.html"
+        },
+        {
+          "type": "paragraph",
+          "text": "University of Wyoming Extension: Know Your Bugs: https://www.uwyo.edu/entomology/insect-identification/know-your-bugs.html"
+        },
+        {
+          "type": "paragraph",
+          "text": "Burke Museum: Eight legs does not always mean spider: https://www.burkemuseum.org/collections-and-research/biology/arachnology-and-entomology/spider-myths/myth-eight-legs-always-means-spider"
+        }
+      ],
+      "keepFirst": 5
+    }
+  ],
+  "activityVersion": 1,
+  "locale": "en",
+  "attemptId": "key-3750472050-1794751834482",
+  "data": {
+    "schemaVersion": 1,
+    "activityVersion": 1,
+    "labId": "invertebrate-key",
+    "attemptId": "key-3750472050-1794751834482",
+    "seed": 3750472050,
+    "locale": "en",
+    "stage": 4,
+    "studentName": "Zoë García",
+    "studentClass": "Period 5",
+    "prediction": "Jointed walking legs and an external coiled shell could separate these four examples. One question may leave more than one example in a group.",
+    "design": "Use visible traits to make two nonempty branches at every question. Test a route for each of the four covered examples and check that every endpoint is distinct.",
+    "initialPlan": {
+      "prediction": "Jointed walking legs and an external coiled shell could separate these four examples. One question may leave more than one example in a group.",
+      "design": "Use visible traits to make two nonempty branches at every question. Test a route for each of the four covered examples and check that every endpoint is distinct.",
+      "timing": "Before virtual example observations or key construction",
+      "recordedAt": "2026-11-15T14:10:34.653Z"
+    },
+    "current": "earthworm",
+    "observations": {
+      "beetle": {
+        "entries": {
+          "legs": "6",
+          "shell": "no"
+        },
+        "record": {
+          "entries": {
+            "legs": "6",
+            "shell": "no"
+          },
+          "correctAfterFeedback": true,
+          "sourceId": "student-read-supplied-example-drawing"
+        },
+        "attempts": [
+          {
+            "entries": {
+              "legs": "8",
+              "shell": "no"
+            },
+            "correct": false
+          },
+          {
+            "entries": {
+              "legs": "6",
+              "shell": "no"
+            },
+            "correct": true
+          }
+        ]
+      },
+      "spider": {
+        "entries": {
+          "legs": "8",
+          "shell": "no"
+        },
+        "record": {
+          "entries": {
+            "legs": "8",
+            "shell": "no"
+          },
+          "correctAfterFeedback": false,
+          "sourceId": "student-read-supplied-example-drawing"
+        },
+        "attempts": [
+          {
+            "entries": {
+              "legs": "8",
+              "shell": "no"
+            },
+            "correct": true
+          }
+        ]
+      },
+      "snail": {
+        "entries": {
+          "legs": "0",
+          "shell": "yes"
+        },
+        "record": {
+          "entries": {
+            "legs": "0",
+            "shell": "yes"
+          },
+          "correctAfterFeedback": false,
+          "sourceId": "student-read-supplied-example-drawing"
+        },
+        "attempts": [
+          {
+            "entries": {
+              "legs": "0",
+              "shell": "yes"
+            },
+            "correct": true
+          }
+        ]
+      },
+      "earthworm": {
+        "entries": {
+          "legs": "0",
+          "shell": "no"
+        },
+        "record": {
+          "entries": {
+            "legs": "0",
+            "shell": "no"
+          },
+          "correctAfterFeedback": false,
+          "sourceId": "student-read-supplied-example-drawing"
+        },
+        "attempts": [
+          {
+            "entries": {
+              "legs": "0",
+              "shell": "no"
+            },
+            "correct": true
+          }
+        ]
+      }
+    },
+    "nodes": {
+      "root": {
+        "id": "root",
+        "members": [
+          "beetle",
+          "spider",
+          "snail",
+          "earthworm"
+        ],
+        "trait": "jointed",
+        "attempts": [
+          {
+            "traitId": "under-ten",
+            "yes": [
+              "beetle",
+              "spider",
+              "snail",
+              "earthworm"
+            ],
+            "no": [],
+            "correct": false
+          },
+          {
+            "traitId": "jointed",
+            "yes": [
+              "beetle",
+              "spider"
+            ],
+            "no": [
+              "snail",
+              "earthworm"
+            ],
+            "correct": true
+          }
+        ]
+      },
+      "root-y": {
+        "id": "root-y",
+        "members": [
+          "beetle",
+          "spider"
+        ],
+        "trait": "six",
+        "attempts": [
+          {
+            "traitId": "six",
+            "yes": [
+              "beetle"
+            ],
+            "no": [
+              "spider"
+            ],
+            "correct": true
+          }
+        ]
+      },
+      "root-n": {
+        "id": "root-n",
+        "members": [
+          "snail",
+          "earthworm"
+        ],
+        "trait": "shell",
+        "attempts": [
+          {
+            "traitId": "shell",
+            "yes": [
+              "snail"
+            ],
+            "no": [
+              "earthworm"
+            ],
+            "correct": true
+          }
+        ]
+      },
+      "root-y-y": {
+        "id": "root-y-y",
+        "members": [
+          "beetle"
+        ],
+        "trait": null,
+        "attempts": []
+      },
+      "root-y-n": {
+        "id": "root-y-n",
+        "members": [
+          "spider"
+        ],
+        "trait": null,
+        "attempts": []
+      },
+      "root-n-y": {
+        "id": "root-n-y",
+        "members": [
+          "snail"
+        ],
+        "trait": null,
+        "attempts": []
+      },
+      "root-n-n": {
+        "id": "root-n-n",
+        "members": [
+          "earthworm"
+        ],
+        "trait": null,
+        "attempts": []
+      }
+    },
+    "group": "root-n",
+    "keyVersion": 3,
+    "keyHistory": [
+      {
+        "version": 0,
+        "nodes": {
+          "root": {
+            "id": "root",
+            "members": [
+              "beetle",
+              "spider",
+              "snail",
+              "earthworm"
+            ],
+            "trait": null,
+            "attempts": [
+              {
+                "traitId": "under-ten",
+                "yes": [
+                  "beetle",
+                  "spider",
+                  "snail",
+                  "earthworm"
+                ],
+                "no": [],
+                "correct": false
+              },
+              {
+                "traitId": "jointed",
+                "yes": [
+                  "beetle",
+                  "spider"
+                ],
+                "no": [
+                  "snail",
+                  "earthworm"
+                ],
+                "correct": true
+              }
+            ]
+          }
+        }
+      },
+      {
+        "version": 1,
+        "nodes": {
+          "root": {
+            "id": "root",
+            "members": [
+              "beetle",
+              "spider",
+              "snail",
+              "earthworm"
+            ],
+            "trait": "jointed",
+            "attempts": [
+              {
+                "traitId": "under-ten",
+                "yes": [
+                  "beetle",
+                  "spider",
+                  "snail",
+                  "earthworm"
+                ],
+                "no": [],
+                "correct": false
+              },
+              {
+                "traitId": "jointed",
+                "yes": [
+                  "beetle",
+                  "spider"
+                ],
+                "no": [
+                  "snail",
+                  "earthworm"
+                ],
+                "correct": true
+              }
+            ]
+          },
+          "root-y": {
+            "id": "root-y",
+            "members": [
+              "beetle",
+              "spider"
+            ],
+            "trait": null,
+            "attempts": [
+              {
+                "traitId": "six",
+                "yes": [
+                  "beetle"
+                ],
+                "no": [
+                  "spider"
+                ],
+                "correct": true
+              }
+            ]
+          },
+          "root-n": {
+            "id": "root-n",
+            "members": [
+              "snail",
+              "earthworm"
+            ],
+            "trait": null,
+            "attempts": []
+          }
+        }
+      },
+      {
+        "version": 2,
+        "nodes": {
+          "root": {
+            "id": "root",
+            "members": [
+              "beetle",
+              "spider",
+              "snail",
+              "earthworm"
+            ],
+            "trait": "jointed",
+            "attempts": [
+              {
+                "traitId": "under-ten",
+                "yes": [
+                  "beetle",
+                  "spider",
+                  "snail",
+                  "earthworm"
+                ],
+                "no": [],
+                "correct": false
+              },
+              {
+                "traitId": "jointed",
+                "yes": [
+                  "beetle",
+                  "spider"
+                ],
+                "no": [
+                  "snail",
+                  "earthworm"
+                ],
+                "correct": true
+              }
+            ]
+          },
+          "root-y": {
+            "id": "root-y",
+            "members": [
+              "beetle",
+              "spider"
+            ],
+            "trait": "six",
+            "attempts": [
+              {
+                "traitId": "six",
+                "yes": [
+                  "beetle"
+                ],
+                "no": [
+                  "spider"
+                ],
+                "correct": true
+              }
+            ]
+          },
+          "root-n": {
+            "id": "root-n",
+            "members": [
+              "snail",
+              "earthworm"
+            ],
+            "trait": null,
+            "attempts": [
+              {
+                "traitId": "shell",
+                "yes": [
+                  "snail"
+                ],
+                "no": [
+                  "earthworm"
+                ],
+                "correct": true
+              }
+            ]
+          },
+          "root-y-y": {
+            "id": "root-y-y",
+            "members": [
+              "beetle"
+            ],
+            "trait": null,
+            "attempts": []
+          },
+          "root-y-n": {
+            "id": "root-y-n",
+            "members": [
+              "spider"
+            ],
+            "trait": null,
+            "attempts": []
+          }
+        }
+      }
+    ],
+    "cards": [
+      {
+        "id": "card-1",
+        "label": "Card A",
+        "exampleId": "earthworm"
+      },
+      {
+        "id": "card-2",
+        "label": "Card B",
+        "exampleId": "beetle"
+      },
+      {
+        "id": "card-3",
+        "label": "Card C",
+        "exampleId": "spider"
+      },
+      {
+        "id": "card-4",
+        "label": "Card D",
+        "exampleId": "snail"
+      }
+    ],
+    "activeCard": "card-4",
+    "tests": {
+      "card-1": {
+        "version": 3,
+        "node": "root-n-n",
+        "path": [
+          {
+            "nodeId": "root",
+            "traitId": "jointed",
+            "answer": "no"
+          },
+          {
+            "nodeId": "root-n",
+            "traitId": "shell",
+            "answer": "no"
+          }
+        ],
+        "attempts": [
+          {
+            "nodeId": "root",
+            "traitId": "jointed",
+            "answer": "yes",
+            "correct": false
+          },
+          {
+            "nodeId": "root",
+            "traitId": "jointed",
+            "answer": "no",
+            "correct": true
+          },
+          {
+            "nodeId": "root-n",
+            "traitId": "shell",
+            "answer": "no",
+            "correct": true
+          }
+        ],
+        "record": {
+          "exampleId": "earthworm",
+          "version": 3,
+          "correctAfterFeedback": true,
+          "sourceId": "student-followed-key-on-supplied-test-card"
+        }
+      },
+      "card-2": {
+        "version": 3,
+        "node": "root-y-y",
+        "path": [
+          {
+            "nodeId": "root",
+            "traitId": "jointed",
+            "answer": "yes"
+          },
+          {
+            "nodeId": "root-y",
+            "traitId": "six",
+            "answer": "yes"
+          }
+        ],
+        "attempts": [
+          {
+            "nodeId": "root",
+            "traitId": "jointed",
+            "answer": "yes",
+            "correct": true
+          },
+          {
+            "nodeId": "root-y",
+            "traitId": "six",
+            "answer": "yes",
+            "correct": true
+          }
+        ],
+        "record": {
+          "exampleId": "beetle",
+          "version": 3,
+          "correctAfterFeedback": false,
+          "sourceId": "student-followed-key-on-supplied-test-card"
+        }
+      },
+      "card-3": {
+        "version": 3,
+        "node": "root-y-n",
+        "path": [
+          {
+            "nodeId": "root",
+            "traitId": "jointed",
+            "answer": "yes"
+          },
+          {
+            "nodeId": "root-y",
+            "traitId": "six",
+            "answer": "no"
+          }
+        ],
+        "attempts": [
+          {
+            "nodeId": "root",
+            "traitId": "jointed",
+            "answer": "yes",
+            "correct": true
+          },
+          {
+            "nodeId": "root-y",
+            "traitId": "six",
+            "answer": "no",
+            "correct": true
+          }
+        ],
+        "record": {
+          "exampleId": "spider",
+          "version": 3,
+          "correctAfterFeedback": false,
+          "sourceId": "student-followed-key-on-supplied-test-card"
+        }
+      },
+      "card-4": {
+        "version": 3,
+        "node": "root-n-y",
+        "path": [
+          {
+            "nodeId": "root",
+            "traitId": "jointed",
+            "answer": "no"
+          },
+          {
+            "nodeId": "root-n",
+            "traitId": "shell",
+            "answer": "yes"
+          }
+        ],
+        "attempts": [
+          {
+            "nodeId": "root",
+            "traitId": "jointed",
+            "answer": "no",
+            "correct": true
+          },
+          {
+            "nodeId": "root-n",
+            "traitId": "shell",
+            "answer": "yes",
+            "correct": true
+          }
+        ],
+        "record": {
+          "exampleId": "snail",
+          "version": 3,
+          "correctAfterFeedback": false,
+          "sourceId": "student-followed-key-on-supplied-test-card"
+        }
+      }
+    },
+    "testHistory": [],
+    "checks": {
+      "scope": {
+        "attempts": [
+          {
+            "value": "spider",
+            "correct": false
+          },
+          {
+            "value": "limited",
+            "correct": true
+          }
+        ],
+        "value": "limited",
+        "correct": true
+      },
+      "split": {
+        "attempts": [
+          {
+            "value": "separate",
+            "correct": true
+          }
+        ],
+        "value": "separate",
+        "correct": true
+      },
+      "coverage": {
+        "attempts": [
+          {
+            "value": "endpoints",
+            "correct": true
+          }
+        ],
+        "value": "endpoints",
+        "correct": true
+      }
+    },
+    "answers": {
+      "observe": "My observe explanation uses the four supplied intact models. The adult beetle has six jointed walking legs, the spider eight, and the snail and earthworm zero. Only the snail example has a coiled shell. Antennae and tentacles are not walking legs. My first question split the examples by jointed legs; later questions used the shell and six-leg contrast. Every card followed a route to one distinct endpoint. Another valid question order could work. These tests cover the same four examples, not new populations. Eight legs alone cannot identify every wild arachnid, and this identification key is not a family tree.",
+      "construct": "My construct explanation uses the four supplied intact models. The adult beetle has six jointed walking legs, the spider eight, and the snail and earthworm zero. Only the snail example has a coiled shell. Antennae and tentacles are not walking legs. My first question split the examples by jointed legs; later questions used the shell and six-leg contrast. Every card followed a route to one distinct endpoint. Another valid question order could work. These tests cover the same four examples, not new populations. Eight legs alone cannot identify every wild arachnid, and this identification key is not a family tree.",
+      "test": "My test explanation uses the four supplied intact models. The adult beetle has six jointed walking legs, the spider eight, and the snail and earthworm zero. Only the snail example has a coiled shell. Antennae and tentacles are not walking legs. My first question split the examples by jointed legs; later questions used the shell and six-leg contrast. Every card followed a route to one distinct endpoint. Another valid question order could work. These tests cover the same four examples, not new populations. Eight legs alone cannot identify every wild arachnid, and this identification key is not a family tree."
+    },
+    "complete": true
+  },
+  "evidence": [
+    {
+      "goalId": "observe",
+      "answerId": "observe",
+      "writing": "My observe explanation uses the four supplied intact models. The adult beetle has six jointed walking legs, the spider eight, and the snail and earthworm zero. Only the snail example has a coiled shell. Antennae and tentacles are not walking legs. My first question split the examples by jointed legs; later questions used the shell and six-leg contrast. Every card followed a route to one distinct endpoint. Another valid question order could work. These tests cover the same four examples, not new populations. Eight legs alone cannot identify every wild arachnid, and this identification key is not a family tree.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "construct",
+      "answerId": "construct",
+      "writing": "My construct explanation uses the four supplied intact models. The adult beetle has six jointed walking legs, the spider eight, and the snail and earthworm zero. Only the snail example has a coiled shell. Antennae and tentacles are not walking legs. My first question split the examples by jointed legs; later questions used the shell and six-leg contrast. Every card followed a route to one distinct endpoint. Another valid question order could work. These tests cover the same four examples, not new populations. Eight legs alone cannot identify every wild arachnid, and this identification key is not a family tree.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "test",
+      "answerId": "test",
+      "writing": "My test explanation uses the four supplied intact models. The adult beetle has six jointed walking legs, the spider eight, and the snail and earthworm zero. Only the snail example has a coiled shell. Antennae and tentacles are not walking legs. My first question split the examples by jointed legs; later questions used the shell and six-leg contrast. Every card followed a route to one distinct endpoint. Another valid question order could work. These tests cover the same four examples, not new populations. Eight legs alone cannot identify every wild arachnid, and this identification key is not a family tree.",
+      "status": "not_graded"
+    }
+  ]
+}

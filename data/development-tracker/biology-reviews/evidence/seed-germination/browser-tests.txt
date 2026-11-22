@@ -1,0 +1,51 @@
+
+node.exe : [WebServer] (node:55376) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([WebServer] (no... env being set.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] 
+[WebServer] (!) Some chunks are larger than 500 kB after minification. Consider:
+[WebServer] - Using dynamic import() to code-split the application
+[WebServer] - Use build.rollupOptions.output.manualChunks to improve chunking: 
+https://rollupjs.org/configuration-options/#output-manualchunks
+[WebServer] - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+[WebServer] (node:54708) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+
+Running 24 tests using 1 worker
+
+
+(node:43304) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+[1/24] tests\browser\lab.spec.js:3:1 › complete experiment, refresh, offline, and reset
+[2/24] tests\browser\lab.spec.js:4:119 › layout chromebook
+[3/24] tests\browser\lab.spec.js:4:119 › layout ipad
+[4/24] tests\browser\lab.spec.js:4:119 › layout desktop
+[5/24] tests\browser\lab.spec.js:4:119 › layout mobile
+[6/24] tests\browser\lab.spec.js:5:1 › online reload refreshes HTML instead of retaining a stale cached document
+[7/24] tests\browser\lab.spec.js:11:1 › sugar piles increase with mass and fit inside the scale background
+[8/24] tests\browser\lab.spec.js:32:1 › reset refreshes stale lab cache from server
+[9/24] tests\browser\lab.spec.js:38:1 › reset keeps the lab reloadable without internet
+[10/24] tests\browser\lab.spec.js:43:55 › preparation stays gradual with motion setting reduce
+[11/24] tests\browser\lab.spec.js:43:55 › preparation stays gradual with motion setting no-preference
+[12/24] tests\browser\lab.spec.js:54:1 › pure-water controls explain why there is no sugar
+[13/24] tests\browser\library.spec.js:3:1 › navigate from landing through units to the working lab and back
+[14/24] tests\browser\library.spec.js:17:1 › search, shareable results, planned details, empty results, and unknown routes
+[15/24] tests\browser\library.spec.js:28:1 › catalog and lab stay separate after offline navigation
+[16/24] tests\browser\library.spec.js:35:35 › library layout at 390px
+[17/24] tests\browser\library.spec.js:35:35 › library layout at 768px
+[18/24] tests\browser\library.spec.js:35:35 › library layout at 1440px
+[19/24] tests\browser\seed-germination.spec.js:10:1 › Seed Germination full student workflow, corrections, named reports, save/reload/edit and mobile review
+[20/24] tests\browser\seed-germination.spec.js:17:1 › Seed Germination prediction gates, keyboard placement, wrong target, stable reload and touch drag at phone width
+[21/24] tests\browser\seed-germination.spec.js:27:1 › Seed Germination denied save, retry, long Unicode report and first PDF offline
+[22/24] tests\browser\seed-germination.spec.js:30:1 › Seed Germination draft report and PDF failure recovery
+[23/24] tests\browser\seed-germination.spec.js:32:1 › Seed Germination mouse tool placement stays aligned after scrolling and resizing
+[24/24] tests\browser\seed-germination.spec.js:45:1 › Seed Germination ordinary touch selection and clock tap
+  24 passed (2.2m)

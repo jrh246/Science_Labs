@@ -1,0 +1,270 @@
+{
+  "schemaVersion": 1,
+  "labId": "blood-flow",
+  "taskId": "BIO-26-REVIEW",
+  "reviewedBy": "Codex - separate development review",
+  "reviewedOn": "2026-11-15",
+  "sourceSnapshot": "sha256:28ce0bca41c2354e429a306217b1ecb91a438113db3fed5fdd822b09fff5082e",
+  "checks": {
+    "G01": {
+      "status": "pass",
+      "notes": "Three goals connect actual model collection reads/rates, controlled diameter/pressure contrasts and constraint/biology explanation to work and original writing.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blood-flow/build-brief.md",
+        "data/development-tracker/biology-reviews/evidence/blood-flow/complete-responses.json"
+      ]
+    },
+    "G02": {
+      "status": "pass",
+      "notes": "Three different conditions isolate two variables with a shared baseline, not three repeats. Third matched preparation supplied, each own collection retained once, no independent biological sample claim.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blood-flow/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/blood-flow/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/blood-flow/review-notes.md"
+      ]
+    },
+    "G03": {
+      "status": "pass",
+      "notes": "Relevant OpenStax hydraulic/biology sources read; Poiseuille multipliers/units, pressure factor, prefilled/steady assumptions and rate versus speed/fixed constraint checked without importing clinical norms.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blood-flow/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/blood-flow/final-model-tests.txt"
+      ]
+    },
+    "G04": {
+      "status": "pass",
+      "notes": "Chosen reference outputs, pressure ratio not absolute measurement, ideal rigid/laminar/fixed-viscosity/source assumptions and omitted real vessels, model time and enlarged bore explicit.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blood-flow/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/blood-flow/review-notes.md"
+      ]
+    },
+    "G05": {
+      "status": "pass",
+      "notes": "Direct tube/coupling, collector/outlet, valve and changed regulator actions alter setup/dial/liquid levels; student retains each read volume and calculates rates/ratios before explaining.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blood-flow/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/blood-flow/visual-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/blood-flow/visual-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/blood-flow/visual-contact-3.png"
+      ]
+    },
+    "G06": {
+      "status": "pass",
+      "notes": "Original transparent fluid apparatus/metal support/cylinder/meniscus reviewed in15 states; fixed floating fill, unsupported apparatus, overlapping text and bore color proportions.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blood-flow/visual-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/blood-flow/visual-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/blood-flow/visual-contact-3.png",
+        "data/development-tracker/biology-reviews/evidence/blood-flow/visual-contact-4.png"
+      ]
+    },
+    "G07": {
+      "status": "pass",
+      "notes": "Stable seeded concept choices, meaningful condition order preserved; model output not copied to student fields or regenerated, current wrong/blank and calculation corrections retained.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blood-flow/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/blood-flow/volume-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/blood-flow/calculation-unconfirmed.pdf"
+      ]
+    },
+    "G08": {
+      "status": "pass",
+      "notes": "Full student pathway/resources/diagram/report wording read, core physical terms/ratio/units explained; removed redundant limits/source-only tail. Diagnostic grade7.0/10.6words only.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blood-flow/reading-screen.json",
+        "data/development-tracker/biology-reviews/evidence/blood-flow/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/blood-flow/pdf-contact-1.png"
+      ]
+    },
+    "G09": {
+      "status": "pass",
+      "notes": "Required first prediction/design before collections, physical setup/pressure/current read/current calculation gates in model and UI; current edits immediately disable continuation and survive reload.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blood-flow/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/blood-flow/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/blood-flow/edited-unconfirmed.pdf"
+      ]
+    },
+    "G10": {
+      "status": "pass",
+      "notes": "Correct! and Try again give volume-versus-rate/pressure and calculation reasons; raw wrong/blank/current entries unconfirmed and meaningful feedback corrections retained.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blood-flow/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/blood-flow/volume-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/blood-flow/calculation-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/blood-flow/edited-unconfirmed.pdf"
+      ]
+    },
+    "G11": {
+      "status": "pass",
+      "notes": "Successful/repeated/reloaded completion and denied-save retry, optional identity preserves completion while substantive reading/calculation/writing edits invalidate it.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blood-flow/final-browser-tests.txt"
+      ]
+    },
+    "G12": {
+      "status": "pass",
+      "notes": "Versioned scoped original plan and own condition output/source/current raw entries/corrections retained. Reviews do not recollect; upstream edits keep other data and old calculations explicitly unconfirmed.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blood-flow/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/blood-flow/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/blood-flow/complete-responses.json"
+      ]
+    },
+    "G13": {
+      "status": "pass",
+      "notes": "Actual named/neutral completed/draft PDF and native printing, optional name/period, safe filename and standard local PST timestamp verified.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blood-flow/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/blood-flow/draft.pdf",
+        "data/development-tracker/biology-reviews/evidence/blood-flow/native-print.pdf"
+      ]
+    },
+    "G14": {
+      "status": "pass",
+      "notes": "Report groups design, condition volume/source/units/current status, student rate/ratio product and meaningful correction set, concepts/original explanation/limits. No click log, authenticated submission or mastery/grade.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blood-flow/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/blood-flow/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/blood-flow/edited-unconfirmed.pdf"
+      ]
+    },
+    "G15": {
+      "status": "pass",
+      "notes": "All42 current rendered pages inspected, completed prompt/answer starts/full source glyph checks and all missing-glyph checks pass; long first-offline/native final marker and current wrong/draft evidence faithful.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blood-flow/pdf-inspection.json",
+        "data/development-tracker/biology-reviews/evidence/blood-flow/pdf-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/blood-flow/pdf-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/blood-flow/pdf-contact-3.png",
+        "data/development-tracker/biology-reviews/evidence/blood-flow/pdf-contact-4.png",
+        "data/development-tracker/biology-reviews/evidence/blood-flow/pdf-contact-5.png",
+        "data/development-tracker/biology-reviews/evidence/blood-flow/pdf-contact-6.png",
+        "data/development-tracker/biology-reviews/evidence/blood-flow/pagination-check.txt",
+        "data/development-tracker/biology-reviews/evidence/blood-flow/glyph-check.txt",
+        "data/development-tracker/biology-reviews/evidence/blood-flow/glyph-all.txt"
+      ]
+    },
+    "G16": {
+      "status": "pass",
+      "notes": "Native drag-release-nexttap, keyboard valve/focused field, mouse regulator after resize,44px phone/tablet targets/no overflow/reduced motion pass; physical devices/AT separate.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blood-flow/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/blood-flow/visual-contact-4.png"
+      ]
+    },
+    "G17": {
+      "status": "pass",
+      "notes": "14 selected model/report/font and6 complete browser workflows pass,91 resource prompt/link/hash checks and final private runtime compile verified.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blood-flow/model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/blood-flow/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/blood-flow/initial-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/blood-flow/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/blood-flow/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/blood-flow/platform-build.txt"
+      ]
+    },
+    "G18": {
+      "status": "pass",
+      "notes": "Stable English condition/goal/question IDs/locale and original writing retained; AUD-10 native app/resource/report languages future, no Spanish acceptance inferred.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blood-flow/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/blood-flow/review-notes.md"
+      ]
+    },
+    "RESOURCES": {
+      "status": "pass",
+      "notes": "Teacher2/student3 current resources, meaningful three-condition collector table, all3sources retained after removing source-only fourth page;91 current PDF prompt/link/hash checks pass.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blood-flow/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/blood-flow/pdf-contact-1.png"
+      ]
+    },
+    "ACCESS": {
+      "status": "pass",
+      "notes": "Guest/free direct access/PDF/nativeprint/offline remain account-free, existing paid/staff/publishing policy preserved; private compile without deploy.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blood-flow/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/blood-flow/platform-build.txt"
+      ]
+    },
+    "TRACKING": {
+      "status": "pass",
+      "notes": "Actual local English implementation/resources/catalog and curriculum/tracker regenerated, standards/translated delivery/course/publication acceptance separate.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blood-flow/build-brief.md",
+        "data/development-tracker/biology-reviews/evidence/blood-flow/review-notes.md"
+      ]
+    }
+  },
+  "artifacts": {
+    "workflow": [
+      "data/development-tracker/biology-reviews/evidence/blood-flow/build-brief.md",
+      "data/development-tracker/biology-reviews/evidence/blood-flow/review-notes.md",
+      "data/development-tracker/biology-reviews/evidence/blood-flow/reading-screen.json",
+      "data/development-tracker/biology-reviews/evidence/blood-flow/complete-responses.json",
+      "data/development-tracker/biology-reviews/evidence/blood-flow/source-manifest.json"
+    ],
+    "visuals": [
+      "data/development-tracker/biology-reviews/evidence/blood-flow/visual-contact-1.png",
+      "data/development-tracker/biology-reviews/evidence/blood-flow/visual-contact-2.png",
+      "data/development-tracker/biology-reviews/evidence/blood-flow/visual-contact-3.png",
+      "data/development-tracker/biology-reviews/evidence/blood-flow/visual-contact-4.png"
+    ],
+    "pdfReports": [
+      "data/development-tracker/biology-reviews/evidence/blood-flow/complete.pdf",
+      "data/development-tracker/biology-reviews/evidence/blood-flow/draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/blood-flow/long-offline.pdf",
+      "data/development-tracker/biology-reviews/evidence/blood-flow/volume-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/blood-flow/calculation-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/blood-flow/edited-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/blood-flow/development-draft.pdf"
+    ],
+    "nativePrint": [
+      "data/development-tracker/biology-reviews/evidence/blood-flow/native-print.pdf",
+      "data/development-tracker/biology-reviews/evidence/blood-flow/long-native-print.pdf"
+    ],
+    "tests": [
+      "data/development-tracker/biology-reviews/evidence/blood-flow/final-model-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/blood-flow/final-browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/blood-flow/pagination-check.txt",
+      "data/development-tracker/biology-reviews/evidence/blood-flow/glyph-check.txt",
+      "data/development-tracker/biology-reviews/evidence/blood-flow/glyph-all.txt",
+      "data/development-tracker/biology-reviews/evidence/blood-flow/resource-check.txt",
+      "data/development-tracker/biology-reviews/evidence/blood-flow/platform-build.txt"
+    ],
+    "resources": [
+      "public/resources/blood-flow-worksheet.pdf",
+      "public/resources/blood-flow-teacher-guide.pdf"
+    ]
+  },
+  "externalValidation": {
+    "teacherStudentComprehension": {
+      "status": "pending",
+      "notes": "Not performed; development checks do not establish classroom comprehension."
+    },
+    "physicalDevices": {
+      "status": "pending",
+      "notes": "Emulation is not physical-device or assistive-technology acceptance."
+    },
+    "classroomProtocol": {
+      "status": "not-applicable",
+      "notes": "Virtual-only activity; no physical protocol supplied."
+    }
+  },
+  "history": [
+    {
+      "event": "Separate review corrected source fill/supports/text/bore proportions and removed a source-only worksheet page while retaining assumptions/sources; current artifacts recaptured and reviewed.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blood-flow/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/blood-flow/initial-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/blood-flow/final-browser-tests.txt"
+      ]
+    }
+  ],
+  "decision": "pass",
+  "summary": "Development review passed for three distinct controlled model conditions isolating bore and pressure, direct apparatus manipulation, retained volume/rate/ratio evidence and clear fixed-pressure versus fixed-flow limits. Corrected real physical graphics and streamlined source-only handout tail. External classroom/devices/translations/release remain separate.",
+  "blockers": []
+}

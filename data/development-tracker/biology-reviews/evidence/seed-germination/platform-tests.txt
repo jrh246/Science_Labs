@@ -1,0 +1,56 @@
+
+> cell-homeostasis-lab@1.0.0 test:platform
+> npm test --prefix server
+
+
+> science-labs-api@0.1.0 test
+> node --test --test-concurrency=1 test/*.test.js
+
+✔ teacher copies are private, and editing never changes company content (2594.5264ms)
+✔ publication requires current preview and review; published revisions are immutable (40.1373ms)
+✔ private assignment drafts stay hidden, then pin a teacher revision on publication (39.4323ms)
+✔ later draft/published edits leave an assigned snapshot and its original question unchanged (27.6305ms)
+✔ submitted teacher reports must include their assigned prompts and required answers (19.1248ms)
+✔ unsupported mutations and duplicate teacher question IDs are rejected (0.3866ms)
+✔ OpenAI integration uses server-only structured output and does not save or publish suggestions (13.9576ms)
+✔ background suggestions are durable, private, idempotent, and separate from the saved draft (59.9475ms)
+✔ hosted environments cannot use demo storage, missing secrets, or HTTP origins (0.6698ms)
+✔ manual licenses retain their seats independently of a canceled Stripe subscription (0.2158ms)
+✔ malformed storage and reports for a different lab cannot be saved (0.2682ms)
+✔ migrations can be safely repeated and email failures stay visible and retryable (1221.9684ms)
+✔ Stripe uses its real SDK signature validation before processing any event (5.7705ms)
+✔ real Better Auth signup, verification, sessions and owner bootstrap (2034.7805ms)
+✔ verification required, password reset mail and state-changing origin checks (193.6419ms)
+✔ immutable release registration and inherited publishing without exposing drafts (27.0792ms)
+✔ teacher trial, class creation, invitation binding and one-time redemption (46.0506ms)
+✔ assignments pin released versions and survive catalog unpublishing (28.4629ms)
+✔ cloud saves reject stale revisions; submissions and teacher review retain verbatim work (78.9744ms)
+✔ runtime requires a user-bound launch and injects only that assignment scope (22.8051ms)
+✔ API Gateway v2 runtime downloads preserve binary file bytes (19.8517ms)
+✔ closed assignments retain reports and block further cloud writes (15.7254ms)
+✔ expired licenses stop new assignments without deleting existing student work (17.3735ms)
+✔ creating another workspace does not restart an expired account trial (6.295ms)
+✔ owner licenses, publication rollback and release disable are authorized and audited (36.5909ms)
+✔ Stripe signatures, current-state synchronization and duplicate delivery are handled (6.2708ms)
+✔ API Gateway v2 adapter retains authentication cookies in its Lambda response (100.9016ms)
+✔ public lab and declared assets work without creating accounts or runtime grants (1689.0836ms)
+✔ older public runtimes cannot restore obsolete free-account controls (24.6833ms)
+✔ public PDF delivery through Lambda keeps binary bytes without a cookie (17.3302ms)
+✔ free accounts get favorites and public labs while account saving requires membership (106.8553ms)
+✔ trial, paid subscription, school license, and expiry project the same server feature gates (74.5438ms)
+✔ publication and paid access checks apply to every public resource while own records remain retained (82.6278ms)
+✔ staff access is separate from signup, memberships, and pre-defined job roles (2040.4002ms)
+✔ limited staff managers cannot escalate, edit stronger roles, or alter their own access (50.8757ms)
+✔ revocation, archived roles, and stale edits are enforced with existing sessions (85.1156ms)
+✔ traffic counts are deduplicated, aggregate-only, and honor privacy and internal-traffic exclusions (46.7852ms)
+✔ business and operations metrics show server aggregates without customer records (15.1989ms)
+✔ verified Stripe records stay idempotent and current, without granting access or mixing currencies/modes (24.9671ms)
+✔ retention removes expired traffic but preserves recent counts and financial/security records (3.7793ms)
+ℹ tests 40
+ℹ suites 0
+ℹ pass 40
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 22435.5316

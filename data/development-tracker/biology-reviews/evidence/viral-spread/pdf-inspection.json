@@ -1,0 +1,100 @@
+[
+  {
+    "file": "public/resources/viral-spread-teacher-guide.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      2965,
+      2284
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "public/resources/viral-spread-worksheet.pdf",
+    "pages": 4,
+    "pageCharacters": [
+      1633,
+      697,
+      1126,
+      2055
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/viral-spread/complete.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2082,
+      2264,
+      2151
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/viral-spread/development-draft.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1802,
+      1514,
+      1293
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/viral-spread/draft.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1792,
+      1514,
+      1293
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/viral-spread/long-native-print.pdf",
+    "pages": 7,
+    "pageCharacters": [
+      2070,
+      2087,
+      837,
+      837,
+      837,
+      1282,
+      1194
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/viral-spread/long-offline.pdf",
+    "pages": 7,
+    "pageCharacters": [
+      2094,
+      2172,
+      905,
+      905,
+      905,
+      1210,
+      1588
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/viral-spread/native-print.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2061,
+      2469,
+      1738
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/viral-spread/unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2094,
+      1772,
+      1359
+    ],
+    "finalLongMarker": false
+  }
+]

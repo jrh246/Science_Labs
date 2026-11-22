@@ -1,0 +1,113 @@
+[
+  {
+    "file": "public/resources/microhabitats-teacher-guide.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      2589,
+      2048
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "public/resources/microhabitats-worksheet.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1612,
+      1307,
+      2031
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/microhabitats/comparison-unconfirmed.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      1991,
+      1972
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/microhabitats/complete.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1995,
+      4245,
+      1386
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/microhabitats/count-unconfirmed.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      2055,
+      1972
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/microhabitats/development-draft.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      1873,
+      1798
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/microhabitats/draft.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      1863,
+      1798
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/microhabitats/edited-unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1897,
+      4448,
+      1171
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/microhabitats/long-native-print.pdf",
+    "pages": 6,
+    "pageCharacters": [
+      1848,
+      2951,
+      837,
+      837,
+      837,
+      2088
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/microhabitats/long-offline.pdf",
+    "pages": 6,
+    "pageCharacters": [
+      1903,
+      3035,
+      905,
+      905,
+      905,
+      2280
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/microhabitats/native-print.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1961,
+      4364,
+      1072
+    ],
+    "finalLongMarker": false
+  }
+]

@@ -1,0 +1,38 @@
+✔ flower first plan/anatomy and loaded brush gate transfer; petal deposit does not pollinate (20.0231ms)
+✔ flower required transfer checkpoint distinguishes pollination/fertilization and tip follows real model extension (1.6381ms)
+✔ flower sperm are interchangeable but each must be used once; correct counts are per nucleus (0.604ms)
+✔ flower current fusion/anatomy/fate proposals and empty counts survive reload with downstream completion invalidated (2.6871ms)
+✔ flower four tissue origins and concept corrections retain source, independent maternal tissue and feedback (0.9101ms)
+✔ flower report keeps original writing, first plan, identity, named filename and honest completed status (1.1224ms)
+✔ heat first plan/current geometry and both cube/probe/initial setups gate a single shared interval (20.7782ms)
+✔ heat geometric scaling distinguishes total area from area per volume and uniform cooling is bounded/curved (0.5408ms)
+✔ heat checked rounded model readings drive finite-interval rates and separate energy estimates (1.0921ms)
+✔ heat view-only snapshots preserve work, current empty/read/calculation edits clear dependencies and survive reload (2.1461ms)
+✔ heat current interpretations gate concepts and preserve meaningful correction, ratios and original model source (1.8523ms)
+✔ heat report retains supplied versus student-calculated sources, Unicode, identity and honest completion (1.1358ms)
+✔ soil first prediction, collector and measured dose gate one distinct endpoint per composition (2.8873ms)
+✔ soil synthetic budgets conserve input and distinguish total retention from separately supplied availability (17.9491ms)
+✔ soil current wrong/empty readings survive reload, clear dependent evidence and remain in human reports (1.2866ms)
+✔ soil retention and availability corrections persist without dropping current empty selections (1.1864ms)
+✔ soil pore classifications gate concepts and keep meaningful revisions in reports (0.5801ms)
+✔ soil report keeps source/units, first plan, original writing, optional named identity and honest completion (0.8194ms)
+✔ starch prediction, molecular site and both reference checks gate reaction action (2.4571ms)
+✔ starch two-by-two conditions need correct matched additions, one interval and separate stopped iodine portions (0.5971ms)
+✔ starch qualitative truth table distinguishes both pH-matched controls and indicator references (15.1154ms)
+✔ starch wrong/empty current observations and routes invalidate downstream evidence and remain across reload (1.3326ms)
+✔ starch completed view-only evidence does not repeat time/assays and meaningful concept corrections retained (0.6631ms)
+✔ starch report identity Unicode original writing and honest not-graded status survive restoration (1.5009ms)
+✔ transpiration first prediction, cover, pan, correct off-pan controller and initial readings gate one interval (2.2428ms)
+✔ transpiration isolates all three model factors with explicit normalized passage/gradient settings (0.7516ms)
+✔ transpiration derives comparisons from rounded recorded changes rather than higher final mass (17.3602ms)
+✔ transpiration raw current readings/empty calculations and archived time snapshots survive reload (1.415ms)
+✔ transpiration leaf-phase/pathway choices require current calculations and preserve corrections (1.1171ms)
+✔ transpiration report retains synthetic sources, units, first plan, Unicode and honest completed identity (0.9957ms)
+ℹ tests 30
+ℹ suites 0
+ℹ pass 30
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 167.2772

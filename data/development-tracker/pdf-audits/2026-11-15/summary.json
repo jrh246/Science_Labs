@@ -1,0 +1,63 @@
+{
+  "recordedOn": "2026-11-15",
+  "status": "fixed-and-verified",
+  "scope": "PDF delivery, structure, glyphs and rendering; not full learning, student-comprehension, physical-device, or user acceptance.",
+  "initialProblem": {
+    "route": "/resources/*.pdf on the port 4310 source preview",
+    "status": 200,
+    "contentType": "text/html",
+    "birdDownloadBytes": 436,
+    "cause": "The portal Vite configuration disabled public files for both development and builds. Missing PDF URLs fell back to index.html."
+  },
+  "fix": {
+    "localPublicResources": true,
+    "missingResourceStatus": 404,
+    "hostedPortalPublicDirectory": false,
+    "sourcePdfWordingChanged": false
+  },
+  "glyphCorrections": {
+    "filesWithMissingGlyphs": [
+      "body-heat-teacher-guide.pdf",
+      "body-heat-worksheet.pdf",
+      "nephron-worksheet.pdf",
+      "water-surface-tension-teacher-guide.pdf"
+    ],
+    "rebuiltPairs": [
+      "body-heat",
+      "nephron",
+      "water-surface-tension"
+    ],
+    "method": "Pinned licensed Unicode font fallback only for characters unsupported by the normal handout font."
+  },
+  "checks": {
+    "sourceHandouts": 105,
+    "standaloneDownloads": 105,
+    "publicRuntimeDownloads": 103,
+    "memberRuntimeDownloads": 105,
+    "generatedReportExports": 49,
+    "generatedDrafts": 47,
+    "restoredSyntheticCompletedReports": 2,
+    "distinctPdfs": 154,
+    "renderedPages": 441,
+    "issues": 0,
+    "warnings": 0,
+    "unitTests": 303,
+    "browserTests": 6
+  },
+  "localRelease": "48a1e3b34228bf78fe711ff2",
+  "userReview": {
+    "reviewed": [
+      "genetic-information",
+      "osmosis-homeostasis",
+      "inheritance-ratios"
+    ],
+    "current": "natural-selection",
+    "currentStatus": "awaiting-user-recheck"
+  },
+  "limitations": [
+    "Opening/rendering and transport checks do not establish a complete scientific or teaching review of every lab.",
+    "Generated reports used 47 fresh drafts and two existing synthetic completed-attempt fixtures. The audit did not replay 49 complete student workflows.",
+    "Previously assigned immutable releases were retained; old versions with the historical glyph defects are not rewritten. New local launches for the three affected labs select the corrected release.",
+    "AWS/hosted production was not deployed."
+  ]
+}

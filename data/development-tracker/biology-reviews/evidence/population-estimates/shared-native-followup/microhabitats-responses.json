@@ -1,0 +1,373 @@
+{
+  "schemaVersion": 2,
+  "labId": "microhabitats",
+  "title": "Investigating Microhabitats",
+  "question": "How do conditions and woodlouse counts vary between shaded litter and an open edge?",
+  "student": {
+    "name": "Zoë García",
+    "class": "Period 5"
+  },
+  "status": "Complete",
+  "grading": "not_graded",
+  "exportedAt": "2026-11-15T21:19:19.482Z",
+  "exportTimeZone": "America/Los_Angeles",
+  "exportedAtDisplay": "Nov 15, 2026, 1:19 PM PST",
+  "sections": [
+    {
+      "heading": "First prediction and sampling design",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Required before observing: Predict whether shaded litter and an open edge could differ in conditions and woodlouse counts. Could locations within one habitat still differ? Explain.",
+          "text": "I predict shaded litter may be cooler and moister, with more woodlice on average but variation between locations."
+        },
+        {
+          "type": "response",
+          "prompt": "Required before observing: Why use the same area and a matched observation time at several locations? Would finding more woodlice in a moist place prove that moisture alone caused the pattern?",
+          "text": "Use matched1m²area, time and detection at different nonoverlapping locations. More observations of one frame would not show spatial variation. Conditions can vary together, so association is not proof of one cause."
+        },
+        {
+          "type": "paragraph",
+          "text": "Before any supplied scene or environmental reading"
+        }
+      ]
+    },
+    {
+      "heading": "Current count evidence and supplied conditions",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "First setup: quadrat and probe demonstrated. Later visited locations use supplied matched setups. Every scene frozen/complete,1m². Conditions are invented readings, not student field measurements."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Location",
+            "Student count / status",
+            "Supplied soil°C",
+            "Supplied moisture index"
+          ],
+          "rows": [
+            [
+              "Shaded litter1",
+              "4 · Correct after feedback",
+              18,
+              60
+            ],
+            [
+              "Open edge1",
+              "2 · Correct first check",
+              21,
+              30
+            ],
+            [
+              "Shaded litter2",
+              "6 · Correct first check",
+              19,
+              70
+            ],
+            [
+              "Open edge2",
+              "3 · Correct first check",
+              22,
+              40
+            ],
+            [
+              "Shaded litter3",
+              "3 · Correct first check",
+              20,
+              55
+            ],
+            [
+              "Open edge3",
+              "1 · Correct first check",
+              20,
+              50
+            ]
+          ]
+        },
+        {
+          "type": "response",
+          "prompt": "Shaded litter1 · earlier count needing revision",
+          "text": "99"
+        }
+      ]
+    },
+    {
+      "heading": "Comparison of locations",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Current shade/open mean counts per1m²and overlap decision",
+          "text": "Shade: 4.3; open: 2.0; any overlapping count? yes. Correct after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "Earlier comparison needing revision",
+          "text": "Shade 9, open 9, overlap no."
+        }
+      ]
+    },
+    {
+      "heading": "Learning evidence",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "What did you count, what did the model supply, and what did the quadrat and matched setup keep the same? Why were different locations useful?",
+          "text": "My sampling evidence: counted complete frozen woodlouse scenes in six separate1m²locations; environmental readings and five matched setups supplied, not my field measurements. Shade counts4/6/3give mean4.3and range3–6; open2/3/1mean2.0range1–3. Shared count3means not every shaded plot exceeds every open plot. Shaded soil18/19/20°Cand moisture index60/70/55, open21/22/20°Cand30/40/50, with temperature overlap20. My prediction about an average association is supported in this chosen set, not a universal preference or moisture-only cause. Light/litter/temperature/moisture covary, locations are preselected in one imagined site/time, complete detection and no movement assumed. Index is invented relative scale, not percent water or humidity. More independent randomly located habitat samples, detection checks and a controlled study separating one factor would address other questions. Three different plots reveal spatial variation; repeated counts of the same frame do not establish that."
+        },
+        {
+          "type": "response",
+          "prompt": "Use both habitat means, the count ranges and the overlapping value to describe the pattern. Did every shaded location exceed every open location? Compare with your prediction.",
+          "text": "My variation evidence: counted complete frozen woodlouse scenes in six separate1m²locations; environmental readings and five matched setups supplied, not my field measurements. Shade counts4/6/3give mean4.3and range3–6; open2/3/1mean2.0range1–3. Shared count3means not every shaded plot exceeds every open plot. Shaded soil18/19/20°Cand moisture index60/70/55, open21/22/20°Cand30/40/50, with temperature overlap20. My prediction about an average association is supported in this chosen set, not a universal preference or moisture-only cause. Light/litter/temperature/moisture covary, locations are preselected in one imagined site/time, complete detection and no movement assumed. Index is invented relative scale, not percent water or humidity. More independent randomly located habitat samples, detection checks and a controlled study separating one factor would address other questions. Three different plots reveal spatial variation; repeated counts of the same frame do not establish that."
+        },
+        {
+          "type": "response",
+          "prompt": "Relate the counts to temperature and the moisture index. Why can this survey not show that moisture alone caused the pattern? Propose a fair further investigation and name one detection or sampling limit.",
+          "text": "My inference evidence: counted complete frozen woodlouse scenes in six separate1m²locations; environmental readings and five matched setups supplied, not my field measurements. Shade counts4/6/3give mean4.3and range3–6; open2/3/1mean2.0range1–3. Shared count3means not every shaded plot exceeds every open plot. Shaded soil18/19/20°Cand moisture index60/70/55, open21/22/20°Cand30/40/50, with temperature overlap20. My prediction about an average association is supported in this chosen set, not a universal preference or moisture-only cause. Light/litter/temperature/moisture covary, locations are preselected in one imagined site/time, complete detection and no movement assumed. Index is invented relative scale, not percent water or humidity. More independent randomly located habitat samples, detection checks and a controlled study separating one factor would address other questions. Three different plots reveal spatial variation; repeated counts of the same frame do not establish that."
+        }
+      ]
+    },
+    {
+      "heading": "Concept checks",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Why use three different locations per habitat here?",
+          "text": "To see spatial variation and avoid depending on one frame.\nCorrect! Different locations can reveal spatial variation. This small preselected set still does not establish a representative population effect."
+        },
+        {
+          "type": "response",
+          "prompt": "More woodlice occur on average in the shaded set. What does that show?",
+          "text": "An association in these snapshots; several conditions differ together.\nCorrect! Observing several linked differences cannot isolate one cause. Matched or randomized comparisons and more independent habitats would be needed. Revised after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "A moisture index of60means what here?",
+          "text": "A supplied value on an invented relative scale, not60percent water.\nCorrect! A relative index needs a defined calibration before it can be interpreted as a physical water content."
+        }
+      ]
+    },
+    {
+      "heading": "Limits and sources",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "These are supplied frozen scenes, not field measurements. Organisms are enlarged and separated for counting. Frame area is1m²by model definition; screen size is not a ruler. Soil temperature is in°C. Moisture is an invented relative index from0to100, not percent water, humidity or a calibrated soil reading. Probe depth and observation time are matched by assumption. Litter, light, temperature, moisture and detection can change together in nature. This comparison shows association, not which factor caused it or a universal woodlouse preference. Three locations show only this small supplied set, not a reliable population estimate, seasonal pattern or independent habitat replication. Some real woodlice may be hidden or moving; complete detection and no movement are model assumptions."
+        },
+        {
+          "type": "paragraph",
+          "text": "OpenStax Biology2e44.1: biotic and abiotic evidence: https://openstax.org/books/biology-2e/pages/44-1-the-scope-of-ecology"
+        },
+        {
+          "type": "paragraph",
+          "text": "OpenStax Biology2e45.1: quadrat sampling and distribution: https://openstax.org/books/biology-2e/pages/45-1-population-demography"
+        }
+      ]
+    }
+  ],
+  "data": {
+    "schemaVersion": 1,
+    "activityVersion": 1,
+    "labId": "microhabitats",
+    "attemptId": "habitat-3776194198-1794777556630",
+    "seed": 3776194198,
+    "locale": "en",
+    "stage": 3,
+    "current": 5,
+    "setup": 2,
+    "studentName": "Zoë García",
+    "studentClass": "Period 5",
+    "prediction": "I predict shaded litter may be cooler and moister, with more woodlice on average but variation between locations.",
+    "design": "Use matched1m²area, time and detection at different nonoverlapping locations. More observations of one frame would not show spatial variation. Conditions can vary together, so association is not proof of one cause.",
+    "initialPlan": {
+      "prediction": "I predict shaded litter may be cooler and moister, with more woodlice on average but variation between locations.",
+      "design": "Use matched1m²area, time and detection at different nonoverlapping locations. More observations of one frame would not show spatial variation. Conditions can vary together, so association is not proof of one cause.",
+      "timing": "Before any supplied scene or environmental reading"
+    },
+    "samples": {
+      "s1": {
+        "seen": true,
+        "count": "4",
+        "marks": [],
+        "attempts": [
+          {
+            "count": "99",
+            "correct": false
+          },
+          {
+            "count": "4",
+            "correct": true
+          }
+        ],
+        "record": {
+          "count": "4",
+          "correctAfterFeedback": true
+        }
+      },
+      "o1": {
+        "seen": true,
+        "count": "2",
+        "marks": [],
+        "attempts": [
+          {
+            "count": "2",
+            "correct": true
+          }
+        ],
+        "record": {
+          "count": "2",
+          "correctAfterFeedback": false
+        }
+      },
+      "s2": {
+        "seen": true,
+        "count": "6",
+        "marks": [],
+        "attempts": [
+          {
+            "count": "6",
+            "correct": true
+          }
+        ],
+        "record": {
+          "count": "6",
+          "correctAfterFeedback": false
+        }
+      },
+      "o2": {
+        "seen": true,
+        "count": "3",
+        "marks": [],
+        "attempts": [
+          {
+            "count": "3",
+            "correct": true
+          }
+        ],
+        "record": {
+          "count": "3",
+          "correctAfterFeedback": false
+        }
+      },
+      "s3": {
+        "seen": true,
+        "count": "3",
+        "marks": [],
+        "attempts": [
+          {
+            "count": "3",
+            "correct": true
+          }
+        ],
+        "record": {
+          "count": "3",
+          "correctAfterFeedback": false
+        }
+      },
+      "o3": {
+        "seen": true,
+        "count": "1",
+        "marks": [],
+        "attempts": [
+          {
+            "count": "1",
+            "correct": true
+          }
+        ],
+        "record": {
+          "count": "1",
+          "correctAfterFeedback": false
+        }
+      }
+    },
+    "calcs": {
+      "shade": "4.3",
+      "open": "2.0",
+      "overlap": "yes"
+    },
+    "calcAttempts": [
+      {
+        "values": {
+          "shade": "9",
+          "open": "9",
+          "overlap": "no"
+        },
+        "correct": false
+      },
+      {
+        "values": {
+          "shade": "4.3",
+          "open": "2.0",
+          "overlap": "yes"
+        },
+        "correct": true
+      }
+    ],
+    "calcRecord": {
+      "values": {
+        "shade": "4.3",
+        "open": "2.0",
+        "overlap": "yes"
+      },
+      "correctAfterFeedback": true
+    },
+    "placements": [
+      {
+        "tool": "quadrat",
+        "site": "ground",
+        "correct": true
+      },
+      {
+        "tool": "probe",
+        "site": "ground",
+        "correct": true
+      }
+    ],
+    "checks": {
+      "cause": {
+        "attempts": [
+          {
+            "value": "moisture",
+            "correct": false
+          },
+          {
+            "value": "association",
+            "correct": true
+          }
+        ],
+        "value": "association",
+        "correct": true
+      },
+      "repeat": {
+        "attempts": [
+          {
+            "value": "variation",
+            "correct": true
+          }
+        ],
+        "value": "variation",
+        "correct": true
+      },
+      "index": {
+        "attempts": [
+          {
+            "value": "chosen",
+            "correct": true
+          }
+        ],
+        "value": "chosen",
+        "correct": true
+      }
+    },
+    "answers": {
+      "sampling": "My sampling evidence: counted complete frozen woodlouse scenes in six separate1m²locations; environmental readings and five matched setups supplied, not my field measurements. Shade counts4/6/3give mean4.3and range3–6; open2/3/1mean2.0range1–3. Shared count3means not every shaded plot exceeds every open plot. Shaded soil18/19/20°Cand moisture index60/70/55, open21/22/20°Cand30/40/50, with temperature overlap20. My prediction about an average association is supported in this chosen set, not a universal preference or moisture-only cause. Light/litter/temperature/moisture covary, locations are preselected in one imagined site/time, complete detection and no movement assumed. Index is invented relative scale, not percent water or humidity. More independent randomly located habitat samples, detection checks and a controlled study separating one factor would address other questions. Three different plots reveal spatial variation; repeated counts of the same frame do not establish that.",
+      "variation": "My variation evidence: counted complete frozen woodlouse scenes in six separate1m²locations; environmental readings and five matched setups supplied, not my field measurements. Shade counts4/6/3give mean4.3and range3–6; open2/3/1mean2.0range1–3. Shared count3means not every shaded plot exceeds every open plot. Shaded soil18/19/20°Cand moisture index60/70/55, open21/22/20°Cand30/40/50, with temperature overlap20. My prediction about an average association is supported in this chosen set, not a universal preference or moisture-only cause. Light/litter/temperature/moisture covary, locations are preselected in one imagined site/time, complete detection and no movement assumed. Index is invented relative scale, not percent water or humidity. More independent randomly located habitat samples, detection checks and a controlled study separating one factor would address other questions. Three different plots reveal spatial variation; repeated counts of the same frame do not establish that.",
+      "inference": "My inference evidence: counted complete frozen woodlouse scenes in six separate1m²locations; environmental readings and five matched setups supplied, not my field measurements. Shade counts4/6/3give mean4.3and range3–6; open2/3/1mean2.0range1–3. Shared count3means not every shaded plot exceeds every open plot. Shaded soil18/19/20°Cand moisture index60/70/55, open21/22/20°Cand30/40/50, with temperature overlap20. My prediction about an average association is supported in this chosen set, not a universal preference or moisture-only cause. Light/litter/temperature/moisture covary, locations are preselected in one imagined site/time, complete detection and no movement assumed. Index is invented relative scale, not percent water or humidity. More independent randomly located habitat samples, detection checks and a controlled study separating one factor would address other questions. Three different plots reveal spatial variation; repeated counts of the same frame do not establish that."
+    },
+    "complete": true
+  },
+  "locale": "en",
+  "activityVersion": 1,
+  "attemptId": "habitat-3776194198-1794777556630"
+}

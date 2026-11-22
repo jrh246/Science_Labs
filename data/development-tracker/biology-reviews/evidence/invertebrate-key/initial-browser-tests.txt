@@ -1,0 +1,59 @@
+node.exe : [WebServer] (node:23404) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([WebServer] (no... env being set.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] 
+[WebServer] (!) Some chunks are larger than 500 kB after minification. Consider:
+[WebServer] - Using dynamic import() to code-split the application
+[WebServer] - Use build.rollupOptions.output.manualChunks to improve chunking: 
+https://rollupjs.org/configuration-options/#output-manualchunks
+[WebServer] - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[WebServer] (node:18772) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 7 tests using 1 worker
+
+(node:56516) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 tests\browser\biology-browser-contract.mjs:5:2 › invertebrate-key: complete corrected attempt, truthful saves, named PDF/JSON/native print and edits (5.6s)
+  ok 2 tests\browser\biology-browser-contract.mjs:6:2 › invertebrate-key: denied storage/retry, Unicode long writing and first offline PDF/native print (3.0s)
+  ok 3 tests\browser\biology-browser-contract.mjs:7:2 › invertebrate-key: unfinished neutral PDF and export failure recovery (923ms)
+  ok 4 tests\browser\biology-browser-contract.mjs:8:2 › invertebrate-key: root/development progress isolation and first offline development PDF (1.6s)
+  ok 5 tests\browser\key.spec.js:10:1 › key accepts an alternate valid unbalanced question order and covers every actual endpoint (2.2s)
+  ok 6 tests\browser\key.spec.js:11:1 › key preserves completed view-only work, empty observation edits and prior-version evidence after branch revision (4.0s)
+  x  7 tests\browser\key.spec.js:12:1 › key native touch example/question placement, next tap, keyboard selection and resized targets (6.5s)
+
+
+  1) tests\browser\key.spec.js:12:1 › key native touch example/question placement, next tap, keyboard selection and resized targets 
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('.key-groups [data-lab-action="group"]')
+    Expected: 1
+    Received: 2
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('.key-groups [data-lab-action="group"]') with timeout 5000ms
+      - waiting for locator('.key-groups [data-lab-action="group"]')
+        14 × locator resolved to 2 elements
+           - unexpected value "2"
+
+
+      10 | test('key accepts an alternate valid unbalanced question order and covers every actual endpoint',async({page})=>{await plan(page);await observe(page);await build(page,{alternate:true,capture:true});await testCards(page);await a(page,'explain').click();await expect(page.locator('h2')).toContainText('Explain observations');});
+      11 | test('key preserves completed view-only work, empty observation edits and prior-version evidence after branch revision',async({page})=>{await fullAttempt(page);await a(page,'complete').click();await page.getByText('Review the same saved work',{exact:true}).click();await a(page,'return-tests').click();await a(page,'explain').click();await expect(a(page,'complete')).toHaveText('Work saved as complete');await page.getByText('Review the same saved work',{exact:true}).click();await a(page,'review-observations').click();await use(page,'example-snail','tray');await entry(page,'shell').selectOption('');await expect(page.locator('[data-key-observation="snail"]')).toContainText('need checking');await expect(a(page,'build')).toBeDisabled();await expect(a(page,'return-tests')).toBeDisabled();await page.reload();await expect(entry(page,'shell')).toHaveValue('');await downloadBiologyPdf(page,out,'edited-unconfirmed.pdf');await entry(page,'shell').selectOption('yes');await a(page,'observation-check').click();await a(page,'build').click();await page.locator('[data-lab-action="group"][data-id="root"]').click();await a(page,'reopen').click();await expect(a(page,'test-key')).toBeDisabled();await build(page,{alternate:true});await expect(a(page,'explain')).toBeDisabled();await downloadBiologyPdf(page,out,'revised-key-untested.pdf');await testCards(page);await a(page,'explain').click();await expect(a(page,'complete')).toHaveText('Save completed work');});
+    > 12 | test('key native touch example/question placement, next tap, keyboard selection and resized targets',async({browser})=>{const context=await browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true,reducedMotion:'reduce'}),page=await context.newPage();await plan(page);await page.locator('.key-tray').evaluate(el=>el.scrollIntoView({block:'center'}));const tool=page.locator('[data-tool^="example-"]').first(),example=(await tool.getAttribute('data-tool')).slice(8),x=await tool.boundingBox(),y=await page.locator('[data-place="tray"]').boundingBox(),client=await context.newCDPSession(page);async function drag(a,b){await client.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x:a.x+a.width/2,y:a.y+a.height/2}]});for(let i=1;i<=8;i++)await client.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x:a.x+a.width/2+(b.x+b.width/2-a.x-a.width/2)*i/8,y:a.y+a.height/2+(b.y+b.height/2-a.y-a.height/2)*i/8}]});await client.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});}expect(y.width).toBeGreaterThanOrEqual(44);expect(y.height).toBeGreaterThanOrEqual(44);await drag(x,y);await a(page,'observation-check').tap();await expect(pFeedback(page)).toContainText('unconfirmed');const expected=examples.find(x=>x[0]===example);await entry(page,'legs').selectOption(expected[1]);await entry(page,'shell').selectOption(expected[2]);await a(page,'observation-check').tap();await observe(page,{skip:example});await page.locator('.key-group-scene').evaluate(el=>el.scrollIntoView({block:'center'}));const tile=page.locator('[data-tool^="trait-"]:not([data-tool="trait-under-ten"])').first(),xx=await tile.boundingBox(),yy=await page.locator('[data-place="root"]').boundingBox();await drag(xx,yy);await expect(page.locator('.key-groups [data-lab-action="group"]')).toHaveCount(1);await shot(page,'phone-builder');await page.setViewportSize({width:768,height:1024});await shot(page,'tablet-builder');const target=page.locator('[data-place]').first();await page.locator('[data-tool^="trait-"]').first().focus();await page.keyboard.press('Enter');await target.focus();await page.keyboard.press('Enter');expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);await context.close();});
+         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ^
+      13 | const pFeedback=p=>p.locator('.key-observation-feedback');
+      14 |
+        at C:\Projects\Science_Labs\tests\browser\key.spec.js:12:1822
+
+    Error Context: test-results\key-key-native-touch-examp-8b69f-lection-and-resized-targets\error-context.md
+
+  1 failed
+    tests\browser\key.spec.js:12:1 › key native touch example/question placement, next tap, keyboard selection and resized targets 
+  6 passed (30.0s)

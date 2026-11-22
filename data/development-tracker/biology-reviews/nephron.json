@@ -1,0 +1,282 @@
+{
+  "schemaVersion": 1,
+  "labId": "nephron",
+  "taskId": "BIO-27-REVIEW",
+  "reviewedBy": "Codex - separate development review",
+  "reviewedOn": "2026-11-15",
+  "sourceSnapshot": "sha256:66e6047a76f30371901fdb76719483879f17d1b9768647993ee28a3f5733dd4f",
+  "checks": {
+    "G01": {
+      "status": "pass",
+      "notes": "Three goals connect six distinct filter fates, actual opposite recovery/secretion sites and within-substance balance/original explanation to retained evidence.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/nephron/build-brief.md",
+        "data/development-tracker/biology-reviews/evidence/nephron/complete-responses.json"
+      ]
+    },
+    "G02": {
+      "status": "pass",
+      "notes": "One process model, six different marker fates and two distinct transport directions; other recovery supplied, no three default repeats. Direct review return avoids repeated transfers.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/nephron/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/nephron/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/nephron/final-browser-tests.txt"
+      ]
+    },
+    "G03": {
+      "status": "pass",
+      "notes": "Relevant OpenStax detailed filtration/glucose/multi-segment/K/urea text reviewed. Portion-filter versus blood-only precise, pressure capillary filter not waste test, distinct transport directions and separate unit scales without clinical concentration inference.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/nephron/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/nephron/final-model-tests.txt"
+      ]
+    },
+    "G04": {
+      "status": "pass",
+      "notes": "Chosen per-substance scales, marker/enlargement/transport/recycling/hormone omissions and source of supplied recovery explicit beside work and reports; no normal human fractions or all-glucose-blocked claim.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/nephron/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/nephron/review-notes.md"
+      ]
+    },
+    "G05": {
+      "status": "pass",
+      "notes": "Marker at actual barrier/blood continuation, glucose at proximal tubule face and K at late blood-facing membrane produce distinct visible routes and ledger changes; student final balance and original explanations.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/nephron/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/nephron/visual-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/nephron/visual-contact-2.png"
+      ]
+    },
+    "G06": {
+      "status": "pass",
+      "notes": "Original capillary tuft/capsule and cellular/tissue/capillary schematics inspected in12 states; corrected apparent single cavity, wrong marker destination, overview arrow origins/heads and label/nucleus collisions.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/nephron/visual-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/nephron/visual-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/nephron/visual-contact-3.png"
+      ]
+    },
+    "G07": {
+      "status": "pass",
+      "notes": "Seeded bank shuffled once then filtered, actual remaining-order assertions and reload/correction behavior; biological fates retained, duplicate fate list/final auto-answer display removed.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/nephron/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/nephron/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/nephron/review-notes.md"
+      ]
+    },
+    "G08": {
+      "status": "pass",
+      "notes": "Full student UI/report/diagram/resource language manually reviewed, core renal/ion/plasma/transport terms defined, human site labels plain. Diagnostic8.8/11.4words only; comprehension separate.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/nephron/reading-screen.json",
+        "data/development-tracker/biology-reviews/evidence/nephron/review-notes.md"
+      ]
+    },
+    "G09": {
+      "status": "pass",
+      "notes": "First reasoning before fate/transport, all filter/transport/supplied/current math gates in model/UI; current math edit immediately blocks explanation and retains raw blank on reload.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/nephron/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/nephron/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/nephron/edited-unconfirmed.pdf"
+      ]
+    },
+    "G10": {
+      "status": "pass",
+      "notes": "Correct! and Try again with filtered-portion/size/transport/balance explanations. Actual current rejected route/port remains unconfirmed, corrected status only after a real successful trace.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/nephron/filter-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/nephron/transport-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/nephron/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/nephron/edited-unconfirmed.pdf"
+      ]
+    },
+    "G11": {
+      "status": "pass",
+      "notes": "Successful/repeated/reloaded completion and denied-save retry; optional identity preserves completion, academic edits revoke it, view-only direct review return preserves it.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/nephron/final-browser-tests.txt"
+      ]
+    },
+    "G12": {
+      "status": "pass",
+      "notes": "Versioned scoped original plan, exact per-row transfer flags/counts and current choices/corrections/zero-versus-blank values restored; no repeated/regenerated observed transfers during review.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/nephron/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/nephron/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/nephron/complete-responses.json"
+      ]
+    },
+    "G13": {
+      "status": "pass",
+      "notes": "Actual named/neutral completed/draft PDF and nativeprint, optional name/period, safe filename and standard local PST timestamp verified.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/nephron/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/nephron/draft.pdf",
+        "data/development-tracker/biology-reviews/evidence/nephron/native-print.pdf"
+      ]
+    },
+    "G14": {
+      "status": "pass",
+      "notes": "Report groups meaningful filter/transport choices and current rejected status, supplied recovery, ledger/calculation/correction and original concepts/reasoning/limits. No click log, inferred independent mastery or grade.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/nephron/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/nephron/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/nephron/filter-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/nephron/transport-unconfirmed.pdf"
+      ]
+    },
+    "G15": {
+      "status": "pass",
+      "notes": "All50 current rendered pages inspected, six-column table/current statuses/full original writing, completed prompt/answer start and actual glyph/source-text parity, all PDF glyphs and long first-offline/native final marker verified.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/nephron/pdf-inspection.json",
+        "data/development-tracker/biology-reviews/evidence/nephron/pdf-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/nephron/pdf-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/nephron/pdf-contact-3.png",
+        "data/development-tracker/biology-reviews/evidence/nephron/pdf-contact-4.png",
+        "data/development-tracker/biology-reviews/evidence/nephron/pdf-contact-5.png",
+        "data/development-tracker/biology-reviews/evidence/nephron/pdf-contact-6.png",
+        "data/development-tracker/biology-reviews/evidence/nephron/pdf-contact-7.png",
+        "data/development-tracker/biology-reviews/evidence/nephron/pagination-check.txt",
+        "data/development-tracker/biology-reviews/evidence/nephron/glyph-check.txt",
+        "data/development-tracker/biology-reviews/evidence/nephron/glyph-all.txt"
+      ]
+    },
+    "G16": {
+      "status": "pass",
+      "notes": "Native drag-release-nexttap, keyboard membrane placement, resized mouse secretion,44px phone/tablet targets/clear nuclei labels/no overflow/reduced motion pass; physical hardware/AT separate.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/nephron/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/nephron/visual-contact-3.png"
+      ]
+    },
+    "G17": {
+      "status": "pass",
+      "notes": "Initial/final15 selected model/report/font and6 full browser workflows pass;93 current resources and final private runtime compile verified.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/nephron/model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/nephron/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/nephron/initial-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/nephron/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/nephron/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/nephron/platform-build.txt"
+      ]
+    },
+    "G18": {
+      "status": "pass",
+      "notes": "Stable English substance/site/phase/goal/question IDs/locale and original writing, native app/PDF language delivery and Spanish acceptance remain future AUD-10.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/nephron/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/nephron/review-notes.md"
+      ]
+    },
+    "RESOURCES": {
+      "status": "pass",
+      "notes": "Teacher2/student3 current shared-content resources and four-substance collector table, separate row scales/source limitations and prompts;93 PDF prompt/link/hash checks and all pages reviewed.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/nephron/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/nephron/pdf-contact-1.png"
+      ]
+    },
+    "ACCESS": {
+      "status": "pass",
+      "notes": "Guest/free direct route/PDF/nativeprint/offline remain account-free, existing paid/staff/publishing policy preserved; private compile only.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/nephron/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/nephron/platform-build.txt"
+      ]
+    },
+    "TRACKING": {
+      "status": "pass",
+      "notes": "Actual local English implementation/resources/catalog and curriculum/tracker regenerated; standards/course/native-language/publication acceptance separate.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/nephron/build-brief.md",
+        "data/development-tracker/biology-reviews/evidence/nephron/review-notes.md"
+      ]
+    }
+  },
+  "artifacts": {
+    "workflow": [
+      "data/development-tracker/biology-reviews/evidence/nephron/build-brief.md",
+      "data/development-tracker/biology-reviews/evidence/nephron/review-notes.md",
+      "data/development-tracker/biology-reviews/evidence/nephron/reading-screen.json",
+      "data/development-tracker/biology-reviews/evidence/nephron/complete-responses.json",
+      "data/development-tracker/biology-reviews/evidence/nephron/source-manifest.json"
+    ],
+    "visuals": [
+      "data/development-tracker/biology-reviews/evidence/nephron/visual-contact-1.png",
+      "data/development-tracker/biology-reviews/evidence/nephron/visual-contact-2.png",
+      "data/development-tracker/biology-reviews/evidence/nephron/visual-contact-3.png"
+    ],
+    "pdfReports": [
+      "data/development-tracker/biology-reviews/evidence/nephron/complete.pdf",
+      "data/development-tracker/biology-reviews/evidence/nephron/draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/nephron/long-offline.pdf",
+      "data/development-tracker/biology-reviews/evidence/nephron/filter-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/nephron/transport-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/nephron/calculation-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/nephron/edited-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/nephron/development-draft.pdf"
+    ],
+    "nativePrint": [
+      "data/development-tracker/biology-reviews/evidence/nephron/native-print.pdf",
+      "data/development-tracker/biology-reviews/evidence/nephron/long-native-print.pdf"
+    ],
+    "tests": [
+      "data/development-tracker/biology-reviews/evidence/nephron/final-model-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/nephron/final-browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/nephron/pagination-check.txt",
+      "data/development-tracker/biology-reviews/evidence/nephron/glyph-check.txt",
+      "data/development-tracker/biology-reviews/evidence/nephron/glyph-all.txt",
+      "data/development-tracker/biology-reviews/evidence/nephron/resource-check.txt",
+      "data/development-tracker/biology-reviews/evidence/nephron/platform-build.txt"
+    ],
+    "resources": [
+      "public/resources/nephron-worksheet.pdf",
+      "public/resources/nephron-teacher-guide.pdf"
+    ]
+  },
+  "externalValidation": {
+    "teacherStudentComprehension": {
+      "status": "pending",
+      "notes": "Not performed; development checks do not establish classroom comprehension."
+    },
+    "physicalDevices": {
+      "status": "pending",
+      "notes": "Emulation is not physical-device or assistive-technology acceptance."
+    },
+    "classroomProtocol": {
+      "status": "not-applicable",
+      "notes": "Virtual-only activity; no physical protocol supplied."
+    }
+  },
+  "history": [
+    {
+      "event": "Separate review clarified partial filtering/current rejected classifications and plain transport wording, replaced blood cavity with tuft, fixed destination/arrows/labels and stable remaining bank; all current evidence recaptured.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/nephron/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/nephron/initial-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/nephron/final-browser-tests.txt"
+      ]
+    }
+  ],
+  "decision": "pass",
+  "summary": "Development review passed for distinct filter fates, opposite actual recovery/secretion sites, supplied other recovery and conserved within-substance bookkeeping. Clarified partial filtering versus blood-only and honest current rejection evidence; corrected real anatomical/arrow/label/order issues. External classroom/devices/translations/release separate.",
+  "blockers": [],
+  "followUps": [
+    {
+      "id": "pdf-delivery-and-symbols-2026-11-15",
+      "recordedAt": "2026-11-16T01:43:40.984Z",
+      "scope": "Local source/public/member PDF transport and resource glyphs only. Original development-review snapshot retained; this is not a new full learning or user review.",
+      "findings": "Unsupported handout scientific glyphs repaired with a licensed fallback; both resource files regenerated and selected in a new local release.",
+      "evidence": [
+        "data/development-tracker/pdf-audits/2026-11-15/summary.json",
+        "data/development-tracker/pdf-audits/2026-11-15/pdf-inspection.json",
+        "data/development-tracker/pdf-audits/2026-11-15/delivery-audit.json"
+      ]
+    }
+  ]
+}

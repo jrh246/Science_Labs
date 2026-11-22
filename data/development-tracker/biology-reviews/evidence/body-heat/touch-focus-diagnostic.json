@@ -1,0 +1,99 @@
+[
+  {
+    "type": "pointerdown",
+    "tag": "SPAN",
+    "id": "",
+    "active": "",
+    "trusted": true
+  },
+  {
+    "type": "pointerup",
+    "tag": "SPAN",
+    "id": "",
+    "active": "",
+    "trusted": true
+  },
+  {
+    "type": "click",
+    "tag": "BUTTON",
+    "id": "",
+    "active": "",
+    "trusted": false
+  },
+  {
+    "type": "focusout",
+    "tag": "H2",
+    "id": "",
+    "active": "",
+    "trusted": true
+  },
+  {
+    "type": "focusin",
+    "tag": "BUTTON",
+    "id": "",
+    "active": "",
+    "trusted": true
+  },
+  {
+    "type": "pointerdown",
+    "tag": "SPAN",
+    "id": "",
+    "place": "port",
+    "active": "",
+    "trusted": true
+  },
+  {
+    "type": "pointerup",
+    "tag": "SPAN",
+    "id": "",
+    "place": "port",
+    "active": "",
+    "trusted": true
+  },
+  {
+    "type": "click",
+    "tag": "BUTTON",
+    "id": "",
+    "place": "port",
+    "active": "",
+    "trusted": false
+  },
+  {
+    "type": "focusout",
+    "tag": "BUTTON",
+    "id": "",
+    "active": "",
+    "trusted": true
+  },
+  {
+    "type": "focusin",
+    "tag": "INPUT",
+    "id": "heat-reading",
+    "active": "heat-reading",
+    "trusted": true
+  },
+  {
+    "type": "mousedown",
+    "tag": "path",
+    "id": "",
+    "active": "heat-reading",
+    "trusted": true,
+    "touchMouse": true
+  },
+  {
+    "type": "mouseup",
+    "tag": "path",
+    "id": "",
+    "active": "heat-reading",
+    "trusted": true,
+    "touchMouse": true
+  },
+  {
+    "type": "click",
+    "tag": "path",
+    "id": "",
+    "active": "heat-reading",
+    "trusted": true,
+    "touchMouse": true
+  }
+]

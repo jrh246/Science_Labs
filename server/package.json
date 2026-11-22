@@ -1,0 +1,36 @@
+{
+  "name": "science-labs-api",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "node --env-file-if-exists=.env src/local.js",
+    "test": "node --test --test-concurrency=1 test/*.test.js",
+    "migrate": "node --env-file-if-exists=.env scripts/migrate.js",
+    "owner": "node --env-file-if-exists=.env scripts/owner.js",
+    "register-release": "node --env-file-if-exists=.env scripts/register-release.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.1000.0",
+    "@aws-sdk/client-secrets-manager": "^3.1000.0",
+    "@aws-sdk/client-sqs": "^3.1169.0",
+    "better-auth": "1.7.22",
+    "cors": "^2.8.5",
+    "express": "5.3.0",
+    "pg": "8.23.1",
+    "resend": "6.38.0",
+    "serverless-http": "^3.2.0",
+    "stripe": "23.1.0"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "0.5.16"
+  },
+  "files": [
+    "src/",
+    "migrations/",
+    "scripts/"
+  ],
+  "version": "0.1.0"
+}

@@ -1,0 +1,170 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: Science Labs API for Amplify Hosting, Neon, Better Auth, Resend, and optional Stripe.
+Parameters:
+  Environment:
+    Type: String
+    AllowedValues: [development, production]
+  AppOrigin:
+    Type: String
+    Description: Exact HTTPS origin of this environment's Amplify frontend/custom domain.
+    AllowedPattern: 'https://[^/]+$'
+  ApiOrigin:
+    Type: String
+    Description: Exact HTTPS origin of the API. Use a same-site custom domain for production cookie sessions.
+    AllowedPattern: 'https://[^/]+$'
+  PlatformSecretArn:
+    Type: String
+    Description: ARN of this environment's Secrets Manager JSON secret. Never put values in this template.
+  ApiDomainName:
+    Type: String
+    Default: ''
+  ApiCertificateArn:
+    Type: String
+    Default: ''
+Conditions:
+  HasApiDomain: !Not [!Equals [!Ref ApiDomainName, '']]
+Resources:
+  DraftSuggestionDeadLetterQueue:
+    Type: AWS::SQS::Queue
+    Properties: {MessageRetentionPeriod: 1209600, SqsManagedSseEnabled: true}
+  DraftSuggestionQueue:
+    Type: AWS::SQS::Queue
+    Properties:
+      VisibilityTimeout: 900
+      SqsManagedSseEnabled: true
+      RedrivePolicy: {deadLetterTargetArn: !GetAtt DraftSuggestionDeadLetterQueue.Arn, maxReceiveCount: 3}
+  DraftSuggestionWorker:
+    Type: AWS::Serverless::Function
+    Metadata:
+      BuildProperties: {UseNpmCi: true}
+    Properties:
+      CodeUri: ../server/
+      Handler: src/suggestion-worker.handler
+      PackageType: Zip
+      Runtime: nodejs22.x
+      MemorySize: 1024
+      Timeout: 150
+      ReservedConcurrentExecutions: 2
+      Environment:
+        Variables:
+          NODE_ENV: production
+          PLATFORM_ENV: !Ref Environment
+          APP_URL: !Ref AppOrigin
+          API_URL: !Ref ApiOrigin
+          PLATFORM_SECRET_ARN: !Ref PlatformSecretArn
+      Policies:
+        - SQSPollerPolicy: {QueueName: !GetAtt DraftSuggestionQueue.QueueName}
+        - Statement:
+            - Effect: Allow
+              Action: secretsmanager:GetSecretValue
+              Resource: !Ref PlatformSecretArn
+      Events:
+        DraftQueue:
+          Type: SQS
+          Properties:
+            Queue: !GetAtt DraftSuggestionQueue.Arn
+            BatchSize: 1
+            FunctionResponseTypes: [ReportBatchItemFailures]
+            ScalingConfig: {MaximumConcurrency: 2}
+  MetricsMaintenance:
+    Type: AWS::Serverless::Function
+    Metadata:
+      BuildProperties: {UseNpmCi: true}
+    Properties:
+      CodeUri: ../server/
+      Handler: src/metrics-maintenance.handler
+      PackageType: Zip
+      Runtime: nodejs22.x
+      MemorySize: 512
+      Timeout: 60
+      ReservedConcurrentExecutions: 1
+      Environment:
+        Variables:
+          NODE_ENV: production
+          PLATFORM_ENV: !Ref Environment
+          APP_URL: !Ref AppOrigin
+          API_URL: !Ref ApiOrigin
+          PLATFORM_SECRET_ARN: !Ref PlatformSecretArn
+      Policies:
+        - Statement:
+            - Effect: Allow
+              Action: secretsmanager:GetSecretValue
+              Resource: !Ref PlatformSecretArn
+      Events:
+        DailyRetention:
+          Type: Schedule
+          Properties: {Schedule: 'cron(20 4 * * ? *)',Description: 'Remove public traffic records older than 90 UTC calendar days.'}
+  ReleaseBucket:
+    Type: AWS::S3::Bucket
+    DeletionPolicy: Retain
+    UpdateReplacePolicy: Retain
+    Properties:
+      VersioningConfiguration: {Status: Enabled}
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+          - ServerSideEncryptionByDefault: {SSEAlgorithm: AES256}
+  ApiLogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties: {RetentionInDays: 30}
+  HttpApi:
+    Type: AWS::Serverless::HttpApi
+    Properties:
+      StageName: '$default'
+      CorsConfiguration:
+        AllowCredentials: true
+        AllowOrigins: [!Ref AppOrigin]
+        AllowHeaders: [content-type]
+        AllowMethods: [GET, POST, PUT, PATCH, DELETE, OPTIONS]
+      DefaultRouteSettings: {ThrottlingBurstLimit: 200, ThrottlingRateLimit: 100}
+      AccessLogSettings:
+        DestinationArn: !GetAtt ApiLogGroup.Arn
+        Format: '{"requestId":"$context.requestId","route":"$context.routeKey","status":"$context.status"}'
+      Domain: !If
+        - HasApiDomain
+        - DomainName: !Ref ApiDomainName
+          CertificateArn: !Ref ApiCertificateArn
+          EndpointConfiguration: REGIONAL
+          SecurityPolicy: TLS_1_2
+        - !Ref AWS::NoValue
+  ApiFunction:
+    Type: AWS::Serverless::Function
+    Metadata:
+      BuildProperties: {UseNpmCi: true}
+    Properties:
+      CodeUri: ../server/
+      Handler: src/lambda.handler
+      PackageType: Zip
+      Runtime: nodejs22.x
+      MemorySize: 1024
+      Timeout: 28
+      ReservedConcurrentExecutions: 25
+      Environment:
+        Variables:
+          NODE_ENV: production
+          PLATFORM_ENV: !Ref Environment
+          APP_URL: !Ref AppOrigin
+          API_URL: !Ref ApiOrigin
+          PLATFORM_SECRET_ARN: !Ref PlatformSecretArn
+          RELEASE_BUCKET: !Ref ReleaseBucket
+          AI_DRAFT_QUEUE_URL: !Ref DraftSuggestionQueue
+      Policies:
+        - S3ReadPolicy: {BucketName: !Ref ReleaseBucket}
+        - SQSSendMessagePolicy: {QueueName: !GetAtt DraftSuggestionQueue.QueueName}
+        - Statement:
+            - Effect: Allow
+              Action: secretsmanager:GetSecretValue
+              Resource: !Ref PlatformSecretArn
+      Events:
+        Api:
+          Type: HttpApi
+          Properties: {ApiId: !Ref HttpApi, Path: '/{proxy+}', Method: ANY, PayloadFormatVersion: '2.0'}
+Outputs:
+  ApiEndpoint: {Value: !Sub 'https://${HttpApi}.execute-api.${AWS::Region}.${AWS::URLSuffix}'}
+  ReleaseBucket: {Value: !Ref ReleaseBucket}
+  ApiFunction: {Value: !Ref ApiFunction}

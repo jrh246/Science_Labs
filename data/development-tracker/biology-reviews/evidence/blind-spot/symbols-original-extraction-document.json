@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 2,
+  "labId": "dna-replication",
+  "title": "Extracting DNA from Fruit",
+  "question": "What does it take to get DNA out of a cell, and what can the controls tell us?",
+  "student": {
+    "name": "Zoë García",
+    "class": "Font check"
+  },
+  "status": "In progress",
+  "grading": "not_graded",
+  "exportedAt": "2026-11-15T20:00:00Z",
+  "exportTimeZone": "America/Los_Angeles",
+  "exportedAtDisplay": "Nov 15, 2026, 12:00 PM PST",
+  "sections": [
+    {
+      "heading": "Investigation and prediction",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "How will leaving out detergent affect visible material, and why?",
+          "text": "Mechanical disruption → some material; detergent → more membrane disruption. α β, español."
+        }
+      ]
+    },
+    {
+      "heading": "Evidence by learning goal",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Review the recorded results alongside the written explanations for each goal."
+        },
+        {
+          "type": "response",
+          "prompt": "Explain DNA release",
+          "text": "Awaiting checkpoint response. Connect mashing and detergent with the cell membranes. The membrane-check answer is awaiting a response."
+        },
+        {
+          "type": "response",
+          "prompt": "Explain visible strands",
+          "text": "Awaiting checkpoint response. Explain how dissolved DNA can collect as a precipitate after alcohol is added. The dissolved-DNA check is awaiting a response."
+        },
+        {
+          "type": "response",
+          "prompt": "Compare the controls",
+          "text": "In progress. Use the no-detergent and no-fruit comparisons to support a claim. 0 of 3 observations include a score and description. A written claim is awaiting a response."
+        },
+        {
+          "type": "response",
+          "prompt": "Evaluate the evidence",
+          "text": "Awaiting response. Explain what visible material can establish about DNA. The evidence-limit explanation is awaiting a response."
+        }
+      ]
+    },
+    {
+      "heading": "Your explanations",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "What does the detergent comparison support? Use your observations and explain the role of membranes, including how mashing can release some DNA without detergent.",
+          "text": "Not recorded"
+        },
+        {
+          "type": "response",
+          "prompt": "Someone says: “Twice as much white material means twice as much DNA.” Explain why our observations cannot establish that.",
+          "text": "Not recorded"
+        }
+      ]
+    },
+    {
+      "heading": "Revisions and feedback",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "What must detergent disrupt to help release DNA?",
+          "text": "Awaiting response. Earlier feedback history is unavailable. The saved response is shown."
+        },
+        {
+          "type": "response",
+          "prompt": "The filtrate has no visible strands yet. Where could its DNA be?",
+          "text": "Awaiting response. Earlier feedback history is unavailable. The saved response is shown."
+        }
+      ]
+    },
+    {
+      "heading": "Concept-check responses",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "What must detergent disrupt to help release DNA?",
+          "text": "Awaiting response\nNot recorded"
+        },
+        {
+          "type": "response",
+          "prompt": "The filtrate has no visible strands yet. Where could its DNA be?",
+          "text": "Awaiting response\nNot recorded"
+        }
+      ]
+    },
+    {
+      "heading": "Recorded observations",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Visibility categories are 0 None, 1 Faint, 2 Clear, and 3 Abundant."
+        }
+      ]
+    },
+    {
+      "heading": "Complete extraction",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Source virtual. Visibility not recorded."
+        },
+        {
+          "type": "paragraph",
+          "text": "10 g fruit + 9 mL water + 0.1 g salt + 1 mL detergent; filter, then layer 5 mL cold alcohol over 5 mL filtrate."
+        },
+        {
+          "type": "response",
+          "prompt": "Your observation",
+          "text": "Not recorded"
+        }
+      ]
+    },
+    {
+      "heading": "No detergent control",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Source virtual. Visibility not recorded."
+        },
+        {
+          "type": "paragraph",
+          "text": "Same fruit, mashing, salt, filtration, alcohol and observation time; replace 1 mL detergent with 1 mL water."
+        },
+        {
+          "type": "response",
+          "prompt": "Your observation",
+          "text": "Not recorded"
+        }
+      ]
+    },
+    {
+      "heading": "No fruit blank",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Source virtual. Visibility not recorded."
+        },
+        {
+          "type": "paragraph",
+          "text": "Same extraction ingredients and handling, with no fruit."
+        },
+        {
+          "type": "response",
+          "prompt": "Your observation",
+          "text": "Not recorded"
+        }
+      ]
+    },
+    {
+      "heading": "Model and evidence limits",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Visibility scores are ordered categories, not DNA concentrations. The precipitate is a crude mixture; appearance alone does not establish DNA identity or purity. One sample per condition cannot estimate variability. Virtual observations are illustrative. Differences between virtual and classroom samples cannot be attributed to detergent alone."
+        }
+      ]
+    }
+  ]
+}

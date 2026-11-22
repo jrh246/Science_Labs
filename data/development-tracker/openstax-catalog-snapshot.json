@@ -1,0 +1,910 @@
+{
+  "checkedOn": "2026-11-14",
+  "sourceUrl": "https://openstax.org/apps/cms/api/v2/pages/?type=books.Book&limit=100&fields=book_state,book_categories,k12book_subjects",
+  "total": 129,
+  "books": [
+    {
+      "id": 873,
+      "title": "Additive Manufacturing Essentials",
+      "url": "https://openstax.org/details/books/additive-manufacturing-essentials",
+      "state": "live",
+      "slug": "additive-manufacturing-essentials"
+    },
+    {
+      "id": 867,
+      "title": "Algebra 1",
+      "url": "https://openstax.org/details/books/algebra-1",
+      "state": "live",
+      "slug": "algebra-1"
+    },
+    {
+      "id": 38,
+      "title": "Algebra and Trigonometry",
+      "url": "https://openstax.org/details/books/algebra-and-trigonometry",
+      "state": "retired",
+      "slug": "algebra-and-trigonometry"
+    },
+    {
+      "id": 553,
+      "title": "Algebra and Trigonometry 2e",
+      "url": "https://openstax.org/details/books/algebra-and-trigonometry-2e",
+      "state": "live",
+      "slug": "algebra-and-trigonometry-2e"
+    },
+    {
+      "id": 84,
+      "title": "American Government",
+      "url": "https://openstax.org/details/books/american-government",
+      "state": "retired",
+      "slug": "american-government"
+    },
+    {
+      "id": 300,
+      "title": "American Government 2e",
+      "url": "https://openstax.org/details/books/american-government-2e",
+      "state": "retired",
+      "slug": "american-government-2e"
+    },
+    {
+      "id": 518,
+      "title": "American Government 3e",
+      "url": "https://openstax.org/details/books/american-government-3e",
+      "state": "retired",
+      "slug": "american-government-3e"
+    },
+    {
+      "id": 931,
+      "title": "American Government 4e",
+      "url": "https://openstax.org/details/books/american-government-4e",
+      "state": "live",
+      "slug": "american-government-4e"
+    },
+    {
+      "id": 35,
+      "title": "Anatomy and Physiology",
+      "url": "https://openstax.org/details/books/anatomy-and-physiology",
+      "state": "retired",
+      "slug": "anatomy-and-physiology"
+    },
+    {
+      "id": 585,
+      "title": "Anatomy and Physiology 2e",
+      "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+      "state": "live",
+      "slug": "anatomy-and-physiology-2e"
+    },
+    {
+      "id": 47,
+      "title": "The AP Physics Collection",
+      "url": "https://openstax.org/details/books/college-physics-ap-courses",
+      "state": "retired",
+      "slug": "college-physics-ap-courses"
+    },
+    {
+      "id": 81,
+      "title": "Astronomy",
+      "url": "https://openstax.org/details/books/astronomy",
+      "state": "retired",
+      "slug": "astronomy"
+    },
+    {
+      "id": 576,
+      "title": "Astronomy 2e",
+      "url": "https://openstax.org/details/books/astronomy-2e",
+      "state": "live",
+      "slug": "astronomy-2e"
+    },
+    {
+      "id": 121,
+      "title": "Biology",
+      "url": "https://openstax.org/details/books/biology",
+      "state": "retired",
+      "slug": "biology"
+    },
+    {
+      "id": 207,
+      "title": "Biology 2e",
+      "url": "https://openstax.org/details/books/biology-2e",
+      "state": "live",
+      "slug": "biology-2e"
+    },
+    {
+      "id": 162,
+      "title": "Biology for AP® Courses",
+      "url": "https://openstax.org/details/books/biology-ap-courses",
+      "state": "live",
+      "slug": "biology-ap-courses"
+    },
+    {
+      "id": 261,
+      "title": "Business Ethics",
+      "url": "https://openstax.org/details/books/business-ethics",
+      "state": "live",
+      "slug": "business-ethics"
+    },
+    {
+      "id": 340,
+      "title": "Business Law I Essentials",
+      "url": "https://openstax.org/details/books/business-law-i-essentials",
+      "state": "deprecated",
+      "slug": "business-law-i-essentials"
+    },
+    {
+      "id": 975,
+      "title": "Business Law I Essentials 2e",
+      "url": "https://openstax.org/details/books/business-law-i-essentials-2e",
+      "state": "live",
+      "slug": "business-law-i-essentials-2e"
+    },
+    {
+      "id": 74,
+      "title": "Calculus Volume 1",
+      "url": "https://openstax.org/details/books/calculus-volume-1",
+      "state": "live",
+      "slug": "calculus-volume-1"
+    },
+    {
+      "id": 75,
+      "title": "Calculus Volume 2",
+      "url": "https://openstax.org/details/books/calculus-volume-2",
+      "state": "live",
+      "slug": "calculus-volume-2"
+    },
+    {
+      "id": 76,
+      "title": "Calculus Volume 3",
+      "url": "https://openstax.org/details/books/calculus-volume-3",
+      "state": "live",
+      "slug": "calculus-volume-3"
+    },
+    {
+      "id": 43,
+      "title": "Chemistry",
+      "url": "https://openstax.org/details/books/chemistry",
+      "state": "retired",
+      "slug": "chemistry"
+    },
+    {
+      "id": 298,
+      "title": "Chemistry 2e",
+      "url": "https://openstax.org/details/books/chemistry-2e",
+      "state": "live",
+      "slug": "chemistry-2e"
+    },
+    {
+      "id": 299,
+      "title": "Chemistry: Atoms First 2e",
+      "url": "https://openstax.org/details/books/chemistry-atoms-first-2e",
+      "state": "live",
+      "slug": "chemistry-atoms-first-2e"
+    },
+    {
+      "id": 93,
+      "title": "Chemistry: Atoms First",
+      "url": "https://openstax.org/details/books/chemistry-atoms-first",
+      "state": "retired",
+      "slug": "chemistry-atoms-first"
+    },
+    {
+      "id": 814,
+      "title": "Clinical Nursing Skills",
+      "url": "https://openstax.org/details/books/clinical-nursing-skills",
+      "state": "live",
+      "slug": "clinical-nursing-skills"
+    },
+    {
+      "id": 39,
+      "title": "College Algebra",
+      "url": "https://openstax.org/details/books/college-algebra",
+      "state": "retired",
+      "slug": "college-algebra"
+    },
+    {
+      "id": 550,
+      "title": "College Algebra 2e",
+      "url": "https://openstax.org/details/books/college-algebra-2e",
+      "state": "live",
+      "slug": "college-algebra-2e"
+    },
+    {
+      "id": 443,
+      "title": "College Algebra with Corequisite Support",
+      "url": "https://openstax.org/details/books/college-algebra-corequisite-support",
+      "state": "retired",
+      "slug": "college-algebra-corequisite-support"
+    },
+    {
+      "id": 554,
+      "title": "College Algebra 2e with Corequisite Support",
+      "url": "https://openstax.org/details/books/college-algebra-corequisite-support-2e",
+      "state": "live",
+      "slug": "college-algebra-corequisite-support-2e"
+    },
+    {
+      "id": 31,
+      "title": "College Physics",
+      "url": "https://openstax.org/details/books/college-physics",
+      "state": "retired",
+      "slug": "college-physics"
+    },
+    {
+      "id": 603,
+      "title": "College Physics 2e",
+      "url": "https://openstax.org/details/books/college-physics-2e",
+      "state": "live",
+      "slug": "college-physics-2e"
+    },
+    {
+      "id": 604,
+      "title": "College Physics For AP® Courses 2e",
+      "url": "https://openstax.org/details/books/college-physics-ap-courses-2e",
+      "state": "live",
+      "slug": "college-physics-ap-courses-2e"
+    },
+    {
+      "id": 506,
+      "title": "College Physics with Courseware",
+      "url": "https://openstax.org/details/books/college-physics-courseware",
+      "state": "retired",
+      "slug": "college-physics-courseware"
+    },
+    {
+      "id": 382,
+      "title": "College Success",
+      "url": "https://openstax.org/details/books/college-success",
+      "state": "live",
+      "slug": "college-success"
+    },
+    {
+      "id": 694,
+      "title": "College Success Concise",
+      "url": "https://openstax.org/details/books/college-success-concise",
+      "state": "live",
+      "slug": "college-success-concise"
+    },
+    {
+      "id": 34,
+      "title": "Concepts of Biology",
+      "url": "https://openstax.org/details/books/concepts-biology",
+      "state": "live",
+      "slug": "concepts-biology"
+    },
+    {
+      "id": 689,
+      "title": "Contemporary Mathematics",
+      "url": "https://openstax.org/details/books/contemporary-mathematics",
+      "state": "live",
+      "slug": "contemporary-mathematics"
+    },
+    {
+      "id": 130,
+      "title": "Elementary Algebra",
+      "url": "https://openstax.org/details/books/elementary-algebra",
+      "state": "retired",
+      "slug": "elementary-algebra"
+    },
+    {
+      "id": 414,
+      "title": "Elementary Algebra 2e",
+      "url": "https://openstax.org/details/books/elementary-algebra-2e",
+      "state": "live",
+      "slug": "elementary-algebra-2e"
+    },
+    {
+      "id": 314,
+      "title": "Entrepreneurship",
+      "url": "https://openstax.org/details/books/entrepreneurship",
+      "state": "live",
+      "slug": "entrepreneurship"
+    },
+    {
+      "id": 190,
+      "title": "Fizyka dla szkół wyższych. Tom 1",
+      "url": "https://openstax.org/details/books/fizyka-dla-szkół-wyższych-tom-1",
+      "state": "unlisted",
+      "slug": "fizyka-dla-szkół-wyższych-tom-1"
+    },
+    {
+      "id": 219,
+      "title": "Fizyka dla szkół wyższych. Tom 2",
+      "url": "https://openstax.org/details/books/fizyka-dla-szkół-wyższych-tom-2",
+      "state": "unlisted",
+      "slug": "fizyka-dla-szkół-wyższych-tom-2"
+    },
+    {
+      "id": 245,
+      "title": "Fizyka dla szkół wyższych. Tom 3",
+      "url": "https://openstax.org/details/books/fizyka-dla-szkół-wyższych-tom-3",
+      "state": "unlisted",
+      "slug": "fizyka-dla-szkół-wyższych-tom-3"
+    },
+    {
+      "id": 870,
+      "title": "Foundations of Information Systems",
+      "url": "https://openstax.org/details/books/foundations-information-systems",
+      "state": "live",
+      "slug": "foundations-information-systems"
+    },
+    {
+      "id": 815,
+      "title": "Fundamentals of Nursing",
+      "url": "https://openstax.org/details/books/fundamentals-nursing",
+      "state": "live",
+      "slug": "fundamentals-nursing"
+    },
+    {
+      "id": 131,
+      "title": "Intermediate Algebra",
+      "url": "https://openstax.org/details/books/intermediate-algebra",
+      "state": "retired",
+      "slug": "intermediate-algebra"
+    },
+    {
+      "id": 418,
+      "title": "Intermediate Algebra 2e",
+      "url": "https://openstax.org/details/books/intermediate-algebra-2e",
+      "state": "live",
+      "slug": "intermediate-algebra-2e"
+    },
+    {
+      "id": 573,
+      "title": "Introduction to Anthropology",
+      "url": "https://openstax.org/details/books/introduction-anthropology",
+      "state": "live",
+      "slug": "introduction-anthropology"
+    },
+    {
+      "id": 844,
+      "title": "Introduction to Behavioral Neuroscience",
+      "url": "https://openstax.org/details/books/introduction-behavioral-neuroscience",
+      "state": "live",
+      "slug": "introduction-behavioral-neuroscience"
+    },
+    {
+      "id": 259,
+      "title": "Introduction to Business",
+      "url": "https://openstax.org/details/books/introduction-business",
+      "state": "deprecated",
+      "slug": "introduction-business"
+    },
+    {
+      "id": 960,
+      "title": "Introduction to Business 2e",
+      "url": "https://openstax.org/details/books/introduction-business-2e",
+      "state": "live",
+      "slug": "introduction-business-2e"
+    },
+    {
+      "id": 847,
+      "title": "Introduction to Computer Science",
+      "url": "https://openstax.org/details/books/introduction-computer-science",
+      "state": "live",
+      "slug": "introduction-computer-science"
+    },
+    {
+      "id": 489,
+      "title": "Introduction to Intellectual Property",
+      "url": "https://openstax.org/details/books/introduction-intellectual-property",
+      "state": "live",
+      "slug": "introduction-intellectual-property"
+    },
+    {
+      "id": 601,
+      "title": "Introduction to Philosophy",
+      "url": "https://openstax.org/details/books/introduction-philosophy",
+      "state": "live",
+      "slug": "introduction-philosophy"
+    },
+    {
+      "id": 598,
+      "title": "Introduction to Political Science",
+      "url": "https://openstax.org/details/books/introduction-political-science",
+      "state": "live",
+      "slug": "introduction-political-science"
+    },
+    {
+      "id": 775,
+      "title": "Introduction to Python Programming",
+      "url": "https://openstax.org/details/books/introduction-python-programming",
+      "state": "live",
+      "slug": "introduction-python-programming"
+    },
+    {
+      "id": 466,
+      "title": "Introduction to Sociology",
+      "url": "https://openstax.org/details/books/introduction-sociology",
+      "state": "retired",
+      "slug": "introduction-sociology"
+    },
+    {
+      "id": 32,
+      "title": "Introduction to Sociology 2e",
+      "url": "https://openstax.org/details/books/introduction-sociology-2e",
+      "state": "retired",
+      "slug": "introduction-sociology-2e"
+    },
+    {
+      "id": 515,
+      "title": "Introduction to Sociology 3e",
+      "url": "https://openstax.org/details/books/introduction-sociology-3e",
+      "state": "live",
+      "slug": "introduction-sociology-3e"
+    },
+    {
+      "id": 189,
+      "title": "Introductory Business Statistics",
+      "url": "https://openstax.org/details/books/introductory-business-statistics",
+      "state": "retired",
+      "slug": "introductory-business-statistics"
+    },
+    {
+      "id": 751,
+      "title": "Introductory Business Statistics 2e",
+      "url": "https://openstax.org/details/books/introductory-business-statistics-2e",
+      "state": "live",
+      "slug": "introductory-business-statistics-2e"
+    },
+    {
+      "id": 36,
+      "title": "Introductory Statistics",
+      "url": "https://openstax.org/details/books/introductory-statistics",
+      "state": "retired",
+      "slug": "introductory-statistics"
+    },
+    {
+      "id": 750,
+      "title": "Introductory Statistics 2e",
+      "url": "https://openstax.org/details/books/introductory-statistics-2e",
+      "state": "live",
+      "slug": "introductory-statistics-2e"
+    },
+    {
+      "id": 391,
+      "title": "Life, Liberty, and the Pursuit of Happiness",
+      "url": "https://openstax.org/details/books/life-liberty-and-pursuit-happiness",
+      "state": "retired",
+      "slug": "life-liberty-and-pursuit-happiness"
+    },
+    {
+      "id": 834,
+      "title": "Lifespan Development",
+      "url": "https://openstax.org/details/books/lifespan-development",
+      "state": "live",
+      "slug": "lifespan-development"
+    },
+    {
+      "id": 843,
+      "title": "Marketing Podstawy",
+      "url": "https://openstax.org/details/books/marketing-podstawy",
+      "state": "unlisted",
+      "slug": "marketing-podstawy"
+    },
+    {
+      "id": 813,
+      "title": "Maternal-Newborn Nursing",
+      "url": "https://openstax.org/details/books/maternal-newborn-nursing",
+      "state": "live",
+      "slug": "maternal-newborn-nursing"
+    },
+    {
+      "id": 820,
+      "title": "Medical-Surgical Nursing",
+      "url": "https://openstax.org/details/books/medical-surgical-nursing",
+      "state": "live",
+      "slug": "medical-surgical-nursing"
+    },
+    {
+      "id": 83,
+      "title": "Microbiology",
+      "url": "https://openstax.org/details/books/microbiology",
+      "state": "live",
+      "slug": "microbiology"
+    },
+    {
+      "id": 743,
+      "title": "Makroekonomia – Podstawy",
+      "url": "https://openstax.org/details/books/makroekonomia-podstawy",
+      "state": "unlisted",
+      "slug": "makroekonomia-podstawy"
+    },
+    {
+      "id": 610,
+      "title": "Mikroekonomia – Podstawy",
+      "url": "https://openstax.org/details/books/mikroekonomia-podstawy",
+      "state": "unlisted",
+      "slug": "mikroekonomia-podstawy"
+    },
+    {
+      "id": 771,
+      "title": "Nutrition for Nurses",
+      "url": "https://openstax.org/details/books/nutrition",
+      "state": "live",
+      "slug": "nutrition"
+    },
+    {
+      "id": 707,
+      "title": "Organic Chemistry: A Tenth Edition",
+      "url": "https://openstax.org/details/books/organic-chemistry",
+      "state": "live",
+      "slug": "organic-chemistry"
+    },
+    {
+      "id": 315,
+      "title": "Organizational Behavior",
+      "url": "https://openstax.org/details/books/organizational-behavior",
+      "state": "live",
+      "slug": "organizational-behavior"
+    },
+    {
+      "id": 770,
+      "title": "Pharmacology for Nurses",
+      "url": "https://openstax.org/details/books/pharmacology",
+      "state": "live",
+      "slug": "pharmacology"
+    },
+    {
+      "id": 415,
+      "title": "Physics",
+      "url": "https://openstax.org/details/books/physics",
+      "state": "live",
+      "slug": "physics"
+    },
+    {
+      "id": 772,
+      "title": "Population Health for Nurses",
+      "url": "https://openstax.org/details/books/population-health",
+      "state": "live",
+      "slug": "population-health"
+    },
+    {
+      "id": 46,
+      "title": "Prealgebra",
+      "url": "https://openstax.org/details/books/prealgebra",
+      "state": "retired",
+      "slug": "prealgebra"
+    },
+    {
+      "id": 392,
+      "title": "Prealgebra 2e",
+      "url": "https://openstax.org/details/books/prealgebra-2e",
+      "state": "live",
+      "slug": "prealgebra-2e"
+    },
+    {
+      "id": 37,
+      "title": "Precalculus",
+      "url": "https://openstax.org/details/books/precalculus",
+      "state": "retired",
+      "slug": "precalculus"
+    },
+    {
+      "id": 551,
+      "title": "Precalculus 2e",
+      "url": "https://openstax.org/details/books/precalculus-2e",
+      "state": "live",
+      "slug": "precalculus-2e"
+    },
+    {
+      "id": 720,
+      "title": "Preparing for College Success",
+      "url": "https://openstax.org/details/books/preparing-for-college-success",
+      "state": "live",
+      "slug": "preparing-for-college-success"
+    },
+    {
+      "id": 303,
+      "title": "Principles of Accounting, Volume 1: Financial Accounting",
+      "url": "https://openstax.org/details/books/principles-financial-accounting",
+      "state": "live",
+      "slug": "principles-financial-accounting"
+    },
+    {
+      "id": 292,
+      "title": "Principles of Accounting, Volume 2: Managerial Accounting",
+      "url": "https://openstax.org/details/books/principles-managerial-accounting",
+      "state": "live",
+      "slug": "principles-managerial-accounting"
+    },
+    {
+      "id": 865,
+      "title": "Principles of Data Science",
+      "url": "https://openstax.org/details/books/principles-data-science",
+      "state": "live",
+      "slug": "principles-data-science"
+    },
+    {
+      "id": 40,
+      "title": "Principles of Economics",
+      "url": "https://openstax.org/details/books/principles-economics",
+      "state": "retired",
+      "slug": "principles-economics"
+    },
+    {
+      "id": 177,
+      "title": "Principles of Economics 2e",
+      "url": "https://openstax.org/details/books/principles-economics-2e",
+      "state": "retired",
+      "slug": "principles-economics-2e"
+    },
+    {
+      "id": 620,
+      "title": "Principles of Economics 3e",
+      "url": "https://openstax.org/details/books/principles-economics-3e",
+      "state": "live",
+      "slug": "principles-economics-3e"
+    },
+    {
+      "id": 583,
+      "title": "Principles of Finance",
+      "url": "https://openstax.org/details/books/principles-finance",
+      "state": "deprecated",
+      "slug": "principles-finance"
+    },
+    {
+      "id": 976,
+      "title": "Principles of Finance 2e",
+      "url": "https://openstax.org/details/books/principles-finance-2e",
+      "state": "live",
+      "slug": "principles-finance-2e"
+    },
+    {
+      "id": 41,
+      "title": "Principles of Macroeconomics",
+      "url": "https://openstax.org/details/books/principles-macroeconomics",
+      "state": "retired",
+      "slug": "principles-macroeconomics"
+    },
+    {
+      "id": 178,
+      "title": "Principles of Macroeconomics 2e",
+      "url": "https://openstax.org/details/books/principles-macroeconomics-2e",
+      "state": "retired",
+      "slug": "principles-macroeconomics-2e"
+    },
+    {
+      "id": 622,
+      "title": "Principles of Macroeconomics 3e",
+      "url": "https://openstax.org/details/books/principles-macroeconomics-3e",
+      "state": "live",
+      "slug": "principles-macroeconomics-3e"
+    },
+    {
+      "id": 48,
+      "title": "Principles of Macroeconomics for AP® Courses",
+      "url": "https://openstax.org/details/books/principles-macroeconomics-ap-courses",
+      "state": "retired",
+      "slug": "principles-macroeconomics-ap-courses"
+    },
+    {
+      "id": 186,
+      "title": "Principles of Macroeconomics for AP® Courses 2e",
+      "url": "https://openstax.org/details/books/principles-macroeconomics-ap-courses-2e",
+      "state": "retired",
+      "slug": "principles-macroeconomics-ap-courses-2e"
+    },
+    {
+      "id": 304,
+      "title": "Principles of Management",
+      "url": "https://openstax.org/details/books/principles-management",
+      "state": "live",
+      "slug": "principles-management"
+    },
+    {
+      "id": 629,
+      "title": "Principles of Marketing",
+      "url": "https://openstax.org/details/books/principles-marketing",
+      "state": "live",
+      "slug": "principles-marketing"
+    },
+    {
+      "id": 42,
+      "title": "Principles of Microeconomics",
+      "url": "https://openstax.org/details/books/principles-microeconomics",
+      "state": "retired",
+      "slug": "principles-microeconomics"
+    },
+    {
+      "id": 155,
+      "title": "Principles of Microeconomics 2e",
+      "url": "https://openstax.org/details/books/principles-microeconomics-2e",
+      "state": "retired",
+      "slug": "principles-microeconomics-2e"
+    },
+    {
+      "id": 621,
+      "title": "Principles of Microeconomics 3e",
+      "url": "https://openstax.org/details/books/principles-microeconomics-3e",
+      "state": "live",
+      "slug": "principles-microeconomics-3e"
+    },
+    {
+      "id": 49,
+      "title": "Principles of Microeconomics for AP® Courses",
+      "url": "https://openstax.org/details/books/principles-microeconomics-ap-courses",
+      "state": "retired",
+      "slug": "principles-microeconomics-ap-courses"
+    },
+    {
+      "id": 188,
+      "title": "Principles of Microeconomics for AP® Courses 2e",
+      "url": "https://openstax.org/details/books/principles-microeconomics-ap-courses-2e",
+      "state": "retired",
+      "slug": "principles-microeconomics-ap-courses-2e"
+    },
+    {
+      "id": 470,
+      "title": "Psychologia",
+      "url": "https://openstax.org/details/books/psychologia-polska",
+      "state": "unlisted",
+      "slug": "psychologia-polska"
+    },
+    {
+      "id": 810,
+      "title": "Psychiatric-Mental Health Nursing",
+      "url": "https://openstax.org/details/books/psychiatric-mental-health",
+      "state": "live",
+      "slug": "psychiatric-mental-health"
+    },
+    {
+      "id": 45,
+      "title": "Psychology",
+      "url": "https://openstax.org/details/books/psychology",
+      "state": "retired",
+      "slug": "psychology"
+    },
+    {
+      "id": 417,
+      "title": "Psychology 2e",
+      "url": "https://openstax.org/details/books/psychology-2e",
+      "state": "live",
+      "slug": "psychology-2e"
+    },
+    {
+      "id": 413,
+      "title": "Statistics",
+      "url": "https://openstax.org/details/books/statistics",
+      "state": "live",
+      "slug": "statistics"
+    },
+    {
+      "id": 44,
+      "title": "U.S. History",
+      "url": "https://openstax.org/details/books/us-history",
+      "state": "live",
+      "slug": "us-history"
+    },
+    {
+      "id": 82,
+      "title": "University Physics Volume 1",
+      "url": "https://openstax.org/details/books/university-physics-volume-1",
+      "state": "live",
+      "slug": "university-physics-volume-1"
+    },
+    {
+      "id": 94,
+      "title": "University Physics Volume 2",
+      "url": "https://openstax.org/details/books/university-physics-volume-2",
+      "state": "live",
+      "slug": "university-physics-volume-2"
+    },
+    {
+      "id": 95,
+      "title": "University Physics Volume 3",
+      "url": "https://openstax.org/details/books/university-physics-volume-3",
+      "state": "live",
+      "slug": "university-physics-volume-3"
+    },
+    {
+      "id": 690,
+      "title": "World History, Volume 1: to 1500",
+      "url": "https://openstax.org/details/books/world-history-volume-1",
+      "state": "live",
+      "slug": "world-history-volume-1"
+    },
+    {
+      "id": 745,
+      "title": "Workplace Software and Skills",
+      "url": "https://openstax.org/details/books/workplace-software-skills",
+      "state": "live",
+      "slug": "workplace-software-skills"
+    },
+    {
+      "id": 623,
+      "title": "World History, Volume 2: from 1400",
+      "url": "https://openstax.org/details/books/world-history-volume-2",
+      "state": "live",
+      "slug": "world-history-volume-2"
+    },
+    {
+      "id": 555,
+      "title": "Writing Guide with Handbook",
+      "url": "https://openstax.org/details/books/writing-guide",
+      "state": "live",
+      "slug": "writing-guide"
+    },
+    {
+      "id": 939,
+      "title": "Zywienie",
+      "url": "https://openstax.org/details/books/zywienie",
+      "state": "unlisted",
+      "slug": "zywienie"
+    },
+    {
+      "id": 578,
+      "title": "Cálculo volumen 1",
+      "url": "https://openstax.org/details/books/cálculo-volumen-1",
+      "state": "live",
+      "slug": "cálculo-volumen-1"
+    },
+    {
+      "id": 579,
+      "title": "Cálculo volumen 2",
+      "url": "https://openstax.org/details/books/cálculo-volumen-2",
+      "state": "live",
+      "slug": "cálculo-volumen-2"
+    },
+    {
+      "id": 580,
+      "title": "Cálculo volumen 3",
+      "url": "https://openstax.org/details/books/cálculo-volumen-3",
+      "state": "live",
+      "slug": "cálculo-volumen-3"
+    },
+    {
+      "id": 534,
+      "title": "Física universitaria volumen 1",
+      "url": "https://openstax.org/details/books/física-universitaria-volumen-1",
+      "state": "live",
+      "slug": "física-universitaria-volumen-1"
+    },
+    {
+      "id": 547,
+      "title": "Física universitaria volumen 2",
+      "url": "https://openstax.org/details/books/física-universitaria-volumen-2",
+      "state": "live",
+      "slug": "física-universitaria-volumen-2"
+    },
+    {
+      "id": 548,
+      "title": "Física universitaria volumen 3",
+      "url": "https://openstax.org/details/books/física-universitaria-volumen-3",
+      "state": "live",
+      "slug": "física-universitaria-volumen-3"
+    },
+    {
+      "id": 564,
+      "title": "Introducción a la estadística",
+      "url": "https://openstax.org/details/books/introducción-estadística",
+      "state": "live",
+      "slug": "introducción-estadística"
+    },
+    {
+      "id": 565,
+      "title": "Introducción a la estadística empresarial",
+      "url": "https://openstax.org/details/books/introducción-estadística-empresarial",
+      "state": "live",
+      "slug": "introducción-estadística-empresarial"
+    },
+    {
+      "id": 597,
+      "title": "Precálculo 2ed",
+      "url": "https://openstax.org/details/books/precálculo-2ed",
+      "state": "live",
+      "slug": "precálculo-2ed"
+    },
+    {
+      "id": 599,
+      "title": "Química 2ed",
+      "url": "https://openstax.org/details/books/química-2ed",
+      "state": "live",
+      "slug": "química-2ed"
+    },
+    {
+      "id": 600,
+      "title": "Química: Comenzando con los átomos 2ed",
+      "url": "https://openstax.org/details/books/química-comenzando-átomos-2ed",
+      "state": "live",
+      "slug": "química-comenzando-átomos-2ed"
+    }
+  ]
+}

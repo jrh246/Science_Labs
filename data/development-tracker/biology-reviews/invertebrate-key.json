@@ -1,0 +1,333 @@
+{
+  "schemaVersion": 1,
+  "labId": "invertebrate-key",
+  "taskId": "BIO-14-REVIEW",
+  "reviewedBy": "Codex - separate development review",
+  "reviewedOn": "2026-11-15",
+  "sourceSnapshot": "sha256:3be663eb332b67791f3c8d287ba0a8c648092edf319dcf9f751279ab3a589344",
+  "checks": {
+    "G01": {
+      "status": "pass",
+      "notes": "Three goals connect original trait readings, student-chosen questions and all-endpoint route tests to original explanations. No completion by watching/navigation.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/build-brief.md",
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/complete-responses.json"
+      ]
+    },
+    "G02": {
+      "status": "pass",
+      "notes": "Four distinct examples add shell/leg contrasts; three successful binary splits isolate four endpoints. Four card tests cover endpoints, not independent biological repeats; no repeated preparation.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/build-brief.md"
+      ]
+    },
+    "G03": {
+      "status": "pass",
+      "notes": "Read NPS key-construction guidance, NHM morphology, Wyoming insect/spider traits and Burke eight-leg limitation. All walking legs attach to appropriate front/middle regions; antennae/tentacles are distinct. Exhaustive valid partition trees reach the correct covered examples.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/model-tests.txt"
+      ]
+    },
+    "G04": {
+      "status": "pass",
+      "notes": "Intact selected drawings/adult stage, all legs visible, supplied card identities, repeated use of same examples, no species/field identification, and key-versus-phylogeny distinction stated.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/review-notes.md"
+      ]
+    },
+    "G05": {
+      "status": "pass",
+      "notes": "Direct model placement into tray, original trait readings, question-tile placement that changes actual partitions, and student-followed routes support learning. Any valid order accepted.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/finished-key.png",
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/alternate-key.png"
+      ]
+    },
+    "G06": {
+      "status": "pass",
+      "notes": "Original shell/foot/tentacles, beetle six-leg/thorax, spider eight-leg/front-region and worm segmentation inspected. Review fixed obscured rear leg attachments and clipped rings/band to the worm outline. Initial/split/final/card/phone/tablet states inspected.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/beetle-tray.png",
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/spider-tray.png",
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/snail-tray.png",
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/earthworm-tray.png",
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/first-split.png",
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/finished-key.png",
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/phone-builder.png",
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/tablet-builder.png"
+      ]
+    },
+    "G07": {
+      "status": "pass",
+      "notes": "Stable per-attempt example/card/tile order and identities; any nonempty partition accepted, balanced or unbalanced. Never forces one question order or equates identifying-key order with ancestry.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/final-browser-tests.txt"
+      ]
+    },
+    "G08": {
+      "status": "pass",
+      "notes": "Full directions, labels, feedback, reports and handouts read. Dichotomous, jointed, endpoint and empty-branch meaning explained; count only walking legs. Grade7.6/10.9 words per sentence is diagnostic, comprehension pending.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/reading-screen.json",
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/review-notes.md"
+      ]
+    },
+    "G09": {
+      "status": "pass",
+      "notes": "First plan before observations; all current trait records gate construction/tests; only complete tree enables card tests; current-version matches at all endpoints gate explanations/completion.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/final-browser-tests.txt"
+      ]
+    },
+    "G10": {
+      "status": "pass",
+      "notes": "Explicit Correct!/Try again plus usable counting/splitting/route feedback. Current wrong/empty traits persist unconfirmed. Rejected splits retained; report review added latest incorrect route choice and actual prior-version coverage.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/route-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/rejected-split.pdf",
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/revised-key-untested.pdf"
+      ]
+    },
+    "G11": {
+      "status": "pass",
+      "notes": "Successful/repeated save, denied-write retry, reload and identity versus academic edits verified with truthful local-device wording.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/final-visual-browser-test.txt"
+      ]
+    },
+    "G12": {
+      "status": "pass",
+      "notes": "Versioned root-scoped work preserves first plan, raw observations, rejected questions, tree versions, route corrections and original writing. Branch revision archives old coverage and requires current tests; view-only review preserves completion.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/complete-responses.json"
+      ]
+    },
+    "G13": {
+      "status": "pass",
+      "notes": "Actual completed/draft PDF and native print include optional name/period, safe named/unnamed filenames and standard local date/time/PST with honest unfinished status.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/draft.pdf",
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/native-print.pdf"
+      ]
+    },
+    "G14": {
+      "status": "pass",
+      "notes": "Human report groups trait evidence, actual student key/questions, rejected split reasoning, route coverage/corrections and original goal writing. Latest wrong route is preserved as needs correction; earlier coverage is summarized rather than logged.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/route-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/revised-key-untested.pdf"
+      ]
+    },
+    "G15": {
+      "status": "pass",
+      "notes": "All 46 current PDF pages rendered/inspected through six sheets. Tables, current route/status and Unicode long final markers intact; PDF/native print/JSON share snapshot. First offline export/recovery pass.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/pdf-inspection.json",
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/pdf-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/pdf-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/pdf-contact-3.png",
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/pdf-contact-4.png",
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/pdf-contact-5.png",
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/pdf-contact-6.png",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.md",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.md"
+      ]
+    },
+    "G16": {
+      "status": "pass",
+      "notes": "Native touch specimen and question drag-release, next physical tap, keyboard select/place, actual mouse question placement after resize/scroll and phone/tablet geometry checked. Reduced motion honored; physical device/AT pending.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/phone-builder.png",
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/tablet-builder.png",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.json",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.md",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-native-focus-regressions.txt"
+      ]
+    },
+    "G17": {
+      "status": "pass",
+      "notes": "90 selected model/report regressions passed; six focused final cases and seven reviewed browser workflows passed. Final band boundary recapture passed one affected full-path workflow. 67 public resources and local standalone/private portal builds passed; failed test assumptions retained.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/final-visual-browser-test.txt",
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/standalone-build.txt",
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/platform-build.txt"
+      ]
+    },
+    "G18": {
+      "status": "pass",
+      "notes": "Stable example/trait/node/card/question/goal IDs, English bundle and locale/version retained. Original writing preserved. Native translation/print delivery and remaining UI extraction remain future AUD-10.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/review-notes.md"
+      ]
+    },
+    "RESOURCES": {
+      "status": "pass",
+      "notes": "Current worksheet3/teacher2 match observation, key construction, route coverage, limitations and source guidance. Every page/hash inspected; build-time Python only.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/pdf-contact-1.png"
+      ]
+    },
+    "ACCESS": {
+      "status": "pass",
+      "notes": "Guest/free lab and reports usable without sign-in; existing staff/entitlement/publishing policy unchanged. Private 30-lab runtime compiled only, no upload/registration/publication.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/platform-build.txt"
+      ]
+    },
+    "TRACKING": {
+      "status": "pass",
+      "notes": "Stable biological-diversity virtual route, actual English resources/metadata and regenerated curriculum/tracker valid; standards/other-language approvals unchanged; shared copy refreshed after acceptance.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/invertebrate-key/review-notes.md"
+      ]
+    }
+  },
+  "artifacts": {
+    "workflow": [
+      "data/development-tracker/biology-reviews/evidence/invertebrate-key/build-brief.md",
+      "data/development-tracker/biology-reviews/evidence/invertebrate-key/review-notes.md",
+      "data/development-tracker/biology-reviews/evidence/invertebrate-key/reading-screen.json",
+      "data/development-tracker/biology-reviews/evidence/invertebrate-key/complete-responses.json",
+      "data/development-tracker/biology-reviews/evidence/invertebrate-key/source-manifest.json"
+    ],
+    "visuals": [
+      "data/development-tracker/biology-reviews/evidence/invertebrate-key/beetle-tray.png",
+      "data/development-tracker/biology-reviews/evidence/invertebrate-key/spider-tray.png",
+      "data/development-tracker/biology-reviews/evidence/invertebrate-key/snail-tray.png",
+      "data/development-tracker/biology-reviews/evidence/invertebrate-key/earthworm-tray.png",
+      "data/development-tracker/biology-reviews/evidence/invertebrate-key/first-split.png",
+      "data/development-tracker/biology-reviews/evidence/invertebrate-key/finished-key.png",
+      "data/development-tracker/biology-reviews/evidence/invertebrate-key/phone-builder.png",
+      "data/development-tracker/biology-reviews/evidence/invertebrate-key/tablet-builder.png",
+      "data/development-tracker/biology-reviews/evidence/invertebrate-key/alternate-key.png",
+      "data/development-tracker/biology-reviews/evidence/invertebrate-key/card-1-start.png",
+      "data/development-tracker/biology-reviews/evidence/invertebrate-key/card-1-match.png",
+      "data/development-tracker/biology-reviews/evidence/invertebrate-key/phone-explain.png"
+    ],
+    "pdfReports": [
+      "data/development-tracker/biology-reviews/evidence/invertebrate-key/complete.pdf",
+      "data/development-tracker/biology-reviews/evidence/invertebrate-key/draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/invertebrate-key/development-draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/invertebrate-key/unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/invertebrate-key/edited-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/invertebrate-key/route-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/invertebrate-key/rejected-split.pdf",
+      "data/development-tracker/biology-reviews/evidence/invertebrate-key/revised-key-untested.pdf",
+      "data/development-tracker/biology-reviews/evidence/invertebrate-key/long-offline.pdf",
+      "data/development-tracker/biology-reviews/evidence/invertebrate-key/pdf-inspection.json"
+    ],
+    "nativePrint": [
+      "data/development-tracker/biology-reviews/evidence/invertebrate-key/native-print.pdf",
+      "data/development-tracker/biology-reviews/evidence/invertebrate-key/long-native-print.pdf"
+    ],
+    "tests": [
+      "data/development-tracker/biology-reviews/evidence/invertebrate-key/model-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/invertebrate-key/final-model-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/invertebrate-key/final-browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/invertebrate-key/final-visual-browser-test.txt",
+      "data/development-tracker/biology-reviews/evidence/invertebrate-key/resource-check.txt",
+      "data/development-tracker/biology-reviews/evidence/invertebrate-key/standalone-build.txt",
+      "data/development-tracker/biology-reviews/evidence/invertebrate-key/platform-build.txt"
+    ],
+    "resources": [
+      "public/resources/invertebrate-key-worksheet.pdf",
+      "public/resources/invertebrate-key-teacher-guide.pdf"
+    ]
+  },
+  "externalValidation": {
+    "teacherStudentComprehension": {
+      "status": "pending",
+      "notes": "Not performed; development checks do not establish classroom comprehension."
+    },
+    "physicalDevices": {
+      "status": "pending",
+      "notes": "Emulation is not physical-device or assistive-technology acceptance."
+    },
+    "classroomProtocol": {
+      "status": "not-applicable",
+      "notes": "Virtual-only activity; no physical protocol supplied."
+    }
+  },
+  "history": [
+    {
+      "on": "2026-11-15",
+      "decision": "changes-required",
+      "notes": "Rear leg paths become hidden behind the abdomen, making their front/middle-body attachments unclear. Earthworm segmentation strokes protrude beyond its body outline."
+    },
+    {
+      "on": "2026-11-15",
+      "decision": "changes-required",
+      "notes": "The human unfinished report omitted the latest incorrect route choice even though the structured snapshot retained it."
+    },
+    {
+      "on": "2026-11-15",
+      "decision": "review-test-correction",
+      "notes": "Focused model/report run had five passes and one outdated text assertion after adding the informative prior-version coverage summary. Updated assertion to require actual version3 4-of-4 coverage; initial failure retained. No review accepted from that run."
+    },
+    {
+      "on": "2026-11-15",
+      "decision": "visual-refinement",
+      "notes": "Final artwork inspection also clipped the clitellum color band to the body; no detached rectangular overhang remains. Re-capture affected whole-path specimen states before acceptance."
+    }
+  ],
+  "decision": "pass",
+  "summary": "Development review passed after anatomical drawing and unfinished-route report corrections. Students construct and test their own valid identification key with explicit limited scope; classroom, hardware, translation and production release acceptance remain separate.",
+  "blockers": [],
+  "followups": [
+    {
+      "id": "shared-touch-focus-2026-11-15",
+      "reviewedOn": "2026-11-15",
+      "reviewedBy": "Codex - shared interaction follow-up",
+      "decision": "pass",
+      "summary": "Pending native compatibility mousedown no longer steals newly assigned focus. Existing deliberate next-tap/mouse/keyboard behavior verified in39 selected browser cases; original lab review snapshot retained.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.json",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.md",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-native-focus-regressions.txt"
+      ]
+    },
+    {
+      "id": "shared-response-pagination-2026-11-15",
+      "recordedAt": "2026-11-15T17:05:24.803Z",
+      "scope": "Shared PDF question/answer page-break guard; original review remains its point-in-time snapshot. Representative current starch, stored heat/fungal and legacy enzyme reports checked; not a full rerun of this lab.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.md",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.json",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/pagination-corrected.txt",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-model-tests.txt"
+      ]
+    },
+    {
+      "id": "shared-scientific-symbols-2026-11-15",
+      "recordedAt": "2026-11-15T18:31:00.205Z",
+      "scope": "Shared offline scientific-symbol glyph fallback only; original source snapshot/history unchanged. Representative new/old outputs and legacy wrappers validated, not full rerun of this lab.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.md",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.json",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/glyph-all-artifacts.txt"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+node.exe : [WebServer] (node:24572) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([WebServer] (no... env being set.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] 
+[WebServer] (!) Some chunks are larger than 500 kB after minification. Consider:
+[WebServer] - Using dynamic import() to code-split the application
+[WebServer] - Use build.rollupOptions.output.manualChunks to improve chunking: 
+https://rollupjs.org/configuration-options/#output-manualchunks
+[WebServer] - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[WebServer] (node:44696) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 12 tests using 1 worker
+
+(node:54268) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  1 tests\browser\biology-browser-contract.mjs:5:2 › unknown-prokaryote: complete corrected attempt, truthful saves, named PDF/JSON/native print and edits (3.5s)
+  ok  2 tests\browser\biology-browser-contract.mjs:6:2 › unknown-prokaryote: denied storage/retry, Unicode long writing and first offline PDF/native print (2.1s)
+  ok  3 tests\browser\biology-browser-contract.mjs:7:2 › unknown-prokaryote: unfinished neutral PDF and export failure recovery (938ms)
+  ok  4 tests\browser\biology-browser-contract.mjs:8:2 › unknown-prokaryote: root/development progress isolation and first offline development PDF (1.5s)
+  ok  5 tests\browser\prok.spec.js:9:1 › prok keyboard slide/focus, mouse tube placement after resize, retained edits and view-only focus (1.3s)
+  ok  6 tests\browser\prok.spec.js:10:1 › prok native touch slide drag, continuous focus drag and immediate shape-check tap (1.6s)
+  ok  7 tests\browser\biology-browser-contract.mjs:5:2 › viral-spread: complete corrected attempt, truthful saves, named PDF/JSON/native print and edits (3.5s)
+  ok  8 tests\browser\biology-browser-contract.mjs:6:2 › viral-spread: denied storage/retry, Unicode long writing and first offline PDF/native print (2.1s)
+  ok  9 tests\browser\biology-browser-contract.mjs:7:2 › viral-spread: unfinished neutral PDF and export failure recovery (922ms)
+  ok 10 tests\browser\biology-browser-contract.mjs:8:2 › viral-spread: root/development progress isolation and first offline development PDF (1.6s)
+  ok 11 tests\browser\viral.spec.js:9:1 › viral actual mouse/keyboard work sites, changed contact before start, zero effect and edited count gates (1.5s)
+  ok 12 tests\browser\viral.spec.js:10:1 › viral native touch receptor drag-release-then-tap, phone contact targets and reduced motion (1.4s)
+
+  12 passed (29.2s)

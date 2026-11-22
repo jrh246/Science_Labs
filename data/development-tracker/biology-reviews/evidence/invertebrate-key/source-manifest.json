@@ -1,0 +1,21 @@
+{
+  "capturedAt": "2026-11-15T14:13:32.174Z",
+  "scope": "Actual reviewed working-tree files; unrelated changes and previous student attempts preserved.",
+  "files": {
+    "src/investigations/key-content.js": "59df0fdb0da8af9f2b12c697aab2796299c400200635ac99ed46fe5fe31d0b41",
+    "src/investigations/key-model.js": "7aa2f6fb360e35d6b5662311ad52beaa676c28090c84c86073df04022f558c8e",
+    "src/investigations/key-art.js": "1e8b757fb6d016141920b22cdb28d1b664ee3dfe830f1498de632dbc55207088",
+    "src/investigations/key-report.js": "c9b454676b145688f66c146654da6a90f62e36826089896b6c66e430b478b9aa",
+    "src/investigations/key-app.js": "d4dd07538a4dd837f5002fe4723a5f549e9e593bcbc5443619aa26ec3b9cd6db",
+    "src/investigations/key.css": "a38ac307ef4e4bad15719c5b74d63bdec4357e78b0ef793e05895aaff3c521a6",
+    "tests/key.test.js": "1ba4065b495306a521e9bbcb93636582b0c04eabe83896c829511c633ada276a",
+    "tests/browser/key.spec.js": "6f71ea04385e411d5aabbff1c344a74ebe2fd1e7a2ae647f15d5305829592cfe",
+    "src/investigations/guided-lab-shell.js": "7718d1ab83d65ac8551b25323338c5c2bb4c73afc988331f3c29b767a9abc55f",
+    "src/catalog.js": "53ef883fea60abf2381a480fa7d302bd27b0ffdc96794d3deb77f3f56d9beb87",
+    "src/investigations/app.js": "e0eec86a3018ebeedb79256b3e0ba30ce0e85f07eb369b3fda67a56a06274184",
+    "scripts/build-biology-resources.py": "35d03900f42110eb9c08f71281bb8646e9fdaea75245cc2011cec13cd0fb916e",
+    "scripts/verify-resources.py": "fe2edfba017e6b72d611a66ebe411d4e40fa5efd313271514e15919da63e39a5",
+    "public/resources/invertebrate-key-worksheet.pdf": "33864a08f418d2a24c521778563ca7d342a7e9c9ddc90b926e11a97d9d830799",
+    "public/resources/invertebrate-key-teacher-guide.pdf": "aa9c7291b0fb42c1e2d53413ff700ba2e59a0dc8550656c0dccba37f1d9c0fc0"
+  }
+}

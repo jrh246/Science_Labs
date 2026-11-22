@@ -1,0 +1,21 @@
+{
+  "capturedAt": "2026-11-15T13:51:54.183Z",
+  "scope": "Actual reviewed working-tree files; unrelated changes and previous student attempts preserved.",
+  "files": {
+    "src/investigations/bodyplans-content.js": "4e0dbf209eb0c408ba9cbf92a1031c3b44540846494436b082c4948484008e83",
+    "src/investigations/bodyplans-model.js": "37c3663e0e3ea9273818d903c0d046b7931236fa01f984f138efca82b20147bd",
+    "src/investigations/bodyplans-art.js": "6303f24dafad35a271d82c0e7200c902e460853cb6d00bcc458fad9dda5beaef",
+    "src/investigations/bodyplans-report.js": "e37b42ff4469b59b441d79f2f6776821c6e52948373a29a8835edebfef48e391",
+    "src/investigations/bodyplans-app.js": "332e5b1f85d4d84125b9181c685afd1b2e9ee35beb8b38036162cad52cd057c3",
+    "src/investigations/bodyplans.css": "b62a40b759e2234af957f3125a539dfb5138a2103967c653ffcb0b52acc7d061",
+    "tests/bodyplans.test.js": "84e5a44d6824e30bb674aa79a78f94c940124f1d6c83649ec9fe2f18a61a9fb3",
+    "tests/browser/bodyplans.spec.js": "cb91788b5193a7c7ea37c95f12cb70e5f10dfa9e3ef9b723770750fc19298a09",
+    "src/investigations/guided-lab-shell.js": "7718d1ab83d65ac8551b25323338c5c2bb4c73afc988331f3c29b767a9abc55f",
+    "src/catalog.js": "7d771b44c426af1033aa64a62e8f64503ad6d502323b31dae94d8bdac72513fe",
+    "src/investigations/app.js": "7257a10b00d7f93aa9d394c36c50dd09e74b69584d93836de6871963103a657c",
+    "scripts/build-biology-resources.py": "35d03900f42110eb9c08f71281bb8646e9fdaea75245cc2011cec13cd0fb916e",
+    "scripts/verify-resources.py": "76821420d8b7dc602e8ae34565807d6a3972db23ea7246963054be1e17ffd26a",
+    "public/resources/animal-body-plans-worksheet.pdf": "d3db9ec100076fb5029e035f231141069834946abba3582f60483880734bcb30",
+    "public/resources/animal-body-plans-teacher-guide.pdf": "77df80bc089a69907545129c646043d7748ed8151a43babc9c6f3f96611277a5"
+  }
+}

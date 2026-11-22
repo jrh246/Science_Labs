@@ -1,0 +1,14 @@
+✔ limbs first plan, all region checks and actual current measurements gate dependent work (14.5163ms)
+✔ limbs jaw positions and ratios retain current incorrect values rather than supplying a measurement (1.4256ms)
+✔ limbs constructed spans map to normalized diagram ratios without natural measurement claims (0.9581ms)
+✔ limbs function and concept checks require current evidence and preserve actual corrections (1.4791ms)
+✔ limbs view-only review preserves completion; changed tags/ratios reopen gates without losing first work (0.3573ms)
+✔ limbs faithful learning report keeps Unicode, standard identity/time and honest completion (0.7465ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 97.7889

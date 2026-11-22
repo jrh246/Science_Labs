@@ -1,0 +1,314 @@
+{
+  "schemaVersion": 1,
+  "labId": "unknown-prokaryote",
+  "taskId": "BIO-08-REVIEW",
+  "reviewedBy": "Codex - separate development review",
+  "reviewedOn": "2026-11-15",
+  "sourceSnapshot": "sha256:703839dfc75649f0e94740bd4e652908102f757a5ab86e5084df365eec869316",
+  "decision": "pass",
+  "summary": "English virtual-only development review passed: combined morphology/metabolic evidence with narrow identification claims, direct manipulation, original learning reports and retained corrections. External/classroom/hardware/translation and release acceptance separate.",
+  "blockers": [],
+  "checks": {
+    "G01": {
+      "status": "pass",
+      "notes": "Shape, controlled metabolic readouts and limited inference each have actual student observations/checks and original goal-linked explanations; a reference match is not species proof or mastery.",
+      "evidence": [
+        "src/investigations/prok-content.js",
+        "src/investigations/prok-report.js",
+        "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/complete-responses.json"
+      ]
+    },
+    "G02": {
+      "status": "pass",
+      "notes": "One unknown, one field and plus/minus glucose answer distinct questions. Supplied positive/blank references and optional matched second preparation remove redundant setup without copying observations or claiming independent cultures.",
+      "evidence": [
+        "src/investigations/prok-content.js",
+        "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/review-notes.md"
+      ]
+    },
+    "G03": {
+      "status": "pass",
+      "notes": "OpenStax 22.2 and ASM fermentation method read. All four synthetic fermenter profiles verified; acid/gas differ, filled inverted collector traps gas at top, shape cannot establish a species or distinguish every bacterial/archaeal domain.",
+      "evidence": [
+        "src/investigations/prok-model.js",
+        "tests/prok.test.js",
+        "https://openstax.org/books/biology-2e/pages/22-2-structure-of-prokaryotes-bacteria-and-archaea",
+        "https://asm.org/asm/media/protocol-images/carbohydrate-fermentation-protocol.pdf"
+      ]
+    },
+    "G04": {
+      "status": "pass",
+      "notes": "Synthetic reference set, illustrated field/supplied scale, shortened growth, detection limits, pure-model sample and narrow identification claims are explained in workflow, report and handouts. No physical recipe or oxygen assay.",
+      "evidence": [
+        "src/investigations/prok-content.js",
+        "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/complete.pdf"
+      ]
+    },
+    "G05": {
+      "status": "pass",
+      "notes": "Slide placement, continuous focus, shape classification, U pipette placement, paired readout recording and joint profile selection cause visible changes and supply required evidence.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/focused-field.png",
+        "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/broths-result-controls.png"
+      ]
+    },
+    "G06": {
+      "status": "pass",
+      "notes": "Original microscope/slide, clear/blurred scaled field and liquid-filled/gas-displaced glass collectors inspected on desktop, tablet and phone at initial/intermediate/final states. Spatial targets align; text supplements visual observations.",
+      "evidence": [
+        "src/investigations/prok-art.js",
+        "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/microscope-start.png",
+        "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/tablet-broths.png",
+        "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/phone-broths.png"
+      ]
+    },
+    "G07": {
+      "status": "pass",
+      "notes": "Fixed profile and field orientation, seeded choices and saved observations persist on reload. All four actual outcomes work; meaningful profile order remains fixed for comparison, with no forced gas-positive result.",
+      "evidence": [
+        "src/investigations/prok-model.js",
+        "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/model-tests.txt"
+      ]
+    },
+    "G08": {
+      "status": "pass",
+      "notes": "Full authored pathway and resources manually read; necessary terms defined. Replaced student-facing uninoculated/acidify with plain language. Core heuristic around grade 8 is diagnostic, not student comprehension approval.",
+      "evidence": [
+        "src/investigations/prok-content.js",
+        "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/reading-screen.json",
+        "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/review-notes.md"
+      ]
+    },
+    "G09": {
+      "status": "pass",
+      "notes": "Model/UI enforce first prediction/design before results, loaded/clear field before shape check, confirmed shape before broths, both preparations before growth, readouts before match, and confirmed reference before concept checks.",
+      "evidence": [
+        "tests/prok.test.js",
+        "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/browser-tests.txt"
+      ]
+    },
+    "G10": {
+      "status": "pass",
+      "notes": "Explicit Correct!/Try again, meaningful correction flags and retained current unconfirmed entries. Edited shape/readout/profile clears stale feedback and gates; sample remains stable.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/edit-review-test.txt",
+        "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/complete-responses.json"
+      ]
+    },
+    "G11": {
+      "status": "pass",
+      "notes": "Actual browser checks confirm successful save/repeat/reload, denied storage/retry and identity versus academic edits; no false cloud submission or grading claims.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/browser-tests.txt",
+        "src/investigations/completion-status.js"
+      ]
+    },
+    "G12": {
+      "status": "pass",
+      "notes": "Root-scoped versioned attempt retains original plan, profile/field, matched preparation sources, raw current selections, checks/corrections and writing. Viewing focus preserves checked evidence; substantive edits clear completion.",
+      "evidence": [
+        "src/investigations/prok-model.js",
+        "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/edit-review-test.txt"
+      ]
+    },
+    "G13": {
+      "status": "pass",
+      "notes": "Downloaded completed named/neutral drafts and native print include optional name/period, safe filenames, readable local date/time/zone and honest completion status.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/draft.pdf",
+        "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/native-print.pdf"
+      ]
+    },
+    "G14": {
+      "status": "pass",
+      "notes": "One snapshot carries predictions, observed shape, current color/gas with confirmation, preparation provenance, limited profile match, corrections and original goal-linked writing. Internal source IDs stay in JSON rather than human narrative.",
+      "evidence": [
+        "src/investigations/prok-report.js",
+        "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/complete-responses.json"
+      ]
+    },
+    "G15": {
+      "status": "pass",
+      "notes": "All 33 final resource/report pages rendered and inspected, including long Unicode/native print/final marker. First offline exports, neutral drafts, failure recovery and PDF/print/JSON fidelity exercised.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/pdf-inspection.json",
+        "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/pdf-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/pdf-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/pdf-contact-3.png",
+        "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/pdf-contact-4.png",
+        "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/pdf-contact-5.png",
+        "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/long-offline.pdf",
+        "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/long-native-print.pdf",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.md",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.md"
+      ]
+    },
+    "G16": {
+      "status": "pass",
+      "notes": "Mouse placement after resize/scroll, keyboard slide/select/focus, native touch drag-release-next-tap and continuous range adjustment, 44px targets, phone/tablet and reduced motion pass. Real devices/AT remain pending.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/edit-review-test.txt",
+        "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/phone-focused.png",
+        "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/tablet-broths.png",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.json",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.md",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-native-focus-regressions.txt"
+      ]
+    },
+    "G17": {
+      "status": "pass",
+      "notes": "142 model checks; initial 12 browser checks including Viral Spread regression pass. Final six lab workflows pass; added seventh review case initially had a closed-disclosure test error, corrected and rerun separately. 55 resources and standalone/platform builds verified. Logs retain actual outcomes.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/initial-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/edit-review-test.txt",
+        "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/platform-build.txt",
+        "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/review-notes.md"
+      ]
+    },
+    "G18": {
+      "status": "pass",
+      "notes": "English source bundle, stable profile/activity/question/goal IDs, locale/version and original responses retained. Full app/report translation, remaining UI string extraction and reviewed Spanish delivery remain AUD-10.",
+      "evidence": [
+        "src/investigations/prok-content.js",
+        "src/investigations/prok-report.js",
+        "src/investigations/guided-lab-shell.js"
+      ]
+    },
+    "RESOURCES": {
+      "status": "pass",
+      "notes": "Three-page student worksheet and two-page teacher guide match current reference table, questions, controls and limits; hashes and every page verified. Virtual only; Python tooling stays build-time.",
+      "evidence": [
+        "scripts/build-biology-resources.py",
+        "public/resources/unknown-prokaryote-worksheet.pdf",
+        "public/resources/unknown-prokaryote-teacher-guide.pdf",
+        "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/resource-check.txt"
+      ]
+    },
+    "ACCESS": {
+      "status": "pass",
+      "notes": "Guest/free lab/reports remain available without login; existing platform role/entitlement/publishing policy unchanged. Private runtime compiles with 24 labs; no upload/registration/publication. Earlier platform security checks reused, not claimed rerun.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/platform-build.txt",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/platform-tests.txt"
+      ]
+    },
+    "TRACKING": {
+      "status": "pass",
+      "notes": "Correct biological-diversity unit and stable available virtual-only route/resources mirrored in validated curriculum/tracker outputs. Standards and Spanish approvals remain unchanged; shared copies synced after acceptance.",
+      "evidence": [
+        "src/catalog.js",
+        "data/curriculum/dataset.json",
+        "data/development-tracker/activity-checklist.csv"
+      ]
+    }
+  },
+  "artifacts": {
+    "workflow": [
+      "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/review-notes.md",
+      "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/complete-responses.json",
+      "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/source-manifest.json",
+      "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/reading-screen.json"
+    ],
+    "visuals": [
+      "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/microscope-start.png",
+      "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/focused-field.png",
+      "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/broths-prepared.png",
+      "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/broths-result-controls.png",
+      "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/phone-focused.png",
+      "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/phone-broths.png",
+      "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/tablet-broths.png",
+      "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/phone-explain.png"
+    ],
+    "pdfReports": [
+      "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/development-draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/complete.pdf",
+      "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/long-offline.pdf",
+      "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/pdf-inspection.json"
+    ],
+    "nativePrint": [
+      "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/native-print.pdf",
+      "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/long-native-print.pdf"
+    ],
+    "tests": [
+      "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/model-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/initial-browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/edit-review-test.txt",
+      "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/resource-check.txt",
+      "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/platform-build.txt",
+      "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/review-notes.md"
+    ],
+    "resources": [
+      "public/resources/unknown-prokaryote-worksheet.pdf",
+      "public/resources/unknown-prokaryote-teacher-guide.pdf"
+    ]
+  },
+  "externalValidation": {
+    "teacherStudentComprehension": {
+      "status": "pending",
+      "notes": "Not yet performed; development checks do not establish classroom comprehension."
+    },
+    "physicalDevices": {
+      "status": "pending",
+      "notes": "Not yet performed; browser emulation is not physical-device acceptance."
+    },
+    "classroomProtocol": {
+      "status": "not-applicable",
+      "notes": "This virtual-only activity supplies no physical culture protocol. A later physical version requires separate safe-method review."
+    }
+  },
+  "history": [
+    {
+      "finding": "Student-facing culture vocabulary could be clearer; the added edit-review test initially tried to click controls inside a closed disclosure.",
+      "resolution": "Used plain with-no-cells/yellow-color wording. Corrected the test to expand the actual disclosure; final focused case verifies shape/readout/profile edits clear stale gates. No student-state changes were needed for the test error."
+    }
+  ],
+  "followups": [
+    {
+      "id": "shared-touch-focus-2026-11-15",
+      "reviewedOn": "2026-11-15",
+      "reviewedBy": "Codex - shared interaction follow-up",
+      "decision": "pass",
+      "summary": "Pending native compatibility mousedown no longer steals newly assigned focus. Existing deliberate next-tap/mouse/keyboard behavior verified in39 selected browser cases; original lab review snapshot retained.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.json",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.md",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-native-focus-regressions.txt"
+      ]
+    },
+    {
+      "id": "shared-response-pagination-2026-11-15",
+      "recordedAt": "2026-11-15T17:05:24.795Z",
+      "scope": "Shared PDF question/answer page-break guard; original review remains its point-in-time snapshot. Representative current starch, stored heat/fungal and legacy enzyme reports checked; not a full rerun of this lab.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.md",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.json",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/pagination-corrected.txt",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-model-tests.txt"
+      ]
+    },
+    {
+      "id": "shared-scientific-symbols-2026-11-15",
+      "recordedAt": "2026-11-15T18:31:00.198Z",
+      "scope": "Shared offline scientific-symbol glyph fallback only; original source snapshot/history unchanged. Representative new/old outputs and legacy wrappers validated, not full rerun of this lab.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.md",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.json",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/glyph-all-artifacts.txt"
+      ]
+    }
+  ]
+}

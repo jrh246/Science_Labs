@@ -1,0 +1,9 @@
+# Shared question/answer pagination follow-up
+
+Starch's actual first long-answer question ended on page2, with the answer beginning page3. The retained pre-fix PDF is in before-pagination/complete.pdf. scripts/verify-report-pagination.py detects that failure (pagination-diagnostic.txt) and verifies all18 response prompts on the corrected complete report share a page with the start of their answer (pagination-corrected.txt). Answers remain breakable, full text unchanged.
+
+Consulted local pdfmake0.3 LayoutBuilder and official pageBreakBefore contract: https://pdfmake.github.io/docs/0.3/document-definition-object/page/. Each rendered prompt/answer receives paired local PDF IDs. When no part of that answer follows its prompt on the current page, the prompt moves to the next page. This is PDF layout only, not a persisted schema change. Existing short unbreakable response blocks retained.
+
+42 selected model/report tests passed, including all14 legacy report snapshots, partial/source/Unicode semantics and current five-lab models. Final six starch browser workflows passed with actual named PDF, native print, first offline download/recovery and long Unicode text. Actual stored heat/fungal completed snapshots re-rendered:4/3 pages,11/12 prompts respectively pass the PDF checker. An actual legacy enzyme fixture report was also re-rendered and all3 pages inspected. All10 cross-lab pages inspected in contact sheets5/6; original accepted reports unchanged. These are representative shared-helper regressions, not a new full review of every prior lab or actual devices/AT.
+
+All61 current starch/resource/follow-up pages inspected through eight sheets. Updated guide G15 explicitly requires question plus answer start on the same page. Follow-up source hashes retained separately; original per-lab sourceSnapshot/history preserved. No student attempt, observation, published release or production deployment changed.

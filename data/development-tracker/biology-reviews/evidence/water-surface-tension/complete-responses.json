@@ -1,0 +1,289 @@
+{
+  "schemaVersion": 2,
+  "labId": "water-surface-tension",
+  "title": "Water and Surface Tension",
+  "question": "How does detergent change the amount of liquid a coin can hold?",
+  "student": {
+    "name": "Zoë García",
+    "class": "Period 4"
+  },
+  "status": "Complete",
+  "grading": "not_graded",
+  "exportedAt": "2026-11-15T08:01:55.045Z",
+  "exportTimeZone": "America/Los_Angeles",
+  "exportedAtDisplay": "Nov 15, 2026, 12:01 AM PST",
+  "sections": [
+    {
+      "heading": "Prediction and controlled comparison",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Required before setup: Will the coin hold more drops of water or detergent solution before spilling? Explain your prediction.",
+          "text": "Water may hold more than detergent solution. I think the attractions at its surface matter."
+        },
+        {
+          "type": "response",
+          "prompt": "Required before setup: What will you change, what will you measure, and what should stay the same?",
+          "text": "Change the liquid. Keep coin, drop size, height, and temperature the same. Count drops held before the spill."
+        },
+        {
+          "type": "paragraph",
+          "text": "Prediction timing: Before setup and observations."
+        },
+        {
+          "type": "paragraph",
+          "text": "Use matched clean coins with the same side up, the same level surface, the same drop height, and the same drop size of 0.05 mL. Both liquids are at 22 °C. Use a separate dropper for each liquid."
+        },
+        {
+          "type": "paragraph",
+          "text": "One run per liquid makes the comparison. The first three single drops show how the dome grows. Then you may use five-drop additions to reduce repeated motions. Added drops are not independent trials. More independent runs would be needed to test repeatability."
+        }
+      ]
+    },
+    {
+      "heading": "Observed amounts held before spilling",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Data source: student interpretation of the model drop counter. Retained volume = last retained count × 0.05 mL. The spilling drop is excluded."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Liquid",
+            "Dispensed at spill",
+            "Retained drops",
+            "Retained volume (mL)",
+            "Evidence"
+          ],
+          "rows": [
+            [
+              "Water",
+              26,
+              25,
+              1.25,
+              "Recorded after feedback"
+            ],
+            [
+              "Dilute detergent solution",
+              12,
+              11,
+              0.55,
+              "Correct first check"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Automatic additions: water: 23 model-added drops after 3 individual additions; detergent: 9 model-added drops after 3 individual additions. They are not independent trials."
+        }
+      ]
+    },
+    {
+      "heading": "Evidence by learning goal",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Make a controlled comparison and record the last amount held before a spill."
+        },
+        {
+          "type": "response",
+          "prompt": "Compare both retained drop counts and volumes with your prediction. Which result supports your conclusion?",
+          "text": "My compare explanation uses both recorded amounts. Matching drop sizes helps the comparison; independent runs would be needed to test repeatability."
+        },
+        {
+          "type": "paragraph",
+          "text": "Connect the liquid dome to molecular attractions and detergent action."
+        },
+        {
+          "type": "response",
+          "prompt": "Explain how attraction between water molecules helps form a dome. How can detergent change the surface without breaking water molecules apart?",
+          "text": "My cohesion explanation uses both recorded amounts. Matching drop sizes helps the comparison; independent runs would be needed to test repeatability."
+        },
+        {
+          "type": "paragraph",
+          "text": "Explain what a drop-count comparison can and cannot establish."
+        },
+        {
+          "type": "response",
+          "prompt": "Why must drop size and coin condition stay the same? Explain why this comparison is not a direct measurement of surface tension or a test of repeatability.",
+          "text": "My limits explanation uses both recorded amounts. Matching drop sizes helps the comparison; independent runs would be needed to test repeatability."
+        }
+      ]
+    },
+    {
+      "heading": "Concept checks and meaningful revisions",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Which explanation connects the water dome with its molecules?",
+          "text": "Attractions between water molecules help the surface resist stretching."
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct! Water molecules attract one another. Their uneven charge, called polarity, supports attractions called hydrogen bonds. These are between molecules; the water stays H₂O. Revised after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "How can detergent change the shape of the liquid?",
+          "text": "Detergent molecules gather at the surface and change the interactions there."
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct! Detergent acts as a surfactant, a substance that lowers surface tension. Its molecules change interactions at the surface. It does not turn off gravity or split water into its elements. One recorded check."
+        },
+        {
+          "type": "paragraph",
+          "text": "Measurement corrections: Water: 1 check(s) needed revision; current interpretation confirmed; Dilute detergent solution: 0 check(s) needed revision; current interpretation confirmed"
+        }
+      ]
+    },
+    {
+      "heading": "Model limits and sources",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "These are synthetic teaching results, not measurements from real coins. Coin shape, dirt, drop size, temperature, and detergent concentration can change real results. Counting drops is an indirect comparison; it does not give a numerical value for surface tension. The drawing enlarges the liquid shape. The model stops at the first spill and does not simulate every fluid motion. One run per liquid cannot show repeatability."
+        },
+        {
+          "type": "paragraph",
+          "text": "American Chemical Society: Surface Tension: https://www.acs.org/middleschoolchemistry/lessonplans/chapter5/lesson2.html"
+        },
+        {
+          "type": "paragraph",
+          "text": "American Chemical Society: Surface Spectaculars: https://www.acs.org/education/whatischemistry/adventures-in-chemistry/experiments/surface-spectaculars.html"
+        }
+      ],
+      "keepFirst": 3
+    }
+  ],
+  "activityVersion": 1,
+  "locale": "en",
+  "attemptId": "surface-3728350391-1794729712823",
+  "data": {
+    "schemaVersion": 1,
+    "activityVersion": 1,
+    "labId": "water-surface-tension",
+    "attemptId": "surface-3728350391-1794729712823",
+    "seed": 3728350391,
+    "locale": "en",
+    "stage": 2,
+    "studentName": "Zoë García",
+    "studentClass": "Period 4",
+    "prediction": "Water may hold more than detergent solution. I think the attractions at its surface matter.",
+    "design": "Change the liquid. Keep coin, drop size, height, and temperature the same. Count drops held before the spill.",
+    "initialPlan": {
+      "prediction": "Water may hold more than detergent solution. I think the attractions at its surface matter.",
+      "design": "Change the liquid. Keep coin, drop size, height, and temperature the same. Count drops held before the spill.",
+      "recordedAt": "2026-11-15T08:01:52.913Z",
+      "timing": "Before setup and observations"
+    },
+    "active": "detergent",
+    "runs": {
+      "water": {
+        "clean": true,
+        "mounted": true,
+        "drops": 26,
+        "manualDrops": 3,
+        "automaticDrops": 23,
+        "spilled": true,
+        "enteredCount": "25",
+        "enteredVolume": "1.25",
+        "measurement": {
+          "count": 25,
+          "volume": 1.25,
+          "source": "Student interpretation of model drop counter",
+          "correctAfterFeedback": true
+        },
+        "attempts": [
+          {
+            "count": "26",
+            "volume": "1.25",
+            "correct": false
+          },
+          {
+            "count": "25",
+            "volume": "1.25",
+            "correct": true
+          }
+        ]
+      },
+      "detergent": {
+        "clean": true,
+        "mounted": true,
+        "drops": 12,
+        "manualDrops": 3,
+        "automaticDrops": 9,
+        "spilled": true,
+        "enteredCount": "11",
+        "enteredVolume": "0.55",
+        "measurement": {
+          "count": 11,
+          "volume": 0.55,
+          "source": "Student interpretation of model drop counter",
+          "correctAfterFeedback": false
+        },
+        "attempts": [
+          {
+            "count": "11",
+            "volume": "0.55",
+            "correct": true
+          }
+        ]
+      }
+    },
+    "checks": {
+      "molecules": {
+        "value": "attraction",
+        "attempts": [
+          {
+            "value": "solid",
+            "correct": false
+          },
+          {
+            "value": "attraction",
+            "correct": true
+          }
+        ],
+        "correct": true
+      },
+      "detergent-action": {
+        "value": "surface",
+        "attempts": [
+          {
+            "value": "surface",
+            "correct": true
+          }
+        ],
+        "correct": true
+      }
+    },
+    "answers": {
+      "compare": "My compare explanation uses both recorded amounts. Matching drop sizes helps the comparison; independent runs would be needed to test repeatability.",
+      "cohesion": "My cohesion explanation uses both recorded amounts. Matching drop sizes helps the comparison; independent runs would be needed to test repeatability.",
+      "limits": "My limits explanation uses both recorded amounts. Matching drop sizes helps the comparison; independent runs would be needed to test repeatability."
+    },
+    "complete": true,
+    "motion": ""
+  },
+  "evidence": [
+    {
+      "goalId": "compare",
+      "answerId": "compare",
+      "writing": "My compare explanation uses both recorded amounts. Matching drop sizes helps the comparison; independent runs would be needed to test repeatability.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "cohesion",
+      "answerId": "cohesion",
+      "writing": "My cohesion explanation uses both recorded amounts. Matching drop sizes helps the comparison; independent runs would be needed to test repeatability.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "limits",
+      "answerId": "limits",
+      "writing": "My limits explanation uses both recorded amounts. Matching drop sizes helps the comparison; independent runs would be needed to test repeatability.",
+      "status": "not_graded"
+    }
+  ]
+}

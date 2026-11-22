@@ -1,0 +1,139 @@
+[
+  {
+    "file": "public/resources/invertebrate-key-teacher-guide.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      2964,
+      2842
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "public/resources/invertebrate-key-worksheet.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1643,
+      1672,
+      2554
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/invertebrate-key/complete.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1986,
+      3261,
+      3443
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/invertebrate-key/development-draft.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1623,
+      1843,
+      1504
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/invertebrate-key/draft.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1613,
+      1843,
+      1504
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/invertebrate-key/edited-unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1996,
+      3263,
+      3328
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/invertebrate-key/long-native-print.pdf",
+    "pages": 7,
+    "pageCharacters": [
+      1960,
+      3255,
+      874,
+      837,
+      837,
+      1282,
+      1802
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/invertebrate-key/long-offline.pdf",
+    "pages": 7,
+    "pageCharacters": [
+      1995,
+      3263,
+      1038,
+      905,
+      905,
+      830,
+      2545
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/invertebrate-key/native-print.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1954,
+      3374,
+      3133
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/invertebrate-key/rejected-split.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2006,
+      1843,
+      1504
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/invertebrate-key/revised-key-untested.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2006,
+      3483,
+      2681
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/invertebrate-key/route-unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1998,
+      2136,
+      1596
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/invertebrate-key/unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1916,
+      1843,
+      1504
+    ],
+    "finalLongMarker": false
+  }
+]

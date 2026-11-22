@@ -1,0 +1,21 @@
+{
+  "capturedAt": "2026-11-15T12:35:42.251Z",
+  "scope": "Actual reviewed working-tree files; unrelated changes and previous student attempts preserved.",
+  "files": {
+    "src/investigations/fungal-content.js": "248c57a07a27ee7228897d3c916e86f562709406a93b652703077c4ad3dba44c",
+    "src/investigations/fungal-model.js": "58e8ef8ff1e4722c49c5a828ca18e6d8b1fcb382abe8476da2501abcf62e1c19",
+    "src/investigations/fungal-art.js": "b4636bb9fb29c98a2ebe8bc1f694c5ef5fadcccd3087b2062ac37fa175bea136",
+    "src/investigations/fungal-report.js": "a31065c3a3098ea08d035bfc861c7b6d6173672c8b5eef3c96a5fb68a2662e27",
+    "src/investigations/fungal-app.js": "a40fa66b367aa8433da92ee188f242d946ba7f3fa74f05195d459bcafbe4f917",
+    "src/investigations/fungal.css": "ffc0e494135c9b0efb38a5ddacd71a6c1e71a6e1c9a4de1cd7b594c238155cce",
+    "src/investigations/guided-lab-shell.js": "7718d1ab83d65ac8551b25323338c5c2bb4c73afc988331f3c29b767a9abc55f",
+    "src/investigations/app.js": "549f4a403ab7e54604829cca8bbd0bf201340865238f60580f7302cd2e286cc5",
+    "src/catalog.js": "698728aa877ed55f23f54d4643f7967185b591640bac29f28f0e0985407ba8b5",
+    "tests/fungal.test.js": "3afe60adc6a30c37d0220dee4dc83c859c90aca0ad9005482f231aff5f323ccb",
+    "tests/browser/fungal.spec.js": "c795aabefce19dd1c869ee0a2a2958a81f0473fbfa77d99d5cc9a53f58bbff22",
+    "scripts/build-biology-resources.py": "35d03900f42110eb9c08f71281bb8646e9fdaea75245cc2011cec13cd0fb916e",
+    "scripts/verify-resources.py": "b31505a7b1f9518891194cd59d20cb4434d428e6978ff8f2077174cf64d97a92",
+    "public/resources/fungal-structures-worksheet.pdf": "d2153ee58d3b398242676ec02cc50c9b49d0124e7baa74dbc7d8e489c0a6d671",
+    "public/resources/fungal-structures-teacher-guide.pdf": "35a7a3038b16fe01423dafe99cab04198f29b1a093607e711346fe73fbf4095a"
+  }
+}

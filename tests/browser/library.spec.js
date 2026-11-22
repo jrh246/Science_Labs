@@ -1,3 +1,4 @@
+import {labs,labPath} from '../../src/catalog.js';
 import {test,expect} from '@playwright/test';
 test('navigate from landing through units to the working lab and back',async({page})=>{
  await page.goto('/');await page.getByRole('link',{name:'Explore science →',exact:true}).click();
@@ -8,7 +9,7 @@ test('navigate from landing through units to the working lab and back',async({pa
  await page.getByRole('link',{name:'Osmosis and Cell Homeostasis',exact:true}).click();
  await page.getByRole('link',{name:'Launch virtual lab'}).click();
  await expect(page.getByRole('button',{name:'Begin Lab'})).toBeVisible();
- await page.getByRole('button',{name:'Begin Lab'}).click();
+ await page.locator('#osmosis-prediction').fill('Water moves toward the side with more sugar.');await page.getByRole('button',{name:'Begin Lab'}).click();
  await page.getByRole('link',{name:'Back to lab overview'}).click();
  await page.getByRole('link',{name:'Launch virtual lab'}).click();
  await expect(page.getByRole('heading',{name:'Prepare the beakers'})).toBeVisible();
@@ -18,9 +19,11 @@ test('search, shareable results, planned details, empty results, and unknown rou
  await page.getByRole('button',{name:'Submit library search'}).click();
  await expect(page.locator('.lab-card')).toHaveCount(1);await page.reload();
  await page.getByRole('link',{name:'Water and Surface Tension',exact:true}).click();
- await expect(page.getByText('An investigation in the making')).toBeVisible();
- await expect(page.getByRole('link',{name:'Launch virtual lab'})).toHaveCount(0);
- await page.goto('/#/search?q=&available=1');await expect(page.locator('.lab-card')).toHaveCount(15);
+ await expect(page.getByRole('link',{name:'Launch virtual lab'})).toBeVisible();
+ const planned=labs.find(lab=>lab.status==='planned');
+ if(planned){await page.goto('/#'+labPath(planned));await expect(page.getByText('An investigation in the making')).toBeVisible();await expect(page.getByRole('link',{name:'Launch virtual lab'})).toHaveCount(0);}
+
+ await page.goto('/#/search?q=&available=1');await expect(page.locator('.lab-card')).toHaveCount(labs.filter(lab=>lab.status==='available').length);
  await page.goto('/#/search?q=unfindable');await expect(page.getByRole('heading',{name:'No matching investigations'})).toBeVisible();
  await page.goto('/#/science/biology/missing');await expect(page.getByRole('heading',{name:'That page isn’t in the library.'})).toBeVisible();
 });

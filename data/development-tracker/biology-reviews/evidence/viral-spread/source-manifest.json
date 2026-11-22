@@ -1,0 +1,24 @@
+{
+  "capturedAt": "2026-11-15T11:30:41.455Z",
+  "scope": "Actual working-tree hashes; unrelated edits preserved; original earlier-lab snapshots retained.",
+  "files": {
+    "src/investigations/viral-content.js": "19f3de98dd99f65f092251abb5980359650a5d515694540bad32018c2a70d769",
+    "src/investigations/viral-model.js": "0ba53213dcf6d2ca82f81d7ecf552eb0923766988e884d5be55b9a9c9e7721b2",
+    "src/investigations/viral-art.js": "0dbb48ce33e49cf640b03c3aa84e0df3e3ec5446d6f0d439cd9a0d0c1fd54f52",
+    "src/investigations/viral-report.js": "d0813f7898ad20608eaa0444be77d264d86f993b858696c619143c5319c3cbb1",
+    "src/investigations/viral-app.js": "da3fb1a62a502841c69bbcd5a0f318225e4370a22b13244b26c8778ba2ecef7e",
+    "src/investigations/viral.css": "5f4b7836c3080ce8b3a382a0e953190c2eb5320f07c0d07f2792246018742fa5",
+    "src/investigations/guided-lab-shell.js": "5b3d71ff47a2837d092ab1405f6756a481e5e5752acef5ae93e0359b5d7dd036",
+    "src/investigations/touch-buttons.js": "6e855edcc9c86519d7a3e87011c8cafda1ce4ccacb4b12b27203ab0e2f8a1263",
+    "src/investigations/app.js": "b97d695858d9d87f4caeac33a8c96cce9f2b2327a1bf859b6f1ca5f8efcc002e",
+    "src/catalog.js": "9e45deca2392b27a969a159ec7e8749ccd28681747fc9c0a4573a40031020d02",
+    "tests/viral.test.js": "e3ff358aa84d594b58f30aa06417c04daf164b586952353905c1530e54ee4f82",
+    "tests/browser/viral.spec.js": "86fe0a5deb124117fcd95921710c484272b7d2fcb50a8ab55ea8315e85bd12f8",
+    "tests/browser/touch-once.spec.js": "0d648e926c2ebb98a646bb3c77c68b77b491260f202e2014e9ebe79d9213414e",
+    "tests/browser/biology-browser-contract.mjs": "1897aee62de0b9a492955a1d018713faa5db3dc4d9f088bf883dc84b3bfe297a",
+    "scripts/build-biology-resources.py": "35d03900f42110eb9c08f71281bb8646e9fdaea75245cc2011cec13cd0fb916e",
+    "scripts/verify-resources.py": "646d87e3b26e858521f6a277398cc32e1f044c129e52fe1460ac064fadbc5f7d",
+    "public/resources/viral-spread-worksheet.pdf": "c23838a0e0e5b32b35840feaa52e72ee3566a38ea5ecf8ac836c040f2a76f0d5",
+    "public/resources/viral-spread-teacher-guide.pdf": "998407590157fcd2ef4b8055ed310d1812863b0cbaad467feaab751cf7d73d28"
+  }
+}

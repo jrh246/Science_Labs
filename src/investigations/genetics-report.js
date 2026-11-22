@@ -1,3 +1,4 @@
+import {studentReportHtml,studentReportPdf} from './student-report.js';
 import {title,labId,phases,coding,template,rna,codons,checks,explanationPrompts,limits} from './genetics-model.js';
 import {escape as e} from './visuals.js';
 
@@ -93,6 +94,7 @@ const footerNote='Model tasks are checked automatically. Written explanations ar
 const created=r=>r.exportedAtDisplay||formatReportDateTime(r.exportedAt,r.exportTimeZone);
 const textOrBlank=text=>text?.trim()?text:'Not answered';
 export function geneticsReportHtml(r){
+ if(r.document)return studentReportHtml(r.document).replace('class="student-report-print"','class="student-report-print gi-print"');
  return `<article class="gi-print"><header class="gi-report-heading"><p>SCIENCE LABS / GENETICS / STUDENT LAB REPORT</p><h1>${e(r.title)}</h1><p><b>Name:</b> ${e(r.student.name||'Not provided')}<br><b>Class / period:</b> ${e(r.student.class||'Not provided')}<br><b>Work status:</b> ${e(r.status)}<br><b>Report created:</b> ${e(created(r))}</p></header>
  <section><h2>Initial prediction</h2><p class="gi-written-response">${e(textOrBlank(r.prediction))}</p></section>
  <section><h2>Results from the model</h2><table class="gi-report-table"><thead><tr><th scope="col">Process</th><th scope="col">Recorded result</th></tr></thead><tbody>${r.results.map(row=>`<tr><th scope="row">${e(row.process)}</th><td>${e(row.result)}</td></tr>`).join('')}</tbody></table></section>
@@ -105,6 +107,7 @@ function pdfTable(headers,rows,widths){
  return {margin:[0,5,0,8],table:{headerRows:1,keepWithHeaderRows:1,dontBreakRows:true,widths,body:[headers.map(text=>({text,bold:true,fillColor:'#e5eee1',color:'#244c36'})),...rows.map(cells=>cells.map(cell=>typeof cell==='string'?{text:cell}:cell))]},fontSize:9,lineHeight:1.15,layout:{hLineWidth:()=>.5,vLineWidth:()=>0,hLineColor:()=>'#ccd9c7',paddingTop:()=>6,paddingBottom:()=>6,paddingLeft:()=>6,paddingRight:()=>6}};
 }
 export function geneticsReportPdf(r){
+ if(r.document)return studentReportPdf(r.document);
  const bytes=new TextEncoder().encode(JSON.stringify(r,null,2));let binary='';for(const b of bytes)binary+=String.fromCharCode(b);
  const heading=text=>({text,style:'heading'});
  return {pageSize:'LETTER',pageMargins:[44,40,44,43],info:{title:r.title+' - student lab report',author:r.student.name||'Student'},defaultStyle:{font:'Roboto',fontSize:10,lineHeight:1.25,color:'#244336'},styles:{heading:{fontSize:13,bold:true,margin:[0,15,0,7],color:'#386b51'},prompt:{fontSize:10,bold:true,margin:[0,10,0,5]},caption:{fontSize:9,color:'#496452',lineHeight:1.2}},content:[

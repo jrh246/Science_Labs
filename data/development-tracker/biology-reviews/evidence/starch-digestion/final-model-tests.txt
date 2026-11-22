@@ -1,0 +1,14 @@
+✔ starch prediction, molecular site and both reference checks gate reaction action (1.5844ms)
+✔ starch two-by-two conditions need correct matched additions, one interval and separate stopped iodine portions (0.3302ms)
+✔ starch qualitative truth table distinguishes both pH-matched controls and indicator references (12.1313ms)
+✔ starch wrong/empty current observations and routes invalidate downstream evidence and remain across reload (0.9672ms)
+✔ starch completed view-only evidence does not repeat time/assays and meaningful concept corrections retained (0.4844ms)
+✔ starch report identity Unicode original writing and honest not-graded status survive restoration (1.2467ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 88.3554

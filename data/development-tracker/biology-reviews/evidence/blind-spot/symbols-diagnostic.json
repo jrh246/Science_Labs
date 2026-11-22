@@ -1,0 +1,311 @@
+{
+  "schemaVersion": 2,
+  "labId": "blind-spot",
+  "title": "Map Your Visual Blind Spot",
+  "question": "How do target-visibility reports relate to the optic disc, and what can a coarse screen map tell us?",
+  "student": {
+    "name": "Zoë García",
+    "class": "Period 5"
+  },
+  "status": "Complete",
+  "grading": "not_graded",
+  "exportedAt": "2026-11-15T18:09:56.073Z",
+  "exportTimeZone": "America/Los_Angeles",
+  "exportedAtDisplay": "Nov 15, 2026, 10:09 AM PST",
+  "sections": [
+    {
+      "heading": "Symbol fidelity diagnostic",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Original names and scientific symbols",
+          "text": "Zoë García · español · α β · 40°C → 26°C · 6 cm⁻¹ · 2n → 3n · ≤ ≥ ≠ ∑ ∞ ↔ ↗ →"
+        }
+      ]
+    }
+  ],
+  "activityVersion": 1,
+  "locale": "en",
+  "attemptId": "blind-3764829494-1794766191926",
+  "data": {
+    "schemaVersion": 1,
+    "activityVersion": 1,
+    "labId": "blind-spot",
+    "attemptId": "blind-3764829494-1794766191926",
+    "seed": 3764829494,
+    "locale": "en",
+    "stage": 4,
+    "studentName": "Zoë García",
+    "studentClass": "Period 5",
+    "prediction": "Target reports may vary with eye condition and position. Looking at the cross keeps the target at a controlled visual-field location. No clear disappearance is possible in an uncalibrated small run.",
+    "design": "Keep a comfortable fixed distance, device, zoom and gaze. Compare distinct positions and both-eyes coverage, retaining uncertain or unexpected reports. These test selections are synthetic software-review evidence, not a participant vision assessment.",
+    "mode": "own",
+    "initialPlan": {
+      "prediction": "Target reports may vary with eye condition and position. Looking at the cross keeps the target at a controlled visual-field location. No clear disappearance is possible in an uncalibrated small run.",
+      "design": "Keep a comfortable fixed distance, device, zoom and gaze. Compare distinct positions and both-eyes coverage, retaining uncertain or unexpected reports. These test selections are synthetic software-review evidence, not a participant vision assessment.",
+      "mode": "own",
+      "timing": "Before retinal actions or visibility data",
+      "recordedAt": "2026-11-15T18:09:52.194Z"
+    },
+    "labels": {
+      "disc": "disc",
+      "receptors": "receptors",
+      "nerve": "nerve"
+    },
+    "labelRecord": {
+      "values": {
+        "disc": "disc",
+        "receptors": "receptors",
+        "nerve": "nerve"
+      },
+      "correctAfterFeedback": true
+    },
+    "labelAttempts": [
+      {
+        "values": {
+          "disc": "nerve"
+        },
+        "correct": false
+      },
+      {
+        "values": {
+          "disc": "disc",
+          "receptors": "receptors",
+          "nerve": "nerve"
+        },
+        "correct": true
+      }
+    ],
+    "lightSites": [
+      "receptors",
+      "disc"
+    ],
+    "currentLight": "disc",
+    "reportContext": null,
+    "eye": "both",
+    "side": "left",
+    "separation": 120,
+    "reportEntry": "",
+    "fixation": false,
+    "observations": [
+      {
+        "id": "point-1",
+        "eye": "right",
+        "side": "right",
+        "separation": 60,
+        "width": 1002,
+        "scale": 1,
+        "fixation": true,
+        "entry": "visible",
+        "record": {
+          "value": "visible"
+        },
+        "initialReport": "visible",
+        "lastConfirmed": "visible",
+        "revisions": [],
+        "sourceId": "student-reported-perception-unverified-gaze"
+      },
+      {
+        "id": "point-2",
+        "eye": "right",
+        "side": "right",
+        "separation": 120,
+        "width": 1002,
+        "scale": 1,
+        "fixation": true,
+        "entry": "not-seen",
+        "record": {
+          "value": "not-seen"
+        },
+        "initialReport": "uncertain",
+        "lastConfirmed": "not-seen",
+        "revisions": [
+          {
+            "from": "uncertain",
+            "to": "not-seen"
+          }
+        ],
+        "sourceId": "student-reported-perception-unverified-gaze"
+      },
+      {
+        "id": "point-3",
+        "eye": "right",
+        "side": "right",
+        "separation": 180,
+        "width": 1002,
+        "scale": 1,
+        "fixation": true,
+        "entry": "visible",
+        "record": {
+          "value": "visible"
+        },
+        "initialReport": "visible",
+        "lastConfirmed": "visible",
+        "revisions": [],
+        "sourceId": "student-reported-perception-unverified-gaze"
+      },
+      {
+        "id": "point-4",
+        "eye": "left",
+        "side": "left",
+        "separation": 60,
+        "width": 1002,
+        "scale": 1,
+        "fixation": true,
+        "entry": "visible",
+        "record": {
+          "value": "visible"
+        },
+        "initialReport": "visible",
+        "lastConfirmed": "visible",
+        "revisions": [],
+        "sourceId": "student-reported-perception-unverified-gaze"
+      },
+      {
+        "id": "point-5",
+        "eye": "left",
+        "side": "left",
+        "separation": 120,
+        "width": 1002,
+        "scale": 1,
+        "fixation": true,
+        "entry": "not-seen",
+        "record": {
+          "value": "not-seen"
+        },
+        "initialReport": "not-seen",
+        "lastConfirmed": "not-seen",
+        "revisions": [],
+        "sourceId": "student-reported-perception-unverified-gaze"
+      },
+      {
+        "id": "point-6",
+        "eye": "left",
+        "side": "left",
+        "separation": 180,
+        "width": 1002,
+        "scale": 1,
+        "fixation": true,
+        "entry": "visible",
+        "record": {
+          "value": "visible"
+        },
+        "initialReport": "visible",
+        "lastConfirmed": "visible",
+        "revisions": [],
+        "sourceId": "student-reported-perception-unverified-gaze"
+      },
+      {
+        "id": "point-7",
+        "eye": "both",
+        "side": "left",
+        "separation": 120,
+        "width": 1002,
+        "scale": 1,
+        "fixation": true,
+        "entry": "visible",
+        "record": {
+          "value": "visible"
+        },
+        "initialReport": "visible",
+        "lastConfirmed": "visible",
+        "revisions": [],
+        "sourceId": "student-reported-perception-unverified-gaze"
+      }
+    ],
+    "dataLoaded": false,
+    "inferences": {
+      "right": "sampled-gap",
+      "left": "sampled-gap",
+      "paired": "paired"
+    },
+    "inferenceRecord": {
+      "values": {
+        "right": "sampled-gap",
+        "left": "sampled-gap",
+        "paired": "paired"
+      },
+      "correctAfterFeedback": true
+    },
+    "inferenceAttempts": [
+      {
+        "values": {
+          "right": "no-clear-gap",
+          "left": "",
+          "paired": ""
+        },
+        "correct": false
+      },
+      {
+        "values": {
+          "right": "sampled-gap",
+          "left": "sampled-gap",
+          "paired": "paired"
+        },
+        "correct": true
+      }
+    ],
+    "checks": {
+      "drawn": {
+        "attempts": [
+          {
+            "value": "off",
+            "correct": false
+          },
+          {
+            "value": "perception",
+            "correct": true
+          }
+        ],
+        "value": "perception",
+        "correct": true
+      },
+      "fibers": {
+        "attempts": [
+          {
+            "value": "output",
+            "correct": true
+          }
+        ],
+        "value": "output",
+        "correct": true
+      },
+      "limits": {
+        "attempts": [
+          {
+            "value": "limited",
+            "correct": true
+          }
+        ],
+        "value": "limited",
+        "correct": true
+      }
+    },
+    "answers": {
+      "structure": "My structure explanation uses synthetic student-report test selections, not a verified human vision result. Rods/cones detect local light; the disc lacks those receptors, but nerve fibers still carry output from other retinal regions. Current point positions, visibility and viewing contexts support only a coarse reported pattern. The target remains drawn even when a report says not seen. A both-eyes point must match side, spacing, screen context and reported fixation before interpreting its own appearance. Browser pixels are not calibrated retinal units; gaze and distance are not tracked. Other-eye coverage and visual filling-in differ. No exact boundaries, whole-field area, health result or population effect is established.",
+      "mapping": "My mapping explanation uses synthetic student-report test selections, not a verified human vision result. Rods/cones detect local light; the disc lacks those receptors, but nerve fibers still carry output from other retinal regions. Current point positions, visibility and viewing contexts support only a coarse reported pattern. The target remains drawn even when a report says not seen. A both-eyes point must match side, spacing, screen context and reported fixation before interpreting its own appearance. Browser pixels are not calibrated retinal units; gaze and distance are not tracked. Other-eye coverage and visual filling-in differ. No exact boundaries, whole-field area, health result or population effect is established.",
+      "limits": "My limits explanation uses synthetic student-report test selections, not a verified human vision result. Rods/cones detect local light; the disc lacks those receptors, but nerve fibers still carry output from other retinal regions. Current point positions, visibility and viewing contexts support only a coarse reported pattern. The target remains drawn even when a report says not seen. A both-eyes point must match side, spacing, screen context and reported fixation before interpreting its own appearance. Browser pixels are not calibrated retinal units; gaze and distance are not tracked. Other-eye coverage and visual filling-in differ. No exact boundaries, whole-field area, health result or population effect is established."
+    },
+    "complete": true
+  },
+  "evidence": [
+    {
+      "goalId": "structure",
+      "answerId": "structure",
+      "writing": "My structure explanation uses synthetic student-report test selections, not a verified human vision result. Rods/cones detect local light; the disc lacks those receptors, but nerve fibers still carry output from other retinal regions. Current point positions, visibility and viewing contexts support only a coarse reported pattern. The target remains drawn even when a report says not seen. A both-eyes point must match side, spacing, screen context and reported fixation before interpreting its own appearance. Browser pixels are not calibrated retinal units; gaze and distance are not tracked. Other-eye coverage and visual filling-in differ. No exact boundaries, whole-field area, health result or population effect is established.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "mapping",
+      "answerId": "mapping",
+      "writing": "My mapping explanation uses synthetic student-report test selections, not a verified human vision result. Rods/cones detect local light; the disc lacks those receptors, but nerve fibers still carry output from other retinal regions. Current point positions, visibility and viewing contexts support only a coarse reported pattern. The target remains drawn even when a report says not seen. A both-eyes point must match side, spacing, screen context and reported fixation before interpreting its own appearance. Browser pixels are not calibrated retinal units; gaze and distance are not tracked. Other-eye coverage and visual filling-in differ. No exact boundaries, whole-field area, health result or population effect is established.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "limits",
+      "answerId": "limits",
+      "writing": "My limits explanation uses synthetic student-report test selections, not a verified human vision result. Rods/cones detect local light; the disc lacks those receptors, but nerve fibers still carry output from other retinal regions. Current point positions, visibility and viewing contexts support only a coarse reported pattern. The target remains drawn even when a report says not seen. A both-eyes point must match side, spacing, screen context and reported fixation before interpreting its own appearance. Browser pixels are not calibrated retinal units; gaze and distance are not tracked. Other-eye coverage and visual filling-in differ. No exact boundaries, whole-field area, health result or population effect is established.",
+      "status": "not_graded"
+    }
+  ]
+}

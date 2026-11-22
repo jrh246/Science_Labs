@@ -1,0 +1,114 @@
+[
+  {
+    "file": "public/resources/embryonic-development-teacher-guide.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      2818,
+      2261
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "public/resources/embryonic-development-worksheet.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1667,
+      1363,
+      2278
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/embryonic-development/complete.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1803,
+      4572,
+      1913
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/embryonic-development/development-draft.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      1452,
+      2147
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/embryonic-development/draft.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      1442,
+      2147
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/embryonic-development/edited-unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1944,
+      4365,
+      1916
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/embryonic-development/label-unconfirmed.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      1738,
+      2357
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/embryonic-development/long-native-print.pdf",
+    "pages": 6,
+    "pageCharacters": [
+      1905,
+      3142,
+      837,
+      837,
+      837,
+      2430
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/embryonic-development/long-offline.pdf",
+    "pages": 7,
+    "pageCharacters": [
+      1943,
+      3213,
+      905,
+      905,
+      905,
+      1436,
+      1316
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/embryonic-development/native-print.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1978,
+      4520,
+      1560
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/embryonic-development/reading-unconfirmed.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      1565,
+      2357
+    ],
+    "finalLongMarker": false
+  }
+]

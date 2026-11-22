@@ -1,0 +1,14 @@
+✔ soil first prediction, collector and measured dose gate one distinct endpoint per composition (1.9648ms)
+✔ soil synthetic budgets conserve input and distinguish total retention from separately supplied availability (12.6119ms)
+✔ soil current wrong/empty readings survive reload, clear dependent evidence and remain in human reports (1.0303ms)
+✔ soil retention and availability corrections persist without dropping current empty selections (1.1989ms)
+✔ soil pore classifications gate concepts and keep meaningful revisions in reports (0.5365ms)
+✔ soil report keeps source/units, first plan, original writing, optional named identity and honest completion (0.8ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 96.7465

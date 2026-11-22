@@ -1,0 +1,317 @@
+{
+  "schemaVersion": 1,
+  "labId": "moss-fern",
+  "taskId": "BIO-11-REVIEW",
+  "reviewedBy": "Codex - separate development review",
+  "reviewedOn": "2026-11-15",
+  "sourceSnapshot": "sha256:56d128784add91d95f0e10f5008773f16d04e172479f4427b88e121e10f34e8e",
+  "checks": {
+    "G01": {
+      "status": "pass",
+      "notes": "Three goals connect actual transition interpretations, route decisions, generation tags and original explanations; cycle navigation alone is not mastery.",
+      "evidence": [
+        "src/investigations/seedless-content.js",
+        "src/investigations/seedless-report.js",
+        "data/development-tracker/biology-reviews/evidence/moss-fern/complete-responses.json"
+      ]
+    },
+    "G02": {
+      "status": "pass",
+      "notes": "One fern spore and fertilization demonstrate distinct transitions; moss comparison adds different generations without replaying all steps. No default triple trials, independent-plant or success-rate claims.",
+      "evidence": [
+        "src/investigations/seedless-content.js",
+        "data/development-tracker/biology-reviews/evidence/moss-fern/review-notes.md"
+      ]
+    },
+    "G03": {
+      "status": "pass",
+      "notes": "OpenStax 25.1/25.3/25.4 and UBC fern gametophyte read. Meiosis makes spores, gametophyte mitosis makes gametes, fusion restores 2n; fern versus moss dependency/dominance and organ locations checked.",
+      "evidence": [
+        "src/investigations/seedless-model.js",
+        "tests/seedless.test.js",
+        "https://openstax.org/books/biology-2e/pages/25-1-early-plant-life",
+        "https://openstax.org/books/biology-2e/pages/25-3-bryophytes",
+        "https://openstax.org/books/biology-2e/pages/25-4-seedless-vascular-plants",
+        "https://blogs.ubc.ca/biology210/lab/lab-7-ferns/fern-gametophyte/"
+      ]
+    },
+    "G04": {
+      "status": "pass",
+      "notes": "Representative homosporous fern, selected-cell model, separate scales/set labels, supplied gametes/conditions, shortened growth/chromosome events and omitted moss protonema stated. Water is a route, not proof of natural success.",
+      "evidence": [
+        "src/investigations/seedless-content.js",
+        "data/development-tracker/biology-reviews/evidence/moss-fern/complete.pdf"
+      ]
+    },
+    "G05": {
+      "status": "pass",
+      "notes": "Lens at actual sori, spore on growth patch, pipette at water film, sperm through organ opening and generation tags at structures cause visible changes and yield checked interpretations.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/moss-fern/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/moss-fern/spores-after-meiosis.png",
+        "data/development-tracker/biology-reviews/evidence/moss-fern/gametes-water-film.png",
+        "data/development-tracker/biology-reviews/evidence/moss-fern/comparison-before-tags.png"
+      ]
+    },
+    "G06": {
+      "status": "pass",
+      "notes": "Original botanical/model art inspected across initial/intermediate/final states and phone/tablet. Target geometry aligns with sori, growth patch, water, opening and plant parts; short captions/working-tip anchors remain usable.",
+      "evidence": [
+        "src/investigations/seedless-art.js",
+        "data/development-tracker/biology-reviews/evidence/moss-fern/frond-initial.png",
+        "data/development-tracker/biology-reviews/evidence/moss-fern/phone-zygote.png",
+        "data/development-tracker/biology-reviews/evidence/moss-fern/phone-comparison.png",
+        "data/development-tracker/biology-reviews/evidence/moss-fern/young-sporophyte.png"
+      ]
+    },
+    "G07": {
+      "status": "pass",
+      "notes": "Stable seeded choices and meaningful cycle/plant identities persist; no randomization of biology, regenerated spore or forced false success after a dry sperm placement.",
+      "evidence": [
+        "src/investigations/seedless-model.js",
+        "data/development-tracker/biology-reviews/evidence/moss-fern/model-tests.txt"
+      ]
+    },
+    "G08": {
+      "status": "pass",
+      "notes": "Full authored pathway/report/handouts read; necessary plant/cell terms defined. Approximate grade 7.7 and 11.1 words/sentence are diagnostic only; comprehension remains pending.",
+      "evidence": [
+        "src/investigations/seedless-content.js",
+        "data/development-tracker/biology-reviews/evidence/moss-fern/reading-screen.json",
+        "data/development-tracker/biology-reviews/evidence/moss-fern/review-notes.md"
+      ]
+    },
+    "G09": {
+      "status": "pass",
+      "notes": "Required first predictions precede observations; inspected/correct spore process, growth interpretation, continuous water route, zygote interpretation and generation comparison gate their dependent actions in model/UI.",
+      "evidence": [
+        "tests/seedless.test.js",
+        "data/development-tracker/biology-reviews/evidence/moss-fern/browser-tests.txt"
+      ]
+    },
+    "G10": {
+      "status": "pass",
+      "notes": "Explicit Correct!/Try again, scientific feedback and correction paths. Current wrong process/growth/zygote/tags persist unconfirmed; changed checked reasoning clears stale feedback/gates, and dry route never records fusion.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/moss-fern/unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/moss-fern/edited-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/moss-fern/complete-responses.json"
+      ]
+    },
+    "G11": {
+      "status": "pass",
+      "notes": "Actual save/repeat/reload, denied writes/retry and identity versus academic edits verified; truthful device-local status without cloud grade/submission claims.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/moss-fern/browser-tests.txt",
+        "src/investigations/completion-status.js"
+      ]
+    },
+    "G12": {
+      "status": "pass",
+      "notes": "Versioned root-scoped state preserves first predictions, one spore/route event, actual wrong interpretations/tags, corrections and original writing. View-only work preserves completion; academic edits invalidate it.",
+      "evidence": [
+        "src/investigations/seedless-model.js",
+        "data/development-tracker/biology-reviews/evidence/moss-fern/browser-tests.txt"
+      ]
+    },
+    "G13": {
+      "status": "pass",
+      "notes": "Actual named completed/neutral PDF and native print include optional name/period, safe filenames, readable local date/time/zone and honest work status.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/moss-fern/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/moss-fern/draft.pdf",
+        "data/development-tracker/biology-reviews/evidence/moss-fern/native-print.pdf"
+      ]
+    },
+    "G14": {
+      "status": "pass",
+      "notes": "Snapshot groups original predictions, source-labeled actual interpretations, meaningful route corrections, generation comparison, checked choices and original goal writing; no click-log or auto-grading claim.",
+      "evidence": [
+        "src/investigations/seedless-report.js",
+        "data/development-tracker/biology-reviews/evidence/moss-fern/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/moss-fern/edited-unconfirmed.pdf"
+      ]
+    },
+    "G15": {
+      "status": "pass",
+      "notes": "All 37 current pages rendered/inspected. Interpretation/status and selected answer/feedback stay grouped; Unicode long markers, first offline exports, PDF/print/JSON fidelity and recovery pass.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/moss-fern/pdf-inspection.json",
+        "data/development-tracker/biology-reviews/evidence/moss-fern/pdf-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/moss-fern/pdf-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/moss-fern/pdf-contact-3.png",
+        "data/development-tracker/biology-reviews/evidence/moss-fern/pdf-contact-4.png",
+        "data/development-tracker/biology-reviews/evidence/moss-fern/pdf-contact-5.png",
+        "data/development-tracker/biology-reviews/evidence/moss-fern/long-offline.pdf",
+        "data/development-tracker/biology-reviews/evidence/moss-fern/long-native-print.pdf",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.md",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.md"
+      ]
+    },
+    "G16": {
+      "status": "pass",
+      "notes": "Mouse spore placement after resize/scroll, keyboard lens/select/place/focus, native water drag-release-sperm-tap, 44px phone sites and reduced motion verified. Physical-device/AT acceptance pending.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/moss-fern/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/moss-fern/tablet-early-growth.png",
+        "data/development-tracker/biology-reviews/evidence/moss-fern/phone-zygote.png",
+        "data/development-tracker/biology-reviews/evidence/moss-fern/phone-comparison.png",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.json",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.md",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-native-focus-regressions.txt"
+      ]
+    },
+    "G17": {
+      "status": "pass",
+      "notes": "157 model/report tests, seven actual browser workflows, 61 resources/current prompts/hashes and standalone/private-platform builds pass. Only actual development evidence is accepted.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/moss-fern/model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/moss-fern/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/moss-fern/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/moss-fern/standalone-build.txt",
+        "data/development-tracker/biology-reviews/evidence/moss-fern/platform-build.txt",
+        "data/development-tracker/biology-reviews/evidence/moss-fern/review-notes.md"
+      ]
+    },
+    "G18": {
+      "status": "pass",
+      "notes": "Stable activity/structure/process/question/goal IDs, English bundle, locale/version and original student language retained. Native app/print translations and remaining UI string extraction are future AUD-10.",
+      "evidence": [
+        "src/investigations/seedless-content.js",
+        "src/investigations/seedless-report.js",
+        "src/investigations/guided-lab-shell.js"
+      ]
+    },
+    "RESOURCES": {
+      "status": "pass",
+      "notes": "Three-page worksheet and two-page teacher guide match the cycle/comparison and current prompts/limits. All pages and hashes checked; virtual only and build-time Python tooling.",
+      "evidence": [
+        "public/resources/moss-fern-worksheet.pdf",
+        "public/resources/moss-fern-teacher-guide.pdf",
+        "scripts/build-biology-resources.py",
+        "data/development-tracker/biology-reviews/evidence/moss-fern/resource-check.txt"
+      ]
+    },
+    "ACCESS": {
+      "status": "pass",
+      "notes": "Guest/free reports remain usable without sign-in; role/entitlement/publishing policies unchanged. Private 27-lab runtime compiles only; no upload/registration/publication. Earlier platform protections reused, not claimed rerun.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/moss-fern/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/moss-fern/platform-build.txt",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/platform-tests.txt"
+      ]
+    },
+    "TRACKING": {
+      "status": "pass",
+      "notes": "Stable biological-diversity/virtual route and actual English resources reflected in validated generated records; standards/other-language approvals unchanged; shared copies refreshed after review.",
+      "evidence": [
+        "src/catalog.js",
+        "data/curriculum/dataset.json",
+        "data/development-tracker/activity-checklist.csv"
+      ]
+    }
+  },
+  "artifacts": {
+    "workflow": [
+      "data/development-tracker/biology-reviews/evidence/moss-fern/review-notes.md",
+      "data/development-tracker/biology-reviews/evidence/moss-fern/reading-screen.json",
+      "data/development-tracker/biology-reviews/evidence/moss-fern/complete-responses.json",
+      "data/development-tracker/biology-reviews/evidence/moss-fern/source-manifest.json"
+    ],
+    "visuals": [
+      "data/development-tracker/biology-reviews/evidence/moss-fern/frond-initial.png",
+      "data/development-tracker/biology-reviews/evidence/moss-fern/spore-cell-before.png",
+      "data/development-tracker/biology-reviews/evidence/moss-fern/spores-after-meiosis.png",
+      "data/development-tracker/biology-reviews/evidence/moss-fern/gametophyte-1.png",
+      "data/development-tracker/biology-reviews/evidence/moss-fern/gametophyte-2.png",
+      "data/development-tracker/biology-reviews/evidence/moss-fern/gametes-no-film.png",
+      "data/development-tracker/biology-reviews/evidence/moss-fern/gametes-water-film.png",
+      "data/development-tracker/biology-reviews/evidence/moss-fern/zygote.png",
+      "data/development-tracker/biology-reviews/evidence/moss-fern/young-sporophyte.png",
+      "data/development-tracker/biology-reviews/evidence/moss-fern/comparison-before-tags.png",
+      "data/development-tracker/biology-reviews/evidence/moss-fern/tablet-early-growth.png",
+      "data/development-tracker/biology-reviews/evidence/moss-fern/phone-zygote.png",
+      "data/development-tracker/biology-reviews/evidence/moss-fern/phone-comparison.png",
+      "data/development-tracker/biology-reviews/evidence/moss-fern/phone-explain.png"
+    ],
+    "pdfReports": [
+      "data/development-tracker/biology-reviews/evidence/moss-fern/complete.pdf",
+      "data/development-tracker/biology-reviews/evidence/moss-fern/draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/moss-fern/development-draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/moss-fern/unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/moss-fern/edited-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/moss-fern/long-offline.pdf",
+      "data/development-tracker/biology-reviews/evidence/moss-fern/pdf-inspection.json"
+    ],
+    "nativePrint": [
+      "data/development-tracker/biology-reviews/evidence/moss-fern/native-print.pdf",
+      "data/development-tracker/biology-reviews/evidence/moss-fern/long-native-print.pdf"
+    ],
+    "tests": [
+      "data/development-tracker/biology-reviews/evidence/moss-fern/model-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/moss-fern/browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/moss-fern/resource-check.txt",
+      "data/development-tracker/biology-reviews/evidence/moss-fern/standalone-build.txt",
+      "data/development-tracker/biology-reviews/evidence/moss-fern/platform-build.txt",
+      "data/development-tracker/biology-reviews/evidence/moss-fern/review-notes.md"
+    ],
+    "resources": [
+      "public/resources/moss-fern-worksheet.pdf",
+      "public/resources/moss-fern-teacher-guide.pdf"
+    ]
+  },
+  "externalValidation": {
+    "teacherStudentComprehension": {
+      "status": "pending",
+      "notes": "Not performed; development checks do not establish classroom comprehension."
+    },
+    "physicalDevices": {
+      "status": "pending",
+      "notes": "Emulation is not physical-device or assistive-technology acceptance."
+    },
+    "classroomProtocol": {
+      "status": "not-applicable",
+      "notes": "Virtual-only activity; no physical protocol supplied."
+    }
+  },
+  "history": [],
+  "decision": "pass",
+  "summary": "English virtual-only development review passed: source-backed plant-cycle transitions, direct spore/water/sperm placement, distinct moss generation comparison and original learning reports. External/classroom/hardware/translation and release acceptance remain separate.",
+  "blockers": [],
+  "followups": [
+    {
+      "id": "shared-touch-focus-2026-11-15",
+      "reviewedOn": "2026-11-15",
+      "reviewedBy": "Codex - shared interaction follow-up",
+      "decision": "pass",
+      "summary": "Pending native compatibility mousedown no longer steals newly assigned focus. Existing deliberate next-tap/mouse/keyboard behavior verified in39 selected browser cases; original lab review snapshot retained.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.json",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.md",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-native-focus-regressions.txt"
+      ]
+    },
+    {
+      "id": "shared-response-pagination-2026-11-15",
+      "recordedAt": "2026-11-15T17:05:24.799Z",
+      "scope": "Shared PDF question/answer page-break guard; original review remains its point-in-time snapshot. Representative current starch, stored heat/fungal and legacy enzyme reports checked; not a full rerun of this lab.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.md",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.json",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/pagination-corrected.txt",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-model-tests.txt"
+      ]
+    },
+    {
+      "id": "shared-scientific-symbols-2026-11-15",
+      "recordedAt": "2026-11-15T18:31:00.201Z",
+      "scope": "Shared offline scientific-symbol glyph fallback only; original source snapshot/history unchanged. Representative new/old outputs and legacy wrappers validated, not full rerun of this lab.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.md",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.json",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/glyph-all-artifacts.txt"
+      ]
+    }
+  ]
+}

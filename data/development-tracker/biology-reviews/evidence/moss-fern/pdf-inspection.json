@@ -1,0 +1,109 @@
+[
+  {
+    "file": "public/resources/moss-fern-teacher-guide.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      3041,
+      2826
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "public/resources/moss-fern-worksheet.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1514,
+      1570,
+      2423
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/moss-fern/complete.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2215,
+      3362,
+      2492
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/moss-fern/development-draft.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1718,
+      1914,
+      1452
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/moss-fern/draft.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1708,
+      1914,
+      1452
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/moss-fern/edited-unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2224,
+      3332,
+      2495
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/moss-fern/long-native-print.pdf",
+    "pages": 7,
+    "pageCharacters": [
+      2286,
+      2832,
+      837,
+      837,
+      837,
+      1464,
+      1353
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/moss-fern/long-offline.pdf",
+    "pages": 7,
+    "pageCharacters": [
+      2224,
+      2942,
+      905,
+      905,
+      905,
+      1034,
+      2167
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/moss-fern/native-print.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2281,
+      3162,
+      2396
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/moss-fern/unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1955,
+      1914,
+      1452
+    ],
+    "finalLongMarker": false
+  }
+]

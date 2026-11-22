@@ -1,0 +1,351 @@
+{
+  "schemaVersion": 2,
+  "labId": "fungal-structures",
+  "title": "Fungal Structures and Reproduction",
+  "question": "How do fungal structures help with feeding, dispersal and making new cells?",
+  "student": {
+    "name": "Zoë García",
+    "class": "Period 5"
+  },
+  "status": "Complete",
+  "grading": "not_graded",
+  "exportedAt": "2026-11-15T12:34:15.866Z",
+  "exportTimeZone": "America/Los_Angeles",
+  "exportedAtDisplay": "Nov 15, 2026, 4:34 AM PST",
+  "sections": [
+    {
+      "heading": "Predictions and observation plan",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Required before observations: Is the mushroom above a log the whole fungus? Predict what might also be inside the log.",
+          "text": "The mushroom may be the visible reproductive part, with fungal threads inside the wood."
+        },
+        {
+          "type": "response",
+          "prompt": "Required before observations: A spore lands on a surface. Predict what it needs to start growing, and why landing would not immediately make a mushroom.",
+          "text": "A spore may need water and usable nutrients, then growth and compatible mating before a mushroom forms."
+        },
+        {
+          "type": "paragraph",
+          "text": "Timing: Before lens, spore or budding observations."
+        },
+        {
+          "type": "paragraph",
+          "text": "Inspect one supplied mushroom-forming fungus and one budding yeast example. They illustrate different structures and processes, not repeated trials. Compare the mushroom with its mycelium, then follow one spore and one budding event. No live culture or real rate measurement is involved."
+        }
+      ]
+    },
+    {
+      "heading": "Fungal body evidence",
+      "blocks": [
+        {
+          "type": "table",
+          "columns": [
+            "Model view",
+            "Student inspected"
+          ],
+          "rows": [
+            [
+              "Mycelium in wood",
+              "Yes"
+            ],
+            [
+              "Gill surface enlargement",
+              "Yes"
+            ]
+          ]
+        },
+        {
+          "type": "response",
+          "prompt": "Current body interpretation",
+          "text": "The mycelium is a feeding network; the mushroom is a spore-producing fruiting body.\nCorrect after feedback."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lens views are supplied illustrations, not student measurements or independent organisms."
+        }
+      ]
+    },
+    {
+      "heading": "Spore and early growth evidence",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "One model basidiospore released into an air gap."
+        },
+        {
+          "type": "response",
+          "prompt": "Current landing surface",
+          "text": "Moist wood"
+        },
+        {
+          "type": "paragraph",
+          "text": "Landing conditions accepted for this example. Surface choice revised after feedback."
+        },
+        {
+          "type": "paragraph",
+          "text": "Model growth phases viewed: 2/2. The model supplies the growth response; the student chooses and interprets it."
+        },
+        {
+          "type": "response",
+          "prompt": "Current early-growth interpretation",
+          "text": "A thin thread grows from the spore and branches into a young mycelium.\nCorrect first check."
+        },
+        {
+          "type": "paragraph",
+          "text": "The basidiospores belong to a sexual life cycle; only release, germination and early growth are shown. Compatible mating and later fruiting requirements are omitted."
+        }
+      ]
+    },
+    {
+      "heading": "Budding yeast evidence",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Model phases viewed: 3/3. Student marked the attached bud before later division/separation."
+        },
+        {
+          "type": "response",
+          "prompt": "Current reproduction interpretation",
+          "text": "A smaller daughter grows as a bud and separates after the nucleus divides.\nCorrect after feedback."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nuclear information is a supplied explanatory overlay; this asexual event does not represent every yeast life cycle."
+        }
+      ]
+    },
+    {
+      "heading": "Evidence by learning goal",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Distinguish feeding hyphae and mycelium from a mushroom fruiting body."
+        },
+        {
+          "type": "response",
+          "prompt": "Use the two lens views to compare mycelium and mushroom gills. Which part spreads through the wood, and which part supports spore production? Revisit your first prediction.",
+          "text": "My body explanation: the threads form feeding mycelium, while mushroom gills carry spore-producing basidia. One spore on supplied moist wood grew a hypha and branches, not an instant mushroom; compatible mating and later growth still matter. The yeast daughter grew from an attached bud and received genetic material before separating. That budding was asexual, while the supplied basidiospores belong to a sexual cycle. These model views are not independent cultures or measured growth rates."
+        },
+        {
+          "type": "paragraph",
+          "text": "Connect spore release, suitable landing conditions and early hyphal growth without skipping a life cycle."
+        },
+        {
+          "type": "response",
+          "prompt": "Explain why you chose a landing surface and describe the growth you saw. Why would a germinated spore not immediately be a mushroom? Compare your observations with your growth prediction.",
+          "text": "My spore explanation: the threads form feeding mycelium, while mushroom gills carry spore-producing basidia. One spore on supplied moist wood grew a hypha and branches, not an instant mushroom; compatible mating and later growth still matter. The yeast daughter grew from an attached bud and received genetic material before separating. That budding was asexual, while the supplied basidiospores belong to a sexual cycle. These model views are not independent cultures or measured growth rates."
+        },
+        {
+          "type": "paragraph",
+          "text": "Explain how budding yeast makes a daughter cell and compare this with the mushroom spore example."
+        },
+        {
+          "type": "response",
+          "prompt": "Describe where the yeast daughter started and what happened before it separated. Compare this asexual budding event with the spore-producing mushroom example. Why would it be wrong to say all fungal spores are asexual?",
+          "text": "My budding explanation: the threads form feeding mycelium, while mushroom gills carry spore-producing basidia. One spore on supplied moist wood grew a hypha and branches, not an instant mushroom; compatible mating and later growth still matter. The yeast daughter grew from an attached bud and received genetic material before separating. That budding was asexual, while the supplied basidiospores belong to a sexual cycle. These model views are not independent cultures or measured growth rates."
+        }
+      ]
+    },
+    {
+      "heading": "Concept checks",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "How does this fungus obtain nutrients from the wood?",
+          "text": "Enzymes break material down outside the hyphae; the cells absorb usable molecules.\nCorrect! Fungal enzymes break down nearby material. Hyphae absorb the resulting small molecules. The mushroom and mycelium are parts of the same fungus. Correct on first recorded check."
+        },
+        {
+          "type": "response",
+          "prompt": "Do spores always show asexual reproduction?",
+          "text": "No. Fungi can make spores through sexual or asexual life cycles.\nCorrect! Spore means a reproductive cell, not one universal process. The basidiospores in this mushroom example belong to a sexual cycle involving meiosis. Other fungi also make asexual spores. Revised after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "What is supported by the yeast sequence shown here?",
+          "text": "One parent makes a daughter by budding and mitosis; no mating is shown.\nCorrect! This is asexual budding. DNA is copied and mitosis provides genetic material to mother and daughter. Mutations can occur. The sequence does not show every yeast life cycle. Correct on first recorded check."
+        }
+      ]
+    },
+    {
+      "heading": "Model limits and sources",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "All specimens, colors, enlargements and growth changes are original teaching illustrations, not recordings or measured cultures. The surface choices use stated model conditions, not a controlled test of every factor. The example fungus can use the supplied wood; other species need different conditions. The basidium shown has four spores; the number varies among fungi. Only one spore is tracked. Its release into an air gap and later transport are shortened; the water-drop launch mechanism is omitted. Germination does not complete the sexual life cycle or guarantee a mushroom. Compatible mating and suitable conditions are omitted later requirements for this mushroom example. Yeast nuclear details are explanatory overlays; DNA copying and mitosis have additional steps. Growth is untimed. The shown budding is asexual, but yeasts can also have sexual cycles. No species, edibility or clinical identification is established, and no physical culture instructions are provided."
+        },
+        {
+          "type": "paragraph",
+          "text": "Australian National Botanic Gardens: Mycelium: https://anbg.gov.au/fungi/mycelium.html"
+        },
+        {
+          "type": "paragraph",
+          "text": "Australian National Botanic Gardens: Spore discharge in mushrooms: https://anbg.gov.au/fungi/spore-discharge-mushrooms.html"
+        },
+        {
+          "type": "paragraph",
+          "text": "Centre for Australian National Biodiversity Research: Ascomycetes and basidiomycetes: https://www.cpbr.gov.au/fungi/ascomycetes-basidiomycetes.html"
+        },
+        {
+          "type": "paragraph",
+          "text": "OpenStax Biology 2e: Characteristics of Fungi: https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi"
+        },
+        {
+          "type": "paragraph",
+          "text": "Leitao and Kellogg (2017): Bud growth and mitosis in yeast: https://pubmed.ncbi.nlm.nih.gov/28939614/"
+        }
+      ],
+      "keepFirst": 6
+    }
+  ],
+  "activityVersion": 1,
+  "locale": "en",
+  "attemptId": "fungal-3744690092-1794746052524",
+  "data": {
+    "schemaVersion": 1,
+    "activityVersion": 1,
+    "labId": "fungal-structures",
+    "attemptId": "fungal-3744690092-1794746052524",
+    "seed": 3744690092,
+    "locale": "en",
+    "stage": 3,
+    "studentName": "Zoë García",
+    "studentClass": "Period 5",
+    "prediction": "The mushroom may be the visible reproductive part, with fungal threads inside the wood.",
+    "design": "A spore may need water and usable nutrients, then growth and compatible mating before a mushroom forms.",
+    "initialPlan": {
+      "prediction": "The mushroom may be the visible reproductive part, with fungal threads inside the wood.",
+      "design": "A spore may need water and usable nutrients, then growth and compatible mating before a mushroom forms.",
+      "timing": "Before lens, spore or budding observations",
+      "recordedAt": "2026-11-15T12:34:12.686Z"
+    },
+    "views": {
+      "mycelium": true,
+      "gills": true
+    },
+    "view": "gills",
+    "bodyEntry": "network",
+    "bodyRecord": {
+      "value": "network",
+      "correctAfterFeedback": true,
+      "sourceId": "student-interpreted-two-model-views"
+    },
+    "bodyAttempts": [
+      {
+        "value": "roots",
+        "correct": false
+      },
+      {
+        "value": "network",
+        "correct": true
+      }
+    ],
+    "released": true,
+    "substrate": "moist-wood",
+    "landingAttempts": [
+      {
+        "value": "wet-glass",
+        "correct": false
+      },
+      {
+        "value": "moist-wood",
+        "correct": true
+      }
+    ],
+    "landed": true,
+    "growth": 2,
+    "sporeEntry": "hypha",
+    "sporeRecord": {
+      "value": "hypha",
+      "correctAfterFeedback": false,
+      "sourceId": "student-interpreted-model-germination"
+    },
+    "sporeAttempts": [
+      {
+        "value": "hypha",
+        "correct": true
+      }
+    ],
+    "yeastFrame": 3,
+    "budTagged": true,
+    "yeastEntry": "budding",
+    "yeastRecord": {
+      "value": "budding",
+      "correctAfterFeedback": true,
+      "sourceId": "student-interpreted-model-budding"
+    },
+    "yeastAttempts": [
+      {
+        "value": "equal",
+        "correct": false
+      },
+      {
+        "value": "budding",
+        "correct": true
+      }
+    ],
+    "checks": {
+      "sexual": {
+        "attempts": [
+          {
+            "value": "asexual",
+            "correct": false
+          },
+          {
+            "value": "both",
+            "correct": true
+          }
+        ],
+        "value": "both",
+        "correct": true
+      },
+      "nutrition": {
+        "attempts": [
+          {
+            "value": "absorb",
+            "correct": true
+          }
+        ],
+        "value": "absorb",
+        "correct": true
+      },
+      "yeast": {
+        "attempts": [
+          {
+            "value": "one-parent",
+            "correct": true
+          }
+        ],
+        "value": "one-parent",
+        "correct": true
+      }
+    },
+    "answers": {
+      "body": "My body explanation: the threads form feeding mycelium, while mushroom gills carry spore-producing basidia. One spore on supplied moist wood grew a hypha and branches, not an instant mushroom; compatible mating and later growth still matter. The yeast daughter grew from an attached bud and received genetic material before separating. That budding was asexual, while the supplied basidiospores belong to a sexual cycle. These model views are not independent cultures or measured growth rates.",
+      "spore": "My spore explanation: the threads form feeding mycelium, while mushroom gills carry spore-producing basidia. One spore on supplied moist wood grew a hypha and branches, not an instant mushroom; compatible mating and later growth still matter. The yeast daughter grew from an attached bud and received genetic material before separating. That budding was asexual, while the supplied basidiospores belong to a sexual cycle. These model views are not independent cultures or measured growth rates.",
+      "budding": "My budding explanation: the threads form feeding mycelium, while mushroom gills carry spore-producing basidia. One spore on supplied moist wood grew a hypha and branches, not an instant mushroom; compatible mating and later growth still matter. The yeast daughter grew from an attached bud and received genetic material before separating. That budding was asexual, while the supplied basidiospores belong to a sexual cycle. These model views are not independent cultures or measured growth rates."
+    },
+    "complete": true
+  },
+  "evidence": [
+    {
+      "goalId": "body",
+      "answerId": "body",
+      "writing": "My body explanation: the threads form feeding mycelium, while mushroom gills carry spore-producing basidia. One spore on supplied moist wood grew a hypha and branches, not an instant mushroom; compatible mating and later growth still matter. The yeast daughter grew from an attached bud and received genetic material before separating. That budding was asexual, while the supplied basidiospores belong to a sexual cycle. These model views are not independent cultures or measured growth rates.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "spore",
+      "answerId": "spore",
+      "writing": "My spore explanation: the threads form feeding mycelium, while mushroom gills carry spore-producing basidia. One spore on supplied moist wood grew a hypha and branches, not an instant mushroom; compatible mating and later growth still matter. The yeast daughter grew from an attached bud and received genetic material before separating. That budding was asexual, while the supplied basidiospores belong to a sexual cycle. These model views are not independent cultures or measured growth rates.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "budding",
+      "answerId": "budding",
+      "writing": "My budding explanation: the threads form feeding mycelium, while mushroom gills carry spore-producing basidia. One spore on supplied moist wood grew a hypha and branches, not an instant mushroom; compatible mating and later growth still matter. The yeast daughter grew from an attached bud and received genetic material before separating. That budding was asexual, while the supplied basidiospores belong to a sexual cycle. These model views are not independent cultures or measured growth rates.",
+      "status": "not_graded"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "capturedAt": "2026-11-15T09:57:38.967Z",
+  "scope": "Working-tree files, not a clean Git commit; unrelated edits preserved.",
+  "files": {
+    "src/investigations/food-content.js": "d40f976832dd483946fd23f6012d1b7950746d7f7c7772b351f1c36e95be4a21",
+    "src/investigations/food-model.js": "ad51878fdd80765ec4aacfb668ed319c446b0c545ec60092d10930b426af6797",
+    "src/investigations/food-art.js": "5111d5adc3770a08eb8e0eac256a10628368889c4de8f43370c23d2eaf7fbb2d",
+    "src/investigations/food-report.js": "701bf7d2157dfbb13f70bfe38551e5dd37a2837025e77d6b82b1ef17c068c675",
+    "src/investigations/food-app.js": "de474df6cd8ffbba745735632804d35bb8bd1928cb05bdf1f4f12432635597ed",
+    "src/investigations/food.css": "4167cf45e1667c2494c7882ad8ec4270cf1d9e2b80af8fc6566e1ea6bcaf8202",
+    "src/investigations/touch-buttons.js": "728e3727dc4b4f7c3fcf0dc633679c84eda4b048ed2ec230700526ee334c0bec",
+    "src/investigations/app.js": "ccb8aa13e2c14bbbca197ee54bb9943b66e86d834808d34a877929889ca59261",
+    "src/catalog.js": "50c7eabd4735114aff4113822a1287b2dfc4142d274ae3624758965c646add1e",
+    "tests/food.test.js": "e5e089b8cc794d81113b762202a6662a9d857f5dba276efa6281c91547649073",
+    "tests/browser/food.spec.js": "90c488caf815eed0a5fa49e5629c0f830293fe9e226e999937d25ad6e95bfa38",
+    "tests/browser/recheck-edits.spec.js": "5df14e0c65367d6be7153cac3e1c5910a14061a0d347e45c256eddcc2417efa6",
+    "scripts/build-biology-resources.py": "a8e54809e845368249a23b0714d4d4c4d53dacc933338086c86bb3778d467be4",
+    "LAB_DESIGN_GUIDE.md": "82ad953d28fe2072b7ef3a1f7e106ba6811042690f16e40e91f7c1b6c53a2306"
+  }
+}

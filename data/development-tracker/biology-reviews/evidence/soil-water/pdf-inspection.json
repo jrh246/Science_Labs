@@ -1,0 +1,149 @@
+[
+  {
+    "file": "public/resources/soil-water-teacher-guide.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      2809,
+      3482
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "public/resources/soil-water-worksheet.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1702,
+      1591,
+      2569
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/soil-water/availability-edited.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2441,
+      2462,
+      3788
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/soil-water/availability-unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2456,
+      2036,
+      1935
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/soil-water/complete.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2444,
+      2504,
+      3785
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/soil-water/development-draft.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2123,
+      2046,
+      1935
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/soil-water/draft.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2113,
+      2046,
+      1935
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/soil-water/edited-unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2411,
+      2454,
+      3788
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/soil-water/long-native-print.pdf",
+    "pages": 7,
+    "pageCharacters": [
+      2404,
+      2530,
+      1175,
+      837,
+      837,
+      1074,
+      2258
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/soil-water/long-offline.pdf",
+    "pages": 7,
+    "pageCharacters": [
+      2441,
+      2486,
+      1328,
+      905,
+      905,
+      905,
+      2780
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/soil-water/native-print.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2410,
+      2551,
+      3542
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/soil-water/pore-unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2456,
+      2056,
+      1935
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/soil-water/retention-unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2441,
+      2046,
+      1935
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/soil-water/unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2444,
+      2046,
+      1935
+    ],
+    "finalLongMarker": false
+  }
+]

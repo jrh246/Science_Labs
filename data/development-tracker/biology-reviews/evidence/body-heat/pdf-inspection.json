@@ -1,0 +1,154 @@
+[
+  {
+    "file": "public/resources/body-heat-teacher-guide.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      2908,
+      3639
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "public/resources/body-heat-worksheet.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1778,
+      1731,
+      2888
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/body-heat/calculation-unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2155,
+      1859,
+      2829
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/body-heat/complete.pdf",
+    "pages": 4,
+    "pageCharacters": [
+      2143,
+      2406,
+      3131,
+      1890
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/body-heat/development-draft.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2034,
+      2016,
+      2454
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/body-heat/draft.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2024,
+      2016,
+      2454
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/body-heat/edited-unconfirmed.pdf",
+    "pages": 4,
+    "pageCharacters": [
+      2144,
+      2407,
+      3134,
+      1893
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/body-heat/interpretation-edited.pdf",
+    "pages": 4,
+    "pageCharacters": [
+      2144,
+      2380,
+      3134,
+      1893
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/body-heat/interpretation-unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2155,
+      1853,
+      2829
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/body-heat/long-native-print.pdf",
+    "pages": 7,
+    "pageCharacters": [
+      2375,
+      2121,
+      1870,
+      837,
+      837,
+      824,
+      2838
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/body-heat/long-offline.pdf",
+    "pages": 8,
+    "pageCharacters": [
+      2144,
+      2394,
+      2007,
+      905,
+      905,
+      905,
+      1285,
+      1893
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/body-heat/native-print.pdf",
+    "pages": 4,
+    "pageCharacters": [
+      2108,
+      2405,
+      2935,
+      1794
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/body-heat/ratio-unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2135,
+      1909,
+      2829
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/body-heat/unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2155,
+      1900,
+      2829
+    ],
+    "finalLongMarker": false
+  }
+]

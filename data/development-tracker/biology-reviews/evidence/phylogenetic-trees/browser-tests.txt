@@ -1,0 +1,33 @@
+node.exe : [WebServer] (node:45220) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([WebServer] (no... env being set.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+[WebServer] 
+[WebServer] (!) Some chunks are larger than 500 kB after minification. Consider:
+[WebServer] - Using dynamic import() to code-split the application
+[WebServer] - Use build.rollupOptions.output.manualChunks to improve chunking: 
+https://rollupjs.org/configuration-options/#output-manualchunks
+[WebServer] - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+[WebServer] (node:23064) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+
+Running 6 tests using 1 worker
+
+(node:57564) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+
+[1/6] tests\browser\phylo.spec.js:9:1 › phylo full evidence comparison, wrong/current tree, rotation, save, named PDF/JSON/native print and edits
+[2/6] tests\browser\phylo.spec.js:10:1 › phylo actual mouse placements after resize and keyboard columns/focus; edited checked columns block progression
+[3/6] tests\browser\phylo.spec.js:11:1 › phylo native touch drag-release-then-tap, reduced motion and phone targets
+[4/6] tests\browser\phylo.spec.js:12:1 › phylo denied save/retry, long Unicode explanation and first offline PDF/native print
+[5/6] tests\browser\phylo.spec.js:13:1 › phylo draft export failure recovery and native print availability
+[6/6] tests\browser\phylo.spec.js:14:1 › phylo root/development isolated progress and first offline development PDF
+  6 passed (18.7s)

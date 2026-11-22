@@ -1,0 +1,86 @@
+{
+  "labId": "immune-memory",
+  "locale": "en",
+  "scope": "Authored core directions/questions; excludes teacher notes, sources and student writing. Dynamic app/diagram/report wording is reviewed manually.",
+  "method": "Approximate Flesch-Kincaid with heuristic syllable counts and explicit scientific-word exceptions. Short fragments and technical terms can distort the score; no pass/fail or language certification.",
+  "overall": {
+    "words": 782,
+    "sentences": 68,
+    "wordsPerSentence": 11.5,
+    "approximateFleschKincaidGrade": 7.9
+  },
+  "fragments": {
+    "intro": {
+      "words": 105,
+      "sentences": 10,
+      "wordsPerSentence": 10.5,
+      "approximateFleschKincaidGrade": 7.6
+    },
+    "prediction": {
+      "words": 33,
+      "sentences": 3,
+      "wordsPerSentence": 11,
+      "approximateFleschKincaidGrade": 8.7
+    },
+    "design": {
+      "words": 32,
+      "sentences": 3,
+      "wordsPerSentence": 10.7,
+      "approximateFleschKincaidGrade": 7
+    },
+    "controls": {
+      "words": 58,
+      "sentences": 4,
+      "wordsPerSentence": 14.5,
+      "approximateFleschKincaidGrade": 6.5
+    },
+    "sampling": {
+      "words": 54,
+      "sentences": 4,
+      "wordsPerSentence": 13.5,
+      "approximateFleschKincaidGrade": 6.7
+    },
+    "limits": {
+      "words": 170,
+      "sentences": 13,
+      "wordsPerSentence": 13.1,
+      "approximateFleschKincaidGrade": 9.9
+    },
+    "explanation:cells": {
+      "words": 35,
+      "sentences": 2,
+      "wordsPerSentence": 17.5,
+      "approximateFleschKincaidGrade": 9.4
+    },
+    "explanation:graph": {
+      "words": 38,
+      "sentences": 3,
+      "wordsPerSentence": 12.7,
+      "approximateFleschKincaidGrade": 7.4
+    },
+    "explanation:specificity": {
+      "words": 38,
+      "sentences": 3,
+      "wordsPerSentence": 12.7,
+      "approximateFleschKincaidGrade": 5.2
+    },
+    "check:plasma": {
+      "words": 72,
+      "sentences": 6,
+      "wordsPerSentence": 12,
+      "approximateFleschKincaidGrade": 10.1
+    },
+    "check:sample": {
+      "words": 76,
+      "sentences": 10,
+      "wordsPerSentence": 7.6,
+      "approximateFleschKincaidGrade": 5.7
+    },
+    "check:specific": {
+      "words": 71,
+      "sentences": 7,
+      "wordsPerSentence": 10.1,
+      "approximateFleschKincaidGrade": 8.1
+    }
+  }
+}

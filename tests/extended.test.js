@@ -53,7 +53,7 @@ test('scoring uses student counts and the correct mapping factors',()=>{
 test('gel calibration inverts log-size relationship at each voltage',()=>{for(const voltage of [60,80,100])for(const bp of [500,700,1000,1500,4000])assert.ok(Math.abs(bandSize(bandDistance(bp,1,voltage),1,voltage)-bp)<1e-6);});
 test('preparation, focus, staining and viewing are prerequisites for collection',()=>{
  for(const c of labs){let r=newRun(c,0,42);assert.equal(ready(c,r),false);r.prepared=c.steps.length;if(c.duration)r=advance(c,r,c.duration);
-  if(c.kind==='microscope'){assert.equal(ready(c,r),false);r.objective=40;assert.equal(ready(c,r),false);r.rulerMeasured=true;assert.equal(ready(c,r),true);r.focus=0;assert.equal(ready(c,r),false);}
+  if(c.kind==='microscope'){assert.equal(ready(c,r),false);r.objective=40;assert.equal(ready(c,r),false);r.rulerMeasured=true;assert.equal(ready(c,r),false);r.calibrationAnswer='2';r.calibrationChecked=true;r.calibrationSource='student';assert.equal(ready(c,r),true);r.focus=0;assert.equal(ready(c,r),false);}
   if(c.kind==='gel'){assert.equal(ready(c,r),false);r.stained=true;r.estimates=[3000,1500,700];assert.equal(ready(c,r),true);r.estimates[0]='';assert.equal(ready(c,r),false);}
   if(['regulation','expression'].includes(c.kind)){assert.equal(ready(c,r),false);r.viewer=true;assert.equal(ready(c,r),true);}
  }

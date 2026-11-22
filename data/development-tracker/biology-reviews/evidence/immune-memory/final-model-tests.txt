@@ -1,0 +1,21 @@
+✔ first reasoning gates every process and preserves initial writing (0.7154ms)
+✔ wrong receptor/helper/release choice retains rejected evidence without advancing; only supplied clone enables plasma inspection (13.8679ms)
+✔ sampled line readings 8/8 and4/14; specificity classification replaces duplicate copying (0.8827ms)
+✔ complete/reload retains all current data and original Unicode; cursor and direct review preserve completion (1.7631ms)
+✔ raw blank/wrong after correct immediately gates return and remains unconfirmed/reloadable (2.1086ms)
+✔ PDF symbol formatting preserves complete original scientific writing and report snapshot (15.1027ms)
+✔ PDF symbol engine supports legacy inline runs/table strings without changing attached response text (0.3952ms)
+✔ all 14 reports preserve completed work and use a shared faithful PDF/print snapshot (24.2914ms)
+✔ partial reports never fill hidden observations or invent completed work (3.093ms)
+✔ core reports retain mixed sources, unreached thresholds, student classifications and uncollected readings (1.5676ms)
+✔ extended reports retain measured estimates, cell products, source separation and draft classifications (0.7827ms)
+✔ osmosis identity restores without changing existing or legacy measurement data (0.4847ms)
+✔ reports escape student HTML, sanitize filenames, and preserve long answers verbatim (0.5495ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 160.4024

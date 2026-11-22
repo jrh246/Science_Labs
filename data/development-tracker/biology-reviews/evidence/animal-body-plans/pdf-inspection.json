@@ -1,0 +1,112 @@
+[
+  {
+    "file": "public/resources/animal-body-plans-teacher-guide.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      2896,
+      2889
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "public/resources/animal-body-plans-worksheet.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1730,
+      1516,
+      2628
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/animal-body-plans/complete.pdf",
+    "pages": 4,
+    "pageCharacters": [
+      2285,
+      2902,
+      3071,
+      1618
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/animal-body-plans/development-draft.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1599,
+      1937,
+      1767
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/animal-body-plans/draft.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1589,
+      1937,
+      1767
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/animal-body-plans/edited-unconfirmed.pdf",
+    "pages": 4,
+    "pageCharacters": [
+      2297,
+      2895,
+      3074,
+      1621
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/animal-body-plans/long-native-print.pdf",
+    "pages": 7,
+    "pageCharacters": [
+      2426,
+      3018,
+      1674,
+      837,
+      837,
+      824,
+      2556
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/animal-body-plans/long-offline.pdf",
+    "pages": 7,
+    "pageCharacters": [
+      2297,
+      2902,
+      2094,
+      905,
+      905,
+      905,
+      2797
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/animal-body-plans/native-print.pdf",
+    "pages": 4,
+    "pageCharacters": [
+      2417,
+      3021,
+      2592,
+      1522
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/animal-body-plans/unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2297,
+      2260,
+      2097
+    ],
+    "finalLongMarker": false
+  }
+]

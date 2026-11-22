@@ -1,0 +1,69 @@
+node.exe : [WebServer] (node:53152) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([WebServer] (no... env being set.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] 
+[WebServer] (!) Some chunks are larger than 500 kB after minification. Consider:
+[WebServer] - Using dynamic import() to code-split the application
+[WebServer] - Use build.rollupOptions.output.manualChunks to improve chunking: 
+https://rollupjs.org/configuration-options/#output-manualchunks
+[WebServer] - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[WebServer] (node:53304) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 7 tests using 1 worker
+
+(node:7504) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 tests\browser\biology-browser-contract.mjs:5:2 › transpiration: complete corrected attempt, truthful saves, named PDF/JSON/native print and edits (5.4s)
+  ok 2 tests\browser\biology-browser-contract.mjs:6:2 › transpiration: denied storage/retry, Unicode long writing and first offline PDF/native print (2.7s)
+  ok 3 tests\browser\biology-browser-contract.mjs:7:2 › transpiration: unfinished neutral PDF and export failure recovery (929ms)
+  ok 4 tests\browser\biology-browser-contract.mjs:8:2 › transpiration: root/development progress isolation and first offline development PDF (1.7s)
+  ok 5 tests\browser\transp.spec.js:11:1 › transpiration humidity and daytime-light alternatives use actual mass changes and matching controller sites (4.0s)
+  x  6 tests\browser\transp.spec.js:12:1 › transpiration view-only saved review, empty prior-time readings and current calculation edits reopen evidence (2.0m)
+(node:56108) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 7 tests\browser\transp.spec.js:13:1 › transpiration native cover drag-release, next physical plant taps, keyboard controller and phone leaf sites (2.1s)
+
+
+  1) tests\browser\transp.spec.js:12:1 › transpiration view-only saved review, empty prior-time readings and current calculation edits reopen evidence 
+
+    Test timeout of 120000ms exceeded.
+
+    Error: locator.click: Test timeout of 120000ms exceeded.
+    Call log:
+      - waiting for locator('[data-lab-action="phase"][data-id="final"]')
+        - locator resolved to <button type="button" data-id="final" data-lab-action="phase">View 30-minute snapshot</button>
+      - attempting click action
+        2 × waiting for element to be visible, enabled and stable
+          - element is not visible
+        - retrying click action
+        - waiting 20ms
+        2 × waiting for element to be visible, enabled and stable
+          - element is not visible
+        - retrying click action
+          - waiting 100ms
+        225 × waiting for element to be visible, enabled and stable
+            - element is not visible
+          - retrying click action
+            - waiting 500ms
+
+
+      10 | sharedBiologyReportTests({id,fullAttempt,lastAnswer:'mechanism',printEvidence:'Revised after feedback'});
+      11 | test('transpiration humidity and daytime-light alternatives use actual mass changes and matching controller sites',async({page})=>{for(const factor of ['humidity','light']){await page.goto('/');await page.evaluate(()=>localStorage.clear());await plan(page,factor);await setup(page,{factor,mouseModule:true,capture:factor==='humidity'});const data=await calculations(page);expect(data.changed.final).toBeGreaterThan(data.reference.final);expect(data.changed.loss).toBe(factor==='humidity'?.12:.4);expect(data.changed.rate).toBe(factor==='humidity'?.004:.013);await leaf(page);await shot(page,factor+'-leaf');}});
+    > 12 | test('transpiration view-only saved review, empty prior-time readings and current calculation edits reopen evidence',async({page})=>{await fullAttempt(page);await a(page,'complete').click();await page.getByText('Review the same saved evidence',{exact:true}).click();await a(page,'review-masses').click();await select(page,'reference');await page.getByText('Review the same model time points',{exact:true}).click();await page.locator('[data-lab-action="phase"][data-id="initial"]').click();await page.locator('[data-lab-action="phase"][data-id="final"]').click();await a(page,'calculate').click();await a(page,'explain').click();await expect(a(page,'complete')).toHaveText('Work saved as complete');await page.getByText('Review the same saved evidence',{exact:true}).click();await a(page,'review-masses').click();await page.getByText('Review the same model time points',{exact:true}).click();await page.locator('[data-lab-action="phase"][data-id="initial"]').click();await entry(page,'mass').fill('');await expect(a(page,'calculate')).toBeDisabled();await page.reload();await expect(entry(page,'mass')).toHaveValue('');await expect(pMass(page)).not.toContainText('Correct!');await downloadBiologyPdf(page,out,'edited-unconfirmed.pdf');await read(page);await a(page,'calculate').click();await expect(a(page,'explain')).toBeDisabled();await entry(page,'changed-rate').fill('');await page.reload();await expect(entry(page,'changed-rate')).toHaveValue('');await expect(pCalc(page)).not.toContainText('Correct!');});
+         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ^
+      13 | test('transpiration native cover drag-release, next physical plant taps, keyboard controller and phone leaf sites',async({browser})=>{const context=await browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true,reducedMotion:'reduce'}),page=await context.newPage();await plan(page);await page.locator('.transp-station').evaluate(el=>el.scrollIntoView({block:'center'}));const x=await page.locator('[data-tool="cover"]').boundingBox(),y=await page.locator('[data-place="cover"]').boundingBox(),client=await context.newCDPSession(page);expect(y.width).toBeGreaterThanOrEqual(44);expect(y.height).toBeGreaterThanOrEqual(44);await client.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x:x.x+x.width/2,y:x.y+x.height/2}]});for(let i=1;i<=8;i++)await client.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x:x.x+x.width/2+(y.x+y.width/2-x.x-x.width/2)*i/8,y:x.y+x.height/2+(y.y+y.height/2-x.y-x.height/2)*i/8}]});await client.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});await page.locator('[data-tool="plant"]').tap();await page.locator('[data-place="pan"]').tap();await expect(page.locator('.transp-display')).toContainText('120.00 g');await read(page);await select(page,'changed');await use(page,'cover','cover');await use(page,'plant','pan');await page.locator('[data-tool="fan"]').focus();await page.keyboard.press('Enter');await page.locator('[data-place="module"]').focus();await page.keyboard.press('Enter');await expect(entry(page,'mass')).toBeFocused();await read(page);await a(page,'advance').tap();for(const id of stations){await select(page,id);await read(page);}await a(page,'calculate').tap();await calculations(page);for(const name of ['wall','pore']){const b=await page.locator(`[data-place="${name}"]`).boundingBox();expect(b.width).toBeGreaterThanOrEqual(44);expect(b.height).toBeGreaterThanOrEqual(44);}await leaf(page);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);await shot(page,'phone-leaf');await page.setViewportSize({width:768,height:1024});await shot(page,'tablet-leaf');await context.close();});
+      14 | const pMass=p=>p.locator('.transp-mass-feedback'),pCalc=p=>p.locator('.transp-calculation-feedback');
+      15 |
+        at C:\Projects\Science_Labs\tests\browser\transp.spec.js:12:555
+
+    Error Context: test-results\transp-transpiration-view--e400f-ation-edits-reopen-evidence\error-context.md
+
+  1 failed
+    tests\browser\transp.spec.js:12:1 › transpiration view-only saved review, empty prior-time readings and current calculation edits reopen evidence 
+  6 passed (2.4m)

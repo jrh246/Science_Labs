@@ -1,0 +1,979 @@
+{
+  "schemaVersion": 1,
+  "createdOn": "2026-11-14",
+  "scope": "The 33 planned labs in the existing Biology main catalog; supplementary activities and already available labs are excluded.",
+  "catalogSnapshot": {
+    "source": "src/catalog.js",
+    "total": 48,
+    "available": 15,
+    "planned": 33
+  },
+  "concurrencyLimit": 1,
+  "reviewScope": "Development acceptance against the documented build guide; classroom, qualified-user, hardware, and production release acceptance remain explicitly separate.",
+  "localizationScope": "G18 preparation is required in each build. Native language switching and translated print delivery remain planned AUD-10 work; do not claim Spanish readiness from an English build.",
+  "checklist": [
+    {
+      "id": "G01",
+      "title": "Learning evidence",
+      "requirement": "Define the question, two to four learning goals, misconceptions, and observable/written evidence for each goal."
+    },
+    {
+      "id": "G02",
+      "title": "Purposeful controls and repetition",
+      "requirement": "Justify every condition, control, sample, and trial. Streamline repeated preparation without copying observations or inventing independence."
+    },
+    {
+      "id": "G03",
+      "title": "Scientific accuracy",
+      "requirement": "Check mechanisms, quantities, locations, conclusions, questions, and model rules against relevant primary/institutional sources. Resolve disputed claims."
+    },
+    {
+      "id": "G04",
+      "title": "Model limits",
+      "requirement": "Explain simplifications, supplied data, accelerated time, uncertainty, and the limits of conclusions where they matter."
+    },
+    {
+      "id": "G05",
+      "title": "Meaningful interaction",
+      "requirement": "Students manipulate, measure, classify, or make decisions that cause visible changes and provide evidence of learning. Navigation clicks alone do not pass."
+    },
+    {
+      "id": "G06",
+      "title": "Realistic visuals and geometry",
+      "requirement": "Review convincing apparatus/specimens and plausible motion at starting, intermediate, and final states. Verify target alignment after resize, scroll, and reload."
+    },
+    {
+      "id": "G07",
+      "title": "Fair choices and hints",
+      "requirement": "Avoid answers given by order or decoration; preserve biological order and stable per-attempt choices."
+    },
+    {
+      "id": "G08",
+      "title": "Ninth-grade wording",
+      "requirement": "Review all authored directions, vocabulary, questions, labels, hints, errors, feedback, and handouts. Explain necessary terms. Keep student answers verbatim."
+    },
+    {
+      "id": "G09",
+      "title": "Prediction and checkpoint gates",
+      "requirement": "Required thinking is explicitly labeled and enforced before the relevant action. Do not reveal the next-step instruction before its prediction/checkpoint."
+    },
+    {
+      "id": "G10",
+      "title": "Correctness and corrective feedback",
+      "requirement": "Show explicit correct/incorrect status, a scientific explanation, and a usable correction path. Preserve meaningful revisions."
+    },
+    {
+      "id": "G11",
+      "title": "Truthful saving",
+      "requirement": "Show nearby confirmation only after a successful save; verify repeated completion clicks, denied storage, failure/retry, and honest device/account messages."
+    },
+    {
+      "id": "G12",
+      "title": "Work preservation",
+      "requirement": "Restore partial/completed attempts, keep stable IDs, preserve prior work, and invalidate stale completion after substantive edits."
+    },
+    {
+      "id": "G13",
+      "title": "Required PDF and print",
+      "requirement": "Provide completed student PDF download and native print, optional name/period, safe named/unnamed filenames, and readable export date/time/time zone."
+    },
+    {
+      "id": "G14",
+      "title": "Learning-focused reports",
+      "requirement": "Include actual predictions, data and units/sources, goal-level evidence, corrections, checked answers, original explanations, and model limits rather than a click log."
+    },
+    {
+      "id": "G15",
+      "title": "Report/resource fidelity",
+      "requirement": "Compare PDF, native print, and structured snapshots. Render short/long, draft/completed reports and handouts; inspect Unicode, fonts, tables, page breaks, and applicable first-offline PDF output."
+    },
+    {
+      "id": "G16",
+      "title": "Accessible interaction",
+      "requirement": "Check mouse, touch, select/place, keyboard, focus, contrast, reduced motion, target sizes, and phone/tablet/desktop layout. Keep hardware testing separate from emulation."
+    },
+    {
+      "id": "G17",
+      "title": "Meaningful validation",
+      "requirement": "Run appropriate model, workflow, build, resource/cache, and relevant regression checks. Record actual commands, outcomes, failures/fixes, and artifact paths."
+    },
+    {
+      "id": "G18",
+      "title": "Localization readiness",
+      "requirement": "Keep authored content translatable with stable IDs and original responses. Document app/report/resource locale needs and actual language availability. Full Spanish/other-language delivery remains future AUD-10 work unless explicitly included and validated."
+    },
+    {
+      "id": "RESOURCES",
+      "title": "Student and teacher materials",
+      "requirement": "Supply matching student worksheets/collector sheets and teacher guidance where appropriate, with reviewed modes, prompts, controls, units, source notes, and limitations. Explain any virtual-only scope."
+    },
+    {
+      "id": "ACCESS",
+      "title": "Platform access and release behavior",
+      "requirement": "Verify guest/free lab access and reports, manual public sharing/favorites, trial/paid teaching features, enrolled-student assignment access, owner previews, immutable versions, and publication controls as applicable. Do not publish production content as a side effect of acceptance."
+    },
+    {
+      "id": "TRACKING",
+      "title": "Catalog and curriculum integrity",
+      "requirement": "Preserve stable IDs and correct units/modes/routes. Update actual implementation/resource records and regenerate/sync dataset outputs only when their sources change. Do not infer standards approval, translated readiness, or whole-course completion."
+    }
+  ],
+  "labs": [
+    {
+      "sequence": 1,
+      "labId": "seed-germination",
+      "title": "Seed Germination",
+      "unitId": "chemistry-of-life",
+      "unitTitle": "The Chemistry of Life",
+      "chapter": 1,
+      "chapterTitle": "The Study of Life",
+      "purpose": "Design a controlled investigation of the conditions seeds need to germinate.",
+      "sourceStatusOnPlan": "planned",
+      "build": {
+        "id": "BIO-01-BUILD",
+        "status": "done",
+        "dependsOn": []
+      },
+      "review": {
+        "id": "BIO-01-REVIEW",
+        "status": "passed",
+        "dependsOn": [
+          "BIO-01-BUILD"
+        ],
+        "record": "data/development-tracker/biology-reviews/seed-germination.json"
+      }
+    },
+    {
+      "sequence": 2,
+      "labId": "water-surface-tension",
+      "title": "Water and Surface Tension",
+      "unitId": "chemistry-of-life",
+      "unitTitle": "The Chemistry of Life",
+      "chapter": 2,
+      "chapterTitle": "The Chemical Foundation of Life",
+      "purpose": "Compare water droplets and investigate cohesion and molecular interactions.",
+      "sourceStatusOnPlan": "planned",
+      "build": {
+        "id": "BIO-02-BUILD",
+        "status": "done",
+        "dependsOn": [
+          "BIO-01-REVIEW"
+        ]
+      },
+      "review": {
+        "id": "BIO-02-REVIEW",
+        "status": "passed",
+        "dependsOn": [
+          "BIO-02-BUILD"
+        ],
+        "record": "data/development-tracker/biology-reviews/water-surface-tension.json"
+      }
+    },
+    {
+      "sequence": 3,
+      "labId": "food-macromolecules",
+      "title": "Identify an Unknown Food Sample",
+      "unitId": "chemistry-of-life",
+      "unitTitle": "The Chemistry of Life",
+      "chapter": 3,
+      "chapterTitle": "Biological Macromolecules",
+      "purpose": "Use indicator tests and controls to investigate biological macromolecules.",
+      "sourceStatusOnPlan": "planned",
+      "build": {
+        "id": "BIO-03-BUILD",
+        "status": "done",
+        "dependsOn": [
+          "BIO-02-REVIEW"
+        ]
+      },
+      "review": {
+        "id": "BIO-03-REVIEW",
+        "status": "passed",
+        "dependsOn": [
+          "BIO-03-BUILD"
+        ],
+        "record": "data/development-tracker/biology-reviews/food-macromolecules.json"
+      }
+    },
+    {
+      "sequence": 4,
+      "labId": "natural-selection",
+      "title": "Natural Selection in Changing Habitats",
+      "unitId": "evolution",
+      "unitTitle": "Evolutionary Processes",
+      "chapter": 18,
+      "chapterTitle": "Evolution and the Origin of Species",
+      "purpose": "Investigate how food availability affects inherited traits across generations.",
+      "sourceStatusOnPlan": "planned",
+      "build": {
+        "id": "BIO-04-BUILD",
+        "status": "done",
+        "dependsOn": [
+          "BIO-03-REVIEW"
+        ]
+      },
+      "review": {
+        "id": "BIO-04-REVIEW",
+        "status": "passed",
+        "dependsOn": [
+          "BIO-04-BUILD"
+        ],
+        "record": "data/development-tracker/biology-reviews/natural-selection.json"
+      }
+    },
+    {
+      "sequence": 5,
+      "labId": "genetic-drift",
+      "title": "Genetic Drift and Natural Selection",
+      "unitId": "evolution",
+      "unitTitle": "Evolutionary Processes",
+      "chapter": 19,
+      "chapterTitle": "The Evolution of Populations",
+      "purpose": "Compare allele frequencies in populations of different sizes.",
+      "sourceStatusOnPlan": "planned",
+      "build": {
+        "id": "BIO-05-BUILD",
+        "status": "done",
+        "dependsOn": [
+          "BIO-04-REVIEW"
+        ]
+      },
+      "review": {
+        "id": "BIO-05-REVIEW",
+        "status": "passed",
+        "dependsOn": [
+          "BIO-05-BUILD"
+        ],
+        "record": "data/development-tracker/biology-reviews/genetic-drift.json"
+      }
+    },
+    {
+      "sequence": 6,
+      "labId": "phylogenetic-trees",
+      "title": "Build a Phylogenetic Tree",
+      "unitId": "evolution",
+      "unitTitle": "Evolutionary Processes",
+      "chapter": 20,
+      "chapterTitle": "Phylogenies and the History of Life",
+      "purpose": "Use morphological and sequence evidence to infer evolutionary relationships.",
+      "sourceStatusOnPlan": "planned",
+      "build": {
+        "id": "BIO-06-BUILD",
+        "status": "done",
+        "dependsOn": [
+          "BIO-05-REVIEW"
+        ]
+      },
+      "review": {
+        "id": "BIO-06-REVIEW",
+        "status": "passed",
+        "dependsOn": [
+          "BIO-06-BUILD"
+        ],
+        "record": "data/development-tracker/biology-reviews/phylogenetic-trees.json"
+      }
+    },
+    {
+      "sequence": 7,
+      "labId": "viral-spread",
+      "title": "Modeling Viral Spread",
+      "unitId": "biological-diversity",
+      "unitTitle": "Biological Diversity",
+      "chapter": 21,
+      "chapterTitle": "Viruses",
+      "purpose": "Investigate contact networks and transmission using a model outbreak.",
+      "sourceStatusOnPlan": "planned",
+      "build": {
+        "id": "BIO-07-BUILD",
+        "status": "done",
+        "dependsOn": [
+          "BIO-06-REVIEW"
+        ]
+      },
+      "review": {
+        "id": "BIO-07-REVIEW",
+        "status": "passed",
+        "dependsOn": [
+          "BIO-07-BUILD"
+        ],
+        "record": "data/development-tracker/biology-reviews/viral-spread.json"
+      }
+    },
+    {
+      "sequence": 8,
+      "labId": "unknown-prokaryote",
+      "title": "Investigate an Unknown Prokaryote",
+      "unitId": "biological-diversity",
+      "unitTitle": "Biological Diversity",
+      "chapter": 22,
+      "chapterTitle": "Prokaryotes: Bacteria and Archaea",
+      "purpose": "Combine microscopy and metabolic evidence to classify unknown samples.",
+      "sourceStatusOnPlan": "planned",
+      "build": {
+        "id": "BIO-08-BUILD",
+        "status": "done",
+        "dependsOn": [
+          "BIO-07-REVIEW"
+        ]
+      },
+      "review": {
+        "id": "BIO-08-REVIEW",
+        "status": "passed",
+        "dependsOn": [
+          "BIO-08-BUILD"
+        ],
+        "record": "data/development-tracker/biology-reviews/unknown-prokaryote.json"
+      }
+    },
+    {
+      "sequence": 9,
+      "labId": "protist-movement",
+      "title": "Protist Structure and Movement",
+      "unitId": "biological-diversity",
+      "unitTitle": "Biological Diversity",
+      "chapter": 23,
+      "chapterTitle": "Protists",
+      "purpose": "Compare locomotion and cellular structures in microscopic organisms.",
+      "sourceStatusOnPlan": "planned",
+      "build": {
+        "id": "BIO-09-BUILD",
+        "status": "done",
+        "dependsOn": [
+          "BIO-08-REVIEW"
+        ]
+      },
+      "review": {
+        "id": "BIO-09-REVIEW",
+        "status": "passed",
+        "dependsOn": [
+          "BIO-09-BUILD"
+        ],
+        "record": "data/development-tracker/biology-reviews/protist-movement.json"
+      }
+    },
+    {
+      "sequence": 10,
+      "labId": "fungal-structures",
+      "title": "Fungal Structures and Reproduction",
+      "unitId": "biological-diversity",
+      "unitTitle": "Biological Diversity",
+      "chapter": 24,
+      "chapterTitle": "Fungi",
+      "purpose": "Examine fungi and compare their reproductive structures.",
+      "sourceStatusOnPlan": "planned",
+      "build": {
+        "id": "BIO-10-BUILD",
+        "status": "done",
+        "dependsOn": [
+          "BIO-09-REVIEW"
+        ]
+      },
+      "review": {
+        "id": "BIO-10-REVIEW",
+        "status": "passed",
+        "dependsOn": [
+          "BIO-10-BUILD"
+        ],
+        "record": "data/development-tracker/biology-reviews/fungal-structures.json"
+      }
+    },
+    {
+      "sequence": 11,
+      "labId": "moss-fern",
+      "title": "Moss and Fern Life Cycles",
+      "unitId": "biological-diversity",
+      "unitTitle": "Biological Diversity",
+      "chapter": 25,
+      "chapterTitle": "Seedless Plants",
+      "purpose": "Trace gametophyte and sporophyte stages in seedless plants.",
+      "sourceStatusOnPlan": "planned",
+      "build": {
+        "id": "BIO-11-BUILD",
+        "status": "done",
+        "dependsOn": [
+          "BIO-10-REVIEW"
+        ]
+      },
+      "review": {
+        "id": "BIO-11-REVIEW",
+        "status": "passed",
+        "dependsOn": [
+          "BIO-11-BUILD"
+        ],
+        "record": "data/development-tracker/biology-reviews/moss-fern.json"
+      }
+    },
+    {
+      "sequence": 12,
+      "labId": "seed-dispersal",
+      "title": "Seed Dispersal Designs",
+      "unitId": "biological-diversity",
+      "unitTitle": "Biological Diversity",
+      "chapter": 26,
+      "chapterTitle": "Seed Plants",
+      "purpose": "Test how seed structures and wind affect dispersal distance.",
+      "sourceStatusOnPlan": "planned",
+      "build": {
+        "id": "BIO-12-BUILD",
+        "status": "done",
+        "dependsOn": [
+          "BIO-11-REVIEW"
+        ]
+      },
+      "review": {
+        "id": "BIO-12-REVIEW",
+        "status": "passed",
+        "dependsOn": [
+          "BIO-12-BUILD"
+        ],
+        "record": "data/development-tracker/biology-reviews/seed-dispersal.json"
+      }
+    },
+    {
+      "sequence": 13,
+      "labId": "animal-body-plans",
+      "title": "Classifying Animal Body Plans",
+      "unitId": "biological-diversity",
+      "unitTitle": "Biological Diversity",
+      "chapter": 27,
+      "chapterTitle": "Introduction to Animal Diversity",
+      "purpose": "Compare symmetry, tissues, and body cavities using evidence.",
+      "sourceStatusOnPlan": "planned",
+      "build": {
+        "id": "BIO-13-BUILD",
+        "status": "done",
+        "dependsOn": [
+          "BIO-12-REVIEW"
+        ]
+      },
+      "review": {
+        "id": "BIO-13-REVIEW",
+        "status": "passed",
+        "dependsOn": [
+          "BIO-13-BUILD"
+        ],
+        "record": "data/development-tracker/biology-reviews/animal-body-plans.json"
+      }
+    },
+    {
+      "sequence": 14,
+      "labId": "invertebrate-key",
+      "title": "Build an Invertebrate Identification Key",
+      "unitId": "biological-diversity",
+      "unitTitle": "Biological Diversity",
+      "chapter": 28,
+      "chapterTitle": "Invertebrates",
+      "purpose": "Create and test a branching key using observable traits.",
+      "sourceStatusOnPlan": "planned",
+      "build": {
+        "id": "BIO-14-BUILD",
+        "status": "done",
+        "dependsOn": [
+          "BIO-13-REVIEW"
+        ]
+      },
+      "review": {
+        "id": "BIO-14-REVIEW",
+        "status": "passed",
+        "dependsOn": [
+          "BIO-14-BUILD"
+        ],
+        "record": "data/development-tracker/biology-reviews/invertebrate-key.json"
+      }
+    },
+    {
+      "sequence": 15,
+      "labId": "vertebrate-limbs",
+      "title": "Vertebrate Limb Adaptations",
+      "unitId": "biological-diversity",
+      "unitTitle": "Biological Diversity",
+      "chapter": 29,
+      "chapterTitle": "Vertebrates",
+      "purpose": "Measure homologous structures and investigate form and function.",
+      "sourceStatusOnPlan": "planned",
+      "build": {
+        "id": "BIO-15-BUILD",
+        "status": "done",
+        "dependsOn": [
+          "BIO-14-REVIEW"
+        ]
+      },
+      "review": {
+        "id": "BIO-15-REVIEW",
+        "status": "passed",
+        "dependsOn": [
+          "BIO-15-BUILD"
+        ],
+        "record": "data/development-tracker/biology-reviews/vertebrate-limbs.json"
+      }
+    },
+    {
+      "sequence": 16,
+      "labId": "transpiration",
+      "title": "What Affects Transpiration?",
+      "unitId": "plant-structure-function",
+      "unitTitle": "Plant Structure and Function",
+      "chapter": 30,
+      "chapterTitle": "Plant Form and Physiology",
+      "purpose": "Compare plant water loss under different environmental conditions.",
+      "sourceStatusOnPlan": "planned",
+      "build": {
+        "id": "BIO-16-BUILD",
+        "status": "done",
+        "dependsOn": [
+          "BIO-15-REVIEW"
+        ]
+      },
+      "review": {
+        "id": "BIO-16-REVIEW",
+        "status": "passed",
+        "dependsOn": [
+          "BIO-16-BUILD"
+        ],
+        "record": "data/development-tracker/biology-reviews/transpiration.json"
+      }
+    },
+    {
+      "sequence": 17,
+      "labId": "soil-water",
+      "title": "Which Soils Retain Water?",
+      "unitId": "plant-structure-function",
+      "unitTitle": "Plant Structure and Function",
+      "chapter": 31,
+      "chapterTitle": "Soil and Plant Nutrition",
+      "purpose": "Compare drainage and water retention across soil compositions.",
+      "sourceStatusOnPlan": "planned",
+      "build": {
+        "id": "BIO-17-BUILD",
+        "status": "done",
+        "dependsOn": [
+          "BIO-16-REVIEW"
+        ]
+      },
+      "review": {
+        "id": "BIO-17-REVIEW",
+        "status": "passed",
+        "dependsOn": [
+          "BIO-17-BUILD"
+        ],
+        "record": "data/development-tracker/biology-reviews/soil-water.json"
+      }
+    },
+    {
+      "sequence": 18,
+      "labId": "flower-pollination",
+      "title": "Flower Structure and Pollination",
+      "unitId": "plant-structure-function",
+      "unitTitle": "Plant Structure and Function",
+      "chapter": 32,
+      "chapterTitle": "Plant Reproduction",
+      "purpose": "Explore reproductive structures and trace pollination through fertilization.",
+      "sourceStatusOnPlan": "planned",
+      "build": {
+        "id": "BIO-18-BUILD",
+        "status": "done",
+        "dependsOn": [
+          "BIO-17-REVIEW"
+        ]
+      },
+      "review": {
+        "id": "BIO-18-REVIEW",
+        "status": "passed",
+        "dependsOn": [
+          "BIO-18-BUILD"
+        ],
+        "record": "data/development-tracker/biology-reviews/flower-pollination.json"
+      }
+    },
+    {
+      "sequence": 19,
+      "labId": "body-heat",
+      "title": "Body Size and Heat Exchange",
+      "unitId": "animal-structure-function",
+      "unitTitle": "Animal Structure and Function",
+      "chapter": 33,
+      "chapterTitle": "The Animal Body: Basic Form and Function",
+      "purpose": "Use physical models to relate surface area and volume to cooling.",
+      "sourceStatusOnPlan": "planned",
+      "build": {
+        "id": "BIO-19-BUILD",
+        "status": "done",
+        "dependsOn": [
+          "BIO-18-REVIEW"
+        ]
+      },
+      "review": {
+        "id": "BIO-19-REVIEW",
+        "status": "passed",
+        "dependsOn": [
+          "BIO-19-BUILD"
+        ],
+        "record": "data/development-tracker/biology-reviews/body-heat.json"
+      }
+    },
+    {
+      "sequence": 20,
+      "labId": "starch-digestion",
+      "title": "Investigating Starch Digestion",
+      "unitId": "animal-structure-function",
+      "unitTitle": "Animal Structure and Function",
+      "chapter": 34,
+      "chapterTitle": "Animal Nutrition and the Digestive System",
+      "purpose": "Explore how digestive conditions affect starch breakdown.",
+      "sourceStatusOnPlan": "planned",
+      "build": {
+        "id": "BIO-20-BUILD",
+        "status": "done",
+        "dependsOn": [
+          "BIO-19-REVIEW"
+        ]
+      },
+      "review": {
+        "id": "BIO-20-REVIEW",
+        "status": "passed",
+        "dependsOn": [
+          "BIO-20-BUILD"
+        ],
+        "record": "data/development-tracker/biology-reviews/starch-digestion.json"
+      }
+    },
+    {
+      "sequence": 21,
+      "labId": "reaction-time",
+      "title": "Investigating Reaction Time",
+      "unitId": "animal-structure-function",
+      "unitTitle": "Animal Structure and Function",
+      "chapter": 35,
+      "chapterTitle": "The Nervous System",
+      "purpose": "Analyze repeated measurements of response time and variability.",
+      "sourceStatusOnPlan": "planned",
+      "build": {
+        "id": "BIO-21-BUILD",
+        "status": "done",
+        "dependsOn": [
+          "BIO-20-REVIEW"
+        ]
+      },
+      "review": {
+        "id": "BIO-21-REVIEW",
+        "status": "passed",
+        "dependsOn": [
+          "BIO-21-BUILD"
+        ],
+        "record": "data/development-tracker/biology-reviews/reaction-time.json"
+      }
+    },
+    {
+      "sequence": 22,
+      "labId": "blind-spot",
+      "title": "Map Your Visual Blind Spot",
+      "unitId": "animal-structure-function",
+      "unitTitle": "Animal Structure and Function",
+      "chapter": 36,
+      "chapterTitle": "Sensory Systems",
+      "purpose": "Use visual targets to investigate sensory perception.",
+      "sourceStatusOnPlan": "planned",
+      "build": {
+        "id": "BIO-22-BUILD",
+        "status": "done",
+        "dependsOn": [
+          "BIO-21-REVIEW"
+        ]
+      },
+      "review": {
+        "id": "BIO-22-REVIEW",
+        "status": "passed",
+        "dependsOn": [
+          "BIO-22-BUILD"
+        ],
+        "record": "data/development-tracker/biology-reviews/blind-spot.json"
+      }
+    },
+    {
+      "sequence": 23,
+      "labId": "glucose-feedback",
+      "title": "Modeling Blood Glucose Feedback",
+      "unitId": "animal-structure-function",
+      "unitTitle": "Animal Structure and Function",
+      "chapter": 37,
+      "chapterTitle": "The Endocrine System",
+      "purpose": "Track glucose and hormone responses in a feedback model.",
+      "sourceStatusOnPlan": "planned",
+      "build": {
+        "id": "BIO-23-BUILD",
+        "status": "done",
+        "dependsOn": [
+          "BIO-22-REVIEW"
+        ]
+      },
+      "review": {
+        "id": "BIO-23-REVIEW",
+        "status": "passed",
+        "dependsOn": [
+          "BIO-23-BUILD"
+        ],
+        "record": "data/development-tracker/biology-reviews/glucose-feedback.json"
+      }
+    },
+    {
+      "sequence": 24,
+      "labId": "muscle-levers",
+      "title": "Muscles, Levers, and Movement",
+      "unitId": "animal-structure-function",
+      "unitTitle": "Animal Structure and Function",
+      "chapter": 38,
+      "chapterTitle": "The Musculoskeletal System",
+      "purpose": "Investigate how attachment points change the force needed to lift a load.",
+      "sourceStatusOnPlan": "planned",
+      "build": {
+        "id": "BIO-24-BUILD",
+        "status": "done",
+        "dependsOn": [
+          "BIO-23-REVIEW"
+        ]
+      },
+      "review": {
+        "id": "BIO-24-REVIEW",
+        "status": "passed",
+        "dependsOn": [
+          "BIO-24-BUILD"
+        ],
+        "record": "data/development-tracker/biology-reviews/muscle-levers.json"
+      }
+    },
+    {
+      "sequence": 25,
+      "labId": "breathing",
+      "title": "Pressure, Volume, and Breathing",
+      "unitId": "animal-structure-function",
+      "unitTitle": "Animal Structure and Function",
+      "chapter": 39,
+      "chapterTitle": "The Respiratory System",
+      "purpose": "Use a lung model to connect pressure changes with airflow.",
+      "sourceStatusOnPlan": "planned",
+      "build": {
+        "id": "BIO-25-BUILD",
+        "status": "done",
+        "dependsOn": [
+          "BIO-24-REVIEW"
+        ]
+      },
+      "review": {
+        "id": "BIO-25-REVIEW",
+        "status": "passed",
+        "dependsOn": [
+          "BIO-25-BUILD"
+        ],
+        "record": "data/development-tracker/biology-reviews/breathing.json"
+      }
+    },
+    {
+      "sequence": 26,
+      "labId": "blood-flow",
+      "title": "Vessel Diameter and Flow",
+      "unitId": "animal-structure-function",
+      "unitTitle": "Animal Structure and Function",
+      "chapter": 40,
+      "chapterTitle": "The Circulatory System",
+      "purpose": "Investigate how vessel size and pressure affect fluid flow.",
+      "sourceStatusOnPlan": "planned",
+      "build": {
+        "id": "BIO-26-BUILD",
+        "status": "done",
+        "dependsOn": [
+          "BIO-25-REVIEW"
+        ]
+      },
+      "review": {
+        "id": "BIO-26-REVIEW",
+        "status": "passed",
+        "dependsOn": [
+          "BIO-26-BUILD"
+        ],
+        "record": "data/development-tracker/biology-reviews/blood-flow.json"
+      }
+    },
+    {
+      "sequence": 27,
+      "labId": "nephron",
+      "title": "Modeling the Nephron",
+      "unitId": "animal-structure-function",
+      "unitTitle": "Animal Structure and Function",
+      "chapter": 41,
+      "chapterTitle": "Osmotic Regulation and Excretion",
+      "purpose": "Track filtration, reabsorption, and secretion to explain urine composition.",
+      "sourceStatusOnPlan": "planned",
+      "build": {
+        "id": "BIO-27-BUILD",
+        "status": "done",
+        "dependsOn": [
+          "BIO-26-REVIEW"
+        ]
+      },
+      "review": {
+        "id": "BIO-27-REVIEW",
+        "status": "passed",
+        "dependsOn": [
+          "BIO-27-BUILD"
+        ],
+        "record": "data/development-tracker/biology-reviews/nephron.json"
+      }
+    },
+    {
+      "sequence": 28,
+      "labId": "immune-memory",
+      "title": "Investigating Immune Memory",
+      "unitId": "animal-structure-function",
+      "unitTitle": "Animal Structure and Function",
+      "chapter": 42,
+      "chapterTitle": "The Immune System",
+      "purpose": "Compare primary and secondary immune responses.",
+      "sourceStatusOnPlan": "planned",
+      "build": {
+        "id": "BIO-28-BUILD",
+        "status": "done",
+        "dependsOn": [
+          "BIO-27-REVIEW"
+        ]
+      },
+      "review": {
+        "id": "BIO-28-REVIEW",
+        "status": "passed",
+        "dependsOn": [
+          "BIO-28-BUILD"
+        ],
+        "record": "data/development-tracker/biology-reviews/immune-memory.json"
+      }
+    },
+    {
+      "sequence": 29,
+      "labId": "embryonic-development",
+      "title": "Early Embryonic Development",
+      "unitId": "animal-structure-function",
+      "unitTitle": "Animal Structure and Function",
+      "chapter": 43,
+      "chapterTitle": "Animal Reproduction and Development",
+      "purpose": "Identify cleavage, gastrulation, and germ-layer formation.",
+      "sourceStatusOnPlan": "planned",
+      "build": {
+        "id": "BIO-29-BUILD",
+        "status": "done",
+        "dependsOn": [
+          "BIO-28-REVIEW"
+        ]
+      },
+      "review": {
+        "id": "BIO-29-REVIEW",
+        "status": "passed",
+        "dependsOn": [
+          "BIO-29-BUILD"
+        ],
+        "record": "data/development-tracker/biology-reviews/embryonic-development.json"
+      }
+    },
+    {
+      "sequence": 30,
+      "labId": "microhabitats",
+      "title": "Investigating Microhabitats",
+      "unitId": "ecology",
+      "unitTitle": "Ecology",
+      "chapter": 44,
+      "chapterTitle": "Ecology and the Biosphere",
+      "purpose": "Compare environmental conditions and organism distributions.",
+      "sourceStatusOnPlan": "planned",
+      "build": {
+        "id": "BIO-30-BUILD",
+        "status": "done",
+        "dependsOn": [
+          "BIO-29-REVIEW"
+        ]
+      },
+      "review": {
+        "id": "BIO-30-REVIEW",
+        "status": "passed",
+        "dependsOn": [
+          "BIO-30-BUILD"
+        ],
+        "record": "data/development-tracker/biology-reviews/microhabitats.json"
+      }
+    },
+    {
+      "sequence": 31,
+      "labId": "population-estimates",
+      "title": "Estimating Population Size",
+      "unitId": "ecology",
+      "unitTitle": "Ecology",
+      "chapter": 45,
+      "chapterTitle": "Population and Community Ecology",
+      "purpose": "Test mark–recapture estimates and their sampling assumptions.",
+      "sourceStatusOnPlan": "planned",
+      "build": {
+        "id": "BIO-31-BUILD",
+        "status": "done",
+        "dependsOn": [
+          "BIO-30-REVIEW"
+        ]
+      },
+      "review": {
+        "id": "BIO-31-REVIEW",
+        "status": "passed",
+        "dependsOn": [
+          "BIO-31-BUILD"
+        ],
+        "record": "data/development-tracker/biology-reviews/population-estimates.json"
+      }
+    },
+    {
+      "sequence": 32,
+      "labId": "food-web-energy",
+      "title": "Energy Through a Food Web",
+      "unitId": "ecology",
+      "unitTitle": "Ecology",
+      "chapter": 46,
+      "chapterTitle": "Ecosystems",
+      "purpose": "Track energy budgets and compare transfer between trophic levels.",
+      "sourceStatusOnPlan": "planned",
+      "build": {
+        "id": "BIO-32-BUILD",
+        "status": "done",
+        "dependsOn": [
+          "BIO-31-REVIEW"
+        ]
+      },
+      "review": {
+        "id": "BIO-32-REVIEW",
+        "status": "passed",
+        "dependsOn": [
+          "BIO-32-BUILD"
+        ],
+        "record": "data/development-tracker/biology-reviews/food-web-energy.json"
+      }
+    },
+    {
+      "sequence": 33,
+      "labId": "reserve-design",
+      "title": "Design a Biodiversity Reserve",
+      "unitId": "ecology",
+      "unitTitle": "Ecology",
+      "chapter": 47,
+      "chapterTitle": "Conservation Biology and Biodiversity",
+      "purpose": "Compare habitat protection and connectivity under a fixed budget.",
+      "sourceStatusOnPlan": "planned",
+      "build": {
+        "id": "BIO-33-BUILD",
+        "status": "done",
+        "dependsOn": [
+          "BIO-32-REVIEW"
+        ]
+      },
+      "review": {
+        "id": "BIO-33-REVIEW",
+        "status": "passed",
+        "dependsOn": [
+          "BIO-33-BUILD"
+        ],
+        "record": "data/development-tracker/biology-reviews/reserve-design.json"
+      }
+    }
+  ]
+}

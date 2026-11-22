@@ -1,0 +1,286 @@
+{
+  "schemaVersion": 1,
+  "labId": "population-estimates",
+  "taskId": "BIO-31-REVIEW",
+  "reviewedBy": "Codex - separate development review",
+  "reviewedOn": "2026-11-15",
+  "sourceSnapshot": "sha256:edd641dbc4b093a26d6d58a6f9598df24c08de654d2469c0d9c6296bb526e9ea",
+  "checks": {
+    "G01": {
+      "status": "pass",
+      "notes": "Authored goals map to retained decisions/calculations and original explanations. Net at actual pond captures a visible water-tray batch, batch tag marker marks20once, release supplies mixing. Student counts visible gold triangle tags and computes each ratio; three fresh catches show sampling variation, separate provided case tests assumptions. Direct saved catch review never resamples.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/population-estimates/build-brief.md",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/complete-responses.json"
+      ]
+    },
+    "G02": {
+      "status": "pass",
+      "notes": "One first marking batch replaces20repetitive clicks; three genuinely fresh catches from the unchanged population show sampling variation and may tie. Fourth is distinct supplied low-recapture illustration. Review return avoids repeated capture/marking.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/population-estimates/build-brief.md",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/review-notes.md"
+      ]
+    },
+    "G03": {
+      "status": "pass",
+      "notes": "OpenStax45.1 and McNair et al. closed-population/zero-recapture background consulted. Original fixed80population,20original marks and fresh20-fish random catches without replacement within catch, full release/remix between. Simple ratio approximate, no exact/unbiased guarantee; R0not estimable. Separate supplied R2case illustrates algebra/underrepresentation, not a measured treatment or independent pond.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/population-estimates/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/final-model-tests.txt"
+      ]
+    },
+    "G04": {
+      "status": "pass",
+      "notes": "Supplied versus observed values and model boundaries reviewed beside work and in reports. OpenStax45.1 and McNair et al. closed-population/zero-recapture background consulted. Original fixed80population,20original marks and fresh20-fish random catches without replacement within catch, full release/remix between. Simple ratio approximate, no exact/unbiased guarantee; R0not estimable. Separate supplied R2case illustrates algebra/underrepresentation, not a measured treatment or independent pond.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/population-estimates/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/review-notes.md"
+      ]
+    },
+    "G05": {
+      "status": "pass",
+      "notes": "Net at actual pond captures a visible water-tray batch, batch tag marker marks20once, release supplies mixing. Student counts visible gold triangle tags and computes each ratio; three fresh catches show sampling variation, separate provided case tests assumptions. Direct saved catch review never resamples.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/population-estimates/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/visual-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/visual-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/visual-contact-3.png"
+      ]
+    },
+    "G06": {
+      "status": "pass",
+      "notes": "Nine actual desktop/phone/tablet states inspected: hidden pond, unmarked/marked20-fish tray, three recaptures and supplied case. Original fish fins/eyes/tails and shape-coded tags readable; corrected initial batch caption before marking. Schematics, hidden whole pond and enlarged fish explicit, tray remains filled with water.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/population-estimates/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/visual-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/visual-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/visual-contact-3.png"
+      ]
+    },
+    "G07": {
+      "status": "pass",
+      "notes": "Choice identity/meaningful sequence preserved, shuffled banks stable for an attempt. Current rejection/correction reviewed. Fixed report forgetting prior model-count reveal during saved catch review, clarified first-batch caption and kept long limits/sources together. Confirmed/fixed shared native-print heading splitting; retained real before fixture and failed pagination check. Initial zero fixture timeout was save-on-pagehide overwriting test-injected state; moved injection before initialization. Initial6/7 and premature second-run port collision retained; final7pass. No misleading zero/infinite estimate.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/population-estimates/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/final-browser-tests.txt"
+      ]
+    },
+    "G08": {
+      "status": "pass",
+      "notes": "Full UI/report/resource pathway manually read. Mark-recapture, recapture, closed population, M/n/R, mixing and formula limits explained in short directions. Heuristic7.5/11.7words only; classroom comprehension separate.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/population-estimates/reading-screen.json",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/review-notes.md"
+      ]
+    },
+    "G09": {
+      "status": "pass",
+      "notes": "Initial reasoning gates model/UI before observation; current academic edits immediately disable dependent actions and preserve raw values on reload.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/population-estimates/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/final-browser-tests.txt"
+      ]
+    },
+    "G10": {
+      "status": "pass",
+      "notes": "Correct!/Try again feedback explains the rule; current wrong/blank stays unconfirmed and actual revision distinct. Fixed report forgetting prior model-count reveal during saved catch review, clarified first-batch caption and kept long limits/sources together. Confirmed/fixed shared native-print heading splitting; retained real before fixture and failed pagination check. Initial zero fixture timeout was save-on-pagehide overwriting test-injected state; moved injection before initialization. Initial6/7 and premature second-run port collision retained; final7pass. No misleading zero/infinite estimate.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/population-estimates/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/edited-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/final-model-tests.txt"
+      ]
+    },
+    "G11": {
+      "status": "pass",
+      "notes": "Actual successful/repeated/reloaded completion, denied storage/retry, identity versus academic edits; view-only saved-evidence return preserves completion.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/population-estimates/final-browser-tests.txt"
+      ]
+    },
+    "G12": {
+      "status": "pass",
+      "notes": "Versioned scoped attempt/locale and stable IDs retain original reasoning/current wrong/blank/corrections across reload. No regenerated observations on review.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/population-estimates/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/final-model-tests.txt"
+      ]
+    },
+    "G13": {
+      "status": "pass",
+      "notes": "Actual named and neutral completed/draft downloadable PDFs plus native print; optional name/period, safe filename and standard local timestamp checked.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/population-estimates/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/draft.pdf",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/native-print.pdf"
+      ]
+    },
+    "G14": {
+      "status": "pass",
+      "notes": "Human report groups meaningful learning evidence, supplied context, current raw entries/status and original writing, no click-log grade or authenticated submission claim.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/population-estimates/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/complete-responses.json"
+      ]
+    },
+    "G15": {
+      "status": "pass",
+      "notes": "All35 current PDF/resource/native pages inspected, teacher2/student3, completed3, partial2/3, long download7/native6 and zero2. Download and native14prompt/start checks pass,42 full source fragments/glyphs retained. Shared print regression:21pages across earlier microhabitat/immune normal/long native reports rendered and inspected in three contacts; normal11/17prompt pairs pass. No lost tails/clipping/blank pages. Full prompt-answer starts, original source text/glyphs, long first-offline/native final marker checked.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/population-estimates/pdf-inspection.json",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/pagination-check.txt",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/glyph-check.txt",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/glyph-all.txt",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/pdf-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/pdf-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/pdf-contact-3.png",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/pdf-contact-4.png",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/pdf-contact-5.png"
+      ]
+    },
+    "G16": {
+      "status": "pass",
+      "notes": "Native touch drag-release-next action, keyboard and resized mouse,44px phone targets/no overflow/reduced motion/reload exercised. Physical hardware/AT remain separate.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/population-estimates/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/visual-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/visual-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/visual-contact-3.png"
+      ]
+    },
+    "G17": {
+      "status": "pass",
+      "notes": "Initial13/final14 model/report/font checks; initial6/7 browser with fixture timeout, final7browser pass. Four representative earlier report/long/offline native regression cases pass;101 resources checked and current private runtime compiles. Current full resource validation and private platform compile passed. Software is not independent science/classroom acceptance.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/population-estimates/model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/initial-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/platform-build.txt"
+      ]
+    },
+    "G18": {
+      "status": "pass",
+      "notes": "Stable English authored/question/condition IDs, locale and original student writing retained. Native app languages and reviewed Spanish printing remain AUD-10.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/population-estimates/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/review-notes.md"
+      ]
+    },
+    "RESOURCES": {
+      "status": "pass",
+      "notes": "Current shared-content teacher/student resources, actual rendered pages and prompt/link/hash parity checked. All35 current PDF/resource/native pages inspected, teacher2/student3, completed3, partial2/3, long download7/native6 and zero2. Download and native14prompt/start checks pass,42 full source fragments/glyphs retained. Shared print regression:21pages across earlier microhabitat/immune normal/long native reports rendered and inspected in three contacts; normal11/17prompt pairs pass. No lost tails/clipping/blank pages.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/population-estimates/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/pdf-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/pdf-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/pdf-contact-3.png",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/pdf-contact-4.png",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/pdf-contact-5.png"
+      ]
+    },
+    "ACCESS": {
+      "status": "pass",
+      "notes": "Guest/free route, reports/print/offline remain account-free; paid/staff/publishing policy preserved. Private compile only, no public deployment.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/population-estimates/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/platform-build.txt"
+      ]
+    },
+    "TRACKING": {
+      "status": "pass",
+      "notes": "Actual local English implementation/resources/catalog and curriculum/tracker regenerated. Standards/native-language/full-course/publication approvals separate.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/population-estimates/build-brief.md",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/review-notes.md"
+      ]
+    }
+  },
+  "artifacts": {
+    "workflow": [
+      "data/development-tracker/biology-reviews/evidence/population-estimates/build-brief.md",
+      "data/development-tracker/biology-reviews/evidence/population-estimates/review-notes.md",
+      "data/development-tracker/biology-reviews/evidence/population-estimates/reading-screen.json",
+      "data/development-tracker/biology-reviews/evidence/population-estimates/complete-responses.json",
+      "data/development-tracker/biology-reviews/evidence/population-estimates/source-manifest.json"
+    ],
+    "visuals": [
+      "data/development-tracker/biology-reviews/evidence/population-estimates/visual-contact-1.png",
+      "data/development-tracker/biology-reviews/evidence/population-estimates/visual-contact-2.png",
+      "data/development-tracker/biology-reviews/evidence/population-estimates/visual-contact-3.png"
+    ],
+    "pdfReports": [
+      "data/development-tracker/biology-reviews/evidence/population-estimates/complete.pdf",
+      "data/development-tracker/biology-reviews/evidence/population-estimates/count-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/population-estimates/development-draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/population-estimates/draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/population-estimates/edited-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/population-estimates/long-offline.pdf",
+      "data/development-tracker/biology-reviews/evidence/population-estimates/zero-recapture.pdf"
+    ],
+    "nativePrint": [
+      "data/development-tracker/biology-reviews/evidence/population-estimates/long-native-print.pdf",
+      "data/development-tracker/biology-reviews/evidence/population-estimates/native-print.pdf"
+    ],
+    "tests": [
+      "data/development-tracker/biology-reviews/evidence/population-estimates/final-model-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/population-estimates/final-browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/population-estimates/pagination-check.txt",
+      "data/development-tracker/biology-reviews/evidence/population-estimates/glyph-check.txt",
+      "data/development-tracker/biology-reviews/evidence/population-estimates/glyph-all.txt",
+      "data/development-tracker/biology-reviews/evidence/population-estimates/resource-check.txt",
+      "data/development-tracker/biology-reviews/evidence/population-estimates/platform-build.txt"
+    ],
+    "resources": [
+      "public/resources/population-estimates-worksheet.pdf",
+      "public/resources/population-estimates-teacher-guide.pdf"
+    ]
+  },
+  "externalValidation": {
+    "teacherStudentComprehension": {
+      "status": "pending",
+      "notes": "Not performed; development checks do not establish classroom comprehension."
+    },
+    "physicalDevices": {
+      "status": "pending",
+      "notes": "Emulation is not physical-device or assistive-technology acceptance."
+    },
+    "classroomProtocol": {
+      "status": "not-applicable",
+      "notes": "Virtual-only activity; no physical protocol supplied."
+    }
+  },
+  "history": [
+    {
+      "event": "Fixed report forgetting prior model-count reveal during saved catch review, clarified first-batch caption and kept long limits/sources together. Confirmed/fixed shared native-print heading splitting; retained real before fixture and failed pagination check. Initial zero fixture timeout was save-on-pagehide overwriting test-injected state; moved injection before initialization. Initial6/7 and premature second-run port collision retained; final7pass. No misleading zero/infinite estimate.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/population-estimates/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/final-browser-tests.txt"
+      ]
+    }
+  ],
+  "decision": "pass",
+  "summary": "BIO-31 development review passed for actual random recapture counts, approximate ratio estimates, purposeful sampling variation and explicit zero/assumption limits. Corrected reveal-state/caption/report pagination and shared native question fragmentation, with before/after evidence. External classroom/devices/AT, translations and release separate.",
+  "blockers": [],
+  "followUps": [
+    {
+      "date": "2026-11-15",
+      "scope": "Final shared PDF section-heading and short/long downloaded/native regression. Earlier full source review retained.",
+      "sourceFiles": [
+        "src/investigations/student-report.js",
+        "scripts/verify-report-pagination.py",
+        "tests/browser/biology-browser-contract.mjs"
+      ],
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/reserve-design/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/final-six-lab-browser-regression.txt",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/shared-section-followup/verification.txt",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/shared-section-followup/inspection.json",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/shared-section-followup/contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/shared-section-followup/contact-2.png"
+      ],
+      "result": "All37browser workflows pass;24normal/long PDF/native section+response checks pass,10focused heading pages inspected. Limited layout/software follow-up, not full scientific/classroom/device/language reapproval."
+    }
+  ]
+}

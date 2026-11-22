@@ -1,0 +1,13 @@
+✔ body plans require a first plan, both planes, supplied section and relevant probes before classification (1.8207ms)
+✔ body plans whole-body symmetry avoids circular-slice and segmentation misconceptions (0.1788ms)
+✔ body plans tissue and cavity contrasts are defined by outside-gut lining evidence (12.1705ms)
+✔ body plans current edits and partial work restore without stale correctness or lost first attempts (0.9135ms)
+✔ body plans reports retain supplied sources, true corrections, Unicode and honest named completion (1.4243ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 93.7603

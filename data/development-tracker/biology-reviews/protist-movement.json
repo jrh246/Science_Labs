@@ -1,0 +1,320 @@
+{
+  "schemaVersion": 1,
+  "labId": "protist-movement",
+  "taskId": "BIO-09-REVIEW",
+  "reviewedBy": "Codex - separate development review",
+  "reviewedOn": "2026-11-15",
+  "sourceSnapshot": "sha256:e5095031496b2276c219ffa25762eab143c8cbbe421d32a987bd3d0038cfb97d",
+  "decision": "pass",
+  "summary": "English virtual-only development review passed after top-view surface correction. Direct movement annotation and food placement support observation-based comparisons, membrane enclosure and limited inference. External/classroom/hardware/translation and release acceptance separate.",
+  "blockers": [],
+  "checks": {
+    "G01": {
+      "status": "pass",
+      "notes": "Movement comparison, membrane enclosure and limits each have required student interpretations/checks and original goal-linked explanations; replay completion alone is not mastery.",
+      "evidence": [
+        "src/investigations/protist-content.js",
+        "src/investigations/protist-report.js",
+        "data/development-tracker/biology-reviews/evidence/protist-movement/complete-responses.json"
+      ]
+    },
+    "G02": {
+      "status": "pass",
+      "notes": "Three distinct mechanisms, one prepared slide and one food event answer different questions. Views of one cell/event are not independent samples or repeated trials. No redundant triple preparation or feeding.",
+      "evidence": [
+        "src/investigations/protist-content.js",
+        "data/development-tracker/biology-reviews/evidence/protist-movement/review-notes.md"
+      ]
+    },
+    "G03": {
+      "status": "pass",
+      "notes": "OpenStax 23.2/23.3 and NIES morphology read. Coordinated cilia, flexible anterior flagellum, surface crawling/flowing extensions and membrane-bound food uptake agree across model/art/resources. One emergent flagellum emphasized; omitted internal partner stated.",
+      "evidence": [
+        "src/investigations/protist-model.js",
+        "tests/protist.test.js",
+        "https://openstax.org/books/biology-2e/pages/23-2-characteristics-of-protists",
+        "https://openstax.org/books/biology-2e/pages/23-3-groups-of-protists",
+        "https://www.nies.go.jp/chiiki1/protoz/morpho/flagella/euglena.htm"
+      ]
+    },
+    "G04": {
+      "status": "pass",
+      "notes": "Original illustrations, separate enlargement, untimed phases, model-provided response, emphasized detail and limited representative forms stated. No speed measurement, sensing/digestion result, species proof or close-ancestry claim.",
+      "evidence": [
+        "src/investigations/protist-content.js",
+        "data/development-tracker/biology-reviews/evidence/protist-movement/complete.pdf"
+      ]
+    },
+    "G05": {
+      "status": "pass",
+      "notes": "Student places slide, observes changes, attaches structure annotation at its moving work site, classifies movement and places food before tracing enclosure. Actual interpretations and explanations supply learning evidence.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/protist-movement/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/protist-movement/tablet-tag.png",
+        "data/development-tracker/biology-reviews/evidence/protist-movement/feeding-1.png"
+      ]
+    },
+    "G06": {
+      "status": "pass",
+      "notes": "All three initial/final organisms, feeding phases, microscope and phone/tablet scenes reviewed. Reopened and fixed misleading baseline with substrate texture and top-view wording. Shared pose/site geometry follows the actual feature through replay/resize.",
+      "evidence": [
+        "src/investigations/protist-art.js",
+        "data/development-tracker/biology-reviews/evidence/protist-movement/phone-movement.png",
+        "data/development-tracker/biology-reviews/evidence/protist-movement/phone-feeding.png",
+        "data/development-tracker/biology-reviews/evidence/protist-movement/review-notes.md"
+      ]
+    },
+    "G07": {
+      "status": "pass",
+      "notes": "Stable seeded aliases and answer orders preserve each example and recorded work on reload. All three mechanisms appear once without fixed answer-bank hints; annotations are not falsely described as added cell parts.",
+      "evidence": [
+        "src/investigations/protist-model.js",
+        "data/development-tracker/biology-reviews/evidence/protist-movement/model-tests.txt"
+      ]
+    },
+    "G08": {
+      "status": "pass",
+      "notes": "Full dynamic student pathway, report and resources read. Required scientific terms defined, short concrete directions used; approximate grade 7.9 diagnostic only. Teacher/student comprehension pending.",
+      "evidence": [
+        "src/investigations/protist-content.js",
+        "data/development-tracker/biology-reviews/evidence/protist-movement/reading-screen.json",
+        "data/development-tracker/biology-reviews/evidence/protist-movement/review-notes.md"
+      ]
+    },
+    "G09": {
+      "status": "pass",
+      "notes": "First plan precedes movement. Three observed changes and a placed tag/movement interpretation gate each checked example. All examples gate feeding prediction, which gates tools/results. Final enclosure interpretation gates explanation.",
+      "evidence": [
+        "tests/protist.test.js",
+        "data/development-tracker/biology-reviews/evidence/protist-movement/browser-tests.txt"
+      ]
+    },
+    "G10": {
+      "status": "pass",
+      "notes": "Explicit Correct!/Try again with scientific corrective guidance; genuine prior errors flagged. Current wrong entries retained and stale feedback/gates cleared on academic edits.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/protist-movement/unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/protist-movement/edited-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/protist-movement/browser-tests.txt"
+      ]
+    },
+    "G11": {
+      "status": "pass",
+      "notes": "Successful storage confirmation, repeat completion/reload, denied write/retry and identity versus academic edits exercised in actual browser flow. No automatic grade/submission claim.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/protist-movement/browser-tests.txt",
+        "src/investigations/completion-status.js"
+      ]
+    },
+    "G12": {
+      "status": "pass",
+      "notes": "Versioned root-scoped attempt retains aliases, viewed phases, tags/interpretations/corrections, first plans, same food event and original writing. Replay preserves completion; changed academic interpretation clears it. Root/development isolation verified.",
+      "evidence": [
+        "src/investigations/protist-model.js",
+        "data/development-tracker/biology-reviews/evidence/protist-movement/browser-tests.txt"
+      ]
+    },
+    "G13": {
+      "status": "pass",
+      "notes": "Actual completed named and neutral PDFs/native print contain optional name/period, safe filenames, local standard date/time/zone and truthful current status.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/protist-movement/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/protist-movement/draft.pdf",
+        "data/development-tracker/biology-reviews/evidence/protist-movement/native-print.pdf"
+      ]
+    },
+    "G14": {
+      "status": "pass",
+      "notes": "One snapshot includes first predictions, actual student observation table and provenance, enclosure interpretation, meaningful corrections, checks and original learning-goal writing. Raw history remains separate from human report narrative.",
+      "evidence": [
+        "src/investigations/protist-report.js",
+        "data/development-tracker/biology-reviews/evidence/protist-movement/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/protist-movement/edited-unconfirmed.pdf"
+      ]
+    },
+    "G15": {
+      "status": "pass",
+      "notes": "All 36 final handout/report pages rendered and inspected. Completed, neutral, wrong/edited, long Unicode and final markers preserved; actual PDF/native print/JSON, first offline export and recovery pass.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/protist-movement/pdf-inspection.json",
+        "data/development-tracker/biology-reviews/evidence/protist-movement/pdf-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/protist-movement/pdf-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/protist-movement/pdf-contact-3.png",
+        "data/development-tracker/biology-reviews/evidence/protist-movement/pdf-contact-4.png",
+        "data/development-tracker/biology-reviews/evidence/protist-movement/pdf-contact-5.png",
+        "data/development-tracker/biology-reviews/evidence/protist-movement/long-offline.pdf",
+        "data/development-tracker/biology-reviews/evidence/protist-movement/long-native-print.pdf",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.md",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.md"
+      ]
+    },
+    "G16": {
+      "status": "pass",
+      "notes": "Keyboard slide/tag/select/place and focus; mouse tag drag after resize/replay; native touch exact phase/food drag-release-next-tap; phone/tablet, 44px sites and reduced motion verified. Physical/AT acceptance pending.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/protist-movement/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/protist-movement/tablet-tag.png",
+        "data/development-tracker/biology-reviews/evidence/protist-movement/phone-movement.png",
+        "data/development-tracker/biology-reviews/evidence/protist-movement/phone-feeding.png",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.json",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.md",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-native-focus-regressions.txt"
+      ]
+    },
+    "G17": {
+      "status": "pass",
+      "notes": "147 model checks pass. Initial 13 browser checks include seven lab and six library cases; final seven lab workflows pass after visual refinement. All 57 resources and standalone/platform cache/build checks pass; actual logs retained.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/protist-movement/model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/protist-movement/initial-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/protist-movement/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/protist-movement/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/protist-movement/platform-build.txt",
+        "data/development-tracker/biology-reviews/evidence/protist-movement/review-notes.md"
+      ]
+    },
+    "G18": {
+      "status": "pass",
+      "notes": "Stable activity/example/alias/goal/question IDs, locale/version and original response language retained. English bundle ready for later extraction; full reviewed app/PDF translation remains AUD-10, with no Spanish-readiness claim.",
+      "evidence": [
+        "src/investigations/protist-content.js",
+        "src/investigations/protist-report.js",
+        "src/investigations/guided-lab-shell.js"
+      ]
+    },
+    "RESOURCES": {
+      "status": "pass",
+      "notes": "Three-page worksheet and two-page teacher guide match current observations/prompts, supplied model scope and limits. All pages and resource hashes checked. Virtual-only; Python remains authoring tooling.",
+      "evidence": [
+        "scripts/build-biology-resources.py",
+        "public/resources/protist-movement-worksheet.pdf",
+        "public/resources/protist-movement-teacher-guide.pdf",
+        "data/development-tracker/biology-reviews/evidence/protist-movement/resource-check.txt"
+      ]
+    },
+    "ACCESS": {
+      "status": "pass",
+      "notes": "Guest/free lab/report access without sign-in retained. Existing role/paid/publication behavior unchanged; private runtime compiles with 25 labs and is not uploaded/registered/published. Earlier protection tests reused, not claimed rerun.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/protist-movement/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/protist-movement/platform-build.txt",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/platform-tests.txt"
+      ]
+    },
+    "TRACKING": {
+      "status": "pass",
+      "notes": "Stable biological-diversity route and virtual-only resources updated in validated actual English curriculum/tracker outputs. Standards/other-language approvals unchanged. Shared copies refreshed after review.",
+      "evidence": [
+        "src/catalog.js",
+        "data/curriculum/dataset.json",
+        "data/development-tracker/activity-checklist.csv"
+      ]
+    }
+  },
+  "artifacts": {
+    "workflow": [
+      "data/development-tracker/biology-reviews/evidence/protist-movement/review-notes.md",
+      "data/development-tracker/biology-reviews/evidence/protist-movement/complete-responses.json",
+      "data/development-tracker/biology-reviews/evidence/protist-movement/source-manifest.json",
+      "data/development-tracker/biology-reviews/evidence/protist-movement/reading-screen.json"
+    ],
+    "visuals": [
+      "data/development-tracker/biology-reviews/evidence/protist-movement/microscope-start.png",
+      "data/development-tracker/biology-reviews/evidence/protist-movement/example-A-start.png",
+      "data/development-tracker/biology-reviews/evidence/protist-movement/example-A-final.png",
+      "data/development-tracker/biology-reviews/evidence/protist-movement/example-B-start.png",
+      "data/development-tracker/biology-reviews/evidence/protist-movement/example-B-final.png",
+      "data/development-tracker/biology-reviews/evidence/protist-movement/example-C-start.png",
+      "data/development-tracker/biology-reviews/evidence/protist-movement/example-C-final.png",
+      "data/development-tracker/biology-reviews/evidence/protist-movement/feeding-0.png",
+      "data/development-tracker/biology-reviews/evidence/protist-movement/feeding-1.png",
+      "data/development-tracker/biology-reviews/evidence/protist-movement/feeding-2.png",
+      "data/development-tracker/biology-reviews/evidence/protist-movement/feeding-3.png",
+      "data/development-tracker/biology-reviews/evidence/protist-movement/phone-movement.png",
+      "data/development-tracker/biology-reviews/evidence/protist-movement/phone-feeding.png",
+      "data/development-tracker/biology-reviews/evidence/protist-movement/tablet-tag.png",
+      "data/development-tracker/biology-reviews/evidence/protist-movement/phone-explain.png"
+    ],
+    "pdfReports": [
+      "data/development-tracker/biology-reviews/evidence/protist-movement/draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/protist-movement/development-draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/protist-movement/unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/protist-movement/edited-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/protist-movement/complete.pdf",
+      "data/development-tracker/biology-reviews/evidence/protist-movement/long-offline.pdf",
+      "data/development-tracker/biology-reviews/evidence/protist-movement/pdf-inspection.json"
+    ],
+    "nativePrint": [
+      "data/development-tracker/biology-reviews/evidence/protist-movement/native-print.pdf",
+      "data/development-tracker/biology-reviews/evidence/protist-movement/long-native-print.pdf"
+    ],
+    "tests": [
+      "data/development-tracker/biology-reviews/evidence/protist-movement/model-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/protist-movement/initial-browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/protist-movement/browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/protist-movement/resource-check.txt",
+      "data/development-tracker/biology-reviews/evidence/protist-movement/platform-build.txt",
+      "data/development-tracker/biology-reviews/evidence/protist-movement/review-notes.md"
+    ],
+    "resources": [
+      "public/resources/protist-movement-worksheet.pdf",
+      "public/resources/protist-movement-teacher-guide.pdf"
+    ]
+  },
+  "externalValidation": {
+    "teacherStudentComprehension": {
+      "status": "pending",
+      "notes": "Not performed; development checks do not establish comprehension."
+    },
+    "physicalDevices": {
+      "status": "pending",
+      "notes": "Browser touch/phone emulation is not physical hardware or assistive-technology acceptance."
+    },
+    "classroomProtocol": {
+      "status": "not-applicable",
+      "notes": "Virtual only; no live-culture protocol supplied."
+    }
+  },
+  "history": [
+    {
+      "finding": "The separate horizontal baseline could make a top-view crawling cell appear to float above its substrate.",
+      "resolution": "Replace the baseline with a faint full-field substrate texture and explicitly describe the amoeba views as looking down onto a surface. Recheck final artwork and affected workflow snapshots."
+    }
+  ],
+  "followups": [
+    {
+      "id": "shared-touch-focus-2026-11-15",
+      "reviewedOn": "2026-11-15",
+      "reviewedBy": "Codex - shared interaction follow-up",
+      "decision": "pass",
+      "summary": "Pending native compatibility mousedown no longer steals newly assigned focus. Existing deliberate next-tap/mouse/keyboard behavior verified in39 selected browser cases; original lab review snapshot retained.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.json",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.md",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-native-focus-regressions.txt"
+      ]
+    },
+    {
+      "id": "shared-response-pagination-2026-11-15",
+      "recordedAt": "2026-11-15T17:05:24.797Z",
+      "scope": "Shared PDF question/answer page-break guard; original review remains its point-in-time snapshot. Representative current starch, stored heat/fungal and legacy enzyme reports checked; not a full rerun of this lab.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.md",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.json",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/pagination-corrected.txt",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-model-tests.txt"
+      ]
+    },
+    {
+      "id": "shared-scientific-symbols-2026-11-15",
+      "recordedAt": "2026-11-15T18:31:00.199Z",
+      "scope": "Shared offline scientific-symbol glyph fallback only; original source snapshot/history unchanged. Representative new/old outputs and legacy wrappers validated, not full rerun of this lab.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.md",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.json",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/glyph-all-artifacts.txt"
+      ]
+    }
+  ]
+}

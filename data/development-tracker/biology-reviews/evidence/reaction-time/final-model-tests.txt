@@ -1,0 +1,28 @@
+✔ reaction first reasoning and current pathway gate task; seeded variable wait bounded and stable (2.0571ms)
+✔ reaction early/wrong-method/duplicate/negative events never invent zero or extra valid data (0.2732ms)
+✔ reaction interrupted/reloaded pending clocks are excluded while prior valid observations and original plan remain (0.4321ms)
+✔ reaction statistics use three displayed rounded values, accept ties/zero range and prevent extra trials (1.0271ms)
+✔ reaction raw wrong/empty calculations and pathway edits invalidate current checks without deleting trials (13.9293ms)
+✔ reaction report retains actual browser source, exclusions, corrections, identity and honest not-graded completion (1.0809ms)
+✔ reaction fixed pointer type rejects a changed device type without inventing a value (0.8493ms)
+✔ reaction older recorded values retain unknown input detail without invented migration data (0.7654ms)
+✔ all 14 report pathways group actual evidence by learning goal across PDF, print, text and response data (29.1258ms)
+✔ feedback summaries describe actual revisions, retain raw checks and deduplicate repeat reviews (0.3929ms)
+✔ calculation summaries respect the actual tolerance check and older attempts expose unavailable history (1.4309ms)
+✔ incomplete learning evidence retains missing responses and never claims explanations were demonstrated (2.3623ms)
+✔ extraction reports summarize concepts and revisions while preserving attempts in structured data (5.3438ms)
+✔ classroom extraction evidence refers to the recorded claim and observations (0.5099ms)
+✔ all 14 reports preserve completed work and use a shared faithful PDF/print snapshot (25.5235ms)
+✔ partial reports never fill hidden observations or invent completed work (3.2391ms)
+✔ core reports retain mixed sources, unreached thresholds, student classifications and uncollected readings (2.1221ms)
+✔ extended reports retain measured estimates, cell products, source separation and draft classifications (0.8464ms)
+✔ osmosis identity restores without changing existing or legacy measurement data (0.5313ms)
+✔ reports escape student HTML, sanitize filenames, and preserve long answers verbatim (0.5942ms)
+ℹ tests 20
+ℹ suites 0
+ℹ pass 20
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 164.1551

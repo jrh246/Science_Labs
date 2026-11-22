@@ -1,9 +1,12 @@
+import {setPlatformReport,platformReport} from '../platform/runtime-bridge.js';
 import {studentReportHtml,studentReportPdf,reportFilename} from './student-report.js';
 import './student-report.css';
 
 export function studentReportControls(){return '<div class="student-report-controls"><div class="student-report-buttons"><button type="button" data-report-action="pdf">Download lab report (PDF)</button><button type="button" data-report-action="print">Print lab report</button><button type="button" data-report-action="json">Download responses (JSON)</button></div><p class="student-report-status" aria-live="polite" aria-atomic="true"></p><p class="student-report-help">Your report includes the work recorded so far. Missing responses are labeled. A completed report is not an automatic grade or submission.</p></div>';}
 
 export function installStudentReports(root,getReport){
+ const original=getReport;getReport=()=>platformReport(original());
+ setPlatformReport(getReport);
  let busy=false,printTitle=null;
  const status=text=>{const node=root.querySelector('.student-report-status');if(node)node.textContent=text;};
  function preparePrint(){

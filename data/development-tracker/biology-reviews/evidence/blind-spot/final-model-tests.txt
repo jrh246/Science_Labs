@@ -1,0 +1,27 @@
+✔ blind first reasoning, current labels and both local-light comparisons gate observation data (2.6334ms)
+✔ blind own reports retain uncertain/no-gap outcomes without forcing physiological correctness (0.8187ms)
+✔ blind positions and screen contexts are distinct sampling, duplicates blocked and false cross-context brackets prevented (0.3101ms)
+✔ blind coarse bracketing and matched both-eye comparison use current reported fixation and context, not hidden target rules (0.3615ms)
+✔ blind supplied example loaded only once and source never relabeled as student perception (16.3343ms)
+✔ blind current raw perception revisions and inference edits invalidate stale completion but preserve positions/first reports (1.2625ms)
+✔ blind report preserves limits, current raw entries, revision meaning, identity Unicode and honest completion (2.0539ms)
+✔ all 14 report pathways group actual evidence by learning goal across PDF, print, text and response data (30.1954ms)
+✔ feedback summaries describe actual revisions, retain raw checks and deduplicate repeat reviews (0.451ms)
+✔ calculation summaries respect the actual tolerance check and older attempts expose unavailable history (1.4271ms)
+✔ incomplete learning evidence retains missing responses and never claims explanations were demonstrated (2.3956ms)
+✔ extraction reports summarize concepts and revisions while preserving attempts in structured data (4.1134ms)
+✔ classroom extraction evidence refers to the recorded claim and observations (0.4069ms)
+✔ all 14 reports preserve completed work and use a shared faithful PDF/print snapshot (25.8703ms)
+✔ partial reports never fill hidden observations or invent completed work (3.1964ms)
+✔ core reports retain mixed sources, unreached thresholds, student classifications and uncollected readings (1.631ms)
+✔ extended reports retain measured estimates, cell products, source separation and draft classifications (0.8513ms)
+✔ osmosis identity restores without changing existing or legacy measurement data (0.52ms)
+✔ reports escape student HTML, sanitize filenames, and preserve long answers verbatim (0.6264ms)
+ℹ tests 19
+ℹ suites 0
+ℹ pass 19
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 164.6666

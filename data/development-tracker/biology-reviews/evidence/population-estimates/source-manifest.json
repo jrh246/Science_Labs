@@ -1,0 +1,25 @@
+{
+  "capturedAt": "2026-11-15T21:22:29.377Z",
+  "scope": "Actual reviewed working-tree files; unrelated changes and previous student attempts preserved.",
+  "files": {
+    "src/investigations/population-content.js": "1b2dec585aec529863e4bdd538f07408e7ab89e59b90292fc88c666e5cd2c2de",
+    "src/investigations/population-model.js": "d3f9e74556e74a5ef0f180a33a6e05d06408c7f8a44d6aa647c058d69566f950",
+    "src/investigations/population-art.js": "a1fa96f5417cf41c70ccb798a8fff8f4ebaf7423b4a119dbcf053d826a9d0b9d",
+    "src/investigations/population-report.js": "2c92df737744678f03237e2dd9b8831a0137fc049c1b5344d35baacaad430100",
+    "src/investigations/population-app.js": "9f6b416c4ee05cfb543a5422e4d1cfbd6eb04082f37aed79b91bf2ef8db05f52",
+    "src/investigations/population.css": "1c4c34f7377599d512fc2e01783f6e3c09d73690306ac404e7541cff323ba0b8",
+    "tests/population.test.js": "ec7af3f50c4d1fcae850b919e5fcd7b0ddbe8a087526a462cd154852286cd2c3",
+    "tests/browser/population.spec.js": "905a39ca61f224cb7c45a29c32ae46ca4cd89c46ab575d0f5e10140c26ab4a1c",
+    "src/investigations/guided-lab-shell.js": "7718d1ab83d65ac8551b25323338c5c2bb4c73afc988331f3c29b767a9abc55f",
+    "src/investigations/student-report.js": "5cdec89cf015cada33fbf14585705605f2a33f90d84aa0ebb248ab6c0d0d5ca0",
+    "src/investigations/student-report.css": "42d4e4f705fa5b4af08bc6f284fab2d3e4d21659164096e065dbcc6f2d75cbdd",
+    "src/investigations/lab-report-pdf.js": "d3313db4efc5086da99bbd244ba4ceada0c2a37351ef0b4d67255b76d4f20d4c",
+    "src/catalog.js": "6da00898e3cdda6c03846adbc3b931959865609212d5d76624a53441a800aa53",
+    "src/investigations/app.js": "9c7eb386b313d2b44a635c6d5b5bfcf9b419db3c557317f4ef5f12e6c9f1769b",
+    "src/investigations/learning-design.js": "0a039b0e7940bf865e9fcd8b918a1f2a96302f49f2fb4916800d9945ce45c5b4",
+    "scripts/build-biology-resources.py": "6c950c857ccc7a5903363b9742922ded31cb0624974d20199567df30a3b01546",
+    "scripts/verify-resources.py": "27f9f9865951cc92a7430269536b8d19c3f1357b0a45a8b03dbf09e231e4fb1f",
+    "public/resources/population-estimates-worksheet.pdf": "c614fda7b7190bce52227a6861a170d40ed8953988f8ba57580a822a37f0b990",
+    "public/resources/population-estimates-teacher-guide.pdf": "1b7fb31fa375e24019c89d246853f91095dadcac0d22dd795a2b979dd37155f2"
+  }
+}

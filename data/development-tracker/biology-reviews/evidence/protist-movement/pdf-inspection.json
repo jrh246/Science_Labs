@@ -1,0 +1,108 @@
+[
+  {
+    "file": "public/resources/protist-movement-teacher-guide.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      2697,
+      2500
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "public/resources/protist-movement-worksheet.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1446,
+      1451,
+      2142
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/protist-movement/complete.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2048,
+      2830,
+      2175
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/protist-movement/development-draft.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1813,
+      1334,
+      1204
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/protist-movement/draft.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1803,
+      1334,
+      1204
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/protist-movement/edited-unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2058,
+      1354,
+      1204
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/protist-movement/long-native-print.pdf",
+    "pages": 6,
+    "pageCharacters": [
+      2323,
+      2327,
+      837,
+      837,
+      837,
+      2346
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/protist-movement/long-offline.pdf",
+    "pages": 7,
+    "pageCharacters": [
+      2057,
+      2578,
+      905,
+      905,
+      905,
+      1587,
+      1204
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/protist-movement/native-print.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2317,
+      3401,
+      1106
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/protist-movement/unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2050,
+      1354,
+      1204
+    ],
+    "finalLongMarker": false
+  }
+]

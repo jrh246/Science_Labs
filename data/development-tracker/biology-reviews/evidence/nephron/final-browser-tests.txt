@@ -1,0 +1,29 @@
+node.exe : [WebServer] (node:49548) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([WebServer] (no... env being set.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] 
+[WebServer] (!) Some chunks are larger than 500 kB after minification. Consider:
+[WebServer] - Using dynamic import() to code-split the application
+[WebServer] - Use build.rollupOptions.output.manualChunks to improve chunking: 
+https://rollupjs.org/configuration-options/#output-manualchunks
+[WebServer] - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[WebServer] (node:14792) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 6 tests using 1 worker
+
+(node:37912) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 tests\browser\biology-browser-contract.mjs:5:2 › nephron: complete corrected attempt, truthful saves, named PDF/JSON/native print and edits (4.8s)
+  ok 2 tests\browser\biology-browser-contract.mjs:6:2 › nephron: denied storage/retry, Unicode long writing and first offline PDF/native print (2.4s)
+  ok 3 tests\browser\biology-browser-contract.mjs:7:2 › nephron: unfinished neutral PDF and export failure recovery (990ms)
+  ok 4 tests\browser\biology-browser-contract.mjs:8:2 › nephron: root/development progress isolation and first offline development PDF (2.0s)
+  ok 5 tests\browser\neph.spec.js:7:1 › nephron saved process review returns directly without repeating transfers; current final edit immediately gates and remains unconfirmed (2.3s)
+  ok 6 tests\browser\neph.spec.js:8:1 › nephron native water drag-release-next glucose taps, keyboard ports, phone/tablet membrane geometry and resized mouse secretion (1.9s)
+
+  6 passed (21.8s)

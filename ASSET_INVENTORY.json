@@ -1,5 +1,10 @@
 [
   {
+    "path": "public/THIRD_PARTY_NOTICES.txt",
+    "sha256": "c1b1629493d21eaa96c20a1fc924ec18c6cd36dd0f21dd0215302413002b27a4",
+    "bytes": 142200
+  },
+  {
     "path": "public/icons/lab.svg",
     "sha256": "aea66a2ac644a74e031db2119e6b35f5a87dc3b358a2ca18eb30e7f48562f97d",
     "bytes": 336
@@ -10,54 +15,114 @@
     "bytes": 246
   },
   {
+    "path": "public/resources/animal-body-plans-teacher-guide.pdf",
+    "sha256": "77df80bc089a69907545129c646043d7748ed8151a43babc9c6f3f96611277a5",
+    "bytes": 79223
+  },
+  {
+    "path": "public/resources/animal-body-plans-worksheet.pdf",
+    "sha256": "d3db9ec100076fb5029e035f231141069834946abba3582f60483880734bcb30",
+    "bytes": 80278
+  },
+  {
+    "path": "public/resources/blind-spot-teacher-guide.pdf",
+    "sha256": "7459477ab2358fadf05479b6024ac4643fb92baa3c62e996df4085451816785e",
+    "bytes": 80275
+  },
+  {
+    "path": "public/resources/blind-spot-worksheet.pdf",
+    "sha256": "201dc2d9b8496cfc65f57e6b82348f5ef9a319fc6056c24c2a99751c9e02be34",
+    "bytes": 80873
+  },
+  {
+    "path": "public/resources/blood-flow-teacher-guide.pdf",
+    "sha256": "328f26f2603afb254469d88959be2d2d05639269db0216e92a43dfe9876112da",
+    "bytes": 79799
+  },
+  {
+    "path": "public/resources/blood-flow-worksheet.pdf",
+    "sha256": "2fafcd967e2388c2784294cdd7bcc44f98196a4c14966deee49219c2b09b0eb8",
+    "bytes": 80664
+  },
+  {
+    "path": "public/resources/body-heat-teacher-guide.pdf",
+    "sha256": "72a83b7a4f4035aad31955876cd11fccda6f17aa022077765f1e0e79213a3268",
+    "bytes": 102260
+  },
+  {
+    "path": "public/resources/body-heat-worksheet.pdf",
+    "sha256": "8113baa2d3a6be23b11b15763afefe884eca799553c63af0e22486c42ce6597c",
+    "bytes": 102882
+  },
+  {
+    "path": "public/resources/breathing-teacher-guide.pdf",
+    "sha256": "e693bb98c22d85ec522861a9e774919866d4c0d70ebcbe671245d534ec300b0d",
+    "bytes": 79403
+  },
+  {
+    "path": "public/resources/breathing-worksheet.pdf",
+    "sha256": "2e87808226ce9ca6526069606e4ea40608b165004eceb85bccb2ad79abd7be02",
+    "bytes": 80102
+  },
+  {
     "path": "public/resources/cell-microscopy-teacher-guide.pdf",
-    "sha256": "46c923e95ccade92e88bcd08bd668e7747254169f8549e9223bbfd3a92050fc6",
-    "bytes": 7040
+    "sha256": "c424c9acead9b73bb31a9e279310cbca04493d817552d57cc332896ef75aceef",
+    "bytes": 7401
   },
   {
     "path": "public/resources/cell-microscopy-worksheet.pdf",
-    "sha256": "a3d6e76fec186ce99e3343a7e3efbf8f9b854fa5b77a361f43ec3a4acc8d3d6f",
-    "bytes": 7286
+    "sha256": "731467620cf852412b368cf0a5ce4f1ad7cca552b59911cb7a010b2e2888ff91",
+    "bytes": 7837
   },
   {
     "path": "public/resources/cell-signaling-teacher-guide.pdf",
-    "sha256": "dcb71828f4ae3538051696022e18871aa527d33d14cc3a8e6d1a7de77ecb57b0",
-    "bytes": 7167
+    "sha256": "6aabb3b33a84bd92c93cfe9d53c07f9b6b4c78f1b31f1f12d21996b2652e766c",
+    "bytes": 7447
   },
   {
     "path": "public/resources/cell-signaling-worksheet.pdf",
-    "sha256": "7a5340a3b8e9d5c9a75804c339451a6852dd8e4da1f2270c3b9dd83a068aed42",
-    "bytes": 7343
+    "sha256": "9277d1e63c4b6ca3851cba210ce2d7618a116e6d4f2f8446aab2cd897a3a9312",
+    "bytes": 7601
   },
   {
     "path": "public/resources/dna-protein-teacher-guide.pdf",
-    "sha256": "45bb2ed53677ba91a7a6ce305bd1ddc6e0faec066de29531fc7e01e8b34a532b",
-    "bytes": 7296
+    "sha256": "fb49c66535333da24e540d124947928edac5901e77dfec0fc7a5e1ac8371dad3",
+    "bytes": 7587
   },
   {
     "path": "public/resources/dna-protein-worksheet.pdf",
-    "sha256": "f9d2012b39ad659e6e1876f927fcfedb854ab53cd8c5a0f8ba9115b6dd6c8a1c",
-    "bytes": 7257
+    "sha256": "cef3bef3b6bcbc1f939df81f7ac5786f9aba00e5a9403af1fcf1bbb4d9cf243d",
+    "bytes": 7651
   },
   {
     "path": "public/resources/dna-replication-teacher-guide.pdf",
-    "sha256": "b2311a08134b848d16fb3cce03b797dda6b0828063b913c7b7502252a60cab5d",
+    "sha256": "2fa1de6792e48e538d80f4d85c3eb3874df71a5c0ad236fad75a6dac28406fb5",
     "bytes": 6377
   },
   {
     "path": "public/resources/dna-replication-worksheet.pdf",
-    "sha256": "c63aeb010bb0b943c812d6a491aca1f4711a4189d36d8d2294eda9ef673daf17",
-    "bytes": 6941
+    "sha256": "18dd8e235c23f7139d7c3473997219b3da154c2bd574e34908c072311433dc98",
+    "bytes": 6934
+  },
+  {
+    "path": "public/resources/embryonic-development-teacher-guide.pdf",
+    "sha256": "e392200b73c7af8928240245c47f036432bd106cea72a530250996ec54685f06",
+    "bytes": 78886
+  },
+  {
+    "path": "public/resources/embryonic-development-worksheet.pdf",
+    "sha256": "491d46d965d1b97355374e57f1dc2de250e6b6ef1f9d6d25d8c807534218dedb",
+    "bytes": 79628
   },
   {
     "path": "public/resources/enzyme-activity-teacher-guide.pdf",
-    "sha256": "d917acf6ce22354a9c5047cdd1d6f6f49f6fb5db9f3379a7d2db582a160bf53c",
-    "bytes": 7471
+    "sha256": "6d6b1480ebfeb929f8df380bda08257a7a297ba5e6e46799f459d90ef16c03bd",
+    "bytes": 7793
   },
   {
     "path": "public/resources/enzyme-activity-worksheet.pdf",
-    "sha256": "3248bc1b54aa0c56af782ea038ae825cd335ae2753206fcca7fa795edeff65fa",
-    "bytes": 7348
+    "sha256": "fcdc596fbbc08383796b86668631d040222a786c2ec2be3502434610fc16bfdf",
+    "bytes": 7769
   },
   {
     "path": "public/resources/fermentation-model-evidence.html",
@@ -65,139 +130,419 @@
     "bytes": 7475
   },
   {
+    "path": "public/resources/flower-pollination-teacher-guide.pdf",
+    "sha256": "6e58c484e79e2aa1b72becd52c5d421d92f54209d604fab72d5863de479d5de3",
+    "bytes": 80004
+  },
+  {
+    "path": "public/resources/flower-pollination-worksheet.pdf",
+    "sha256": "89a6e146b1f5a8233df9a6e154ba75127aa3cab6e545924d910cf441e7215397",
+    "bytes": 80454
+  },
+  {
+    "path": "public/resources/food-macromolecules-teacher-guide.pdf",
+    "sha256": "ffdf29de3c15e65ccaf798529813ae5f607d20dd635b627f2ef96fbf5f24a474",
+    "bytes": 80451
+  },
+  {
+    "path": "public/resources/food-macromolecules-worksheet.pdf",
+    "sha256": "b287018ebb993c3f974b9cc53ed17fa0079ab3df34a9bd272bd2e4bc3fd8a238",
+    "bytes": 79279
+  },
+  {
+    "path": "public/resources/food-web-energy-teacher-guide.pdf",
+    "sha256": "4823a6f82527093b109cdbb2b3f9a5cdf4b47b8c2a43f4b7bfca238c2f30ab24",
+    "bytes": 79286
+  },
+  {
+    "path": "public/resources/food-web-energy-worksheet.pdf",
+    "sha256": "963e8174ea21d4b494409e032196ca304880a1e1e4eae3dd9cac1596f00e5690",
+    "bytes": 80171
+  },
+  {
+    "path": "public/resources/fungal-structures-teacher-guide.pdf",
+    "sha256": "35a7a3038b16fe01423dafe99cab04198f29b1a093607e711346fe73fbf4095a",
+    "bytes": 79346
+  },
+  {
+    "path": "public/resources/fungal-structures-worksheet.pdf",
+    "sha256": "d2153ee58d3b398242676ec02cc50c9b49d0124e7baa74dbc7d8e489c0a6d671",
+    "bytes": 79760
+  },
+  {
     "path": "public/resources/gel-electrophoresis-teacher-guide.pdf",
-    "sha256": "f5fe0efcb1ae74661006c6e2f9d12da09ef890e68e5f109d121ed01b521f88a8",
-    "bytes": 7310
+    "sha256": "679b5831ba47a2efeef56c4f184fd6692512c72f1682363f8f413818da322771",
+    "bytes": 7576
   },
   {
     "path": "public/resources/gel-electrophoresis-worksheet.pdf",
-    "sha256": "c4c59e8c14423d33be3902c24e50471aa854425493eccb740b031d3abdbf7655",
-    "bytes": 7232
+    "sha256": "63a40d44bba61f8638ad1e6a40e9eed00043e90ec10b331d847e15c3f34a10e4",
+    "bytes": 7632
+  },
+  {
+    "path": "public/resources/genetic-drift-teacher-guide.pdf",
+    "sha256": "3a447b7edad579a2358f1e03e1521313eadb54d077f4b61ac7b4fa719d153269",
+    "bytes": 79396
+  },
+  {
+    "path": "public/resources/genetic-drift-worksheet.pdf",
+    "sha256": "419459b46bf9b4c7f1eb9b6730ac1ade8118810109f7666fdab8c98c82602fa1",
+    "bytes": 79664
+  },
+  {
+    "path": "public/resources/genetic-information-teacher-guide.pdf",
+    "sha256": "9483dad33b9f0211431ff275398d21af0b41c650e73ffdff0a95862058337fe4",
+    "bytes": 6528
+  },
+  {
+    "path": "public/resources/glucose-feedback-teacher-guide.pdf",
+    "sha256": "eadc59bd8f9114dd9144000b6b2cb4110ed61cc3950bde80b2a80a21ae5500c4",
+    "bytes": 78878
+  },
+  {
+    "path": "public/resources/glucose-feedback-worksheet.pdf",
+    "sha256": "060c368553d44fce746a7f64081e0182e0ce977e2be041bb127263fd2be439bc",
+    "bytes": 79765
+  },
+  {
+    "path": "public/resources/immune-memory-teacher-guide.pdf",
+    "sha256": "c4ee54c80aebcd470110ba419e8b0f8e668341055973d8c281b0efef6e40bab2",
+    "bytes": 79699
+  },
+  {
+    "path": "public/resources/immune-memory-worksheet.pdf",
+    "sha256": "9f4fe3063e85d1def98c109a3664906bcdd5564c4610ae6814c2f7aad3eb7d64",
+    "bytes": 80606
   },
   {
     "path": "public/resources/inheritance-ratios-teacher-guide.pdf",
-    "sha256": "4762ad7b0adcea90ead8104da5690f8d251a752627dbd213a63fabe0c9221988",
-    "bytes": 7015
+    "sha256": "d1879f3ff97ed4ce5ce9cfd89c39142826fa7b79631765600df342581c6ae181",
+    "bytes": 7371
   },
   {
     "path": "public/resources/inheritance-ratios-worksheet.pdf",
-    "sha256": "e3d6df742a83304055f6a12243a151d1b902cec10b9db1533b27d7775c5d311c",
-    "bytes": 7238
+    "sha256": "7b88ddffe4624edf0093a6208690dc7d0e77797c039757f6aae7de086a654b26",
+    "bytes": 7626
+  },
+  {
+    "path": "public/resources/invertebrate-key-teacher-guide.pdf",
+    "sha256": "aa9c7291b0fb42c1e2d53413ff700ba2e59a0dc8550656c0dccba37f1d9c0fc0",
+    "bytes": 79199
+  },
+  {
+    "path": "public/resources/invertebrate-key-worksheet.pdf",
+    "sha256": "33864a08f418d2a24c521778563ca7d342a7e9c9ddc90b926e11a97d9d830799",
+    "bytes": 80121
   },
   {
     "path": "public/resources/lac-operon-teacher-guide.pdf",
-    "sha256": "6bc7141dbcd58505247e8b4fe830e10e2c6627d770e56a81b7ff53e00ccf65bd",
-    "bytes": 7285
+    "sha256": "9f24067472569a80da361f6f08b506b2ba5d6a790fce89574b6a13e309a0bf42",
+    "bytes": 7625
   },
   {
     "path": "public/resources/lac-operon-worksheet.pdf",
-    "sha256": "8b7e0647f5d4ce820afe671ebca917045d18372d1ebd8da7ef8081d59c7ec79e",
-    "bytes": 7422
+    "sha256": "54daddbb28992a859726dece7938aaed2eed32ccc7303832599fbffd66194955",
+    "bytes": 7833
   },
   {
     "path": "public/resources/light-photosynthesis-teacher-guide.pdf",
-    "sha256": "2507effdad5681161ee93fa04c4469ae89860228cb13544a3a6b1a8e449fcf65",
-    "bytes": 69148
+    "sha256": "ac4e49a2266c71891dec3d2504d93babc332fa0a3230a0b99acd52258bc64222",
+    "bytes": 69412
   },
   {
     "path": "public/resources/light-photosynthesis-worksheet.pdf",
-    "sha256": "40882ad86e804f240309c68162fd9ae8484b7867a66d5f190ba272d3df658983",
-    "bytes": 68123
+    "sha256": "43f5ff66b0b5ab75837a837c0075d7c64614a9f2f67faad5e5a76dde317f2efd",
+    "bytes": 68466
   },
   {
     "path": "public/resources/linked-genes-teacher-guide.pdf",
-    "sha256": "731c7ea764818e4b403e512e4856caad07216433d8b008b498551b315b721973",
-    "bytes": 7162
+    "sha256": "0c3455d70d26a145fded85834a421e8f223bd7c1af6976666981e440429d0e0e",
+    "bytes": 7499
   },
   {
     "path": "public/resources/linked-genes-worksheet.pdf",
-    "sha256": "5b250dd80670cfbc2e936f8c0fac22e13b4085ca3d294d0b02a5062e65f2b264",
-    "bytes": 7410
+    "sha256": "92be94fde1e2ce05a8afc93f4beff9bb54514d09c9d3e5ba9f2ed805d9f63336",
+    "bytes": 7771
   },
   {
     "path": "public/resources/meiosis-variation-teacher-guide.pdf",
-    "sha256": "be113475cb2dcb96c215ec86728ba5fa24ad1bc9ba745520162e3aa7e988f124",
-    "bytes": 8166
+    "sha256": "f10f04ec0ee173092fd33532b39f31c6c87b0924156c630547c2511265ef0a62",
+    "bytes": 8259
   },
   {
     "path": "public/resources/meiosis-variation-worksheet.pdf",
-    "sha256": "b4afa61f56919384f1b89eeb0e0dd7c524ae160506a6403db5be593e7c04c165",
-    "bytes": 10105
+    "sha256": "3b4b541d4c3f9636b163173b7f41e59330a09c8a7e0e79154519dc8e34cc9ade",
+    "bytes": 10113
+  },
+  {
+    "path": "public/resources/microhabitats-teacher-guide.pdf",
+    "sha256": "53e466ba2a3d5dea5cca56d697a5af07c6f91c98ab24da1d1842f4aa1292fca7",
+    "bytes": 78996
+  },
+  {
+    "path": "public/resources/microhabitats-worksheet.pdf",
+    "sha256": "f368e38b1bccc99b9da99bb77a8de86bd5be9e4cb8a300a7e2ef572df2bd666e",
+    "bytes": 79749
   },
   {
     "path": "public/resources/mitosis-teacher-guide.pdf",
-    "sha256": "1e489ea07337866f31d1dfc137f0873349e8026552b9990b50bfaad3cac6ccdf",
-    "bytes": 9453
+    "sha256": "f96a8d1b7223e817c4a8a35febd6167fad5eef35e58718e37d84d83ed3aff049",
+    "bytes": 9552
   },
   {
     "path": "public/resources/mitosis-worksheet.pdf",
-    "sha256": "9992d11bb9e1a2d6ac5bc40aed2859866db8728770643d9c41018306124c8acb",
-    "bytes": 10174
+    "sha256": "f6dd4ed2d9b55532d75decbf8ad25357ddae3dc8b4731bd51451c306dc2f213f",
+    "bytes": 10294
+  },
+  {
+    "path": "public/resources/moss-fern-teacher-guide.pdf",
+    "sha256": "dd9c1836646c81d25f870549253dde45020fc760528650493f9fd129813c3306",
+    "bytes": 79146
+  },
+  {
+    "path": "public/resources/moss-fern-worksheet.pdf",
+    "sha256": "2e0e671a77a89efc6a78bf6dc4b5455a230bc872d72a645026135133066ecf83",
+    "bytes": 79723
+  },
+  {
+    "path": "public/resources/muscle-levers-teacher-guide.pdf",
+    "sha256": "1caf4cab381f09f22f1cba5e3d2cec7e535feea89807f3c165663fc5e9769c83",
+    "bytes": 79453
+  },
+  {
+    "path": "public/resources/muscle-levers-worksheet.pdf",
+    "sha256": "2e8d202309e7fbd1ee489cfee5dcca018e56e7e7d7e6b12ae36f06893ba7346f",
+    "bytes": 80278
+  },
+  {
+    "path": "public/resources/natural-selection-teacher-guide.pdf",
+    "sha256": "aa48d29e919e0536beaccbe612d792498b1225f3cb790ea97de4c2a0439cdc0b",
+    "bytes": 78733
+  },
+  {
+    "path": "public/resources/natural-selection-worksheet.pdf",
+    "sha256": "2c0fc3a0bd24388d4c0821159549636ec91a0e94383ed85fb9e90bb1cb4538c7",
+    "bytes": 79258
+  },
+  {
+    "path": "public/resources/nephron-teacher-guide.pdf",
+    "sha256": "249dc13be29235f63cb0a36480e734a6884350006790f179c9eac77018af979b",
+    "bytes": 79555
+  },
+  {
+    "path": "public/resources/nephron-worksheet.pdf",
+    "sha256": "b19d0736ee75a5983fd1434224d7ec9eab0f98c7c9644a1193be78162e54e514",
+    "bytes": 101925
+  },
+  {
+    "path": "public/resources/osmosis-homeostasis-teacher-guide.pdf",
+    "sha256": "46863a81758b8656360e335015742011cc8a46bd5fcf1aa2637a558c1fe0ba6d",
+    "bytes": 2920
+  },
+  {
+    "path": "public/resources/osmosis-homeostasis-worksheet.pdf",
+    "sha256": "3b8bb5addaf7e03c031565d16d901ce055d622497c984077f10f87ee45fa1372",
+    "bytes": 5602
+  },
+  {
+    "path": "public/resources/phylogenetic-trees-teacher-guide.pdf",
+    "sha256": "16c28030ea98efacba743fa489c970ad7475804a9125f353b26fc46877dc4e69",
+    "bytes": 78721
+  },
+  {
+    "path": "public/resources/phylogenetic-trees-worksheet.pdf",
+    "sha256": "724f9372fea1007a4658a272b72d7ae5ca4cffe3811a003ad65b8f9cbbef59fd",
+    "bytes": 79671
+  },
+  {
+    "path": "public/resources/population-estimates-teacher-guide.pdf",
+    "sha256": "1b7fb31fa375e24019c89d246853f91095dadcac0d22dd795a2b979dd37155f2",
+    "bytes": 79309
+  },
+  {
+    "path": "public/resources/population-estimates-worksheet.pdf",
+    "sha256": "c614fda7b7190bce52227a6861a170d40ed8953988f8ba57580a822a37f0b990",
+    "bytes": 80328
+  },
+  {
+    "path": "public/resources/protist-movement-teacher-guide.pdf",
+    "sha256": "685a2672b87d22f4194791aff4bf761b96dd93dfa25fa24bfcf5e7b9520b6e7e",
+    "bytes": 78920
+  },
+  {
+    "path": "public/resources/protist-movement-worksheet.pdf",
+    "sha256": "8bdd9c9c10ee15c4818b28c2d3fe64f34b65697493025b1d9806ee521851a23e",
+    "bytes": 79449
+  },
+  {
+    "path": "public/resources/reaction-time-teacher-guide.pdf",
+    "sha256": "aaa5e3c32ba7a2fd2e250f975ebd724a553c7a0dc49ca4cab962d70cc350de14",
+    "bytes": 79911
+  },
+  {
+    "path": "public/resources/reaction-time-worksheet.pdf",
+    "sha256": "ad945032e1a0e915fd25cbaba6814be64847e299f879f83a00227b526e31c40e",
+    "bytes": 80497
+  },
+  {
+    "path": "public/resources/reserve-design-teacher-guide.pdf",
+    "sha256": "4ba8ff16c4cc824005c4844bf751e44b5bf6e446ea5fb7a96892ebe62385c6ec",
+    "bytes": 79709
+  },
+  {
+    "path": "public/resources/reserve-design-worksheet.pdf",
+    "sha256": "3f8568f37e9a18423b45ea2af61f0a1114c83311ebe9321788f981d721579ed8",
+    "bytes": 81706
+  },
+  {
+    "path": "public/resources/seed-dispersal-teacher-guide.pdf",
+    "sha256": "d84fa92b7912f7812ce9cdc09db1fa3efb352ff2618165d4b990357db6455539",
+    "bytes": 79729
+  },
+  {
+    "path": "public/resources/seed-dispersal-worksheet.pdf",
+    "sha256": "ebf0552e705fdfd64ce111dfb407188de3a85f9375d6debea1d8c47e903af09b",
+    "bytes": 80032
+  },
+  {
+    "path": "public/resources/seed-germination-teacher-guide.pdf",
+    "sha256": "756f270b4bc949535f614fb27fffc88a0a469680b10ac25b2670a95a22e44531",
+    "bytes": 5490
+  },
+  {
+    "path": "public/resources/seed-germination-worksheet.pdf",
+    "sha256": "94aea95cb6506fd62f4dd866cebbd5439671a2e9d2fd670fb99e6225005e5b14",
+    "bytes": 5564
+  },
+  {
+    "path": "public/resources/soil-water-teacher-guide.pdf",
+    "sha256": "f3fa9e9f1777da001b2b2f07472446d63f5f6c4f92ddb643e2b164ba70ab2c23",
+    "bytes": 79746
+  },
+  {
+    "path": "public/resources/soil-water-worksheet.pdf",
+    "sha256": "8c70f46037a117ad1ba46509d919a1586c35098cd182849bb7669aa25c72c030",
+    "bytes": 80072
   },
   {
     "path": "public/resources/sordaria-crossing-over-teacher-guide.pdf",
-    "sha256": "bce00810ba3954866dbf378a52760e69d7549432248dd7c76752dd73537ece17",
-    "bytes": 7068
+    "sha256": "01588ec63a2d29d2c33fe8479f4da9a2e54613f3aac59bc42a912571311166d9",
+    "bytes": 7449
   },
   {
     "path": "public/resources/sordaria-crossing-over-worksheet.pdf",
-    "sha256": "f35a84b9f75d329735d183fee76697e0bcda083e292205a8bda865f83ced3c11",
-    "bytes": 7144
+    "sha256": "84b76cdb472d85d00efabc83680ec7e8819d5f9d2529668a1a0428121bfe8e9f",
+    "bytes": 7548
+  },
+  {
+    "path": "public/resources/starch-digestion-teacher-guide.pdf",
+    "sha256": "d66a9bb3b5c77449da2fcc62469542132c31e2cc4f3d83c4868a7c3928fae5dd",
+    "bytes": 80447
+  },
+  {
+    "path": "public/resources/starch-digestion-worksheet.pdf",
+    "sha256": "f9b22f0819b4ab8955e325d060118c5b711709d883ceb6f78eaf09242f654117",
+    "bytes": 80216
+  },
+  {
+    "path": "public/resources/transpiration-teacher-guide.pdf",
+    "sha256": "31729099ccf25c3c89e55c571841033da16b4a094f36307d45310c06ed56556a",
+    "bytes": 80891
+  },
+  {
+    "path": "public/resources/transpiration-worksheet.pdf",
+    "sha256": "20ab6336a6b650f7de05a3381f38a5385a0151f7875ecd2fd456431b291398fd",
+    "bytes": 80675
+  },
+  {
+    "path": "public/resources/unknown-prokaryote-teacher-guide.pdf",
+    "sha256": "5f1ab27eff27de88d047d451d0021ef773d78ce08a27b5790e9c5fa7678ad62e",
+    "bytes": 79219
+  },
+  {
+    "path": "public/resources/unknown-prokaryote-worksheet.pdf",
+    "sha256": "7c404e96921d8273e1462623555978e88d3206516ac120a237719321b8f64ae9",
+    "bytes": 79549
+  },
+  {
+    "path": "public/resources/vertebrate-limbs-teacher-guide.pdf",
+    "sha256": "481d404ef9ceb49a9f33e9f4249d87ac9139d3aee1cbc751835a8da175a7a479",
+    "bytes": 79532
+  },
+  {
+    "path": "public/resources/vertebrate-limbs-worksheet.pdf",
+    "sha256": "ee86ee583240b9e8b015ae9944ae9679ae6a1da9a548460ce82a58468d2f5fa1",
+    "bytes": 80489
+  },
+  {
+    "path": "public/resources/viral-spread-teacher-guide.pdf",
+    "sha256": "998407590157fcd2ef4b8055ed310d1812863b0cbaad467feaab751cf7d73d28",
+    "bytes": 79134
+  },
+  {
+    "path": "public/resources/viral-spread-worksheet.pdf",
+    "sha256": "c23838a0e0e5b32b35840feaa52e72ee3566a38ea5ecf8ac836c040f2a76f0d5",
+    "bytes": 81295
+  },
+  {
+    "path": "public/resources/water-surface-tension-teacher-guide.pdf",
+    "sha256": "853fba46291c73df6e16292f76c56a288c9c392b86a76e94216174e14ba4c598",
+    "bytes": 99887
+  },
+  {
+    "path": "public/resources/water-surface-tension-worksheet.pdf",
+    "sha256": "4ede258c33a34edfa0a237c73277ea1556f112c5724edf44ab89ae68fa0211a9",
+    "bytes": 78992
   },
   {
     "path": "public/resources/yeast-fermentation-balloon-teacher-guide.pdf",
-    "sha256": "548f72372f9af7edf89d8c2747e1d7184e5e8347affb1b763df577c74fdbbb40",
-    "bytes": 10937
+    "sha256": "afbc6bf24aa6daf74dbb2eada83f565adfa6d34e96a100c50b3038d9e11a635e",
+    "bytes": 10973
   },
   {
     "path": "public/resources/yeast-fermentation-balloon-worksheet.pdf",
-    "sha256": "d45049fd0771ff8336dbb6e6ed68d397daab030b82dc7511a6e918004b8cadec",
-    "bytes": 9121
+    "sha256": "0ffc8a47b2a28e519324a16a48030ab68ff96ac0aeb978c94a99e767200f038a",
+    "bytes": 9219
   },
   {
     "path": "public/resources/yeast-fermentation-classroom-teacher-guide.pdf",
-    "sha256": "4a901023de8a210bb13af8661f3a3697b540fee84afbed72979a015bd7f123e3",
-    "bytes": 11451
+    "sha256": "190958ed6e223f1746c076f90eb11835af99201d909b48c25bbe4b13f38714bb",
+    "bytes": 3758
   },
   {
     "path": "public/resources/yeast-fermentation-classroom-worksheet.pdf",
-    "sha256": "95f3e73839efc69cd72bce17e6d96c8ae775e35c59daa6b96f88ba5db595dbde",
-    "bytes": 9331
+    "sha256": "25fa1b12a5a8aae11124f34f623f33291a311b4e2594aa4aaf1f44c8805b6a9e",
+    "bytes": 3219
   },
   {
     "path": "public/resources/yeast-fermentation-cylinder-teacher-guide.pdf",
-    "sha256": "252e3465f53d100384fd7f1a85448856c1bd0fe0e76b5cb138dfedd07dd12ba6",
-    "bytes": 11352
+    "sha256": "3e19205fa032459550239e8566ae4d6b5c69c9843dc154c54b94073c02912a45",
+    "bytes": 11393
   },
   {
     "path": "public/resources/yeast-fermentation-cylinder-worksheet.pdf",
-    "sha256": "e5dbb933828e812a7793c615bce0670d83685edd21d97115bb835991a5301486",
-    "bytes": 9548
+    "sha256": "09cf21bc82de423e8f9a89ead527bf42f51cc3c811ab6541f86b10ad9356d24c",
+    "bytes": 9641
   },
   {
     "path": "public/resources/yeast-fermentation-syringe-teacher-guide.pdf",
-    "sha256": "9334cd20baa33c2cad85dc04cd07d1fc0648939bc7f02590a975511179697d42",
-    "bytes": 11241
+    "sha256": "b805614e0429b8ee7bdaca024d68aba915d4e1f5ac47829ca9979ef231159a84",
+    "bytes": 11294
   },
   {
     "path": "public/resources/yeast-fermentation-syringe-worksheet.pdf",
-    "sha256": "35d7d4e079242048b859365b70267dc7dd216eab27a95382bf51b15e58253bea",
-    "bytes": 9429
+    "sha256": "b6f7361bce10b796f99497870add1f76087d7e5f2f064ffec8f84e7068ae045c",
+    "bytes": 9525
   },
   {
     "path": "public/resources/yeast-fermentation-teacher-guide.pdf",
-    "sha256": "7a8091a5eeda5087f2fb22f9f4b0bfaa3f7365f14256e5d38a5271d102ec8c6e",
-    "bytes": 159698
+    "sha256": "45c415ab8271cf5042e4d7785cdd266bec4758d55d57c5168d8d278ec4a8e964",
+    "bytes": 159807
   },
   {
     "path": "public/resources/yeast-fermentation-worksheet.pdf",
-    "sha256": "a9b6a2fab208dba914f867948c4c15f915fcdf8456fe4078a1c27bbc4dcd6e74",
-    "bytes": 203031
-  },
-  {
-    "path": "public/THIRD_PARTY_NOTICES.txt",
-    "sha256": "c1b1629493d21eaa96c20a1fc924ec18c6cd36dd0f21dd0215302413002b27a4",
-    "bytes": 142200
+    "sha256": "ecf4003de706ea66653541fb560ed0c9d335836e1226dcf458b0eb79521e0222",
+    "bytes": 203299
   },
   {
     "path": "resources/source/Cellular_Respiration_Add_On_Cutouts.pdf",

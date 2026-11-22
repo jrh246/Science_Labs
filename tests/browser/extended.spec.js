@@ -30,7 +30,7 @@ async function finish(page,c){
  if(!egg){await expect(page.locator('[data-act="collect"]')).toBeDisabled();await page.locator('[data-act="mature-sperm"]').click();await expect(page.locator('.sperm-icon')).toHaveCount(4);await expect(page.locator('.polar-product')).toHaveCount(0);await page.locator('.product-groups').screenshot({path:'test-results/sperm-products.png'});}
  }
  else if(c.categories){for(let i=0;i<c.count;i++)await page.locator('[data-act="tally-plus-0"]').click();await page.locator('[data-act="review"]').click();}
- else if(c.kind==='microscope'){await page.getByRole('combobox',{name:'Objective',exact:true}).selectOption('40');await page.getByRole('slider',{name:'Ruler endpoint (scale divisions)'}).press('End');}
+ else if(c.kind==='microscope'){await page.getByRole('combobox',{name:'Objective',exact:true}).selectOption('40');if(await page.locator('[data-calibration]').count()){await page.locator('[data-calibration]').fill('2');await page.locator('[data-act="calibrate"]').click();}await page.getByRole('slider',{name:'Ruler endpoint (scale divisions)'}).press('End');}
  else {await page.getByRole('button',{name:'Run remaining time',exact:true}).click();if(c.kind==='gel'){await page.locator('[data-act="stain"]').click();for(const [i,v] of [3000,1500,700].entries()){await page.locator(`[data-estimate="${i}"]`).fill(String(v));await page.locator(`[data-estimate="${i}"]`).press('Tab');}}if(['regulation','expression'].includes(c.kind))await page.locator('[data-act="viewer"]').click();}
  await page.locator('[data-act="collect"]').click();
 }
@@ -61,6 +61,7 @@ test('new lab classroom entry, timer pause/reload, mobile and offline navigation
 test('corn marks remain separate from tallies and restore at phone width',async({page})=>{
  await page.setViewportSize({width:390,height:844});
  await page.goto('/investigation.html?lab=inheritance-ratios');await fillRequiredPlan(page);await page.getByRole('button',{name:'Begin observations'}).click();
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
  await page.locator('[data-act="ear-0"]').click();await expect(page.locator('.corn-region-ear')).toBeVisible();
  await page.locator('[data-act="region-2"]').click();
  const ear=await page.locator('.corn-ear').elementHandle(),kernel=await page.locator('[data-act="mark-0"]').elementHandle();

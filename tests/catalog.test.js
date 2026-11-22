@@ -13,6 +13,6 @@ test('search finds topics, references, and units with availability filtering',()
  assert.equal(searchCatalog('OSMOSIS')[0].id,'osmosis-homeostasis');
  assert.ok(searchCatalog('chapter 8').some(l=>l.chapter===8));
  assert.ok(searchCatalog('genetics').some(l=>l.chapter===13));
- assert.equal(searchCatalog('',{availableOnly:true}).length,15);
+ assert.equal(searchCatalog('',{availableOnly:true}).length,labs.filter(lab=>lab.status==='available').length);
  assert.equal(searchCatalog('unfindable').length,0);
 });

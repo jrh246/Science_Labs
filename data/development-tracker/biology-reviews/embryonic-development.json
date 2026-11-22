@@ -1,0 +1,282 @@
+{
+  "schemaVersion": 1,
+  "labId": "embryonic-development",
+  "taskId": "BIO-29-REVIEW",
+  "reviewedBy": "Codex - separate development review",
+  "reviewedOn": "2026-11-15",
+  "sourceSnapshot": "sha256:4a65d8476706c4a4f2f01406161e86b11b19483b4f2bce83b9a5afe42711f81d",
+  "checks": {
+    "G01": {
+      "status": "pass",
+      "notes": "Authored goals map to retained decisions/calculations and original explanations. Process controls at future furrow/vegetal cell group/sheet reveal two smaller cells, ingressed mesoderm and open gut pouch; student count/relative-volume calculation and three future tissue-origin labels at actual cells/wall provide retained evidence.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/build-brief.md",
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/complete-responses.json"
+      ]
+    },
+    "G02": {
+      "status": "pass",
+      "notes": "One first division plus supplied later cleavage, two biologically distinct movements, three different tissue origins. No repeated embryo trials; direct review returns without repeating stages.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/build-brief.md",
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/review-notes.md"
+      ]
+    },
+    "G03": {
+      "status": "pass",
+      "notes": "Consulted OpenStax43.6 cleavage/germ-layer text and McClay sea-urchin overview. Species-qualified early cleavage subdivision and mesoderm ingression before sheet invagination; gut-pouch lumen differs from blastocoel, early pouch not complete gut. Reduced cell counts/colors and equal first division/relative volume are chosen, not actual measurements. Other mesoderm/late extension/signals omitted or supplied; no universal three-ring or human-timing claim.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/final-model-tests.txt"
+      ]
+    },
+    "G04": {
+      "status": "pass",
+      "notes": "Supplied versus observed values and model boundaries reviewed beside work and in reports. Consulted OpenStax43.6 cleavage/germ-layer text and McClay sea-urchin overview. Species-qualified early cleavage subdivision and mesoderm ingression before sheet invagination; gut-pouch lumen differs from blastocoel, early pouch not complete gut. Reduced cell counts/colors and equal first division/relative volume are chosen, not actual measurements. Other mesoderm/late extension/signals omitted or supplied; no universal three-ring or human-timing claim.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/review-notes.md"
+      ]
+    },
+    "G05": {
+      "status": "pass",
+      "notes": "Process controls at future furrow/vegetal cell group/sheet reveal two smaller cells, ingressed mesoderm and open gut pouch; student count/relative-volume calculation and three future tissue-origin labels at actual cells/wall provide retained evidence.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/visual-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/visual-contact-2.png"
+      ]
+    },
+    "G06": {
+      "status": "pass",
+      "notes": "Eight actual initial/intermediate/final/phone/tablet states inspected. Corrected initial nucleus-centered target to a marked future furrow, moved gut-lumen text with a leader and replaced large overlapping target captions with numbered targets plus external legend; removed redundant process captions on phone. Original recognizable section cells/nuclei/membranes and pouch/cavity distinction, no human-embryo claim.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/visual-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/visual-contact-2.png"
+      ]
+    },
+    "G07": {
+      "status": "pass",
+      "notes": "Choice identity/meaningful sequence preserved, shuffled banks stable for an attempt. Current rejection/correction reviewed. Separate review fixed actual furrow/caption/lumen-site diagram issues. Initial12/13 model tests had an overbroad assertion: it rejected a legitimate earlier corrected invagination when checking current wrong lining. Scoped assertion to actual lining response; final13pass. Current rejected lining remains unconfirmed, no premature correction. Both6-case initial/final browser groups pass.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/final-browser-tests.txt"
+      ]
+    },
+    "G08": {
+      "status": "pass",
+      "notes": "Full student/report/handout pathway manually read, zygote/cleavage/blastula/blastocoel/gastrulation/germ layer/ingression/invagination/lumen explained. Heuristic7.9/10.2words supports reading review, not classroom comprehension.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/reading-screen.json",
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/review-notes.md"
+      ]
+    },
+    "G09": {
+      "status": "pass",
+      "notes": "Initial reasoning gates model/UI before observation; current academic edits immediately disable dependent actions and preserve raw values on reload.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/final-browser-tests.txt"
+      ]
+    },
+    "G10": {
+      "status": "pass",
+      "notes": "Correct!/Try again feedback explains the rule; current wrong/blank stays unconfirmed and actual revision distinct. Separate review fixed actual furrow/caption/lumen-site diagram issues. Initial12/13 model tests had an overbroad assertion: it rejected a legitimate earlier corrected invagination when checking current wrong lining. Scoped assertion to actual lining response; final13pass. Current rejected lining remains unconfirmed, no premature correction. Both6-case initial/final browser groups pass.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/edited-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/final-model-tests.txt"
+      ]
+    },
+    "G11": {
+      "status": "pass",
+      "notes": "Actual successful/repeated/reloaded completion, denied storage/retry, identity versus academic edits; view-only saved-evidence return preserves completion.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/final-browser-tests.txt"
+      ]
+    },
+    "G12": {
+      "status": "pass",
+      "notes": "Versioned scoped attempt/locale and stable IDs retain original reasoning/current wrong/blank/corrections across reload. No regenerated observations on review.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/final-model-tests.txt"
+      ]
+    },
+    "G13": {
+      "status": "pass",
+      "notes": "Actual named and neutral completed/draft downloadable PDFs plus native print; optional name/period, safe filename and standard local timestamp checked.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/draft.pdf",
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/native-print.pdf"
+      ]
+    },
+    "G14": {
+      "status": "pass",
+      "notes": "Human report groups meaningful learning evidence, supplied context, current raw entries/status and original writing, no click-log grade or authenticated submission claim.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/complete-responses.json"
+      ]
+    },
+    "G15": {
+      "status": "pass",
+      "notes": "All35 current resource/report/native pages inspected in five contacts. Teacher2/student3; completed3, partial2/3, long download7/native6. Completed16 prompt pairs and46 full source fragments retained, no clipping/missing glyphs, actual long tail present. Full prompt-answer starts, original source text/glyphs, long first-offline/native final marker checked.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/pdf-inspection.json",
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/pagination-check.txt",
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/glyph-check.txt",
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/glyph-all.txt",
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/pdf-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/pdf-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/pdf-contact-3.png",
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/pdf-contact-4.png",
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/pdf-contact-5.png"
+      ]
+    },
+    "G16": {
+      "status": "pass",
+      "notes": "Native touch drag-release-next action, keyboard and resized mouse,44px phone targets/no overflow/reduced motion/reload exercised. Physical hardware/AT remain separate.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/visual-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/visual-contact-2.png"
+      ]
+    },
+    "G17": {
+      "status": "pass",
+      "notes": "Final13 model/report/font and6 full browser cases pass; initial12/13 failure preserved with correction rationale.97 resource PDFs checked. Current full resource validation and private platform compile passed. Software is not independent science/classroom acceptance.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/initial-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/platform-build.txt"
+      ]
+    },
+    "G18": {
+      "status": "pass",
+      "notes": "Stable English authored/question/condition IDs, locale and original student writing retained. Native app languages and reviewed Spanish printing remain AUD-10.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/review-notes.md"
+      ]
+    },
+    "RESOURCES": {
+      "status": "pass",
+      "notes": "Current shared-content teacher/student resources, actual rendered pages and prompt/link/hash parity checked. All35 current resource/report/native pages inspected in five contacts. Teacher2/student3; completed3, partial2/3, long download7/native6. Completed16 prompt pairs and46 full source fragments retained, no clipping/missing glyphs, actual long tail present.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/pdf-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/pdf-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/pdf-contact-3.png",
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/pdf-contact-4.png",
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/pdf-contact-5.png"
+      ]
+    },
+    "ACCESS": {
+      "status": "pass",
+      "notes": "Guest/free route, reports/print/offline remain account-free; paid/staff/publishing policy preserved. Private compile only, no public deployment.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/platform-build.txt"
+      ]
+    },
+    "TRACKING": {
+      "status": "pass",
+      "notes": "Actual local English implementation/resources/catalog and curriculum/tracker regenerated. Standards/native-language/full-course/publication approvals separate.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/build-brief.md",
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/review-notes.md"
+      ]
+    }
+  },
+  "artifacts": {
+    "workflow": [
+      "data/development-tracker/biology-reviews/evidence/embryonic-development/build-brief.md",
+      "data/development-tracker/biology-reviews/evidence/embryonic-development/review-notes.md",
+      "data/development-tracker/biology-reviews/evidence/embryonic-development/reading-screen.json",
+      "data/development-tracker/biology-reviews/evidence/embryonic-development/complete-responses.json",
+      "data/development-tracker/biology-reviews/evidence/embryonic-development/source-manifest.json"
+    ],
+    "visuals": [
+      "data/development-tracker/biology-reviews/evidence/embryonic-development/visual-contact-1.png",
+      "data/development-tracker/biology-reviews/evidence/embryonic-development/visual-contact-2.png"
+    ],
+    "pdfReports": [
+      "data/development-tracker/biology-reviews/evidence/embryonic-development/complete.pdf",
+      "data/development-tracker/biology-reviews/evidence/embryonic-development/development-draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/embryonic-development/draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/embryonic-development/edited-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/embryonic-development/label-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/embryonic-development/long-offline.pdf",
+      "data/development-tracker/biology-reviews/evidence/embryonic-development/reading-unconfirmed.pdf"
+    ],
+    "nativePrint": [
+      "data/development-tracker/biology-reviews/evidence/embryonic-development/long-native-print.pdf",
+      "data/development-tracker/biology-reviews/evidence/embryonic-development/native-print.pdf"
+    ],
+    "tests": [
+      "data/development-tracker/biology-reviews/evidence/embryonic-development/final-model-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/embryonic-development/final-browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/embryonic-development/pagination-check.txt",
+      "data/development-tracker/biology-reviews/evidence/embryonic-development/glyph-check.txt",
+      "data/development-tracker/biology-reviews/evidence/embryonic-development/glyph-all.txt",
+      "data/development-tracker/biology-reviews/evidence/embryonic-development/resource-check.txt",
+      "data/development-tracker/biology-reviews/evidence/embryonic-development/platform-build.txt"
+    ],
+    "resources": [
+      "public/resources/embryonic-development-worksheet.pdf",
+      "public/resources/embryonic-development-teacher-guide.pdf"
+    ]
+  },
+  "externalValidation": {
+    "teacherStudentComprehension": {
+      "status": "pending",
+      "notes": "Not performed; development checks do not establish classroom comprehension."
+    },
+    "physicalDevices": {
+      "status": "pending",
+      "notes": "Emulation is not physical-device or assistive-technology acceptance."
+    },
+    "classroomProtocol": {
+      "status": "not-applicable",
+      "notes": "Virtual-only activity; no physical protocol supplied."
+    }
+  },
+  "history": [
+    {
+      "event": "Separate review fixed actual furrow/caption/lumen-site diagram issues. Initial12/13 model tests had an overbroad assertion: it rejected a legitimate earlier corrected invagination when checking current wrong lining. Scoped assertion to actual lining response; final13pass. Current rejected lining remains unconfirmed, no premature correction. Both6-case initial/final browser groups pass.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/embryonic-development/final-browser-tests.txt"
+      ]
+    }
+  ],
+  "decision": "pass",
+  "summary": "BIO-29 development review passed for species-qualified cleavage subdivision, two distinct gastrulation movements and tissue-origin interpretation. Corrected actual site/caption issues and scoped mistaken assertion. Physical classroom/devices/AT, translation and production acceptance remain separate.",
+  "blockers": [],
+  "followUps": [
+    {
+      "date": "2026-11-15",
+      "scope": "Final shared PDF section-heading and short/long downloaded/native regression. Earlier full source review retained.",
+      "sourceFiles": [
+        "src/investigations/student-report.js",
+        "scripts/verify-report-pagination.py",
+        "tests/browser/biology-browser-contract.mjs"
+      ],
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/reserve-design/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/final-six-lab-browser-regression.txt",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/shared-section-followup/verification.txt",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/shared-section-followup/inspection.json",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/shared-section-followup/contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/shared-section-followup/contact-2.png"
+      ],
+      "result": "All37browser workflows pass;24normal/long PDF/native section+response checks pass,10focused heading pages inspected. Limited layout/software follow-up, not full scientific/classroom/device/language reapproval."
+    }
+  ]
+}

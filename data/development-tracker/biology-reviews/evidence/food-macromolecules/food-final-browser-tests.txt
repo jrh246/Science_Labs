@@ -1,0 +1,33 @@
+
+node.exe : [WebServer] (node:23112) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([WebServer] (no... env being set.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] 
+[WebServer] (!) Some chunks are larger than 500 kB after minification. Consider:
+[WebServer] - Using dynamic import() to code-split the application
+[WebServer] - Use build.rollupOptions.output.manualChunks to improve chunking: 
+https://rollupjs.org/configuration-options/#output-manualchunks
+[WebServer] - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+[WebServer] (node:57524) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+
+Running 6 tests using 1 worker
+
+
+
+(node:30476) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[1/6] tests\browser\food.spec.js:11:1 › food lab full control-based workflow, distinct assays, corrections, saved completion and named PDF/native print
+[2/6] tests\browser\food.spec.js:12:1 › food lab keyboard, touch drop at the tube opening, drag release then tap, reduced motion and tablet reload
+[3/6] tests\browser\food.spec.js:13:1 › food lab draft, storage failure/retry, long Unicode explanation and first PDF export offline
+[4/6] tests\browser\food.spec.js:14:1 › food lab mouse work sites remain aligned after scroll and resize
+[5/6] tests\browser\food.spec.js:15:1 › food lab draft PDF failure recovers and leaves native print available
+[6/6] tests\browser\food.spec.js:16:1 › food lab root/development progress and caches stay separate, including first offline draft PDF
+  6 passed (17.8s)

@@ -1,0 +1,642 @@
+{
+  "schemaVersion": 2,
+  "labId": "reserve-design",
+  "title": "Design a Biodiversity Reserve",
+  "question": "How can two reserve layouts protect different habitats and connections under the same budget?",
+  "student": {
+    "name": "",
+    "class": ""
+  },
+  "status": "In progress",
+  "grading": "not_graded",
+  "exportedAt": "2026-11-15T22:09:28.211Z",
+  "exportTimeZone": "America/Los_Angeles",
+  "exportedAtDisplay": "Nov 15, 2026, 2:09 PM PST",
+  "sections": [
+    {
+      "heading": "First prediction and design",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Required before mapping: Predict a tradeoff between covering different habitats and keeping selected land together. What conservation goal would you prioritize, and why?",
+          "text": "I predict covering wetland as well as woodland can trade off with compact protection. I would investigate woodland and wetland coverage before choosing."
+        },
+        {
+          "type": "response",
+          "prompt": "Required before mapping: How will you keep the two budgets equal? What information about species or movement would you need before calling a connection a useful wildlife corridor?",
+          "text": "Both plans get12credits for12hectares on the same fictional map. Need species ranges, habitat quality and measured dispersal before calling a side connection a useful wildlife corridor."
+        },
+        {
+          "type": "paragraph",
+          "text": "Before the landscape or computed design metrics"
+        }
+      ]
+    },
+    {
+      "heading": "Plan A · current design evidence",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Recorded within the12-credit budget. Interpretation not graded. "
+        },
+        {
+          "type": "response",
+          "prompt": "Selected cells",
+          "text": "A1, A2, A3, A4, B1, B2, B3, B4, C1, C2, C3, C4"
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Row",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "rows": [
+            [
+              "A",
+              "[F]",
+              "[F]",
+              "[F]",
+              "[M]",
+              "M",
+              "W"
+            ],
+            [
+              "B",
+              "[F]",
+              "[F]",
+              "[F]",
+              "[M]",
+              "W",
+              "W"
+            ],
+            [
+              "C",
+              "[F]",
+              "[F]",
+              "[F]",
+              "[M]",
+              "W",
+              "W"
+            ],
+            [
+              "D",
+              "F",
+              "F",
+              "M",
+              "M",
+              "M",
+              "M"
+            ],
+            [
+              "E",
+              "M",
+              "M",
+              "M",
+              "F",
+              "F",
+              "F"
+            ],
+            [
+              "F",
+              "M",
+              "M",
+              "M",
+              "F",
+              "F",
+              "F"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "F woodland; M meadow; W wetland. Brackets mark current selected cells, not habitat conversion. Every cell1ha; outside map assumed unselected only for boundary calculation."
+        },
+        {
+          "type": "response",
+          "prompt": "Current computed geometry and habitat areas",
+          "text": "Area 12ha; credits 12/12; woodland 9ha, meadow 3ha, wetland 0ha; side-adjoining groups 1; reserve boundary 1400m. Geometric metrics, not measured ecological outcomes."
+        },
+        {
+          "type": "response",
+          "prompt": "Original rationale for this current plan",
+          "text": "Plan A keeps9ha woodland and3ha meadow in a compact3×4block. It has1side-adjoining group and1400m reserve boundary. It leaves wetland unselected; that habitat still exists, so this does not prove a species loss."
+        }
+      ]
+    },
+    {
+      "heading": "Plan B · current design evidence",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Recorded within the12-credit budget. Interpretation not graded. Starting layout copied from earlier recorded A; rationale not copied. Current B may differ."
+        },
+        {
+          "type": "response",
+          "prompt": "Selected cells",
+          "text": "A1, A2, A3, A6, B1, B2, B3, B6, C1, C2, C3, C6"
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Row",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "rows": [
+            [
+              "A",
+              "[F]",
+              "[F]",
+              "[F]",
+              "M",
+              "M",
+              "[W]"
+            ],
+            [
+              "B",
+              "[F]",
+              "[F]",
+              "[F]",
+              "M",
+              "W",
+              "[W]"
+            ],
+            [
+              "C",
+              "[F]",
+              "[F]",
+              "[F]",
+              "M",
+              "W",
+              "[W]"
+            ],
+            [
+              "D",
+              "F",
+              "F",
+              "M",
+              "M",
+              "M",
+              "M"
+            ],
+            [
+              "E",
+              "M",
+              "M",
+              "M",
+              "F",
+              "F",
+              "F"
+            ],
+            [
+              "F",
+              "M",
+              "M",
+              "M",
+              "F",
+              "F",
+              "F"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "F woodland; M meadow; W wetland. Brackets mark current selected cells, not habitat conversion. Every cell1ha; outside map assumed unselected only for boundary calculation."
+        },
+        {
+          "type": "response",
+          "prompt": "Current computed geometry and habitat areas",
+          "text": "Area 12ha; credits 12/12; woodland 9ha, meadow 0ha, wetland 3ha; side-adjoining groups 2; reserve boundary 2000m. Geometric metrics, not measured ecological outcomes."
+        },
+        {
+          "type": "response",
+          "prompt": "Original rationale for this current plan",
+          "text": "Plan B keeps9ha woodland plus3ha wetland, giving up the3ha meadow. Same12credits/12ha, but2side-adjoining groups and2000m boundary. These are planning tradeoffs, not a biodiversity score or a measured movement barrier."
+        }
+      ]
+    },
+    {
+      "heading": "Meaningful design feedback and source limits",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "No blocked over-budget placement recorded."
+        },
+        {
+          "type": "paragraph",
+          "text": "Plan metrics are calculated from current student selections on the supplied fictional map. A status boundary is not automatically a physical habitat edge, and side-adjoining groups are not measured animal movement."
+        }
+      ]
+    },
+    {
+      "heading": "Learning evidence",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Compare your two protected habitat-area totals and rationales. What did you gain or give up when changing A to B? Why does equal total area not guarantee the same habitats or species?",
+          "text": "My coverage evidence: A protects12ha with woodland9/meadow3/wetland0, one side-adjoining group and1400m boundary. B protects12ha with woodland9/meadow0/wetland3, two groups and2000m boundary. B adds wetland protection and loses meadow coverage under the same12fictional credits. It has a longer boundary and separated selected blocks; neither metric alone is a biodiversity grade. Shared selected sides lie inside a block and do not count in the boundary; diagonals do not join groups under this model. Unselected habitat is not erased or automatically destroyed. A reserve boundary between woodland cells is not necessarily a physical habitat edge, and legal/map adjacency is not measured functional animal movement. Some organisms cross unprotected land while others may not use selected wetland. My prediction about a coverage/compactness tradeoff fits these two chosen alternatives, but ties and other goals are possible. I would investigate B for woodland/wetland coverage, then seek species presence/ranges, habitat quality, seasonal/dispersal observations and community priorities. Equalcosts/mapcategories/outside-boundary rule are assumptions. Habitat area is not species richness or guaranteed survival; no universally best plan follows from this map. The B starting draft was copied for convenience, not its explanation or biological evidence."
+        },
+        {
+          "type": "response",
+          "prompt": "Use both group counts and boundary lengths. How did shared sides or gaps change your map? Why are these geometric connections and reserve boundaries different from measured movement and ecological habitat edges?",
+          "text": "My geometry evidence: A protects12ha with woodland9/meadow3/wetland0, one side-adjoining group and1400m boundary. B protects12ha with woodland9/meadow0/wetland3, two groups and2000m boundary. B adds wetland protection and loses meadow coverage under the same12fictional credits. It has a longer boundary and separated selected blocks; neither metric alone is a biodiversity grade. Shared selected sides lie inside a block and do not count in the boundary; diagonals do not join groups under this model. Unselected habitat is not erased or automatically destroyed. A reserve boundary between woodland cells is not necessarily a physical habitat edge, and legal/map adjacency is not measured functional animal movement. Some organisms cross unprotected land while others may not use selected wetland. My prediction about a coverage/compactness tradeoff fits these two chosen alternatives, but ties and other goals are possible. I would investigate B for woodland/wetland coverage, then seek species presence/ranges, habitat quality, seasonal/dispersal observations and community priorities. Equalcosts/mapcategories/outside-boundary rule are assumptions. Habitat area is not species richness or guaranteed survival; no universally best plan follows from this map. The B starting draft was copied for convenience, not its explanation or biological evidence."
+        },
+        {
+          "type": "response",
+          "prompt": "Which plan would you investigate further for your stated goal, and why? Use evidence from both maps, allow ties, compare your prediction, and name two missing kinds of biological or community evidence. Why is your choice not proof of a universally best reserve?",
+          "text": "Evidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nFINAL LONG ANSWER"
+        }
+      ]
+    },
+    {
+      "heading": "Concept checks",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Two selected cells touch only at a corner. Does this model join them into one adjoining group?",
+          "text": "No, under its side-only rule. Real movement still depends on the organism and surroundings.\nCorrect! The group rule is geometric. It does not establish dispersal ability or survival. Revised after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "A selected woodland cell borders an unselected woodland cell. What does that line mean?",
+          "text": "A reserve-status boundary; the unselected woodland still exists in this model.\nCorrect! Protection status and physical habitat are different. Biological edge effects need information about actual conditions and organisms."
+        },
+        {
+          "type": "response",
+          "prompt": "Does the map give an automatic biodiversity winner?",
+          "text": "No. Compare goals and tradeoffs, then gather species, habitat-quality, movement and community evidence.\nCorrect! These computed map metrics support a planning argument, not a species-survival score or universal reserve rule."
+        }
+      ]
+    },
+    {
+      "heading": "Limits and sources",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "This original map, equal costs and habitat categories are teaching assumptions, not survey data or real land values. Adjoining groups count selected cells connected along a side; diagonal contact does not join groups in this geometric rule. This is not measured animal movement: organisms can cross unprotected land, avoid some selected habitat, or disperse across gaps. Boundary length counts selected sides facing unselected cells or the map’s outside, assumed unselected for this calculation. A reserve boundary is not automatically an ecological habitat edge. Unselected habitat has not been erased or assumed destroyed. Habitat area is not a species count, habitat quality measure or extinction prediction. We omit species ranges, seasonal needs, actual dispersal, enforcement, changing costs, land ownership and community priorities. No layout is automatically best for biodiversity. Real corridor effects and reserve choices require evidence for the organisms and landscape involved."
+        },
+        {
+          "type": "paragraph",
+          "text": "OpenStax Biology2e47.4: conservation reserve design and challenges: https://openstax.org/books/biology-2e/pages/47-4-preserving-biodiversity"
+        },
+        {
+          "type": "paragraph",
+          "text": "Damschen Research Lab: corridor effects depend on dispersal and time: https://damschenlab.zoology.wisc.edu/research/habitat-corridors/"
+        }
+      ],
+      "keepFirst": 3
+    }
+  ],
+  "data": {
+    "schemaVersion": 1,
+    "activityVersion": 1,
+    "labId": "reserve-design",
+    "attemptId": "reserve-3779204447-1794780566879",
+    "seed": 3779204447,
+    "locale": "en",
+    "stage": 2,
+    "current": "b",
+    "studentName": "",
+    "studentClass": "",
+    "prediction": "I predict covering wetland as well as woodland can trade off with compact protection. I would investigate woodland and wetland coverage before choosing.",
+    "design": "Both plans get12credits for12hectares on the same fictional map. Need species ranges, habitat quality and measured dispersal before calling a side connection a useful wildlife corridor.",
+    "initialPlan": {
+      "prediction": "I predict covering wetland as well as woodland can trade off with compact protection. I would investigate woodland and wetland coverage before choosing.",
+      "design": "Both plans get12credits for12hectares on the same fictional map. Need species ranges, habitat quality and measured dispersal before calling a side connection a useful wildlife corridor.",
+      "timing": "Before the landscape or computed design metrics"
+    },
+    "initialA": {
+      "cells": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        7,
+        8,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": "Plan A keeps9ha woodland and3ha meadow in a compact3×4block. It has1side-adjoining group and1400m reserve boundary. It leaves wetland unselected; that habitat still exists, so this does not prove a species loss.",
+      "metrics": {
+        "areaHa": 12,
+        "credits": 12,
+        "habitats": {
+          "F": 9,
+          "M": 3,
+          "W": 0
+        },
+        "groups": 1,
+        "boundaryM": 1400
+      },
+      "valid": true,
+      "reason": "Within budget; interpretation not graded",
+      "afterFeedback": false
+    },
+    "bStarted": true,
+    "plans": {
+      "a": {
+        "cells": [
+          0,
+          1,
+          2,
+          3,
+          6,
+          7,
+          8,
+          9,
+          12,
+          13,
+          14,
+          15
+        ],
+        "note": "Plan A keeps9ha woodland and3ha meadow in a compact3×4block. It has1side-adjoining group and1400m reserve boundary. It leaves wetland unselected; that habitat still exists, so this does not prove a species loss.",
+        "record": {
+          "cells": [
+            0,
+            1,
+            2,
+            3,
+            6,
+            7,
+            8,
+            9,
+            12,
+            13,
+            14,
+            15
+          ],
+          "note": "Plan A keeps9ha woodland and3ha meadow in a compact3×4block. It has1side-adjoining group and1400m reserve boundary. It leaves wetland unselected; that habitat still exists, so this does not prove a species loss.",
+          "metrics": {
+            "areaHa": 12,
+            "credits": 12,
+            "habitats": {
+              "F": 9,
+              "M": 3,
+              "W": 0
+            },
+            "groups": 1,
+            "boundaryM": 1400
+          },
+          "valid": true,
+          "reason": "Within budget; interpretation not graded",
+          "afterFeedback": false
+        },
+        "attempts": [
+          {
+            "cells": [
+              0,
+              1,
+              2,
+              3,
+              6,
+              7,
+              8,
+              9,
+              12,
+              13,
+              14,
+              15
+            ],
+            "note": "Plan A keeps9ha woodland and3ha meadow in a compact3×4block. It has1side-adjoining group and1400m reserve boundary. It leaves wetland unselected; that habitat still exists, so this does not prove a species loss.",
+            "metrics": {
+              "areaHa": 12,
+              "credits": 12,
+              "habitats": {
+                "F": 9,
+                "M": 3,
+                "W": 0
+              },
+              "groups": 1,
+              "boundaryM": 1400
+            },
+            "valid": true,
+            "reason": "Within budget; interpretation not graded"
+          }
+        ],
+        "revisions": [
+          {
+            "cells": [
+              0,
+              1,
+              2,
+              3,
+              6,
+              7,
+              8,
+              9,
+              12,
+              13,
+              14,
+              15
+            ],
+            "note": "Plan A keeps9ha woodland and3ha meadow in a compact3×4block. It has1side-adjoining group and1400m reserve boundary. It leaves wetland unselected; that habitat still exists, so this does not prove a species loss.",
+            "metrics": {
+              "areaHa": 12,
+              "credits": 12,
+              "habitats": {
+                "F": 9,
+                "M": 3,
+                "W": 0
+              },
+              "groups": 1,
+              "boundaryM": 1400
+            },
+            "valid": true,
+            "reason": "Within budget; interpretation not graded",
+            "afterFeedback": false
+          }
+        ],
+        "origin": null
+      },
+      "b": {
+        "cells": [
+          0,
+          1,
+          2,
+          5,
+          6,
+          7,
+          8,
+          11,
+          12,
+          13,
+          14,
+          17
+        ],
+        "note": "Plan B keeps9ha woodland plus3ha wetland, giving up the3ha meadow. Same12credits/12ha, but2side-adjoining groups and2000m boundary. These are planning tradeoffs, not a biodiversity score or a measured movement barrier.",
+        "record": {
+          "cells": [
+            0,
+            1,
+            2,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14,
+            17
+          ],
+          "note": "Plan B keeps9ha woodland plus3ha wetland, giving up the3ha meadow. Same12credits/12ha, but2side-adjoining groups and2000m boundary. These are planning tradeoffs, not a biodiversity score or a measured movement barrier.",
+          "metrics": {
+            "areaHa": 12,
+            "credits": 12,
+            "habitats": {
+              "F": 9,
+              "M": 0,
+              "W": 3
+            },
+            "groups": 2,
+            "boundaryM": 2000
+          },
+          "valid": true,
+          "reason": "Within budget; interpretation not graded",
+          "afterFeedback": false
+        },
+        "attempts": [
+          {
+            "cells": [
+              0,
+              1,
+              2,
+              5,
+              6,
+              7,
+              8,
+              11,
+              12,
+              13,
+              14,
+              17
+            ],
+            "note": "Plan B keeps9ha woodland plus3ha wetland, giving up the3ha meadow. Same12credits/12ha, but2side-adjoining groups and2000m boundary. These are planning tradeoffs, not a biodiversity score or a measured movement barrier.",
+            "metrics": {
+              "areaHa": 12,
+              "credits": 12,
+              "habitats": {
+                "F": 9,
+                "M": 0,
+                "W": 3
+              },
+              "groups": 2,
+              "boundaryM": 2000
+            },
+            "valid": true,
+            "reason": "Within budget; interpretation not graded"
+          }
+        ],
+        "revisions": [
+          {
+            "cells": [
+              0,
+              1,
+              2,
+              5,
+              6,
+              7,
+              8,
+              11,
+              12,
+              13,
+              14,
+              17
+            ],
+            "note": "Plan B keeps9ha woodland plus3ha wetland, giving up the3ha meadow. Same12credits/12ha, but2side-adjoining groups and2000m boundary. These are planning tradeoffs, not a biodiversity score or a measured movement barrier.",
+            "metrics": {
+              "areaHa": 12,
+              "credits": 12,
+              "habitats": {
+                "F": 9,
+                "M": 0,
+                "W": 3
+              },
+              "groups": 2,
+              "boundaryM": 2000
+            },
+            "valid": true,
+            "reason": "Within budget; interpretation not graded",
+            "afterFeedback": false
+          }
+        ],
+        "origin": {
+          "from": "recorded-a-layout",
+          "cells": [
+            0,
+            1,
+            2,
+            3,
+            6,
+            7,
+            8,
+            9,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      }
+    },
+    "limitAttempts": [],
+    "checks": {
+      "diagonal": {
+        "attempts": [
+          {
+            "value": "always",
+            "correct": false
+          },
+          {
+            "value": "rule",
+            "correct": true
+          }
+        ],
+        "value": "rule",
+        "correct": true
+      },
+      "boundary": {
+        "attempts": [
+          {
+            "value": "status",
+            "correct": true
+          }
+        ],
+        "value": "status",
+        "correct": true
+      },
+      "winner": {
+        "attempts": [
+          {
+            "value": "evidence",
+            "correct": true
+          }
+        ],
+        "value": "evidence",
+        "correct": true
+      }
+    },
+    "answers": {
+      "coverage": "My coverage evidence: A protects12ha with woodland9/meadow3/wetland0, one side-adjoining group and1400m boundary. B protects12ha with woodland9/meadow0/wetland3, two groups and2000m boundary. B adds wetland protection and loses meadow coverage under the same12fictional credits. It has a longer boundary and separated selected blocks; neither metric alone is a biodiversity grade. Shared selected sides lie inside a block and do not count in the boundary; diagonals do not join groups under this model. Unselected habitat is not erased or automatically destroyed. A reserve boundary between woodland cells is not necessarily a physical habitat edge, and legal/map adjacency is not measured functional animal movement. Some organisms cross unprotected land while others may not use selected wetland. My prediction about a coverage/compactness tradeoff fits these two chosen alternatives, but ties and other goals are possible. I would investigate B for woodland/wetland coverage, then seek species presence/ranges, habitat quality, seasonal/dispersal observations and community priorities. Equalcosts/mapcategories/outside-boundary rule are assumptions. Habitat area is not species richness or guaranteed survival; no universally best plan follows from this map. The B starting draft was copied for convenience, not its explanation or biological evidence.",
+      "geometry": "My geometry evidence: A protects12ha with woodland9/meadow3/wetland0, one side-adjoining group and1400m boundary. B protects12ha with woodland9/meadow0/wetland3, two groups and2000m boundary. B adds wetland protection and loses meadow coverage under the same12fictional credits. It has a longer boundary and separated selected blocks; neither metric alone is a biodiversity grade. Shared selected sides lie inside a block and do not count in the boundary; diagonals do not join groups under this model. Unselected habitat is not erased or automatically destroyed. A reserve boundary between woodland cells is not necessarily a physical habitat edge, and legal/map adjacency is not measured functional animal movement. Some organisms cross unprotected land while others may not use selected wetland. My prediction about a coverage/compactness tradeoff fits these two chosen alternatives, but ties and other goals are possible. I would investigate B for woodland/wetland coverage, then seek species presence/ranges, habitat quality, seasonal/dispersal observations and community priorities. Equalcosts/mapcategories/outside-boundary rule are assumptions. Habitat area is not species richness or guaranteed survival; no universally best plan follows from this map. The B starting draft was copied for convenience, not its explanation or biological evidence.",
+      "evidence": "Evidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nEvidence α β, Zoë and español.\n\nFINAL LONG ANSWER"
+    },
+    "complete": false
+  },
+  "locale": "en",
+  "activityVersion": 1,
+  "attemptId": "reserve-3779204447-1794780566879"
+}

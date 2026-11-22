@@ -1,0 +1,22 @@
+import {selectionContent as c} from './selection-content.js';
+export const habitats=['soft','hard'];
+export const beaks=['small','deep'];
+export const habitatLabel=id=>id==='soft'?'Mostly small, soft seeds':'Mostly large, hard seeds';
+export const feedingCost=(beak,seed)=>seed==='soft'?(beak==='small'?1:2):(beak==='small'?6:2);
+const newRun=()=>({season:false,family:null,offspring:false,entered:'',claim:'',record:null,attempts:[]});
+export function freshSelection(seed=Date.now()>>>0){return {schemaVersion:1,activityVersion:1,labId:c.id,attemptId:`selection-${seed}-${Date.now()}`,seed:seed>>>0,locale:'en',stage:0,studentName:'',studentClass:'',prediction:'',design:'',initialPlan:null,feeding:{},lastFeeding:null,active:'soft',runs:Object.fromEntries(habitats.map(id=>[id,newRun()])),checks:{},answers:{},complete:false};}
+export function restoreSelection(raw){let old;try{old=typeof raw==='string'?JSON.parse(raw):raw;}catch{return freshSelection();}if(!old||old.schemaVersion!==1||old.labId!==c.id)return freshSelection();const s={...freshSelection(old.seed),...old};s.runs=Object.fromEntries(habitats.map(id=>[id,{...newRun(),...old.runs?.[id]}]));s.feeding=old.feeding||{};s.checks=old.checks||{};s.answers=old.answers||{};if(!s.initialPlan)s.stage=0;if(!habitats.includes(s.active))s.active='soft';if(![0,1,2,3].includes(s.stage))s.stage=0;if(!canCompleteSelection(s))s.complete=false;return s;}
+export const selectionPlanReady=s=>Boolean(s.prediction.trim()&&s.design.trim());
+export function startSelection(s){if(!selectionPlanReady(s))return false;s.initialPlan??={prediction:s.prediction,design:s.design,timing:'Before feeding or population observations',recordedAt:new Date().toISOString()};s.stage=1;s.complete=false;return true;}
+export function offerSeed(s,seed,beak){if(!s.initialPlan||s.stage!==1||!habitats.includes(seed)||!beaks.includes(beak))return false;s.feeding[`${beak}-${seed}`]={beak,seed,cost:feedingCost(beak,seed),sourceId:'model-feeding-rule'};s.lastFeeding={seed,beak};s.complete=false;return true;}
+export const feedingReady=s=>beaks.every(b=>habitats.every(h=>s.feeding[`${b}-${h}`]));
+export function beginHabitats(s){if(!s.initialPlan||!feedingReady(s))return false;s.stage=2;return true;}
+export function populationResult(id){const survivors=id==='soft'?{small:9,deep:6}:{small:3,deep:9};const deep=Math.round(24*survivors.deep/(survivors.small+survivors.deep));return {survivors,offspring:{small:24-deep,deep},deepPercent:Math.round(deep/24*100),change:deep<12?'decrease':'increase'};}
+export function feedPopulation(s){if(s.stage!==2||!feedingReady(s)||s.runs[s.active].season)return false;s.runs[s.active].season=true;s.complete=false;return true;}
+export function placeFamily(s,type){const r=s.runs[s.active];if(s.stage!==2||!r.season||r.offspring||!beaks.includes(type)||populationResult(s.active).survivors[type]<2)return false;r.family={type,parentCount:2,offspringType:type,sourceId:'student-traced-model-family'};s.complete=false;return true;}
+export function makeOffspring(s){const r=s.runs[s.active];if(s.stage!==2||!r.family||r.offspring)return false;r.offspring=true;s.complete=false;return true;}
+export function recordSelection(s){const r=s.runs[s.active];if(s.stage!==2||!r.offspring)return false;const result=populationResult(s.active),correct=r.entered.trim()!==''&&Number(r.entered)===result.deepPercent&&r.claim===result.change;r.attempts.push({entered:r.entered,claim:r.claim,correct});r.record=correct?{percent:Number(r.entered),claim:r.claim,correctAfterFeedback:r.attempts.slice(0,-1).some(x=>!x.correct),sourceId:'student-interpreted-model-counts'}:null;s.complete=false;return correct;}
+export const selectionDataReady=s=>habitats.every(id=>s.runs[id].record);
+export function nextSelection(s){if(s.stage!==2||!s.runs[s.active].record)return false;if(s.active==='soft')s.active='hard';else s.stage=3;return true;}
+export function checkSelection(s,id,value){const q=c.checks.find(q=>q.id===id);if(s.stage!==3||!selectionDataReady(s)||!q||!q.choices.some(([id])=>id===value))return false;const a=s.checks[id]??={attempts:[]};a.value=value;a.correct=value===q.correct;a.attempts.push({value,correct:a.correct});s.complete=false;return a.correct;}
+export const canCompleteSelection=s=>Boolean(s.initialPlan&&feedingReady(s)&&selectionDataReady(s)&&c.checks.every(q=>s.checks[q.id]?.correct)&&c.explanations.every(q=>s.answers[q.id]?.trim()));

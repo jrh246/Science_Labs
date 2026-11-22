@@ -1,0 +1,402 @@
+{
+  "schemaVersion": 2,
+  "labId": "reaction-time",
+  "title": "Investigating Reaction Time",
+  "question": "How much do three responses vary in one setup, and what does a response-time measurement include?",
+  "student": {
+    "name": "Zoë García",
+    "class": "Period 5"
+  },
+  "status": "Complete",
+  "grading": "not_graded",
+  "exportedAt": "2026-11-15T17:24:27.351Z",
+  "exportTimeZone": "America/Los_Angeles",
+  "exportedAtDisplay": "Nov 15, 2026, 9:24 AM PST",
+  "sections": [
+    {
+      "heading": "First prediction and matched setup",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Required before observing: Will three responses in the same setup have exactly the same time? Predict why they might vary. Does the whole task time measure only how fast a signal travels along one nerve?",
+          "text": "I predict the three task intervals may vary because attention, preparation, movement and device timing can vary. The whole interval does not isolate travel along one nerve."
+        },
+        {
+          "type": "response",
+          "prompt": "Required before observing: How will you keep the device, response method, hand position and task the same? Why should a press before the cue be excluded? What could still vary even with these controls?",
+          "text": "Keep the device, response method, task and comfortable hand position the same. A press before the cue cannot measure a response to that cue. There are three repeated measurements of one setup, not three independent people."
+        },
+        {
+          "type": "paragraph",
+          "text": "Timing: Before pathway action or timed observations."
+        },
+        {
+          "type": "paragraph",
+          "text": "Response method: Pointer press · mouse, touch or pen."
+        },
+        {
+          "type": "paragraph",
+          "text": "Use one device and one chosen response method for all three observations. If using a pointer, keep the same mouse, touch or pen type. Keep your hand position comfortable and consistent. Wait for RESPOND to replace WAIT; do not guess a countdown. The interval before the cue varies. Text and color both identify the cue. This is one person’s repeated task in one setup, not three people or independent groups."
+        }
+      ]
+    },
+    {
+      "heading": "Pathway explanation",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Eye / sensory input",
+          "text": "The retina detects light; signals travel toward the brain.\nCorrect after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "Brain processing",
+          "text": "Brain networks use the cue and the task rule to prepare a response.\nCorrect after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "Motor pathway",
+          "text": "Signals travel through brain/spinal motor pathways toward hand muscles.\nCorrect after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "Hand response",
+          "text": "Muscles act and the hand operates the response control.\nCorrect after feedback."
+        }
+      ]
+    },
+    {
+      "heading": "Recorded task intervals and variability",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Source: browser cue-update callback to response-event handler, rounded to whole ms. These are on-device task measurements, not calibrated nerve travel times. Display/input/software delays are included. Valid trials: 3 of 3. Any pending trial has no elapsed result."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Trial",
+            "Recorded interval (ms)",
+            "Response method"
+          ],
+          "rows": [
+            [
+              "1",
+              "604",
+              "Pointer press · mouse, touch or pen · mouse"
+            ],
+            [
+              "2",
+              "661",
+              "Pointer press · mouse, touch or pen · mouse"
+            ],
+            [
+              "3",
+              "694",
+              "Pointer press · mouse, touch or pen · mouse"
+            ]
+          ]
+        },
+        {
+          "type": "response",
+          "prompt": "Current student-calculated median (ms)",
+          "text": "661\nCorrect after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "Current student-calculated range (ms)",
+          "text": "90\nCorrect after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "Excluded attempts",
+          "text": "Early press: Pressed before the browser cue update; excluded, not zero."
+        }
+      ]
+    },
+    {
+      "heading": "Evidence by learning goal",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Connect sensory input, brain processing, motor signals and muscle action in a planned response."
+        },
+        {
+          "type": "response",
+          "prompt": "Trace the cue to sensory input, brain processing, motor signals and hand action. Why is this total task time different from the travel time along one nerve? How does following this task’s rule differ from a simple automatic reflex?",
+          "text": "My pathway evidence: the three recorded browser intervals were 604, 661, 694 ms in original order, median 661 ms and range 90 ms. These are actual browser-test automation values for software review, not human performance data. Retinal/sensory input, brain processing, motor pathways and hand muscles contribute to the whole task. No nerve length or isolated conduction time was measured. The same pointer method/device was used; early presses are excluded rather than zero-filled. Attention and preparation may vary, as can display/input/software delays. Three repeated measurements describe this small run without proving an exact cause, population difference, reflex circuit or health/intelligence score."
+        },
+        {
+          "type": "paragraph",
+          "text": "Calculate the median and range from three actual browser-recorded responses."
+        },
+        {
+          "type": "response",
+          "prompt": "Use your three recorded times, median and range with ms units. Compare them with your prediction. What do the middle value and spread show about this run, and what do three trials leave uncertain?",
+          "text": "My variation evidence: the three recorded browser intervals were 604, 661, 694 ms in original order, median 661 ms and range 90 ms. These are actual browser-test automation values for software review, not human performance data. Retinal/sensory input, brain processing, motor pathways and hand muscles contribute to the whole task. No nerve length or isolated conduction time was measured. The same pointer method/device was used; early presses are excluded rather than zero-filled. Attention and preparation may vary, as can display/input/software delays. Three repeated measurements describe this small run without proving an exact cause, population difference, reflex circuit or health/intelligence score."
+        },
+        {
+          "type": "paragraph",
+          "text": "Use controls, excluded attempts and measurement limits to explain what this small run can show."
+        },
+        {
+          "type": "response",
+          "prompt": "Use your matched setup and any early or interrupted attempts. Explain why those attempts were excluded. Give one biological or task influence and one device or measurement influence. Why would a difference alone not show which factor caused it?",
+          "text": "My limits evidence: the three recorded browser intervals were 604, 661, 694 ms in original order, median 661 ms and range 90 ms. These are actual browser-test automation values for software review, not human performance data. Retinal/sensory input, brain processing, motor pathways and hand muscles contribute to the whole task. No nerve length or isolated conduction time was measured. The same pointer method/device was used; early presses are excluded rather than zero-filled. Attention and preparation may vary, as can display/input/software delays. Three repeated measurements describe this small run without proving an exact cause, population difference, reflex circuit or health/intelligence score."
+        }
+      ]
+    },
+    {
+      "heading": "Concept checks",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Does the measured interval give the speed of one nerve signal?",
+          "text": "No. It includes several body processes and device delays; no nerve length was measured.\nCorrect! Reaction-task time is an interval, in ms. A signal speed needs distance and travel time for a defined pathway, not this whole response. Revised after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "Why is an early press not entered as a zero-millisecond response?",
+          "text": "It happened before the cue, so it does not measure a response to that cue.\nCorrect! Retain the early attempt as excluded evidence. Do not invent a response time or silently remove it. Correct on first recorded check."
+        },
+        {
+          "type": "response",
+          "prompt": "One of your three values is higher. What does this establish?",
+          "text": "This run varied. More controlled evidence is needed to identify the cause.\nCorrect! Attention, preparation, movement, software and hardware can vary. A small descriptive run does not isolate one cause. Correct on first recorded check."
+        }
+      ]
+    },
+    {
+      "heading": "Measurement limits and sources",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The recorded values come from events in this browser, not a calibrated laboratory timer. Timing starts with the browser’s cue update and ends when its response handler runs. The exact moment light reaches your eyes is not measured. Display refresh, input hardware, software scheduling and any assistive announcement can add delays or variation. Showing a whole number of milliseconds does not guarantee one-millisecond accuracy. A very short value can include anticipation; this task cannot detect every guess. Perception, attention, preparation, brain processing, movement and device delays all contribute. Total task time is not a nerve-conduction speed, an intelligence score or a measure of nervous-system health. Three trials describe only this small run; they cannot separate causes of variation or establish a population effect. Practice, fatigue and order may matter. The pathway diagram is a broad explanation with many cells, connections and processing steps omitted. It is not a picture of exactly four neurons or a recording of signals inside your body. Real reflex pathways vary; this planned visual response should not be treated as a spinal reflex. No ruler-drop, clinical or electrical-testing procedure is supplied."
+        },
+        {
+          "type": "paragraph",
+          "text": "OpenStax Anatomy and Physiology 2e: Basic Structure and Function of the Nervous System: https://openstax.org/books/anatomy-and-physiology-2e/pages/12-1-basic-structure-and-function-of-the-nervous-system"
+        },
+        {
+          "type": "paragraph",
+          "text": "OpenStax Biology 2e: How Neurons Communicate: https://openstax.org/books/biology-2e/pages/35-2-how-neurons-communicate"
+        },
+        {
+          "type": "paragraph",
+          "text": "Anwyl-Irvine and colleagues: Realistic precision and accuracy of online experiment platforms, web browsers, and devices: https://pmc.ncbi.nlm.nih.gov/articles/PMC8367876/"
+        },
+        {
+          "type": "paragraph",
+          "text": "MDN: Performance.now: https://developer.mozilla.org/en-US/docs/Web/API/Performance/now"
+        }
+      ],
+      "keepFirst": 5
+    }
+  ],
+  "activityVersion": 1,
+  "locale": "en",
+  "attemptId": "reaction-3762094651-1794763457083",
+  "data": {
+    "schemaVersion": 1,
+    "activityVersion": 1,
+    "labId": "reaction-time",
+    "attemptId": "reaction-3762094651-1794763457083",
+    "seed": 3762094651,
+    "locale": "en",
+    "stage": 4,
+    "studentName": "Zoë García",
+    "studentClass": "Period 5",
+    "prediction": "I predict the three task intervals may vary because attention, preparation, movement and device timing can vary. The whole interval does not isolate travel along one nerve.",
+    "design": "Keep the device, response method, task and comfortable hand position the same. A press before the cue cannot measure a response to that cue. There are three repeated measurements of one setup, not three independent people.",
+    "mode": "pointer",
+    "pointerType": "mouse",
+    "initialPlan": {
+      "prediction": "I predict the three task intervals may vary because attention, preparation, movement and device timing can vary. The whole interval does not isolate travel along one nerve.",
+      "design": "Keep the device, response method, task and comfortable hand position the same. A press before the cue cannot measure a response to that cue. There are three repeated measurements of one setup, not three independent people.",
+      "mode": "pointer",
+      "timing": "Before pathway action or timed observations",
+      "recordedAt": "2026-11-15T17:24:17.253Z"
+    },
+    "pathway": {
+      "sensory": "sensory",
+      "processing": "processing",
+      "motor": "motor",
+      "muscle": "muscle"
+    },
+    "pathwayRecord": {
+      "values": {
+        "sensory": "sensory",
+        "processing": "processing",
+        "motor": "motor",
+        "muscle": "muscle"
+      },
+      "correctAfterFeedback": true
+    },
+    "pathwayAttempts": [
+      {
+        "values": {
+          "sensory": "motor"
+        },
+        "correct": false
+      },
+      {
+        "values": {
+          "sensory": "sensory",
+          "processing": "processing",
+          "motor": "motor",
+          "muscle": "muscle"
+        },
+        "correct": true
+      }
+    ],
+    "phase": "recorded",
+    "active": null,
+    "attempts": [
+      {
+        "status": "early",
+        "reason": "Pressed before the browser cue update; excluded, not zero.",
+        "input": "pointer",
+        "inputDetail": "mouse"
+      },
+      {
+        "status": "valid",
+        "trial": 1,
+        "value": 604,
+        "input": "pointer",
+        "inputDetail": "mouse"
+      },
+      {
+        "status": "valid",
+        "trial": 2,
+        "value": 661,
+        "input": "pointer",
+        "inputDetail": "mouse"
+      },
+      {
+        "status": "valid",
+        "trial": 3,
+        "value": 694,
+        "input": "pointer",
+        "inputDetail": "mouse"
+      }
+    ],
+    "trials": [
+      {
+        "number": 1,
+        "value": 604,
+        "unit": "ms",
+        "input": "pointer",
+        "inputDetail": "mouse",
+        "sourceId": "browser-cue-update-to-response-handler",
+        "rawElapsed": 603.6000000238419
+      },
+      {
+        "number": 2,
+        "value": 661,
+        "unit": "ms",
+        "input": "pointer",
+        "inputDetail": "mouse",
+        "sourceId": "browser-cue-update-to-response-handler",
+        "rawElapsed": 661.1999999880791
+      },
+      {
+        "number": 3,
+        "value": 694,
+        "unit": "ms",
+        "input": "pointer",
+        "inputDetail": "mouse",
+        "sourceId": "browser-cue-update-to-response-handler",
+        "rawElapsed": 694
+      }
+    ],
+    "stats": {
+      "median": "661",
+      "range": "90"
+    },
+    "statsRecord": {
+      "values": {
+        "median": "661",
+        "range": "90"
+      },
+      "correctAfterFeedback": true
+    },
+    "statsAttempts": [
+      {
+        "values": {
+          "median": "662",
+          "range": "90"
+        },
+        "correct": false
+      },
+      {
+        "values": {
+          "median": "661",
+          "range": "90"
+        },
+        "correct": true
+      }
+    ],
+    "checks": {
+      "whole": {
+        "attempts": [
+          {
+            "value": "nerve",
+            "correct": false
+          },
+          {
+            "value": "whole",
+            "correct": true
+          }
+        ],
+        "value": "whole",
+        "correct": true
+      },
+      "early": {
+        "attempts": [
+          {
+            "value": "before",
+            "correct": true
+          }
+        ],
+        "value": "before",
+        "correct": true
+      },
+      "cause": {
+        "attempts": [
+          {
+            "value": "limited",
+            "correct": true
+          }
+        ],
+        "value": "limited",
+        "correct": true
+      }
+    },
+    "answers": {
+      "pathway": "My pathway evidence: the three recorded browser intervals were 604, 661, 694 ms in original order, median 661 ms and range 90 ms. These are actual browser-test automation values for software review, not human performance data. Retinal/sensory input, brain processing, motor pathways and hand muscles contribute to the whole task. No nerve length or isolated conduction time was measured. The same pointer method/device was used; early presses are excluded rather than zero-filled. Attention and preparation may vary, as can display/input/software delays. Three repeated measurements describe this small run without proving an exact cause, population difference, reflex circuit or health/intelligence score.",
+      "variation": "My variation evidence: the three recorded browser intervals were 604, 661, 694 ms in original order, median 661 ms and range 90 ms. These are actual browser-test automation values for software review, not human performance data. Retinal/sensory input, brain processing, motor pathways and hand muscles contribute to the whole task. No nerve length or isolated conduction time was measured. The same pointer method/device was used; early presses are excluded rather than zero-filled. Attention and preparation may vary, as can display/input/software delays. Three repeated measurements describe this small run without proving an exact cause, population difference, reflex circuit or health/intelligence score.",
+      "limits": "My limits evidence: the three recorded browser intervals were 604, 661, 694 ms in original order, median 661 ms and range 90 ms. These are actual browser-test automation values for software review, not human performance data. Retinal/sensory input, brain processing, motor pathways and hand muscles contribute to the whole task. No nerve length or isolated conduction time was measured. The same pointer method/device was used; early presses are excluded rather than zero-filled. Attention and preparation may vary, as can display/input/software delays. Three repeated measurements describe this small run without proving an exact cause, population difference, reflex circuit or health/intelligence score."
+    },
+    "complete": true
+  },
+  "evidence": [
+    {
+      "goalId": "pathway",
+      "answerId": "pathway",
+      "writing": "My pathway evidence: the three recorded browser intervals were 604, 661, 694 ms in original order, median 661 ms and range 90 ms. These are actual browser-test automation values for software review, not human performance data. Retinal/sensory input, brain processing, motor pathways and hand muscles contribute to the whole task. No nerve length or isolated conduction time was measured. The same pointer method/device was used; early presses are excluded rather than zero-filled. Attention and preparation may vary, as can display/input/software delays. Three repeated measurements describe this small run without proving an exact cause, population difference, reflex circuit or health/intelligence score.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "variation",
+      "answerId": "variation",
+      "writing": "My variation evidence: the three recorded browser intervals were 604, 661, 694 ms in original order, median 661 ms and range 90 ms. These are actual browser-test automation values for software review, not human performance data. Retinal/sensory input, brain processing, motor pathways and hand muscles contribute to the whole task. No nerve length or isolated conduction time was measured. The same pointer method/device was used; early presses are excluded rather than zero-filled. Attention and preparation may vary, as can display/input/software delays. Three repeated measurements describe this small run without proving an exact cause, population difference, reflex circuit or health/intelligence score.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "limits",
+      "answerId": "limits",
+      "writing": "My limits evidence: the three recorded browser intervals were 604, 661, 694 ms in original order, median 661 ms and range 90 ms. These are actual browser-test automation values for software review, not human performance data. Retinal/sensory input, brain processing, motor pathways and hand muscles contribute to the whole task. No nerve length or isolated conduction time was measured. The same pointer method/device was used; early presses are excluded rather than zero-filled. Attention and preparation may vary, as can display/input/software delays. Three repeated measurements describe this small run without proving an exact cause, population difference, reflex circuit or health/intelligence score.",
+      "status": "not_graded"
+    }
+  ]
+}

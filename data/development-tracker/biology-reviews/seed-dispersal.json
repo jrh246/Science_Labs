@@ -1,0 +1,302 @@
+{
+  "schemaVersion": 1,
+  "labId": "seed-dispersal",
+  "taskId": "BIO-12-REVIEW",
+  "reviewedBy": "Codex - separate development review",
+  "reviewedOn": "2026-11-15",
+  "sourceSnapshot": "sha256:d9ee161cc5543c74768cea3aa1d2709e6efa8a8ed71b103f812190a0162b95fe",
+  "checks": {
+    "G01": {
+      "status": "pass",
+      "notes": "Three goals connect controls, ruler measurements/means/ranges and a limited dispersal claim to original explanations; no completion by navigation alone.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/complete-responses.json"
+      ]
+    },
+    "G02": {
+      "status": "pass",
+      "notes": "Three separate releases per design serve the explicit variation question. One reading per design is required; optional extra releases and readings are separately calculated and source-labeled. No invented independent plants.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/review-notes.md"
+      ]
+    },
+    "G03": {
+      "status": "pass",
+      "notes": "NASA drag equation, Science Buddies artificial designs and Lentink 2009 real samara lift checked. Gravity and air-relative quadratic drag use supplied mass/reference area and assumed coefficient; real autorotation/lift are explicitly excluded. Convergence and retained long-landing case pass.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/provenance-model-tests.txt"
+      ]
+    },
+    "G04": {
+      "status": "pass",
+      "notes": "Synthetic flights/settings, shortened replay, enlarged glyphs, first ground contact, omitted lift/rotation and limits of three releases/fitness stated near use and in reports.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/complete.pdf"
+      ]
+    },
+    "G05": {
+      "status": "pass",
+      "notes": "Students place each design on the balance and holder, release, move an actual ruler cursor and calculate comparison values. Six-manual and optional-provided paths both exercised.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/provenance-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/recorded-releases.png"
+      ]
+    },
+    "G06": {
+      "status": "pass",
+      "notes": "Original balance, stand, fan, paper models, flight path and ruler inspected before/during/after use and phone/tablet. Working tip aligns with actual pan/holder and first ground contact; five-meter ruler retains the long case.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/balance-empty.png",
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/balance-small.png",
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/small-loaded.png",
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/small-landed.png",
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/large-loaded.png",
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/large-landed.png",
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/phone-ruler.png",
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/tablet-ruler.png"
+      ]
+    },
+    "G07": {
+      "status": "pass",
+      "notes": "Stable per-attempt independent gust/drag variation; actual rounded means may tie or reverse. No forced expected ranking; choice order is seeded and model sources stay stable.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/model-tests.txt"
+      ]
+    },
+    "G08": {
+      "status": "pass",
+      "notes": "Authored UI/feedback/reports and handouts reviewed. Effective area, ballast, mean/range and reproductive fitness explained. Approximate grade 7.6 and 10.7 words/sentence are diagnostic; student comprehension still pending.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/reading-screen.json",
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/review-notes.md"
+      ]
+    },
+    "G09": {
+      "status": "pass",
+      "notes": "First prediction/controls and wind lock before observations; both balance checks, pending reading and comparison gates enforced in UI/model.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/provenance-browser-tests.txt"
+      ]
+    },
+    "G10": {
+      "status": "pass",
+      "notes": "Explicit Correct!/Try again with usable ruler/calculation feedback. Wrong ruler positions/current calculations persist unconfirmed; revisions require rechecking and current concept corrections remain in report.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/comparison-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/edited-unconfirmed.pdf"
+      ]
+    },
+    "G11": {
+      "status": "pass",
+      "notes": "Actual successful/repeated completion save, reload, denied-storage retry and identity versus academic edits verified with device-local wording.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/provenance-browser-tests.txt"
+      ]
+    },
+    "G12": {
+      "status": "pass",
+      "notes": "Versioned root-scoped state preserves first plan, releases, raw cursor, wrong attempts and original writing. View-only review preserves completion; reopened reading clears completion/comparison.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/provenance-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/provenance-browser-tests.txt"
+      ]
+    },
+    "G13": {
+      "status": "pass",
+      "notes": "Actual named PDF and native print include optional name/period, safe filenames, local standard date/time/zone and neutral unfinished work status.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/draft.pdf",
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/native-print.pdf"
+      ]
+    },
+    "G14": {
+      "status": "pass",
+      "notes": "Learning-focused snapshot groups controls, separate source-labeled release/read evidence, comparison, corrections and original goal writing. Review fixed original release provenance disappearing after a supplied reading was revised.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/revised-provided-release.pdf",
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/review-notes.md"
+      ]
+    },
+    "G15": {
+      "status": "pass",
+      "notes": "All 43 current report/resource pages rendered and inspected across six sheets. Unicode and final long markers preserved; reading sources wrap cleanly, checked interpretation/status grouped, first-offline export and recovery verified.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/pdf-inspection.json",
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/pdf-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/pdf-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/pdf-contact-3.png",
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/pdf-contact-4.png",
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/pdf-contact-5.png",
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/pdf-contact-6.png",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.md",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.md"
+      ]
+    },
+    "G16": {
+      "status": "pass",
+      "notes": "Keyboard balance/ruler, actual native touch drag-release-next tap, continuous phone slider, resize/tablet, reduced motion and reload verified. Text position alternative supports small drawing. Physical devices/AT pending.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/provenance-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/phone-ruler.png",
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/tablet-ruler.png",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.json",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.md",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-native-focus-regressions.txt"
+      ]
+    },
+    "G17": {
+      "status": "pass",
+      "notes": "163 model/report checks passed before review; final six affected cases and seven browser workflows passed after provenance fix. 63 public resources and standalone/private platform builds pass; initial failures retained honestly.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/provenance-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/provenance-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/standalone-build.txt",
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/platform-build.txt"
+      ]
+    },
+    "G18": {
+      "status": "pass",
+      "notes": "Stable activity/design/release/question/goal/source IDs, English bundle and locale/version retained. Native app/print translation and remaining UI extraction are future AUD-10.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/complete-responses.json"
+      ]
+    },
+    "RESOURCES": {
+      "status": "pass",
+      "notes": "Current three-page worksheet/two-page teacher guide match prompts, measurement table, limits and source labels; rendered and hash-checked. Build-time Python only.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/pdf-contact-1.png"
+      ]
+    },
+    "ACCESS": {
+      "status": "pass",
+      "notes": "Guest/free activity and exports work without sign-in; existing policies unchanged. Private 28-lab runtime compiled only, without upload/registration/publication.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/provenance-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/platform-build.txt"
+      ]
+    },
+    "TRACKING": {
+      "status": "pass",
+      "notes": "Stable biological-diversity/virtual route and actual English resources updated in validated generated records; standards/other-language approvals unchanged; shared copy refreshed after review.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/seed-dispersal/review-notes.md"
+      ]
+    }
+  },
+  "artifacts": {
+    "workflow": [
+      "data/development-tracker/biology-reviews/evidence/seed-dispersal/review-notes.md",
+      "data/development-tracker/biology-reviews/evidence/seed-dispersal/reading-screen.json",
+      "data/development-tracker/biology-reviews/evidence/seed-dispersal/complete-responses.json",
+      "data/development-tracker/biology-reviews/evidence/seed-dispersal/source-manifest.json"
+    ],
+    "visuals": [
+      "data/development-tracker/biology-reviews/evidence/seed-dispersal/balance-empty.png",
+      "data/development-tracker/biology-reviews/evidence/seed-dispersal/balance-small.png",
+      "data/development-tracker/biology-reviews/evidence/seed-dispersal/small-loaded.png",
+      "data/development-tracker/biology-reviews/evidence/seed-dispersal/small-landed.png",
+      "data/development-tracker/biology-reviews/evidence/seed-dispersal/large-loaded.png",
+      "data/development-tracker/biology-reviews/evidence/seed-dispersal/large-landed.png",
+      "data/development-tracker/biology-reviews/evidence/seed-dispersal/phone-ruler.png",
+      "data/development-tracker/biology-reviews/evidence/seed-dispersal/tablet-ruler.png",
+      "data/development-tracker/biology-reviews/evidence/seed-dispersal/phone-explain.png",
+      "data/development-tracker/biology-reviews/evidence/seed-dispersal/recorded-releases.png"
+    ],
+    "pdfReports": [
+      "data/development-tracker/biology-reviews/evidence/seed-dispersal/complete.pdf",
+      "data/development-tracker/biology-reviews/evidence/seed-dispersal/draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/seed-dispersal/development-draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/seed-dispersal/unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/seed-dispersal/comparison-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/seed-dispersal/edited-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/seed-dispersal/revised-provided-release.pdf",
+      "data/development-tracker/biology-reviews/evidence/seed-dispersal/long-offline.pdf",
+      "data/development-tracker/biology-reviews/evidence/seed-dispersal/pdf-inspection.json"
+    ],
+    "nativePrint": [
+      "data/development-tracker/biology-reviews/evidence/seed-dispersal/native-print.pdf",
+      "data/development-tracker/biology-reviews/evidence/seed-dispersal/long-native-print.pdf"
+    ],
+    "tests": [
+      "data/development-tracker/biology-reviews/evidence/seed-dispersal/model-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/seed-dispersal/provenance-model-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/seed-dispersal/provenance-browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/seed-dispersal/resource-check.txt",
+      "data/development-tracker/biology-reviews/evidence/seed-dispersal/standalone-build.txt",
+      "data/development-tracker/biology-reviews/evidence/seed-dispersal/platform-build.txt"
+    ],
+    "resources": [
+      "public/resources/seed-dispersal-worksheet.pdf",
+      "public/resources/seed-dispersal-teacher-guide.pdf"
+    ]
+  },
+  "externalValidation": {
+    "teacherStudentComprehension": {
+      "status": "pending",
+      "notes": "Not performed; development checks do not establish classroom comprehension."
+    },
+    "physicalDevices": {
+      "status": "pending",
+      "notes": "Emulation is not physical-device or assistive-technology acceptance."
+    },
+    "classroomProtocol": {
+      "status": "not-applicable",
+      "notes": "Virtual-only activity; no physical protocol supplied."
+    }
+  },
+  "history": [
+    {
+      "on": "2026-11-15",
+      "decision": "changes-required",
+      "notes": "The human table labels the current reading source but loses the original supplied-release provenance when that reading is revised."
+    }
+  ],
+  "decision": "pass",
+  "summary": "Development review passed after preserving supplied-release provenance through reading revisions. Controlled artificial-design comparison, direct ruler work and variation reasoning verified; classroom, physical devices, translation and production release remain separate.",
+  "blockers": [],
+  "followups": [
+    {
+      "id": "shared-touch-focus-2026-11-15",
+      "reviewedOn": "2026-11-15",
+      "reviewedBy": "Codex - shared interaction follow-up",
+      "decision": "pass",
+      "summary": "Pending native compatibility mousedown no longer steals newly assigned focus. Existing deliberate next-tap/mouse/keyboard behavior verified in39 selected browser cases; original lab review snapshot retained.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.json",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.md",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-native-focus-regressions.txt"
+      ]
+    },
+    {
+      "id": "shared-response-pagination-2026-11-15",
+      "recordedAt": "2026-11-15T17:05:24.800Z",
+      "scope": "Shared PDF question/answer page-break guard; original review remains its point-in-time snapshot. Representative current starch, stored heat/fungal and legacy enzyme reports checked; not a full rerun of this lab.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.md",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.json",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/pagination-corrected.txt",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-model-tests.txt"
+      ]
+    },
+    {
+      "id": "shared-scientific-symbols-2026-11-15",
+      "recordedAt": "2026-11-15T18:31:00.203Z",
+      "scope": "Shared offline scientific-symbol glyph fallback only; original source snapshot/history unchanged. Representative new/old outputs and legacy wrappers validated, not full rerun of this lab.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.md",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.json",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/glyph-all-artifacts.txt"
+      ]
+    }
+  ]
+}

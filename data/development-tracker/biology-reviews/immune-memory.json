@@ -1,0 +1,313 @@
+{
+  "schemaVersion": 1,
+  "labId": "immune-memory",
+  "taskId": "BIO-28-REVIEW",
+  "reviewedBy": "Codex - separate development review",
+  "reviewedOn": "2026-11-15",
+  "sourceSnapshot": "sha256:cf5ab56eeb62d573c7092cca73eb6c9a4dfb3694c61867902ca24c159ea8aa4b",
+  "checks": {
+    "G01": {
+      "status": "pass",
+      "notes": "Three goals have specific cell recognition/role evidence, real student sampled readings and specificity comparison plus original writing.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/immune-memory/build-brief.md",
+        "data/development-tracker/biology-reviews/evidence/immune-memory/complete-responses.json"
+      ]
+    },
+    "G02": {
+      "status": "pass",
+      "notes": "One detailed activation process, supplied later help/expansion. First/repeat A numerical readings differ; new B classification tests specificity without duplicate numeric copying. No independent patient trials.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/immune-memory/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/immune-memory/review-notes.md"
+      ]
+    },
+    "G03": {
+      "status": "pass",
+      "notes": "Read institutional native BCR versus presented-fragment TCR, helper/clonal/plasma/memory text. Preexisting specificity, activated helper supplied, plasma versus memory distinct. Avoided broad source instant/no-symptoms claims.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/immune-memory/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/immune-memory/final-model-tests.txt"
+      ]
+    },
+    "G04": {
+      "status": "pass",
+      "notes": "Original sampled rises above own baseline, zero not absence, chosen4-unit line not protection, no exact interpolated onset/clinical guarantee; omitted pathways/classes/affinity and variable/cross-reactive real memory explicit.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/immune-memory/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/immune-memory/build-brief.md"
+      ]
+    },
+    "G05": {
+      "status": "pass",
+      "notes": "Antigen at matching actual receptor, helper at displayed fragment, probe at plasma cell, visible uptake/helper/clone/release. Student graph cursor/sample slider and interpretation add decisions.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/immune-memory/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/immune-memory/visual-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/immune-memory/visual-contact-2.png"
+      ]
+    },
+    "G06": {
+      "status": "pass",
+      "notes": "Original cell/protein folds/receptor/site geometry and diagrams inspected at twelve states. Review added visible release stop and uptake, centered fragment caption and moved secretion arrow away from memory cell.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/immune-memory/visual-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/immune-memory/visual-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/immune-memory/visual-contact-3.png"
+      ]
+    },
+    "G07": {
+      "status": "pass",
+      "notes": "Seeded stable receptor locations; specificity maintained, pattern bank shuffled. No second redundant match diagram or position answer.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/immune-memory/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/immune-memory/visual-contact-1.png"
+      ]
+    },
+    "G08": {
+      "status": "pass",
+      "notes": "Full UI, feedback, diagrams and resource/report pathway manually read; antigen, naive, clone, plasma, memory, primary/secondary explained. Heuristic7.9/11.5words supports wording review only.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/immune-memory/reading-screen.json",
+        "data/development-tracker/biology-reviews/evidence/immune-memory/review-notes.md"
+      ]
+    },
+    "G09": {
+      "status": "pass",
+      "notes": "First reasoning required/model-gated before tools/data; helper and clone gates; current reading edits immediately gate next/return. Initial writing retained.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/immune-memory/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/immune-memory/final-browser-tests.txt"
+      ]
+    },
+    "G10": {
+      "status": "pass",
+      "notes": "Correct!/Try again gives receptor/helper/source/sampled-read reasons; current rejected and edited data stay unconfirmed, actual successful revision distinct.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/immune-memory/receptor-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/immune-memory/reading-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/immune-memory/edited-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/immune-memory/complete.pdf"
+      ]
+    },
+    "G11": {
+      "status": "pass",
+      "notes": "Successful/repeated/reloaded saves and denied storage/retry, identity versus substantive edit tested. Cursor and direct saved-series review preserve completion.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/immune-memory/final-browser-tests.txt"
+      ]
+    },
+    "G12": {
+      "status": "pass",
+      "notes": "Versioned stable attempt/case/phase/locale, original writing, raw blank/wrong/current readings and meaningful corrections survive reload. No regenerate/repeat data on review.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/immune-memory/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/immune-memory/final-model-tests.txt"
+      ]
+    },
+    "G13": {
+      "status": "pass",
+      "notes": "Actual named/neutral draft/completed downloadable PDFs and native print; optional identity, safe filename and local timestamp verified.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/immune-memory/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/immune-memory/draft.pdf",
+        "data/development-tracker/biology-reviews/evidence/immune-memory/native-print.pdf"
+      ]
+    },
+    "G14": {
+      "status": "pass",
+      "notes": "Learning-grouped cell roles/current rejection, supplied samples, current readings and meaningful revisions, concept statuses and original explanations. Not a click log/grade/authenticated submission.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/immune-memory/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/immune-memory/receptor-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/immune-memory/complete-responses.json"
+      ]
+    },
+    "G15": {
+      "status": "pass",
+      "notes": "All45 current pages inspected in six contacts; full source fragments/glyphs and prompt-answer starts checked. Long first-offline/native final marker, faithful JSON/source retained.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/immune-memory/pdf-inspection.json",
+        "data/development-tracker/biology-reviews/evidence/immune-memory/pdf-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/immune-memory/pdf-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/immune-memory/pdf-contact-3.png",
+        "data/development-tracker/biology-reviews/evidence/immune-memory/pdf-contact-4.png",
+        "data/development-tracker/biology-reviews/evidence/immune-memory/pdf-contact-5.png",
+        "data/development-tracker/biology-reviews/evidence/immune-memory/pdf-contact-6.png",
+        "data/development-tracker/biology-reviews/evidence/immune-memory/pagination-check.txt",
+        "data/development-tracker/biology-reviews/evidence/immune-memory/glyph-check.txt"
+      ]
+    },
+    "G16": {
+      "status": "pass",
+      "notes": "Native touch drag-release-next helper tap, keyboard plasma and graph slider, resized mouse graph,44px phone target/reload/no overflow/reduced motion. Physical devices/AT pending.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/immune-memory/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/immune-memory/visual-contact-3.png"
+      ]
+    },
+    "G17": {
+      "status": "pass",
+      "notes": "Initial/final13 model/report/font checks and6 full browser cases passed.95 resource validations and private platform compilation; separate judgment recorded.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/immune-memory/model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/immune-memory/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/immune-memory/initial-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/immune-memory/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/immune-memory/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/immune-memory/platform-build.txt"
+      ]
+    },
+    "G18": {
+      "status": "pass",
+      "notes": "Stable English IDs/locale/original responses; native reviewed language selection/Spanish printing remains AUD-10 and is not claimed by English acceptance.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/immune-memory/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/immune-memory/review-notes.md"
+      ]
+    },
+    "RESOURCES": {
+      "status": "pass",
+      "notes": "Current teacher2/student3 pages generated from shared content, all inspected and question/limit/prompt/link/hash checks pass.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/immune-memory/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/immune-memory/pdf-contact-1.png"
+      ]
+    },
+    "ACCESS": {
+      "status": "pass",
+      "notes": "Guest/free direct route/download/print/offline tested; account/paid/staff/release policy preserved. No publish/deployment occurred.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/immune-memory/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/immune-memory/platform-build.txt"
+      ]
+    },
+    "TRACKING": {
+      "status": "pass",
+      "notes": "Actual available local English implementation/resource metadata regenerated, course/standards/translation/publication acceptance not inferred.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/immune-memory/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/immune-memory/build-brief.md"
+      ]
+    }
+  },
+  "artifacts": {
+    "workflow": [
+      "data/development-tracker/biology-reviews/evidence/immune-memory/build-brief.md",
+      "data/development-tracker/biology-reviews/evidence/immune-memory/review-notes.md",
+      "data/development-tracker/biology-reviews/evidence/immune-memory/reading-screen.json",
+      "data/development-tracker/biology-reviews/evidence/immune-memory/complete-responses.json",
+      "data/development-tracker/biology-reviews/evidence/immune-memory/source-manifest.json"
+    ],
+    "visuals": [
+      "data/development-tracker/biology-reviews/evidence/immune-memory/visual-contact-1.png",
+      "data/development-tracker/biology-reviews/evidence/immune-memory/visual-contact-2.png",
+      "data/development-tracker/biology-reviews/evidence/immune-memory/visual-contact-3.png"
+    ],
+    "pdfReports": [
+      "data/development-tracker/biology-reviews/evidence/immune-memory/complete.pdf",
+      "data/development-tracker/biology-reviews/evidence/immune-memory/draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/immune-memory/long-offline.pdf",
+      "data/development-tracker/biology-reviews/evidence/immune-memory/edited-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/immune-memory/receptor-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/immune-memory/reading-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/immune-memory/development-draft.pdf"
+    ],
+    "nativePrint": [
+      "data/development-tracker/biology-reviews/evidence/immune-memory/native-print.pdf",
+      "data/development-tracker/biology-reviews/evidence/immune-memory/long-native-print.pdf"
+    ],
+    "tests": [
+      "data/development-tracker/biology-reviews/evidence/immune-memory/final-model-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/immune-memory/final-browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/immune-memory/resource-check.txt",
+      "data/development-tracker/biology-reviews/evidence/immune-memory/platform-build.txt",
+      "data/development-tracker/biology-reviews/evidence/immune-memory/pagination-check.txt",
+      "data/development-tracker/biology-reviews/evidence/immune-memory/glyph-check.txt"
+    ],
+    "resources": [
+      "public/resources/immune-memory-worksheet.pdf",
+      "public/resources/immune-memory-teacher-guide.pdf"
+    ]
+  },
+  "externalValidation": {
+    "teacherStudentComprehension": {
+      "status": "pending",
+      "notes": "Not performed; development checks do not establish classroom comprehension."
+    },
+    "physicalDevices": {
+      "status": "pending",
+      "notes": "Emulation is not physical-device or assistive-technology acceptance."
+    },
+    "classroomProtocol": {
+      "status": "not-applicable",
+      "notes": "Virtual-only activity; no physical protocol supplied."
+    }
+  },
+  "history": [
+    {
+      "event": "Separate review added observable release stage/uptake, centered fragment caption and redirected secretion away from memory cell; recaptured final workflows.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/immune-memory/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/immune-memory/final-browser-tests.txt"
+      ]
+    }
+  ],
+  "decision": "pass",
+  "summary": "Development review passed for antigen-specific BCR/helper/plasma-memory interactions and actual sampled first/repeat/new-antigen comparison. Corrected visible release gap and diagram caption/arrow ambiguity; no clinical or universal memory claims. External acceptance separate.",
+  "blockers": [],
+  "followUps": [
+    {
+      "date": "2026-11-15",
+      "scope": "Shared native-print heading fragmentation correction; original full review/source snapshot retained.",
+      "sourceFiles": [
+        "src/investigations/student-report.css"
+      ],
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/population-estimates/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/shared-native-regression.txt",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/shared-native-followup/inspection.json",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/shared-native-followup/contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/shared-native-followup/contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/population-estimates/shared-native-followup/contact-3.png"
+      ],
+      "result": "Normal and long first-offline native regression passed and current pages inspected. Not a complete lab reapproval or classroom/device/language acceptance."
+    },
+    {
+      "date": "2026-11-15",
+      "scope": "Shared downloaded PDF table header plus first data row; original full source review retained.",
+      "sourceFiles": [
+        "src/investigations/student-report.js",
+        "tests/browser/biology-browser-contract.mjs"
+      ],
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/shared-table-regression.txt",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/shared-table-pagination.txt",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/shared-table-followup/inspection.json",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/shared-table-followup/contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/shared-table-followup/contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/food-web-energy/shared-table-followup/contact-3.png"
+      ],
+      "result": "Corrected/long first-offline report regressions passed; all21downloaded pages inspected and8normal/long PDF/native prompt-start checks pass. Limited follow-up, not full reapproval or external acceptance."
+    },
+    {
+      "date": "2026-11-15",
+      "scope": "Final shared PDF section-heading and short/long downloaded/native regression. Earlier full source review retained.",
+      "sourceFiles": [
+        "src/investigations/student-report.js",
+        "scripts/verify-report-pagination.py",
+        "tests/browser/biology-browser-contract.mjs"
+      ],
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/reserve-design/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/final-six-lab-browser-regression.txt",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/shared-section-followup/verification.txt",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/shared-section-followup/inspection.json",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/shared-section-followup/contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/shared-section-followup/contact-2.png"
+      ],
+      "result": "All37browser workflows pass;24normal/long PDF/native section+response checks pass,10focused heading pages inspected. Limited layout/software follow-up, not full scientific/classroom/device/language reapproval."
+    }
+  ]
+}

@@ -1,0 +1,304 @@
+{
+  "schemaVersion": 1,
+  "labId": "reserve-design",
+  "taskId": "BIO-33-REVIEW",
+  "reviewedBy": "Codex - separate development review",
+  "reviewedOn": "2026-11-15",
+  "sourceSnapshot": "sha256:b00086881fc3408d2e4521f6f9a62bb6db0b8d542f1804df9eb07cf020e34289",
+  "checks": {
+    "G01": {
+      "status": "pass",
+      "notes": "Authored goals map to retained decisions/calculations and original explanations. Students mark/remove actual land cells, observe current habitat areas/groups/boundary, build two different equal12credit/12ha alternatives and write independent rationales. B copies only A’s starting layout, no rationale or final interpretation. Budget violations/unchanged duplicate B rejected without selecting extra land; direct saved-map review avoids rebuilding.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/reserve-design/build-brief.md",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/complete-responses.json"
+      ]
+    },
+    "G02": {
+      "status": "pass",
+      "notes": "Two student design alternatives serve equal-budget tradeoff comparison, no third default trial or copied rationale. B starts from recorded A to remove repeated setup; changed layout and original explanation required. Tied geometry accepted, no forced improvement or winner. Duplicate paper goal row removed because original rationale/explanations already capture it.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/reserve-design/build-brief.md",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/review-notes.md"
+      ]
+    },
+    "G03": {
+      "status": "pass",
+      "notes": "Read OpenStax47.4 reserve-design context and the Damschen primary-author corridor summary. Original fictional map/equal credits; actual protected habitat areas and four-side geometry, no invented species-survival score. Reserve-status boundary differs from ecological habitat edge, unselected habitat still exists, geometric adjacency differs from organism movement; no universal compact/single-large winner.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/reserve-design/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/final-model-tests.txt"
+      ]
+    },
+    "G04": {
+      "status": "pass",
+      "notes": "Supplied versus observed values and model boundaries reviewed beside work and in reports. Read OpenStax47.4 reserve-design context and the Damschen primary-author corridor summary. Original fictional map/equal credits; actual protected habitat areas and four-side geometry, no invented species-survival score. Reserve-status boundary differs from ecological habitat edge, unselected habitat still exists, geometric adjacency differs from organism movement; no universal compact/single-large winner.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/reserve-design/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/review-notes.md"
+      ]
+    },
+    "G05": {
+      "status": "pass",
+      "notes": "Students mark/remove actual land cells, observe current habitat areas/groups/boundary, build two different equal12credit/12ha alternatives and write independent rationales. B copies only A’s starting layout, no rationale or final interpretation. Budget violations/unchanged duplicate B rejected without selecting extra land; direct saved-map review avoids rebuilding.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/reserve-design/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/visual-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/visual-contact-2.png"
+      ]
+    },
+    "G06": {
+      "status": "pass",
+      "notes": "Seven actual empty/compact/copy/revision/distributed/phone/tablet map states inspected. Original woodland canopy/trunks/shadows, meadow and wetland water/reeds indicate supplied categories, with coordinate/type labels, selection ticks and borders.44px cell targets and keyboard arrow focus align with actual land. Final phone comparison table wrapping corrected and original printed A/B planning references inspected.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/reserve-design/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/visual-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/visual-contact-2.png"
+      ]
+    },
+    "G07": {
+      "status": "pass",
+      "notes": "Choice identity/meaningful sequence preserved, shuffled banks stable for an attempt. Current rejection/correction reviewed. Initial15model tests pass; initial browser5/6 found actual phone comparison overflow. Fixed wrapping/column sizing. Separate printed review grouped blank question/answer lines, compacted paired original maps without reducing fonts and removed duplicate collector row, taking worksheet4to3pages. Actual PDF section title orphan preserved and fixed by keeping it with first response start; checker now verifies section titles too. Final294models and37six-lab browser cases pass.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/reserve-design/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/final-browser-tests.txt"
+      ]
+    },
+    "G08": {
+      "status": "pass",
+      "notes": "Full UI/map labels/feedback/report/resource pathway manually read. Biodiversity/habitat/reserve/corridor/hectare/credit and side-only/boundary rules explained, validity separated from biodiversity grading. Heuristic8.9/10.4words only; classroom comprehension remains pending.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/reserve-design/reading-screen.json",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/review-notes.md"
+      ]
+    },
+    "G09": {
+      "status": "pass",
+      "notes": "Initial reasoning gates model/UI before observation; current academic edits immediately disable dependent actions and preserve raw values on reload.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/reserve-design/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/final-browser-tests.txt"
+      ]
+    },
+    "G10": {
+      "status": "pass",
+      "notes": "Correct!/Try again feedback explains the rule; current wrong/blank stays unconfirmed and actual revision distinct. Initial15model tests pass; initial browser5/6 found actual phone comparison overflow. Fixed wrapping/column sizing. Separate printed review grouped blank question/answer lines, compacted paired original maps without reducing fonts and removed duplicate collector row, taking worksheet4to3pages. Actual PDF section title orphan preserved and fixed by keeping it with first response start; checker now verifies section titles too. Final294models and37six-lab browser cases pass.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/reserve-design/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/edited-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/final-model-tests.txt"
+      ]
+    },
+    "G11": {
+      "status": "pass",
+      "notes": "Actual successful/repeated/reloaded completion, denied storage/retry, identity versus academic edits; view-only saved-evidence return preserves completion.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/reserve-design/final-browser-tests.txt"
+      ]
+    },
+    "G12": {
+      "status": "pass",
+      "notes": "Versioned scoped attempt/locale and stable IDs retain original reasoning/current wrong/blank/corrections across reload. No regenerated observations on review.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/reserve-design/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/final-model-tests.txt"
+      ]
+    },
+    "G13": {
+      "status": "pass",
+      "notes": "Actual named and neutral completed/draft downloadable PDFs plus native print; optional name/period, safe filename and standard local timestamp checked.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/reserve-design/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/draft.pdf",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/native-print.pdf"
+      ]
+    },
+    "G14": {
+      "status": "pass",
+      "notes": "Human report groups meaningful learning evidence, supplied context, current raw entries/status and original writing, no click-log grade or authenticated submission claim.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/reserve-design/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/complete-responses.json"
+      ]
+    },
+    "G15": {
+      "status": "pass",
+      "notes": "All42current resource/report/native pages inspected in six contacts: teacher2/student3, completed4, draft2, partial3/4, long download8/native7. Completed16prompt pairs/151source fragments and long14pairs in both formats retain glyphs, original maps/writing and final tail.24normal/long PDF/native section+response checks across six labs pass;10focused heading pages inspected separately. No orphan headings/questions/table headers, clipped maps or extra blank pages. Full prompt-answer starts, original source text/glyphs, long first-offline/native final marker checked.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/reserve-design/pdf-inspection.json",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/pagination-check.txt",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/glyph-check.txt",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/glyph-all.txt",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/pdf-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/pdf-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/pdf-contact-3.png",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/pdf-contact-4.png",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/pdf-contact-5.png",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/pdf-contact-6.png",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/native-pagination-check.txt",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/long-offline-pagination.txt",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/long-native-print-pagination.txt",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/before-section-pagination.txt",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/before-section-heading/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/shared-section-followup/verification.txt",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/shared-section-followup/inspection.json",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/shared-section-followup/contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/shared-section-followup/contact-2.png"
+      ]
+    },
+    "G16": {
+      "status": "pass",
+      "notes": "Native touch drag-release-next action, keyboard and resized mouse,44px phone targets/no overflow/reduced motion/reload exercised. Physical hardware/AT remain separate.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/reserve-design/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/visual-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/visual-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/phone-comparison.png"
+      ]
+    },
+    "G17": {
+      "status": "pass",
+      "notes": "15focused and294full model/unit tests pass; initial reserve5/6 failure retained, final37browser workflows include all6reserve cases and all six latest labs.24actual section/response pagination checks,105resource PDFs and current private platform build pass. Current full resource validation and private platform compile passed. Software is not independent science/classroom acceptance.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/reserve-design/model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/initial-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/platform-build.txt",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/full-model-regression.txt",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/final-six-lab-browser-regression.txt"
+      ]
+    },
+    "G18": {
+      "status": "pass",
+      "notes": "Stable English authored/question/condition IDs, locale and original student writing retained. Native app languages and reviewed Spanish printing remain AUD-10.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/reserve-design/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/review-notes.md"
+      ]
+    },
+    "RESOURCES": {
+      "status": "pass",
+      "notes": "Current shared-content teacher/student resources, actual rendered pages and prompt/link/hash parity checked. All42current resource/report/native pages inspected in six contacts: teacher2/student3, completed4, draft2, partial3/4, long download8/native7. Completed16prompt pairs/151source fragments and long14pairs in both formats retain glyphs, original maps/writing and final tail.24normal/long PDF/native section+response checks across six labs pass;10focused heading pages inspected separately. No orphan headings/questions/table headers, clipped maps or extra blank pages.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/reserve-design/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/pdf-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/pdf-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/pdf-contact-3.png",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/pdf-contact-4.png",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/pdf-contact-5.png",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/pdf-contact-6.png"
+      ]
+    },
+    "ACCESS": {
+      "status": "pass",
+      "notes": "Guest/free route, reports/print/offline remain account-free; paid/staff/publishing policy preserved. Private compile only, no public deployment.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/reserve-design/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/platform-build.txt"
+      ]
+    },
+    "TRACKING": {
+      "status": "pass",
+      "notes": "Actual local English implementation/resources/catalog and curriculum/tracker regenerated. Standards/native-language/full-course/publication approvals separate.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/reserve-design/build-brief.md",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/review-notes.md"
+      ]
+    }
+  },
+  "artifacts": {
+    "workflow": [
+      "data/development-tracker/biology-reviews/evidence/reserve-design/build-brief.md",
+      "data/development-tracker/biology-reviews/evidence/reserve-design/review-notes.md",
+      "data/development-tracker/biology-reviews/evidence/reserve-design/reading-screen.json",
+      "data/development-tracker/biology-reviews/evidence/reserve-design/complete-responses.json",
+      "data/development-tracker/biology-reviews/evidence/reserve-design/long-responses.json",
+      "data/development-tracker/biology-reviews/evidence/reserve-design/source-manifest.json"
+    ],
+    "visuals": [
+      "data/development-tracker/biology-reviews/evidence/reserve-design/visual-contact-1.png",
+      "data/development-tracker/biology-reviews/evidence/reserve-design/visual-contact-2.png",
+      "data/development-tracker/biology-reviews/evidence/reserve-design/phone-comparison.png"
+    ],
+    "pdfReports": [
+      "data/development-tracker/biology-reviews/evidence/reserve-design/budget-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/reserve-design/complete.pdf",
+      "data/development-tracker/biology-reviews/evidence/reserve-design/copied-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/reserve-design/development-draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/reserve-design/draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/reserve-design/edited-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/reserve-design/long-offline.pdf"
+    ],
+    "nativePrint": [
+      "data/development-tracker/biology-reviews/evidence/reserve-design/long-native-print.pdf",
+      "data/development-tracker/biology-reviews/evidence/reserve-design/native-print.pdf"
+    ],
+    "tests": [
+      "data/development-tracker/biology-reviews/evidence/reserve-design/final-model-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/reserve-design/final-browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/reserve-design/pagination-check.txt",
+      "data/development-tracker/biology-reviews/evidence/reserve-design/glyph-check.txt",
+      "data/development-tracker/biology-reviews/evidence/reserve-design/glyph-all.txt",
+      "data/development-tracker/biology-reviews/evidence/reserve-design/resource-check.txt",
+      "data/development-tracker/biology-reviews/evidence/reserve-design/platform-build.txt",
+      "data/development-tracker/biology-reviews/evidence/reserve-design/full-model-regression.txt",
+      "data/development-tracker/biology-reviews/evidence/reserve-design/final-six-lab-browser-regression.txt",
+      "data/development-tracker/biology-reviews/evidence/reserve-design/native-pagination-check.txt",
+      "data/development-tracker/biology-reviews/evidence/reserve-design/long-offline-pagination.txt",
+      "data/development-tracker/biology-reviews/evidence/reserve-design/long-native-print-pagination.txt",
+      "data/development-tracker/biology-reviews/evidence/reserve-design/shared-section-followup/verification.txt"
+    ],
+    "resources": [
+      "public/resources/reserve-design-worksheet.pdf",
+      "public/resources/reserve-design-teacher-guide.pdf"
+    ]
+  },
+  "externalValidation": {
+    "teacherStudentComprehension": {
+      "status": "pending",
+      "notes": "Not performed; development checks do not establish classroom comprehension."
+    },
+    "physicalDevices": {
+      "status": "pending",
+      "notes": "Emulation is not physical-device or assistive-technology acceptance."
+    },
+    "classroomProtocol": {
+      "status": "not-applicable",
+      "notes": "Virtual-only activity; no physical protocol supplied."
+    }
+  },
+  "history": [
+    {
+      "event": "Separate review identified required corrections before acceptance.",
+      "notes": "Confirmed final comparison-table phone overflow after completed native print. Constrain columns, wrap labels and retain readable metrics; inspect maps/reports before acceptance.",
+      "date": "2026-11-15"
+    },
+    {
+      "event": "Separate review identified required corrections before acceptance.",
+      "notes": "Printed worksheet split a response area and left a nearly empty final explanation page. Compact the original reference maps and keep each blank prompt with its answer lines.",
+      "date": "2026-11-15"
+    },
+    {
+      "event": "Separate review identified required corrections before acceptance.",
+      "notes": "The grouped last worksheet explanation still moved to an almost empty page. Remove the duplicate goal/tradeoff collector row; retain original rationales and all explanation prompts.",
+      "date": "2026-11-15"
+    },
+    {
+      "event": "Separate review identified required corrections before acceptance.",
+      "notes": "Actual completed PDF leaves Learning evidence section title behind while its first response moves. Keep section heading with first response start; retain actual failure fixture and extend pagination verification.",
+      "date": "2026-11-15"
+    },
+    {
+      "event": "Initial15model tests pass; initial browser5/6 found actual phone comparison overflow. Fixed wrapping/column sizing. Separate printed review grouped blank question/answer lines, compacted paired original maps without reducing fonts and removed duplicate collector row, taking worksheet4to3pages. Actual PDF section title orphan preserved and fixed by keeping it with first response start; checker now verifies section titles too. Final294models and37six-lab browser cases pass.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/reserve-design/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/reserve-design/final-browser-tests.txt"
+      ]
+    }
+  ],
+  "decision": "pass",
+  "summary": "BIO-33 development review passed for interactive equal-budget reserve alternatives, source-honest map metrics and original planning arguments. Corrected actual phone/handout/section pagination defects with retained failures and current evidence. All33build/review pairs ready to close; external classroom/devices/AT, native translations and production release remain separate.",
+  "blockers": []
+}

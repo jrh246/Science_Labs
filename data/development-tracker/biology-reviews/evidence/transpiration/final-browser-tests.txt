@@ -1,0 +1,30 @@
+node.exe : [WebServer] (node:26400) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([WebServer] (no... env being set.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] 
+[WebServer] (!) Some chunks are larger than 500 kB after minification. Consider:
+[WebServer] - Using dynamic import() to code-split the application
+[WebServer] - Use build.rollupOptions.output.manualChunks to improve chunking: 
+https://rollupjs.org/configuration-options/#output-manualchunks
+[WebServer] - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[WebServer] (node:51440) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 7 tests using 1 worker
+
+(node:43376) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 tests\browser\biology-browser-contract.mjs:5:2 › transpiration: complete corrected attempt, truthful saves, named PDF/JSON/native print and edits (5.3s)
+  ok 2 tests\browser\biology-browser-contract.mjs:6:2 › transpiration: denied storage/retry, Unicode long writing and first offline PDF/native print (2.7s)
+  ok 3 tests\browser\biology-browser-contract.mjs:7:2 › transpiration: unfinished neutral PDF and export failure recovery (1.0s)
+  ok 4 tests\browser\biology-browser-contract.mjs:8:2 › transpiration: root/development progress isolation and first offline development PDF (1.7s)
+  ok 5 tests\browser\transp.spec.js:11:1 › transpiration humidity and daytime-light alternatives use actual mass changes and matching controller sites (3.9s)
+  ok 6 tests\browser\transp.spec.js:12:1 › transpiration view-only saved review, empty prior-time readings and current calculation edits reopen evidence (2.8s)
+  ok 7 tests\browser\transp.spec.js:13:1 › transpiration native cover drag-release, next physical plant taps, keyboard controller and phone leaf sites (2.0s)
+
+  7 passed (26.8s)

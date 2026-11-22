@@ -1,0 +1,18 @@
+{
+  "capturedAt": "2026-11-15T10:31:55.057Z",
+  "scope": "Actual working-tree hashes; unrelated edits preserved; not a clean commit.",
+  "files": {
+    "src/investigations/drift-content.js": "f953aab667378103af43501e9ebc362c0ebfd5bed706a8b91ffe158441a2d645",
+    "src/investigations/drift-model.js": "ec5e41698d716ab27c706642efada9aebd80fdf262b290deb602bb92fd8b9ee1",
+    "src/investigations/drift-art.js": "323def34b3794d883cc3713a580b0df5a3950f18841ec8a3ac473a1070ef4ba3",
+    "src/investigations/drift-report.js": "0134f2fe9601f862e42f58da08eb8bec03f221565aa1c07f79cf37d0a2813110",
+    "src/investigations/drift-app.js": "40d92f65734de246e441b7f0939f619427d74665973b7812eb24bbb71bf7bc6b",
+    "src/investigations/drift.css": "1e617209afc61b2f55a78dc5c00c73072c67e9e5de228962af9892a1d4a57e14",
+    "src/investigations/app.js": "fbe75d2cfd7c6a27a533863064b1cfc51721e85a3aa568c3b439ed5ea2f46ba6",
+    "src/catalog.js": "20b145170ad269a805723f663216c3754734c883bd9f21981a7bea190dc4e57f",
+    "tests/drift.test.js": "bcbe407cd98dfd21fafaa7ac653c33e9c71ca8435450fdedf7b4a79d7b970488",
+    "tests/browser/drift.spec.js": "e2bae06befaffe5448715171ec98bfe38c6e02a0f12631bef0effcbb6013ffcc",
+    "scripts/biology-reading-screen.mjs": "687ea0f921aa8373caee0f2d48f31375dfb0080861ed7d25629747f7f2dbc786",
+    "scripts/verify-resources.py": "c1ed43457794bcb68ede7424d7b5276a752033c3043cf7c76f04a769280bbd7f"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "capturedAt": "2026-11-15T21:05:25.288Z",
+  "scope": "Actual reviewed working-tree files; unrelated changes and previous student attempts preserved.",
+  "files": {
+    "src/investigations/habitat-content.js": "8ebba5817f165931812260c168953651e814835ada4e0c6d401bf53ce992927f",
+    "src/investigations/habitat-model.js": "3a810a7949cc6402717cd6a0636036ab977a5c54b783154160739f7c7ba3cb72",
+    "src/investigations/habitat-art.js": "291b29aec42f0d5ebe19a038158a7a48817682fb3fe28ec3291d4812a29d7a16",
+    "src/investigations/habitat-report.js": "e6573356102d2056be2be0a5084a48df7ea3f70b5083c6682028fbef6de5980d",
+    "src/investigations/habitat-app.js": "065d07a79c5bef90a52ea82b94130488dd5f590ae3a66edda00834a9044e69c3",
+    "src/investigations/habitat.css": "6c42b88f6d41abe40f55df1b9141076491388dc570ea5f1447da23f5cd96f887",
+    "tests/habitat.test.js": "9aebb80871461ba4468795893ad074392d49e3ec1c99289794324581d23c3e29",
+    "tests/browser/habitat.spec.js": "50cbb3a554eef3b93dfc45ceb2506ace0db32bd060690c840516639883d06e41",
+    "src/investigations/guided-lab-shell.js": "7718d1ab83d65ac8551b25323338c5c2bb4c73afc988331f3c29b767a9abc55f",
+    "src/investigations/student-report.js": "5cdec89cf015cada33fbf14585705605f2a33f90d84aa0ebb248ab6c0d0d5ca0",
+    "src/investigations/lab-report-pdf.js": "d3313db4efc5086da99bbd244ba4ceada0c2a37351ef0b4d67255b76d4f20d4c",
+    "src/catalog.js": "f735ee7d9a31466980f17106fd9c8d2f4bd54059c78f8f4ccf9998b3b270736b",
+    "src/investigations/app.js": "b4643912fa7e7a4f5f44e4593f718a9f0aa86ee5ae18dd031529b3f62a2dec33",
+    "src/investigations/learning-design.js": "1c69f7418f5c1626b6c0746d0440544d84ba463de5aee1bd449be02fb8f87ef8",
+    "scripts/build-biology-resources.py": "6c950c857ccc7a5903363b9742922ded31cb0624974d20199567df30a3b01546",
+    "scripts/verify-resources.py": "f4dbf35d8597080e35451cf46309b49915a1e00718595c09d13f60d1b0a76e04",
+    "public/resources/microhabitats-worksheet.pdf": "f368e38b1bccc99b9da99bb77a8de86bd5be9e4cb8a300a7e2ef572df2bd666e",
+    "public/resources/microhabitats-teacher-guide.pdf": "53e466ba2a3d5dea5cca56d697a5af07c6f91c98ab24da1d1842f4aa1292fca7"
+  }
+}

@@ -1,0 +1,1 @@
+Rendered three actual earlier completed snapshots and one targeted glyph diagnostic without changing their source reports.

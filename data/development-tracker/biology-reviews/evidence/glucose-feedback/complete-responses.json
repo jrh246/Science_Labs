@@ -1,0 +1,359 @@
+{
+  "schemaVersion": 2,
+  "labId": "glucose-feedback",
+  "title": "Model Blood Glucose Feedback",
+  "question": "How do insulin and glucagon oppose changes in blood glucose?",
+  "student": {
+    "name": "Zoë García",
+    "class": "Period 5"
+  },
+  "status": "Complete",
+  "grading": "not_graded",
+  "exportedAt": "2026-11-15T18:46:15.621Z",
+  "exportTimeZone": "America/Los_Angeles",
+  "exportedAtDisplay": "Nov 15, 2026, 10:46 AM PST",
+  "sections": [
+    {
+      "heading": "First prediction and comparison design",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Required before observing: Predict how the body might respond to a rise in blood glucose and to a fall. What might happen to extra hormone release as glucose returns toward its usual level?",
+          "text": "I predict uptake after a rise and liver release after a fall. Extra release may drop as the change is reduced, rather than both hormones stopping."
+        },
+        {
+          "type": "response",
+          "prompt": "Required before observing: Why compare a rise with a fall instead of repeating one challenge three times? What evidence would show the direction of a response, and what could this model leave out?",
+          "text": "Compare two distinct directions; three identical runs would add no evidence. Values are arbitrary examples, not clinical measurements, timing or a treatment experiment."
+        },
+        {
+          "type": "paragraph",
+          "text": "Timing: Before either pathway or challenge value was revealed."
+        }
+      ]
+    },
+    {
+      "heading": "Pathway and glucose-movement evidence",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Two supplied explanatory challenges, not student measurements. Arbitrary model units; no time scale, clinical range or dosing. Placements trace events rather than produce physiological evidence."
+        },
+        {
+          "type": "response",
+          "prompt": "After carbohydrate absorption · pathway evidence",
+          "text": "beta cell released insulin in the model. Traced blood-borne hormone binding at the muscle membrane receptor. Glucose moves from blood into the muscle cell through a transporter. Insulin binding helps place more GLUT4 transporters in the membrane. GLUT4 is a protein that lets glucose cross; it is separate from the insulin receptor."
+        },
+        {
+          "type": "response",
+          "prompt": "After carbohydrate absorption · source/receptor/transport corrections",
+          "text": "Revised after feedback. Earlier mismatches: glucagon at alpha during source-cell trace."
+        },
+        {
+          "type": "response",
+          "prompt": "After carbohydrate absorption · current interpretation",
+          "text": "Supplied initial 8; final 5. Current direction: fall; extra release: less.\nCorrect after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "After carbohydrate absorption · earlier interpretation needing revision",
+          "text": "Direction: rise; extra release: zero. Needs correction; retained as feedback evidence."
+        },
+        {
+          "type": "response",
+          "prompt": "Between meals · pathway evidence",
+          "text": "alpha cell released glucagon in the model. Traced blood-borne hormone binding at the liver membrane receptor. Glucagon binding signals enzymes inside the liver cell to break down glycogen. The liver releases glucose into blood through transport proteins. The hormone stays a signal; it is not the enzyme or glucose."
+        },
+        {
+          "type": "response",
+          "prompt": "Between meals · source/receptor/transport corrections",
+          "text": "Revised after feedback. Earlier mismatches: insulin at beta during source-cell trace."
+        },
+        {
+          "type": "response",
+          "prompt": "Between meals · current interpretation",
+          "text": "Supplied initial 2; final 5. Current direction: rise; extra release: less.\nCorrect after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "Between meals · earlier interpretation needing revision",
+          "text": "Direction: fall; extra release: zero. Needs correction; retained as feedback evidence."
+        }
+      ]
+    },
+    {
+      "heading": "Evidence by learning goal",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Connect each hormone with its pancreatic source, blood route and target receptor."
+        },
+        {
+          "type": "response",
+          "prompt": "Trace insulin and glucagon from their pancreatic cells through blood to the target receptors shown. Why is a hormone different from glucose and from an enzyme?",
+          "text": "My pathway evidence: supplied rise8→5 model units uses beta cell insulin in blood, binding at muscle receptor and more separate GLUT4 transporters for uptake. The supplied fall2→5 uses alpha cell glucagon, liver receptor and internal enzymes breaking glycogen, with glucose released to blood. A hormone is a message, not glucose or its enzyme. Muscle uses its glycogen locally, not direct export of stored free glucose to blood. Insulin also affects liver storage/output and fat cells; hepatic transport differs from muscle GLUT4. The response opposes each original change, reducing extra secretion while basal release continues. These invented units and endpoint have no clinical concentration, time or dose meaning; multi-organ flux, delays, gluconeogenesis and other signals are omitted. My prediction fits these example directions but is not tested in a person."
+        },
+        {
+          "type": "paragraph",
+          "text": "Explain opposite glucose movements in the muscle and liver examples."
+        },
+        {
+          "type": "response",
+          "prompt": "Use both supplied initial and final values. Which response lowers blood glucose and which raises it? Explain where glucose moves in each example. Why should we not claim that glucagon makes muscle glycogen supply glucose directly to blood?",
+          "text": "My movement evidence: supplied rise8→5 model units uses beta cell insulin in blood, binding at muscle receptor and more separate GLUT4 transporters for uptake. The supplied fall2→5 uses alpha cell glucagon, liver receptor and internal enzymes breaking glycogen, with glucose released to blood. A hormone is a message, not glucose or its enzyme. Muscle uses its glycogen locally, not direct export of stored free glucose to blood. Insulin also affects liver storage/output and fat cells; hepatic transport differs from muscle GLUT4. The response opposes each original change, reducing extra secretion while basal release continues. These invented units and endpoint have no clinical concentration, time or dose meaning; multi-organ flux, delays, gluconeogenesis and other signals are omitted. My prediction fits these example directions but is not tested in a person."
+        },
+        {
+          "type": "paragraph",
+          "text": "Use both direction changes to explain negative feedback and model limits."
+        },
+        {
+          "type": "response",
+          "prompt": "Compare your prediction with both examples. Why does extra release of the active hormone fall as the original glucose change is reduced? Explain basal release and two limits of this model.",
+          "text": "My feedback evidence: supplied rise8→5 model units uses beta cell insulin in blood, binding at muscle receptor and more separate GLUT4 transporters for uptake. The supplied fall2→5 uses alpha cell glucagon, liver receptor and internal enzymes breaking glycogen, with glucose released to blood. A hormone is a message, not glucose or its enzyme. Muscle uses its glycogen locally, not direct export of stored free glucose to blood. Insulin also affects liver storage/output and fat cells; hepatic transport differs from muscle GLUT4. The response opposes each original change, reducing extra secretion while basal release continues. These invented units and endpoint have no clinical concentration, time or dose meaning; multi-organ flux, delays, gluconeogenesis and other signals are omitted. My prediction fits these example directions but is not tested in a person."
+        }
+      ]
+    },
+    {
+      "heading": "Concept checks",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "What does insulin do at the muscle-cell membrane in this model?",
+          "text": "Binds a receptor and signals a change in glucose transport.\nCorrect! Insulin is a message. Receptor signaling changes cell activity; a separate transport protein lets glucose cross. Revised after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "Where does the glucagon example release stored glucose into blood?",
+          "text": "The liver, after signals activate glycogen breakdown.\nCorrect! The liver can release glucose made from glycogen. Skeletal muscle uses its own glycogen locally, rather than directly supplying free glucose to blood. Correct on first recorded check."
+        },
+        {
+          "type": "response",
+          "prompt": "As glucose returns toward its usual level, what happens to extra hormone release?",
+          "text": "It falls; small ongoing release and other regulation can continue.\nCorrect! Negative feedback reduces the stimulus for extra release. This does not mean both hormones have zero secretion. Correct on first recorded check."
+        }
+      ]
+    },
+    {
+      "heading": "Model limits and sources",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "All displayed values are chosen teaching units, not measured blood glucose, a normal medical range, or a dose. Both challenges end at the chosen reference of 5 to show direction, not an exact biological endpoint. The diagram enlarges cells, hormones and glucose; colors and motion explain the model. Hormones signal through receptors; they do not carry glucose or act as the enzymes that break glycogen. Insulin also promotes liver storage and lowers liver glucose output; fat cells also respond. Liver glucose transport is not the muscle transporter shown here. Glucagon acts mainly on the liver in this example. Muscle uses its own glycogen locally; it does not directly release that stored glucose into blood. The liver can also make new glucose from other materials. Many signals, organs, enzymes, delays and continuing glucose use are left out. Both hormones can still have basal release: a small ongoing amount. Lower extra release does not mean both hormones switch off. Two invented challenges cannot measure a person, variation or a treatment effect."
+        },
+        {
+          "type": "paragraph",
+          "text": "OpenStax Biology 2e37.3: blood glucose regulation: https://openstax.org/books/biology-2e/pages/37-3-regulation-of-body-processes"
+        },
+        {
+          "type": "paragraph",
+          "text": "NIDDK: What Is Diabetes? insulin and pancreas: https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes"
+        },
+        {
+          "type": "paragraph",
+          "text": "Stanford Biochemistry: glycogen use in liver versus muscle: https://cmgm-new.stanford.edu/biochem/biochem200/glycogen/"
+        }
+      ],
+      "keepFirst": 4
+    }
+  ],
+  "activityVersion": 1,
+  "locale": "en",
+  "attemptId": "glucose-3767009937-1794768372369",
+  "data": {
+    "schemaVersion": 1,
+    "activityVersion": 1,
+    "labId": "glucose-feedback",
+    "attemptId": "glucose-3767009937-1794768372369",
+    "seed": 3767009937,
+    "locale": "en",
+    "stage": 2,
+    "studentName": "Zoë García",
+    "studentClass": "Period 5",
+    "prediction": "I predict uptake after a rise and liver release after a fall. Extra release may drop as the change is reduced, rather than both hormones stopping.",
+    "design": "Compare two distinct directions; three identical runs would add no evidence. Values are arbitrary examples, not clinical measurements, timing or a treatment experiment.",
+    "initialPlan": {
+      "prediction": "I predict uptake after a rise and liver release after a fall. Extra release may drop as the change is reduced, rather than both hormones stopping.",
+      "design": "Compare two distinct directions; three identical runs would add no evidence. Values are arbitrary examples, not clinical measurements, timing or a treatment experiment.",
+      "timing": "Before either pathway or challenge value was revealed"
+    },
+    "current": "fall",
+    "challenges": {
+      "rise": {
+        "step": 3,
+        "placements": [
+          {
+            "step": 0,
+            "tool": "glucagon",
+            "site": "alpha",
+            "correct": false
+          },
+          {
+            "step": 0,
+            "tool": "insulin",
+            "site": "beta",
+            "correct": true
+          },
+          {
+            "step": 1,
+            "tool": "insulin",
+            "site": "receptor",
+            "correct": true
+          },
+          {
+            "step": 2,
+            "tool": "glucose",
+            "site": "transport",
+            "correct": true
+          }
+        ],
+        "interpretation": {
+          "direction": "fall",
+          "secretion": "less"
+        },
+        "attempts": [
+          {
+            "values": {
+              "direction": "rise",
+              "secretion": "zero"
+            },
+            "correct": false
+          },
+          {
+            "values": {
+              "direction": "fall",
+              "secretion": "less"
+            },
+            "correct": true
+          }
+        ],
+        "record": {
+          "values": {
+            "direction": "fall",
+            "secretion": "less"
+          },
+          "correctAfterFeedback": true,
+          "sourceId": "student-interpreted-supplied-direction-example"
+        }
+      },
+      "fall": {
+        "step": 3,
+        "placements": [
+          {
+            "step": 0,
+            "tool": "insulin",
+            "site": "beta",
+            "correct": false
+          },
+          {
+            "step": 0,
+            "tool": "glucagon",
+            "site": "alpha",
+            "correct": true
+          },
+          {
+            "step": 1,
+            "tool": "glucagon",
+            "site": "receptor",
+            "correct": true
+          },
+          {
+            "step": 2,
+            "tool": "glucose",
+            "site": "transport",
+            "correct": true
+          }
+        ],
+        "interpretation": {
+          "direction": "rise",
+          "secretion": "less"
+        },
+        "attempts": [
+          {
+            "values": {
+              "direction": "fall",
+              "secretion": "zero"
+            },
+            "correct": false
+          },
+          {
+            "values": {
+              "direction": "rise",
+              "secretion": "less"
+            },
+            "correct": true
+          }
+        ],
+        "record": {
+          "values": {
+            "direction": "rise",
+            "secretion": "less"
+          },
+          "correctAfterFeedback": true,
+          "sourceId": "student-interpreted-supplied-direction-example"
+        }
+      }
+    },
+    "checks": {
+      "signal": {
+        "attempts": [
+          {
+            "value": "carry",
+            "correct": false
+          },
+          {
+            "value": "receptor",
+            "correct": true
+          }
+        ],
+        "value": "receptor",
+        "correct": true
+      },
+      "liver": {
+        "attempts": [
+          {
+            "value": "liver",
+            "correct": true
+          }
+        ],
+        "value": "liver",
+        "correct": true
+      },
+      "basal": {
+        "attempts": [
+          {
+            "value": "reduce",
+            "correct": true
+          }
+        ],
+        "value": "reduce",
+        "correct": true
+      }
+    },
+    "answers": {
+      "pathway": "My pathway evidence: supplied rise8→5 model units uses beta cell insulin in blood, binding at muscle receptor and more separate GLUT4 transporters for uptake. The supplied fall2→5 uses alpha cell glucagon, liver receptor and internal enzymes breaking glycogen, with glucose released to blood. A hormone is a message, not glucose or its enzyme. Muscle uses its glycogen locally, not direct export of stored free glucose to blood. Insulin also affects liver storage/output and fat cells; hepatic transport differs from muscle GLUT4. The response opposes each original change, reducing extra secretion while basal release continues. These invented units and endpoint have no clinical concentration, time or dose meaning; multi-organ flux, delays, gluconeogenesis and other signals are omitted. My prediction fits these example directions but is not tested in a person.",
+      "movement": "My movement evidence: supplied rise8→5 model units uses beta cell insulin in blood, binding at muscle receptor and more separate GLUT4 transporters for uptake. The supplied fall2→5 uses alpha cell glucagon, liver receptor and internal enzymes breaking glycogen, with glucose released to blood. A hormone is a message, not glucose or its enzyme. Muscle uses its glycogen locally, not direct export of stored free glucose to blood. Insulin also affects liver storage/output and fat cells; hepatic transport differs from muscle GLUT4. The response opposes each original change, reducing extra secretion while basal release continues. These invented units and endpoint have no clinical concentration, time or dose meaning; multi-organ flux, delays, gluconeogenesis and other signals are omitted. My prediction fits these example directions but is not tested in a person.",
+      "feedback": "My feedback evidence: supplied rise8→5 model units uses beta cell insulin in blood, binding at muscle receptor and more separate GLUT4 transporters for uptake. The supplied fall2→5 uses alpha cell glucagon, liver receptor and internal enzymes breaking glycogen, with glucose released to blood. A hormone is a message, not glucose or its enzyme. Muscle uses its glycogen locally, not direct export of stored free glucose to blood. Insulin also affects liver storage/output and fat cells; hepatic transport differs from muscle GLUT4. The response opposes each original change, reducing extra secretion while basal release continues. These invented units and endpoint have no clinical concentration, time or dose meaning; multi-organ flux, delays, gluconeogenesis and other signals are omitted. My prediction fits these example directions but is not tested in a person."
+    },
+    "complete": true
+  },
+  "evidence": [
+    {
+      "goalId": "pathway",
+      "answerId": "pathway",
+      "writing": "My pathway evidence: supplied rise8→5 model units uses beta cell insulin in blood, binding at muscle receptor and more separate GLUT4 transporters for uptake. The supplied fall2→5 uses alpha cell glucagon, liver receptor and internal enzymes breaking glycogen, with glucose released to blood. A hormone is a message, not glucose or its enzyme. Muscle uses its glycogen locally, not direct export of stored free glucose to blood. Insulin also affects liver storage/output and fat cells; hepatic transport differs from muscle GLUT4. The response opposes each original change, reducing extra secretion while basal release continues. These invented units and endpoint have no clinical concentration, time or dose meaning; multi-organ flux, delays, gluconeogenesis and other signals are omitted. My prediction fits these example directions but is not tested in a person.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "movement",
+      "answerId": "movement",
+      "writing": "My movement evidence: supplied rise8→5 model units uses beta cell insulin in blood, binding at muscle receptor and more separate GLUT4 transporters for uptake. The supplied fall2→5 uses alpha cell glucagon, liver receptor and internal enzymes breaking glycogen, with glucose released to blood. A hormone is a message, not glucose or its enzyme. Muscle uses its glycogen locally, not direct export of stored free glucose to blood. Insulin also affects liver storage/output and fat cells; hepatic transport differs from muscle GLUT4. The response opposes each original change, reducing extra secretion while basal release continues. These invented units and endpoint have no clinical concentration, time or dose meaning; multi-organ flux, delays, gluconeogenesis and other signals are omitted. My prediction fits these example directions but is not tested in a person.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "feedback",
+      "answerId": "feedback",
+      "writing": "My feedback evidence: supplied rise8→5 model units uses beta cell insulin in blood, binding at muscle receptor and more separate GLUT4 transporters for uptake. The supplied fall2→5 uses alpha cell glucagon, liver receptor and internal enzymes breaking glycogen, with glucose released to blood. A hormone is a message, not glucose or its enzyme. Muscle uses its glycogen locally, not direct export of stored free glucose to blood. Insulin also affects liver storage/output and fat cells; hepatic transport differs from muscle GLUT4. The response opposes each original change, reducing extra secretion while basal release continues. These invented units and endpoint have no clinical concentration, time or dose meaning; multi-organ flux, delays, gluconeogenesis and other signals are omitted. My prediction fits these example directions but is not tested in a person.",
+      "status": "not_graded"
+    }
+  ]
+}

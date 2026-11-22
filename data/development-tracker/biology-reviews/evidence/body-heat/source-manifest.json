@@ -1,0 +1,23 @@
+{
+  "capturedAt": "2026-11-15T16:39:50.553Z",
+  "scope": "Actual reviewed working-tree files; unrelated changes and previous student attempts preserved.",
+  "files": {
+    "src/investigations/heat-content.js": "037470f2bdfe32d91332d31ce9b5f1dee97a88eba4eca340604a4ecc97892a76",
+    "src/investigations/heat-model.js": "c429852f630a8d76c21ae424eeb62ce65b9125a92d10c05d66bee3628b568e0c",
+    "src/investigations/heat-art.js": "710306639b782a48d4c28ad6d6f6decc6f3cb428dce5d5f30e61727d693a59bf",
+    "src/investigations/heat-report.js": "a571ab239b3ed760605e0b496995a5337a26dab214d6ac8c0868b1488d8d734c",
+    "src/investigations/heat-app.js": "8269c0c2fe77cbd8a4179dc6840e2fbc7b58c2dab4dc17747b7faac27bae3d4a",
+    "src/investigations/heat.css": "92a3e9495a1a444764828e98291173453a1790f69a499b708f0e4e082c3c54a2",
+    "tests/heat.test.js": "36c032a12f3c029c3ce14c2a4f35c788f1c52192e87f08a19e8ca1dbfc469b88",
+    "tests/browser/heat.spec.js": "67682429173f8a0e426fbd66c3406f16a56eae2d5378b8a7b523dc520c6ba7b8",
+    "src/investigations/touch-buttons.js": "33f99bee6dec2cca7ab374626563e5457f77ca164c4747387c6a84d85571b432",
+    "src/investigations/guided-lab-shell.js": "7718d1ab83d65ac8551b25323338c5c2bb4c73afc988331f3c29b767a9abc55f",
+    "LAB_DESIGN_GUIDE.md": "ba28489680edabf76477efc559e8982c86992a0b7607fecc825e7922630c582f",
+    "src/catalog.js": "2daae66bd5a5df1717f312b0d968cbd349b4471fdc9c9565df9dd0dc5fd74390",
+    "src/investigations/app.js": "57cdfe3123002f94d13d8439e9a8e1a5957b247bd3de4570100dc3397f45f5aa",
+    "scripts/build-biology-resources.py": "6c950c857ccc7a5903363b9742922ded31cb0624974d20199567df30a3b01546",
+    "scripts/verify-resources.py": "db19d586f961a0ff17e6fa528f527ea2aa689050f791a0e6894356e00d0c48ef",
+    "public/resources/body-heat-worksheet.pdf": "65df09553d24106ddcb6e334e2bfe70da0a6401f0dc4b7fb4ec19547ef782bff",
+    "public/resources/body-heat-teacher-guide.pdf": "fa3a79a7b2ed6cdfdd27f846e024915c0ca2004ec191ead742d7f460ed5a27c0"
+  }
+}

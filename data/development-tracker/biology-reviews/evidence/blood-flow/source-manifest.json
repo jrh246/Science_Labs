@@ -1,0 +1,24 @@
+{
+  "capturedAt": "2026-11-15T19:39:59.020Z",
+  "scope": "Actual reviewed working-tree files; unrelated changes and previous student attempts preserved.",
+  "files": {
+    "src/investigations/flow-content.js": "9c7fe662131a0d8d86079241cfb52e4f81a9a5b713d9f1647630209b5ec938c6",
+    "src/investigations/flow-model.js": "0c038308bcdb17dcf4023256a5b3c676189883f6da0368b004da8098511a9346",
+    "src/investigations/flow-art.js": "ae9f69992a8fbd194e52fd335c5b8094dce0267dbca1b6a0f01eb82e9f13945b",
+    "src/investigations/flow-report.js": "5d58363f7ab558c14cf2536980ec743d107cd7e2210fce405834cac41d4a6589",
+    "src/investigations/flow-app.js": "0e08556483daa8f44cef2b83d12b6574eb75dffd2a39de857dd37b12308f1002",
+    "src/investigations/flow.css": "07709735f3918162625ed0fc7e080c109eff9e1f797e60359e7c1603be2c6037",
+    "tests/flow.test.js": "516f3af93f2b7da5b09ae1971ff245e3f703bdf9ccb9d969c66539ab8803809f",
+    "tests/browser/flow.spec.js": "2078b4350828c76b7d9467c22109d2c5cfbb5ccdf41a2ef6ed8885b9516b50ec",
+    "src/investigations/guided-lab-shell.js": "7718d1ab83d65ac8551b25323338c5c2bb4c73afc988331f3c29b767a9abc55f",
+    "src/investigations/student-report.js": "5cdec89cf015cada33fbf14585705605f2a33f90d84aa0ebb248ab6c0d0d5ca0",
+    "src/investigations/lab-report-pdf.js": "d3313db4efc5086da99bbd244ba4ceada0c2a37351ef0b4d67255b76d4f20d4c",
+    "src/catalog.js": "2807add51307ac3b1ccb0b87a395313d4464bf63f381ab3252d0de824e68d016",
+    "src/investigations/app.js": "4807508242c67e9359468d374a0ca970979a5bf1cb941652ea3eb04fa70c8f4e",
+    "src/investigations/learning-design.js": "ec30b02c6d6795dd6b376049b25e7c82eee537b8291c425b51e106d4bfdd2b52",
+    "scripts/build-biology-resources.py": "6c950c857ccc7a5903363b9742922ded31cb0624974d20199567df30a3b01546",
+    "scripts/verify-resources.py": "e36f7b795b25b2cb0d94635d220fb952ef7f16f9f8212d39dbb2444340851450",
+    "public/resources/blood-flow-worksheet.pdf": "2fafcd967e2388c2784294cdd7bcc44f98196a4c14966deee49219c2b09b0eb8",
+    "public/resources/blood-flow-teacher-guide.pdf": "328f26f2603afb254469d88959be2d2d05639269db0216e92a43dfe9876112da"
+  }
+}

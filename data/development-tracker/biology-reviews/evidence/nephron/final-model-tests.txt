@@ -1,0 +1,23 @@
+✔ required first reasoning before filter/transport and first writing retained (0.748ms)
+✔ six distinct fates, small nutrients filtered but large cell/protein retained, wrong/repeated routes do not change material (15.2891ms)
+✔ current wrong filter/transport reports retain actual rejected choice as unconfirmed without premature correction claims (1.4306ms)
+✔ glucose recovery and K secretion use opposite actual sites, other net recovery supplied only once, per-substance ledger conserved (0.7155ms)
+✔ zero final glucose is valid, wrong/empty final balances retained and current edits gate explanation after correction (0.4818ms)
+✔ full/reload original Unicode and view-only direct review return preserves completion; substantive changes invalidate (1.2429ms)
+✔ report snapshot preserves all source/transfer flags, original writing and current wrong raw values without grading or clinical composition (1.3888ms)
+✔ PDF symbol formatting preserves complete original scientific writing and report snapshot (15.8313ms)
+✔ PDF symbol engine supports legacy inline runs/table strings without changing attached response text (0.4646ms)
+✔ all 14 reports preserve completed work and use a shared faithful PDF/print snapshot (23.3833ms)
+✔ partial reports never fill hidden observations or invent completed work (2.9429ms)
+✔ core reports retain mixed sources, unreached thresholds, student classifications and uncollected readings (1.6907ms)
+✔ extended reports retain measured estimates, cell products, source separation and draft classifications (1.4124ms)
+✔ osmosis identity restores without changing existing or legacy measurement data (0.5746ms)
+✔ reports escape student HTML, sanitize filenames, and preserve long answers verbatim (0.6061ms)
+ℹ tests 15
+ℹ suites 0
+ℹ pass 15
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 165.0093

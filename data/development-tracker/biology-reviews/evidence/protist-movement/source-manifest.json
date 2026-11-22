@@ -1,0 +1,22 @@
+{
+  "capturedAt": "2026-11-15T12:17:22.464Z",
+  "scope": "Actual working tree; unrelated changes preserved.",
+  "files": {
+    "src/investigations/protist-content.js": "d9ce4a8e97a7b6f86f2148c3f40bf5fb66293dcf4406263c9a29bcbe9aab92c0",
+    "src/investigations/protist-model.js": "317c79695daa49908ceee06bb662d24e75907321d82f90c1cf271d693bea1c69",
+    "src/investigations/protist-art.js": "08245818486d19c58748f35454eafbb202bba887a45b0fc6f244a2f56ddafaa3",
+    "src/investigations/protist-report.js": "1dba85d0bc70f81c9df1778a5872e487c96babbabec48d1fc4cbcef5e6d7f2f2",
+    "src/investigations/protist-app.js": "9b84f977908d54cd427503577327473fd2988c1e3d97cbca98e7e907d4a1142f",
+    "src/investigations/protist.css": "74a05c200101a39f44aa3d0aabd157abe7dc81a669412a40d0e8351d60fbded8",
+    "src/investigations/prok-art.js": "cfcdca88d507aecffcbb6445e3eb2e378209cf90c25d87388bc9f47f020464fa",
+    "src/investigations/guided-lab-shell.js": "7718d1ab83d65ac8551b25323338c5c2bb4c73afc988331f3c29b767a9abc55f",
+    "src/investigations/app.js": "521ecafebf59063e0edabfac681bd16e595c3d290427afa0f0478e2fdc20277c",
+    "src/catalog.js": "de5aaa9c1ab19b278afef9f63edc58e2e4613394b701626894369c7de7803557",
+    "tests/protist.test.js": "da19a9f795f1def6576aa02d1010fc567a9e7c2d0e1ff2b7fa5336de327da0fb",
+    "tests/browser/protist.spec.js": "fefef2f97167caa1932f2508ede742d0fbbb55fcc250b555138e2d9027034efd",
+    "scripts/build-biology-resources.py": "35d03900f42110eb9c08f71281bb8646e9fdaea75245cc2011cec13cd0fb916e",
+    "scripts/verify-resources.py": "464b3d475ef9ba4bdbe4f2b57449e4595240725aed488e2c24d74f5695e9bb5a",
+    "public/resources/protist-movement-worksheet.pdf": "8bdd9c9c10ee15c4818b28c2d3fe64f34b65697493025b1d9806ee521851a23e",
+    "public/resources/protist-movement-teacher-guide.pdf": "685a2672b87d22f4194791aff4bf761b96dd93dfa25fa24bfcf5e7b9520b6e7e"
+  }
+}

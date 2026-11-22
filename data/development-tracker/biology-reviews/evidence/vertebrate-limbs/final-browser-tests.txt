@@ -1,0 +1,30 @@
+node.exe : [WebServer] (node:18880) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([WebServer] (no... env being set.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] 
+[WebServer] (!) Some chunks are larger than 500 kB after minification. Consider:
+[WebServer] - Using dynamic import() to code-split the application
+[WebServer] - Use build.rollupOptions.output.manualChunks to improve chunking: 
+https://rollupjs.org/configuration-options/#output-manualchunks
+[WebServer] - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[WebServer] (node:49976) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 7 tests using 1 worker
+
+(node:38348) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 tests\browser\biology-browser-contract.mjs:5:2 › vertebrate-limbs: complete corrected attempt, truthful saves, named PDF/JSON/native print and edits (6.8s)
+  ok 2 tests\browser\biology-browser-contract.mjs:6:2 › vertebrate-limbs: denied storage/retry, Unicode long writing and first offline PDF/native print (3.6s)
+  ok 3 tests\browser\biology-browser-contract.mjs:7:2 › vertebrate-limbs: unfinished neutral PDF and export failure recovery (902ms)
+  ok 4 tests\browser\biology-browser-contract.mjs:8:2 › vertebrate-limbs: root/development progress isolation and first offline development PDF (1.6s)
+  ok 5 tests\browser\limbs.spec.js:10:1 › limbs view-only completion, empty ratio edits, reopened measurements and current wrong tags preserve evidence (4.0s)
+  ok 6 tests\browser\limbs.spec.js:11:1 › limbs keyboard and mouse annotation after resize/scroll with correctly directed callouts (981ms)
+  ok 7 tests\browser\limbs.spec.js:12:1 › limbs native caliper drag-release, next tap, continuous jaw input and phone callout spacing (2.5s)
+
+  7 passed (27.8s)

@@ -1,0 +1,398 @@
+{
+  "schemaVersion": 2,
+  "labId": "population-estimates",
+  "title": "Estimating Population Size",
+  "question": "How can marked animals help estimate a hidden population, and why can estimates differ?",
+  "student": {
+    "name": "Zoë García",
+    "class": "Period 5"
+  },
+  "status": "Complete",
+  "grading": "not_graded",
+  "exportedAt": "2026-11-15T22:09:13.143Z",
+  "exportTimeZone": "America/Los_Angeles",
+  "exportedAtDisplay": "Nov 15, 2026, 2:09 PM PST",
+  "sections": [
+    {
+      "heading": "First prediction and sampling design",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Required before sampling: Could fresh catches from the same unchanged pond give different estimates? If marked fish became harder to catch, how could that change an estimate? Explain.",
+          "text": "I predict fresh recaptures can differ or tie in an unchanged pond. Underrepresented marked fish could inflate the ratio estimate."
+        },
+        {
+          "type": "response",
+          "prompt": "Required before sampling: What must happen after marking and before recapture? Name assumptions about mixing, catching, marks and population change that would make the comparison useful.",
+          "text": "Release marked animals and allow mixing, with closed population, equal catchability and retained recognized marks. Three fresh samples show sampling variation, not three independent ponds."
+        },
+        {
+          "type": "paragraph",
+          "text": "Before first capture or any recapture"
+        }
+      ]
+    },
+    {
+      "heading": "Marked group and current recapture evidence",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "First capture, marks and release",
+          "text": "First20fish captured. Batch virtual marks applied. All20released; mixing supplied. Original marked group unchanged; later captured fish released/remixed before next random catch."
+        },
+        {
+          "type": "response",
+          "prompt": "Random recapture1",
+          "text": "M=20; n=20. Student R: 6; student estimate: 67. Correct after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "Earlier count/estimate needing revision",
+          "text": "R: 99; estimate: 0."
+        },
+        {
+          "type": "response",
+          "prompt": "Random recapture2",
+          "text": "M=20; n=20. Student R: 5; student estimate: 80. Correct first check."
+        },
+        {
+          "type": "response",
+          "prompt": "Random recapture3",
+          "text": "M=20; n=20. Student R: 5; student estimate: 80. Correct first check."
+        },
+        {
+          "type": "response",
+          "prompt": "Supplied low-recapture illustration",
+          "text": "M=20; n=20. Student R: 2; student estimate: 200. Correct first check."
+        },
+        {
+          "type": "paragraph",
+          "text": "Revealed model population:80. Original equal-catch samples are random; the final supplied20-fish/2-tag case is a designed low-recapture illustration, not an empirical treatment."
+        }
+      ]
+    },
+    {
+      "heading": "Learning evidence",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Use one of your catches to explain M, n, R and M×n/R. How does a marked fraction lead to an estimated population rather than an exact count?",
+          "text": "My ratio evidence: M20marked in one first catch, released and mixed by assumption; n20per fresh random catch, Rgold triangular tags counted, estimate round(400/R). Same original marked group and fixed hidden80fish; different estimates or ties are sampling variation, not population growth or independent ponds. Fish cannot repeat within a catch but can recur after release in later samples. The separate supplied low-recapture caseR2gives200, above80because marked fish underrepresented by design. This illustrates denominator direction, not a measured trap-avoidance effect or proof every trap-shy sample behaves identically. R0has no finite simple-ratio estimate, not zero or an infinite real population. Closed population, mixing, equal catching, mark retention/recognition assumed. Small Rcan be unstable; simple ratio is not guaranteed unbiased or a precise count. More evidence and a suitable estimator/uncertainty analysis needed; Chapman correction and intervals omitted. These virtual tags are not a real fish-handling procedure. My prediction is compared with observed sample differences, allowing ties."
+        },
+        {
+          "type": "response",
+          "prompt": "Compare your three random catches and estimates, including ties or any zero recaptures. What stayed fixed? Compare with the revealed model count and your prediction. Why are these not independent ponds?",
+          "text": "My variation evidence: M20marked in one first catch, released and mixed by assumption; n20per fresh random catch, Rgold triangular tags counted, estimate round(400/R). Same original marked group and fixed hidden80fish; different estimates or ties are sampling variation, not population growth or independent ponds. Fish cannot repeat within a catch but can recur after release in later samples. The separate supplied low-recapture caseR2gives200, above80because marked fish underrepresented by design. This illustrates denominator direction, not a measured trap-avoidance effect or proof every trap-shy sample behaves identically. R0has no finite simple-ratio estimate, not zero or an infinite real population. Closed population, mixing, equal catching, mark retention/recognition assumed. Small Rcan be unstable; simple ratio is not guaranteed unbiased or a precise count. More evidence and a suitable estimator/uncertainty analysis needed; Chapman correction and intervals omitted. These virtual tags are not a real fish-handling procedure. My prediction is compared with observed sample differences, allowing ties."
+        },
+        {
+          "type": "response",
+          "prompt": "Use the supplied low-recapture case to explain what happens when marked fish are underrepresented. Name two other assumptions, explain R=0, and describe evidence needed before trusting a real survey.",
+          "text": "My assumptions evidence: M20marked in one first catch, released and mixed by assumption; n20per fresh random catch, Rgold triangular tags counted, estimate round(400/R). Same original marked group and fixed hidden80fish; different estimates or ties are sampling variation, not population growth or independent ponds. Fish cannot repeat within a catch but can recur after release in later samples. The separate supplied low-recapture caseR2gives200, above80because marked fish underrepresented by design. This illustrates denominator direction, not a measured trap-avoidance effect or proof every trap-shy sample behaves identically. R0has no finite simple-ratio estimate, not zero or an infinite real population. Closed population, mixing, equal catching, mark retention/recognition assumed. Small Rcan be unstable; simple ratio is not guaranteed unbiased or a precise count. More evidence and a suitable estimator/uncertainty analysis needed; Chapman correction and intervals omitted. These virtual tags are not a real fish-handling procedure. My prediction is compared with observed sample differences, allowing ties."
+        }
+      ]
+    },
+    {
+      "heading": "Concept checks",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "No marked fish occur in a later catch. What does M×n/R give?",
+          "text": "No finite estimate from this formula; collect more evidence or use a suitable other method.\nCorrect! Division by zero does not give a usable finite population estimate. The caught unmarked fish already show that the population is not zero. Revised after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "Different estimates from three fresh random catches prove what?",
+          "text": "Sampling can change the marked fraction even with a fixed population.\nCorrect! The model population and marked group stayed fixed. Fresh catches can differ, or tie, by chance; three estimates do not establish reliability for a real survey."
+        },
+        {
+          "type": "response",
+          "prompt": "For fixed M and n, what happens to M×n/R when fewer marked fish are recaptured?",
+          "text": "The estimate increases when R is smaller and positive.\nCorrect! R is the denominator. A smaller positive R gives a larger ratio. A designed low-recapture case illustrates a problem with equal catching, not a measured causal effect."
+        }
+      ]
+    },
+    {
+      "heading": "Limits and sources",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "This is a seeded finite-population teaching model, not a field survey. In the equal-catch cases, every subset of20fish is equally likely; the same20original fish remain marked, all marks are retained/read and no fish enter, leave, die or reproduce. Mixing is an assumption, not a timing rule for real fish. The simple estimate is M×n/R, where M is marked first, n is caught later and R is marked in that later catch. It is a rough ratio estimate, not an exact count or a guaranteed unbiased method. If R=0, this formula has no finite estimate; zero recaptures does not mean zero fish. Small recapture numbers can give unstable answers. Other estimators, such as Chapman’s correction, and uncertainty intervals are outside this lesson. The supplied low-recapture case is a designed illustration, not a measured trap response or a random paired experiment. Drawings enlarge fish, show captured animals only and do not reveal the whole pond."
+        },
+        {
+          "type": "paragraph",
+          "text": "OpenStax Biology2e45.1: mark–recapture ratio and trap response: https://openstax.org/books/biology-2e/pages/45-1-population-demography"
+        },
+        {
+          "type": "paragraph",
+          "text": "McNair and colleagues: closed-population assumptions and zero-recapture limitations: https://pmc.ncbi.nlm.nih.gov/articles/PMC6070202/"
+        }
+      ],
+      "keepFirst": 3
+    }
+  ],
+  "data": {
+    "schemaVersion": 1,
+    "activityVersion": 1,
+    "labId": "population-estimates",
+    "attemptId": "population-3779188449-1794780550881",
+    "seed": 3779188449,
+    "locale": "en",
+    "stage": 3,
+    "phase": 2,
+    "current": 3,
+    "studentName": "Zoë García",
+    "studentClass": "Period 5",
+    "prediction": "I predict fresh recaptures can differ or tie in an unchanged pond. Underrepresented marked fish could inflate the ratio estimate.",
+    "design": "Release marked animals and allow mixing, with closed population, equal catchability and retained recognized marks. Three fresh samples show sampling variation, not three independent ponds.",
+    "initialPlan": {
+      "prediction": "I predict fresh recaptures can differ or tie in an unchanged pond. Underrepresented marked fish could inflate the ratio estimate.",
+      "design": "Release marked animals and allow mixing, with closed population, equal catchability and retained recognized marks. Three fresh samples show sampling variation, not three independent ponds.",
+      "timing": "Before first capture or any recapture"
+    },
+    "firstCaught": true,
+    "marked": true,
+    "released": true,
+    "revealed": true,
+    "placements": [
+      {
+        "tool": "net",
+        "site": "pond",
+        "correct": true,
+        "stage": 1,
+        "catch": 0
+      },
+      {
+        "tool": "tag",
+        "site": "tray",
+        "correct": true,
+        "stage": 1,
+        "catch": 0
+      },
+      {
+        "tool": "net",
+        "site": "pond",
+        "correct": true,
+        "stage": 2,
+        "catch": 0
+      },
+      {
+        "tool": "net",
+        "site": "pond",
+        "correct": true,
+        "stage": 2,
+        "catch": 1
+      },
+      {
+        "tool": "net",
+        "site": "pond",
+        "correct": true,
+        "stage": 2,
+        "catch": 2
+      }
+    ],
+    "catches": [
+      {
+        "fish": [
+          24,
+          32,
+          2,
+          8,
+          54,
+          66,
+          46,
+          53,
+          73,
+          51,
+          6,
+          12,
+          1,
+          26,
+          4,
+          30,
+          20,
+          70,
+          74,
+          56
+        ],
+        "r": "6",
+        "estimate": "67",
+        "attempts": [
+          {
+            "r": "99",
+            "estimate": "0",
+            "correct": false
+          },
+          {
+            "r": "6",
+            "estimate": "67",
+            "correct": true
+          }
+        ],
+        "record": {
+          "r": "6",
+          "estimate": "67",
+          "correctAfterFeedback": true
+        }
+      },
+      {
+        "fish": [
+          1,
+          11,
+          5,
+          25,
+          27,
+          21,
+          55,
+          24,
+          73,
+          62,
+          45,
+          52,
+          4,
+          68,
+          17,
+          70,
+          59,
+          60,
+          7,
+          49
+        ],
+        "r": "5",
+        "estimate": "80",
+        "attempts": [
+          {
+            "r": "5",
+            "estimate": "80",
+            "correct": true
+          }
+        ],
+        "record": {
+          "r": "5",
+          "estimate": "80",
+          "correctAfterFeedback": false
+        }
+      },
+      {
+        "fish": [
+          4,
+          9,
+          2,
+          6,
+          10,
+          14,
+          32,
+          70,
+          56,
+          38,
+          30,
+          73,
+          57,
+          24,
+          18,
+          37,
+          61,
+          11,
+          33,
+          62
+        ],
+        "r": "5",
+        "estimate": "80",
+        "attempts": [
+          {
+            "r": "5",
+            "estimate": "80",
+            "correct": true
+          }
+        ],
+        "record": {
+          "r": "5",
+          "estimate": "80",
+          "correctAfterFeedback": false
+        }
+      },
+      {
+        "fish": [
+          1,
+          4,
+          21,
+          9,
+          14,
+          5,
+          22,
+          20,
+          24,
+          31,
+          23,
+          10,
+          28,
+          25,
+          26,
+          17,
+          12,
+          13,
+          29,
+          15
+        ],
+        "r": "2",
+        "estimate": "200",
+        "attempts": [
+          {
+            "r": "2",
+            "estimate": "200",
+            "correct": true
+          }
+        ],
+        "record": {
+          "r": "2",
+          "estimate": "200",
+          "correctAfterFeedback": false
+        }
+      }
+    ],
+    "checks": {
+      "zero": {
+        "attempts": [
+          {
+            "value": "zero",
+            "correct": false
+          },
+          {
+            "value": "undefined",
+            "correct": true
+          }
+        ],
+        "value": "undefined",
+        "correct": true
+      },
+      "change": {
+        "attempts": [
+          {
+            "value": "sampling",
+            "correct": true
+          }
+        ],
+        "value": "sampling",
+        "correct": true
+      },
+      "avoid": {
+        "attempts": [
+          {
+            "value": "larger",
+            "correct": true
+          }
+        ],
+        "value": "larger",
+        "correct": true
+      }
+    },
+    "answers": {
+      "ratio": "My ratio evidence: M20marked in one first catch, released and mixed by assumption; n20per fresh random catch, Rgold triangular tags counted, estimate round(400/R). Same original marked group and fixed hidden80fish; different estimates or ties are sampling variation, not population growth or independent ponds. Fish cannot repeat within a catch but can recur after release in later samples. The separate supplied low-recapture caseR2gives200, above80because marked fish underrepresented by design. This illustrates denominator direction, not a measured trap-avoidance effect or proof every trap-shy sample behaves identically. R0has no finite simple-ratio estimate, not zero or an infinite real population. Closed population, mixing, equal catching, mark retention/recognition assumed. Small Rcan be unstable; simple ratio is not guaranteed unbiased or a precise count. More evidence and a suitable estimator/uncertainty analysis needed; Chapman correction and intervals omitted. These virtual tags are not a real fish-handling procedure. My prediction is compared with observed sample differences, allowing ties.",
+      "variation": "My variation evidence: M20marked in one first catch, released and mixed by assumption; n20per fresh random catch, Rgold triangular tags counted, estimate round(400/R). Same original marked group and fixed hidden80fish; different estimates or ties are sampling variation, not population growth or independent ponds. Fish cannot repeat within a catch but can recur after release in later samples. The separate supplied low-recapture caseR2gives200, above80because marked fish underrepresented by design. This illustrates denominator direction, not a measured trap-avoidance effect or proof every trap-shy sample behaves identically. R0has no finite simple-ratio estimate, not zero or an infinite real population. Closed population, mixing, equal catching, mark retention/recognition assumed. Small Rcan be unstable; simple ratio is not guaranteed unbiased or a precise count. More evidence and a suitable estimator/uncertainty analysis needed; Chapman correction and intervals omitted. These virtual tags are not a real fish-handling procedure. My prediction is compared with observed sample differences, allowing ties.",
+      "assumptions": "My assumptions evidence: M20marked in one first catch, released and mixed by assumption; n20per fresh random catch, Rgold triangular tags counted, estimate round(400/R). Same original marked group and fixed hidden80fish; different estimates or ties are sampling variation, not population growth or independent ponds. Fish cannot repeat within a catch but can recur after release in later samples. The separate supplied low-recapture caseR2gives200, above80because marked fish underrepresented by design. This illustrates denominator direction, not a measured trap-avoidance effect or proof every trap-shy sample behaves identically. R0has no finite simple-ratio estimate, not zero or an infinite real population. Closed population, mixing, equal catching, mark retention/recognition assumed. Small Rcan be unstable; simple ratio is not guaranteed unbiased or a precise count. More evidence and a suitable estimator/uncertainty analysis needed; Chapman correction and intervals omitted. These virtual tags are not a real fish-handling procedure. My prediction is compared with observed sample differences, allowing ties."
+    },
+    "complete": true
+  },
+  "locale": "en",
+  "activityVersion": 1,
+  "attemptId": "population-3779188449-1794780550881"
+}

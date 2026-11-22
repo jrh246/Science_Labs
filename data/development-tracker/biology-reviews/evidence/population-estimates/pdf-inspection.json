@@ -1,0 +1,114 @@
+[
+  {
+    "file": "public/resources/population-estimates-teacher-guide.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      2854,
+      2288
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "public/resources/population-estimates-worksheet.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1697,
+      1333,
+      2201
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/population-estimates/complete.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2008,
+      4668,
+      1646
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/population-estimates/count-unconfirmed.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      1711,
+      2202
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/population-estimates/development-draft.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      1475,
+      2029
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/population-estimates/draft.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      1465,
+      2029
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/population-estimates/edited-unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1959,
+      4671,
+      1649
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/population-estimates/long-native-print.pdf",
+    "pages": 6,
+    "pageCharacters": [
+      2402,
+      2807,
+      837,
+      837,
+      837,
+      2308
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/population-estimates/long-offline.pdf",
+    "pages": 7,
+    "pageCharacters": [
+      1956,
+      3268,
+      905,
+      905,
+      905,
+      1386,
+      1336
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/population-estimates/native-print.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1956,
+      4587,
+      1551
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/population-estimates/zero-recapture.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      1572,
+      2029
+    ],
+    "finalLongMarker": false
+  }
+]

@@ -1,0 +1,368 @@
+{
+  "schemaVersion": 2,
+  "labId": "protist-movement",
+  "title": "Protist Structure and Movement",
+  "question": "How do different cell structures move a protist, and how can a changing cell boundary help it feed?",
+  "student": {
+    "name": "Zoë García",
+    "class": "Period 5"
+  },
+  "status": "Complete",
+  "grading": "not_graded",
+  "exportedAt": "2026-11-15T12:14:46.842Z",
+  "exportTimeZone": "America/Los_Angeles",
+  "exportedAtDisplay": "Nov 15, 2026, 4:14 AM PST",
+  "sections": [
+    {
+      "heading": "Prediction and observation plan",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Required before observations: Do all single-celled protists move in the same way? Predict what visible evidence could show a difference.",
+          "text": "Different cell-edge structures may move cells in different ways."
+        },
+        {
+          "type": "response",
+          "prompt": "Required before observations: Why compare a cell at several points in its movement rather than use one still picture? What could a still picture miss?",
+          "text": "A still view can miss a beating stroke or a changing extension, so compare the same cell through several phases."
+        },
+        {
+          "type": "paragraph",
+          "text": "Timing: Before movement observations."
+        },
+        {
+          "type": "paragraph",
+          "text": "Use three supplied illustrative examples. Inspect each starting view and three changes in its movement. Each example shows a different structure; these are comparisons, not three repeated trials. The examples have separate enlargements and no common clock, so do not rank their real speeds by the pictures."
+        }
+      ]
+    },
+    {
+      "heading": "Movement evidence",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Prepared model slide placed. Each row is one different supplied example."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Example",
+            "Sequence viewed",
+            "Current structure tag",
+            "Current movement interpretation",
+            "Status"
+          ],
+          "rows": [
+            [
+              "A: Euglena-like flagellate",
+              "3/3 illustrated changes",
+              "Flagellum — one long waving strand",
+              "A long strand bends while the cell swims.",
+              "Correct after feedback"
+            ],
+            [
+              "B: Lobed amoeba",
+              "3/3 illustrated changes",
+              "Pseudopodia — temporary cell extensions",
+              "The cell extends a lobe and its body flows forward.",
+              "Correct first check"
+            ],
+            [
+              "C: Paramecium-like ciliate",
+              "3/3 illustrated changes",
+              "Cilia — many short beating hairs",
+              "Many short hairs change their stroke together.",
+              "Correct first check"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The sequence and its visible structures are model-provided; tags and interpretations are student work. These phases do not measure time, distance or speed. Tags do not add parts to a cell."
+        }
+      ]
+    },
+    {
+      "heading": "Particle uptake evidence",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Required before placing food: Predict how an amoeba could take a solid particle across its cell boundary. What might the boundary do?",
+          "text": "The boundary could extend around the particle, then close it inside a small compartment."
+        },
+        {
+          "type": "paragraph",
+          "text": "Prediction timing: Before food placement or enclosure."
+        },
+        {
+          "type": "paragraph",
+          "text": "Student placed one model particle outside the amoeba; 3/3 enclosure changes viewed."
+        },
+        {
+          "type": "response",
+          "prompt": "Current final-location interpretation",
+          "text": "The boundary surrounds the particle and closes a food vacuole inside the cell."
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct after feedback."
+        },
+        {
+          "type": "paragraph",
+          "text": "The model supplies the cell response. It illustrates enclosure, not sensing, digestion or an experimental measure of feeding rate."
+        }
+      ]
+    },
+    {
+      "heading": "Evidence by learning goal",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Use changes in a cell and its structures to compare three forms of movement."
+        },
+        {
+          "type": "response",
+          "prompt": "Compare two examples. Name their movement structures and describe what changed as each cell moved. Why was a sequence more useful than a still picture?",
+          "text": "My movement explanation uses the observed changes. Many short cilia beat together, a long flagellum bends, and the amoeba flows into a temporary extension. Its boundary surrounds food and closes a food vacuole, instead of letting a solid pass through unchanged. These separate enlargements and untimed phases cannot rank real speeds or prove ancestry; calibrated distances/times, more cells and appropriate sequence evidence would help."
+        },
+        {
+          "type": "paragraph",
+          "text": "Explain how a changing cell boundary encloses food in an amoeba."
+        },
+        {
+          "type": "response",
+          "prompt": "Describe how the particle changed from outside the amoeba to inside a food vacuole. Compare the observed boundary changes with your feeding prediction. How do pseudopodia help both movement and feeding?",
+          "text": "My feeding explanation uses the observed changes. Many short cilia beat together, a long flagellum bends, and the amoeba flows into a temporary extension. Its boundary surrounds food and closes a food vacuole, instead of letting a solid pass through unchanged. These separate enlargements and untimed phases cannot rank real speeds or prove ancestry; calibrated distances/times, more cells and appropriate sequence evidence would help."
+        },
+        {
+          "type": "paragraph",
+          "text": "Separate visible model evidence from claims about speed, species and ancestry."
+        },
+        {
+          "type": "response",
+          "prompt": "Why can these views not rank real swimming speeds or prove that two organisms are close relatives? Name evidence that a real investigation would need.",
+          "text": "My limits explanation uses the observed changes. Many short cilia beat together, a long flagellum bends, and the amoeba flows into a temporary extension. Its boundary surrounds food and closes a food vacuole, instead of letting a solid pass through unchanged. These separate enlargements and untimed phases cannot rank real speeds or prove ancestry; calibrated distances/times, more cells and appropriate sequence evidence would help."
+        }
+      ]
+    },
+    {
+      "heading": "Concept checks",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "What powers these cell movements?",
+          "text": "Cell processes use chemical energy to move structures or change cell shape.\nCorrect! Living cells use chemical energy for movement. The observation tags only label your evidence; they do not build structures or power the cell. Revised after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "What makes the food particle inside at the end of the amoeba model?",
+          "text": "The membrane encloses it in a food vacuole within the cell.\nCorrect! Pseudopodia surround the particle. The membrane closes around it to form a food vacuole, a membrane-bound compartment. Uptake is different from digestion. Correct on first recorded check."
+        },
+        {
+          "type": "response",
+          "prompt": "What does sharing a movement structure establish by itself?",
+          "text": "It supports a structure comparison, but does not by itself prove close ancestry.\nCorrect! Protists include several evolutionary lineages. Movement is useful evidence, but relationships require additional evidence, including appropriate DNA comparisons. Correct on first recorded check."
+        }
+      ]
+    },
+    {
+      "heading": "Model limits and sources",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "These original illustrations are teaching models, not microscope recordings. Each example has its own enlargement; fine structures and colors are emphasized. The steps have no shared time or distance scale, so they cannot measure or rank real swimming speeds. Simplified paths omit many turns, flows and changes in shape. The examples represent a Paramecium-like ciliate, a Euglena-like flagellate and a lobed amoeba, not every species. The food particle is supplied by the student in a separate model, not a test of sensing or choice. A food vacuole forms, but digestion is not modeled. Movement and appearance alone do not prove species identity or close ancestry. No live culture protocol is supplied."
+        },
+        {
+          "type": "paragraph",
+          "text": "OpenStax Biology 2e: Characteristics of Protists: https://openstax.org/books/biology-2e/pages/23-2-characteristics-of-protists"
+        },
+        {
+          "type": "paragraph",
+          "text": "OpenStax Biology 2e: Groups of Protists: https://openstax.org/books/biology-2e/pages/23-3-groups-of-protists"
+        },
+        {
+          "type": "paragraph",
+          "text": "National Institute for Environmental Studies: Euglena morphology: https://www.nies.go.jp/chiiki1/protoz/morpho/flagella/euglena.htm"
+        }
+      ],
+      "keepFirst": 4
+    }
+  ],
+  "activityVersion": 1,
+  "locale": "en",
+  "attemptId": "protist-3743520612-1794744883044",
+  "data": {
+    "schemaVersion": 1,
+    "activityVersion": 1,
+    "labId": "protist-movement",
+    "attemptId": "protist-3743520612-1794744883044",
+    "seed": 3743520612,
+    "locale": "en",
+    "stage": 3,
+    "studentName": "Zoë García",
+    "studentClass": "Period 5",
+    "prediction": "Different cell-edge structures may move cells in different ways.",
+    "design": "A still view can miss a beating stroke or a changing extension, so compare the same cell through several phases.",
+    "initialPlan": {
+      "prediction": "Different cell-edge structures may move cells in different ways.",
+      "design": "A still view can miss a beating stroke or a changing extension, so compare the same cell through several phases.",
+      "timing": "Before movement observations",
+      "recordedAt": "2026-11-15T12:14:43.218Z"
+    },
+    "slideLoaded": true,
+    "active": "C",
+    "samples": {
+      "A": {
+        "kind": "flagellate",
+        "frame": 3,
+        "maxSeen": 3,
+        "tag": "flagellum",
+        "motion": "waving",
+        "record": {
+          "tag": "flagellum",
+          "motion": "waving",
+          "correctAfterFeedback": true,
+          "sourceId": "student-interpreted-model-sequence"
+        },
+        "attempts": [
+          {
+            "tag": "cilia",
+            "motion": "beating",
+            "correct": false
+          },
+          {
+            "tag": "flagellum",
+            "motion": "waving",
+            "correct": true
+          }
+        ]
+      },
+      "B": {
+        "kind": "amoeboid",
+        "frame": 3,
+        "maxSeen": 3,
+        "tag": "pseudopodia",
+        "motion": "flowing",
+        "record": {
+          "tag": "pseudopodia",
+          "motion": "flowing",
+          "correctAfterFeedback": false,
+          "sourceId": "student-interpreted-model-sequence"
+        },
+        "attempts": [
+          {
+            "tag": "pseudopodia",
+            "motion": "flowing",
+            "correct": true
+          }
+        ]
+      },
+      "C": {
+        "kind": "ciliate",
+        "frame": 3,
+        "maxSeen": 3,
+        "tag": "cilia",
+        "motion": "beating",
+        "record": {
+          "tag": "cilia",
+          "motion": "beating",
+          "correctAfterFeedback": false,
+          "sourceId": "student-interpreted-model-sequence"
+        },
+        "attempts": [
+          {
+            "tag": "cilia",
+            "motion": "beating",
+            "correct": true
+          }
+        ]
+      }
+    },
+    "feedingPrediction": "The boundary could extend around the particle, then close it inside a small compartment.",
+    "feedingPlan": {
+      "prediction": "The boundary could extend around the particle, then close it inside a small compartment.",
+      "timing": "Before food placement or enclosure",
+      "recordedAt": "2026-11-15T12:14:45.495Z"
+    },
+    "foodPlaced": true,
+    "feedingFrame": 3,
+    "feedingEntry": "enclosed",
+    "feedingRecord": {
+      "value": "enclosed",
+      "correctAfterFeedback": true,
+      "sourceId": "student-interpreted-model-enclosure"
+    },
+    "feedingAttempts": [
+      {
+        "value": "through",
+        "correct": false
+      },
+      {
+        "value": "enclosed",
+        "correct": true
+      }
+    ],
+    "checks": {
+      "energy": {
+        "attempts": [
+          {
+            "value": "marker",
+            "correct": false
+          },
+          {
+            "value": "cell",
+            "correct": true
+          }
+        ],
+        "value": "cell",
+        "correct": true
+      },
+      "boundary": {
+        "attempts": [
+          {
+            "value": "vacuole",
+            "correct": true
+          }
+        ],
+        "value": "vacuole",
+        "correct": true
+      },
+      "relatedness": {
+        "attempts": [
+          {
+            "value": "limited",
+            "correct": true
+          }
+        ],
+        "value": "limited",
+        "correct": true
+      }
+    },
+    "answers": {
+      "movement": "My movement explanation uses the observed changes. Many short cilia beat together, a long flagellum bends, and the amoeba flows into a temporary extension. Its boundary surrounds food and closes a food vacuole, instead of letting a solid pass through unchanged. These separate enlargements and untimed phases cannot rank real speeds or prove ancestry; calibrated distances/times, more cells and appropriate sequence evidence would help.",
+      "feeding": "My feeding explanation uses the observed changes. Many short cilia beat together, a long flagellum bends, and the amoeba flows into a temporary extension. Its boundary surrounds food and closes a food vacuole, instead of letting a solid pass through unchanged. These separate enlargements and untimed phases cannot rank real speeds or prove ancestry; calibrated distances/times, more cells and appropriate sequence evidence would help.",
+      "limits": "My limits explanation uses the observed changes. Many short cilia beat together, a long flagellum bends, and the amoeba flows into a temporary extension. Its boundary surrounds food and closes a food vacuole, instead of letting a solid pass through unchanged. These separate enlargements and untimed phases cannot rank real speeds or prove ancestry; calibrated distances/times, more cells and appropriate sequence evidence would help."
+    },
+    "complete": true
+  },
+  "evidence": [
+    {
+      "goalId": "movement",
+      "answerId": "movement",
+      "writing": "My movement explanation uses the observed changes. Many short cilia beat together, a long flagellum bends, and the amoeba flows into a temporary extension. Its boundary surrounds food and closes a food vacuole, instead of letting a solid pass through unchanged. These separate enlargements and untimed phases cannot rank real speeds or prove ancestry; calibrated distances/times, more cells and appropriate sequence evidence would help.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "feeding",
+      "answerId": "feeding",
+      "writing": "My feeding explanation uses the observed changes. Many short cilia beat together, a long flagellum bends, and the amoeba flows into a temporary extension. Its boundary surrounds food and closes a food vacuole, instead of letting a solid pass through unchanged. These separate enlargements and untimed phases cannot rank real speeds or prove ancestry; calibrated distances/times, more cells and appropriate sequence evidence would help.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "limits",
+      "answerId": "limits",
+      "writing": "My limits explanation uses the observed changes. Many short cilia beat together, a long flagellum bends, and the amoeba flows into a temporary extension. Its boundary surrounds food and closes a food vacuole, instead of letting a solid pass through unchanged. These separate enlargements and untimed phases cannot rank real speeds or prove ancestry; calibrated distances/times, more cells and appropriate sequence evidence would help.",
+      "status": "not_graded"
+    }
+  ]
+}

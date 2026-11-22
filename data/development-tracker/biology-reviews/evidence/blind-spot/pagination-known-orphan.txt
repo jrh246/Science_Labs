@@ -1,0 +1,7 @@
+python.exe : Orphaned prompt: Use all four recorded tube results and both indicator references. Which comparison te
+At line:8 char:1
++ & C:/Python_Workspace/.venv_science_platform_checks/Scripts/python.ex ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Orphaned prompt...h comparison te:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 

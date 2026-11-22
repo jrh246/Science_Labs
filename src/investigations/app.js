@@ -4,6 +4,39 @@ import {recordFeedback} from './report-feedback.js';
 import {studentReportText,reportFilename} from './student-report.js';
 import {coreStudentReport} from './investigation-report.js';
 import {installStudentReports,studentReportControls} from './report-controls.js';
+import {bootEmbryo} from './embryo-app.js';
+import {bootHabitat} from './habitat-app.js';
+import {bootPopulation} from './population-app.js';
+import {bootEnergy} from './energy-app.js';
+import {bootReserve} from './reserve-app.js';
+import {bootImmune} from './immune-app.js';
+import {bootNeph} from './neph-app.js';
+import {bootFlow} from './flow-app.js';
+import {bootBreath} from './breath-app.js';
+import {bootLever} from './lever-app.js';
+import {bootGlucose} from './glucose-app.js';
+import {bootBlind} from './blind-app.js';
+import {bootReaction} from './reaction-app.js';
+import {bootStarch} from './starch-app.js';
+import {bootHeat} from './heat-app.js';
+import {bootFlower} from './flower-app.js';
+import {bootSoil} from './soil-app.js';
+import {bootTransp} from './transp-app.js';
+import {bootLimbs} from './limbs-app.js';
+import {bootKey} from './key-app.js';
+import {bootBodyplans} from './bodyplans-app.js';
+import {bootDispersal} from './dispersal-app.js';
+import {bootSeedless} from './seedless-app.js';
+import {bootFungal} from './fungal-app.js';
+import {bootProtist} from './protist-app.js';
+import {bootProk} from './prok-app.js';
+import {bootViral} from './viral-app.js';
+import {bootPhylo} from './phylo-app.js';
+import {bootDrift} from './drift-app.js';
+import {bootSelection} from './selection-app.js';
+import {bootFood} from './food-app.js';
+import {bootSurface} from './surface-app.js';
+import {bootSeed} from './seed-app.js';
 import {bootGenetics} from './genetics-app.js';
 import {reportIdentityFields,reportIdentityHtml} from './report-identity.js';
 import {learningDesign} from './learning-design.js';
@@ -28,7 +61,40 @@ import {escape,cell,apparatus,chart} from './visuals.js';
 const params=new URLSearchParams(location.search);
 const c=investigations[params.get('lab')];
 const app=document.querySelector('#app');
-if(params.get('lab')==='genetic-information')bootGenetics(app);
+if(params.get('lab')==='embryonic-development')bootEmbryo(app);
+else if(params.get('lab')==='microhabitats')bootHabitat(app);
+else if(params.get('lab')==='population-estimates')bootPopulation(app);
+else if(params.get('lab')==='food-web-energy')bootEnergy(app);
+else if(params.get('lab')==='reserve-design')bootReserve(app);
+else if(params.get('lab')==='immune-memory')bootImmune(app);
+else if(params.get('lab')==='nephron')bootNeph(app);
+else if(params.get('lab')==='blood-flow')bootFlow(app);
+else if(params.get('lab')==='breathing')bootBreath(app);
+else if(params.get('lab')==='muscle-levers')bootLever(app);
+else if(params.get('lab')==='glucose-feedback')bootGlucose(app);
+else if(params.get('lab')==='blind-spot')bootBlind(app);
+else if(params.get('lab')==='reaction-time')bootReaction(app);
+else if(params.get('lab')==='starch-digestion')bootStarch(app);
+else if(params.get('lab')==='body-heat')bootHeat(app);
+else if(params.get('lab')==='flower-pollination')bootFlower(app);
+else if(params.get('lab')==='soil-water')bootSoil(app);
+else if(params.get('lab')==='transpiration')bootTransp(app);
+else if(params.get('lab')==='vertebrate-limbs')bootLimbs(app);
+else if(params.get('lab')==='invertebrate-key')bootKey(app);
+else if(params.get('lab')==='animal-body-plans')bootBodyplans(app);
+else if(params.get('lab')==='seed-dispersal')bootDispersal(app);
+else if(params.get('lab')==='moss-fern')bootSeedless(app);
+else if(params.get('lab')==='fungal-structures')bootFungal(app);
+else if(params.get('lab')==='protist-movement')bootProtist(app);
+else if(params.get('lab')==='unknown-prokaryote')bootProk(app);
+else if(params.get('lab')==='viral-spread')bootViral(app);
+else if(params.get('lab')==='phylogenetic-trees')bootPhylo(app);
+else if(params.get('lab')==='genetic-drift')bootDrift(app);
+else if(params.get('lab')==='natural-selection')bootSelection(app);
+else if(params.get('lab')==='food-macromolecules')bootFood(app);
+else if(params.get('lab')==='water-surface-tension')bootSurface(app);
+else if(params.get('lab')==='seed-germination')bootSeed(app);
+else if(params.get('lab')==='genetic-information')bootGenetics(app);
 else if(extendedById[params.get('lab')]?.kind==='extraction')bootExtraction(extendedById[params.get('lab')],app);
 else if(extendedById[params.get('lab')])bootExtended(extendedById[params.get('lab')],app);
 else if(!c){app.innerHTML='<main><h1>Choose an investigation</h1><p>This lab address is not recognized.</p><a href="./#/science/biology/the-cell">Return to The Cell unit</a></main>';}
@@ -102,7 +168,7 @@ function boot(){
   return '<mitosis-simulator></mitosis-simulator>';
  }
  function progress(){return `<div class="progress-list">${c.conditions.map((cond,i)=>{const done=c.kind==='mitosis'?(source(i)==='classroom'?!!s.counts[cond.id]?.some(x=>x>0):!!s.reviewed[cond.id]):[1,2,3].filter(t=>s.runs[cond.id+'-'+t]?.length===times(c).length).length;return `<span>${cond.label}: ${c.kind==='mitosis'?(done?'recorded':'pending'):`${done}/3 trials`}</span>`;}).join('')}</div>`;}
- function collect(){return `${c.kind==='leaf'?infiltrationLesson:c.kind==='yeast'?fermentationLesson:microscopeLesson}${trialControls()}${progress()}${(guidedSeries||c.kind==='mitosis')&&completedData(c,s)&&!exploring?`<section class="panel"><h2>Comparison complete</h2>${results()}${btn('explore-leaf','Explore other settings')}</section>`:c.kind==='mitosis'?collectMitosis():collectSeries()}${exploring?btn('end-exploration','Return to collected data',false,'secondary'):''}<section class="panel">${field(c.kind==='mitosis'?'Observation reflections — identify a cell by field and number. What chromosome features supported your choice? Which two stages were hard to distinguish, and why? What pattern are you noticing across the cells?':'Observation notes — unusual results, equipment, exclusions, and classroom conditions','observations',s.notes.observations)}<div class="actions">${btn('previous','← Prediction',false,'secondary')}${btn('next','Analyze evidence →',!completedData(c,s))}</div></section>`;}
+ function collect(){return `${c.kind==='leaf'?infiltrationLesson:c.kind==='yeast'?fermentationLesson:microscopeLesson}${trialControls()}<p class="model-note">${escape(c.inlineLimit||c.model)}</p>${progress()}${(guidedSeries||c.kind==='mitosis')&&completedData(c,s)&&!exploring?`<section class="panel"><h2>Comparison complete</h2>${results()}${btn('explore-leaf','Explore other settings')}</section>`:c.kind==='mitosis'?collectMitosis():collectSeries()}${exploring?btn('end-exploration','Return to collected data',false,'secondary'):''}<section class="panel">${field(c.kind==='mitosis'?'Observation reflections — identify a cell by field and number. What chromosome features supported your choice? Which two stages were hard to distinguish, and why? What pattern are you noticing across the cells?':'Observation notes — unusual results, equipment, exclusions, and classroom conditions','observations',s.notes.observations)}<div class="actions">${btn('previous','← Prediction',false,'secondary')}${btn('next','Analyze evidence →',!completedData(c,s))}</div></section>`;}
  function results(){
   if(c.kind==='mitosis'){
    const counts=c.conditions.map((cond,i)=>source(i)==='classroom'?(s.counts[cond.id]||stages.map(()=>0)):tally(s.classifications[cond.id]||[]));
@@ -121,7 +187,7 @@ function boot(){
   return `<div class="table-scroll"><table><caption>${c.kind==='leaf'?'ET50 (minutes); mean only when all three trials reach five floating disks':'Average gas accumulation rate (mL/min), over 0–30 minutes'}</caption><thead><tr><th>Treatment / source</th><th>Trial 1</th><th>Trial 2</th><th>Trial 3</th><th>Mean</th></tr></thead><tbody>${rows.join('')}</tbody></table></div>${chart(series,c.yLabel,c.end,c.kind==='leaf'?10:Math.max(10,...series.flatMap(x=>x.points.map(p=>Math.ceil(p.value/10)*10))))}<p class="small">Graph: mean readings of completed trials. Compare independent trial results in the table; a mean alone does not show uncertainty.</p>`;
  }
  function reportPanel(){return `<section class="panel"><h2>Take your work with you</h2>${reportIdentityFields(s)}<div class="actions">${btn('csv','Download data (CSV)',false,'secondary')}${btn('report','Download lab report (.txt)',false,'secondary')}</div>${studentReportControls()}<p class="small">Exports label virtual and classroom data. Your teacher decides how to collect and assess your work.</p></section>`;}
- function analysis(){return `<section class="panel"><h2>Make sense of the evidence</h2><p>Compare your results with your first prediction. Use your observations to explain what you would keep or revise.</p>${planningHistoryHtml(s)}<p>${c.interpretation}</p>${c.kind==='yeast'?'<p>Compare the 0–5 minute and 25–30 minute slopes as well as the final volume. A similar ending rate does not imply equal accumulated gas.</p><details><summary>Scientific evidence behind the simulation</summary><p>Invertase commonly hydrolyzes sucrose into glucose and fructose. The revised model illustrates a slower sucrose startup and a late rate near glucose, with trial variation. The exact timings are teaching choices, not experimentally fitted constants or a guaranteed real-yeast result. Some strains also transport sucrose directly.</p><p>Equal sugar masses give sucrose about 5.3% more theoretical CO₂ at complete fermentation, not twice the yield. This does not determine the 30-minute rate.</p><a href="./resources/fermentation-model-evidence.html" target="_blank" rel="noopener">Read the evidence review and model assumptions</a></details>':''}${!completedData(c,s)?'<p class="notice">Finish all data collection before completing this lab.</p>':''}${c.kind==='mitosis'?`<label class="cycle-label">Assumed cell-cycle duration (hours)<input id="cycle-hours" type="number" min="1" max="100" step="0.1" value="${s.cycleHours}"></label>`:''}${results()}</section><section class="panel"><h2>Explain your findings</h2>${c.questions.map((q,i)=>field(`${i+1}. ${q}`,'answer-'+i,s.notes.answers[i])).join('')}<div class="actions">${btn('previous','← Collect observations',false,'secondary')}${btn('complete','Mark work complete')}</div>${completion.html()}</section>`;}
+ function analysis(){return `<section class="panel"><h2>Make sense of the evidence</h2><p>Compare your results with your first prediction. Use your observations to explain what you would keep or revise.</p>${planningHistoryHtml(s)}<p>${c.interpretation}</p><p class="model-note">${escape(c.inlineLimit||c.model)}</p><p class="model-note">${escape(c.inlineLimit||c.model)}</p>${c.kind==='yeast'?'<p>Compare the gas added in the first five minutes and the last five minutes. Also compare the final volumes. Samples can end at a similar rate yet collect different total amounts of gas.</p><details><summary>Scientific evidence behind the simulation</summary><p>Invertase commonly hydrolyzes sucrose into glucose and fructose. The revised model illustrates a slower sucrose startup and a late rate near glucose, with trial variation. The exact timings are teaching choices, not experimentally fitted constants or a guaranteed real-yeast result. Some strains also transport sucrose directly.</p><p>Equal sugar masses give sucrose about 5.3% more theoretical CO₂ at complete fermentation, not twice the yield. This does not determine the 30-minute rate.</p><a href="./resources/fermentation-model-evidence.html" target="_blank" rel="noopener">Read the evidence review and model assumptions</a></details>':''}${!completedData(c,s)?'<p class="notice">Finish all data collection before completing this lab.</p>':''}${c.kind==='mitosis'?`<label class="cycle-label">Assumed cell-cycle duration (hours)<input id="cycle-hours" type="number" min="1" max="100" step="0.1" value="${s.cycleHours}"></label>`:''}${results()}</section><section class="panel"><h2>Explain your findings</h2>${c.questions.map((q,i)=>field(`${i+1}. ${q}`,'answer-'+i,s.notes.answers[i])).join('')}<div class="actions">${btn('previous','← Collect observations',false,'secondary')}${btn('complete','Mark work complete')}</div>${completion.html()}</section>`;}
  function render(focus=false){
   if(!enterInvestigationStage(s,s.step,coreHasWork(s)||s.step>0))s.step=0;
   selectPendingTrial();
@@ -226,5 +292,5 @@ function boot(){
  });
  if(!enterInvestigationStage(s,s.step,coreHasWork(s)||s.step>0))s.step=0;
  save();render();
- if('serviceWorker' in navigator&&import.meta.env.PROD)navigator.serviceWorker.register(`${import.meta.env.BASE_URL}sw.js`,{updateViaCache:'none'}).catch(()=>{});
+ if('serviceWorker' in navigator&&import.meta.env.PROD&&!import.meta.env.VITE_PLATFORM_RUNTIME)navigator.serviceWorker.register(`${import.meta.env.BASE_URL}sw.js`,{updateViaCache:'none'}).catch(()=>{});
 }

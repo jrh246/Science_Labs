@@ -99,6 +99,8 @@ Define primer, promoter, intron, exon, anticodon, and other new terms where stud
 
 A prediction records what the student expects and why; it may be wrong. Do not require a prediction to match the modeled outcome. A required knowledge check can ask for revision with feedback before continuation. Preserve the initial response and revisions when recorded, and mark older attempts without that history as unrecorded. Retain the first recorded prediction when students revise their current writing. Label prediction timing as unrecorded when earlier observations already exist. Optional checkers that reveal expected results must respect the prediction gate too.
 
+When a prerequisite response changes, disable its dependent controls immediately in both the interface and state model. Do not wait for reload or another action. Keep the raw edit and prior evidence; re-enable the controls after the current required check succeeds.
+
 **G10 — Give clear, useful feedback.** Correct answers should say **“Correct!”** and explain why. Wrong answers should name the relevant misconception or suggest what to reconsider. “Check passed” alone is insufficient. Pair color with text or an icon. Keep feedback near the question or action and announce important updates to assistive technology.
 
 After students collect evidence, ask them to compare it with their prediction and explain what supports their conclusion. Do not replace their observation or explanation with the model's preferred response.
@@ -135,7 +137,7 @@ Keep raw attempts and action history in a separate structured export or PDF atta
 
 **G15 — Keep all report formats faithful and readable.** Build PDF, print, and structured exports from the same response snapshot. Preserve full written answers, Unicode names and scientific symbols, source labels, and partial-work status. Clearly label automatic extension or model-prepared controls. Human summaries must not replace the underlying student response.
 
-Long answers must flow across pages without clipping or losing text. Check tables, page breaks, footers, and extra blank pages by rendering representative short and long reports. Keep the PDF engine, fonts, and other required assets local so the first PDF download works offline after the app has been cached. Test failure recovery as well as successful export.
+Long answers must flow across pages without clipping or losing text. Keep each question with the start of its answer, even when a long answer continues onto later pages. Inspect the actual rendered page boundary; a character-count grouping rule alone does not prevent an orphaned question. Check tables, page breaks, footers, and extra blank pages by rendering representative short and long reports. Inspect actual glyphs for names and scientific symbols, including arrows: a character can survive in JSON while the PDF font renders a box. Use locally bundled, licensed fallback glyphs without replacing original student text, and verify their first-offline output. Keep the PDF engine, fonts, and other required assets local so the first PDF download works offline after the app has been cached. Test failure recovery as well as successful export.
 
 An optional practice activity needs an explicit reporting decision. If its evidence is assessed through a parent lab, identify how it reaches that report. If it becomes a separately assigned full lab, apply the same PDF and print requirements.
 
@@ -144,6 +146,8 @@ An optional practice activity needs an explicit reporting decision. If its evide
 **G16 — Support more than dragging.** Offer mouse and touch placement, a select-then-place alternative, and keyboard access. Use clear focus, labeled controls, targets of at least 44 CSS pixels where practical, and feedback that does not depend on color or hovering. Keep the active target and component choices reachable together on a phone. Reduced motion must retain the visible result and all required functionality.
 
 Test real interaction sequences: drag, release, then tap; wrong placement followed by correction; resize; scroll; reload; and continue. Artwork and targets must remain aligned at each stage. Avoid horizontal overflow, hidden required feedback, lost focus, and duplicate transitions from pointer and click events.
+
+Compatibility mouse events can move focus after a touch action replaces the interface, before duplicate-click suppression runs. Check the newly focused field as well as action counts. Preserve the next deliberate tap and native mouse/keyboard behavior; verify drag, release, tap, focus and continued entry in one real browser sequence. For a timed press control, capture the measurement at the intended event (such as press-down). If replacing that control would break touch release or steal focus, defer the redraw until release without moving the measurement endpoint.
 
 **G17 — Validate the learning contract with appropriate checks.** Match checks to the change. For a new or substantially redesigned interactive lab, review:
 
@@ -157,6 +161,7 @@ Test real interaction sequences: drag, release, then tap; wrong placement follow
 - PDF and native print content, named and unnamed exports, readable timestamps, and long answers.
 - First offline PDF generation after caching, plus root/development deployment isolation.
 - Mouse, touch, keyboard, reduced motion, and representative phone/tablet/desktop widths.
+- For localized releases, the G18 language-switch, translated-resource, report-fidelity, accessibility, and language-review checks. English acceptance alone does not establish translation readiness.
 
 Reuse meaningful model, browser, and deployment tests. Do not add tests that merely repeat trivial implementation details. Chromium emulation does not certify Safari/iPad or Android hardware, and automated checks do not replace teacher or student review. Record what was actually tested and keep remaining review work explicit.
 
@@ -165,3 +170,60 @@ Reuse meaningful model, browser, and deployment tests. Do not add tests that mer
 For a new lab, establish G01–G04 before building, apply the remaining criteria during implementation, and record any applicable scope decisions. For an existing lab, consult [the audit](LAB_DESIGN_AUDIT.md), address shared defects first, and use the lab-specific questions to plan its next revision.
 
 The current reference implementations are the dedicated extraction files and `genetics-*` files under `src/investigations/`. The genetics lab demonstrates spatial enzyme placement, moving targets, concise instructions, explicit correctness feedback, evidence-based reports, named exports, and inline save confirmation. It still needs the same ongoing scientific, classroom, device, and regression review as every other lab.
+
+## Patterns verified in AUD-05–07
+
+- Keep apparatus artwork, work targets, tool-tip anchors, and measurement overlays in a shared coordinate system. Match the drawing's aspect ratio at every viewport size. Check actual placement after scroll, resize, reload, and touch release.
+- Let preparation change the visible equipment or sample. Show a placed ruler, connected tube, loaded well, labeled plate, or transferred specimen when that action occurs. Keep counters and controls clear of the material being inspected.
+- Teach calibration with a known reference and an objective-specific scale. Reuse the calibration for later samples while requiring each new measurement. Identify supplied calibration in earlier work and preserve its data.
+- Place brief evidence limits beside the active process or results. Explain unfamiliar terms in the directions and prompts where students first need them. Give explicit correctness and a scientific reason after a checked response.
+- Save predictions with honest timing. Earlier measured work can add reasoning without a backdated prediction. Include verbatim explanations with the actual measurements in every completed report format.
+- Review wording and reading diagnostics independently from classroom comprehension. Record actual teacher/student and hardware validation when performed.
+
+## Resource consistency and acceptance evidence (AUD-08/09)
+
+- Read shared prompts, conditions, and model limits directly from current definitions when generating handouts. Check all downloadable legacy URLs as well as visible catalog links. Preserve historical route/save/resource IDs when displayed titles become more precise.
+- Explain where students keep completed work: generated PDF, native print, optional identity, and honest progress status. Keep physical collector sheets alongside reports when their units or observation series differ from the online entry form.
+- Render updated resources and short/long student reports, compare report content with structured responses, and inspect every changed page. Update resource hashes and rebuild offline caches after handout-only changes.
+- Record software checks, human comprehension, and physical device results separately. Keep an initial test failure and its rerun in the evidence. A passing rerun supports that check; it does not erase the earlier result or establish classroom acceptance.
+
+
+<a id="g18"></a>
+
+## Plan for app translation and translated printing
+
+**G18 — Support native app language selection and translated print/PDF output.** This is an agreed future requirement, recorded 2026-11-14. This documentation change does not implement a language selector or translated resources. Use Spanish as the first acceptance example and keep the design open to other available languages.
+
+- A student can select **Español** or another reviewed, published language in the app. Translate navigation, directions, questions, choices, hints, feedback, errors, save messages, tooltips, accessible names, diagram labels, graph labels, and report controls. Language access for a free lab must work for guests and free accounts without sign-in, an upgrade, or a trial.
+- A teacher can choose a language for worksheets, collector sheets, teaching resources, and PDF/native-print output independently of the teacher's app language. For example, a teacher using the English interface can print Spanish student materials. A completed student report must also support the selected output language for authored labels and prompts while preserving student-authored writing verbatim.
+- Switching languages during an attempt must keep the student's step, observations, measurements, seeded results, choice order, corrections, completion state, and saved work. Stable activity, question, condition, molecule, and rubric IDs must not depend on translated display text. Change the display language without creating a new attempt or implying new learning evidence.
+- Preserve scientific meaning and the intended reading level. Current labs target ninth-grade comprehension; translations need appropriate language-specific review and explanations of necessary terms. Keep scientifically meaningful sequences, symbols, units, and values intact. Translated sentences can use different grammar and length without changing what a question asks or what counts as correct.
+- Keep names, class/period entries, student responses, teacher-authored text, and recorded evidence in their original form. Teacher-owned directions/questions need their own translation/review status; a translated base lab does not automatically translate or approve a private teaching copy. Machine-assisted translations remain drafts until reviewed. Do not send student work to a translation service as an automatic side effect of changing the app language.
+- Show which languages are actually available for the site, lab, and requested resource. Give a clear notice and an explicit fallback when a translation is missing. Keep incomplete translations from being presented as a fully supported language. Language names should be recognizable in their own language; selecting a language must not change the lab's publication or access rules.
+
+Before approving a localized pathway, check a complete and partial attempt, a mid-attempt language change, reload and save recovery, mouse/touch/keyboard use, accessible labels, longer text at phone widths, and layout for each supported writing direction. Render and inspect translated blank resources and short/long completed PDF and native-print reports, including accents, scientific notation, student names, correct fonts, page breaks, and the final response. Confirm that the English teacher interface can produce a Spanish handout. Verify the supported offline pathway with the required translated content/fonts; platform offline reload limitations still apply.
+
+Record the displayed language and reviewed translation/release version with report and submission snapshots. Retain the originally displayed prompts and original student answers. A later translated copy must be labeled and must not silently rewrite the original submitted evidence. Future grading must use stable rubric/question IDs and account for the student's response language. A passing English test, a reading-level formula, or the existence of a Spanish source textbook is not language acceptance evidence. Track implementation under [AUD-10](LAB_DESIGN_AUDIT.md#aud-10).
+
+
+## Patterns checked during BIO-01 through BIO-03
+
+- Keep a wrong or unchecked current observation in PDF, print and structured reports, with an explicit unconfirmed/needs-review label. Do not turn an entered response into “Not recorded” because its correctness check failed. Keep confirmed results distinguishable from current edits.
+- After an academic edit, clear stale completion and correctness messages, and block the relevant next action until the new response is checked. Confirming an already correct response again is not evidence that an error was corrected.
+- Suppress only a drag's generated compatibility click. Reset suppression at the next physical pointerdown; keyboard clicks remain usable. A fixed post-drag timeout can ignore the student's next genuine tool choice.
+- Keep tools adjacent to the active diagram without covering the specimen, target, or measurement. Size the workbench so its active site and choices fit together at phone widths. Anchor a dragged tool's working tip, not an arbitrary icon center, at its work site.
+- Label supplied controls and reference explanations separately from student evidence. Keep completed reports focused on predictions, actual observations, explanations and meaningful feedback; the teacher guide can carry the full teaching notes.
+- Include a wrong unfinished export and edit-after-correct workflow in review, alongside draft, corrected, completed, long-answer, saved/reloaded and offline cases. Routine regressions must write temporary artifacts; an explicit active-lab capture records retained review evidence.
+
+Evidence: the BIO-01/BIO-02 follow-up artifacts and BIO-03 review under data/development-tracker/biology-reviews. These are development checks; teacher/student comprehension, physical devices, physical protocols and translated delivery remain separate.
+
+A touch follow-up in BIO-07 found that a native compatibility click can land on a replacement button after the first tap redraws the interface. Suppress that pending click by gesture, then reset at the next physical pointerdown; checking only the old DOM element is insufficient. Verify exact single increments, toggles and navigation, alongside drag-release-next-tap. Preserve existing recorded samples and observed states when applying the fix.
+
+A BIO-31 native-print follow-up found that `break-after: avoid` alone allowed a long question heading itself to split across pages. Keep response headings internally together as well, and verify actual native-print question/answer starts separately from the downloadable PDF. The retained failure and corrected normal/long reports are under `data/development-tracker/biology-reviews/evidence/population-estimates/`. This CSS regression review does not establish classroom, device or translated acceptance.
+
+A BIO-32 report follow-up found an isolated PDF table header at a page bottom. Keep the header with at least the first data row, and verify long downloadable and native reports against their own response snapshots. Retained before/after evidence is under `data/development-tracker/biology-reviews/evidence/food-web-energy/`. A supplied reference previously observed must stay distinguishable from a current edited/unconfirmed answer.
+
+A BIO-33 PDF follow-up found a section title left behind when its first long response moved to the next page. Keep the title with that response’s prompt and first answer words; allow the remaining long answer to flow. The real failure and corrected short/long downloaded/native reports are under `data/development-tracker/biology-reviews/evidence/reserve-design/`. Blank handout questions should also stay with their answer space; remove duplicated collector entries before adding pages.
+
+
+A 2026-11-15 user download check found that valid handouts on disk could still download as HTML from a local preview. Verify the actual student/teacher download URLs in standalone, public, and authorized runtime modes: require PDF content type, PDF bytes, and matching resource hashes; a missing PDF must return an error rather than a successful HTML fallback. Keep local public-resource serving separate from hosted portal packaging. Check extracted glyphs and rendered scientific notation in handouts as well as generated reports; a default system font can omit subscripts or superscripts. Record user review independently from software/development acceptance. Evidence: data/development-tracker/pdf-audits/2026-11-15/.

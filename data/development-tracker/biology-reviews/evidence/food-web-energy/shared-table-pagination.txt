@@ -1,0 +1,8 @@
+microhabitats: complete.pdf: 11 response prompts share a page with the start of their answer; 3 pages, no missing prompt.
+microhabitats: native-print.pdf: 11 response prompts share a page with the start of their answer; 3 pages, no missing prompt.
+microhabitats: long-offline.pdf: 9 response prompts share a page with the start of their answer; 6 pages, no missing prompt.
+microhabitats: long-native-print.pdf: 9 response prompts share a page with the start of their answer; 6 pages, no missing prompt.
+immune-memory: complete.pdf: 17 response prompts share a page with the start of their answer; 4 pages, no missing prompt.
+immune-memory: native-print.pdf: 17 response prompts share a page with the start of their answer; 4 pages, no missing prompt.
+immune-memory: long-offline.pdf: 16 response prompts share a page with the start of their answer; 8 pages, no missing prompt.
+immune-memory: long-native-print.pdf: 16 response prompts share a page with the start of their answer; 8 pages, no missing prompt.

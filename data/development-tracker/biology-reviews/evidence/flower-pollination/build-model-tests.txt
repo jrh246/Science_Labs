@@ -1,0 +1,14 @@
+✔ flower first plan/anatomy and loaded brush gate transfer; petal deposit does not pollinate (14.189ms)
+✔ flower required transfer checkpoint distinguishes pollination/fertilization and tip follows real model extension (0.9662ms)
+✔ flower sperm are interchangeable but each must be used once; correct counts are per nucleus (0.3732ms)
+✔ flower current fusion/anatomy/fate proposals and empty counts survive reload with downstream completion invalidated (1.3393ms)
+✔ flower four tissue origins and concept corrections retain source, independent maternal tissue and feedback (0.4894ms)
+✔ flower report keeps original writing, first plan, identity, named filename and honest completed status (0.7446ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 96.1536

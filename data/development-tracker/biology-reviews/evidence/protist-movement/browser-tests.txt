@@ -1,0 +1,30 @@
+node.exe : [WebServer] (node:51284) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([WebServer] (no... env being set.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] 
+[WebServer] (!) Some chunks are larger than 500 kB after minification. Consider:
+[WebServer] - Using dynamic import() to code-split the application
+[WebServer] - Use build.rollupOptions.output.manualChunks to improve chunking: 
+https://rollupjs.org/configuration-options/#output-manualchunks
+[WebServer] - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[WebServer] (node:34584) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 7 tests using 1 worker
+
+(node:47444) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 tests\browser\biology-browser-contract.mjs:5:2 › protist-movement: complete corrected attempt, truthful saves, named PDF/JSON/native print and edits (4.8s)
+  ok 2 tests\browser\biology-browser-contract.mjs:6:2 › protist-movement: denied storage/retry, Unicode long writing and first offline PDF/native print (2.7s)
+  ok 3 tests\browser\biology-browser-contract.mjs:7:2 › protist-movement: unfinished neutral PDF and export failure recovery (873ms)
+  ok 4 tests\browser\biology-browser-contract.mjs:8:2 › protist-movement: root/development progress isolation and first offline development PDF (1.5s)
+  ok 5 tests\browser\protist.spec.js:10:1 › protist keyboard slide, moving tag target after resize/replay, mouse tag drag and current edits (1.4s)
+  ok 6 tests\browser\protist.spec.js:11:1 › protist native touch exact phase taps, observation tag and food drag-release-next-tap on phone (2.4s)
+  ok 7 tests\browser\protist.spec.js:12:1 › protist complete evidence replay preserves completion but changed feeding inference clears it (2.2s)
+
+  7 passed (22.2s)

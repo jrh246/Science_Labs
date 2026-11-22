@@ -1,0 +1,497 @@
+{
+  "schemaVersion": 2,
+  "labId": "viral-spread",
+  "title": "Modeling Viral Spread",
+  "question": "How do host cells and contact paths affect the spread of a virus?",
+  "student": {
+    "name": "Zoë García",
+    "class": "Period 5"
+  },
+  "status": "Complete",
+  "grading": "not_graded",
+  "exportedAt": "2026-11-15T11:19:27.674Z",
+  "exportTimeZone": "America/Los_Angeles",
+  "exportedAtDisplay": "Nov 15, 2026, 3:19 AM PST",
+  "sections": [
+    {
+      "heading": "Prediction and controlled comparison",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Required before observing spread: Which labeled contact would you close, and why? Predict how closing it might change the number of infectious people by round 3.",
+          "text": "Closing CD may separate the two clusters and reduce the count by round 3."
+        },
+        {
+          "type": "response",
+          "prompt": "Required before observing spread: What should stay the same in the open-network and one-closed-contact comparisons? How could another path reduce the effect of your chosen closure?",
+          "text": "Keep A, six people, contact pattern and round rules the same except one link."
+        },
+        {
+          "type": "paragraph",
+          "text": "Prediction timing: Before cell-copying or network-spread observations."
+        },
+        {
+          "type": "paragraph",
+          "text": "Closed contact: CD. Choice timing: Chosen before either network run."
+        },
+        {
+          "type": "paragraph",
+          "text": "Both networks have the same six people and contacts. A starts infectious: able to pass the virus on. Everyone else starts susceptible: able to become infected. The same three-round rule applies to both. Choose one contact to close before either run; only that link changes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Provided possible contacts: A–B, A–C, B–C, C–D, D–E, D–F, E–F."
+        }
+      ]
+    },
+    {
+      "heading": "Host-cell model evidence",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Student attached a particle at a host-cell receptor, then observed model-provided entry/copying/assembly/release."
+        },
+        {
+          "type": "paragraph",
+          "text": "This is an illustrated host-dependent process, not a measured particle yield. Written reasoning below provides evidence of the student’s explanation."
+        }
+      ]
+    },
+    {
+      "heading": "Observed network frames",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Source: deterministic teaching model. New infections use only the prior-round infectious set. Rounds on the same network are related time points."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Network",
+            "Round",
+            "Infectious IDs",
+            "New IDs / source contacts"
+          ],
+          "rows": [
+            [
+              "Open control",
+              0,
+              "A",
+              "A / Initial state or no new transmission"
+            ],
+            [
+              "Open control",
+              1,
+              "A, B, C",
+              "B, C / AB, AC"
+            ],
+            [
+              "Open control",
+              2,
+              "A, B, C, D",
+              "D / CD"
+            ],
+            [
+              "Open control",
+              3,
+              "A, B, C, D, E, F",
+              "E, F / DE, DF"
+            ],
+            [
+              "One closed contact",
+              0,
+              "A",
+              "A / Initial state or no new transmission"
+            ],
+            [
+              "One closed contact",
+              1,
+              "A, B, C",
+              "B, C / AB, AC"
+            ],
+            [
+              "One closed contact",
+              2,
+              "A, B, C",
+              "None / Initial state or no new transmission"
+            ],
+            [
+              "One closed contact",
+              3,
+              "A, B, C",
+              "None / Initial state or no new transmission"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Model-provided remaining rounds: open: 2; closed: 2."
+        }
+      ]
+    },
+    {
+      "heading": "Student comparison by round 3",
+      "blocks": [
+        {
+          "type": "table",
+          "columns": [
+            "Interpretation",
+            "Student entry",
+            "Status"
+          ],
+          "rows": [
+            [
+              "Open infectious count",
+              6,
+              "Correct after feedback"
+            ],
+            [
+              "Closed-contact infectious count",
+              3,
+              "Correct after feedback"
+            ],
+            [
+              "Fewer infectious people by round 3",
+              3,
+              "Correct after feedback"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A count difference by round 3 is not proof that infections were permanently prevented."
+        }
+      ]
+    },
+    {
+      "heading": "Evidence by learning goal",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Connect new virus particles with processes inside a suitable host cell."
+        },
+        {
+          "type": "response",
+          "prompt": "What did the host cell and viral instructions contribute to the new particles? Why is placing a virus particle on a table not enough for it to make copies?",
+          "text": "My host explanation connects host-cell processes and prior-round contacts. CD links the clusters, so this model has 6 versus 3 infectious IDs at round 3. Certain transmission, fixed links and the short window limit real-world claims."
+        },
+        {
+          "type": "paragraph",
+          "text": "Trace how contact paths connect infections across time."
+        },
+        {
+          "type": "response",
+          "prompt": "Trace the path from A to D in the open network. Use the round-by-round observations to explain why D cannot pass the virus on in the same round it first becomes infected.",
+          "text": "My paths explanation connects host-cell processes and prior-round contacts. CD links the clusters, so this model has 6 versus 3 infectious IDs at round 3. Certain transmission, fixed links and the short window limit real-world claims."
+        },
+        {
+          "type": "paragraph",
+          "text": "Interpret a controlled network change and explain limits of the result."
+        },
+        {
+          "type": "response",
+          "prompt": "Compare your two round-3 counts and their difference with your prediction. Explain how the closed contact and any other paths affected this result, including a possible zero difference. Why does this model not establish permanent prevention or real-world effectiveness?",
+          "text": "My comparison explanation connects host-cell processes and prior-round contacts. CD links the clusters, so this model has 6 versus 3 infectious IDs at round 3. Certain transmission, fixed links and the short window limit real-world claims."
+        }
+      ]
+    },
+    {
+      "heading": "Concept checks",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Where can this model virus make new particles?",
+          "text": "Inside a suitable living host cell, using cellular processes and viral instructions.\nCorrect! Viruses do not have their own ribosomes. They use host-cell processes, and viral instructions and enzymes help produce new viral parts. Revised after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "Which contact first allowed infection to reach D in the open network?",
+          "text": "C–D\nCorrect! At round 1, A can infect B and C. In the next round, C connects to D. Only people infectious before a round can transmit during it. Correct on first recorded check."
+        },
+        {
+          "type": "response",
+          "prompt": "Does a contact always cause infection in real life?",
+          "text": "No. Certain transmission is a simplifying rule of this model.\nCorrect! The model makes transmission certain to isolate contact paths. Real outcomes depend on the virus, exposure and host, among other factors. Correct on first recorded check."
+        }
+      ]
+    },
+    {
+      "heading": "Model limits and sources",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The cell view represents one simplified enveloped RNA virus, not every kind of virus. In this example, new particles gain envelopes while budding through the cell membrane. Entry, copying, assembly and release are shortened; cell and virus sizes are not to scale. Viral enzymes copy RNA, and host ribosomes make viral proteins. The network is an invented six-person model, not health data or a disease forecast. Every modeled infectious contact succeeds; real exposure does not always cause infection. A newly infected person can transmit only in the following round. Nobody recovers or gains immunity during these three rounds. Contacts stay fixed, and closing a link represents avoiding that contact rather than testing a product or treatment. A smaller count by round 3 does not prove permanent prevention. One network comparison cannot estimate real-world effectiveness."
+        },
+        {
+          "type": "paragraph",
+          "text": "OpenStax Biology 2e: Virus Infections and Hosts: https://openstax.org/books/biology-2e/pages/21-2-virus-infections-and-hosts"
+        },
+        {
+          "type": "paragraph",
+          "text": "CDC Principles of Epidemiology: Chain of Infection (archived teaching reference): https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson1/section10.html"
+        }
+      ],
+      "keepFirst": 3
+    }
+  ],
+  "activityVersion": 1,
+  "locale": "en",
+  "attemptId": "viral-3740202800-1794741565232",
+  "data": {
+    "schemaVersion": 1,
+    "activityVersion": 1,
+    "labId": "viral-spread",
+    "attemptId": "viral-3740202800-1794741565232",
+    "seed": 3740202800,
+    "locale": "en",
+    "stage": 3,
+    "studentName": "Zoë García",
+    "studentClass": "Period 5",
+    "prediction": "Closing CD may separate the two clusters and reduce the count by round 3.",
+    "design": "Keep A, six people, contact pattern and round rules the same except one link.",
+    "initialPlan": {
+      "prediction": "Closing CD may separate the two clusters and reduce the count by round 3.",
+      "design": "Keep A, six people, contact pattern and round rules the same except one link.",
+      "timing": "Before cell-copying or network-spread observations",
+      "recordedAt": "2026-11-15T11:19:25.344Z"
+    },
+    "cell": {
+      "attached": true,
+      "copied": true
+    },
+    "closedContact": "CD",
+    "closureTiming": "Chosen before either network run",
+    "networkStarted": true,
+    "active": "closed",
+    "runs": {
+      "open": {
+        "frames": [
+          {
+            "infectious": [
+              "A"
+            ],
+            "newly": [
+              "A"
+            ],
+            "transmissions": []
+          },
+          {
+            "infectious": [
+              "A",
+              "B",
+              "C"
+            ],
+            "newly": [
+              "B",
+              "C"
+            ],
+            "transmissions": [
+              {
+                "from": "A",
+                "to": "B",
+                "contact": "AB"
+              },
+              {
+                "from": "A",
+                "to": "C",
+                "contact": "AC"
+              }
+            ]
+          },
+          {
+            "infectious": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ],
+            "newly": [
+              "D"
+            ],
+            "transmissions": [
+              {
+                "from": "C",
+                "to": "D",
+                "contact": "CD"
+              }
+            ]
+          },
+          {
+            "infectious": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F"
+            ],
+            "newly": [
+              "E",
+              "F"
+            ],
+            "transmissions": [
+              {
+                "from": "D",
+                "to": "E",
+                "contact": "DE"
+              },
+              {
+                "from": "D",
+                "to": "F",
+                "contact": "DF"
+              }
+            ]
+          }
+        ],
+        "automaticRounds": 2
+      },
+      "closed": {
+        "frames": [
+          {
+            "infectious": [
+              "A"
+            ],
+            "newly": [
+              "A"
+            ],
+            "transmissions": []
+          },
+          {
+            "infectious": [
+              "A",
+              "B",
+              "C"
+            ],
+            "newly": [
+              "B",
+              "C"
+            ],
+            "transmissions": [
+              {
+                "from": "A",
+                "to": "B",
+                "contact": "AB"
+              },
+              {
+                "from": "A",
+                "to": "C",
+                "contact": "AC"
+              }
+            ]
+          },
+          {
+            "infectious": [
+              "A",
+              "B",
+              "C"
+            ],
+            "newly": [],
+            "transmissions": []
+          },
+          {
+            "infectious": [
+              "A",
+              "B",
+              "C"
+            ],
+            "newly": [],
+            "transmissions": []
+          }
+        ],
+        "automaticRounds": 2
+      }
+    },
+    "entries": {
+      "open": "6",
+      "closed": "3",
+      "difference": "3"
+    },
+    "record": {
+      "open": 6,
+      "closed": 3,
+      "difference": 3,
+      "sourceId": "student-interpreted-model-frames",
+      "correctAfterFeedback": true
+    },
+    "attempts": [
+      {
+        "entries": {
+          "open": "99",
+          "closed": "88",
+          "difference": "77"
+        },
+        "correct": false
+      },
+      {
+        "entries": {
+          "open": "6",
+          "closed": "3",
+          "difference": "3"
+        },
+        "correct": true
+      }
+    ],
+    "checks": {
+      "replication": {
+        "attempts": [
+          {
+            "value": "table",
+            "correct": false
+          },
+          {
+            "value": "host",
+            "correct": true
+          }
+        ],
+        "value": "host",
+        "correct": true
+      },
+      "bridge": {
+        "attempts": [
+          {
+            "value": "CD",
+            "correct": true
+          }
+        ],
+        "value": "CD",
+        "correct": true
+      },
+      "exposure": {
+        "attempts": [
+          {
+            "value": "limited",
+            "correct": true
+          }
+        ],
+        "value": "limited",
+        "correct": true
+      }
+    },
+    "answers": {
+      "host": "My host explanation connects host-cell processes and prior-round contacts. CD links the clusters, so this model has 6 versus 3 infectious IDs at round 3. Certain transmission, fixed links and the short window limit real-world claims.",
+      "paths": "My paths explanation connects host-cell processes and prior-round contacts. CD links the clusters, so this model has 6 versus 3 infectious IDs at round 3. Certain transmission, fixed links and the short window limit real-world claims.",
+      "comparison": "My comparison explanation connects host-cell processes and prior-round contacts. CD links the clusters, so this model has 6 versus 3 infectious IDs at round 3. Certain transmission, fixed links and the short window limit real-world claims."
+    },
+    "complete": true
+  },
+  "evidence": [
+    {
+      "goalId": "host",
+      "answerId": "host",
+      "writing": "My host explanation connects host-cell processes and prior-round contacts. CD links the clusters, so this model has 6 versus 3 infectious IDs at round 3. Certain transmission, fixed links and the short window limit real-world claims.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "paths",
+      "answerId": "paths",
+      "writing": "My paths explanation connects host-cell processes and prior-round contacts. CD links the clusters, so this model has 6 versus 3 infectious IDs at round 3. Certain transmission, fixed links and the short window limit real-world claims.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "comparison",
+      "answerId": "comparison",
+      "writing": "My comparison explanation connects host-cell processes and prior-round contacts. CD links the clusters, so this model has 6 versus 3 infectious IDs at round 3. Certain transmission, fixed links and the short window limit real-world claims.",
+      "status": "not_graded"
+    }
+  ]
+}

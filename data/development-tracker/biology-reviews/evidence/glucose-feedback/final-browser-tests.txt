@@ -1,0 +1,29 @@
+node.exe : [WebServer] (node:20108) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([WebServer] (no... env being set.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] 
+[WebServer] (!) Some chunks are larger than 500 kB after minification. Consider:
+[WebServer] - Using dynamic import() to code-split the application
+[WebServer] - Use build.rollupOptions.output.manualChunks to improve chunking: 
+https://rollupjs.org/configuration-options/#output-manualchunks
+[WebServer] - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[WebServer] (node:43044) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 6 tests using 1 worker
+
+(node:33236) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 tests\browser\biology-browser-contract.mjs:5:2 › glucose-feedback: complete corrected attempt, truthful saves, named PDF/JSON/native print and edits (4.3s)
+  ok 2 tests\browser\biology-browser-contract.mjs:6:2 › glucose-feedback: denied storage/retry, Unicode long writing and first offline PDF/native print (2.2s)
+  ok 3 tests\browser\biology-browser-contract.mjs:7:2 › glucose-feedback: unfinished neutral PDF and export failure recovery (1.0s)
+  ok 4 tests\browser\biology-browser-contract.mjs:8:2 › glucose-feedback: root/development progress isolation and first offline development PDF (1.9s)
+  ok 5 tests\browser\glucose.spec.js:7:1 › glucose current interpretation edit immediately gates continuation, survives reload, and preserves source traces (1.9s)
+  ok 6 tests\browser\glucose.spec.js:8:1 › glucose native source drag-release-next tap, keyboard placement, phone/tablet geometry and resized mouse route (1.7s)
+
+  6 passed (19.2s)

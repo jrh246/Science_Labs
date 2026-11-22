@@ -1,0 +1,11 @@
+{
+  "recordedAt": "2026-11-15T11:28:23.221Z",
+  "scope": "Shared touch-only follow-up for BIO-01 through BIO-06. Scientific models and saved observed samples were not reset. Original acceptance snapshots remain retained.",
+  "files": {
+    "src/investigations/touch-buttons.js": "6e855edcc9c86519d7a3e87011c8cafda1ce4ccacb4b12b27203ab0e2f8a1263",
+    "tests/browser/touch-once.spec.js": "0d648e926c2ebb98a646bb3c77c68b77b491260f202e2014e9ebe79d9213414e",
+    "tests/browser/viral.spec.js": "86fe0a5deb124117fcd95921710c484272b7d2fcb50a8ab55ea8315e85bd12f8",
+    "LAB_DESIGN_GUIDE.md": "809fcb37de641bd5a14cd67e873ed77d43a720346acc9c0a41f1bffc1289a37d"
+  },
+  "sourceSnapshot": "sha256:615ccee6e5fe3033f3dba30fc3914477c955e54bf3a2271d32febc0b2a768c60"
+}

@@ -1,0 +1,21 @@
+{
+  "capturedAt": "2026-11-15T20:45:44.420Z",
+  "scope": "Actual reviewed working-tree files; unrelated changes and previous student attempts preserved.",
+  "files": {
+    "src/investigations/immune-content.js": "5ecee81140fd2f69fca03891734ae07b39d3cf9554d001ffed71619c21de2e6b",
+    "src/investigations/immune-model.js": "c17e0adfb9447c10d8dc16b70724f2e26ac10b1c60ebdb054e99b64df7fb6d17",
+    "src/investigations/immune-art.js": "824cf6ee025cd923f288a34c77e2981f3279a37945dc43d6c167db8cb18447f6",
+    "src/investigations/immune-report.js": "0b63d86a63f34a0f1ac9934f071c45e3e0a0057ff99787899fc0de36dcbdb6c6",
+    "src/investigations/immune-app.js": "081b4de3f47288f8d3d295d071323b2584d68c2d1aa2866fa1b106f9309a9822",
+    "src/investigations/immune.css": "a547413ae50e47606f428ce7180247ceedc5e8f9ab2c5e063c8b22917b747d64",
+    "tests/immune.test.js": "857ce2f766554aad4372610814ef124057574c7de4aa6abbb2d2eeb70411a96c",
+    "tests/browser/immune.spec.js": "f17ee86d5e7ce856db590b3d1cd3fa69ebeb0ca0de05c2f4a332a6e77c08288d",
+    "src/investigations/guided-lab-shell.js": "7718d1ab83d65ac8551b25323338c5c2bb4c73afc988331f3c29b767a9abc55f",
+    "src/investigations/student-report.js": "5cdec89cf015cada33fbf14585705605f2a33f90d84aa0ebb248ab6c0d0d5ca0",
+    "src/catalog.js": "baf4df61b0779ae6af717cb30e5a8d3bb13113d0d6ef5bfef3eb3907db10fbd4",
+    "src/investigations/app.js": "72d078e5c7d91468267fc8e577e54d517e7f8574049534ad51bc10760783e60c",
+    "scripts/verify-resources.py": "b859bced7eb97c4886a97c18adc93be2ba844af0595f9f3347004ee521556ad4",
+    "public/resources/immune-memory-worksheet.pdf": "9f4fe3063e85d1def98c109a3664906bcdd5564c4610ae6814c2f7aad3eb7d64",
+    "public/resources/immune-memory-teacher-guide.pdf": "c4ee54c80aebcd470110ba419e8b0f8e668341055973d8c281b0efef6e40bab2"
+  }
+}

@@ -1,0 +1,33 @@
+
+node.exe : [WebServer] (node:29408) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([WebServer] (no... env being set.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] 
+[WebServer] (!) Some chunks are larger than 500 kB after minification. Consider:
+[WebServer] - Using dynamic import() to code-split the application
+[WebServer] - Use build.rollupOptions.output.manualChunks to improve chunking: 
+https://rollupjs.org/configuration-options/#output-manualchunks
+[WebServer] - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+[WebServer] (node:51920) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+
+Running 6 tests using 1 worker
+
+
+
+(node:50820) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[1/6] tests\browser\selection.spec.js:10:1 › selection full comparison, real corrections, saved completion, named PDF/JSON/native print and academic edits
+[2/6] tests\browser\selection.spec.js:11:1 › selection actual mouse placement and keyboard correction after resize, plus stale feedback gate
+[3/6] tests\browser\selection.spec.js:12:1 › selection native touch drag release then tap, phone targets, reduced motion and partial reload
+[4/6] tests\browser\selection.spec.js:13:1 › selection denied save/retry, long Unicode answer, first PDF offline and native print final text
+[5/6] tests\browser\selection.spec.js:14:1 › selection neutral draft and PDF failure recovery leave printing available
+[6/6] tests\browser\selection.spec.js:15:1 › selection root/development keys and caches, first offline development PDF
+  6 passed (18.0s)

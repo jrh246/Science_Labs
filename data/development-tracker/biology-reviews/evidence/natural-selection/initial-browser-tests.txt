@@ -1,0 +1,73 @@
+node.exe : [WebServer] (node:48156) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([WebServer] (no... env being set.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+
+[WebServer] 
+[WebServer] (!) Some chunks are larger than 500 kB after minification. Consider:
+[WebServer] - Using dynamic import() to code-split the application
+[WebServer] - Use build.rollupOptions.output.manualChunks to improve chunking: 
+https://rollupjs.org/configuration-options/#output-manualchunks
+[WebServer] - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[WebServer] (node:54744) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+
+Running 12 tests using 1 worker
+
+(node:48528) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+
+[1/12] tests\browser\library.spec.js:3:1 › navigate from landing through units to the working lab and back
+[2/12] tests\browser\library.spec.js:17:1 › search, shareable results, planned details, empty results, and unknown routes
+[3/12] tests\browser\library.spec.js:30:1 › catalog and lab stay separate after offline navigation
+[4/12] tests\browser\library.spec.js:37:35 › library layout at 390px
+[5/12] tests\browser\library.spec.js:37:35 › library layout at 768px
+[6/12] tests\browser\library.spec.js:37:35 › library layout at 1440px
+[7/12] tests\browser\selection.spec.js:10:1 › selection full comparison, real corrections, saved completion, named PDF/JSON/native print and academic edits
+  1) tests\browser\selection.spec.js:10:1 › selection full comparison, real corrections, saved completion, named PDF/JSON/native print and academic edits 
+
+    Error: expect(locator).toHaveText(expected) failed
+
+    Locator:  locator('[data-selection-action="complete"]')
+    Expected: "Work saved as complete"
+    Received: ""
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveText" locator('[data-selection-action="complete"]') with timeout 5000ms
+      - waiting for locator('[data-selection-action="complete"]')
+        14 × locator resolved to <button type="button" class="seed-primary" data-selection-action="complete"></button>
+           - unexpected value ""
+
+
+       8 | async function explain(page){await page.locator('[data-question="individual"][data-value="need"]').click();await expect(page.locator('.seed-message')).toContainText('Try again');await page.locator('[data-question="individual"][data-value="parents"]').click();await page.locator('[data-question="survival"][data-value="inherit"]').click();for(const id of ['environment','inheritance','inference'])await page.locator(`[data-answer="${id}"]`).fill(`My ${id} evidence compares 42% and 75% deep beaks with the initial 50%. Existing inherited traits affect feeding and surviving parents. Fixed survival and simple inheritance limit claims about wild birds.`);}
+       9 | async function full(page){await plan(page);await feeding(page);for(const id of ['soft','hard'])await branch(page,id);await explain(page);}
+    > 10 | test('selection full comparison, real corrections, saved completion, named PDF/JSON/native print and academic edits',async({page})=>{const errors=[];page.on('pageerror',e=>errors.push(e.message));await fs.mkdir(out,{recursive:true});await plan(page);await page.screenshot({path:out+'/feeding-initial.png',fullPage:true});for(const seed of ['soft','hard'])for(const beak of ['small','deep'])await use(page,seed,beak);await page.screenshot({path:out+'/feeding-complete.png',fullPage:true});await page.locator('[data-selection-action="habitats"]').click();for(const id of ['soft','hard'])await branch(page,id,{capture:true,wrong:id==='soft'});await explain(page);await page.getByLabel('Name (optional)',{exact:true}).fill('Zoë García');await page.getByLabel('Class / period (optional)',{exact:true}).fill('Period 5');await page.locator('[data-selection-action="complete"]').click();await expect(page.locator('#lab-complete-feedback')).toContainText('Saved just now');await page.locator('[data-selection-action="complete"]').click();await page.reload();await expect(page.locator('#lab-complete-feedback')).toContainText('Saved');const d=await pdf(page,'complete.pdf');expect(d.suggestedFilename()).toBe('natural-selection-Zoë-García-lab-report.pdf');const wait=page.waitForEvent('download');await page.locator('[data-report-action="json"]').click();await(await wait).saveAs(out+'/complete-responses.json');await page.evaluate(()=>window.print=()=>window.dispatchEvent(new Event('beforeprint')));await page.locator('[data-report-action="print"]').click();await page.emulateMedia({media:'print'});await expect(page.locator('#app')).toBeHidden();await expect(page.locator('#student-report-print')).toContainText('Correct after feedback');await page.pdf({path:out+'/native-print.pdf',format:'Letter',printBackground:true});await page.evaluate(()=>window.dispatchEvent(new Event('afterprint')));await page.emulateMedia({media:'screen'});await page.setViewportSize({width:390,height:844});expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);await page.screenshot({path:out+'/phone-explain.png',fullPage:true});await page.getByLabel('Name (optional)',{exact:true}).fill('Another name');await expect(page.locator('[data-selection-action="complete"]')).toHaveText('Work saved as complete');await page.locator('[data-answer="inference"]').fill('Edited explanation');await expect(page.locator('[data-selection-action="complete"]')).toHaveText('Save completed work');expect(errors).toEqual([]);});
+         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ^
+      11 | test('selection actual mouse placement and keyboard correction after resize, plus stale feedback gate',async({page})=>{await plan(page);async function drag(tool,site){await page.locator('.selection-workbench').evaluate(el=>el.scrollIntoView({block:'center'}));const a=await page.locator(`[data-tool="${tool}"]`).boundingBox(),b=await page.locator(`[data-place="${site}"]`).boundingBox();await page.mouse.move(a.x+a.width/2,a.y+a.height/2);await page.mouse.down();await page.mouse.move(b.x+b.width/2,b.y+b.height/2,{steps:12});await page.mouse.up();}await drag('soft','small');await page.setViewportSize({width:768,height:1024});await page.locator('[data-tool="hard"]').click();await expect(page.locator('[data-tool="hard"]')).toHaveAttribute('aria-pressed','true');await drag('hard','deep');await use(page,'soft','deep');await page.locator('[data-tool="hard"]').focus();await page.keyboard.press('Enter');await page.locator('[data-place="small"]').focus();await page.keyboard.press('Enter');await page.locator('[data-selection-action="habitats"]').click();await page.locator('[data-selection-action="season"]').click();await drag('pair-deep','nest');await page.screenshot({path:out+'/tablet-parents.png',fullPage:true});await page.locator('[data-selection-action="offspring"]').click();await page.locator('[data-entry="entered"]').fill('42');await page.locator('[data-entry="claim"]').selectOption('decrease');await page.locator('[data-selection-action="record"]').click();await expect(page.locator('.selection-feedback')).toContainText('Correct!');await page.locator('[data-entry="entered"]').fill('41');await expect(page.locator('.selection-feedback')).not.toContainText('Correct!');await expect(page.locator('.seed-message')).not.toContainText('Correct!');await expect(page.locator('[data-selection-action="next"]')).toBeDisabled();await page.reload();await expect(page.locator('[data-entry="entered"]')).toHaveValue('41');await expect(page.locator('[data-selection-action="next"]')).toBeDisabled();});
+      12 | test('selection native touch drag release then tap, phone targets, reduced motion and partial reload',async({browser})=>{const context=await browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true,reducedMotion:'reduce'}),page=await context.newPage();await plan(page);await page.locator('.selection-workbench').evaluate(el=>el.scrollIntoView({block:'center'}));const a=await page.locator('[data-tool="soft"]').boundingBox(),b=await page.locator('[data-place="small"]').boundingBox(),client=await context.newCDPSession(page);await client.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x:a.x+a.width/2,y:a.y+a.height/2}]});for(let i=1;i<=8;i++)await client.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x:a.x+a.width/2+(b.x+b.width/2-a.x-a.width/2)*i/8,y:a.y+a.height/2+(b.y+b.height/2-a.y-a.height/2)*i/8}]});await client.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});await page.locator('[data-tool="hard"]').tap();await page.locator('[data-place="deep"]').tap();await page.reload();await expect(page.locator('table')).toContainText('Not observed');await use(page,'soft','deep');await use(page,'hard','small');await expect(page.locator('[data-selection-action="habitats"]')).toBeEnabled();expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);await page.screenshot({path:out+'/phone-feeding.png',fullPage:true});await context.close();});
+      13 | test('selection denied save/retry, long Unicode answer, first PDF offline and native print final text',async({page,context})=>{await full(page);await page.evaluate(()=>{window.originalSet=Storage.prototype.setItem;Storage.prototype.setItem=()=>{throw Error('Denied');};});await page.locator('[data-selection-action="complete"]').click();await expect(page.locator('#lab-complete-feedback')).toContainText('could not be saved');await page.evaluate(()=>Storage.prototype.setItem=window.originalSet);await page.locator('[data-selection-action="complete"]').click();await expect(page.locator('#lab-complete-feedback')).toContainText('Saved');await page.locator('[data-answer="inference"]').fill('Evidence α β, Zoë and español.\n\n'.repeat(100)+'FINAL LONG ANSWER');await page.waitForFunction(()=>navigator.serviceWorker.controller!==null);await context.setOffline(true);await page.reload();await pdf(page,'long-offline.pdf');await page.evaluate(()=>window.dispatchEvent(new Event('beforeprint')));await page.emulateMedia({media:'print'});await expect(page.locator('#student-report-print')).toContainText('FINAL LONG ANSWER');await page.pdf({path:out+'/long-native-print.pdf',format:'Letter',printBackground:true});});
+        at C:\Projects\Science_Labs\tests\browser\selection.spec.js:10:2282
+
+    Error Context: test-results\selection-selection-full-c-6dd29-ve-print-and-academic-edits\error-context.md
+
+
+
+
+(node:50316) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[8/12] tests\browser\selection.spec.js:11:1 › selection actual mouse placement and keyboard correction after resize, plus stale feedback gate
+[9/12] tests\browser\selection.spec.js:12:1 › selection native touch drag release then tap, phone targets, reduced motion and partial reload
+[10/12] tests\browser\selection.spec.js:13:1 › selection denied save/retry, long Unicode answer, first PDF offline and native print final text
+[11/12] tests\browser\selection.spec.js:14:1 › selection neutral draft and PDF failure recovery leave printing available
+[12/12] tests\browser\selection.spec.js:15:1 › selection root/development keys and caches, first offline development PDF
+  1 failed
+    tests\browser\selection.spec.js:10:1 › selection full comparison, real corrections, saved completion, named PDF/JSON/native print and academic edits 
+  11 passed (28.7s)

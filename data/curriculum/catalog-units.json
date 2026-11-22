@@ -1,0 +1,74 @@
+[
+  {
+    "id": "chemistry-of-life",
+    "title": "The Chemistry of Life",
+    "description": "Explore the molecules and interactions that make life possible.",
+    "start": 1,
+    "end": 3,
+    "number": 1,
+    "subjectId": "biology"
+  },
+  {
+    "id": "the-cell",
+    "title": "The Cell",
+    "description": "Investigate the structures, energy, and processes inside living cells.",
+    "start": 4,
+    "end": 10,
+    "number": 2,
+    "subjectId": "biology"
+  },
+  {
+    "id": "genetics",
+    "title": "Genetics",
+    "description": "Follow information from DNA to traits and explore how it is inherited.",
+    "start": 11,
+    "end": 17,
+    "number": 3,
+    "subjectId": "biology"
+  },
+  {
+    "id": "evolution",
+    "title": "Evolutionary Processes",
+    "description": "Use evidence to investigate how populations change over time.",
+    "start": 18,
+    "end": 20,
+    "number": 4,
+    "subjectId": "biology"
+  },
+  {
+    "id": "biological-diversity",
+    "title": "Biological Diversity",
+    "description": "Explore the remarkable variety of life and its shared patterns.",
+    "start": 21,
+    "end": 29,
+    "number": 5,
+    "subjectId": "biology"
+  },
+  {
+    "id": "plant-structure-function",
+    "title": "Plant Structure and Function",
+    "description": "Discover how plants grow, transport materials, and reproduce.",
+    "start": 30,
+    "end": 32,
+    "number": 6,
+    "subjectId": "biology"
+  },
+  {
+    "id": "animal-structure-function",
+    "title": "Animal Structure and Function",
+    "description": "Connect animal structures with the systems that sustain life.",
+    "start": 33,
+    "end": 43,
+    "number": 7,
+    "subjectId": "biology"
+  },
+  {
+    "id": "ecology",
+    "title": "Ecology",
+    "description": "Investigate populations, ecosystems, and biodiversity.",
+    "start": 44,
+    "end": 47,
+    "number": 8,
+    "subjectId": "biology"
+  }
+]

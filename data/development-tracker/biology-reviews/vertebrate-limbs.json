@@ -1,0 +1,316 @@
+{
+  "schemaVersion": 1,
+  "labId": "vertebrate-limbs",
+  "taskId": "BIO-15-REVIEW",
+  "reviewedBy": "Codex - separate development review",
+  "reviewedOn": "2026-11-15",
+  "sourceSnapshot": "sha256:a5f1bf2dc4d43b8a6b388a218953265c30cd512cee68f181a3d1dc2e6e047f65",
+  "checks": {
+    "G01": {
+      "status": "pass",
+      "notes": "Three goals link positional homology, normalized diagram measurement/ratio and limited form/function inference to original explanations and retained interpretations.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/build-brief.md",
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/complete-responses.json"
+      ]
+    },
+    "G02": {
+      "status": "pass",
+      "notes": "One human/bat/dolphin drawing adds a distinct structural contrast; one defined measurement per different drawing, no default triple trials or invented biological samples. Supplied common humerus reference controls drawing-scale comparison.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/build-brief.md",
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/review-notes.md"
+      ]
+    },
+    "G03": {
+      "status": "pass",
+      "notes": "Read UMN comparative anatomy, Michigan bat anatomy, Cooper2017 abstract/introduction and actual Figure1. Reduced/fused bat ulna, metacarpal/phalanges, dolphin hyperphalangy and steering rather than main flipper thrust checked. Constructed ratios never represented as empirical values.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/model-tests.txt"
+      ]
+    },
+    "G04": {
+      "status": "pass",
+      "notes": "Original simplified/rescaled drawings, constructed spans80/270/180, supplied100 reference, selected straightened ray pose, false anatomical assembly, omitted details and performance/fitness/ancestry limits stated near measurements and in reports.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/review-notes.md"
+      ]
+    },
+    "G05": {
+      "status": "pass",
+      "notes": "Students place anatomical labels on directed callouts, place a caliper at A, move its real jaw geometry to B, calculate ratios and assign selected uses. Navigation alone cannot complete goals.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/human-measured.png",
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/bat-measured.png",
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/dolphin-measured.png"
+      ]
+    },
+    "G06": {
+      "status": "pass",
+      "notes": "Original connected bone/ray models and membrane/flipper/open-hand outlines inspected initial/tagged/caliper/recorded states. Leader lines point to intended regions; phone callouts do not overlap, working jaw follows input/markers and humerus reference geometry.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/human-initial.png",
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/human-tagged.png",
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/bat-tagged.png",
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/dolphin-tagged.png",
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/bat-caliper.png",
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/phone-measurement.png",
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/tablet-callouts.png"
+      ]
+    },
+    "G07": {
+      "status": "pass",
+      "notes": "Stable choices and model identities; anatomy and normalization remain fixed. Required region order reflects biology; choice-bank order is seeded. No performance/fitness ranking forced from diagram values.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/complete-responses.json"
+      ]
+    },
+    "G08": {
+      "status": "pass",
+      "notes": "Full authored pathway/report/handouts reviewed. Homology, named bone regions, digit ray/metacarpal/phalanges, ratio and fitness explained. Flat-view wording replaces unexplained projected-span terminology. Diagnostic grade7.5/11.2 words per sentence only.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/reading-screen.json",
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/review-notes.md"
+      ]
+    },
+    "G09": {
+      "status": "pass",
+      "notes": "First prediction/plan before annotations; all current region checks gate calipers; confirmed spans gate ratio checks; all ratios gate use comparison; current use mapping gates concept checks and completion.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/final-browser-tests.txt"
+      ]
+    },
+    "G10": {
+      "status": "pass",
+      "notes": "Explicit Correct!/Try again with anatomy/alignment/division feedback. Wrong region/use tags, raw jaw positions and wrong/empty ratios persist unconfirmed. Reopening readings requires rechecking ratio.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/bone-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/ratio-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/function-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/edited-unconfirmed.pdf"
+      ]
+    },
+    "G11": {
+      "status": "pass",
+      "notes": "Actual successful/repeated save, denied-write retry, reload and identity versus academic edits verified with truthful device-local wording.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/final-browser-tests.txt"
+      ]
+    },
+    "G12": {
+      "status": "pass",
+      "notes": "Root-scoped versioned attempts preserve first plan, annotations, raw jaw, current ratio, wrong attempts, prior readings and original answers. View-only review preserves completion; edits invalidate dependent current evidence.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/tag-edited-unconfirmed.pdf"
+      ]
+    },
+    "G13": {
+      "status": "pass",
+      "notes": "Actual named/unnamed completed/draft PDF and native print include optional identity/period, safe filenames, standard local date/time/PST and honest unfinished state.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/draft.pdf",
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/native-print.pdf"
+      ]
+    },
+    "G14": {
+      "status": "pass",
+      "notes": "Reports group actual bone interpretations, source/units, constructed diagram spans/ratios, use mapping, concept corrections and original goal writing. Visible or equivalent text landmarks identified; no procedural click log or auto-grade claim.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/edited-unconfirmed.pdf"
+      ]
+    },
+    "G15": {
+      "status": "pass",
+      "notes": "All52 current PDF pages rendered/inspected across seven sheets. Interpretation/status grouped, tables/units readable, drafts neutral, Unicode final long markers preserved. PDF/native print/JSON same snapshot; first-offline and recovery pass.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/pdf-inspection.json",
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/pdf-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/pdf-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/pdf-contact-3.png",
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/pdf-contact-4.png",
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/pdf-contact-5.png",
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/pdf-contact-6.png",
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/pdf-contact-7.png",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.md",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.md"
+      ]
+    },
+    "G16": {
+      "status": "pass",
+      "notes": "Keyboard annotations/focus, actual mouse placement after resize/scroll, native caliper drag-release-next tap, continuous jaw range/reload and 44px nonoverlapping phone callouts verified. Equivalent text landmark positions added after review; physical-device/AT acceptance pending.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/phone-measurement.png",
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/tablet-callouts.png",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.json",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.md",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-native-focus-regressions.txt"
+      ]
+    },
+    "G17": {
+      "status": "pass",
+      "notes": "96 selected model/report checks passed initially; final six focused cases and seven real browser workflows passed after review correction. 69 current public resources and standalone/private-platform builds pass.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/standalone-build.txt",
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/platform-build.txt"
+      ]
+    },
+    "G18": {
+      "status": "pass",
+      "notes": "Stable specimen/region/landmark/function/question/goal IDs, locale/version and English content retained. Original student writing preserved. Native translation/print delivery and remaining UI extraction remain AUD-10.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/review-notes.md"
+      ]
+    },
+    "RESOURCES": {
+      "status": "pass",
+      "notes": "Worksheet3/teacher2 match current definitions, measurement table, prompts, source/scale and teaching guidance; every page and hash checked. Build-time Python only.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/pdf-contact-1.png"
+      ]
+    },
+    "ACCESS": {
+      "status": "pass",
+      "notes": "Guest/free lab and exports work without sign-in; existing entitlement/staff/publication policies unchanged. Private31-lab runtime compiled only; no upload/registration/publication.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/platform-build.txt"
+      ]
+    },
+    "TRACKING": {
+      "status": "pass",
+      "notes": "Stable biological-diversity virtual route and actual English implementation/resources updated in validated curriculum/tracker; standards/Spanish approval unchanged; shared copy refreshed after acceptance.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/review-notes.md"
+      ]
+    }
+  },
+  "artifacts": {
+    "workflow": [
+      "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/build-brief.md",
+      "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/review-notes.md",
+      "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/reading-screen.json",
+      "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/complete-responses.json",
+      "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/source-manifest.json"
+    ],
+    "visuals": [
+      "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/human-initial.png",
+      "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/human-tagged.png",
+      "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/bat-tagged.png",
+      "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/dolphin-tagged.png",
+      "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/bat-caliper.png",
+      "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/phone-measurement.png",
+      "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/tablet-callouts.png",
+      "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/human-measured.png",
+      "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/bat-measured.png",
+      "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/dolphin-measured.png",
+      "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/phone-explain.png"
+    ],
+    "pdfReports": [
+      "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/complete.pdf",
+      "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/development-draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/bone-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/ratio-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/function-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/edited-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/tag-edited-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/long-offline.pdf",
+      "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/pdf-inspection.json"
+    ],
+    "nativePrint": [
+      "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/native-print.pdf",
+      "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/long-native-print.pdf"
+    ],
+    "tests": [
+      "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/model-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/final-model-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/final-browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/resource-check.txt",
+      "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/standalone-build.txt",
+      "data/development-tracker/biology-reviews/evidence/vertebrate-limbs/platform-build.txt"
+    ],
+    "resources": [
+      "public/resources/vertebrate-limbs-worksheet.pdf",
+      "public/resources/vertebrate-limbs-teacher-guide.pdf"
+    ]
+  },
+  "externalValidation": {
+    "teacherStudentComprehension": {
+      "status": "pending",
+      "notes": "Not performed; development checks do not establish classroom comprehension."
+    },
+    "physicalDevices": {
+      "status": "pending",
+      "notes": "Emulation is not physical-device or assistive-technology acceptance."
+    },
+    "classroomProtocol": {
+      "status": "not-applicable",
+      "notes": "Virtual-only activity; no physical protocol supplied."
+    }
+  },
+  "history": [
+    {
+      "on": "2026-11-15",
+      "decision": "changes-required",
+      "notes": "Small phone landmark labels need equivalent text positions for the same diagram evidence. Define ratio/fitness and replace the unexplained projected-span wording."
+    }
+  ],
+  "decision": "pass",
+  "summary": "Development review passed after adding equivalent text landmarks and plain vocabulary. Positional homology, direct caliper work and constructed proportion comparisons verified with explicit natural-measurement/performance limits. Classroom, devices, translation and release acceptance remain separate.",
+  "blockers": [],
+  "followups": [
+    {
+      "id": "shared-touch-focus-2026-11-15",
+      "reviewedOn": "2026-11-15",
+      "reviewedBy": "Codex - shared interaction follow-up",
+      "decision": "pass",
+      "summary": "Pending native compatibility mousedown no longer steals newly assigned focus. Existing deliberate next-tap/mouse/keyboard behavior verified in39 selected browser cases; original lab review snapshot retained.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.json",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.md",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-native-focus-regressions.txt"
+      ]
+    },
+    {
+      "id": "shared-response-pagination-2026-11-15",
+      "recordedAt": "2026-11-15T17:05:24.804Z",
+      "scope": "Shared PDF question/answer page-break guard; original review remains its point-in-time snapshot. Representative current starch, stored heat/fungal and legacy enzyme reports checked; not a full rerun of this lab.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.md",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.json",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/pagination-corrected.txt",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-model-tests.txt"
+      ]
+    },
+    {
+      "id": "shared-scientific-symbols-2026-11-15",
+      "recordedAt": "2026-11-15T18:31:00.206Z",
+      "scope": "Shared offline scientific-symbol glyph fallback only; original source snapshot/history unchanged. Representative new/old outputs and legacy wrappers validated, not full rerun of this lab.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.md",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.json",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/glyph-all-artifacts.txt"
+      ]
+    }
+  ]
+}

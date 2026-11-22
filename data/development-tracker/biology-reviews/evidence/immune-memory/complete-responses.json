@@ -1,0 +1,549 @@
+{
+  "schemaVersion": 2,
+  "labId": "immune-memory",
+  "title": "Investigating Immune Memory",
+  "question": "How can memory for one antigen change a later antibody response, and what happens with a different antigen?",
+  "student": {
+    "name": "Zoë García",
+    "class": "Period 5"
+  },
+  "status": "Complete",
+  "grading": "not_graded",
+  "exportedAt": "2026-11-15T20:44:14.790Z",
+  "exportTimeZone": "America/Los_Angeles",
+  "exportedAtDisplay": "Nov 15, 2026, 12:44 PM PST",
+  "sections": [
+    {
+      "heading": "First prediction and comparison design",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Required before observing: Predict how a repeat encounter with antigen A could differ from the first A encounter. Would memory for A give the same benefit when unrelated antigen B first appears? Explain.",
+          "text": "I predict A memory could make repeat A earlier and larger, but might not match unrelated B."
+        },
+        {
+          "type": "response",
+          "prompt": "Required before observing: Why compare first A, repeat A and new B with A memory? Which comparison tests memory’s specificity? How would you keep graph starting points and sampled times clear?",
+          "text": "Compare each encounter from its own starting level and day0. New B tests specificity, not a third independent replicate."
+        },
+        {
+          "type": "paragraph",
+          "text": "Timing: Before cell interactions or any supplied antibody series."
+        }
+      ]
+    },
+    {
+      "heading": "Cell mechanism and specificity evidence",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "First A encounter · recognition",
+          "text": "Matching antigen A recognized at its B-cell receptor. Correct after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "Repeat A encounter · recognition",
+          "text": "Matching antigen A recognized at its B-cell receptor. Correct first trace."
+        },
+        {
+          "type": "response",
+          "prompt": "First B encounter with A memory · recognition",
+          "text": "Matching antigen B recognized at its B-cell receptor. Correct first trace."
+        },
+        {
+          "type": "response",
+          "prompt": "Helper and differentiated cell roles",
+          "text": "First detailed example: Compatible activated helper contact recorded at the displayed-fragment site. Model-supplied expansion/differentiation shown; A memory formed. Identified plasma-cell release with inspection probe; memory cell is a separate persisting cell type. Later helper/expansion/primary-or-recall cell changes are supplied after first practice, not absent biologically."
+        },
+        {
+          "type": "response",
+          "prompt": "Meaningful cell-choice feedback",
+          "text": "First A encounter: protein antigen A at B-specific B receptor; First A encounter: compatible activated helper T cell at A-specific B receptor; First A encounter: inspection probe at memory B cell. These rejected choices needed feedback. Current recognition/release status is shown separately; not all errors are necessarily corrected yet."
+        }
+      ]
+    },
+    {
+      "heading": "Supplied sampled antibody series and student comparisons",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "All series invented. Values are rises above each encounter’s own starting antibody level, not absolute concentrations. Zero rise does not show absence of antibodies/memory. Points every2model days; lines are only guides.4units is a chosen analysis reference, not protection."
+        },
+        {
+          "type": "paragraph",
+          "text": "First A encounter: No A memory in this teaching condition."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Model day",
+            "Rise above own starting level(chosen units)"
+          ],
+          "rows": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              6,
+              2
+            ],
+            [
+              8,
+              5
+            ],
+            [
+              10,
+              8
+            ],
+            [
+              12,
+              6
+            ],
+            [
+              14,
+              4
+            ]
+          ]
+        },
+        {
+          "type": "response",
+          "prompt": "First A encounter · current student comparison",
+          "text": "First sampled day at/above4: 8; sampled peak rise: 8chosen units.\nCorrect after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "First A encounter · earlier comparison needing revision",
+          "text": "Sampled day: 7; sampled peak: empty. Needs correction; retained as feedback evidence."
+        },
+        {
+          "type": "paragraph",
+          "text": "Repeat A encounter: A memory present after the first response; its help/recall expansion is supplied."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Model day",
+            "Rise above own starting level(chosen units)"
+          ],
+          "rows": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              4,
+              8
+            ],
+            [
+              6,
+              14
+            ],
+            [
+              8,
+              12
+            ],
+            [
+              10,
+              9
+            ],
+            [
+              12,
+              7
+            ],
+            [
+              14,
+              5
+            ]
+          ]
+        },
+        {
+          "type": "response",
+          "prompt": "Repeat A encounter · current student comparison",
+          "text": "First sampled day at/above4: 4; sampled peak rise: 14chosen units.\nCorrect first check."
+        },
+        {
+          "type": "paragraph",
+          "text": "First B encounter with A memory: A memory present, but no B memory at this encounter’s start."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Model day",
+            "Rise above own starting level(chosen units)"
+          ],
+          "rows": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              6,
+              2
+            ],
+            [
+              8,
+              5
+            ],
+            [
+              10,
+              8
+            ],
+            [
+              12,
+              6
+            ],
+            [
+              14,
+              4
+            ]
+          ]
+        },
+        {
+          "type": "response",
+          "prompt": "First B encounter with A memory · current student comparison",
+          "text": "Current pattern: Primary.\nCorrect first check."
+        }
+      ]
+    },
+    {
+      "heading": "Evidence by learning goal",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Connect specific recognition and helper signals with plasma-cell antibody release and memory-cell formation."
+        },
+        {
+          "type": "response",
+          "prompt": "Trace how a matching B cell was selected, how the supplied helper recognized a displayed fragment, and which cell released antibodies. How does a memory B cell differ from an antibody or a plasma cell?",
+          "text": "My cells evidence: a preexisting matching B-cell receptor bound native antigen; supplied processing displayed a fragment with a presentation protein for an already activated helper T cell. Clone expansion and differentiation supplied plasma and memory cells. Plasma cells release antibodies; memory cells are not antibodies and can help form later plasma cells. First-A first sampled rise at least4 was day8, sampled peak8; repeat-A day4, peak14. This supports earlier/larger rise in these chosen series, not exact onset or protection. Each graph shows rises above its own initial antibody level, so zero does not mean no existing antibodies or memory. New B had a primary pattern with A memory under the no-cross-reaction assumption. New-B profile/secondary help and expansion were supplied, not repeated patient trials. Real classes, affinity changes, innate responses, other presenting cells, long-lived plasma cells and variable memory complicate the simplified model. No instant or universal immunity or clinical conclusion."
+        },
+        {
+          "type": "paragraph",
+          "text": "Compare sampled antibody-rise timing and peak values in first and repeat A responses."
+        },
+        {
+          "type": "response",
+          "prompt": "Use your first-A and repeat-A readings: first sampled day at or above4units and sampled peak. Compare them with your prediction. Why are these not exact response-onset times, absolute antibody concentrations or proof of protection?",
+          "text": "My graph evidence: a preexisting matching B-cell receptor bound native antigen; supplied processing displayed a fragment with a presentation protein for an already activated helper T cell. Clone expansion and differentiation supplied plasma and memory cells. Plasma cells release antibodies; memory cells are not antibodies and can help form later plasma cells. First-A first sampled rise at least4 was day8, sampled peak8; repeat-A day4, peak14. This supports earlier/larger rise in these chosen series, not exact onset or protection. Each graph shows rises above its own initial antibody level, so zero does not mean no existing antibodies or memory. New B had a primary pattern with A memory under the no-cross-reaction assumption. New-B profile/secondary help and expansion were supplied, not repeated patient trials. Real classes, affinity changes, innate responses, other presenting cells, long-lived plasma cells and variable memory complicate the simplified model. No instant or universal immunity or clinical conclusion."
+        },
+        {
+          "type": "paragraph",
+          "text": "Use the new-B comparison to explain antigen-specific memory and the limits of the teaching curves."
+        },
+        {
+          "type": "response",
+          "prompt": "Use the new-B pattern and the receptor choices to explain why A memory did not make B a repeat-A response in this model. What was supplied? Name two reasons real responses can differ from these curves.",
+          "text": "My specificity evidence: a preexisting matching B-cell receptor bound native antigen; supplied processing displayed a fragment with a presentation protein for an already activated helper T cell. Clone expansion and differentiation supplied plasma and memory cells. Plasma cells release antibodies; memory cells are not antibodies and can help form later plasma cells. First-A first sampled rise at least4 was day8, sampled peak8; repeat-A day4, peak14. This supports earlier/larger rise in these chosen series, not exact onset or protection. Each graph shows rises above its own initial antibody level, so zero does not mean no existing antibodies or memory. New B had a primary pattern with A memory under the no-cross-reaction assumption. New-B profile/secondary help and expansion were supplied, not repeated patient trials. Real classes, affinity changes, innate responses, other presenting cells, long-lived plasma cells and variable memory complicate the simplified model. No instant or universal immunity or clinical conclusion."
+        }
+      ]
+    },
+    {
+      "heading": "Concept checks",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Which cell is the high-output source of released antibodies in the scene?",
+          "text": "A plasma cell; a memory B cell can help generate later plasma cells.\nCorrect! Plasma cells release antibodies. Selected B-cell clones also form memory cells with related antigen specificity; memory cells are not antibody molecules. Revised after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "The first sampled point above the4-unit line is on day8. Does that prove the exact crossing time or a protection level?",
+          "text": "No. It identifies a sampled point; the comparison line has no clinical protection meaning.\nCorrect! The points and line are chosen teaching data. A sampled first qualifying point is not an exact onset or a validated protective concentration. Correct on first recorded check."
+        },
+        {
+          "type": "response",
+          "prompt": "Why can new antigen B still show a primary pattern when A memory is present?",
+          "text": "A memory recognizes A’s modeled feature; unrelated B needs its own matching response here.\nCorrect! This model assumes no A–B cross-reaction. Memory specificity matters; real responses may overlap in ways this simplified pair omits. Correct on first recorded check."
+        }
+      ]
+    },
+    {
+      "heading": "Model limits and sources",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Cell and protein drawings, shapes, colors and clone counts are explanatory, not real size, binding affinity or cell measurements. B cells bind an intact antigen feature; a helper T cell recognizes a displayed fragment with a presentation protein. The helper supplied here is already activated. Other presenting cells, signals, innate defenses, antibody classes, affinity changes and many response pathways are omitted. Memory cells are cells, not secreted antibodies. They can help generate plasma cells during recall. Long-lived plasma cells can also maintain antibodies. Graphs show chosen rises above each condition’s starting antibody level, not absolute concentrations or antibody absence at zero. Lines join sampled points as guides; do not infer an exact crossing time between them. The4-unit comparison line is arbitrary, not a protection threshold. These invented curves are not patient data or a prediction of immunity, symptoms or treatment. Real memory varies, can change over time, and can include cross-reactions. A fast response still takes biological steps and does not promise complete or instant protection."
+        },
+        {
+          "type": "paragraph",
+          "text": "OpenStax Biology2e42.2: adaptive response and memory: https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response"
+        },
+        {
+          "type": "paragraph",
+          "text": "OpenStax Anatomy and Physiology2e21.4: B cells, plasma cells and response comparisons: https://openstax.org/books/anatomy-and-physiology-2e/pages/21-4-the-adaptive-immune-response-b-lymphocytes-and-antibodies"
+        },
+        {
+          "type": "paragraph",
+          "text": "OpenStax Microbiology18.4: T-dependent B-cell activation: https://openstax.org/books/microbiology/pages/18-4-b-lymphocytes-and-humoral-immunity"
+        }
+      ],
+      "keepFirst": 4
+    }
+  ],
+  "activityVersion": 1,
+  "locale": "en",
+  "attemptId": "immune-3774088997-1794775451429",
+  "data": {
+    "schemaVersion": 1,
+    "activityVersion": 1,
+    "labId": "immune-memory",
+    "attemptId": "immune-3774088997-1794775451429",
+    "seed": 3774088997,
+    "locale": "en",
+    "stage": 2,
+    "studentName": "Zoë García",
+    "studentClass": "Period 5",
+    "prediction": "I predict A memory could make repeat A earlier and larger, but might not match unrelated B.",
+    "design": "Compare each encounter from its own starting level and day0. New B tests specificity, not a third independent replicate.",
+    "initialPlan": {
+      "prediction": "I predict A memory could make repeat A earlier and larger, but might not match unrelated B.",
+      "design": "Compare each encounter from its own starting level and day0. New B tests specificity, not a third independent replicate.",
+      "timing": "Before cell interactions or any supplied antibody series"
+    },
+    "current": "new-b",
+    "phase": "data",
+    "help": true,
+    "expanded": true,
+    "secreted": true,
+    "memoryA": true,
+    "memoryB": true,
+    "placementAttempts": [
+      {
+        "caseId": "first-a",
+        "phase": "recognize",
+        "tool": "antigen-a",
+        "site": "receptor-b",
+        "correct": false
+      },
+      {
+        "caseId": "first-a",
+        "phase": "recognize",
+        "tool": "antigen-a",
+        "site": "receptor-a",
+        "correct": true
+      },
+      {
+        "caseId": "first-a",
+        "phase": "help",
+        "tool": "helper",
+        "site": "receptor-a",
+        "correct": false
+      },
+      {
+        "caseId": "first-a",
+        "phase": "help",
+        "tool": "helper",
+        "site": "presentation",
+        "correct": true
+      },
+      {
+        "caseId": "first-a",
+        "phase": "source",
+        "tool": "probe",
+        "site": "memory",
+        "correct": false
+      },
+      {
+        "caseId": "first-a",
+        "phase": "source",
+        "tool": "probe",
+        "site": "plasma",
+        "correct": true
+      },
+      {
+        "caseId": "repeat-a",
+        "phase": "recognize",
+        "tool": "antigen-a",
+        "site": "receptor-a",
+        "correct": true
+      },
+      {
+        "caseId": "new-b",
+        "phase": "recognize",
+        "tool": "antigen-b",
+        "site": "receptor-b",
+        "correct": true
+      }
+    ],
+    "cases": {
+      "first-a": {
+        "bound": true,
+        "ready": true,
+        "cursor": 0,
+        "values": {
+          "day": "8",
+          "peak": "8",
+          "pattern": ""
+        },
+        "attempts": [
+          {
+            "values": {
+              "day": "7",
+              "peak": "",
+              "pattern": ""
+            },
+            "correct": false
+          },
+          {
+            "values": {
+              "day": "8",
+              "peak": "8",
+              "pattern": ""
+            },
+            "correct": true
+          }
+        ],
+        "record": {
+          "values": {
+            "day": "8",
+            "peak": "8",
+            "pattern": ""
+          },
+          "correctAfterFeedback": true,
+          "sourceId": "student-read-or-classified-supplied-illustrative-antibody-series"
+        }
+      },
+      "repeat-a": {
+        "bound": true,
+        "ready": true,
+        "cursor": 3,
+        "values": {
+          "day": "4",
+          "peak": "14",
+          "pattern": ""
+        },
+        "attempts": [
+          {
+            "values": {
+              "day": "4",
+              "peak": "14",
+              "pattern": ""
+            },
+            "correct": true
+          }
+        ],
+        "record": {
+          "values": {
+            "day": "4",
+            "peak": "14",
+            "pattern": ""
+          },
+          "correctAfterFeedback": false,
+          "sourceId": "student-read-or-classified-supplied-illustrative-antibody-series"
+        }
+      },
+      "new-b": {
+        "bound": true,
+        "ready": true,
+        "cursor": 0,
+        "values": {
+          "day": "",
+          "peak": "",
+          "pattern": "primary"
+        },
+        "attempts": [
+          {
+            "values": {
+              "day": "",
+              "peak": "",
+              "pattern": "primary"
+            },
+            "correct": true
+          }
+        ],
+        "record": {
+          "values": {
+            "day": "",
+            "peak": "",
+            "pattern": "primary"
+          },
+          "correctAfterFeedback": false,
+          "sourceId": "student-read-or-classified-supplied-illustrative-antibody-series"
+        }
+      }
+    },
+    "checks": {
+      "plasma": {
+        "attempts": [
+          {
+            "value": "memory",
+            "correct": false
+          },
+          {
+            "value": "plasma",
+            "correct": true
+          }
+        ],
+        "value": "plasma",
+        "correct": true
+      },
+      "sample": {
+        "attempts": [
+          {
+            "value": "limited",
+            "correct": true
+          }
+        ],
+        "value": "limited",
+        "correct": true
+      },
+      "specific": {
+        "attempts": [
+          {
+            "value": "match",
+            "correct": true
+          }
+        ],
+        "value": "match",
+        "correct": true
+      }
+    },
+    "answers": {
+      "cells": "My cells evidence: a preexisting matching B-cell receptor bound native antigen; supplied processing displayed a fragment with a presentation protein for an already activated helper T cell. Clone expansion and differentiation supplied plasma and memory cells. Plasma cells release antibodies; memory cells are not antibodies and can help form later plasma cells. First-A first sampled rise at least4 was day8, sampled peak8; repeat-A day4, peak14. This supports earlier/larger rise in these chosen series, not exact onset or protection. Each graph shows rises above its own initial antibody level, so zero does not mean no existing antibodies or memory. New B had a primary pattern with A memory under the no-cross-reaction assumption. New-B profile/secondary help and expansion were supplied, not repeated patient trials. Real classes, affinity changes, innate responses, other presenting cells, long-lived plasma cells and variable memory complicate the simplified model. No instant or universal immunity or clinical conclusion.",
+      "graph": "My graph evidence: a preexisting matching B-cell receptor bound native antigen; supplied processing displayed a fragment with a presentation protein for an already activated helper T cell. Clone expansion and differentiation supplied plasma and memory cells. Plasma cells release antibodies; memory cells are not antibodies and can help form later plasma cells. First-A first sampled rise at least4 was day8, sampled peak8; repeat-A day4, peak14. This supports earlier/larger rise in these chosen series, not exact onset or protection. Each graph shows rises above its own initial antibody level, so zero does not mean no existing antibodies or memory. New B had a primary pattern with A memory under the no-cross-reaction assumption. New-B profile/secondary help and expansion were supplied, not repeated patient trials. Real classes, affinity changes, innate responses, other presenting cells, long-lived plasma cells and variable memory complicate the simplified model. No instant or universal immunity or clinical conclusion.",
+      "specificity": "My specificity evidence: a preexisting matching B-cell receptor bound native antigen; supplied processing displayed a fragment with a presentation protein for an already activated helper T cell. Clone expansion and differentiation supplied plasma and memory cells. Plasma cells release antibodies; memory cells are not antibodies and can help form later plasma cells. First-A first sampled rise at least4 was day8, sampled peak8; repeat-A day4, peak14. This supports earlier/larger rise in these chosen series, not exact onset or protection. Each graph shows rises above its own initial antibody level, so zero does not mean no existing antibodies or memory. New B had a primary pattern with A memory under the no-cross-reaction assumption. New-B profile/secondary help and expansion were supplied, not repeated patient trials. Real classes, affinity changes, innate responses, other presenting cells, long-lived plasma cells and variable memory complicate the simplified model. No instant or universal immunity or clinical conclusion."
+    },
+    "complete": true
+  },
+  "evidence": [
+    {
+      "goalId": "cells",
+      "answerId": "cells",
+      "writing": "My cells evidence: a preexisting matching B-cell receptor bound native antigen; supplied processing displayed a fragment with a presentation protein for an already activated helper T cell. Clone expansion and differentiation supplied plasma and memory cells. Plasma cells release antibodies; memory cells are not antibodies and can help form later plasma cells. First-A first sampled rise at least4 was day8, sampled peak8; repeat-A day4, peak14. This supports earlier/larger rise in these chosen series, not exact onset or protection. Each graph shows rises above its own initial antibody level, so zero does not mean no existing antibodies or memory. New B had a primary pattern with A memory under the no-cross-reaction assumption. New-B profile/secondary help and expansion were supplied, not repeated patient trials. Real classes, affinity changes, innate responses, other presenting cells, long-lived plasma cells and variable memory complicate the simplified model. No instant or universal immunity or clinical conclusion.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "graph",
+      "answerId": "graph",
+      "writing": "My graph evidence: a preexisting matching B-cell receptor bound native antigen; supplied processing displayed a fragment with a presentation protein for an already activated helper T cell. Clone expansion and differentiation supplied plasma and memory cells. Plasma cells release antibodies; memory cells are not antibodies and can help form later plasma cells. First-A first sampled rise at least4 was day8, sampled peak8; repeat-A day4, peak14. This supports earlier/larger rise in these chosen series, not exact onset or protection. Each graph shows rises above its own initial antibody level, so zero does not mean no existing antibodies or memory. New B had a primary pattern with A memory under the no-cross-reaction assumption. New-B profile/secondary help and expansion were supplied, not repeated patient trials. Real classes, affinity changes, innate responses, other presenting cells, long-lived plasma cells and variable memory complicate the simplified model. No instant or universal immunity or clinical conclusion.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "specificity",
+      "answerId": "specificity",
+      "writing": "My specificity evidence: a preexisting matching B-cell receptor bound native antigen; supplied processing displayed a fragment with a presentation protein for an already activated helper T cell. Clone expansion and differentiation supplied plasma and memory cells. Plasma cells release antibodies; memory cells are not antibodies and can help form later plasma cells. First-A first sampled rise at least4 was day8, sampled peak8; repeat-A day4, peak14. This supports earlier/larger rise in these chosen series, not exact onset or protection. Each graph shows rises above its own initial antibody level, so zero does not mean no existing antibodies or memory. New B had a primary pattern with A memory under the no-cross-reaction assumption. New-B profile/secondary help and expansion were supplied, not repeated patient trials. Real classes, affinity changes, innate responses, other presenting cells, long-lived plasma cells and variable memory complicate the simplified model. No instant or universal immunity or clinical conclusion.",
+      "status": "not_graded"
+    }
+  ]
+}

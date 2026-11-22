@@ -1,0 +1,150 @@
+{
+  "checks": [
+    {
+      "lab": "immune-memory",
+      "file": "complete",
+      "sha256": "ae64ab45087237391966ff66e66d7b28d87f8d1993a416a5663318de7d3440dc",
+      "pagination": "pass"
+    },
+    {
+      "lab": "immune-memory",
+      "file": "native-print",
+      "sha256": "59eb0c27ba410dc6ffe2971c88a8cefb99710617bf6c0417179bc2052a1df8e6",
+      "pagination": "pass"
+    },
+    {
+      "lab": "immune-memory",
+      "file": "long-offline",
+      "sha256": "e09777a66b85586f86aa1c4b5e119fa91bebc01f6b5e9607b0d64743b916233e",
+      "pagination": "pass"
+    },
+    {
+      "lab": "immune-memory",
+      "file": "long-native-print",
+      "sha256": "2d66c067db5fa494c27881d0272221c53ce3b50903bdc3a8686963633751732d",
+      "pagination": "pass"
+    },
+    {
+      "lab": "embryonic-development",
+      "file": "complete",
+      "sha256": "29c508f2c288eb32d3f703453f9cf09d676c4bcbf57f37245241a53f470fe1b0",
+      "pagination": "pass"
+    },
+    {
+      "lab": "embryonic-development",
+      "file": "native-print",
+      "sha256": "ad9e6843dc78d14794c9ef6221e6bd5675ec8af98fab99696d3dc1e12f6c144d",
+      "pagination": "pass"
+    },
+    {
+      "lab": "embryonic-development",
+      "file": "long-offline",
+      "sha256": "e54401815933f839ca6c1f3b90499d0b8a795da51225e83f1198103512a72092",
+      "pagination": "pass"
+    },
+    {
+      "lab": "embryonic-development",
+      "file": "long-native-print",
+      "sha256": "346e84a7a2aa25f121459f59c83cdd1b3916edcdb11128b07fd2862a809ade88",
+      "pagination": "pass"
+    },
+    {
+      "lab": "microhabitats",
+      "file": "complete",
+      "sha256": "f0a98a61459ceb1c455972a856eb9ac305c318d80940dba2976add238e502ab6",
+      "pagination": "pass"
+    },
+    {
+      "lab": "microhabitats",
+      "file": "native-print",
+      "sha256": "1ddcb6c13fa91d89476f5a246dea0bf2dba23f6122256444fc834f801d829031",
+      "pagination": "pass"
+    },
+    {
+      "lab": "microhabitats",
+      "file": "long-offline",
+      "sha256": "ffedd9d241ad9842f6716198678c1ff6e8c25c636deb8f013ae69aa34bae3f71",
+      "pagination": "pass"
+    },
+    {
+      "lab": "microhabitats",
+      "file": "long-native-print",
+      "sha256": "919fb73760ecb2f9d336070c74d8ffa725d62bef7dcef984133270a133a377c1",
+      "pagination": "pass"
+    },
+    {
+      "lab": "population-estimates",
+      "file": "complete",
+      "sha256": "2d44adea18c474064fc9a39cb03e8b9132d8f50af96bf7795f67d729d6e4f547",
+      "pagination": "pass"
+    },
+    {
+      "lab": "population-estimates",
+      "file": "native-print",
+      "sha256": "5c691c8e4ccc1dd6eb1108496103ba591fa81a7fa692bbd7fe44037090e076b7",
+      "pagination": "pass"
+    },
+    {
+      "lab": "population-estimates",
+      "file": "long-offline",
+      "sha256": "34493b24b5f1316a54ab0ef781a944e0f3693751bd96882fd2e4d8ae0206561b",
+      "pagination": "pass"
+    },
+    {
+      "lab": "population-estimates",
+      "file": "long-native-print",
+      "sha256": "1f2f93b98d82ed6c750583cdb23353008c10440acc1863dc35541e46eb27d4af",
+      "pagination": "pass"
+    },
+    {
+      "lab": "food-web-energy",
+      "file": "complete",
+      "sha256": "652287d1cd87568380592afed7e668cec258edc7817844bd14096f90d3edbfcd",
+      "pagination": "pass"
+    },
+    {
+      "lab": "food-web-energy",
+      "file": "native-print",
+      "sha256": "5469b7da0556bf42e2115f976b4e39c7ca1c8c80e31ca8dab0b6df1101b906d8",
+      "pagination": "pass"
+    },
+    {
+      "lab": "food-web-energy",
+      "file": "long-offline",
+      "sha256": "2283864093c221a7e348168eb3383741abce5bb6c15680baab0fcfeb59ef7fd0",
+      "pagination": "pass"
+    },
+    {
+      "lab": "food-web-energy",
+      "file": "long-native-print",
+      "sha256": "cb5dfeb5923020d980844f158ad49351978e6882667de410ade3ade823c774f0",
+      "pagination": "pass"
+    },
+    {
+      "lab": "reserve-design",
+      "file": "complete",
+      "sha256": "d67f7bffaff82546d015ec2cc15d1d675da27ebef259eae2d3c1bc8541aebf12",
+      "pagination": "pass"
+    },
+    {
+      "lab": "reserve-design",
+      "file": "native-print",
+      "sha256": "de9e243a29eae71ec097640f6ffb433d3efe497b485df240d7c20cb4d277ec6d",
+      "pagination": "pass"
+    },
+    {
+      "lab": "reserve-design",
+      "file": "long-offline",
+      "sha256": "c65583b727a5838d297e33b6c553eedfee62743e4cb32df8f4d95ee3c3c56c02",
+      "pagination": "pass"
+    },
+    {
+      "lab": "reserve-design",
+      "file": "long-native-print",
+      "sha256": "8e8ed8a55b5cd6d9abdeb56799fc49a2d3c628d69b84abfb14310c29b42f387f",
+      "pagination": "pass"
+    }
+  ],
+  "focusedHeadingPages": 10,
+  "scope": "Focused pages containing a section whose first response is long. Not full reapproval or a complete rerender of earlier labs."
+}

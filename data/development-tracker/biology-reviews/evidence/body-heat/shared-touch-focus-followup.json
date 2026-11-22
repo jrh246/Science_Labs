@@ -1,0 +1,19 @@
+{
+  "capturedAt": "2026-11-15T16:26:40.545Z",
+  "scope": "Shared default-focus fix and soil immediate prerequisite gate only. Original review snapshots preserved.",
+  "files": {
+    "src/investigations/touch-buttons.js": "33f99bee6dec2cca7ab374626563e5457f77ca164c4747387c6a84d85571b432",
+    "src/investigations/soil-app.js": "a1b0a6f34c2c05023b169f7a80060e6cd7cf6ff213257bed45fe664150580a2d",
+    "tests/browser/soil.spec.js": "3b7bd2897d31b25378d5454bf36bc6c5ef5ea12ba5dddf003f9fba470e0dd25f",
+    "tests/browser/heat.spec.js": "67682429173f8a0e426fbd66c3406f16a56eae2d5378b8a7b523dc520c6ba7b8",
+    "LAB_DESIGN_GUIDE.md": "ba28489680edabf76477efc559e8982c86992a0b7607fecc825e7922630c582f"
+  },
+  "evidence": [
+    "data/development-tracker/biology-reviews/evidence/body-heat/focus-and-gate-diagnostic-tests.txt",
+    "data/development-tracker/biology-reviews/evidence/body-heat/focus-and-gate-corrected-tests.txt",
+    "data/development-tracker/biology-reviews/evidence/body-heat/shared-native-focus-regressions.txt",
+    "data/development-tracker/biology-reviews/evidence/body-heat/touch-focus-corrected.json",
+    "data/development-tracker/biology-reviews/evidence/soil-water/availability-gate-followup-tests.txt",
+    "data/development-tracker/biology-reviews/evidence/soil-water/availability-gate-unconfirmed.pdf"
+  ]
+}

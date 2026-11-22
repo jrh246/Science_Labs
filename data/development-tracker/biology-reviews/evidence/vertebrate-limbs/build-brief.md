@@ -1,0 +1,11 @@
+# Vertebrate limb adaptations — individual build brief
+
+Question: How can shared forelimb bone positions and model proportions support comparisons of ancestry and different functions?
+
+Selected human arm, bat wing and dolphin flipper. Goals: identify corresponding humerus, forearm and wrist/digit regions by position despite shape differences; measure a defined straightened third-digit ray span and divide by the supplied common humerus reference; connect structure to selected function while distinguishing homology from identical use and avoiding claims of measured natural ratios or evolutionary progress.
+
+Students place anatomical annotation tags on actual bone regions, then place/align a model caliper at a defined ray base and move its jaw to the tip. Same humerus reference100 diagram units supplied for every rescaled model; use illustrative ray spans80/270/180 units, explicitly constructed diagram values, not biological samples or measured species means. Wrist-to-tip ray includes metacarpal plus phalanges, not finger bones alone. Measure each distinct model once; no default triple trials or success rates. Ratio checks use actual confirmed diagram measurements. Selected function tags: manipulation, membrane-supported flight, steering/stabilizing in water; no claim of sole use or flipper-driven main propulsion.
+
+Scientific checks: Michigan ADW Bat Wings and Tails read (ulna reduced/fused, digits2–5 support membrane); UMN comparative-anatomy section consulted (corresponding forelimb structures and ancestry); Cooper et al.2017 primary dolphin flipper paper abstract/introduction and Figure1 consulted (retained digit tissues, extra phalanges, short proximal elements, steering surfaces). Do not infer that more phalanges means more digits, all ulnas look equal, living humans are ancestors of bats or dolphins, or diagram ratios determine performance/fitness. No physical dissection or measurement protocol.
+
+Original skeletal silhouettes/soft-tissue outlines, faithful target/jaw geometry, English ninth-grade terms defined, required predictions/checkpoints, preserved wrong current entries, model-source labels and complete PDF/native print/JSON required. Separate review and full browser/rendered-resource evidence before next lab. External classroom/hardware and AUD-10 translation remain separate; virtual only.

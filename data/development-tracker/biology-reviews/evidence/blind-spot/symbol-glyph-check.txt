@@ -1,0 +1,1 @@
+symbols-diagnostic.pdf: no missing/replacement glyphs; 7 complete source fragments retained across 1 pages (layout whitespace ignored).

@@ -1,0 +1,14 @@
+✔ key requires first plan and current checked observations before constructing/testing (1.7477ms)
+✔ key rejects empty branches without destroying current choices and accepts every separating tree (18.0008ms)
+✔ key model-selected cards keep stable identities, actual wrong route attempts and distinct endpoint coverage (1.9447ms)
+✔ key branch revision archives earlier versions and tests while requiring current coverage (1.1827ms)
+✔ key changed observation remains unconfirmed through reload without discarding current key or first work (1.0022ms)
+✔ key learning report retains actual tree/routes, Unicode, human source labels and truthful completion (1.0739ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 102.9561

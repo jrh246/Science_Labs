@@ -1,0 +1,265 @@
+{
+  "schemaVersion": 1,
+  "labId": "glucose-feedback",
+  "taskId": "BIO-23-REVIEW",
+  "reviewedBy": "Codex - separate development review",
+  "reviewedOn": "2026-11-15",
+  "sourceSnapshot": "sha256:0074748d328ce4ecb65e076cac086985fb15e675c62951b267b800445119c089",
+  "checks": {
+    "G01": {
+      "status": "pass",
+      "notes": "Three goals connect pancreatic source/receptor signaling, separate glucose movement and feedback to actual placements, interpreted examples and verbatim explanations.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/build-brief.md",
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/complete-responses.json"
+      ]
+    },
+    "G02": {
+      "status": "pass",
+      "notes": "One rise and one fall add different mechanisms; no default triple repetition or claim of independent biological samples.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/complete.pdf"
+      ]
+    },
+    "G03": {
+      "status": "pass",
+      "notes": "Relevant OpenStax/NIDDK/Stanford text cross-checked; avoid loose glucagon-muscle generalization, insulin carrier/enzyme confusion and liver GLUT4 dependence. Basal and omitted effects explicit.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/final-model-tests.txt"
+      ]
+    },
+    "G04": {
+      "status": "pass",
+      "notes": "Invented arbitrary units/endpoints, no timing/dose/clinical ranges, enlarged schematics, omitted multi-organ signals and basal release stated beside results and in reports.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/visual-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/review-notes.md"
+      ]
+    },
+    "G05": {
+      "status": "pass",
+      "notes": "Student source/hormone, receptor and glucose-route placements cause distinct visible secretion/binding/transport states; direction and extra-release comparison supports explanation.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/visual-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/visual-contact-2.png"
+      ]
+    },
+    "G06": {
+      "status": "pass",
+      "notes": "Separate visual review corrected membrane alignment, opaque targets, filled arrows, labels and glycogen connections; original plausible cell/capillary/transport graphics inspected in12 states.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/visual-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/visual-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/visual-contact-3.png"
+      ]
+    },
+    "G07": {
+      "status": "pass",
+      "notes": "Stable seeded hormone/interpretation/concept banks; anatomy and causal order retained. Source/hormone errors and current wrong/blank interpretations remain evidence.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/rise-unconfirmed.pdf"
+      ]
+    },
+    "G08": {
+      "status": "pass",
+      "notes": "All authored pathway/diagram/report/resource text reviewed, terms defined; heuristic grade7.5/11.1words, classroom comprehension separate.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/reading-screen.json",
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/review-notes.md"
+      ]
+    },
+    "G09": {
+      "status": "pass",
+      "notes": "First required prediction/design before challenge actions; source→receptor→transport before interpretation; current edits immediately disable continuation in UI/model and persist.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/edited-unconfirmed.pdf"
+      ]
+    },
+    "G10": {
+      "status": "pass",
+      "notes": "Correct!/Try again with mechanism reasons; wrong source/hormone and direction feedback retained; blank current interpretation unconfirmed after prior success.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/rise-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/edited-unconfirmed.pdf"
+      ]
+    },
+    "G11": {
+      "status": "pass",
+      "notes": "Successful/repeated/reloaded completion and denied save/retry tested, optional identity preserves completion while academic edits revoke it.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/final-browser-tests.txt"
+      ]
+    },
+    "G12": {
+      "status": "pass",
+      "notes": "Versioned scoped attempts retain first plan, distinct traces, current interpretation and meaningful corrections; review views do not rerun or regenerate.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/complete-responses.json"
+      ]
+    },
+    "G13": {
+      "status": "pass",
+      "notes": "Actual named/neutral PDFs and native print with optional identity/period, standard local date/time/PST; completion status truthful.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/draft.pdf",
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/native-print.pdf"
+      ]
+    },
+    "G14": {
+      "status": "pass",
+      "notes": "Reports group pathway/glucose evidence, meaningful mismatches/revisions, current interpretation/status, original writing/concepts/limits; no click log or inferred mastery.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/edited-unconfirmed.pdf"
+      ]
+    },
+    "G15": {
+      "status": "pass",
+      "notes": "All40 rendered pages inspected; long Unicode/offline/print marker intact, completed prompt starts and glyph/source text verified, draft/current wrong evidence faithful.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/pdf-inspection.json",
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/pdf-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/pdf-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/pdf-contact-3.png",
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/pdf-contact-4.png",
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/pdf-contact-5.png",
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/pagination-check.txt",
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/glyph-check.txt",
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/glyph-all.txt"
+      ]
+    },
+    "G16": {
+      "status": "pass",
+      "notes": "Native source drag-release-nexttap, keyboard/focus, resized mouse receptor, phone/tablet44px targets/no overflow/reduced motion pass; physical devices/AT separate.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/visual-contact-3.png"
+      ]
+    },
+    "G17": {
+      "status": "pass",
+      "notes": "14 selected model/report/font and6 browser cases pass, failures/corrective findings retained;85 resources and private runtime compile verified.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/initial-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/platform-build.txt"
+      ]
+    },
+    "G18": {
+      "status": "pass",
+      "notes": "Stable English IDs/locale and original responses preserved. AUD-10 native app/resource/report translations remain future; no Spanish readiness claimed.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/review-notes.md"
+      ]
+    },
+    "RESOURCES": {
+      "status": "pass",
+      "notes": "Teacher2/student3 current PDFs retain prompts, data-source/units, concise model limits and sources;85 current prompt/link/hash checks pass.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/pdf-contact-1.png"
+      ]
+    },
+    "ACCESS": {
+      "status": "pass",
+      "notes": "Guest/free route/PDF/nativeprint/offline remain accessible without login; paid/staff/release policy preserved and private runtime compiled only.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/platform-build.txt"
+      ]
+    },
+    "TRACKING": {
+      "status": "pass",
+      "notes": "Actual English implementation/resources/catalog and curriculum/tracker regenerated; standards, translations and course/release approval remain separate.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/build-brief.md"
+      ]
+    }
+  },
+  "artifacts": {
+    "workflow": [
+      "data/development-tracker/biology-reviews/evidence/glucose-feedback/build-brief.md",
+      "data/development-tracker/biology-reviews/evidence/glucose-feedback/review-notes.md",
+      "data/development-tracker/biology-reviews/evidence/glucose-feedback/reading-screen.json",
+      "data/development-tracker/biology-reviews/evidence/glucose-feedback/complete-responses.json",
+      "data/development-tracker/biology-reviews/evidence/glucose-feedback/source-manifest.json"
+    ],
+    "visuals": [
+      "data/development-tracker/biology-reviews/evidence/glucose-feedback/visual-contact-1.png",
+      "data/development-tracker/biology-reviews/evidence/glucose-feedback/visual-contact-2.png",
+      "data/development-tracker/biology-reviews/evidence/glucose-feedback/visual-contact-3.png"
+    ],
+    "pdfReports": [
+      "data/development-tracker/biology-reviews/evidence/glucose-feedback/complete.pdf",
+      "data/development-tracker/biology-reviews/evidence/glucose-feedback/draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/glucose-feedback/long-offline.pdf",
+      "data/development-tracker/biology-reviews/evidence/glucose-feedback/rise-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/glucose-feedback/fall-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/glucose-feedback/edited-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/glucose-feedback/development-draft.pdf"
+    ],
+    "nativePrint": [
+      "data/development-tracker/biology-reviews/evidence/glucose-feedback/native-print.pdf",
+      "data/development-tracker/biology-reviews/evidence/glucose-feedback/long-native-print.pdf"
+    ],
+    "tests": [
+      "data/development-tracker/biology-reviews/evidence/glucose-feedback/final-model-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/glucose-feedback/final-browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/glucose-feedback/pagination-check.txt",
+      "data/development-tracker/biology-reviews/evidence/glucose-feedback/glyph-check.txt",
+      "data/development-tracker/biology-reviews/evidence/glucose-feedback/glyph-all.txt",
+      "data/development-tracker/biology-reviews/evidence/glucose-feedback/resource-check.txt",
+      "data/development-tracker/biology-reviews/evidence/glucose-feedback/platform-build.txt"
+    ],
+    "resources": [
+      "public/resources/glucose-feedback-worksheet.pdf",
+      "public/resources/glucose-feedback-teacher-guide.pdf"
+    ]
+  },
+  "externalValidation": {
+    "teacherStudentComprehension": {
+      "status": "pending",
+      "notes": "Not performed; development checks do not establish classroom comprehension."
+    },
+    "physicalDevices": {
+      "status": "pending",
+      "notes": "Emulation is not physical-device or assistive-technology acceptance."
+    },
+    "classroomProtocol": {
+      "status": "not-applicable",
+      "notes": "Virtual-only activity; no physical protocol supplied."
+    }
+  },
+  "history": [
+    {
+      "event": "Separate review corrected visual alignment/arrow/target/label issues and source generalizations; initial incorrect test assertion and unrelated occupied test ports retained.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/initial-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/glucose-feedback/browser-tests.txt"
+      ]
+    }
+  ],
+  "decision": "pass",
+  "summary": "Development review passed for two distinct hormone/receptor/glucose-transport feedback examples with explicit arbitrary data and basal release. Corrected scientific-source generalizations and actual visual defects; external comprehension/devices/translation/release acceptance remains separate.",
+  "blockers": []
+}

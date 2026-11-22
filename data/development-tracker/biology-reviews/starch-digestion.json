@@ -1,0 +1,318 @@
+{
+  "schemaVersion": 1,
+  "labId": "starch-digestion",
+  "taskId": "BIO-20-REVIEW",
+  "reviewedBy": "Codex - separate development review",
+  "reviewedOn": "2026-11-15",
+  "sourceSnapshot": "sha256:4fc46174ad82528e9c1c67cae637a2151b392cd1411eb980d9ef2283524441a8",
+  "checks": {
+    "G01": {
+      "status": "pass",
+      "notes": "Three goals pair matched control evidence, molecular/iodine-test limits, and digestive locations versus absorption with original writing.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/build-brief.md",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/complete-responses.json"
+      ]
+    },
+    "G02": {
+      "status": "pass",
+      "notes": "Four2×2 conditions plus two indicator references have distinct causal/test roles; one shared5-minute interval and supplied matched preparations, no default triple trials or independent biological-sample claim.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/build-brief.md",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/review-notes.md"
+      ]
+    },
+    "G03": {
+      "status": "pass",
+      "notes": "OpenStax34.3/6.5 and UMD amylase introduction/iodine/sampling/control text checked; internal hydrolysis/regenerated enzyme, pH-conditioned action and location distinctions consistent. Chosen qualitative outcomes not calibration.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/final-model-tests.txt"
+      ]
+    },
+    "G04": {
+      "status": "pass",
+      "notes": "Supplied qualitative time/outcomes, stopped/common assay pH, detection/product/rate/optimum limits, variable acid effects, short acid-only assumption and enlarged straight segment explicit. No physical protocol.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/review-notes.md"
+      ]
+    },
+    "G05": {
+      "status": "pass",
+      "notes": "Place enzyme on actual link, inspect binding then hydrolysis, make matched tube additions, transfer own portions to assay well, add indicator/classify each result and place digestive cards at organs/surface.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/molecule-bound.png",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/n-plus-added.png",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/n-plus-loaded.png",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/n-plus-portion.png",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/n-plus-tested.png",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/route-after.png"
+      ]
+    },
+    "G06": {
+      "status": "pass",
+      "notes": "Initial/bound/split molecular and tube initial/addition/sampler/portion/positive-negative states inspected. Corrected holder supports, caption overlap and terminalOH; original shaded glass/protein/wells and schematic organ path. Short phone site names preserve structures.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/visual-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/visual-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/visual-contact-3.png",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/visual-contact-4.png",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/visual-contact-5.png"
+      ]
+    },
+    "G07": {
+      "status": "pass",
+      "notes": "Stable seeded response/card banks, biologically meaningful organ/pH identities retained. Both positive/negative appearances must be read; no color-to-glucose answer cue.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/final-browser-tests.txt"
+      ]
+    },
+    "G08": {
+      "status": "pass",
+      "notes": "All authored UI/feedback/labels/resources/report wording reviewed; substrate/active site/hydrolysis/indicator/assay/lumen/brush border defined. Removed unnecessary student bond-type label, diagnostic grade7.1/10.1words only.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/reading-screen.json",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/review-notes.md"
+      ]
+    },
+    "G09": {
+      "status": "pass",
+      "notes": "First reasoning before molecular/test evidence; bound enzyme before split; both references before reaction setup; all additions before one interval; stopped portion before iodine; all current records/routes before concepts/completion. Immediate gates tested.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/current-status-followup-tests.txt"
+      ]
+    },
+    "G10": {
+      "status": "pass",
+      "notes": "Explicit Correct!/Try again gives explanatory corrections. Wrong/empty observations/routes persist unconfirmed; immediate sample-summary checked label cleared on edit.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/reference-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/route-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/route-edited.pdf",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/edited-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/current-status-followup-tests.txt"
+      ]
+    },
+    "G11": {
+      "status": "pass",
+      "notes": "Successful/repeated/reloaded local save, denied storage/retry, identity versus academic edits actually checked; no grade/submission claim.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/final-browser-tests.txt"
+      ]
+    },
+    "G12": {
+      "status": "pass",
+      "notes": "Scoped versioned attempts retain first plan, binding/split, own additions/portions/results/corrections and raw edits. View-only review preserves completion and single interval; route confirmation invalidated by underlying edits.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/edited-unconfirmed.pdf"
+      ]
+    },
+    "G13": {
+      "status": "pass",
+      "notes": "Actual named/unnamed complete/draft PDF download and native print, optional name/period, safe filenames and local readable date/time/PST verified.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/draft.pdf",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/native-print.pdf"
+      ]
+    },
+    "G14": {
+      "status": "pass",
+      "notes": "Human report groups first reasoning, molecular evidence, preparations/current classifications/source/status, limited test claims, digestive placements, goal writing/concepts and limits. No click log/autograde.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/complete-responses.json"
+      ]
+    },
+    "G15": {
+      "status": "pass",
+      "notes": "All61 current pages inspected, including10 cross-lab pagination pages. Actual orphaned prompt detected and shared PDF guard verified; long answers break normally, Unicode/final markers and common snapshot/offline/recovery pass.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/pdf-inspection.json",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/pdf-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/pdf-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/pdf-contact-3.png",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/pdf-contact-4.png",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/pdf-contact-5.png",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/pdf-contact-6.png",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/pdf-contact-7.png",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/pdf-contact-8.png",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/pagination-diagnostic.txt",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/pagination-corrected.txt",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.md",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.md"
+      ]
+    },
+    "G16": {
+      "status": "pass",
+      "notes": "Native molecule drag-release-nextphysical actions/iodine focus, keyboard sampler, mouse drag,44px targets with exact phone/tablet centers after scroll/resize, reduced motion/no overflow pass. External hardware/AT pending.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/focused-native-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/phone-route.png",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/tablet-route.png",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/phone-reaction-tested.png"
+      ]
+    },
+    "G17": {
+      "status": "pass",
+      "notes": "Initial30 model cases;42 selected shared model/report cases; final six focused starch and six browser workflows; final immediate-status focused case pass.79 resources and standalone/private platform builds validated.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/initial-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/current-status-followup-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/standalone-build.txt",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/platform-build.txt"
+      ]
+    },
+    "G18": {
+      "status": "pass",
+      "notes": "Stable condition/route/check/goal IDs and English version/locale; original responses preserved. AUD-10 native selection/translated print remains future, no Spanish approval.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/review-notes.md"
+      ]
+    },
+    "RESOURCES": {
+      "status": "pass",
+      "notes": "Current student3/teacher2 PDFs contain actual prompts, six-row evidence table and science/model limits. Every page/prompt/hash and catalog download verified; Python build-time only.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/pdf-contact-1.png"
+      ]
+    },
+    "ACCESS": {
+      "status": "pass",
+      "notes": "Guest/free complete pathway and reports/offline work without account; existing paid/staff/publication policies preserved. Private36-lab runtime compiled without deployment.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/platform-build.txt"
+      ]
+    },
+    "TRACKING": {
+      "status": "pass",
+      "notes": "Actual English availability/resources/animal-structure-function route updated, curriculum/tracker validated. Standards/Spanish approvals unchanged, shared copies refreshed after individual review acceptance.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/build-brief.md",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/review-notes.md"
+      ]
+    }
+  },
+  "artifacts": {
+    "workflow": [
+      "data/development-tracker/biology-reviews/evidence/starch-digestion/build-brief.md",
+      "data/development-tracker/biology-reviews/evidence/starch-digestion/review-notes.md",
+      "data/development-tracker/biology-reviews/evidence/starch-digestion/reading-screen.json",
+      "data/development-tracker/biology-reviews/evidence/starch-digestion/complete-responses.json",
+      "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.md",
+      "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.json",
+      "data/development-tracker/biology-reviews/evidence/starch-digestion/source-manifest.json"
+    ],
+    "visuals": [
+      "data/development-tracker/biology-reviews/evidence/starch-digestion/visual-contact-1.png",
+      "data/development-tracker/biology-reviews/evidence/starch-digestion/visual-contact-2.png",
+      "data/development-tracker/biology-reviews/evidence/starch-digestion/visual-contact-3.png",
+      "data/development-tracker/biology-reviews/evidence/starch-digestion/visual-contact-4.png",
+      "data/development-tracker/biology-reviews/evidence/starch-digestion/visual-contact-5.png",
+      "data/development-tracker/biology-reviews/evidence/starch-digestion/phone-route.png",
+      "data/development-tracker/biology-reviews/evidence/starch-digestion/tablet-route.png",
+      "data/development-tracker/biology-reviews/evidence/starch-digestion/molecule-bound.png"
+    ],
+    "pdfReports": [
+      "data/development-tracker/biology-reviews/evidence/starch-digestion/complete.pdf",
+      "data/development-tracker/biology-reviews/evidence/starch-digestion/draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/starch-digestion/development-draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/starch-digestion/reference-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/starch-digestion/unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/starch-digestion/route-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/starch-digestion/route-edited.pdf",
+      "data/development-tracker/biology-reviews/evidence/starch-digestion/edited-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/starch-digestion/long-offline.pdf",
+      "data/development-tracker/biology-reviews/evidence/starch-digestion/pagination-body-heat.pdf",
+      "data/development-tracker/biology-reviews/evidence/starch-digestion/pagination-fungal-structures.pdf",
+      "data/development-tracker/biology-reviews/evidence/starch-digestion/pagination-legacy-enzyme.pdf",
+      "data/development-tracker/biology-reviews/evidence/starch-digestion/pdf-inspection.json"
+    ],
+    "nativePrint": [
+      "data/development-tracker/biology-reviews/evidence/starch-digestion/native-print.pdf",
+      "data/development-tracker/biology-reviews/evidence/starch-digestion/long-native-print.pdf"
+    ],
+    "tests": [
+      "data/development-tracker/biology-reviews/evidence/starch-digestion/model-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-model-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/starch-digestion/final-model-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/starch-digestion/initial-browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/starch-digestion/final-browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/starch-digestion/current-status-followup-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/starch-digestion/resource-check.txt",
+      "data/development-tracker/biology-reviews/evidence/starch-digestion/standalone-build.txt",
+      "data/development-tracker/biology-reviews/evidence/starch-digestion/platform-build.txt",
+      "data/development-tracker/biology-reviews/evidence/starch-digestion/pagination-corrected.txt",
+      "data/development-tracker/biology-reviews/evidence/starch-digestion/pagination-heat-check.txt",
+      "data/development-tracker/biology-reviews/evidence/starch-digestion/pagination-fungal-check.txt"
+    ],
+    "resources": [
+      "public/resources/starch-digestion-worksheet.pdf",
+      "public/resources/starch-digestion-teacher-guide.pdf"
+    ]
+  },
+  "externalValidation": {
+    "teacherStudentComprehension": {
+      "status": "pending",
+      "notes": "Not performed; development checks do not establish classroom comprehension."
+    },
+    "physicalDevices": {
+      "status": "pending",
+      "notes": "Emulation is not physical-device or assistive-technology acceptance."
+    },
+    "classroomProtocol": {
+      "status": "not-applicable",
+      "notes": "Virtual-only activity; no physical protocol supplied."
+    }
+  },
+  "history": [
+    {
+      "date": "2026-11-15T16:52:58.574Z",
+      "decision": "changes-required",
+      "notes": "Initial browser5/6: final mouse coordinate drag was outside viewport; scroll correction makes focused native case pass. Separate visual review requested explicit bound-enzyme intermediate before hydrolysis, support feet meeting bench and removal of overlapping brush-border caption. No empirical rate/product claim added."
+    },
+    {
+      "date": "2026-11-15T16:55:27.412Z",
+      "decision": "changes-required",
+      "notes": "Separate phone review found long brush-border target label covering too much of inset. Shortened displayed site names while preserving full accessible labels, defined assay, moved terminalOH off glucose symbol and removed unnecessary α-1,4 label from student diagram (precise teacher note retained)."
+    },
+    {
+      "date": "2026-11-15T16:59:18.881Z",
+      "decision": "changes-required",
+      "notes": "Actual complete PDF page2 ended with the first evidence prompt while its answer began page3. Shared PDF engine now requests a page break before a response prompt when its matching answer has no line on that page; long answers remain breakable. Needs actual PDF regression and cross-lab follow-up."
+    }
+  ],
+  "decision": "pass",
+  "summary": "Development review passed after adding bound-enzyme state, correcting phone/apparatus labels and immediate observation status, and fixing a shared actual-PDF orphaned-question defect. Qualitative control/indicator limits explicit; external classroom/device/AT/translation/release acceptance remains separate.",
+  "blockers": [],
+  "followups": [
+    {
+      "id": "shared-scientific-symbols-2026-11-15",
+      "recordedAt": "2026-11-15T18:31:00.212Z",
+      "scope": "Shared offline scientific-symbol glyph fallback only; original source snapshot/history unchanged. Representative new/old outputs and legacy wrappers validated, not full rerun of this lab.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.md",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.json",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/glyph-all-artifacts.txt"
+      ]
+    }
+  ]
+}

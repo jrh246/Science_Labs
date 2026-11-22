@@ -1,0 +1,37 @@
+✔ key requires first plan and current checked observations before constructing/testing (1.8523ms)
+✔ key rejects empty branches without destroying current choices and accepts every separating tree (19.6054ms)
+✔ key model-selected cards keep stable identities, actual wrong route attempts and distinct endpoint coverage (2.5044ms)
+✖ key branch revision archives earlier versions and tests while requiring current coverage (6.8325ms)
+✔ key changed observation remains unconfirmed through reload without discarding current key or first work (0.9035ms)
+✔ key learning report retains actual tree/routes, Unicode, human source labels and truthful completion (1.0135ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 5
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 111.6017
+
+✖ failing tests:
+
+test at tests\key.test.js:9:1
+✖ key branch revision archives earlier versions and tests while requiring current coverage (6.8325ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(studentReportText(keyReport(s)).includes('Earlier-version test work'))
+  
+      at TestContext.<anonymous> (file:///C:/Projects/Science_Labs/tests/key.test.js:9:630)
+      at Test.runInAsyncScope (node:async_hooks:228:14)
+      at Test.run (node:internal/test_runner/test:1118:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:787:18)
+      at Test.postRun (node:internal/test_runner/test:1247:19)
+      at Test.run (node:internal/test_runner/test:1175:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:787:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

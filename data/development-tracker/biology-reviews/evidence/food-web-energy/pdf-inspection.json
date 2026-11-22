@@ -1,0 +1,125 @@
+[
+  {
+    "file": "public/resources/food-web-energy-teacher-guide.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      2785,
+      2418
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "public/resources/food-web-energy-worksheet.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1839,
+      1517,
+      2103
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/food-web-energy/budget-unconfirmed.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      1919,
+      2242
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/food-web-energy/complete.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1909,
+      3961,
+      3077
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/food-web-energy/development-draft.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      1290,
+      2195
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/food-web-energy/draft.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      1280,
+      2195
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/food-web-energy/edited-unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1720,
+      4209,
+      2762
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/food-web-energy/feeding-unconfirmed.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      1621,
+      2195
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/food-web-energy/long-native-print.pdf",
+    "pages": 7,
+    "pageCharacters": [
+      1791,
+      3648,
+      837,
+      837,
+      837,
+      1386,
+      1105
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/food-web-energy/long-offline.pdf",
+    "pages": 7,
+    "pageCharacters": [
+      1718,
+      3766,
+      905,
+      905,
+      905,
+      1017,
+      1796
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/food-web-energy/native-print.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1875,
+      3401,
+      3443
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/food-web-energy/transfer-unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1911,
+      1651,
+      1204
+    ],
+    "finalLongMarker": false
+  }
+]

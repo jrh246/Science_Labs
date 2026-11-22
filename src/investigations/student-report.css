@@ -10,7 +10,7 @@
  .student-report-print h1{font-size:23pt;line-height:1.15;margin:0 0 12pt}
  .student-report-print h1,.student-report-print h2,.student-report-print h3{letter-spacing:normal;text-transform:none}
  .student-report-print h2{font-size:14pt;margin:16pt 0 7pt;break-after:avoid}
- .student-report-print h3{font-size:10pt;margin:0 0 4pt;break-after:avoid}
+ .student-report-print h3{font-size:10pt;margin:0 0 4pt;break-after:avoid;break-inside:avoid;page-break-inside:avoid}
  .student-report-print .short-response{break-inside:avoid}
  .student-report-print .student-report-sample-summary{break-inside:avoid}
  .student-report-print p{white-space:pre-wrap;overflow-wrap:anywhere;margin:0 0 7pt;line-height:inherit;color:inherit;orphans:3;widows:3}

@@ -1,0 +1,266 @@
+{
+  "schemaVersion": 1,
+  "labId": "muscle-levers",
+  "taskId": "BIO-24-REVIEW",
+  "reviewedBy": "Codex - separate development review",
+  "reviewedOn": "2026-11-15",
+  "sourceSnapshot": "sha256:3ee66e6510489f0ca065ef4a2ab3e168292f3d4c10f05aacbfdd371f73ea64f6",
+  "checks": {
+    "G01": {
+      "status": "pass",
+      "notes": "Three goals assess torque calculation, matched attachment-distance comparison, and muscle/tendon biological interpretation with original reasoning.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/build-brief.md",
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/complete-responses.json"
+      ]
+    },
+    "G02": {
+      "status": "pass",
+      "notes": "One balance at2cm and4cm adds a variable comparison; second matched load provided, search pulls not independent biological samples or default three trials.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/review-notes.md"
+      ]
+    },
+    "G03": {
+      "status": "pass",
+      "notes": "OpenStax torque/muscle/tendon sources read; F×perpendicular distance, pivot reaction, constrained angle-lock role, pull/opposing muscles and fixed actual insertion distinctions checked.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/final-model-tests.txt"
+      ]
+    },
+    "G04": {
+      "status": "pass",
+      "notes": "Ideal generic lever/own weight/friction/angles/dynamics omissions, direction-only arrows and no strength/safety/population/energy result explicit near model and reports.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/review-notes.md"
+      ]
+    },
+    "G05": {
+      "status": "pass",
+      "notes": "Direct load/cable hook placements, native adjustable pull and visible sensor/tendency response, read/calculate two checked balances and original explanations align with goals.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/visual-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/visual-contact-2.png"
+      ]
+    },
+    "G06": {
+      "status": "pass",
+      "notes": "Original wood/metal/cable/sensor apparatus with shared physical hook geometry inspected; fixed missing support, explicit lock and overlapping/long labels in current11 states.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/visual-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/visual-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/visual-contact-3.png",
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/label-followup-tests.txt"
+      ]
+    },
+    "G07": {
+      "status": "pass",
+      "notes": "Meaningful physical order/distance retained; seeded concept bank, unsuccessful adjustment/current blank/wrong evidence preserved without positional answer decoration.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/near-unconfirmed.pdf"
+      ]
+    },
+    "G08": {
+      "status": "pass",
+      "notes": "Full student pathway/report/resources manually read, first-use physical terms/conversion/reaction force defined; diagnostic grade6.4/11words only.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/reading-screen.json",
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/review-notes.md"
+      ]
+    },
+    "G09": {
+      "status": "pass",
+      "notes": "First plan before setup/test; current balance required per setting; pull edits revoke current test/confirmation and immediately disable record/next; entry edits revoke next through UI/model/reload.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/edited-unconfirmed.pdf"
+      ]
+    },
+    "G10": {
+      "status": "pass",
+      "notes": "Correct! with force/distance reason; unbalanced tendency and Try again explain errors, current wrong/blank readings/calculations remain unconfirmed and meaningful correction retained.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/near-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/far-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/edited-unconfirmed.pdf"
+      ]
+    },
+    "G11": {
+      "status": "pass",
+      "notes": "Truthful successful/repeated/reloaded completion and denied save/retry, identity preserves completion while academic/pull edits revoke it.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/final-browser-tests.txt"
+      ]
+    },
+    "G12": {
+      "status": "pass",
+      "notes": "Versioned scoped first plan, settings/current force/test/search attempts/entry corrections persist; view-only review preserves completion, edits retain other setting evidence.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/complete-responses.json"
+      ]
+    },
+    "G13": {
+      "status": "pass",
+      "notes": "Actual named/neutral PDFs and native print, optional name/period and standard local date/time/PST verified.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/draft.pdf",
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/native-print.pdf"
+      ]
+    },
+    "G14": {
+      "status": "pass",
+      "notes": "Human report groups chosen apparatus, current tested tendency, student reading/calculation, informative adjustment/feedback summary and original reasoning/concepts/limits; no click log or mastery claim.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/edited-unconfirmed.pdf"
+      ]
+    },
+    "G15": {
+      "status": "pass",
+      "notes": "All40 current pages inspected; current completed prompt/answer starts and scientific glyph/source-text parity, long first-offline and native final marker, current wrong/draft status verified.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/pdf-inspection.json",
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/pdf-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/pdf-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/pdf-contact-3.png",
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/pdf-contact-4.png",
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/pdf-contact-5.png",
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/pagination-check.txt",
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/glyph-check.txt",
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/glyph-all.txt"
+      ]
+    },
+    "G16": {
+      "status": "pass",
+      "notes": "Native drag-release-nexttap/cable focus, range/keyboard, resized mouse,44px phone/tablet hooks/no overflow/reduced motion pass; hardware/AT acceptance separate.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/label-followup-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/visual-contact-3.png"
+      ]
+    },
+    "G17": {
+      "status": "pass",
+      "notes": "14 selected model/report/font and6 browser cases pass;2 label follow-up workflows pass;87 resource PDFs and current private runtime compile verified.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/initial-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/label-followup-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/platform-build.txt"
+      ]
+    },
+    "G18": {
+      "status": "pass",
+      "notes": "Stable English setting/goal/question IDs and original responses preserved, future AUD-10 native app and printable translations not claimed implemented.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/review-notes.md"
+      ]
+    },
+    "RESOURCES": {
+      "status": "pass",
+      "notes": "Teacher2/student3 current resources from shared content, blank balance table and relevant limits;87 current prompt/link/hash checks and all pages reviewed.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/pdf-contact-1.png"
+      ]
+    },
+    "ACCESS": {
+      "status": "pass",
+      "notes": "Guest/free direct access, PDF/nativeprint/offline remain account-free. Existing paid/staff/publishing policy retained; private compile only.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/platform-build.txt"
+      ]
+    },
+    "TRACKING": {
+      "status": "pass",
+      "notes": "Actual English implementation/resources/catalog and curriculum/tracker regenerated; standards, translations, course completion and release remain separate.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/build-brief.md"
+      ]
+    }
+  },
+  "artifacts": {
+    "workflow": [
+      "data/development-tracker/biology-reviews/evidence/muscle-levers/build-brief.md",
+      "data/development-tracker/biology-reviews/evidence/muscle-levers/review-notes.md",
+      "data/development-tracker/biology-reviews/evidence/muscle-levers/reading-screen.json",
+      "data/development-tracker/biology-reviews/evidence/muscle-levers/complete-responses.json",
+      "data/development-tracker/biology-reviews/evidence/muscle-levers/source-manifest.json"
+    ],
+    "visuals": [
+      "data/development-tracker/biology-reviews/evidence/muscle-levers/visual-contact-1.png",
+      "data/development-tracker/biology-reviews/evidence/muscle-levers/visual-contact-2.png",
+      "data/development-tracker/biology-reviews/evidence/muscle-levers/visual-contact-3.png"
+    ],
+    "pdfReports": [
+      "data/development-tracker/biology-reviews/evidence/muscle-levers/complete.pdf",
+      "data/development-tracker/biology-reviews/evidence/muscle-levers/draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/muscle-levers/long-offline.pdf",
+      "data/development-tracker/biology-reviews/evidence/muscle-levers/near-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/muscle-levers/far-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/muscle-levers/edited-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/muscle-levers/development-draft.pdf"
+    ],
+    "nativePrint": [
+      "data/development-tracker/biology-reviews/evidence/muscle-levers/native-print.pdf",
+      "data/development-tracker/biology-reviews/evidence/muscle-levers/long-native-print.pdf"
+    ],
+    "tests": [
+      "data/development-tracker/biology-reviews/evidence/muscle-levers/final-model-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/muscle-levers/final-browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/muscle-levers/label-followup-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/muscle-levers/pagination-check.txt",
+      "data/development-tracker/biology-reviews/evidence/muscle-levers/glyph-check.txt",
+      "data/development-tracker/biology-reviews/evidence/muscle-levers/glyph-all.txt",
+      "data/development-tracker/biology-reviews/evidence/muscle-levers/resource-check.txt",
+      "data/development-tracker/biology-reviews/evidence/muscle-levers/platform-build.txt"
+    ],
+    "resources": [
+      "public/resources/muscle-levers-worksheet.pdf",
+      "public/resources/muscle-levers-teacher-guide.pdf"
+    ]
+  },
+  "externalValidation": {
+    "teacherStudentComprehension": {
+      "status": "pending",
+      "notes": "Not performed; development checks do not establish classroom comprehension."
+    },
+    "physicalDevices": {
+      "status": "pending",
+      "notes": "Emulation is not physical-device or assistive-technology acceptance."
+    },
+    "classroomProtocol": {
+      "status": "not-applicable",
+      "notes": "Virtual-only activity; no physical protocol supplied."
+    }
+  },
+  "history": [
+    {
+      "event": "Separate review corrected missing top cable support, explicit locking mechanics and label geometry; recaptured current states and verified affected interactions.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/muscle-levers/label-followup-tests.txt"
+      ]
+    }
+  ],
+  "decision": "pass",
+  "summary": "Development review passed for direct ideal arm-lever setup, adjustable force search, two matched balance calculations and explicit muscle/tendon limits. Corrected missing cable support, lock explanation and real visual label issues. External classroom/devices/translations/release remain separate.",
+  "blockers": []
+}

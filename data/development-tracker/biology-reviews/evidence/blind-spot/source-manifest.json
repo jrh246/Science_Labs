@@ -1,0 +1,33 @@
+{
+  "capturedAt": "2026-11-15T18:31:00.500Z",
+  "scope": "Actual reviewed working-tree files; unrelated changes and previous student attempts preserved.",
+  "files": {
+    "src/investigations/blind-content.js": "23fdabdf98867a295a93315d00193a3e3ff86c6f528b4d97cbee903e3e366671",
+    "src/investigations/blind-model.js": "934be9a7057037ffb273bf82b39dde4b852646ac3125c85b3f3786e541f6f159",
+    "src/investigations/blind-art.js": "a5217b52cfba1e1d6106104a1afd0dffb6749e28f853694e1ca33ce5984ceab0",
+    "src/investigations/blind-report.js": "6c400460ee0d7a57d8daac206953f6ac49e68465bcbf7531ba46267311ac5443",
+    "src/investigations/blind-app.js": "44070146e0feb6b8fc350a9f65d014e708f709bb2698b29550034f457aab2ab1",
+    "src/investigations/blind.css": "beb18b1ece780d529c2d22fc9c514d1358e089c189b533c9c06ebc7e85ea0ba6",
+    "tests/blind.test.js": "2ea225a72ce37e79aed7756323c5971a7f896b469a69af19f7cf0967c076f563",
+    "tests/browser/blind.spec.js": "1d831ebfe65d636133eef38c4cb1b6d3314421dc6b65515c9b3f1e147ae35129",
+    "src/investigations/guided-lab-shell.js": "7718d1ab83d65ac8551b25323338c5c2bb4c73afc988331f3c29b767a9abc55f",
+    "src/investigations/student-report.js": "5cdec89cf015cada33fbf14585705605f2a33f90d84aa0ebb248ab6c0d0d5ca0",
+    "src/investigations/lab-report-pdf.js": "d3313db4efc5086da99bbd244ba4ceada0c2a37351ef0b4d67255b76d4f20d4c",
+    "src/investigations/report-text-fonts.js": "65a629f92f229d61f23f43e0ef11a14422c80d638a2b94588ea5e4ce1463a051",
+    "src/investigations/report-symbol-font.js": "815c0cb83b85b20f428e8866eb6a61bf87807dc94387e74f9a72844aabcab4a9",
+    "src/assets/fonts/DejaVuSans.ttf": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+    "public/licenses/dejavu-fonts.txt": "d75938dec098f06f0ac3c00853065d94f020be1c3c62ef1dc2975ba15b4d9b0e",
+    "tests/report-fonts.test.js": "9d2a59dfa3083e9db4c012d519228e7d5eab2089af89153f5677009c954eab2a",
+    "scripts/build-report-symbol-font.mjs": "7a50e56cd1efe0e7aba38801798866aa0c3ee8d0005d72470014d8a0cb690545",
+    "scripts/verify-report-glyphs.py": "162a5d1dc2208a31d2425c1ecea25ce2aebbcefdbae41235a3aad356ffe9e1ba",
+    "scripts/verify-report-pagination.py": "c39ae3bbc0141112aa1425d7812c0e1f709ae43ba7709c5ed204fef398e70344",
+    "REPORT_FONT_ASSETS.md": "26407c4607520edf8626ade978c7a433d6df0aa12c5b633143d561e4a17bdb8b",
+    "LAB_DESIGN_GUIDE.md": "30880f9cd2c128d5e87d536eb648170a762861caa3b213f738fe0e977c0b2af7",
+    "src/catalog.js": "940525e972a50e6a3a7bb6b3ecdfe9a6fbd43645dfe25209b8b8c9c52c455ae2",
+    "src/investigations/app.js": "02a6d9c9e88c31d76afa12375e58eb9506b205bac8462734a7feb89e19dfb638",
+    "scripts/build-biology-resources.py": "6c950c857ccc7a5903363b9742922ded31cb0624974d20199567df30a3b01546",
+    "scripts/verify-resources.py": "a6bfafde1b8bd14d8aa6eda935d1e71ad82c75abb0cde0ed48c585ccaaef64fc",
+    "public/resources/blind-spot-worksheet.pdf": "201dc2d9b8496cfc65f57e6b82348f5ef9a319fc6056c24c2a99751c9e02be34",
+    "public/resources/blind-spot-teacher-guide.pdf": "7459477ab2358fadf05479b6024ac4643fb92baa3c62e996df4085451816785e"
+  }
+}

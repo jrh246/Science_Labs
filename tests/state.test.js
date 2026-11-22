@@ -1,9 +1,9 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {labConfig as c} from '../src/data/labConfig.js';
-import {freshState,advance,correct,difference,restore,createExperimentRun,trendValid} from '../src/state.js';
+import {freshState,advance,correct,difference,restore,createExperimentRun,trendValid,recordPrediction} from '../src/state.js';
 test('five matching setups and deterministic masses',()=>{assert.deepEqual(c.beakers.map(b=>b.id),['A','B','C','D','E']);assert.deepEqual(c.tubes.map(t=>[t.id,t.initialMass,t.baselineFinalMass]),[['A',17.59,17.66],['B',8.75,10.40],['C',11.24,12.10],['D',10.71,10.57],['E',18.05,15.60]]);});
-test('time requires every tube',()=>{const s=freshState();assert.equal(advance(s),false);s.placed={A:true,B:true,C:true,D:true};assert.equal(advance(s),false);s.placed.E=true;assert.equal(advance(s),true);});
+test('time requires every tube',()=>{const s=freshState();assert.equal(advance(s),false);s.placed={A:true,B:true,C:true,D:true};assert.equal(advance(s),false);s.placed.E=true;assert.equal(advance(s),false);s.prediction='Water moves toward more sugar.';recordPrediction(s);assert.equal(advance(s),true);});
 test('signed subtraction and tolerance',()=>{assert.equal(difference(createExperimentRun(()=>0.5)[4]),-2.45);assert.ok(correct(createExperimentRun(()=>0.5),'E',-2.44));assert.ok(!correct(createExperimentRun(()=>0.5),'E',2));assert.ok(!correct(createExperimentRun(()=>0.5),'C',''));});
 test('saved progress restores; reset and corrupt saves start fresh',()=>{const s=freshState();s.prepared.A=true;assert.deepEqual(restore(JSON.stringify({version:2,state:s})),s);assert.equal(restore('invalid').step,0);assert.equal(restore(JSON.stringify({version:2,state:{...s,step:6}})).step,0);assert.equal(freshState().step,0);});
 

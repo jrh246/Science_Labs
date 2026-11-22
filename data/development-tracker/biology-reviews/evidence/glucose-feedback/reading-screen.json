@@ -1,0 +1,86 @@
+{
+  "labId": "glucose-feedback",
+  "locale": "en",
+  "scope": "Authored core directions/questions; excludes teacher notes, sources and student writing. Dynamic app/diagram/report wording is reviewed manually.",
+  "method": "Approximate Flesch-Kincaid with heuristic syllable counts and explicit scientific-word exceptions. Short fragments and technical terms can distort the score; no pass/fail or language certification.",
+  "overall": {
+    "words": 657,
+    "sentences": 59,
+    "wordsPerSentence": 11.1,
+    "approximateFleschKincaidGrade": 7.5
+  },
+  "fragments": {
+    "intro": {
+      "words": 76,
+      "sentences": 7,
+      "wordsPerSentence": 10.9,
+      "approximateFleschKincaidGrade": 5.6
+    },
+    "prediction": {
+      "words": 33,
+      "sentences": 2,
+      "wordsPerSentence": 16.5,
+      "approximateFleschKincaidGrade": 8.7
+    },
+    "design": {
+      "words": 33,
+      "sentences": 2,
+      "wordsPerSentence": 16.5,
+      "approximateFleschKincaidGrade": 8
+    },
+    "controls": {
+      "words": 44,
+      "sentences": 4,
+      "wordsPerSentence": 11,
+      "approximateFleschKincaidGrade": 6.9
+    },
+    "sampling": {
+      "words": 36,
+      "sentences": 4,
+      "wordsPerSentence": 9,
+      "approximateFleschKincaidGrade": 5.9
+    },
+    "limits": {
+      "words": 168,
+      "sentences": 13,
+      "wordsPerSentence": 12.9,
+      "approximateFleschKincaidGrade": 8.6
+    },
+    "explanation:pathway": {
+      "words": 26,
+      "sentences": 2,
+      "wordsPerSentence": 13,
+      "approximateFleschKincaidGrade": 7.6
+    },
+    "explanation:movement": {
+      "words": 38,
+      "sentences": 4,
+      "wordsPerSentence": 9.5,
+      "approximateFleschKincaidGrade": 6.4
+    },
+    "explanation:feedback": {
+      "words": 31,
+      "sentences": 3,
+      "wordsPerSentence": 10.3,
+      "approximateFleschKincaidGrade": 7.5
+    },
+    "check:signal": {
+      "words": 56,
+      "sentences": 6,
+      "wordsPerSentence": 9.3,
+      "approximateFleschKincaidGrade": 6.6
+    },
+    "check:liver": {
+      "words": 58,
+      "sentences": 6,
+      "wordsPerSentence": 9.7,
+      "approximateFleschKincaidGrade": 8.9
+    },
+    "check:basal": {
+      "words": 58,
+      "sentences": 6,
+      "wordsPerSentence": 9.7,
+      "approximateFleschKincaidGrade": 9.5
+    }
+  }
+}

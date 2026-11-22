@@ -1,0 +1,98 @@
+[
+  {
+    "file": "public/resources/unknown-prokaryote-teacher-guide.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      2705,
+      2449
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "public/resources/unknown-prokaryote-worksheet.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1512,
+      1615,
+      2107
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/complete.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2016,
+      3019,
+      1447
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/development-draft.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1766,
+      1567,
+      1145
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/draft.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1756,
+      1567,
+      1145
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/long-native-print.pdf",
+    "pages": 6,
+    "pageCharacters": [
+      2136,
+      2107,
+      837,
+      837,
+      837,
+      2257
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/long-offline.pdf",
+    "pages": 7,
+    "pageCharacters": [
+      2019,
+      2302,
+      905,
+      905,
+      905,
+      1465,
+      1145
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/native-print.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2136,
+      3070,
+      1046
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/unknown-prokaryote/unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2002,
+      1567,
+      1145
+    ],
+    "finalLongMarker": false
+  }
+]

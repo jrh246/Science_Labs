@@ -1,0 +1,41 @@
+✔ blind first reasoning, current labels and both local-light comparisons gate observation data (2.7061ms)
+✔ blind own reports retain uncertain/no-gap outcomes without forcing physiological correctness (0.6072ms)
+✔ blind positions and screen contexts are distinct sampling, duplicates blocked and false cross-context brackets prevented (0.4176ms)
+✔ blind coarse bracketing and matched both-eye comparison use current reported fixation and context, not hidden target rules (0.3954ms)
+✔ blind supplied example loaded only once and source never relabeled as student perception (18.7785ms)
+✔ blind current raw perception revisions and inference edits invalidate stale completion but preserve positions/first reports (4.8863ms)
+✔ blind report preserves limits, current raw entries, revision meaning, identity Unicode and honest completion (2.5978ms)
+✔ reaction first reasoning and current pathway gate task; seeded variable wait bounded and stable (4.4707ms)
+✔ reaction early/wrong-method/duplicate/negative events never invent zero or extra valid data (0.4328ms)
+✔ reaction interrupted/reloaded pending clocks are excluded while prior valid observations and original plan remain (1.7972ms)
+✔ reaction statistics use three displayed rounded values, accept ties/zero range and prevent extra trials (2.5194ms)
+✔ reaction raw wrong/empty calculations and pathway edits invalidate current checks without deleting trials (32.4761ms)
+✔ reaction report retains actual browser source, exclusions, corrections, identity and honest not-graded completion (3.7145ms)
+✔ reaction fixed pointer type rejects a changed device type without inventing a value (2.4795ms)
+✔ reaction older recorded values retain unknown input detail without invented migration data (1.2671ms)
+✔ all 14 report pathways group actual evidence by learning goal across PDF, print, text and response data (31.2593ms)
+✔ feedback summaries describe actual revisions, retain raw checks and deduplicate repeat reviews (0.4746ms)
+✔ calculation summaries respect the actual tolerance check and older attempts expose unavailable history (1.6334ms)
+✔ incomplete learning evidence retains missing responses and never claims explanations were demonstrated (3.1385ms)
+✔ extraction reports summarize concepts and revisions while preserving attempts in structured data (5.6575ms)
+✔ classroom extraction evidence refers to the recorded claim and observations (0.6156ms)
+✔ starch prediction, molecular site and both reference checks gate reaction action (2.904ms)
+✔ starch two-by-two conditions need correct matched additions, one interval and separate stopped iodine portions (0.6571ms)
+✔ starch qualitative truth table distinguishes both pH-matched controls and indicator references (21.2081ms)
+✔ starch wrong/empty current observations and routes invalidate downstream evidence and remain across reload (1.6129ms)
+✔ starch completed view-only evidence does not repeat time/assays and meaningful concept corrections retained (1.4732ms)
+✔ starch report identity Unicode original writing and honest not-graded status survive restoration (2.5173ms)
+✔ all 14 reports preserve completed work and use a shared faithful PDF/print snapshot (27.6691ms)
+✔ partial reports never fill hidden observations or invent completed work (3.8274ms)
+✔ core reports retain mixed sources, unreached thresholds, student classifications and uncollected readings (1.7832ms)
+✔ extended reports retain measured estimates, cell products, source separation and draft classifications (0.9131ms)
+✔ osmosis identity restores without changing existing or legacy measurement data (0.5175ms)
+✔ reports escape student HTML, sanitize filenames, and preserve long answers verbatim (0.6076ms)
+ℹ tests 33
+ℹ suites 0
+ℹ pass 33
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 232.9488

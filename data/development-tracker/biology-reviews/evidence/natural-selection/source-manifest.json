@@ -1,0 +1,18 @@
+{
+  "capturedAt": "2026-11-15T10:13:07.134Z",
+  "scope": "Actual working-tree source hashes; unrelated edits preserved. Not a clean Git commit.",
+  "files": {
+    "src/investigations/selection-content.js": "f71d0f603cfd1eaf5fd225e023ce46b9ee6e03ad8ba9dcb325331f9ea192fa98",
+    "src/investigations/selection-model.js": "d356abfecf82619e07e4cbabe1414464120518802bfc37263ee4f54b50eaf8e4",
+    "src/investigations/selection-art.js": "b800256c2ec62e4bef01ca9ccd3e564c5a06349d267a993b4dde8ec76cad6294",
+    "src/investigations/selection-report.js": "9a8f213727311302a3fcbf2d382c234cac4203b18a308796abcec5593b0b746f",
+    "src/investigations/selection-app.js": "d909e2788be99916b594c6c57c01004cd1fbfd0ea180fc4ef8323d2d59c217c7",
+    "src/investigations/selection.css": "729718829dd76186b390d5c24ae3d01c4bcbbc4a032e4627f004c59a53004fb6",
+    "src/investigations/app.js": "ed71ae4d7bd6bc2d9acc24597f8934170d154fc25ed859220690b69794b59ab5",
+    "src/catalog.js": "0ff504539dbc64c33c1e7af721c1e5a9f427515472d47c6a6a614c44238980b3",
+    "tests/selection.test.js": "9659b95118127a475bb4c5e74bd0469c67fb6b858d73776506fc5d86a7c8af4e",
+    "tests/browser/selection.spec.js": "866057131ab2c71c90888a52f4e3471ef289803dd24a0b76a640a35ce18fd838",
+    "scripts/build-biology-resources.py": "3cb2aa23dad3462ed2fbf94ea6b40fc2405969dc9a4ae273a0f3438643a79f40",
+    "scripts/verify-resources.py": "4825a2442d1f8852c0cd29453762b45700981c90236daaa8535d2cdc71e3975e"
+  }
+}

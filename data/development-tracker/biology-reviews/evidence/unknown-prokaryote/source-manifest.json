@@ -1,0 +1,21 @@
+{
+  "capturedAt": "2026-11-15T12:02:44.868Z",
+  "scope": "Actual working tree; unrelated changes preserved.",
+  "files": {
+    "src/investigations/prok-content.js": "3e0abc040bd36ee90f113d30108eed5f1711deb92e4db151e78b06631bd0a0a0",
+    "src/investigations/prok-model.js": "34f08208f7e2a8c42c7dda25a45d73e77da36ba6225ae68c9848814f0585225f",
+    "src/investigations/prok-art.js": "cfcdca88d507aecffcbb6445e3eb2e378209cf90c25d87388bc9f47f020464fa",
+    "src/investigations/prok-report.js": "08e70a59204a7b98f10b7363fac448e62aac381f75d9f9be330a0e16cce005a3",
+    "src/investigations/prok-app.js": "6c562ba226b07ca4618af70e6a1dd7b7e5c3b4264e88aa53016c7fafe1efac82",
+    "src/investigations/prok.css": "b2ef6a7bbfcc5568cb34cf9940d2f23db5ad305038633bfdf852743bcfdea964",
+    "src/investigations/guided-lab-shell.js": "7718d1ab83d65ac8551b25323338c5c2bb4c73afc988331f3c29b767a9abc55f",
+    "src/investigations/app.js": "0dd7586db18eb81dac5609cdf2802b678805e3be621c95329ee20e0b0c9b932c",
+    "src/catalog.js": "4fa52801da6e932307f5fb9c4d07c03565d7042b9eaad611710ea55264bb249f",
+    "tests/prok.test.js": "1528d042e7904b474fb708f3348386e08ea67554b266fb0d09efdad692bfebc6",
+    "tests/browser/prok.spec.js": "6d89a82b7f8b83b6ab6d5348d3dd33c43c202d1a3d3705030cb315ff0217b274",
+    "scripts/build-biology-resources.py": "35d03900f42110eb9c08f71281bb8646e9fdaea75245cc2011cec13cd0fb916e",
+    "scripts/verify-resources.py": "84c47f093ba5297447ef2ebb5c079322a078f0506285d8afb32217206270166a",
+    "public/resources/unknown-prokaryote-worksheet.pdf": "7c404e96921d8273e1462623555978e88d3206516ac120a237719321b8f64ae9",
+    "public/resources/unknown-prokaryote-teacher-guide.pdf": "5f1ab27eff27de88d047d451d0021ef773d78ce08a27b5790e9c5fa7678ad62e"
+  }
+}

@@ -1,0 +1,331 @@
+{
+  "schemaVersion": 1,
+  "labId": "soil-water",
+  "taskId": "BIO-17-REVIEW",
+  "reviewedBy": "Codex - separate development review",
+  "reviewedOn": "2026-11-15",
+  "sourceSnapshot": "sha256:21d12d57bc76eea7c49a4eaed9048be91eb526ead8c06bf1b4b3fd80ea6d47f4",
+  "checks": {
+    "G01": {
+      "status": "pass",
+      "notes": "Controlled comparison, input/drainage/retention budget and root-availability distinction each have an observable/calculated product and separate original explanation.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/soil-water/build-brief.md",
+        "data/development-tracker/biology-reviews/evidence/soil-water/complete-responses.json"
+      ]
+    },
+    "G02": {
+      "status": "pass",
+      "notes": "One sand/loam/clay model each adds a composition contrast; no default triplicates or population-variation claim. Equal bulk core volumes/doses/initial moisture/support/endpoint explicit; prepacked cores streamline repetition.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/soil-water/build-brief.md",
+        "data/development-tracker/biology-reviews/evidence/soil-water/review-notes.md"
+      ]
+    },
+    "G03": {
+      "status": "pass",
+      "notes": "UC IPM and UMN soil-water sections plus both pages of NRCS Available Water Capacity text read. Pore/film retention, texture versus structure, drainage/availability distinction and conditional root limits checked; chosen volumes not empirical data.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/soil-water/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/soil-water/model-tests.txt"
+      ]
+    },
+    "G04": {
+      "status": "pass",
+      "notes": "Synthetic100cm³ cores/50mL pores,60mL dose, staged50+10 budget and final ideal free drainage explained. No real flow time/speed, field-capacity measurement, physical handling or wilting protocol. Tightly held amounts are separately supplied hypothetical tests.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/soil-water/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/soil-water/review-notes.md"
+      ]
+    },
+    "G05": {
+      "status": "pass",
+      "notes": "Students move collectors under real column outlets, add premeasured water at mouths, observe pore/collector change, read three menisci, calculate retention/availability and interpret enlarged pore/film/root paths.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/soil-water/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/soil-water/sand-addition.png",
+        "data/development-tracker/biology-reviews/evidence/soil-water/pore-after.png"
+      ]
+    },
+    "G06": {
+      "status": "pass",
+      "notes": "Original columns/supports/stand, glass collectors with correctly aligned menisci/ticks, pouring stream, different textures and water levels inspected in initial/intermediate/final states. Review fixed overlapping initial units and floating empty jug. Leader targets correspond to film, root-side water and leaving flow; phone/tablet reviewed.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/soil-water/visual-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/soil-water/visual-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/soil-water/visual-contact-3.png",
+        "data/development-tracker/biology-reviews/evidence/soil-water/pore-after.png"
+      ]
+    },
+    "G07": {
+      "status": "pass",
+      "notes": "Stable shuffled process/concept/rank choices avoid positional cues; numerical ranking follows recorded results. Particle/micro-model symbols not literal real texture fractions, clay visibility, root performance or sharp water compartments.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/soil-water/model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/soil-water/complete-responses.json"
+      ]
+    },
+    "G08": {
+      "status": "pass",
+      "notes": "Full authored directions, labels, dynamic feedback, reports and handouts reviewed. Texture, structure, pores, drainage, retention, bulk volume, meniscus, availability and field-capacity/wilting references explained. Diagnostic grade6.6/10.3 words per sentence is not comprehension certification.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/soil-water/reading-screen.json",
+        "data/development-tracker/biology-reviews/evidence/soil-water/review-notes.md"
+      ]
+    },
+    "G09": {
+      "status": "pass",
+      "notes": "Required first plan before tools; collector before dose; one endpoint before reading; current readings before retention; confirmed budget before separately supplied data; current availability and interpretations before concept/completion gates.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/soil-water/model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/soil-water/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/soil-water/availability-gate-followup-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/soil-water/availability-gate-edit.png",
+        "data/development-tracker/biology-reviews/evidence/soil-water/availability-gate-unconfirmed.pdf"
+      ]
+    },
+    "G10": {
+      "status": "pass",
+      "notes": "Explicit Correct!/Try again explains reading, subtraction, separate sources and water relationships. Wrong/empty raw entries and selections retained unconfirmed across export/reload, including edited completed work and meaningful corrections.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/soil-water/unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/soil-water/retention-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/soil-water/availability-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/soil-water/pore-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/soil-water/edited-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/soil-water/availability-edited.pdf"
+      ]
+    },
+    "G11": {
+      "status": "pass",
+      "notes": "Actual saved/repeated/reloaded completion and denied-write retry tested. Identity edits preserve completion; academic edits invalidate it with honest local-device confirmation.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/soil-water/final-browser-tests.txt"
+      ]
+    },
+    "G12": {
+      "status": "pass",
+      "notes": "Versioned root-scoped state preserves first plan, distinct core setup/endpoints, raw readings/calculations, histories, pore tags and original explanations. Viewing does not collect new samples or invalidate saved work; edits clear dependencies.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/soil-water/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/soil-water/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/soil-water/edited-unconfirmed.pdf"
+      ]
+    },
+    "G13": {
+      "status": "pass",
+      "notes": "Actual named/unnamed complete/draft PDF download and native print retain optional name/period, safe filenames, standard local date/time/PST and truthful unfinished status.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/soil-water/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/soil-water/draft.pdf",
+        "data/development-tracker/biology-reviews/evidence/soil-water/native-print.pdf"
+      ]
+    },
+    "G14": {
+      "status": "pass",
+      "notes": "Report groups controlled plan, student-read synthetic drainage/current budgets, separate supplied tightly held data, root-availability calculations, pore/concept interpretations and original goal writing. No click log, actual uptake claim, automated grade or authenticated submission.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/soil-water/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/soil-water/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/soil-water/availability-edited.pdf"
+      ]
+    },
+    "G15": {
+      "status": "pass",
+      "notes": "All49 current PDF pages inspected through seven sheets: worksheet3/teacher2, ordinary reports3 each, long exports7 each. Teacher heading grouped with first question after review; readable units/source tables, current unconfirmed entries, original Unicode/final long marker and no blank/cropped pages verified. Shared snapshot/offline/recovery contracts pass.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/soil-water/pdf-inspection.json",
+        "data/development-tracker/biology-reviews/evidence/soil-water/pdf-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/soil-water/pdf-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/soil-water/pdf-contact-3.png",
+        "data/development-tracker/biology-reviews/evidence/soil-water/pdf-contact-4.png",
+        "data/development-tracker/biology-reviews/evidence/soil-water/pdf-contact-5.png",
+        "data/development-tracker/biology-reviews/evidence/soil-water/pdf-contact-6.png",
+        "data/development-tracker/biology-reviews/evidence/soil-water/pdf-contact-7.png",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.md",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.md"
+      ]
+    },
+    "G16": {
+      "status": "pass",
+      "notes": "Actual native collector drag-release followed by physical dose taps, keyboard placement/focus, mouse dose after resize/scroll, phone44px separated pore targets, tablet and reduced motion pass. Equivalent display/diagram text supports small-screen access; real devices/AT pending.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/soil-water/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/soil-water/phone-pore.png",
+        "data/development-tracker/biology-reviews/evidence/soil-water/tablet-pore.png",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.json",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.md",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-native-focus-regressions.txt"
+      ]
+    },
+    "G17": {
+      "status": "pass",
+      "notes": "94 selected model/report checks passed initially; final six focused model cases and six browser workflows passed. 73 current resource PDFs and local standalone/private platform builds verified; compilation only.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/soil-water/model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/soil-water/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/soil-water/initial-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/soil-water/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/soil-water/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/soil-water/standalone-build.txt",
+        "data/development-tracker/biology-reviews/evidence/soil-water/platform-build.txt"
+      ]
+    },
+    "G18": {
+      "status": "pass",
+      "notes": "Stable soil/quantity/process/goal/check IDs and English version/locale retained; student writing verbatim. Native reviewed language switching and translated app/print delivery remain AUD-10, no Spanish claim.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/soil-water/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/soil-water/review-notes.md"
+      ]
+    },
+    "RESOURCES": {
+      "status": "pass",
+      "notes": "Worksheet3/teacher2 match actual prompts, water-budget/separate supplied-data table, numerical teaching interpretation and source/limit guidance. All pages/current prompts/hashes verified; only this lab regenerated. Python is build-time only.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/soil-water/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/soil-water/pdf-contact-1.png"
+      ]
+    },
+    "ACCESS": {
+      "status": "pass",
+      "notes": "Guest/free full lab and exports work without accounts; existing paid/staff/release policies preserved. Private33-lab runtime compiled without uploading/registering/publishing.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/soil-water/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/soil-water/platform-build.txt"
+      ]
+    },
+    "TRACKING": {
+      "status": "pass",
+      "notes": "Current plant-structure-function stable route and actual English/resource metadata updated; curriculum/tracker regenerated and validated. Standards/Spanish approvals unchanged; shared copy refreshed after review.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/soil-water/build-brief.md",
+        "data/development-tracker/biology-reviews/evidence/soil-water/review-notes.md"
+      ]
+    }
+  },
+  "artifacts": {
+    "workflow": [
+      "data/development-tracker/biology-reviews/evidence/soil-water/build-brief.md",
+      "data/development-tracker/biology-reviews/evidence/soil-water/review-notes.md",
+      "data/development-tracker/biology-reviews/evidence/soil-water/reading-screen.json",
+      "data/development-tracker/biology-reviews/evidence/soil-water/complete-responses.json",
+      "data/development-tracker/biology-reviews/evidence/soil-water/source-manifest.json"
+    ],
+    "visuals": [
+      "data/development-tracker/biology-reviews/evidence/soil-water/visual-contact-1.png",
+      "data/development-tracker/biology-reviews/evidence/soil-water/visual-contact-2.png",
+      "data/development-tracker/biology-reviews/evidence/soil-water/visual-contact-3.png",
+      "data/development-tracker/biology-reviews/evidence/soil-water/pore-after.png",
+      "data/development-tracker/biology-reviews/evidence/soil-water/phone-pore.png",
+      "data/development-tracker/biology-reviews/evidence/soil-water/tablet-pore.png"
+    ],
+    "pdfReports": [
+      "data/development-tracker/biology-reviews/evidence/soil-water/complete.pdf",
+      "data/development-tracker/biology-reviews/evidence/soil-water/draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/soil-water/development-draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/soil-water/unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/soil-water/retention-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/soil-water/availability-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/soil-water/pore-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/soil-water/edited-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/soil-water/availability-edited.pdf",
+      "data/development-tracker/biology-reviews/evidence/soil-water/long-offline.pdf",
+      "data/development-tracker/biology-reviews/evidence/soil-water/pdf-inspection.json"
+    ],
+    "nativePrint": [
+      "data/development-tracker/biology-reviews/evidence/soil-water/native-print.pdf",
+      "data/development-tracker/biology-reviews/evidence/soil-water/long-native-print.pdf"
+    ],
+    "tests": [
+      "data/development-tracker/biology-reviews/evidence/soil-water/model-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/soil-water/final-model-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/soil-water/initial-browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/soil-water/final-browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/soil-water/resource-check.txt",
+      "data/development-tracker/biology-reviews/evidence/soil-water/standalone-build.txt",
+      "data/development-tracker/biology-reviews/evidence/soil-water/platform-build.txt"
+    ],
+    "resources": [
+      "public/resources/soil-water-worksheet.pdf",
+      "public/resources/soil-water-teacher-guide.pdf"
+    ]
+  },
+  "externalValidation": {
+    "teacherStudentComprehension": {
+      "status": "pending",
+      "notes": "Not performed; development checks do not establish classroom comprehension."
+    },
+    "physicalDevices": {
+      "status": "pending",
+      "notes": "Emulation is not physical-device or assistive-technology acceptance."
+    },
+    "classroomProtocol": {
+      "status": "not-applicable",
+      "notes": "Virtual-only activity; no physical protocol supplied."
+    }
+  },
+  "history": [
+    {
+      "date": "2026-11-15T15:24:33.009Z",
+      "decision": "changes-required",
+      "notes": "Separate visual review of the actual initial/endpoint screenshots found an overlapping initial unit label and unsupported empty doser. Science, budgets and all six initial browser workflows passed."
+    },
+    {
+      "date": "2026-11-15T15:25:56.251Z",
+      "decision": "changes-required",
+      "notes": "Rendered teacher page1 orphaned the Concept checks heading. Grouped heading with the first question/answer, regenerated only current-lab resources and rechecked every page."
+    }
+  ],
+  "decision": "pass",
+  "summary": "Development review passed after correcting initial unit overlap, supporting the emptied jug and grouping a teacher heading. Distinct drainage/retention and separately estimated potential root availability verified with explicit synthetic-data limits; external acceptance remains separate.",
+  "blockers": [],
+  "followups": [
+    {
+      "id": "shared-touch-focus-2026-11-15",
+      "reviewedOn": "2026-11-15",
+      "reviewedBy": "Codex - shared interaction follow-up",
+      "decision": "pass",
+      "summary": "Pending native compatibility mousedown no longer steals newly assigned focus. Existing deliberate next-tap/mouse/keyboard behavior verified in39 selected browser cases; original lab review snapshot retained.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.json",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.md",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-native-focus-regressions.txt"
+      ]
+    },
+    {
+      "id": "availability-prerequisite-gate-2026-11-15",
+      "decision": "pass",
+      "reviewedOn": "2026-11-15",
+      "summary": "Availability edit immediately disables dependent concept buttons until the current comparison is checked; raw partial evidence preserved.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/soil-water/availability-gate-followup-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/soil-water/availability-gate-edit.png",
+        "data/development-tracker/biology-reviews/evidence/soil-water/availability-gate-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.json"
+      ]
+    },
+    {
+      "id": "shared-response-pagination-2026-11-15",
+      "recordedAt": "2026-11-15T17:05:24.806Z",
+      "scope": "Shared PDF question/answer page-break guard; original review remains its point-in-time snapshot. Representative current starch, stored heat/fungal and legacy enzyme reports checked; not a full rerun of this lab.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.md",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.json",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/pagination-corrected.txt",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-model-tests.txt"
+      ]
+    },
+    {
+      "id": "shared-scientific-symbols-2026-11-15",
+      "recordedAt": "2026-11-15T18:31:00.208Z",
+      "scope": "Shared offline scientific-symbol glyph fallback only; original source snapshot/history unchanged. Representative new/old outputs and legacy wrappers validated, not full rerun of this lab.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.md",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.json",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/glyph-all-artifacts.txt"
+      ]
+    }
+  ]
+}

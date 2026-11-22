@@ -128,3 +128,8 @@ Validation: all 54 unit tests passed; production build verified 56 offline-cache
 - [x] Retain optional name/period and all recorded responses in PDF, print and structured JSON exports, including draft/offline use.
 
 Validation: all 58 unit tests passed. Eleven focused browser checks passed across the new lab, catalog and existing extraction reports; the three new-lab checks were rerun after hover-contrast and keyboard-focus fixes. All three deployment checks passed, including first-use offline PDF download and independent root/development progress. The final build verified 56 offline-cache URLs. Desktop, tablet and phone screenshots were reviewed. Completed/downloaded and browser-printed reports (three pages each), plus a five-page long-answer draft, were rendered and inspected; text bounds, Unicode, all long paragraphs and embedded response data were verified. `git diff --check` passed.
+
+
+## Current remaining-Biology queue
+
+This file retains the historical Cell/Genetics build record. The remaining 33 planned catalog labs are sequenced in [BIOLOGY_BUILD_TASKS.md](BIOLOGY_BUILD_TASKS.md). Use its build-then-review dependency chain and the current LAB_DESIGN_GUIDE.md; historical preparation/trial counts above do not override the later streamlining and audit requirements.

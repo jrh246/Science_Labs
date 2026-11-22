@@ -1,0 +1,372 @@
+{
+  "schemaVersion": 1,
+  "labId": "natural-selection",
+  "taskId": "BIO-04-REVIEW",
+  "reviewedBy": "Codex - separate development review",
+  "reviewedOn": "2026-11-15",
+  "sourceSnapshot": "sha256:30248998132591ec5ef01a6cf8b05f0febc4c564513942d3a8ebef01033c1536",
+  "decision": "pass",
+  "summary": "English virtual-only development review passed after completion-label, keyboard-focus, teacher pagination and visual perch/hover corrections. External comprehension, hardware and translated delivery remain separate.",
+  "blockers": [],
+  "checks": {
+    "G01": {
+      "status": "pass",
+      "notes": "Three goals connect environment-dependent feeding, inherited population change and limited inference with observed comparisons, percentage/change decisions, checks and original explanations; no mastery inferred from completion.",
+      "evidence": [
+        "src/investigations/selection-content.js",
+        "src/investigations/selection-report.js",
+        "data/development-tracker/biology-reviews/evidence/natural-selection/complete-responses.json"
+      ]
+    },
+    "G02": {
+      "status": "pass",
+      "notes": "Four distinct seed/beak pairings and one generation in each matched habitat; independent populations/repeats are distinguished from individual birds and alternative model branches.",
+      "evidence": [
+        "src/investigations/selection-content.js",
+        "data/development-tracker/biology-reviews/evidence/natural-selection/review-notes.md"
+      ]
+    },
+    "G03": {
+      "status": "pass",
+      "notes": "Michigan and OpenStax institutional teaching sources read. Existing variation, differing survival and inherited contribution are consistent across model/art/text. Exact numerical rules are synthetic, not real finch data; no need-driven adult change or speciation claim.",
+      "evidence": [
+        "src/investigations/selection-model.js",
+        "https://sites.lsa.umich.edu/globalchange/lectures/processes-of-evolution-natural-selection/",
+        "https://openstax.org/books/biology-2e/pages/19-3-adaptive-evolution",
+        "data/development-tracker/biology-reviews/evidence/natural-selection/review-notes.md"
+      ]
+    },
+    "G04": {
+      "status": "pass",
+      "notes": "Time units, fixed rates, rounded population size, example family, continuous/polygenic real traits, no stochastic drift and other omissions are explained near results and in reports/resources.",
+      "evidence": [
+        "src/investigations/selection-content.js",
+        "data/development-tracker/biology-reviews/evidence/natural-selection/complete.pdf"
+      ]
+    },
+    "G05": {
+      "status": "pass",
+      "notes": "Actual seed-to-beak and surviving-pair-to-nest placement changes seed evidence/family view. Students interpret new-generation proportions and compare environments; model-provided remainder is labeled.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/natural-selection/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/natural-selection/feeding-complete.png",
+        "data/development-tracker/biology-reviews/evidence/natural-selection/hard-offspring.png"
+      ]
+    },
+    "G06": {
+      "status": "pass",
+      "notes": "Initial/intermediate/final feeding and both habitat states inspected on desktop and phone/tablet. Shaded birds, beaks, seeds, shell fragments, nest and supporting perch are plausible illustrations. Shared geometry keeps sites aligned and tools clear.",
+      "evidence": [
+        "src/investigations/selection-art.js",
+        "data/development-tracker/biology-reviews/evidence/natural-selection/feeding-initial.png",
+        "data/development-tracker/biology-reviews/evidence/natural-selection/soft-survivors.png",
+        "data/development-tracker/biology-reviews/evidence/natural-selection/tablet-parents.png",
+        "data/development-tracker/biology-reviews/evidence/natural-selection/phone-feeding.png"
+      ]
+    },
+    "G07": {
+      "status": "pass",
+      "notes": "Choice shuffle is stable per seeded attempt/reload. Beak/seed/habitat identities and numerical relationships are preserved; choices do not identify correctness by fixed position.",
+      "evidence": [
+        "src/investigations/selection-model.js",
+        "src/investigations/selection-app.js",
+        "data/development-tracker/biology-reviews/evidence/natural-selection/browser-tests.txt"
+      ]
+    },
+    "G08": {
+      "status": "pass",
+      "notes": "Full authored English pathway, feedback, reports and resources reviewed for ninth-grade wording and defined population/heritable/frequency/fitness terms. Teacher/student comprehension remains pending.",
+      "evidence": [
+        "src/investigations/selection-content.js",
+        "data/development-tracker/biology-reviews/evidence/natural-selection/review-notes.md",
+        "public/resources/natural-selection-worksheet.pdf"
+      ]
+    },
+    "G09": {
+      "status": "pass",
+      "notes": "Prediction/design are explicitly required and gated before observations in model/UI; first plan/timing retained. Reasoned predictions may differ from outcomes. Missing feeding, season, family or observations block later steps.",
+      "evidence": [
+        "tests/selection.test.js",
+        "data/development-tracker/biology-reviews/evidence/natural-selection/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/natural-selection/complete-responses.json"
+      ]
+    },
+    "G10": {
+      "status": "pass",
+      "notes": "Explicit Correct! and useful corrections, retained original wrong responses, immediate clearing of stale confirmations and blocked progression after editing; repeat-correct checks do not invent learning revisions. BIO-07 shared touch follow-up: suppress the pending native compatibility click across replacement DOM, reset on the next physical pointerdown. All six earlier lab browser files passed in the 50-check group; its only failure was a new singular/plural assertion typo, corrected in the focused 2/2 exact-tap rerun. Verify one increment/toggle/rotation and preserve the next deliberate tap. Science and saved observations unchanged; original acceptance snapshots retained.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/natural-selection/unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/natural-selection/focus-review-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/natural-selection/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-exact-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-regression-initial.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-followup-manifest.json"
+      ]
+    },
+    "G11": {
+      "status": "pass",
+      "notes": "Actual successful-save feedback beside completion, repeated clicks, denied storage/retry, reload and identity/academic edit distinctions pass browser checks.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/natural-selection/browser-tests.txt",
+        "src/investigations/completion-status.js"
+      ]
+    },
+    "G12": {
+      "status": "pass",
+      "notes": "Stable root-scoped v1 key/schema and attempt ID preserve existing partial choices/counts/family/corrections. Development caches/storage isolated. Other labs and historical attempts remain untouched.",
+      "evidence": [
+        "src/investigations/selection-model.js",
+        "data/development-tracker/biology-reviews/evidence/natural-selection/browser-tests.txt"
+      ]
+    },
+    "G13": {
+      "status": "pass",
+      "notes": "Completed named and neutral draft PDF downloads plus actual native print contain current work, optional name/period, readable date/time/zone and correct completion status.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/natural-selection/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/natural-selection/draft.pdf",
+        "data/development-tracker/biology-reviews/evidence/natural-selection/native-print.pdf"
+      ]
+    },
+    "G14": {
+      "status": "pass",
+      "notes": "Learning-based report keeps prediction, actual feeding evidence, counts, current unconfirmed percentage/claim, family provenance, checks and original goal-linked writing. Raw attempts/version/source IDs retained separately; not a click log, grade or authenticated submission.",
+      "evidence": [
+        "src/investigations/selection-report.js",
+        "data/development-tracker/biology-reviews/evidence/natural-selection/unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/natural-selection/complete-responses.json"
+      ]
+    },
+    "G15": {
+      "status": "pass",
+      "notes": "All 28 final report/resource pages rendered and inspected; long final marker, Unicode and readable identity/time retained. Teacher check/answer split corrected. PDF/print use one snapshot; first offline PDF and failed-export/print/retry pass.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/natural-selection/pdf-inspection.json",
+        "data/development-tracker/biology-reviews/evidence/natural-selection/pdf-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/natural-selection/pdf-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/natural-selection/pdf-contact-3.png",
+        "data/development-tracker/biology-reviews/evidence/natural-selection/pdf-contact-4.png",
+        "data/development-tracker/biology-reviews/evidence/natural-selection/long-offline.pdf",
+        "data/development-tracker/biology-reviews/evidence/natural-selection/long-native-print.pdf",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.md",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.md"
+      ]
+    },
+    "G16": {
+      "status": "pass",
+      "notes": "Actual mouse/native touch drag-release-tap, immediate tool switch, keyboard select/place/focus restoration, phone/tablet/desktop, reduced motion, scroll/resize/reload exercised. Physical devices and full assistive-technology acceptance remain pending. BIO-07 shared touch follow-up: suppress the pending native compatibility click across replacement DOM, reset on the next physical pointerdown. All six earlier lab browser files passed in the 50-check group; its only failure was a new singular/plural assertion typo, corrected in the focused 2/2 exact-tap rerun. Verify one increment/toggle/rotation and preserve the next deliberate tap. Science and saved observations unchanged; original acceptance snapshots retained.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/natural-selection/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/natural-selection/focus-review-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/natural-selection/phone-feeding.png",
+        "data/development-tracker/biology-reviews/evidence/natural-selection/tablet-parents.png",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-exact-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-regression-initial.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-followup-manifest.json",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.json",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.md",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-native-focus-regressions.txt"
+      ]
+    },
+    "G17": {
+      "status": "pass",
+      "notes": "120 model/report checks; final six lab browser workflows; six initial passing catalog regressions; focused keyboard/mouse/recheck pass. 47 resources verified and standalone/platform builds compile. Initial failure/fixes retained; API protection evidence reused for unchanged policy. BIO-07 shared touch follow-up: suppress the pending native compatibility click across replacement DOM, reset on the next physical pointerdown. All six earlier lab browser files passed in the 50-check group; its only failure was a new singular/plural assertion typo, corrected in the focused 2/2 exact-tap rerun. Verify one increment/toggle/rotation and preserve the next deliberate tap. Science and saved observations unchanged; original acceptance snapshots retained.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/natural-selection/model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/natural-selection/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/natural-selection/initial-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/natural-selection/focus-review-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/natural-selection/platform-build.txt",
+        "data/development-tracker/biology-reviews/evidence/natural-selection/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-exact-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-regression-initial.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-followup-manifest.json"
+      ]
+    },
+    "G18": {
+      "status": "pass",
+      "notes": "Core English content, canonical IDs, locale/version and original writing are prepared for future localization. Remaining English UI strings need AUD-10 extraction; no reviewed translations or switching claimed.",
+      "evidence": [
+        "src/investigations/selection-content.js",
+        "src/investigations/selection-report.js",
+        "data/development-tracker/biology-reviews/evidence/natural-selection/review-notes.md"
+      ]
+    },
+    "RESOURCES": {
+      "status": "pass",
+      "notes": "Matching three-page student worksheet and two-page teacher guide generated from current definitions; evidence tables, prompts, limits and report directions verified. Unicode and final page layout inspected; virtual only.",
+      "evidence": [
+        "scripts/build-biology-resources.py",
+        "public/resources/natural-selection-worksheet.pdf",
+        "public/resources/natural-selection-teacher-guide.pdf",
+        "data/development-tracker/biology-reviews/evidence/natural-selection/resource-check.txt"
+      ]
+    },
+    "ACCESS": {
+      "status": "pass",
+      "notes": "Guest free lab/report access verified; existing private runtime worker guard and role/entitlement policy unchanged. Platform compilation is not release registration/publication. Existing 40 API protection tests retained from BIO-01, not a new live deployment.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/natural-selection/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/natural-selection/platform-build.txt",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/platform-tests.txt"
+      ]
+    },
+    "TRACKING": {
+      "status": "pass",
+      "notes": "Actual available virtual-only catalog route, stable unit/lab IDs, current English dataset/handouts and generated checks updated. Spanish planned and standards approvals unchanged. Shared records synced after acceptance.",
+      "evidence": [
+        "src/catalog.js",
+        "data/curriculum/dataset.json",
+        "data/development-tracker/activity-checklist.csv"
+      ]
+    }
+  },
+  "artifacts": {
+    "workflow": [
+      "data/development-tracker/biology-reviews/evidence/natural-selection/review-notes.md",
+      "data/development-tracker/biology-reviews/evidence/natural-selection/complete-responses.json",
+      "data/development-tracker/biology-reviews/evidence/natural-selection/source-manifest.json"
+    ],
+    "visuals": [
+      "data/development-tracker/biology-reviews/evidence/natural-selection/feeding-initial.png",
+      "data/development-tracker/biology-reviews/evidence/natural-selection/feeding-complete.png",
+      "data/development-tracker/biology-reviews/evidence/natural-selection/soft-initial.png",
+      "data/development-tracker/biology-reviews/evidence/natural-selection/soft-survivors.png",
+      "data/development-tracker/biology-reviews/evidence/natural-selection/soft-parents.png",
+      "data/development-tracker/biology-reviews/evidence/natural-selection/soft-offspring.png",
+      "data/development-tracker/biology-reviews/evidence/natural-selection/hard-initial.png",
+      "data/development-tracker/biology-reviews/evidence/natural-selection/hard-survivors.png",
+      "data/development-tracker/biology-reviews/evidence/natural-selection/hard-parents.png",
+      "data/development-tracker/biology-reviews/evidence/natural-selection/hard-offspring.png",
+      "data/development-tracker/biology-reviews/evidence/natural-selection/phone-feeding.png",
+      "data/development-tracker/biology-reviews/evidence/natural-selection/phone-explain.png",
+      "data/development-tracker/biology-reviews/evidence/natural-selection/tablet-parents.png"
+    ],
+    "pdfReports": [
+      "data/development-tracker/biology-reviews/evidence/natural-selection/draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/natural-selection/unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/natural-selection/complete.pdf",
+      "data/development-tracker/biology-reviews/evidence/natural-selection/long-offline.pdf",
+      "data/development-tracker/biology-reviews/evidence/natural-selection/pdf-inspection.json"
+    ],
+    "nativePrint": [
+      "data/development-tracker/biology-reviews/evidence/natural-selection/native-print.pdf",
+      "data/development-tracker/biology-reviews/evidence/natural-selection/long-native-print.pdf"
+    ],
+    "tests": [
+      "data/development-tracker/biology-reviews/evidence/natural-selection/model-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/natural-selection/browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/natural-selection/initial-browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/natural-selection/focus-review-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/natural-selection/platform-build.txt",
+      "data/development-tracker/biology-reviews/evidence/natural-selection/resource-check.txt"
+    ],
+    "resources": [
+      "public/resources/natural-selection-worksheet.pdf",
+      "public/resources/natural-selection-teacher-guide.pdf"
+    ]
+  },
+  "externalValidation": {
+    "teacherStudentComprehension": {
+      "status": "pending",
+      "notes": "Not yet performed; development checks do not establish classroom comprehension."
+    },
+    "physicalDevices": {
+      "status": "pending",
+      "notes": "Not yet performed; browser emulation is not physical-device acceptance."
+    },
+    "classroomProtocol": {
+      "status": "pending",
+      "notes": "Record the selected modes and actual protocol validation separately."
+    }
+  },
+  "futureWork": [
+    {
+      "id": "AUD-10",
+      "status": "planned",
+      "notes": "Full native language switching and translated printing are not certified by the localization-readiness check."
+    }
+  ],
+  "history": [
+    {
+      "finding": "First browser pass: 11/12 passed; completion label became blank because required helper labels were omitted.",
+      "resolution": "Supply ready/saved labels and rerun affected full workflow."
+    },
+    {
+      "finding": "Separate code/keyboard review found replacement DOM could lose focus after placement and checking.",
+      "resolution": "Restore the active target/control or next meaningful control after render."
+    },
+    {
+      "finding": "An initial staging copy used selection-css instead of selection.css.",
+      "resolution": "Corrected filename; integration and standalone compilation succeeded."
+    },
+    {
+      "finding": "Rendered teacher guide split a concept question from its answer; a perched parent lacked support; default target hover could cover the beak.",
+      "resolution": "Kept teacher question/answer pairs together, added branch and translucent hover. Reinspected changed teacher pages and parent artwork; focused input/recheck assertions pass."
+    },
+    {
+      "id": "BIO-07-touch-once",
+      "finding": "A native compatibility click could hit a new control after a touch redraw; discovered from viral round-2 phone evidence.",
+      "resolution": "BIO-07 shared touch follow-up: suppress the pending native compatibility click across replacement DOM, reset on the next physical pointerdown. All six earlier lab browser files passed in the 50-check group; its only failure was a new singular/plural assertion typo, corrected in the focused 2/2 exact-tap rerun. Verify one increment/toggle/rotation and preserve the next deliberate tap. Science and saved observations unchanged; original acceptance snapshots retained.",
+      "sourceSnapshot": "sha256:615ccee6e5fe3033f3dba30fc3914477c955e54bf3a2271d32febc0b2a768c60",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/viral-spread/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-exact-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-regression-initial.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-followup-manifest.json"
+      ]
+    }
+  ],
+  "followups": [
+    {
+      "id": "shared-touch-focus-2026-11-15",
+      "reviewedOn": "2026-11-15",
+      "reviewedBy": "Codex - shared interaction follow-up",
+      "decision": "pass",
+      "summary": "Pending native compatibility mousedown no longer steals newly assigned focus. Existing deliberate next-tap/mouse/keyboard behavior verified in39 selected browser cases; original lab review snapshot retained.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.json",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.md",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-native-focus-regressions.txt"
+      ]
+    },
+    {
+      "id": "shared-response-pagination-2026-11-15",
+      "recordedAt": "2026-11-15T17:05:24.790Z",
+      "scope": "Shared PDF question/answer page-break guard; original review remains its point-in-time snapshot. Representative current starch, stored heat/fungal and legacy enzyme reports checked; not a full rerun of this lab.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.md",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.json",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/pagination-corrected.txt",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-model-tests.txt"
+      ]
+    },
+    {
+      "id": "shared-scientific-symbols-2026-11-15",
+      "recordedAt": "2026-11-15T18:31:00.194Z",
+      "scope": "Shared offline scientific-symbol glyph fallback only; original source snapshot/history unchanged. Representative new/old outputs and legacy wrappers validated, not full rerun of this lab.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.md",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.json",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/glyph-all-artifacts.txt"
+      ]
+    }
+  ],
+  "followUps": [
+    {
+      "id": "pdf-delivery-and-symbols-2026-11-15",
+      "recordedAt": "2026-11-16T01:43:40.980Z",
+      "scope": "Local source/public/member PDF transport and resource glyphs only. Original development-review snapshot retained; this is not a new full learning or user review.",
+      "findings": "Valid bird PDFs were being replaced by HTML on the 4310 source route; local serving corrected. User recheck pending.",
+      "evidence": [
+        "data/development-tracker/pdf-audits/2026-11-15/summary.json",
+        "data/development-tracker/pdf-audits/2026-11-15/pdf-inspection.json",
+        "data/development-tracker/pdf-audits/2026-11-15/delivery-audit.json"
+      ]
+    }
+  ]
+}

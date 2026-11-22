@@ -28,6 +28,8 @@ class Graph(Flowable):
 def footer(c,d):
  c.setFont('Helvetica',8);c.setFillColor(colors.HexColor('#50665b'));c.drawString(54,30,'Science Labs | Classroom options | Revised October 2026');c.drawRightString(558,30,str(d.page))
 def build(kind,story):
+ if kind=='worksheet':story += [p('Keep this completed classroom worksheet with your lab report. Record the actual collector units and observation times. The app can download or print a PDF of the work entered there. Balloon circumference and collected gas volume use different units.','Small')]
+ else:story += [p('Retain method-specific classroom sheets with the student report. The app PDF and print controls export entered observations and writing. Use the stated units in online fields and preserve other collector measurements on their original sheets.','Small')]
  name='yeast-fermentation-'+METHOD['id']+'-'+kind+'.pdf';file=OUT/name
  SimpleDocTemplate(str(file),pagesize=(612,792),leftMargin=54,rightMargin=54,topMargin=42,bottomMargin=52,title='Yeast Fermentation - Classroom '+kind,author='Science Labs').build(story,onFirstPage=footer,onLaterPages=footer)
  copyfile(file,ROOT/'public/resources'/name);print(file)
@@ -141,3 +143,27 @@ for METHOD in METHODS:
  p('3. Identify one limitation of this collection method. Why can these readings alone not measure ATP yield or prove oxygen was absent?'),lines(2),Spacer(1,8),
  p('After the comparison: propose a follow-up variable and controls. Obtain teacher approval; keep new results separate.'),lines(2)]
  build('worksheet',S)
+
+# Retain the earlier overview URLs with current method and recipe information.
+METHOD={'id':'classroom','label':'Choose a collection method'}
+overview=title('Student worksheet','Choose and plan your classroom method')+[
+ p('Name _____________________  Class / period ______  Date __________'),
+ p('Choose a method with your teacher. A complete comparison has three fresh samples with no added sugar, three with glucose, and three with sucrose. Each flask is one fresh mixture.'),
+ table([['Method','Measurement','Observation window']]+[[m['label'],m['unit'],'Every 10 min through 60 min' if m['id']=='balloon' else 'Every 5 min through 30 min'] for m in METHODS],[210,75,219]),
+ p('Use the matching method worksheet and teacher guide from Classroom lab options in the app. These sheets contain the preparation and raw-data tables for that collector.'),
+ h('Teacher-selected setup'),
+ p('Assigned method __________________  Flask IDs __________________'),
+ p('Flask size ______ mL   Final liquid ______ mL   Temperature ______ C'),
+ p('Classroom target - 20 g yeast and 80 g sugar per 1,000 mL total water. Prepare yeast and sugar stocks separately. The no-added-sugar control receives plain water in place of sugar stock. Use the teacher-selected amounts from the method guide.'),
+ h('Predict before mixing'),p('How will the available sugar affect the readings? Explain your prediction.'),lines(3),
+ p('What will you change and measure? Name three things to keep the same.'),lines(2),
+ p('Keep the actual collector units. Record NI for a balloon that has not inflated. Record missing readings as missing.','Small')]
+build('worksheet',overview)
+overview=title('Teacher guide','Choose a classroom collection method')+[
+ h('Learning and workload'),p('Students compare fuels using collected gas as indirect evidence of yeast activity. Pool three fresh mixtures per fuel. Keep each flask separate from its repeated readings. Assign one or two flasks per pair and retain the actual sample count when observations are missing.'),
+ table([['Method','Measurement','Use']]+[[m['label'],m['unit'],m['principle']] for m in METHODS],[155,45,304]),
+ h('Current classroom recipe'),p('The target is 20 g yeast and 80 g sugar per 1,000 mL total water. Smaller matched stocks use 20 g yeast in 500 mL water and 80 g glucose or sucrose in a separate 500 mL water. Larger stocks use 40 g yeast in 1,000 mL water and 160 g sugar in a separate 1,000 mL water. Water amounts mean water added. Follow the current method guide for aliquots and flask capacity.'),
+ h('Use the matching packets'),p('Download the balloon, cylinder, or syringe worksheet and teacher guide from Classroom lab options. Balloon observations run every 10 minutes through 60 minutes. Cylinder and syringe observations run every 5 minutes through 30 minutes. Adjust a schedule explicitly and label the actual times.'),
+ h('Interpretation and reporting'),p('Compare starting and later rates, final readings, and variation among fresh mixtures. Preserve unexpected results. Match measurement units and methods when combining observations. Classroom recipes and collector scales differ from the illustrative virtual gas-syringe model. Gas readings support discussion of yeast activity. Additional evidence is needed to identify the gas, measure ATP yield, or determine oxygen use.'),
+ p('Use the equipment-specific preparation and handling instructions in the chosen guide. Keep each completed classroom sheet with the student report.','Small')]
+build('teacher-guide',overview)

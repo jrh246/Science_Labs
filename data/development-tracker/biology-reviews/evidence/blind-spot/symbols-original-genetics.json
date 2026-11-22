@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 2,
+  "activityVersion": 2,
+  "labId": "genetic-information",
+  "title": "DNA to RNA to Protein",
+  "attemptId": "7065d76a-2c20-48a0-9cf9-d8d5738acfd6",
+  "exportedAt": "2026-11-15T20:00:00Z",
+  "exportTimeZone": "America/Los_Angeles",
+  "exportedAtDisplay": "Nov 15, 2026, 12:00 PM PST",
+  "source": "Virtual model only",
+  "status": "In progress",
+  "grading": "not_graded",
+  "student": {
+    "name": "Zoë García",
+    "class": "Font check"
+  },
+  "prediction": "Information path: DNA → RNA → peptide; original α β and español.",
+  "stage": "Orient",
+  "records": {
+    "locations": {},
+    "enzymes": {
+      "helicase": false,
+      "dnaPolymerase": false,
+      "rnaPolymerase": false
+    },
+    "replicationWindows": "",
+    "replicationComplete": false,
+    "daughterDNA": [],
+    "studentRNAWindow": "",
+    "transcriptComplete": false,
+    "matureCodingSequence": "",
+    "processing": {
+      "cap": false,
+      "splice": false,
+      "tail": false
+    },
+    "exported": false,
+    "ribosomeLoaded": false,
+    "peptide": [],
+    "released": false
+  },
+  "results": [
+    {
+      "process": "DNA replication",
+      "result": "Student-built DNA sections (5′ to 3′): not built yet. The two DNA copies are not yet complete. Location selected: Not selected."
+    },
+    {
+      "process": "Transcription",
+      "result": "Student-built RNA section: not built yet. Model extension of the RNA is not yet complete. Location selected: Not selected."
+    },
+    {
+      "process": "RNA preparation and export",
+      "result": "RNA preparation is not yet recorded. Export of mRNA is not yet recorded."
+    },
+    {
+      "process": "Translation",
+      "result": "No peptide is built yet. Stop recognition and release are not yet complete. Location selected: Not selected."
+    }
+  ],
+  "evidence": [
+    {
+      "id": "locations",
+      "concept": "Cell locations",
+      "status": "not_recorded",
+      "statusLabel": "Not yet recorded",
+      "summary": "No evidence recorded for this task yet.",
+      "review": ""
+    },
+    {
+      "id": "enzymes",
+      "concept": "Enzyme roles",
+      "status": "not_recorded",
+      "statusLabel": "Not yet recorded",
+      "summary": "No evidence recorded for this task yet.",
+      "review": ""
+    },
+    {
+      "id": "dna-pairing",
+      "concept": "DNA base pairing",
+      "status": "not_recorded",
+      "statusLabel": "Not yet recorded",
+      "summary": "No evidence recorded for this task yet.",
+      "review": ""
+    },
+    {
+      "id": "rna-pairing",
+      "concept": "RNA base pairing",
+      "status": "not_recorded",
+      "statusLabel": "Not yet recorded",
+      "summary": "No evidence recorded for this task yet.",
+      "review": ""
+    },
+    {
+      "id": "rna-processing",
+      "concept": "RNA preparation",
+      "status": "not_recorded",
+      "statusLabel": "Not yet recorded",
+      "summary": "No evidence recorded for this task yet.",
+      "review": ""
+    },
+    {
+      "id": "message-carrier",
+      "concept": "Information carried by mRNA",
+      "status": "not_recorded",
+      "statusLabel": "Not yet recorded",
+      "summary": "No evidence recorded for this task yet.",
+      "review": ""
+    },
+    {
+      "id": "codon-matching",
+      "concept": "Codons and tRNAs",
+      "status": "not_recorded",
+      "statusLabel": "Not yet recorded",
+      "summary": "No evidence recorded for this task yet.",
+      "review": ""
+    },
+    {
+      "id": "stop-signal",
+      "concept": "Recognizing a stop signal",
+      "status": "not_recorded",
+      "statusLabel": "Not yet recorded",
+      "summary": "No evidence recorded for this task yet.",
+      "review": ""
+    }
+  ],
+  "checkpoints": [
+    {
+      "id": "replication",
+      "prompt": "What strands are in each new DNA molecule?",
+      "context": "",
+      "correct": null,
+      "feedback": "",
+      "response": "Not answered",
+      "result": "Not answered",
+      "choices": [
+        "Two newly made strands",
+        "One original strand and one new strand",
+        "Two original strands"
+      ],
+      "history": []
+    },
+    {
+      "id": "transfer",
+      "prompt": "Must a cell replicate (copy) its DNA each time it wants to transcribe an mRNA message?",
+      "context": "Replication makes a new copy of DNA. Transcription uses a gene’s DNA instructions to make messenger RNA (mRNA).",
+      "correct": null,
+      "feedback": "",
+      "response": "Not answered",
+      "result": "Not answered",
+      "choices": [
+        "Yes. It must copy the DNA before making each mRNA message.",
+        "No. It can transcribe the same gene many times using the DNA already in the nucleus."
+      ],
+      "history": []
+    }
+  ],
+  "explanations": [
+    {
+      "id": "locations-and-molecules",
+      "prompt": "Follow the message. Where did replication, transcription, and translation happen? What moved through the nuclear pore? What stayed in the nucleus?",
+      "response": ""
+    },
+    {
+      "id": "compare-processes",
+      "prompt": "What did each process make: replication, transcription, and translation? Use your DNA, mRNA, and amino acid chain as evidence. How did base pairs, codons, and the stop signal guide your work?",
+      "response": ""
+    }
+  ],
+  "history": [],
+  "limits": "This virtual model follows one gene in a cell with a nucleus. Shapes, colors, sizes, and speeds help show the steps. They are not to scale. The DNA and RNA sections are much shorter than real genes. The promoter and intron are markers, not full sequences. RNA parts outside the code are shortened or left out. Primers and many helper proteins are provided. Tail-cutting helpers are also provided. Opening DNA and copying it can happen together in cells. RNA processing can begin while RNA is still being made. At each fork, the leading strand is copied continuously. The lagging strand is copied in short pieces called Okazaki fragments. Primase starts each piece with an RNA primer. DNA polymerase adds DNA. Other enzymes replace the RNA primers with DNA. DNA ligase seals the joins. These extra steps are not shown in this model. The first tRNA starts in the ribosome’s P site. Later tRNAs enter its A site. The model provides the helpers for these steps. The three amino acids make a short peptide, not a full working protein. This model does not show bacteria, mitochondria, or chloroplasts."
+}

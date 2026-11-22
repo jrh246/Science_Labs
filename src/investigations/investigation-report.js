@@ -1,3 +1,4 @@
+import {platformReport} from '../platform/runtime-bridge.js';
 import {attachInvestigationEvidence} from './report-evidence.js';
 import {stages} from './content.js';
 import {times,tally,stageStats,et50,mean,completedData} from './model.js';
@@ -50,7 +51,7 @@ export function coreStudentReport(c,s,options={}){
  if(c.kind==='mitosis'&&s.microscopeExploration?.answers?.some(Number.isInteger))exploration.push(section('Optional microscope exploration - excluded from comparison',table(['Stage','Practice count'],tally(s.microscopeExploration.answers).map((n,i)=>[stages[i],n]))));
  const revision=c.kind==='yeast'?`Recorded fermentation model: ${s.fermentationModelVersion===1?'1 (earlier constant-rate model)':'2 (gradual substrate availability)'}.`:c.kind==='mitosis'?`Recorded cell-field model: ${s.mitosisModelVersion===1?'1 (earlier fields)':'2 (interphase-dominant fields)'}.`:'';
  const report = reportSnapshot(c,s,[plan,section('Observation notes',paragraph(s.notes.observations)),...observations,...exploration,explanations,{...section('Model and evidence limits',...(revision?[paragraph(revision)]:[]),paragraph(c.model)),keepFirst:revision?2:1}],{complete:Boolean(s.complete)&&completedData(c,s),...options});
- return attachInvestigationEvidence(report,c,s,true);
+ return platformReport(attachInvestigationEvidence(report,c,s,true));
 }
 
 function measurementLabels(c){
@@ -64,6 +65,7 @@ function recordedSample(c,row,index){
  if(timedObservation(c)&&row.readings?.length)blocks.push(table([`Time (${c.timeUnit})`,c.unit],row.readings.map(([t,value])=>[t,value])));
  if(c.kind==='plant'&&row.readings?.length)blocks.push(paragraph('Growth from starting height: '+fixed(row.values[0]-row.readings[0][1])+' cm.'));
  if(c.kind==='enzyme'&&row.readings?.length>1)blocks.push(paragraph('Initial gas collection rate: '+fixed((row.readings[1][1]-row.readings[0][1])/(row.readings[1][0]-row.readings[0][0]),3)+' mL/s.'));
+ if(c.kind==='microscope'&&row.source==='virtual'){const calibration=row.settings?.calibration;blocks.push(paragraph(calibration?`40× scale calibration was ${calibration.source==='student'?'calculated by the student':calibration.source==='matched'?'reused for this new cell':'supplied with the earlier attempt'}. Each division represents ${calibration.unitsPerDivision} µm.${calibration.answer?' Recorded answer '+calibration.answer+' µm per division.':''}`:'The scale was supplied with this earlier attempt. Each division represents 2 µm at 40×.'));}
  if(row.settings?.products?.length)blocks.push(table(['Cell product','Allele combination'],row.settings.products.map(p=>[p.role,p.alleles])));
  return {...section(`${index+1}. ${row.condition}`, ...blocks),keepFirst:2};
 }
@@ -83,10 +85,10 @@ export function extendedStudentReport(c,s,options={}){
  if(c.categories&&r.tallies?.some(n=>n>0))draft.push(table(['Category','Draft count'],r.tallies.map((n,i)=>[c.categories[i],n])));
  if(c.categories&&r.scores?.some(Number.isInteger))draft.push(table(['Specimen','Draft classification'],r.scores.flatMap((value,i)=>Number.isInteger(value)?[[i+1,c.categories[value]]]:[])));
  if(c.kind==='gel'&&r.estimates.some(value=>String(value).trim()))draft.push(table(['Unknown band','Draft estimate (bp)'],r.estimates.map((value,i)=>[i+1,value])));
- if(c.kind==='microscope'&&r.rulerMeasured)draft.push(paragraph(`Draft cell-length measurement: ${r.ruler*2} ${c.unit}.`));
+ if(c.kind==='microscope'&&r.rulerMeasured)draft.push(paragraph(`Draft cell-length measurement: ${r.ruler*(r.objective===40?2:8)} ${c.unit}.`));
  if(draft.length)sections.push(section('Current virtual sample - not collected; excluded from comparison',...draft));
  if(s.exploration.length)sections.push(section('Optional exploration - excluded from comparison',paragraph('These samples are kept separate from the required comparison.')),...s.exploration.map((row,i)=>recordedSample(c,row,i)));
  sections.push(explanations,section('Model and evidence limits',paragraph(c.limits)));
  const report = reportSnapshot(c,s,sections,{complete:Boolean(s.complete)&&s.records.length===sequence(c).length,...options});
- return attachInvestigationEvidence(report,c,s,false);
+ return platformReport(attachInvestigationEvidence(report,c,s,false));
 }

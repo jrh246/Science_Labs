@@ -8,7 +8,20 @@
     "build": "vite build --base=./ && node scripts/verify-build.mjs",
     "preview": "vite preview --host 0.0.0.0",
     "test": "node --test tests/*.test.js",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "build:platform": "node scripts/build-platform.mjs",
+    "dev:platform": "node scripts/platform-dev.mjs",
+    "test:platform": "npm test --prefix server",
+    "test:platform:browser": "playwright test --config playwright.platform.config.js",
+    "biology:queue": "node scripts/biology-build-queue.mjs",
+    "biology:queue:check": "node scripts/biology-build-queue.mjs --check",
+    "biology:queue:render": "node scripts/biology-build-queue.mjs --render",
+    "biology:user-review": "node scripts/biology-user-review.mjs --check",
+    "biology:user-review:render": "node scripts/biology-user-review.mjs --render",
+    "biology:modes": "node scripts/biology-lab-modes.mjs --check",
+    "biology:modes:render": "node scripts/biology-lab-modes.mjs --render",
+    "biology:classroom-options": "node scripts/biology-classroom-options.mjs --check",
+    "biology:classroom-options:render": "node scripts/biology-classroom-options.mjs --render"
   },
   "devDependencies": {
     "@playwright/test": "^1.55.0",

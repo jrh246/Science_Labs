@@ -1,0 +1,310 @@
+{
+  "schemaVersion": 1,
+  "labId": "transpiration",
+  "taskId": "BIO-16-REVIEW",
+  "reviewedBy": "Codex - separate development review",
+  "reviewedOn": "2026-11-15",
+  "sourceSnapshot": "sha256:346c1f5583d61eef6a42c8fb2440e02c8697d22358425586fd1fca0f1e2db3bb",
+  "checks": {
+    "G01": {
+      "status": "pass",
+      "notes": "Three goals connect a chosen controlled comparison, within-station loss/rate calculation and leaf phase/pathway interpretation to distinct original explanations.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/transpiration/build-brief.md",
+        "data/development-tracker/biology-reviews/evidence/transpiration/complete-responses.json"
+      ]
+    },
+    "G02": {
+      "status": "pass",
+      "notes": "Two separate matched model balances and one synchronized30-minute interval answer one student-selected factor. No three identical extractions/trials or claim of independent population samples. Different pot/cover starting masses require subtraction.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/transpiration/build-brief.md",
+        "data/development-tracker/biology-reviews/evidence/transpiration/review-notes.md"
+      ]
+    },
+    "G03": {
+      "status": "pass",
+      "notes": "OpenStax30.5, UMN, Nebraska, SAPS and actual Forest Research scanned pages checked for mesophyll evaporation, stomatal/boundary vapor transport, sealed-pot mass loss versus uptake and conditional light/wind/humidity effects. Toy conductance settings are assumptions, not fitted measurements.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/transpiration/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/transpiration/model-tests.txt"
+      ]
+    },
+    "G04": {
+      "status": "pass",
+      "notes": "Fixed25°C, leaf area, adequate water, synthetic mass/rate values, constant aperture/settings, one model interval and omitted real mass changes/stress are explicit. Brighter light does not warm the model leaf; no universal field prediction or physical protocol.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/transpiration/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/transpiration/review-notes.md"
+      ]
+    },
+    "G05": {
+      "status": "pass",
+      "notes": "Students cover soil/pot, move the covered plant to its own pan, install their chosen off-pan controller, read four displays, calculate loss/rates and place process annotations that reveal the leaf pathway.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/transpiration/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/transpiration/reference-zero.png",
+        "data/development-tracker/biology-reviews/evidence/transpiration/leaf-after.png"
+      ]
+    },
+    "G06": {
+      "status": "pass",
+      "notes": "Actual station initial/covered/on-pan/final states, changed humidity module and leaf before/after/light/humidity/phone/tablet reviewed. Separate review clarified film across the soil around the stem; leaves remain exposed, pot rests on pan and controller stays outside it. Hollow vapor symbols traverse the actual open pore.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/transpiration/visual-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/transpiration/visual-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/transpiration/visual-contact-3.png",
+        "data/development-tracker/biology-reviews/evidence/transpiration/visual-contact-4.png",
+        "data/development-tracker/biology-reviews/evidence/transpiration/reference-zero.png",
+        "data/development-tracker/biology-reviews/evidence/transpiration/leaf-after.png"
+      ]
+    },
+    "G07": {
+      "status": "pass",
+      "notes": "Chosen factor locks with the first plan; seeded annotation/check choices avoid fixed-order answers. Both higher and lower changed rates tested; conclusion uses actual rounded recorded values rather than final-mass ranking.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/transpiration/model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/transpiration/final-browser-tests.txt"
+      ]
+    },
+    "G08": {
+      "status": "pass",
+      "notes": "Full directions, dynamic labels/feedback, reports and handouts read. Transpiration, xylem, mesophyll, evaporation, diffusion, rate and relative humidity explained. Removed flux/gradient/conductance jargon from student limits; diagnostic grade7.1/10.8 words per sentence is not classroom certification.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/transpiration/reading-screen.json",
+        "data/development-tracker/biology-reviews/evidence/transpiration/review-notes.md"
+      ]
+    },
+    "G09": {
+      "status": "pass",
+      "notes": "Required first prediction/controls precede setup. Covers/pans/correct controller and both checked initial readings gate one interval; all current masses gate calculations, checked comparisons gate leaf work, current pathway gates concept checks and completion.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/transpiration/model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/transpiration/final-browser-tests.txt"
+      ]
+    },
+    "G10": {
+      "status": "pass",
+      "notes": "Correct!/Try again includes display, subtraction/time or phase-route explanation. Wrong/empty mass/calculation/annotation entries retained as unconfirmed; correction history survives current edits.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/transpiration/unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/transpiration/calculation-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/transpiration/leaf-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/transpiration/edited-unconfirmed.pdf"
+      ]
+    },
+    "G11": {
+      "status": "pass",
+      "notes": "Actual successful/repeated completion save, reload, denied-write retry and identity versus academic edits verified with device-local confirmation.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/transpiration/final-browser-tests.txt"
+      ]
+    },
+    "G12": {
+      "status": "pass",
+      "notes": "Versioned root-scoped state retains first plan/factor, raw current readings, earlier checks, calculations, phase annotations and original writing. Viewing existing0/30-minute snapshots preserves completion; mass/calculation edits invalidate dependencies without rerunning time.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/transpiration/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/transpiration/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/transpiration/edited-unconfirmed.pdf"
+      ]
+    },
+    "G13": {
+      "status": "pass",
+      "notes": "Actual completed/draft named and unnamed PDFs and native print include optional name/period, safe filenames, local date/time/PST and honest unfinished status.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/transpiration/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/transpiration/draft.pdf",
+        "data/development-tracker/biology-reviews/evidence/transpiration/native-print.pdf"
+      ]
+    },
+    "G14": {
+      "status": "pass",
+      "notes": "Human reports show first plan, chosen factor/controls, student-read synthetic masses, current losses/rates and sources, leaf interpretations, meaningful concept corrections and original goal writing. No procedural click log, grade or submission claim.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/transpiration/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/transpiration/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/transpiration/edited-unconfirmed.pdf"
+      ]
+    },
+    "G15": {
+      "status": "pass",
+      "notes": "All45 current pages inspected across six sheets: worksheet3/teacher2, completed4, native3, other current unfinished3/4, long exports7 each. No blank/cropped pages; units/interpretation/status grouped and final Unicode markers retained. PDF/print/JSON share snapshot, offline-first and recovery pass.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/transpiration/pdf-inspection.json",
+        "data/development-tracker/biology-reviews/evidence/transpiration/pdf-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/transpiration/pdf-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/transpiration/pdf-contact-3.png",
+        "data/development-tracker/biology-reviews/evidence/transpiration/pdf-contact-4.png",
+        "data/development-tracker/biology-reviews/evidence/transpiration/pdf-contact-5.png",
+        "data/development-tracker/biology-reviews/evidence/transpiration/pdf-contact-6.png",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.md",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.md"
+      ]
+    },
+    "G16": {
+      "status": "pass",
+      "notes": "Native touch cover drag-release-nextphysical plant taps, keyboard controller/focus, actual mouse controller after resize/scroll, 44px phone leaf sites, tablet and reduced motion pass. Equivalent text/display available; actual physical-device/AT acceptance pending.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/transpiration/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/transpiration/phone-leaf.png",
+        "data/development-tracker/biology-reviews/evidence/transpiration/tablet-leaf.png",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.json",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.md",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-native-focus-regressions.txt"
+      ]
+    },
+    "G17": {
+      "status": "pass",
+      "notes": "102 selected model/report regressions passed initially; final six focused cases and seven browser workflows passed after fixes. Initial browser6/7 was a collapsed-disclosure test issue, preserved and corrected. 71 current resources and standalone/private-platform builds verified.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/transpiration/model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/transpiration/initial-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/transpiration/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/transpiration/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/transpiration/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/transpiration/standalone-build.txt",
+        "data/development-tracker/biology-reviews/evidence/transpiration/platform-build.txt"
+      ]
+    },
+    "G18": {
+      "status": "pass",
+      "notes": "Stable factor/station/process/goal/check IDs, versioned English locale/content and original student writing retained. Native reviewed app/print translation remains AUD-10; no Spanish readiness claimed.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/transpiration/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/transpiration/review-notes.md"
+      ]
+    },
+    "RESOURCES": {
+      "status": "pass",
+      "notes": "Worksheet3/teacher2 match current prompts, calculation table, mechanisms/limits and source guidance. Choice/source whitespace reduced to avoid a nearly blank citation-only page. All current pages/hashes checked; Python remains build-time only.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/transpiration/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/transpiration/pdf-contact-1.png"
+      ]
+    },
+    "ACCESS": {
+      "status": "pass",
+      "notes": "Guest/free full activity, reports and offline exports tested without sign-in. Existing account/paid/staff/publication policies retained; private32-lab runtime compiled only.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/transpiration/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/transpiration/platform-build.txt"
+      ]
+    },
+    "TRACKING": {
+      "status": "pass",
+      "notes": "Stable plant-structure-function route, actual English implementation/resources and validated curriculum/tracker records maintained. Standards/Spanish approvals unchanged; shared data refreshed after individual acceptance.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/transpiration/build-brief.md",
+        "data/development-tracker/biology-reviews/evidence/transpiration/review-notes.md"
+      ]
+    }
+  },
+  "artifacts": {
+    "workflow": [
+      "data/development-tracker/biology-reviews/evidence/transpiration/build-brief.md",
+      "data/development-tracker/biology-reviews/evidence/transpiration/review-notes.md",
+      "data/development-tracker/biology-reviews/evidence/transpiration/reading-screen.json",
+      "data/development-tracker/biology-reviews/evidence/transpiration/complete-responses.json",
+      "data/development-tracker/biology-reviews/evidence/transpiration/source-manifest.json"
+    ],
+    "visuals": [
+      "data/development-tracker/biology-reviews/evidence/transpiration/visual-contact-1.png",
+      "data/development-tracker/biology-reviews/evidence/transpiration/visual-contact-2.png",
+      "data/development-tracker/biology-reviews/evidence/transpiration/visual-contact-3.png",
+      "data/development-tracker/biology-reviews/evidence/transpiration/visual-contact-4.png",
+      "data/development-tracker/biology-reviews/evidence/transpiration/reference-zero.png",
+      "data/development-tracker/biology-reviews/evidence/transpiration/leaf-after.png",
+      "data/development-tracker/biology-reviews/evidence/transpiration/phone-leaf.png",
+      "data/development-tracker/biology-reviews/evidence/transpiration/tablet-leaf.png"
+    ],
+    "pdfReports": [
+      "data/development-tracker/biology-reviews/evidence/transpiration/complete.pdf",
+      "data/development-tracker/biology-reviews/evidence/transpiration/draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/transpiration/development-draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/transpiration/unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/transpiration/calculation-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/transpiration/leaf-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/transpiration/edited-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/transpiration/long-offline.pdf",
+      "data/development-tracker/biology-reviews/evidence/transpiration/pdf-inspection.json"
+    ],
+    "nativePrint": [
+      "data/development-tracker/biology-reviews/evidence/transpiration/native-print.pdf",
+      "data/development-tracker/biology-reviews/evidence/transpiration/long-native-print.pdf"
+    ],
+    "tests": [
+      "data/development-tracker/biology-reviews/evidence/transpiration/model-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/transpiration/initial-browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/transpiration/final-model-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/transpiration/final-browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/transpiration/resource-check.txt",
+      "data/development-tracker/biology-reviews/evidence/transpiration/standalone-build.txt",
+      "data/development-tracker/biology-reviews/evidence/transpiration/platform-build.txt"
+    ],
+    "resources": [
+      "public/resources/transpiration-worksheet.pdf",
+      "public/resources/transpiration-teacher-guide.pdf"
+    ]
+  },
+  "externalValidation": {
+    "teacherStudentComprehension": {
+      "status": "pending",
+      "notes": "Not performed; development checks do not establish classroom comprehension."
+    },
+    "physicalDevices": {
+      "status": "pending",
+      "notes": "Emulation is not physical-device or assistive-technology acceptance."
+    },
+    "classroomProtocol": {
+      "status": "not-applicable",
+      "notes": "Virtual-only activity; no physical protocol supplied."
+    }
+  },
+  "history": [
+    {
+      "date": "2026-11-15T15:03:52.658Z",
+      "decision": "changes-required",
+      "notes": "Separate visual/wording review found the cover surface ambiguous and unnecessary technical wording. Initial browser failure was test disclosure navigation; corrected build group passed all seven."
+    }
+  ],
+  "decision": "pass",
+  "summary": "Development review passed after clarifying the soil seal, simplifying student limits and removing a nearly blank citation page. Controlled synthetic mass-change/rate and leaf pathway evidence verified; classroom, physical-device, translation and release acceptance remain separate.",
+  "blockers": [],
+  "followups": [
+    {
+      "id": "shared-touch-focus-2026-11-15",
+      "reviewedOn": "2026-11-15",
+      "reviewedBy": "Codex - shared interaction follow-up",
+      "decision": "pass",
+      "summary": "Pending native compatibility mousedown no longer steals newly assigned focus. Existing deliberate next-tap/mouse/keyboard behavior verified in39 selected browser cases; original lab review snapshot retained.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.json",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.md",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-native-focus-regressions.txt"
+      ]
+    },
+    {
+      "id": "shared-response-pagination-2026-11-15",
+      "recordedAt": "2026-11-15T17:05:24.805Z",
+      "scope": "Shared PDF question/answer page-break guard; original review remains its point-in-time snapshot. Representative current starch, stored heat/fungal and legacy enzyme reports checked; not a full rerun of this lab.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.md",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.json",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/pagination-corrected.txt",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-model-tests.txt"
+      ]
+    },
+    {
+      "id": "shared-scientific-symbols-2026-11-15",
+      "recordedAt": "2026-11-15T18:31:00.207Z",
+      "scope": "Shared offline scientific-symbol glyph fallback only; original source snapshot/history unchanged. Representative new/old outputs and legacy wrappers validated, not full rerun of this lab.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.md",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.json",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/glyph-all-artifacts.txt"
+      ]
+    }
+  ]
+}

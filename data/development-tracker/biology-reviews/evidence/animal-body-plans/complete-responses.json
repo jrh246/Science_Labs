@@ -1,0 +1,531 @@
+{
+  "schemaVersion": 2,
+  "labId": "animal-body-plans",
+  "title": "Classifying Animal Body Plans",
+  "question": "How can symmetry tests, development records and internal sections help us compare animal body plans?",
+  "student": {
+    "name": "Zoë García",
+    "class": "Period 5"
+  },
+  "status": "Complete",
+  "grading": "not_graded",
+  "exportedAt": "2026-11-15T13:49:30.184Z",
+  "exportTimeZone": "America/Los_Angeles",
+  "exportedAtDisplay": "Nov 15, 2026, 5:49 AM PST",
+  "sections": [
+    {
+      "heading": "First prediction and evidence plan",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Required before inspecting: Would two animals with similar worm-like outlines necessarily have the same internal body plan? Predict what extra evidence could distinguish them.",
+          "text": "Worm-like outlines may hide different internal cavities. Sections and development records could distinguish them."
+        },
+        {
+          "type": "response",
+          "prompt": "Required before inspecting: How will testing two mirror planes that cross at a right angle help you compare symmetry? Why will you also need internal and developmental evidence?",
+          "text": "Test perpendicular mirror planes for each model. Inspect supplied development records and probe the gut and the surrounding region before classifying."
+        },
+        {
+          "type": "paragraph",
+          "text": "Timing: Before symmetry tests or supplied section observations."
+        }
+      ]
+    },
+    {
+      "heading": "Symmetry and internal evidence",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Planes were selected by the student; match outcomes and all sections/development records are supplied teaching-model evidence. No specimens were measured or dissected."
+        },
+        {
+          "type": "response",
+          "prompt": "Irregular sponge — tested planes",
+          "text": "0°: does not match; 90°: does not match"
+        },
+        {
+          "type": "paragraph",
+          "text": "Provided record: specialized cells, without the conventional true germ layers used for the other examples. This does not mean a sponge has no organized cells. The pale spaces carry water through chambers. They are not a digestive gut or a coelom. The usual three-layer body-cavity comparison does not apply."
+        },
+        {
+          "type": "paragraph",
+          "text": "Three-layer cavity probes not applicable."
+        },
+        {
+          "type": "response",
+          "prompt": "Irregular sponge — current classification",
+          "text": "Symmetry: Asymmetrical. Germ layers: No conventional true germ layers assigned. Cavity: This three-layer cavity comparison does not apply.\nCorrect first check."
+        },
+        {
+          "type": "response",
+          "prompt": "Simple polyp — tested planes",
+          "text": "0°: roughly matches; 90°: roughly matches"
+        },
+        {
+          "type": "paragraph",
+          "text": "Provided record: two germ layers, ectoderm and endoderm. A jelly-like middle region is not a third germ layer. The central digestive space is inside the gut lining. There is no mesodermal third layer here; do not use the three-layer coelom comparison."
+        },
+        {
+          "type": "paragraph",
+          "text": "Three-layer cavity probes not applicable."
+        },
+        {
+          "type": "response",
+          "prompt": "Simple polyp — current classification",
+          "text": "Symmetry: Radial. Germ layers: Two germ layers. Cavity: This three-layer cavity comparison does not apply.\nCorrect first check."
+        },
+        {
+          "type": "response",
+          "prompt": "Planarian flatworm — tested planes",
+          "text": "0°: roughly matches; 90°: does not match"
+        },
+        {
+          "type": "paragraph",
+          "text": "Provided record: three germ layers, ectoderm, mesoderm and endoderm. Selected section through one gut branch. Tissue fills the region between the gut lining and body wall. Other gut branches and organs are omitted."
+        },
+        {
+          "type": "paragraph",
+          "text": "Student inspected: This is the gut lumen, the space inside the endoderm-derived digestive lining. Having this space does not mean a coelom occurs outside the gut. Mesoderm-derived tissue fills this region. There is no open body cavity here."
+        },
+        {
+          "type": "response",
+          "prompt": "Planarian flatworm — current classification",
+          "text": "Symmetry: Bilateral. Germ layers: Three germ layers. Cavity: No body cavity around the gut.\nCorrect after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "Roundworm — tested planes",
+          "text": "0°: roughly matches; 90°: does not match"
+        },
+        {
+          "type": "paragraph",
+          "text": "Provided record: three germ layers, ectoderm, mesoderm and endoderm. Simplified section with other organs omitted. Compare the tissue at the wall with the lining around the gut."
+        },
+        {
+          "type": "paragraph",
+          "text": "Student inspected: This is the gut lumen, inside its endoderm-derived lining. The separate space outside that lining is the pseudocoel. This is fluid-filled space outside the gut. Mesoderm-derived tissue borders the body wall but does not surround the gut in this model."
+        },
+        {
+          "type": "response",
+          "prompt": "Roundworm — current classification",
+          "text": "Symmetry: Bilateral. Germ layers: Three germ layers. Cavity: Pseudocoel: mesoderm at the wall, not around the gut.\nCorrect first check."
+        },
+        {
+          "type": "response",
+          "prompt": "Annelid worm — tested planes",
+          "text": "0°: roughly matches; 90°: does not match"
+        },
+        {
+          "type": "paragraph",
+          "text": "Provided record: three germ layers, ectoderm, mesoderm and endoderm. Selected segment section. Mesoderm-derived tissue lines the body wall and surrounds the gut; a supporting tissue bridge is shown."
+        },
+        {
+          "type": "paragraph",
+          "text": "Student inspected: This is the gut lumen. Outside its endoderm-derived lining is a mesoderm-derived covering, then the separate coelomic space. This fluid-filled space has mesoderm-derived tissue at both the body wall and around the gut. It is a coelom."
+        },
+        {
+          "type": "response",
+          "prompt": "Annelid worm — current classification",
+          "text": "Symmetry: Bilateral. Germ layers: Three germ layers. Cavity: Coelom: mesoderm lines the wall and surrounds the gut.\nCorrect first check."
+        }
+      ]
+    },
+    {
+      "heading": "Evidence by learning goal",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Use tested mirror planes to distinguish selected asymmetrical, radial and bilateral body plans."
+        },
+        {
+          "type": "response",
+          "prompt": "Compare the 0° and 90° mirror tests for the sponge, polyp and one worm. What supports each symmetry classification? Why is a roundworm not radially symmetrical just because its cross section is round?",
+          "text": "My symmetry evidence uses the model tests and supplied records. The polyp matched two perpendicular planes; the sponge did not, and the worm models matched the main left-right plane. The planarian has tissue around the gut, the roundworm lacks mesoderm around the gut, and the annelid has it at both cavity boundaries. The gut lumen is a separate digestive space. Germ-layer counts came from provided development evidence. These examples do not rank evolutionary success or establish a family tree."
+        },
+        {
+          "type": "paragraph",
+          "text": "Use supplied developmental and section evidence to distinguish tissue origins, gut space and body cavities."
+        },
+        {
+          "type": "response",
+          "prompt": "Compare the planarian, roundworm and annelid sections. Where is the gut lumen? What lies between the gut and body wall, and where is mesoderm-derived tissue? Explain how these observations support your three cavity classifications.",
+          "text": "My internal evidence uses the model tests and supplied records. The polyp matched two perpendicular planes; the sponge did not, and the worm models matched the main left-right plane. The planarian has tissue around the gut, the roundworm lacks mesoderm around the gut, and the annelid has it at both cavity boundaries. The gut lumen is a separate digestive space. Germ-layer counts came from provided development evidence. These examples do not rank evolutionary success or establish a family tree."
+        },
+        {
+          "type": "paragraph",
+          "text": "Explain why shared outline or one body-plan trait alone does not establish internal anatomy or ancestry."
+        },
+        {
+          "type": "response",
+          "prompt": "Revisit your prediction. What evidence came from your tests, and what was supplied by the model? Explain why you could not count germ layers from an outside view or use these categories as an evolutionary ranking.",
+          "text": "My reasoning evidence uses the model tests and supplied records. The polyp matched two perpendicular planes; the sponge did not, and the worm models matched the main left-right plane. The planarian has tissue around the gut, the roundworm lacks mesoderm around the gut, and the annelid has it at both cavity boundaries. The gut lumen is a separate digestive space. Germ-layer counts came from provided development evidence. These examples do not rank evolutionary success or establish a family tree."
+        }
+      ]
+    },
+    {
+      "heading": "Concept checks",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "A planarian has a digestive space. Does that alone show it has a coelom?",
+          "text": "No. A coelom is a separate body cavity outside the gut, with a mesoderm-derived lining.\nCorrect! The gut lumen holds digestive contents. In the selected planarian, tissue fills the region around the gut; no separate body cavity occurs there. Revised after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "Which evidence supports the number of germ layers in this lab?",
+          "text": "The supplied development record, together with the explanatory section model.\nCorrect! Germ layers form during development. The colored sections explain supplied tissue origins; they are not natural colors or direct measurements of an embryo. Correct on first recorded check."
+        },
+        {
+          "type": "response",
+          "prompt": "What can you conclude from these body-plan categories?",
+          "text": "They describe useful traits; more evidence is needed to establish ancestry.\nCorrect! Living animal groups have their own evolutionary histories. Similar shapes or shared cavity categories alone are not a complete family tree or a ranking of success. Correct on first recorded check."
+        }
+      ]
+    },
+    {
+      "heading": "Model limits and sources",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "These are idealized teaching drawings and supplied developmental records, not live animals, photographs or student dissections. Symmetry refers to the selected whole-body plan; real bodies and internal organs are not perfect mirror images. The simple polyp is viewed down its mouth axis, and the worms from above. Two tested planes help distinguish these examples but do not prove every possible plane. Sections use false colors and enlarged spaces to show tissue origins and cavity linings; other organs are omitted. Germ-layer number is supplied developmental evidence, not measured from external shape. Some sponges have other shapes; some animal groups and life stages differ from these examples. Body-plan categories are descriptions, not a ladder from inferior to superior animals or enough evidence by themselves to reconstruct ancestry. No physical dissection protocol is supplied."
+        },
+        {
+          "type": "paragraph",
+          "text": "OpenStax Biology 2e: Features Used to Classify Animals: https://openstax.org/books/biology-2e/pages/27-2-features-used-to-classify-animals"
+        },
+        {
+          "type": "paragraph",
+          "text": "OpenStax Biology 2e: Porifera and specialized cells: https://openstax.org/books/biology-2e/pages/28-1-phylum-porifera"
+        },
+        {
+          "type": "paragraph",
+          "text": "OpenStax Biology 2e: Cnidaria: https://openstax.org/books/biology-2e/pages/28-2-phylum-cnidaria"
+        },
+        {
+          "type": "paragraph",
+          "text": "OpenStax Biology 2e: Flatworms: https://openstax.org/books/biology-2e/pages/28-3-superphylum-lophotrochozoa-flatworms-rotifers-and-nemerteans"
+        },
+        {
+          "type": "paragraph",
+          "text": "University of Michigan Animal Diversity Web: Nematoda: https://animaldiversity.org/accounts/Nematoda/"
+        }
+      ],
+      "keepFirst": 6
+    }
+  ],
+  "activityVersion": 1,
+  "locale": "en",
+  "attemptId": "bodyplans-3749203071-1794750565503",
+  "data": {
+    "schemaVersion": 1,
+    "activityVersion": 1,
+    "labId": "animal-body-plans",
+    "attemptId": "bodyplans-3749203071-1794750565503",
+    "seed": 3749203071,
+    "locale": "en",
+    "stage": 2,
+    "studentName": "Zoë García",
+    "studentClass": "Period 5",
+    "prediction": "Worm-like outlines may hide different internal cavities. Sections and development records could distinguish them.",
+    "design": "Test perpendicular mirror planes for each model. Inspect supplied development records and probe the gut and the surrounding region before classifying.",
+    "initialPlan": {
+      "prediction": "Worm-like outlines may hide different internal cavities. Sections and development records could distinguish them.",
+      "design": "Test perpendicular mirror planes for each model. Inspect supplied development records and probe the gut and the surrounding region before classifying.",
+      "timing": "Before symmetry tests or supplied section observations",
+      "recordedAt": "2026-11-15T13:49:25.674Z"
+    },
+    "current": "annelid",
+    "rows": {
+      "sponge": {
+        "angle": 90,
+        "tests": [
+          {
+            "angle": 0,
+            "matches": false,
+            "sourceId": "student-selected-plane-supplied-model-test"
+          },
+          {
+            "angle": 90,
+            "matches": false,
+            "sourceId": "student-selected-plane-supplied-model-test"
+          }
+        ],
+        "inspected": true,
+        "probes": [],
+        "lastProbe": null,
+        "entries": {
+          "symmetry": "asymmetric",
+          "layers": "unassigned",
+          "cavity": "na"
+        },
+        "record": {
+          "entries": {
+            "symmetry": "asymmetric",
+            "layers": "unassigned",
+            "cavity": "na"
+          },
+          "correctAfterFeedback": false,
+          "sourceId": "student-classified-supplied-body-plan-evidence"
+        },
+        "attempts": [
+          {
+            "entries": {
+              "symmetry": "asymmetric",
+              "layers": "unassigned",
+              "cavity": "na"
+            },
+            "correct": true
+          }
+        ]
+      },
+      "polyp": {
+        "angle": 90,
+        "tests": [
+          {
+            "angle": 0,
+            "matches": true,
+            "sourceId": "student-selected-plane-supplied-model-test"
+          },
+          {
+            "angle": 90,
+            "matches": true,
+            "sourceId": "student-selected-plane-supplied-model-test"
+          }
+        ],
+        "inspected": true,
+        "probes": [],
+        "lastProbe": null,
+        "entries": {
+          "symmetry": "radial",
+          "layers": "two",
+          "cavity": "na"
+        },
+        "record": {
+          "entries": {
+            "symmetry": "radial",
+            "layers": "two",
+            "cavity": "na"
+          },
+          "correctAfterFeedback": false,
+          "sourceId": "student-classified-supplied-body-plan-evidence"
+        },
+        "attempts": [
+          {
+            "entries": {
+              "symmetry": "radial",
+              "layers": "two",
+              "cavity": "na"
+            },
+            "correct": true
+          }
+        ]
+      },
+      "flatworm": {
+        "angle": 90,
+        "tests": [
+          {
+            "angle": 0,
+            "matches": true,
+            "sourceId": "student-selected-plane-supplied-model-test"
+          },
+          {
+            "angle": 90,
+            "matches": false,
+            "sourceId": "student-selected-plane-supplied-model-test"
+          }
+        ],
+        "inspected": true,
+        "probes": [
+          "gut",
+          "between"
+        ],
+        "lastProbe": "between",
+        "entries": {
+          "symmetry": "bilateral",
+          "layers": "three",
+          "cavity": "none"
+        },
+        "record": {
+          "entries": {
+            "symmetry": "bilateral",
+            "layers": "three",
+            "cavity": "none"
+          },
+          "correctAfterFeedback": true,
+          "sourceId": "student-classified-supplied-body-plan-evidence"
+        },
+        "attempts": [
+          {
+            "entries": {
+              "symmetry": "radial",
+              "layers": "two",
+              "cavity": "coelom"
+            },
+            "correct": false
+          },
+          {
+            "entries": {
+              "symmetry": "bilateral",
+              "layers": "three",
+              "cavity": "none"
+            },
+            "correct": true
+          }
+        ]
+      },
+      "roundworm": {
+        "angle": 90,
+        "tests": [
+          {
+            "angle": 0,
+            "matches": true,
+            "sourceId": "student-selected-plane-supplied-model-test"
+          },
+          {
+            "angle": 90,
+            "matches": false,
+            "sourceId": "student-selected-plane-supplied-model-test"
+          }
+        ],
+        "inspected": true,
+        "probes": [
+          "gut",
+          "between"
+        ],
+        "lastProbe": "between",
+        "entries": {
+          "symmetry": "bilateral",
+          "layers": "three",
+          "cavity": "pseudo"
+        },
+        "record": {
+          "entries": {
+            "symmetry": "bilateral",
+            "layers": "three",
+            "cavity": "pseudo"
+          },
+          "correctAfterFeedback": false,
+          "sourceId": "student-classified-supplied-body-plan-evidence"
+        },
+        "attempts": [
+          {
+            "entries": {
+              "symmetry": "bilateral",
+              "layers": "three",
+              "cavity": "pseudo"
+            },
+            "correct": true
+          }
+        ]
+      },
+      "annelid": {
+        "angle": 90,
+        "tests": [
+          {
+            "angle": 0,
+            "matches": true,
+            "sourceId": "student-selected-plane-supplied-model-test"
+          },
+          {
+            "angle": 90,
+            "matches": false,
+            "sourceId": "student-selected-plane-supplied-model-test"
+          }
+        ],
+        "inspected": true,
+        "probes": [
+          "gut",
+          "between"
+        ],
+        "lastProbe": "between",
+        "entries": {
+          "symmetry": "bilateral",
+          "layers": "three",
+          "cavity": "coelom"
+        },
+        "record": {
+          "entries": {
+            "symmetry": "bilateral",
+            "layers": "three",
+            "cavity": "coelom"
+          },
+          "correctAfterFeedback": false,
+          "sourceId": "student-classified-supplied-body-plan-evidence"
+        },
+        "attempts": [
+          {
+            "entries": {
+              "symmetry": "bilateral",
+              "layers": "three",
+              "cavity": "coelom"
+            },
+            "correct": true
+          }
+        ]
+      }
+    },
+    "checks": {
+      "gut": {
+        "attempts": [
+          {
+            "value": "empty",
+            "correct": false
+          },
+          {
+            "value": "separate",
+            "correct": true
+          }
+        ],
+        "value": "separate",
+        "correct": true
+      },
+      "layers": {
+        "attempts": [
+          {
+            "value": "record",
+            "correct": true
+          }
+        ],
+        "value": "record",
+        "correct": true
+      },
+      "ranking": {
+        "attempts": [
+          {
+            "value": "describe",
+            "correct": true
+          }
+        ],
+        "value": "describe",
+        "correct": true
+      }
+    },
+    "answers": {
+      "symmetry": "My symmetry evidence uses the model tests and supplied records. The polyp matched two perpendicular planes; the sponge did not, and the worm models matched the main left-right plane. The planarian has tissue around the gut, the roundworm lacks mesoderm around the gut, and the annelid has it at both cavity boundaries. The gut lumen is a separate digestive space. Germ-layer counts came from provided development evidence. These examples do not rank evolutionary success or establish a family tree.",
+      "internal": "My internal evidence uses the model tests and supplied records. The polyp matched two perpendicular planes; the sponge did not, and the worm models matched the main left-right plane. The planarian has tissue around the gut, the roundworm lacks mesoderm around the gut, and the annelid has it at both cavity boundaries. The gut lumen is a separate digestive space. Germ-layer counts came from provided development evidence. These examples do not rank evolutionary success or establish a family tree.",
+      "reasoning": "My reasoning evidence uses the model tests and supplied records. The polyp matched two perpendicular planes; the sponge did not, and the worm models matched the main left-right plane. The planarian has tissue around the gut, the roundworm lacks mesoderm around the gut, and the annelid has it at both cavity boundaries. The gut lumen is a separate digestive space. Germ-layer counts came from provided development evidence. These examples do not rank evolutionary success or establish a family tree."
+    },
+    "complete": true
+  },
+  "evidence": [
+    {
+      "goalId": "symmetry",
+      "answerId": "symmetry",
+      "writing": "My symmetry evidence uses the model tests and supplied records. The polyp matched two perpendicular planes; the sponge did not, and the worm models matched the main left-right plane. The planarian has tissue around the gut, the roundworm lacks mesoderm around the gut, and the annelid has it at both cavity boundaries. The gut lumen is a separate digestive space. Germ-layer counts came from provided development evidence. These examples do not rank evolutionary success or establish a family tree.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "internal",
+      "answerId": "internal",
+      "writing": "My internal evidence uses the model tests and supplied records. The polyp matched two perpendicular planes; the sponge did not, and the worm models matched the main left-right plane. The planarian has tissue around the gut, the roundworm lacks mesoderm around the gut, and the annelid has it at both cavity boundaries. The gut lumen is a separate digestive space. Germ-layer counts came from provided development evidence. These examples do not rank evolutionary success or establish a family tree.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "reasoning",
+      "answerId": "reasoning",
+      "writing": "My reasoning evidence uses the model tests and supplied records. The polyp matched two perpendicular planes; the sponge did not, and the worm models matched the main left-right plane. The planarian has tissue around the gut, the roundworm lacks mesoderm around the gut, and the annelid has it at both cavity boundaries. The gut lumen is a separate digestive space. Germ-layer counts came from provided development evidence. These examples do not rank evolutionary success or establish a family tree.",
+      "status": "not_graded"
+    }
+  ]
+}

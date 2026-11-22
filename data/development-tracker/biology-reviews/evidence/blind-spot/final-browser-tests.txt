@@ -1,0 +1,31 @@
+node.exe : [WebServer] (node:10524) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([WebServer] (no... env being set.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] 
+[WebServer] (!) Some chunks are larger than 500 kB after minification. Consider:
+[WebServer] - Using dynamic import() to code-split the application
+[WebServer] - Use build.rollupOptions.output.manualChunks to improve chunking: 
+https://rollupjs.org/configuration-options/#output-manualchunks
+[WebServer] - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[WebServer] (node:8752) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 8 tests using 1 worker
+
+(node:42212) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 tests\browser\biology-browser-contract.mjs:5:2 › blind-spot: complete corrected attempt, truthful saves, named PDF/JSON/native print and edits (5.1s)
+  ok 2 tests\browser\biology-browser-contract.mjs:6:2 › blind-spot: denied storage/retry, Unicode long writing and first offline PDF/native print (2.5s)
+  ok 3 tests\browser\biology-browser-contract.mjs:7:2 › blind-spot: unfinished neutral PDF and export failure recovery (972ms)
+  ok 4 tests\browser\biology-browser-contract.mjs:8:2 › blind-spot: root/development progress isolation and first offline development PDF (1.9s)
+  ok 5 tests\browser\blind.spec.js:14:1 › blind current raw report/inference edits remain unconfirmed across reload while view-only review preserves completion (2.8s)
+  ok 6 tests\browser\blind.spec.js:15:1 › blind supplied source route and no-clear-gap own reports complete without fabricated physiological correctness (3.7s)
+  ok 7 tests\browser\blind.spec.js:16:1 › blind native label drag-release-nexttap, actual dot drag/keyboard positions and original contexts after resize (3.3s)
+  ok 8 tests\browser\blind.spec.js:18:1 › blind first offline PDF preserves original scientific arrows with locally bundled fallback font (2.3s)
+
+  8 passed (30.0s)

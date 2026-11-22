@@ -1,0 +1,81 @@
+{
+  "sourceSnapshot": "c3fe5e5fd76da8c46b354d8e6e8c3da563a36cff7eedcd7c7722cd855daece02",
+  "recordedAt": "2026-11-15T09:51:50.567Z",
+  "files": [
+    {
+      "path": "src/catalog.js",
+      "sha256": "50c7eabd4735114aff4113822a1287b2dfc4142d274ae3624758965c646add1e"
+    },
+    {
+      "path": "src/investigations/app.js",
+      "sha256": "ccb8aa13e2c14bbbca197ee54bb9943b66e86d834808d34a877929889ca59261"
+    },
+    {
+      "path": "src/investigations/seed.css",
+      "sha256": "556d075ae4c70757a1476deddca67e69a1c251798f19656ad2c0659ff46405bb"
+    },
+    {
+      "path": "src/investigations/touch-buttons.js",
+      "sha256": "728e3727dc4b4f7c3fcf0dc633679c84eda4b048ed2ec230700526ee334c0bec"
+    },
+    {
+      "path": "src/investigations/surface-content.js",
+      "sha256": "0e3d32b36069b7484b72b0e06db8166376018f4804f73568f6717dd7bed557ad"
+    },
+    {
+      "path": "src/investigations/surface-model.js",
+      "sha256": "bce4746250a535b26ec0619e2b7fa76f2905252fd2762c0e106f78f20ae6d13d"
+    },
+    {
+      "path": "src/investigations/surface-art.js",
+      "sha256": "672e3a80e3f09c0de4ea9f79afba6b4fb7a1b41de092d3e6edf5e935199e4d44"
+    },
+    {
+      "path": "src/investigations/surface-report.js",
+      "sha256": "0e8c836e3f422ece6a58a11e5a8b14c65cbaa3910da5b933aa7899d42650aaee"
+    },
+    {
+      "path": "src/investigations/surface-app.js",
+      "sha256": "b5dccc96785b30aec8c8e4cc24baaa45709d59395c24a7b6e4f1213f5d6a6181"
+    },
+    {
+      "path": "src/investigations/surface.css",
+      "sha256": "b4d493b612a4a35fb76ad609fe29ad1c44b8aff8a616c10255933f1e504cf5a4"
+    },
+    {
+      "path": "tests/surface.test.js",
+      "sha256": "c34b2f0c1b1239935210c4bdad51fd2d047d9db6565175dbee05adbfd1935694"
+    },
+    {
+      "path": "tests/browser/surface.spec.js",
+      "sha256": "ff82343779fc9f27853e5dd9b6d68b8db956246f5f3e00817de49eeb6d6d14c9"
+    },
+    {
+      "path": "scripts/build-surface-resources.py",
+      "sha256": "5a4fe729d62d0e679186136449053648ac55fabb3a2aafe4008f93a570a252a2"
+    },
+    {
+      "path": "scripts/render-biology-review.py",
+      "sha256": "0531453de0f78cef33bd1e4184b1c153885703009e73822cff870103f94cf9b3"
+    },
+    {
+      "path": "LAB_DESIGN_GUIDE.md",
+      "sha256": "82ad953d28fe2072b7ef3a1f7e106ba6811042690f16e40e91f7c1b6c53a2306"
+    }
+  ],
+  "previousSnapshot": "ba7ce50671faf762cb0e6050aa9da08790fcfe1293f91d55a1467b209bfc441d",
+  "followupTests": [
+    {
+      "path": "tests/partial-evidence.test.js",
+      "sha256": "5fe3d96750e24cf13168bafbdce917cce26e06334c2ba58de6b4e31f83b0c6a8"
+    },
+    {
+      "path": "tests/browser/partial-evidence.spec.js",
+      "sha256": "0817eb62985dfdee801b101663e435732dd43f01ceeeba3ac56feff46cf02aa6"
+    },
+    {
+      "path": "tests/browser/recheck-edits.spec.js",
+      "sha256": "5df14e0c65367d6be7153cac3e1c5910a14061a0d347e45c256eddcc2417efa6"
+    }
+  ]
+}

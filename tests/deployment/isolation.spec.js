@@ -17,6 +17,7 @@ test('production and development keep independent progress and offline caches',a
  // Do not interrupt the first worker installation by navigating to the same page again.
  if(productionLab!=='/Science_Labs/')await page.goto(productionLab);
  await controlled(page,'/Science_Labs/');
+ if(await page.locator('#osmosis-prediction').count())await page.locator('#osmosis-prediction').fill('Water moves toward a higher sugar concentration.');
  await page.getByRole('button',{name:'Begin Lab'}).click();
  const original=await page.evaluate(()=>localStorage.getItem('cell-lab'));
  await page.goto('/Science_Labs/dev/');
@@ -27,12 +28,14 @@ test('production and development keep independent progress and offline caches',a
  await page.getByRole('link',{name:'Osmosis and Cell Homeostasis',exact:true}).click();
  await page.getByRole('link',{name:'Launch virtual lab'}).click();
  await expect(page.getByRole('button',{name:'Begin Lab'})).toBeVisible();
+ if(await page.locator('#osmosis-prediction').count())await page.locator('#osmosis-prediction').fill('Water moves toward a higher sugar concentration.');
  await page.getByRole('button',{name:'Begin Lab'}).click();
  expect(await page.evaluate(()=>localStorage.getItem('cell-lab'))).toBe(original);
  expect(await page.evaluate(()=>JSON.parse(localStorage.getItem('cell-lab:development:/Science_Labs/dev/')).state.step)).toBe(1);
  page.on('dialog',dialog=>dialog.accept());
  await page.getByRole('button',{name:'Reset Lab'}).click();
- await expect(page.getByRole('button',{name:'Begin Lab'})).toBeEnabled();
+ await expect(page.locator('.feedback')).toContainText('Lab reset.');
+ await expect(page.getByRole('button',{name:'Begin Lab'})).toBeDisabled();
  expect(await page.evaluate(()=>localStorage.getItem('cell-lab'))).toBe(original);
  const keys=await page.evaluate(()=>caches.keys());
  expect(keys.some(k=>k.startsWith('science-labs:/Science_Labs/:'))).toBeTruthy();

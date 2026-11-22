@@ -1,0 +1,30 @@
+node.exe : [WebServer] (node:3720) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([WebServer] (no... env being set.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] 
+[WebServer] (!) Some chunks are larger than 500 kB after minification. Consider:
+[WebServer] - Using dynamic import() to code-split the application
+[WebServer] - Use build.rollupOptions.output.manualChunks to improve chunking: 
+https://rollupjs.org/configuration-options/#output-manualchunks
+[WebServer] - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[WebServer] (node:48048) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 7 tests using 1 worker
+
+(node:52760) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 tests\browser\biology-browser-contract.mjs:5:2 › seed-dispersal: complete corrected attempt, truthful saves, named PDF/JSON/native print and edits (8.7s)
+  ok 2 tests\browser\biology-browser-contract.mjs:6:2 › seed-dispersal: denied storage/retry, Unicode long writing and first offline PDF/native print (2.2s)
+  ok 3 tests\browser\biology-browser-contract.mjs:7:2 › seed-dispersal: unfinished neutral PDF and export failure recovery (868ms)
+  ok 4 tests\browser\biology-browser-contract.mjs:8:2 › seed-dispersal: root/development progress isolation and first offline development PDF (1.4s)
+  ok 5 tests\browser\dispersal.spec.js:12:1 › dispersal all six manual releases, keyboard balance and data-source integrity at higher wind (2.0s)
+  ok 6 tests\browser\dispersal.spec.js:13:1 › dispersal native touch seed drag-release, exact one release and continuous phone ruler (1.6s)
+  ok 7 tests\browser\dispersal.spec.js:14:1 › dispersal view-only review preserves completion; revised readings and calculations reopen evidence (2.3s)
+
+  7 passed (25.2s)

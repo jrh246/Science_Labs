@@ -1,0 +1,20 @@
+{
+  "production": {
+    "PLATFORM_ENV": "production",
+    "APP_URL": "https://prepdrawer.com",
+    "API_URL": "https://api.prepdrawer.com",
+    "VITE_API_BASE_URL": "https://api.prepdrawer.com",
+    "ApiDomainName": "api.prepdrawer.com",
+    "googleCallback": "https://api.prepdrawer.com/api/auth/callback/google",
+    "suggestedEmailFrom": "PrepDrawer <labs@mail.prepdrawer.com>"
+  },
+  "development": {
+    "PLATFORM_ENV": "development",
+    "APP_URL": "https://dev.prepdrawer.com",
+    "API_URL": "https://api.dev.prepdrawer.com",
+    "VITE_API_BASE_URL": "https://api.dev.prepdrawer.com",
+    "ApiDomainName": "api.dev.prepdrawer.com",
+    "googleCallback": "https://api.dev.prepdrawer.com/api/auth/callback/google",
+    "suggestedEmailFrom": "PrepDrawer Dev <labs@mail.prepdrawer.com>"
+  }
+}

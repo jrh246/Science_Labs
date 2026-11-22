@@ -1,0 +1,529 @@
+{
+  "schemaVersion": 2,
+  "labId": "body-heat",
+  "title": "Body Size and Heat Exchange",
+  "question": "How does size affect passive cooling, and is a faster temperature drop the same as more total heat released?",
+  "student": {
+    "name": "Zoë García",
+    "class": "Period 5"
+  },
+  "status": "Complete",
+  "grading": "not_graded",
+  "exportedAt": "2026-11-15T16:30:35.047Z",
+  "exportTimeZone": "America/Los_Angeles",
+  "exportedAtDisplay": "Nov 15, 2026, 8:30 AM PST",
+  "sections": [
+    {
+      "heading": "First prediction and matched comparison",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Required before observing: Which of two similar cubes, with 1 cm or 2 cm edges, will show the greater temperature drop over the same interval? Will it also release more total heat? Explain your reasoning.",
+          "text": "The smaller cube may change temperature faster because of more exposed surface per volume, but a large mass may release more total energy even with a smaller drop."
+        },
+        {
+          "type": "response",
+          "prompt": "Required before observing: Why match the material, starting temperature, surrounding air, exposed faces and interval? When size changes, should mass stay the same if density stays the same? What can two passive cubes not tell us about living animals?",
+          "text": "Match material, initial temperature, air temperature, exposed faces and interval. With common density, the larger volume has greater mass. Living animals also generate and regulate heat, which passive blocks do not show."
+        },
+        {
+          "type": "paragraph",
+          "text": "Timing: Before geometry or thermal observations."
+        },
+        {
+          "type": "paragraph",
+          "text": "Both model cubes use the same water-like material, with assumed density 1 g/cm³ and specific heat 4.18 J/(g·°C). Specific heat describes the energy per gram for each degree of temperature change. Each starts at 40.0°C in 20.0°C air. All six faces exchange heat with the air in the same way. Probe and support effects are ignored. Setup is a paused model; one action later advances both cubes by 20 model minutes."
+        },
+        {
+          "type": "paragraph",
+          "text": "One supplied model per size, not repeated trials or measured animal specimens."
+        }
+      ]
+    },
+    {
+      "heading": "Geometry reasoning",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Areas/volumes follow supplied dimensions. Student ratios use area divided by volume; cm⁻¹ means cm² per cm³."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Cube",
+            "Edge(cm)",
+            "Area(cm²)",
+            "Volume(cm³)",
+            "Current ratio(cm⁻¹)",
+            "Status"
+          ],
+          "rows": [
+            [
+              "Small cube",
+              "1",
+              "6",
+              "1",
+              "6",
+              "Correct after feedback"
+            ],
+            [
+              "Large cube",
+              "2",
+              "24",
+              "8",
+              "3",
+              "Correct after feedback"
+            ]
+          ]
+        },
+        {
+          "type": "response",
+          "prompt": "Greater area per volume",
+          "text": "Small cube\nCorrect after feedback."
+        }
+      ]
+    },
+    {
+      "heading": "Temperature-change evidence",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Student readings from provided synthetic model probe displays, not measured specimens. Model interval completed: 20 minutes. Setup was paused; calculations use the single 20-model-minute interval. Current unconfirmed entries stay visible."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Cube",
+            "Current initial(°C)",
+            "Status",
+            "Current final(°C)",
+            "Status"
+          ],
+          "rows": [
+            [
+              "Small cube",
+              "40.0",
+              "Correct after feedback",
+              "26.0",
+              "Correct first check"
+            ],
+            [
+              "Large cube",
+              "40.0",
+              "Correct first check",
+              "31.0",
+              "Correct first check"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Cube",
+            "Current drop(°C)",
+            "Current average(°C/min)",
+            "Status"
+          ],
+          "rows": [
+            [
+              "Small cube",
+              "14.0",
+              "0.70",
+              "Correct after feedback"
+            ],
+            [
+              "Large cube",
+              "9.0",
+              "0.45",
+              "Correct after feedback"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Drop = initial − final. Average cooling rate = drop ÷ 20 minutes. Provided smooth curves follow the chosen model; endpoint dots show checked student readings from model snapshots, not real data."
+        }
+      ]
+    },
+    {
+      "heading": "Temperature versus transferred energy",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Heat estimates below are model-computed from current checked readings, assumed masses and specific heat 4.18J/(g·°C). They are supplied calculations, not student-calculated or measured calorimetry. Joules(J) measure energy; degrees Celsius measure temperature."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Cube",
+            "Supplied mass(g)",
+            "Supplied computed heat(J)"
+          ],
+          "rows": [
+            [
+              "Small cube",
+              "1",
+              "58.5"
+            ],
+            [
+              "Large cube",
+              "8",
+              "301.0"
+            ]
+          ]
+        },
+        {
+          "type": "response",
+          "prompt": "Greater average temperature drop per minute",
+          "text": "Small cube\nCorrect after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "Greater total heat released over this interval",
+          "text": "Large cube\nCorrect after feedback."
+        }
+      ]
+    },
+    {
+      "heading": "Evidence by learning goal",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Distinguish total surface area from surface area per volume when a cube doubles in size."
+        },
+        {
+          "type": "response",
+          "prompt": "Use both cubes’ areas, volumes and area-to-volume ratios. Why does doubling the edge give four times the area but eight times the volume? Does the larger cube have less total surface area, or less surface per volume?",
+          "text": "My geometry explanation uses supplied geometry: small area6cm²/volume1cm³ gives6cm⁻¹, large24/8 gives3cm⁻¹. Doubling edge gives area4× and volume/mass8×. Small 40→26°C drops 14°C, average 0.7°C/min; large 40→31°C drops 9°C, average 0.45°C/min over20 model minutes. Model-computed estimates58.5/301.0J use assumed masses1/8g and heat capacity4.18J/(g·°C); they are not calorimetry. Smaller cube changes temperature faster while larger mass loses more total energy. Cooling curves flatten as air-temperature gaps shrink; finite averages need not be exactly2×. Animals have metabolic heat, insulation, circulation and behavior omitted here."
+        },
+        {
+          "type": "paragraph",
+          "text": "Compare temperature drops and average cooling rates using matched initial/final model readings."
+        },
+        {
+          "type": "response",
+          "prompt": "Use the actual initial/final temperatures, drops and average rates with units. Compare your prediction with the result. What does the curved model graph say about constant-rate cooling, and why do equal-interval averages not have to be exactly twofold?",
+          "text": "My cooling explanation uses supplied geometry: small area6cm²/volume1cm³ gives6cm⁻¹, large24/8 gives3cm⁻¹. Doubling edge gives area4× and volume/mass8×. Small 40→26°C drops 14°C, average 0.7°C/min; large 40→31°C drops 9°C, average 0.45°C/min over20 model minutes. Model-computed estimates58.5/301.0J use assumed masses1/8g and heat capacity4.18J/(g·°C); they are not calorimetry. Smaller cube changes temperature faster while larger mass loses more total energy. Cooling curves flatten as air-temperature gaps shrink; finite averages need not be exactly2×. Animals have metabolic heat, insulation, circulation and behavior omitted here."
+        },
+        {
+          "type": "paragraph",
+          "text": "Distinguish temperature change from total heat released and explain limits of a passive animal-size model."
+        },
+        {
+          "type": "response",
+          "prompt": "Compare the supplied heat estimates with your temperature-rate comparison. Use both mass and temperature drop to explain the difference. Why can these cubes not predict the body temperature, metabolism or heat loss of every small and large animal?",
+          "text": "My energy explanation uses supplied geometry: small area6cm²/volume1cm³ gives6cm⁻¹, large24/8 gives3cm⁻¹. Doubling edge gives area4× and volume/mass8×. Small 40→26°C drops 14°C, average 0.7°C/min; large 40→31°C drops 9°C, average 0.45°C/min over20 model minutes. Model-computed estimates58.5/301.0J use assumed masses1/8g and heat capacity4.18J/(g·°C); they are not calorimetry. Smaller cube changes temperature faster while larger mass loses more total energy. Cooling curves flatten as air-temperature gaps shrink; finite averages need not be exactly2×. Animals have metabolic heat, insulation, circulation and behavior omitted here."
+        }
+      ]
+    },
+    {
+      "heading": "Concept checks",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "The large cube has a lower surface-area-to-volume ratio. Does it have less total outer area?",
+          "text": "No. It has more total area, but less area for each unit of volume.\nCorrect! Doubling every edge multiplies area by 4 and volume by 8. The large cube has 24 cm² instead of 6 cm², but only 3 cm² per cm³ instead of 6. Correct on first recorded check."
+        },
+        {
+          "type": "response",
+          "prompt": "Why can a cube cool more slowly in degrees per minute but release more total heat over the interval?",
+          "text": "Its larger mass can transfer more energy even with a smaller temperature drop.\nCorrect! For the same material, transferred energy depends on mass and temperature change. A temperature change alone does not give total heat. Revised after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "What does the model show about living animals?",
+          "text": "One geometric influence under matched assumptions; living temperature control needs more evidence.\nCorrect! Animals make metabolic heat and change insulation, circulation and behavior. Geometry matters, but it does not determine body temperature by itself. Correct on first recorded check."
+        }
+      ]
+    },
+    {
+      "heading": "Model limits and sources",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "All sizes, readings and energy values are supplied teaching-model data, not measured cubes or animals. Setup is paused before cooling starts. Each cube is assumed to have the same temperature throughout. A chosen rule links its cooling to surface area per volume and its current temperature difference from the air. Air stays at 20°C; the rule is not fitted to a species or calibrated apparatus. It gives curved cooling, not a constant drop each minute. All faces are exposed; probe and support contact, internal temperature differences, radiation, evaporation and changes in airflow are omitted. Later heat estimates use checked rounded readings, assumed masses and specific heat; they are calculated, not measured by calorimetry. Calorimetry means measuring heat transfer. Living animals generate metabolic heat and may change insulation, blood flow, posture or behavior. They are not passive cubes. Shape, conditions and heat direction matter; hotter surroundings could warm a cooler model. One comparison cannot estimate natural variation. Diagrams are enlarged; colors and arrows explain the model. No physical heating, cube-making or probe protocol is supplied."
+        },
+        {
+          "type": "paragraph",
+          "text": "Open University: On Size and Shape: https://www.open.edu/openlearn/mod/oucontent/view.php?id=18463&section=2.1"
+        },
+        {
+          "type": "paragraph",
+          "text": "OpenStax Biology2e: Animal Form and Function: https://openstax.org/books/biology-2e/pages/33-1-animal-form-and-function"
+        },
+        {
+          "type": "paragraph",
+          "text": "OpenStax Biology2e: Homeostasis: https://openstax.org/books/biology-2e/pages/33-3-homeostasis"
+        },
+        {
+          "type": "paragraph",
+          "text": "National Tsing Hua University: Time-Dependent Conduction, Chapter5: https://ocw.nthu.edu.tw/ocw/upload/77/832/HTchap5.pdf"
+        },
+        {
+          "type": "paragraph",
+          "text": "OpenStax Physics: Heat, Specific Heat and Heat Transfer: https://openstax.org/books/physics/pages/11-2-heat-specific-heat-and-heat-transfer"
+        }
+      ],
+      "keepFirst": 6
+    }
+  ],
+  "activityVersion": 1,
+  "locale": "en",
+  "attemptId": "heat-3758868774-1794760231206",
+  "data": {
+    "schemaVersion": 1,
+    "activityVersion": 1,
+    "labId": "body-heat",
+    "attemptId": "heat-3758868774-1794760231206",
+    "seed": 3758868774,
+    "locale": "en",
+    "stage": 4,
+    "studentName": "Zoë García",
+    "studentClass": "Period 5",
+    "prediction": "The smaller cube may change temperature faster because of more exposed surface per volume, but a large mass may release more total energy even with a smaller drop.",
+    "design": "Match material, initial temperature, air temperature, exposed faces and interval. With common density, the larger volume has greater mass. Living animals also generate and regulate heat, which passive blocks do not show.",
+    "initialPlan": {
+      "prediction": "The smaller cube may change temperature faster because of more exposed surface per volume, but a large mass may release more total energy even with a smaller drop.",
+      "design": "Match material, initial temperature, air temperature, exposed faces and interval. With common density, the larger volume has greater mass. Living animals also generate and regulate heat, which passive blocks do not show.",
+      "timing": "Before geometry or thermal observations",
+      "recordedAt": "2026-11-15T16:30:31.384Z"
+    },
+    "ratios": {
+      "small": "6",
+      "large": "3",
+      "rank": "small"
+    },
+    "ratioRecord": {
+      "values": {
+        "small": "6",
+        "large": "3",
+        "rank": "small"
+      },
+      "correctAfterFeedback": true,
+      "sourceId": "student-calculated-provided-cube-geometry"
+    },
+    "ratioAttempts": [
+      {
+        "values": {
+          "small": "999",
+          "large": "",
+          "rank": ""
+        },
+        "correct": false
+      },
+      {
+        "values": {
+          "small": "6",
+          "large": "3",
+          "rank": "small"
+        },
+        "correct": true
+      }
+    ],
+    "current": "large",
+    "time": 20,
+    "readPhase": "final",
+    "sizes": {
+      "small": {
+        "onStand": true,
+        "probe": true,
+        "entries": {
+          "initial": "40.0",
+          "final": "26.0"
+        },
+        "records": {
+          "initial": {
+            "value": 40,
+            "correctAfterFeedback": true,
+            "sourceId": "student-read-supplied-model-temperature"
+          },
+          "final": {
+            "value": 26,
+            "correctAfterFeedback": false,
+            "sourceId": "student-read-supplied-model-temperature"
+          }
+        },
+        "attempts": {
+          "initial": [
+            {
+              "value": "999",
+              "correct": false
+            },
+            {
+              "value": "40.0",
+              "correct": true
+            }
+          ],
+          "final": [
+            {
+              "value": "26.0",
+              "correct": true
+            }
+          ]
+        },
+        "finalTemperature": 26
+      },
+      "large": {
+        "onStand": true,
+        "probe": true,
+        "entries": {
+          "initial": "40.0",
+          "final": "31.0"
+        },
+        "records": {
+          "initial": {
+            "value": 40,
+            "correctAfterFeedback": false,
+            "sourceId": "student-read-supplied-model-temperature"
+          },
+          "final": {
+            "value": 31,
+            "correctAfterFeedback": false,
+            "sourceId": "student-read-supplied-model-temperature"
+          }
+        },
+        "attempts": {
+          "initial": [
+            {
+              "value": "40.0",
+              "correct": true
+            }
+          ],
+          "final": [
+            {
+              "value": "31.0",
+              "correct": true
+            }
+          ]
+        },
+        "finalTemperature": 31
+      }
+    },
+    "calculations": {
+      "small-drop": "14.0",
+      "small-rate": "0.70",
+      "large-drop": "9.0",
+      "large-rate": "0.45"
+    },
+    "calculationRecord": {
+      "values": {
+        "small-drop": "14.0",
+        "small-rate": "0.70",
+        "large-drop": "9.0",
+        "large-rate": "0.45"
+      },
+      "correctAfterFeedback": true,
+      "sourceId": "student-calculated-checked-model-temperature-change"
+    },
+    "calculationAttempts": [
+      {
+        "values": {
+          "small-drop": "999",
+          "small-rate": "",
+          "large-drop": "",
+          "large-rate": ""
+        },
+        "correct": false
+      },
+      {
+        "values": {
+          "small-drop": "14.0",
+          "small-rate": "0.70",
+          "large-drop": "9.0",
+          "large-rate": "0.45"
+        },
+        "correct": true
+      }
+    ],
+    "interpretations": {
+      "temperature": "small",
+      "energy": "large"
+    },
+    "interpretationRecord": {
+      "values": {
+        "temperature": "small",
+        "energy": "large"
+      },
+      "correctAfterFeedback": true,
+      "sourceId": "student-compared-temperature-rates-and-supplied-energy-estimates"
+    },
+    "interpretationAttempts": [
+      {
+        "values": {
+          "temperature": "large",
+          "energy": "small"
+        },
+        "correct": false
+      },
+      {
+        "values": {
+          "temperature": "small",
+          "energy": "large"
+        },
+        "correct": true
+      }
+    ],
+    "checks": {
+      "heat": {
+        "attempts": [
+          {
+            "value": "temperature",
+            "correct": false
+          },
+          {
+            "value": "mass",
+            "correct": true
+          }
+        ],
+        "value": "mass",
+        "correct": true
+      },
+      "area": {
+        "attempts": [
+          {
+            "value": "per",
+            "correct": true
+          }
+        ],
+        "value": "per",
+        "correct": true
+      },
+      "animal": {
+        "attempts": [
+          {
+            "value": "limited",
+            "correct": true
+          }
+        ],
+        "value": "limited",
+        "correct": true
+      }
+    },
+    "answers": {
+      "geometry": "My geometry explanation uses supplied geometry: small area6cm²/volume1cm³ gives6cm⁻¹, large24/8 gives3cm⁻¹. Doubling edge gives area4× and volume/mass8×. Small 40→26°C drops 14°C, average 0.7°C/min; large 40→31°C drops 9°C, average 0.45°C/min over20 model minutes. Model-computed estimates58.5/301.0J use assumed masses1/8g and heat capacity4.18J/(g·°C); they are not calorimetry. Smaller cube changes temperature faster while larger mass loses more total energy. Cooling curves flatten as air-temperature gaps shrink; finite averages need not be exactly2×. Animals have metabolic heat, insulation, circulation and behavior omitted here.",
+      "cooling": "My cooling explanation uses supplied geometry: small area6cm²/volume1cm³ gives6cm⁻¹, large24/8 gives3cm⁻¹. Doubling edge gives area4× and volume/mass8×. Small 40→26°C drops 14°C, average 0.7°C/min; large 40→31°C drops 9°C, average 0.45°C/min over20 model minutes. Model-computed estimates58.5/301.0J use assumed masses1/8g and heat capacity4.18J/(g·°C); they are not calorimetry. Smaller cube changes temperature faster while larger mass loses more total energy. Cooling curves flatten as air-temperature gaps shrink; finite averages need not be exactly2×. Animals have metabolic heat, insulation, circulation and behavior omitted here.",
+      "energy": "My energy explanation uses supplied geometry: small area6cm²/volume1cm³ gives6cm⁻¹, large24/8 gives3cm⁻¹. Doubling edge gives area4× and volume/mass8×. Small 40→26°C drops 14°C, average 0.7°C/min; large 40→31°C drops 9°C, average 0.45°C/min over20 model minutes. Model-computed estimates58.5/301.0J use assumed masses1/8g and heat capacity4.18J/(g·°C); they are not calorimetry. Smaller cube changes temperature faster while larger mass loses more total energy. Cooling curves flatten as air-temperature gaps shrink; finite averages need not be exactly2×. Animals have metabolic heat, insulation, circulation and behavior omitted here."
+    },
+    "complete": true
+  },
+  "evidence": [
+    {
+      "goalId": "geometry",
+      "answerId": "geometry",
+      "writing": "My geometry explanation uses supplied geometry: small area6cm²/volume1cm³ gives6cm⁻¹, large24/8 gives3cm⁻¹. Doubling edge gives area4× and volume/mass8×. Small 40→26°C drops 14°C, average 0.7°C/min; large 40→31°C drops 9°C, average 0.45°C/min over20 model minutes. Model-computed estimates58.5/301.0J use assumed masses1/8g and heat capacity4.18J/(g·°C); they are not calorimetry. Smaller cube changes temperature faster while larger mass loses more total energy. Cooling curves flatten as air-temperature gaps shrink; finite averages need not be exactly2×. Animals have metabolic heat, insulation, circulation and behavior omitted here.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "cooling",
+      "answerId": "cooling",
+      "writing": "My cooling explanation uses supplied geometry: small area6cm²/volume1cm³ gives6cm⁻¹, large24/8 gives3cm⁻¹. Doubling edge gives area4× and volume/mass8×. Small 40→26°C drops 14°C, average 0.7°C/min; large 40→31°C drops 9°C, average 0.45°C/min over20 model minutes. Model-computed estimates58.5/301.0J use assumed masses1/8g and heat capacity4.18J/(g·°C); they are not calorimetry. Smaller cube changes temperature faster while larger mass loses more total energy. Cooling curves flatten as air-temperature gaps shrink; finite averages need not be exactly2×. Animals have metabolic heat, insulation, circulation and behavior omitted here.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "energy",
+      "answerId": "energy",
+      "writing": "My energy explanation uses supplied geometry: small area6cm²/volume1cm³ gives6cm⁻¹, large24/8 gives3cm⁻¹. Doubling edge gives area4× and volume/mass8×. Small 40→26°C drops 14°C, average 0.7°C/min; large 40→31°C drops 9°C, average 0.45°C/min over20 model minutes. Model-computed estimates58.5/301.0J use assumed masses1/8g and heat capacity4.18J/(g·°C); they are not calorimetry. Smaller cube changes temperature faster while larger mass loses more total energy. Cooling curves flatten as air-temperature gaps shrink; finite averages need not be exactly2×. Animals have metabolic heat, insulation, circulation and behavior omitted here.",
+      "status": "not_graded"
+    }
+  ]
+}

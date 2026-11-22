@@ -1,0 +1,21 @@
+{
+  "capturedAt": "2026-11-15T15:10:46.905Z",
+  "scope": "Actual reviewed working-tree files; unrelated changes and previous student attempts preserved.",
+  "files": {
+    "src/investigations/transp-content.js": "641dc2eb63cb093f833237216b38ba3817732795eacbda787a9b95aa0ec36aff",
+    "src/investigations/transp-model.js": "8e5174b4e3cc50671a706121b6f9d40579e5a8ac2a3c03674eef5e1f95635dd6",
+    "src/investigations/transp-art.js": "32875eee9421bbd890535838cf2154c7379fbe12c68746facf78cf9efcf331e3",
+    "src/investigations/transp-report.js": "1761369cac8e1e7b58b8d4cd7828af599791c767a71739830ff28ae45685e61a",
+    "src/investigations/transp-app.js": "9b0523bee46584d4a117d29247f8ac11f59e782b19d5c76d6454d0f0fac223db",
+    "src/investigations/transp.css": "01f4aeda06641f623e3f5ebb0de470e6666d18923e476fca0c49b20a6b3393ca",
+    "tests/transp.test.js": "752c7b72f8efca7aea32b3d151aa3265d8b7c3cc043b1333aff640d9565e312d",
+    "tests/browser/transp.spec.js": "cea43808afb864a509a7ba8198db08392b1653e73929302dc347bcdc08dbdef8",
+    "src/investigations/guided-lab-shell.js": "7718d1ab83d65ac8551b25323338c5c2bb4c73afc988331f3c29b767a9abc55f",
+    "src/catalog.js": "279fcc205297ee0cd30b6a230fd5b501a4d718ab4c4977dcd2dabd42f124c3dd",
+    "src/investigations/app.js": "479b97cc5ca7118a0684d03a8a551c12ff572d86e457aa576a097ebfc24fcdb5",
+    "scripts/build-biology-resources.py": "c7d68bfc821d54943ad7c0a5207973578dd069bc1471bd22e684e699ca8893eb",
+    "scripts/verify-resources.py": "ebc2c92afebf0fa97851e57db1508de501d58936196bf43c235d7f6b61015583",
+    "public/resources/transpiration-worksheet.pdf": "20ab6336a6b650f7de05a3381f38a5385a0151f7875ecd2fd456431b291398fd",
+    "public/resources/transpiration-teacher-guide.pdf": "31729099ccf25c3c89e55c571841033da16b4a094f36307d45310c06ed56556a"
+  }
+}

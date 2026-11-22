@@ -1,0 +1,64 @@
+node.exe : [WebServer] (node:54908) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([WebServer] (no... env being set.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] 
+[WebServer] (!) Some chunks are larger than 500 kB after minification. Consider:
+[WebServer] - Using dynamic import() to code-split the application
+[WebServer] - Use build.rollupOptions.output.manualChunks to improve chunking: 
+https://rollupjs.org/configuration-options/#output-manualchunks
+[WebServer] - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[WebServer] (node:41576) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 39 tests using 2 workers
+
+(node:39116) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:58036) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  2 tests\browser\dispersal.spec.js:12:1 › dispersal all six manual releases, keyboard balance and data-source integrity at higher wind (2.6s)
+  ok  1 tests\browser\bodyplans.spec.js:8:1 › body plans keyboard lens, mouse probe after resize/scroll, current-edited evidence and view-only completion (4.2s)
+  ok  3 tests\browser\dispersal.spec.js:13:1 › dispersal native touch seed drag-release, exact one release and continuous phone ruler (1.7s)
+  ok  4 tests\browser\bodyplans.spec.js:10:1 › body plans native touch lens drag-release, next physical tap, continuous plane slider and phone targets (1.5s)
+  ok  5 tests\browser\drift.spec.js:13:1 › drift actual mouse scoop, wrong placement, keyboard focus and resize/reload preserve held copy (1.9s)
+  ok  7 tests\browser\drift.spec.js:14:1 › drift native touch draw-release-deposit, reduced motion and phone variation layout (1.5s)
+  ok  6 tests\browser\flower.spec.js:11:1 › flower native brush drag-release-next taps, moving tip geometry after resize, swapped sperm and keyboard sites (3.0s)
+  ok  8 tests\browser\food.spec.js:12:1 › food lab keyboard, touch drop at the tube opening, drag release then tap, reduced motion and tablet reload (1.2s)
+  ok 10 tests\browser\food.spec.js:15:1 › food lab draft PDF failure recovers and leaves native print available (1.1s)
+  ok  9 tests\browser\fungal.spec.js:9:1 › fungal keyboard lens, mouse spore landing after resize, exact growth and pending edits (1.3s)
+  ok 11 tests\browser\fungal.spec.js:10:1 › fungal native touch lens drag-release, exact growth and bud tag on phone (1.9s)
+  ok 12 tests\browser\heat.spec.js:11:1 › heat native cube drag-release then next physical probe taps, keyboard focus, phone graph and mouse resized ports (3.0s)
+  ok 13 tests\browser\key.spec.js:12:1 › key native touch example/question placement, next tap, keyboard selection and resized targets (1.7s)
+  ok 14 tests\browser\limbs.spec.js:11:1 › limbs keyboard and mouse annotation after resize/scroll with correctly directed callouts (994ms)
+  ok 15 tests\browser\phylo.spec.js:10:1 › phylo actual mouse placements after resize and keyboard columns/focus; edited checked columns block progression (2.1s)
+  ok 16 tests\browser\limbs.spec.js:12:1 › limbs native caliper drag-release, next tap, continuous jaw input and phone callout spacing (2.5s)
+  ok 17 tests\browser\phylo.spec.js:11:1 › phylo native touch drag-release-then-tap, reduced motion and phone targets (1.7s)
+  ok 18 tests\browser\prok.spec.js:9:1 › prok keyboard slide/focus, mouse tube placement after resize, retained edits and view-only focus (1.3s)
+  ok 19 tests\browser\phylo.spec.js:13:1 › phylo draft export failure recovery and native print availability (958ms)
+  ok 20 tests\browser\prok.spec.js:10:1 › prok native touch slide drag, continuous focus drag and immediate shape-check tap (1.6s)
+  ok 21 tests\browser\protist.spec.js:10:1 › protist keyboard slide, moving tag target after resize/replay, mouse tag drag and current edits (1.4s)
+  ok 22 tests\browser\seed-germination.spec.js:17:1 › Seed Germination prediction gates, keyboard placement, wrong target, stable reload and touch drag at phone width (1.2s)
+  ok 24 tests\browser\seedless.spec.js:9:1 › seedless keyboard lens, mouse spore placement after resize and edited transition gates (1.2s)
+  ok 23 tests\browser\protist.spec.js:11:1 › protist native touch exact phase taps, observation tag and food drag-release-next-tap on phone (2.3s)
+  ok 25 tests\browser\seedless.spec.js:10:1 › seedless native touch water drag-release then sperm tap, exact growth and phone targets (1.7s)
+  ok 26 tests\browser\selection.spec.js:11:1 › selection actual mouse placement and keyboard correction after resize, plus stale feedback gate (1.8s)
+  ok 28 tests\browser\selection.spec.js:12:1 › selection native touch drag release then tap, phone targets, reduced motion and partial reload (1.2s)
+  ok 27 tests\browser\soil.spec.js:12:1 › soil native collector drag-release then physical dose taps, keyboard placements, phone sites and mouse geometry (3.2s)
+  ok 29 tests\browser\selection.spec.js:13:1 › selection denied save/retry, long Unicode answer, first PDF offline and native print final text (2.3s)
+  ok 31 tests\browser\touch-once.spec.js:4:1 › one physical touch adds one surface-tension drop, with the next deliberate tap still usable (875ms)
+  ok 32 tests\browser\touch-once.spec.js:5:1 › one physical touch toggles a DNA column once and rotates sibling tips once after replacement rendering (1.7s)
+  ok 30 tests\browser\surface.spec.js:10:1 › surface-tension complete workflow, wrong interpretation, reports, native print, reload and completion edits (3.5s)
+  ok 34 tests\browser\surface.spec.js:11:1 › surface-tension mouse, keyboard, touch drag then tap, resize, stable reload and reduced motion (1.1s)
+  ok 33 tests\browser\transp.spec.js:11:1 › transpiration humidity and daytime-light alternatives use actual mass changes and matching controller sites (4.1s)
+  ok 35 tests\browser\surface.spec.js:12:1 › surface-tension draft, storage denial/retry, long Unicode native print and first PDF offline (3.0s)
+  ok 37 tests\browser\surface.spec.js:13:1 › surface-tension PDF failure leaves native print available and can recover (892ms)
+  ok 36 tests\browser\transp.spec.js:13:1 › transpiration native cover drag-release, next physical plant taps, keyboard controller and phone leaf sites (2.0s)
+  ok 38 tests\browser\viral.spec.js:9:1 › viral actual mouse/keyboard work sites, changed contact before start, zero effect and edited count gates (1.6s)
+  ok 39 tests\browser\viral.spec.js:10:1 › viral native touch receptor drag-release-then-tap, phone contact targets and reduced motion (1.4s)
+
+  39 passed (46.1s)

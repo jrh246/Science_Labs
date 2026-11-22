@@ -1,0 +1,3188 @@
+{
+  "schemaVersion": 1,
+  "researchedOn": "2026-11-15",
+  "scope": "Proposed classroom pairings for the 48 Biology catalog labs plus Sordaria. Resource matches are planning judgments, not approved protocols or a change to user-reviewed labs.",
+  "sources": {
+    "saps-seeds": {
+      "id": "saps-seeds",
+      "title": "SAPS: Investigating Seed Germination",
+      "url": "https://www.saps.org.uk/teaching-resources/resources/186/student-sheet-5-investigating-seed-germination/",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "saps-water-seed": {
+      "id": "saps-water-seed",
+      "title": "SAPS: Do seeds need water to germinate?",
+      "url": "https://www.saps.org.uk/teaching-resources/resources/6191/do-seeds-need-water-to-germinate/",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "acs-tension": {
+      "id": "acs-tension",
+      "title": "ACS: Surface Tension",
+      "url": "https://www.acs.org/middleschoolchemistry/lessonplans/chapter5/lesson2.html",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "acs-surface": {
+      "id": "acs-surface",
+      "title": "ACS: Surface Spectaculars",
+      "url": "https://www.acs.org/education/whatischemistry/adventures-in-chemistry/experiments/surface-spectaculars.html",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "food-manual": {
+      "id": "food-manual",
+      "title": "Hillsborough College: Biological Molecules laboratory",
+      "url": "https://pressbooks.hcfl.edu/bio1ss/chapter/lab-5-biological-molecules/",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "banana": {
+      "id": "banana",
+      "title": "SAPS: Microscopy of a banana smear",
+      "url": "https://www.saps.org.uk/teaching-resources/resources/6067/microscopy-of-a-banana-smear-using-a-stain-to-provide-contrast/",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "food-vitc": {
+      "id": "food-vitc",
+      "title": "Practical Biology: Measuring vitamin C in foods and fruit juices",
+      "url": "https://practicalbiology.org/health-and-disease/what-s-in-our-food/measuring-the-vitamin-c-content-of-foods-and-fruit-juices.html",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "microscopy": {
+      "id": "microscopy",
+      "title": "SAPS: Teaching Microscopy Using Plants",
+      "url": "https://www.saps.org.uk/growth-hub/teaching-microscopy-using-plants/",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "onion-measure": {
+      "id": "onion-measure",
+      "title": "SAPS: Calibrating and measuring: onion growth",
+      "url": "https://www.saps.org.uk/teaching-resources/resources/6382/calibrating-and-measuring-in-microscopy-exploring-onion-growth/",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "membranes": {
+      "id": "membranes",
+      "title": "TeachEngineering: Selectively Permeable Membranes",
+      "url": "https://www.teachengineering.org/activities/usm_membranes_activity1",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "egg": {
+      "id": "egg",
+      "title": "Exploratorium: Experiments with Naked Eggs",
+      "url": "https://dev-annex.exploratorium.edu/cooking/eggs/activity-nakedexperiment.html",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "agar": {
+      "id": "agar",
+      "title": "Exploratorium: Agar Cell Diffusion",
+      "url": "https://www.exploratorium.edu/snacks/agar-cell-diffusion",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "catalase": {
+      "id": "catalase",
+      "title": "Practical Biology: Catalase and peroxide concentration",
+      "url": "https://practicalbiology.org/bio-molecules/factors-affecting-enzyme-activity/investigating-an-enzyme-controlled-reaction-catalase-and-hydrogen-peroxide-concentration.html",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "amylase-ph": {
+      "id": "amylase-ph",
+      "title": "Practical Biology: pH and amylase activity",
+      "url": "https://practicalbiology.org/bio-molecules/factors-affecting-enzyme-activity/investigating-the-effect-of-ph-on-amylase-activity.html",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "yeast": {
+      "id": "yeast",
+      "title": "Carolina: Fermentation by Yeast",
+      "url": "https://knowledge.carolina.com/discipline/life-science/microbiology/fermentation-by-yeast/",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "leaf-disk": {
+      "id": "leaf-disk",
+      "title": "Carolina: Photosynthesis and Floating Leaf Disks",
+      "url": "https://knowledge.carolina.com/discipline/life-science/biology/photosynthesis-and-floating-leaf-disks/",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "leaf-starch": {
+      "id": "leaf-starch",
+      "title": "SAPS: Can plants make starch in the dark?",
+      "url": "https://www.saps.org.uk/teaching-resources/resources/285/student-sheet-20-can-plants-make-starch-in-the-dark/",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "ga-plants": {
+      "id": "ga-plants",
+      "title": "Carolina: Fast Plants genetic stocks",
+      "url": "https://www.carolina.com/teacher-resources/Interactive/wfp-genetic-stock/tr49702.tr",
+      "kind": "published-resource",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "phototropism": {
+      "id": "phototropism",
+      "title": "SAPS: Seedling responses to light",
+      "url": "https://www.saps.org.uk/teaching-resources/resources/185/student-sheet-8-phototropism-the-response-of-seedlings-to-light/",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "touch-growth": {
+      "id": "touch-growth",
+      "title": "SAPS: Investigating Thigmotropism",
+      "url": "https://www.saps.org.uk/teaching-resources/resources/153/investigating-thigmotropism/",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "mitosis-story": {
+      "id": "mitosis-story",
+      "title": "HHMI: Cancer Storyline, onion-root investigation",
+      "url": "https://www.biointeractive.org/classroom-resources/cancer-storyline",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "chromosome-build": {
+      "id": "chromosome-build",
+      "title": "Utah GSLC: Build-a-Chromosome teacher guide",
+      "url": "https://teach.genetics.utah.edu/content/genetics/files/BuildaChrom_TeacherGuide.pdf",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "project-cell-microscopy": {
+      "id": "project-cell-microscopy",
+      "title": "Existing cell-microscopy classroom guidance",
+      "url": "http://localhost:4310/resources/cell-microscopy-teacher-guide.pdf",
+      "kind": "project-guidance",
+      "checkedOn": "2026-11-15",
+      "inspection": "Existing project guidance inspected"
+    },
+    "project-enzyme-activity": {
+      "id": "project-enzyme-activity",
+      "title": "Existing enzyme-activity classroom guidance",
+      "url": "http://localhost:4310/resources/enzyme-activity-teacher-guide.pdf",
+      "kind": "project-guidance",
+      "checkedOn": "2026-11-15",
+      "inspection": "Existing project guidance inspected"
+    },
+    "project-yeast-fermentation": {
+      "id": "project-yeast-fermentation",
+      "title": "Existing yeast-fermentation classroom guidance",
+      "url": "http://localhost:4310/resources/yeast-fermentation-teacher-guide.pdf",
+      "kind": "project-guidance",
+      "checkedOn": "2026-11-15",
+      "inspection": "Existing project guidance inspected"
+    },
+    "project-light-photosynthesis": {
+      "id": "project-light-photosynthesis",
+      "title": "Existing light-photosynthesis classroom guidance",
+      "url": "http://localhost:4310/resources/light-photosynthesis-teacher-guide.pdf",
+      "kind": "project-guidance",
+      "checkedOn": "2026-11-15",
+      "inspection": "Existing project guidance inspected"
+    },
+    "project-cell-signaling": {
+      "id": "project-cell-signaling",
+      "title": "Existing cell-signaling classroom guidance",
+      "url": "http://localhost:4310/resources/cell-signaling-teacher-guide.pdf",
+      "kind": "project-guidance",
+      "checkedOn": "2026-11-15",
+      "inspection": "Existing project guidance inspected"
+    },
+    "project-mitosis": {
+      "id": "project-mitosis",
+      "title": "Existing mitosis classroom guidance",
+      "url": "http://localhost:4310/resources/mitosis-teacher-guide.pdf",
+      "kind": "project-guidance",
+      "checkedOn": "2026-11-15",
+      "inspection": "Existing project guidance inspected"
+    },
+    "reebops": {
+      "id": "reebops",
+      "title": "Baylor BioEd Online: Reebops genetics model",
+      "url": "https://www.bioedonline.org/BioEd/cache/file/F34D66F7-C225-DCA4-A2A80BE228E86153.pdf",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "corn-kit": {
+      "id": "corn-kit",
+      "title": "Carolina: Monohybrid Genetics with Corn",
+      "url": "https://www.carolina.com/catalog/detail.jsp?prodId=176362",
+      "kind": "kit-resource",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "corn-pollen": {
+      "id": "corn-pollen",
+      "title": "Carolina: Testing for Segregation of Alleles",
+      "url": "https://knowledge.carolina.com/wp-content/uploads/2024/04/carolina-labsheets-testing-segregation-of-alleles-3-4.pdf",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "fly-cross": {
+      "id": "fly-cross",
+      "title": "Carolina: Two-Point Linkage with Drosophila",
+      "url": "https://www.carolina.com/teacher-resources/Document/carolina-labsheets-two-point-linkage-with-drosophila/tr30031.tr",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "dna-extract": {
+      "id": "dna-extract",
+      "title": "Practical Biology: Extracting DNA from living things",
+      "url": "https://practicalbiology.org/bio-molecules/dna/extracting-dna-from-living-things.html",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "tx-paper": {
+      "id": "tx-paper",
+      "title": "Utah GSLC: Paper Transcription and Translation",
+      "url": "https://teach.genetics.utah.edu/content/dna/tx-tl_student_instructions.pdf",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "central-cards": {
+      "id": "central-cards",
+      "title": "HHMI: Central Dogma Card Sorting Activity",
+      "url": "https://www.biointeractive.org/classroom-resources/central-dogma-card-sorting-activity",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "biobits": {
+      "id": "biobits",
+      "title": "miniPCR: BioBits Central Dogma instructor guide",
+      "url": "https://www.minipcr.com/wp-content/uploads/KT190101_miniPCR_CentralDogma_InstructorGuide_V2.0_081325.pdf",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "protein-kit": {
+      "id": "protein-kit",
+      "title": "miniPCR: BioBits Protein Structure and Function",
+      "url": "https://www.minipcr.com/wp-content/uploads/KT190103_miniPCR_ProteinStructureAndFunction_InstructorGuide_V1.2_040226.pdf",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "pglo": {
+      "id": "pglo",
+      "title": "Bio-Rad: pGLO General Biology kit overview",
+      "url": "https://www.bio-rad.com/sites/default/files/2023-11/Bulletin_3210-pGLO-Bacterial-Transformation-Kit-for-General-Biology.pdf",
+      "kind": "kit-resource",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "dye-gel": {
+      "id": "dye-gel",
+      "title": "miniPCR: Princes in the Tower dye electrophoresis",
+      "url": "https://www.minipcr.com/wp-content/uploads/KT140401_miniPCR_PrincesInTheTower_InstructorGuide_121924.pdf",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "sordaria": {
+      "id": "sordaria",
+      "title": "Carolina: Mitosis and Meiosis, Sordaria investigations",
+      "url": "https://knowledge.carolina.com/discipline/life-science/biology/mitosis-meiosis/",
+      "kind": "kit-resource",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "project-meiosis-variation": {
+      "id": "project-meiosis-variation",
+      "title": "Existing meiosis-variation classroom guidance",
+      "url": "http://localhost:4310/resources/meiosis-variation-teacher-guide.pdf",
+      "kind": "project-guidance",
+      "checkedOn": "2026-11-15",
+      "inspection": "Existing project guidance inspected"
+    },
+    "project-inheritance-ratios": {
+      "id": "project-inheritance-ratios",
+      "title": "Existing inheritance-ratios classroom guidance",
+      "url": "http://localhost:4310/resources/inheritance-ratios-teacher-guide.pdf",
+      "kind": "project-guidance",
+      "checkedOn": "2026-11-15",
+      "inspection": "Existing project guidance inspected"
+    },
+    "project-linked-genes": {
+      "id": "project-linked-genes",
+      "title": "Existing linked-genes classroom guidance",
+      "url": "http://localhost:4310/resources/linked-genes-teacher-guide.pdf",
+      "kind": "project-guidance",
+      "checkedOn": "2026-11-15",
+      "inspection": "Existing project guidance inspected"
+    },
+    "project-dna-replication": {
+      "id": "project-dna-replication",
+      "title": "Existing dna-replication classroom guidance",
+      "url": "http://localhost:4310/resources/dna-replication-teacher-guide.pdf",
+      "kind": "project-guidance",
+      "checkedOn": "2026-11-15",
+      "inspection": "Existing project guidance inspected"
+    },
+    "project-lac-operon": {
+      "id": "project-lac-operon",
+      "title": "Existing lac-operon classroom guidance",
+      "url": "http://localhost:4310/resources/lac-operon-teacher-guide.pdf",
+      "kind": "project-guidance",
+      "checkedOn": "2026-11-15",
+      "inspection": "Existing project guidance inspected"
+    },
+    "project-gel-electrophoresis": {
+      "id": "project-gel-electrophoresis",
+      "title": "Existing gel-electrophoresis classroom guidance",
+      "url": "http://localhost:4310/resources/gel-electrophoresis-teacher-guide.pdf",
+      "kind": "project-guidance",
+      "checkedOn": "2026-11-15",
+      "inspection": "Existing project guidance inspected"
+    },
+    "project-sordaria-crossing-over": {
+      "id": "project-sordaria-crossing-over",
+      "title": "Existing sordaria-crossing-over classroom guidance",
+      "url": "http://localhost:4310/resources/sordaria-crossing-over-teacher-guide.pdf",
+      "kind": "project-guidance",
+      "checkedOn": "2026-11-15",
+      "inspection": "Existing project guidance inspected"
+    },
+    "beaks": {
+      "id": "beaks",
+      "title": "HHMI: Beaks As Tools",
+      "url": "https://www.biointeractive.org/classroom-resources/beaks-tools-selective-advantage-changing-environments",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "pocket": {
+      "id": "pocket",
+      "title": "HHMI: Color Variation in Rock Pocket Mice",
+      "url": "https://www.biointeractive.org/classroom-resources/color-variation-over-time-rock-pocket-mouse-populations",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "lizard-traits": {
+      "id": "lizard-traits",
+      "title": "HHMI: Graphing Body Traits of Lizards",
+      "url": "https://www.biointeractive.org/classroom-resources/graphing-body-traits-lizards-different-habitats",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "drift-demo": {
+      "id": "drift-demo",
+      "title": "HHMI: Population Genetics Explorer, optional marble demonstration",
+      "url": "https://www.biointeractive.org/classroom-resources/population-genetics-explorer",
+      "kind": "published-resource",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "drift-background": {
+      "id": "drift-background",
+      "title": "NHGRI: Genetic Drift",
+      "url": "https://www.genome.gov/genetics-glossary/Genetic-Drift",
+      "kind": "scientific-reference",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "shells": {
+      "id": "shells",
+      "title": "HHMI: Sorting Seashells, printable shell cards",
+      "url": "https://www.biointeractive.org/classroom-resources/sorting-seashells",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "finch-tree": {
+      "id": "finch-tree",
+      "title": "HHMI: Evolutionary Relationships among Species",
+      "url": "https://www.biointeractive.org/classroom-resources/how-can-we-explain-evolutionary-relationships-among-species",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "dna-trees": {
+      "id": "dna-trees",
+      "title": "HHMI: Biodiversity and Evolutionary Trees",
+      "url": "https://www.biointeractive.org/classroom-resources/biodiversity-and-evolutionary-trees",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "network": {
+      "id": "network",
+      "title": "TeachEngineering: Graphing the Spread of Disease",
+      "url": "https://www.teachengineering.org/activities/uno_connection_lesson01_activity1",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "virus-cards": {
+      "id": "virus-cards",
+      "title": "HHMI: Viral Lysis and Budding",
+      "url": "https://www.biointeractive.org/classroom-resources/viral-lysis-and-budding",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "candy-bacteria": {
+      "id": "candy-bacteria",
+      "title": "ASM: Teaching Bacterial Arrangements and Morphologies with Candy",
+      "url": "https://journals.asm.org/doi/full/10.1128/jmbe.v12i1.282",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "bacterial-dna": {
+      "id": "bacterial-dna",
+      "title": "HHMI: Bacterial Identification Virtual Lab",
+      "url": "https://www.biointeractive.org/classroom-resources/bacterial-identification-virtual-lab",
+      "kind": "digital-reference",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "prok-background": {
+      "id": "prok-background",
+      "title": "OpenStax: Structure of Prokaryotes",
+      "url": "https://openstax.org/books/biology-2e/pages/22-2-structure-of-prokaryotes-bacteria-and-archaea",
+      "kind": "scientific-reference",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "protist-survey": {
+      "id": "protist-survey",
+      "title": "Carolina: Survey of Protista",
+      "url": "https://www.carolina.com/teacher-resources/Document/carolina-labsheets-survey-of-protista/tr26015.tr",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "protist-food": {
+      "id": "protist-food",
+      "title": "Carolina: Preying Protozoa",
+      "url": "https://knowledge.carolina.com/professional-growth/activities/preying-protozoa-lab-instructions/",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "hanging-drop": {
+      "id": "hanging-drop",
+      "title": "SAPS: Microorganisms in a hanging drop",
+      "url": "https://www.saps.org.uk/teaching-resources/resources/298/microorganisms-a-world-in-a-hanging-drop/",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "spore-print": {
+      "id": "spore-print",
+      "title": "University of Waikato Science Learning Hub: Mushroom spore print",
+      "url": "https://www.sciencelearn.org.nz/resources/2676-making-a-mushroom-spore-print",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "yeast-cells": {
+      "id": "yeast-cells",
+      "title": "Carolina: Using Yeast to Understand Cellular Processes",
+      "url": "https://knowledge.carolina.com/discipline/life-science/using-yeast-to-understand-cellular-processes/",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "fungi-anatomy": {
+      "id": "fungi-anatomy",
+      "title": "Australian National Botanic Gardens: Mycelium",
+      "url": "https://anbg.gov.au/fungi/mycelium.html",
+      "kind": "scientific-reference",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "fern-sporophyte": {
+      "id": "fern-sporophyte",
+      "title": "UBC laboratory resource: Fern Sporophyte",
+      "url": "https://blogs.ubc.ca/biology210/lab/lab-7-ferns/fern-sporophyte/",
+      "kind": "published-resource",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "fern-gametophyte": {
+      "id": "fern-gametophyte",
+      "title": "UBC laboratory resource: Fern Gametophyte",
+      "url": "https://blogs.ubc.ca/biology210/lab/lab-7-ferns/fern-gametophyte/",
+      "kind": "published-resource",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "seed-dispersal": {
+      "id": "seed-dispersal",
+      "title": "Science Buddies: Gone with the Wind, Plant Seed Dispersal",
+      "url": "https://www.sciencebuddies.org/stem-activities/gone-with-the-wind-plant-seed-dispersal",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "helicopter": {
+      "id": "helicopter",
+      "title": "Science Buddies: Paper Helicopters",
+      "url": "https://www.sciencebuddies.org/stem-activities/paper-helicopter",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "bodyplans-background": {
+      "id": "bodyplans-background",
+      "title": "OpenStax: Features Used to Classify Animals",
+      "url": "https://openstax.org/books/biology-2e/pages/27-2-features-used-to-classify-animals",
+      "kind": "scientific-reference",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "classification": {
+      "id": "classification",
+      "title": "NPS: Classification Systems",
+      "url": "https://www.nps.gov/teachers/classrooms/classification-systems.htm",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "keys": {
+      "id": "keys",
+      "title": "NPS: Using Dichotomous Keys",
+      "url": "https://home.nps.gov/teachers/classrooms/dichotomous-key.htm",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "tree-key": {
+      "id": "tree-key",
+      "title": "NPS: Key to the Tree",
+      "url": "https://www.nps.gov/teachers/classrooms/key-to-the-tree.htm",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "one-bone": {
+      "id": "one-bone",
+      "title": "HHMI: One Bone, Two Bones",
+      "url": "https://www.biointeractive.org/classroom-resources/one-bone-two-bones",
+      "kind": "published-resource",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "potometer": {
+      "id": "potometer",
+      "title": "SAPS: Investigating transpiration with a potometer",
+      "url": "https://www.saps.org.uk/teaching-resources/resources/1263/investigating-transpiration-with-a-potometer/",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "stomata": {
+      "id": "stomata",
+      "title": "SAPS: Measuring Stomatal Density",
+      "url": "https://www.saps.org.uk/teaching-resources/resources/299/measuring-stomatal-density/",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "biochar": {
+      "id": "biochar",
+      "title": "TeachEngineering: Biochar and Soil Function",
+      "url": "https://www.teachengineering.org/activities/rice-2243-biochar-measurements-water-soil-contamination",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "infiltration": {
+      "id": "infiltration",
+      "title": "USDA-NRCS: Soil Health Infiltration field method",
+      "url": "https://www.nrcs.usda.gov/sites/default/files/2022-10/Soil%20Infiltration.pdf",
+      "kind": "published-resource",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "hydrogel": {
+      "id": "hydrogel",
+      "title": "TeachEngineering: Biodegradable Hydrogels",
+      "url": "https://www.teachengineering.org/activities/uoh-2667-biodegradable-hydrogels-water-conservation",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "flower-dissection": {
+      "id": "flower-dissection",
+      "title": "SAPS: Dissecting a flower",
+      "url": "https://www.saps.org.uk/teaching-resources/resources/5319/dissecting-a-flower/",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "pollen-tubes": {
+      "id": "pollen-tubes",
+      "title": "SAPS: Pollen Tube Growth",
+      "url": "https://www.saps.org.uk/teaching-resources/resources/222/student-sheet-4-pollen-tube-growth/",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "pollination-game": {
+      "id": "pollination-game",
+      "title": "SAPS: The pollination game",
+      "url": "https://www.saps.org.uk/teaching-resources/resources/5694/the-pollination-game/",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "heat-background": {
+      "id": "heat-background",
+      "title": "OpenStax: Heat, Specific Heat and Heat Transfer",
+      "url": "https://openstax.org/books/physics/pages/11-2-heat-specific-heat-and-heat-transfer",
+      "kind": "scientific-reference",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "dino": {
+      "id": "dino",
+      "title": "HHMI educator resource: How do Dinosaurs Regulate Body Temperatures?",
+      "url": "https://www.biointeractive.org/sites/default/files/educator-resources/2026-04/Visualizing-the-evolutin-of-oxygen-delivery_how-do-dinosaurs-thermoregulate.pdf",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "model-gut": {
+      "id": "model-gut",
+      "title": "Practical Biology: Amylase on a starchy foodstuff",
+      "url": "https://practicalbiology.org/bio-molecules/what-digestive-enzymes-do/investigating-the-effect-of-amylase-on-a-starchy-foodstuff.html",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "ruler": {
+      "id": "ruler",
+      "title": "University of Washington Brain Explorers: Reaction Time record sheet",
+      "url": "https://faculty.washington.edu/chudler/bex/4rt2.pdf",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "stroop": {
+      "id": "stroop",
+      "title": "University of Washington: Colors, Colors, Stroop activity",
+      "url": "https://faculty.washington.edu/chudler/wwwcol.html",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "blind": {
+      "id": "blind",
+      "title": "Exploratorium: Blind Spot",
+      "url": "https://www.exploratorium.edu/snacks/blind-spot",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "peripheral": {
+      "id": "peripheral",
+      "title": "Exploratorium: Peripheral Vision activity",
+      "url": "https://www.exploratorium.edu/sites/default/files/stem/STEM2018_Snacks_PeripheralVision.pdf",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "glucose-smithsonian": {
+      "id": "glucose-smithsonian",
+      "title": "Smithsonian: Keep It Balanced card game",
+      "url": "https://ssec.si.edu/sites/default/files/other/wistem2d/Keep%20it%20Balanced-.pdf",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "glucose-uw": {
+      "id": "glucose-uw",
+      "title": "University of Washington: Blood glucose homeostasis board model",
+      "url": "https://gsoutreach.gs.washington.edu/files/biology_homeostasis_t2d_0819.pdf",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "glucose-cdc": {
+      "id": "glucose-cdc",
+      "title": "CDC Science Ambassador: Glucose regulation role play",
+      "url": "https://archive.cdc.gov/www_cdc_gov/scienceambassador/documents/diabetes-a-national-epidemic.pdf",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "lever-lesson": {
+      "id": "lever-lesson",
+      "title": "TeachEngineering: Levers That Lift",
+      "url": "https://www.teachengineering.org/lessons/cub_simp_machines_lesson03",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "hydraulic-limbs": {
+      "id": "hydraulic-limbs",
+      "title": "TeachEngineering: Bioengineering Artificial Limbs with Syringes",
+      "url": "https://www.teachengineering.org/activities/hydraulic_joy",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "lung": {
+      "id": "lung",
+      "title": "Australian National University: Two lung models",
+      "url": "https://science.anu.edu.au/engagement/science-lab-experiments-home-school/how-make-lung-model",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "flow-background": {
+      "id": "flow-background",
+      "title": "OpenStax: Viscosity and Poiseuille flow",
+      "url": "https://openstax.org/books/college-physics-2e/pages/12-4-viscosity-and-laminar-flow-poiseuilles-law",
+      "kind": "scientific-reference",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "clot": {
+      "id": "clot",
+      "title": "TeachEngineering: Let the Blood Flow",
+      "url": "https://www.teachengineering.org/activities/ucla_clots_lesson01_activity1",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "nephron-background": {
+      "id": "nephron-background",
+      "title": "OpenStax: Kidneys and osmoregulation",
+      "url": "https://openstax.org/books/biology-2e/pages/41-2-the-kidneys-and-osmoregulatory-organs",
+      "kind": "scientific-reference",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "immune-cards": {
+      "id": "immune-cards",
+      "title": "HHMI: Smallpox and the Immune System",
+      "url": "https://www.biointeractive.org/classroom-resources/smallpox-immune-system",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "immune-timeline": {
+      "id": "immune-timeline",
+      "title": "HHMI: The Immune System",
+      "url": "https://www.biointeractive.org/classroom-resources/immune-system",
+      "kind": "digital-reference",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "elisa": {
+      "id": "elisa",
+      "title": "Bio-Rad: Educational ELISA antibody-test protocol",
+      "url": "https://www.bio-rad.com/sites/default/files/2024-01/Bulletin_3626.pdf",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "embryo-image": {
+      "id": "embryo-image",
+      "title": "HHMI: Synchronized Division",
+      "url": "https://www.biointeractive.org/classroom-resources/synchronized-division",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "embryo-clay": {
+      "id": "embryo-clay",
+      "title": "Original research: Playdoh modeling of human gastrulation and folding",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8561833/",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "quadrat": {
+      "id": "quadrat",
+      "title": "Field Studies Council: Grassland plant sampling method",
+      "url": "https://www.field-studies-council.org/resources/14-16-biology/adaptations/grassland-plants/method/",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "transect": {
+      "id": "transect",
+      "title": "Field Studies Council: Interrupted-belt transect method",
+      "url": "https://www.field-studies-council.org/resources/16-18-biology/succession/saltmarsh/method/",
+      "kind": "published-resource",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "pillbug": {
+      "id": "pillbug",
+      "title": "Carolina: Pill Bug Behavior",
+      "url": "https://knowledge.carolina.com/labsheets/pill-bug-behavior/",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "mark-beans": {
+      "id": "mark-beans",
+      "title": "Biology Corner: Estimating Population Size",
+      "url": "https://www.biologycorner.com/worksheets/estimating_population_size.html",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "population-background": {
+      "id": "population-background",
+      "title": "OpenStax: Population Demography",
+      "url": "https://openstax.org/books/biology-2e/pages/45-1-population-demography",
+      "kind": "scientific-reference",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "food-web": {
+      "id": "food-web",
+      "title": "HHMI: Creating Chains and Webs",
+      "url": "https://www.biointeractive.org/classroom-resources/creating-chains-and-webs-model-ecological-relationships",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "energy-background": {
+      "id": "energy-background",
+      "title": "OpenStax: Energy Flow through Ecosystems",
+      "url": "https://openstax.org/books/biology-2e/pages/46-2-energy-flow-through-ecosystems",
+      "kind": "scientific-reference",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "cascade": {
+      "id": "cascade",
+      "title": "HHMI: Modeling Trophic Cascades",
+      "url": "https://www.biointeractive.org/classroom-resources/modeling-trophic-cascades",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "reserve-map": {
+      "id": "reserve-map",
+      "title": "Project reserve worksheet: original fictional map",
+      "url": "http://localhost:4310/resources/reserve-design-worksheet.pdf",
+      "kind": "project-resource",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "fragmentation": {
+      "id": "fragmentation",
+      "title": "HHMI: Habitat Fragmentation Impacts Arthropod Species",
+      "url": "https://www.biointeractive.org/classroom-resources/habitat-fragmentation-impacts-arthropod-species",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    },
+    "biodiversity": {
+      "id": "biodiversity",
+      "title": "HHMI: Designing Solutions to Preserve Biodiversity",
+      "url": "https://www.biointeractive.org/classroom-resources/designing-solutions-preserve-biodiversity",
+      "kind": "published-activity",
+      "checkedOn": "2026-11-15",
+      "inspection": "Publisher resource page or publisher search excerpt inspected; full local protocol/age review remains pending"
+    }
+  },
+  "labs": [
+    {
+      "labId": "seed-germination",
+      "decisionNote": "Prefer a measured germination comparison; a tropism option would change the main question.",
+      "status": "proposed-awaiting-user-selection",
+      "options": [
+        {
+          "id": "seed-germination-option-1",
+          "rank": 1,
+          "title": "Seeds under different water conditions",
+          "type": "experiment",
+          "fit": "close",
+          "activity": "Compare germination and root growth under controlled water conditions.",
+          "learningEvidence": "A fair test, germination counts and an explanation supported by real observations.",
+          "virtualChange": "Retain the question; replace fixed virtual timing and doses with an actual growing protocol.",
+          "sourceIds": [
+            "saps-water-seed"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "seed-germination-option-2",
+          "rank": 2,
+          "title": "Upright Petri-dish growth investigation",
+          "type": "experiment",
+          "fit": "adapted",
+          "activity": "Track roots and shoots through upright dishes and graph measurements over several days.",
+          "learningEvidence": "Separate germination percentage from subsequent growth.",
+          "virtualChange": "Add root/shoot measurements and a classroom observation schedule.",
+          "sourceIds": [
+            "saps-seeds"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "seed-germination-option-3",
+          "rank": 3,
+          "title": "Rotate seedlings to investigate gravitropism",
+          "type": "experiment",
+          "fit": "related",
+          "activity": "Use the upright-dish method to investigate root growth after the dish is rotated.",
+          "learningEvidence": "Explain a directional growth response rather than whether a seed germinates.",
+          "virtualChange": "Redesign around plant responses and growth direction if this becomes the main pairing.",
+          "sourceIds": [
+            "saps-seeds"
+          ],
+          "origin": "published"
+        }
+      ]
+    },
+    {
+      "labId": "water-surface-tension",
+      "decisionNote": "Two measurement options and one related surface demonstration; avoid treating drops as a calibrated force measurement.",
+      "status": "proposed-awaiting-user-selection",
+      "options": [
+        {
+          "id": "water-surface-tension-option-1",
+          "rank": 1,
+          "title": "Water and detergent on coins",
+          "type": "experiment",
+          "fit": "close",
+          "activity": "Count retained drops and compare matched coins with and without detergent.",
+          "learningEvidence": "Connect measured differences with attraction among water molecules.",
+          "virtualChange": "Use actual dropper measurements; the virtual drop size is not a physical calibration.",
+          "sourceIds": [
+            "acs-tension"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "water-surface-tension-option-2",
+          "rank": 2,
+          "title": "Floating paper clip and detergent",
+          "type": "model-demo",
+          "fit": "adapted",
+          "activity": "Observe a supported paper clip and predict how detergent changes the surface.",
+          "learningEvidence": "Explain why surface behavior changes; distinguish it from density alone.",
+          "virtualChange": "Add a qualitative support-and-collapse comparison instead of the current drop-count table.",
+          "sourceIds": [
+            "acs-surface"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "water-surface-tension-option-3",
+          "rank": 3,
+          "title": "Water versus alcohol on coins",
+          "type": "experiment",
+          "fit": "related",
+          "activity": "Compare how two liquids spread and how many drops remain on a matched surface.",
+          "learningEvidence": "Relate molecular properties to observed surface behavior.",
+          "virtualChange": "Add a liquid-polarity comparison and its own school-approved handling plan.",
+          "sourceIds": [
+            "acs-tension"
+          ],
+          "origin": "published"
+        }
+      ]
+    },
+    {
+      "labId": "food-macromolecules",
+      "decisionNote": "Food-test controls are the closest match; microscopy or vitamin C would change the evidence collected.",
+      "status": "proposed-awaiting-user-selection",
+      "options": [
+        {
+          "id": "food-macromolecules-option-1",
+          "rank": 1,
+          "title": "Unknown food with positive and negative controls",
+          "type": "experiment",
+          "fit": "close",
+          "activity": "Use approved indicator tests to compare known controls with selected unknown foods.",
+          "learningEvidence": "Use several tests to justify limited claims about biological molecules.",
+          "virtualChange": "Adapt the college-level resource to school equipment and the exact assays used in our lab.",
+          "sourceIds": [
+            "food-manual"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "food-macromolecules-option-2",
+          "rank": 2,
+          "title": "Starch in ripe and unripe banana cells",
+          "type": "specimen",
+          "fit": "adapted",
+          "activity": "Compare stained banana smears and record visible starch grains.",
+          "learningEvidence": "Explain how a stain provides evidence and how samples can differ.",
+          "virtualChange": "Narrow the question to starch and add microscopy observations; this does not test all macromolecules.",
+          "sourceIds": [
+            "banana"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "food-macromolecules-option-3",
+          "rank": 3,
+          "title": "Compare vitamin C in foods",
+          "type": "experiment",
+          "fit": "related",
+          "activity": "Use a reviewed vitamin-C investigation to compare food samples.",
+          "learningEvidence": "Design a chemical comparison and explain what the test actually detects.",
+          "virtualChange": "Redesign the assay, controls and question around a vitamin rather than the current macromolecule panel.",
+          "sourceIds": [
+            "food-vitc"
+          ],
+          "origin": "published"
+        }
+      ]
+    },
+    {
+      "labId": "cell-microscopy",
+      "decisionNote": "Preserve calibrated measurement; a microscope activity should require observations that answer a question.",
+      "status": "proposed-awaiting-user-selection",
+      "options": [
+        {
+          "id": "cell-microscopy-option-1",
+          "rank": 1,
+          "title": "Plant and prepared animal cell comparison",
+          "type": "specimen",
+          "fit": "close",
+          "activity": "Measure visible cells in prepared/wet-mounted specimens using the existing classroom route.",
+          "learningEvidence": "Calibrated sizes, observed structures and honest sample limits.",
+          "virtualChange": "Use the existing classroom entry; teacher confirms specimen preparation and calibration.",
+          "sourceIds": [
+            "project-cell-microscopy"
+          ],
+          "origin": "project"
+        },
+        {
+          "id": "cell-microscopy-option-2",
+          "rank": 2,
+          "title": "Measure cells in different onion layers",
+          "type": "specimen",
+          "fit": "adapted",
+          "activity": "Compare epidermal cell dimensions from different onion layers.",
+          "learningEvidence": "Use calibrated measurements to test an explanation for tissue growth.",
+          "virtualChange": "Replace the specimen comparison with a growth question; simplify the post-16 resource for grade 9.",
+          "sourceIds": [
+            "onion-measure"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "cell-microscopy-option-3",
+          "rank": 3,
+          "title": "Pondweed focal planes and chloroplast movement",
+          "type": "specimen",
+          "fit": "adapted",
+          "activity": "Focus through a leaf and observe how cell structures and movement appear.",
+          "learningEvidence": "Distinguish optical sections from the whole three-dimensional specimen.",
+          "virtualChange": "Add focal-plane or movement evidence instead of treating a drawing as a single complete cell.",
+          "sourceIds": [
+            "microscopy"
+          ],
+          "origin": "published"
+        }
+      ]
+    },
+    {
+      "labId": "osmosis-homeostasis",
+      "decisionNote": "Preserve the reviewed lab and accepted A/D wording. These are optional alternative pairings, not corrections to it.",
+      "status": "proposed-awaiting-user-selection",
+      "options": [
+        {
+          "id": "osmosis-homeostasis-option-1",
+          "rank": 1,
+          "title": "Dialysis tubing and selective transport",
+          "type": "experiment",
+          "fit": "close",
+          "activity": "Use a reviewed membrane investigation and record mass change and/or indicator movement.",
+          "learningEvidence": "Distinguish water movement from solute passage and justify membrane limits.",
+          "virtualChange": "Keep the accepted concentration comparison; document the actual tubing and classroom observations.",
+          "sourceIds": [
+            "membranes"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "osmosis-homeostasis-option-2",
+          "rank": 2,
+          "title": "Shell-less egg osmosis",
+          "type": "experiment",
+          "fit": "adapted",
+          "activity": "Compare prepared eggs in contrasting solutions and record their change.",
+          "learningEvidence": "Explain water movement across a membrane using observations.",
+          "virtualChange": "Replace dialysis apparatus, preparation time and data tables; do not reuse its model numbers.",
+          "sourceIds": [
+            "egg"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "osmosis-homeostasis-option-3",
+          "rank": 3,
+          "title": "Agar cubes and diffusion distance",
+          "type": "experiment",
+          "fit": "related",
+          "activity": "Compare penetration into different-sized agar blocks.",
+          "learningEvidence": "Explain diffusion distance and surface-area-to-volume effects.",
+          "virtualChange": "Redesign around diffusion and cell size; this is not the same evidence as osmotic mass change.",
+          "sourceIds": [
+            "agar"
+          ],
+          "origin": "published"
+        }
+      ]
+    },
+    {
+      "labId": "enzyme-activity",
+      "decisionNote": "Keep the existing catalase-temperature comparison as the closest route; other variables require a new question.",
+      "status": "proposed-awaiting-user-selection",
+      "options": [
+        {
+          "id": "enzyme-activity-option-1",
+          "rank": 1,
+          "title": "Potato catalase at different temperatures",
+          "type": "experiment",
+          "fit": "close",
+          "activity": "Use the documented gas collector to compare early reaction rates.",
+          "learningEvidence": "Use actual initial rates and apparatus limits to support an enzyme explanation.",
+          "virtualChange": "Keep the existing entry and perform the documented local teacher pilot.",
+          "sourceIds": [
+            "project-enzyme-activity"
+          ],
+          "origin": "project"
+        },
+        {
+          "id": "enzyme-activity-option-2",
+          "rank": 2,
+          "title": "Catalase with different substrate concentrations",
+          "type": "experiment",
+          "fit": "adapted",
+          "activity": "Collect oxygen from matched potato preparations with different peroxide conditions.",
+          "learningEvidence": "Interpret substrate concentration and reaction rate while controlling enzyme amount.",
+          "virtualChange": "Change the treatment variable and graphs from temperature to concentration.",
+          "sourceIds": [
+            "catalase"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "enzyme-activity-option-3",
+          "rank": 3,
+          "title": "pH and starch breakdown by amylase",
+          "type": "experiment",
+          "fit": "related",
+          "activity": "Measure an iodine-test endpoint for starch breakdown under different pH conditions.",
+          "learningEvidence": "Relate enzyme conditions to an explicitly defined endpoint.",
+          "virtualChange": "Change enzyme, substrate, units and question; a new virtual design would be needed for a close pairing.",
+          "sourceIds": [
+            "amylase-ph"
+          ],
+          "origin": "published"
+        }
+      ]
+    },
+    {
+      "labId": "yeast-fermentation",
+      "decisionNote": "Both are suitable gas-production comparisons; gas method and sugar concentration must remain clear.",
+      "status": "proposed-awaiting-user-selection",
+      "options": [
+        {
+          "id": "yeast-fermentation-option-1",
+          "rank": 1,
+          "title": "Matched sugar types with gas collection",
+          "type": "experiment",
+          "fit": "close",
+          "activity": "Compare yeast with the existing control/glucose/sucrose plan and actual gas measurements.",
+          "learningEvidence": "Use a control and time series to reason about fermentation.",
+          "virtualChange": "Use the current classroom collector sheet for the apparatus chosen.",
+          "sourceIds": [
+            "project-yeast-fermentation"
+          ],
+          "origin": "project"
+        },
+        {
+          "id": "yeast-fermentation-option-2",
+          "rank": 2,
+          "title": "Fermentation across sucrose concentrations",
+          "type": "experiment",
+          "fit": "adapted",
+          "activity": "Measure fermentation under differing sucrose conditions using the publisher investigation.",
+          "learningEvidence": "Separate a sugar-amount effect from a sugar-identity effect.",
+          "virtualChange": "Add concentration as the treatment and revise the question and analysis.",
+          "sourceIds": [
+            "yeast"
+          ],
+          "origin": "published"
+        }
+      ]
+    },
+    {
+      "labId": "light-photosynthesis",
+      "decisionNote": "Choose between gas-related flotation evidence and starch accumulation; they are different proxies.",
+      "status": "proposed-awaiting-user-selection",
+      "options": [
+        {
+          "id": "light-photosynthesis-option-1",
+          "rank": 1,
+          "title": "Floating leaf disks under different light conditions",
+          "type": "experiment",
+          "fit": "close",
+          "activity": "Record flotation over time using the existing light/control comparison.",
+          "learningEvidence": "Explain the meaning and limits of flotation and ET50.",
+          "virtualChange": "Use actual preparation and unreached endpoints rather than imposing model values.",
+          "sourceIds": [
+            "project-light-photosynthesis"
+          ],
+          "origin": "project"
+        },
+        {
+          "id": "light-photosynthesis-option-2",
+          "rank": 2,
+          "title": "Leaf disks with changed carbon-dioxide availability",
+          "type": "experiment",
+          "fit": "adapted",
+          "activity": "Use the leaf-disk technique to compare a carbon-source treatment.",
+          "learningEvidence": "Distinguish the investigated factor from other limits on photosynthesis.",
+          "virtualChange": "Add carbon availability and its controls; retain the distinction between flotation and direct photosynthetic rate.",
+          "sourceIds": [
+            "leaf-disk"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "light-photosynthesis-option-3",
+          "rank": 3,
+          "title": "Light, darkness and starch in leaves",
+          "type": "experiment",
+          "fit": "related",
+          "activity": "Use small leaf samples to compare starch evidence in light/dark conditions.",
+          "learningEvidence": "Interpret starch accumulation rather than short-term gas buildup.",
+          "virtualChange": "Redesign the measurement, timescale and questions around starch; this is not an ET50 replacement.",
+          "sourceIds": [
+            "leaf-starch"
+          ],
+          "origin": "published"
+        }
+      ]
+    },
+    {
+      "labId": "cell-signaling",
+      "decisionNote": "Gibberellin is the current model. Phototropism or touch responses are good alternatives with different questions.",
+      "status": "proposed-awaiting-user-selection",
+      "options": [
+        {
+          "id": "cell-signaling-option-1",
+          "rank": 1,
+          "title": "Documented dwarf-plant signal/carrier comparison",
+          "type": "experiment",
+          "fit": "close",
+          "activity": "Track stem growth in matched plants given an educational signal preparation or its carrier.",
+          "learningEvidence": "Explain an effect using change from starting height and independent plants.",
+          "virtualChange": "Retain current guidance; source the correct plant stock and follow supplier directions.",
+          "sourceIds": [
+            "project-cell-signaling",
+            "ga-plants"
+          ],
+          "origin": "project"
+        },
+        {
+          "id": "cell-signaling-option-2",
+          "rank": 2,
+          "title": "Seedling response to directional light",
+          "type": "experiment",
+          "fit": "related",
+          "activity": "Investigate bending under defined light conditions.",
+          "learningEvidence": "Use a controlled observation to explain a plant response.",
+          "virtualChange": "Redesign around directional growth and light response; it is not a direct test of added gibberellin.",
+          "sourceIds": [
+            "phototropism"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "cell-signaling-option-3",
+          "rank": 3,
+          "title": "Seedling response to mechanical stimulation",
+          "type": "experiment",
+          "fit": "related",
+          "activity": "Use the published project starter to compare growth after controlled touch conditions.",
+          "learningEvidence": "Explain changes in plant growth from evidence rather than intention.",
+          "virtualChange": "Develop a new stimulus/treatment plan and virtual response model.",
+          "sourceIds": [
+            "touch-growth"
+          ],
+          "origin": "published"
+        }
+      ]
+    },
+    {
+      "labId": "mitosis",
+      "decisionNote": "Counting real fields and investigating a treatment answer different questions; keep fields as samples rather than independent plants.",
+      "status": "proposed-awaiting-user-selection",
+      "options": [
+        {
+          "id": "mitosis-option-1",
+          "rank": 1,
+          "title": "Prepared root-tip stage counts",
+          "type": "specimen",
+          "fit": "close",
+          "activity": "Classify and count mitotic stages in non-overlapping prepared-slide fields.",
+          "learningEvidence": "Use stage proportions and explain the assumptions behind duration estimates.",
+          "virtualChange": "Use the existing classroom counts and keep fields separate.",
+          "sourceIds": [
+            "project-mitosis"
+          ],
+          "origin": "project"
+        },
+        {
+          "id": "mitosis-option-2",
+          "rank": 2,
+          "title": "Environmental factor and onion-root cell division",
+          "type": "experiment",
+          "fit": "adapted",
+          "activity": "Adapt the onion-root investigation in the Cancer Storyline to compare a defined factor.",
+          "learningEvidence": "Connect experimental design with cell division evidence.",
+          "virtualChange": "Add treatment-level replication and a causal question; simplify the broader storyline to grade 9.",
+          "sourceIds": [
+            "mitosis-story"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "mitosis-option-3",
+          "rank": 3,
+          "title": "Physical chromosome and cell-division model",
+          "type": "model",
+          "fit": "related",
+          "activity": "Use paper chromosome components to show duplication and separation.",
+          "learningEvidence": "Explain what the microscope stages represent mechanistically.",
+          "virtualChange": "Use as a supplement, or redesign the virtual task around mechanisms rather than estimating proportions.",
+          "sourceIds": [
+            "chromosome-build"
+          ],
+          "origin": "published"
+        }
+      ]
+    },
+    {
+      "labId": "meiosis-variation",
+      "decisionNote": "Prefer an explicit chromosome model for crossing over; offspring-building activities need an added recombination step.",
+      "status": "proposed-awaiting-user-selection",
+      "options": [
+        {
+          "id": "meiosis-variation-option-1",
+          "rank": 1,
+          "title": "Existing chromosome-strip crossing-over model",
+          "type": "model",
+          "fit": "close",
+          "activity": "Exchange corresponding nonsister chromosome segments and follow the modeled cell divisions.",
+          "learningEvidence": "Track inherited allele combinations and distinguish the modeled egg/sperm pathways.",
+          "virtualChange": "Use the current paper model; retain chromosomes, nuclei and centromeres in the correct relationships.",
+          "sourceIds": [
+            "project-meiosis-variation"
+          ],
+          "origin": "project"
+        },
+        {
+          "id": "meiosis-variation-option-2",
+          "rank": 2,
+          "title": "Build-a-Chromosome movement model",
+          "type": "model",
+          "fit": "adapted",
+          "activity": "Use paper DNA/chromosomes and the guide’s recombination extension.",
+          "learningEvidence": "Explain homolog pairing and exchange rather than swapping random pieces.",
+          "virtualChange": "Select and scaffold the relevant extension and add the current pathway distinctions.",
+          "sourceIds": [
+            "chromosome-build"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "meiosis-variation-option-3",
+          "rank": 3,
+          "title": "Reebop offspring and variation",
+          "type": "model",
+          "fit": "related",
+          "activity": "Build fictional offspring from inherited allele combinations.",
+          "learningEvidence": "Explain why related offspring can differ.",
+          "virtualChange": "Add crossing over or broaden the virtual question: basic Reebops is not a full model of recombination.",
+          "sourceIds": [
+            "reebops"
+          ],
+          "origin": "published"
+        }
+      ]
+    },
+    {
+      "labId": "inheritance-ratios",
+      "decisionNote": "Keep the reviewed corn investigation as the closest pairing; the alternatives use different evidence or trait models.",
+      "status": "proposed-awaiting-user-selection",
+      "options": [
+        {
+          "id": "inheritance-ratios-option-1",
+          "rank": 1,
+          "title": "Documented corn-ear phenotype counts",
+          "type": "specimen",
+          "fit": "close",
+          "activity": "Count phenotypes on corn from a known cross and compare independent ears.",
+          "learningEvidence": "Support an inheritance-ratio claim while retaining sample variation.",
+          "virtualChange": "Keep the reviewed collection/analysis; verify the actual cross before choosing its expected ratio.",
+          "sourceIds": [
+            "project-inheritance-ratios",
+            "corn-kit"
+          ],
+          "origin": "project"
+        },
+        {
+          "id": "inheritance-ratios-option-2",
+          "rank": 2,
+          "title": "Segregation in corn pollen",
+          "type": "specimen",
+          "fit": "adapted",
+          "activity": "Use the published pollen-starch investigation to observe allele segregation.",
+          "learningEvidence": "Link meiotic segregation with observed classes.",
+          "virtualChange": "Replace kernel counting with pollen microscopy, its phenotype evidence and appropriate expected counts.",
+          "sourceIds": [
+            "corn-pollen"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "inheritance-ratios-option-3",
+          "rank": 3,
+          "title": "Model families with Reebops",
+          "type": "model",
+          "fit": "related",
+          "activity": "Combine modeled parental alleles and construct offspring traits.",
+          "learningEvidence": "Connect genotype, phenotype and variation across a class.",
+          "virtualChange": "Use modeled family data rather than claiming to measure the current corn cross.",
+          "sourceIds": [
+            "reebops"
+          ],
+          "origin": "published"
+        }
+      ]
+    },
+    {
+      "labId": "linked-genes",
+      "decisionNote": "Use a supplied-image/data route when live crossing is not practical. Gene distance is not established by a physical chromosome craft alone.",
+      "status": "proposed-awaiting-user-selection",
+      "options": [
+        {
+          "id": "linked-genes-option-1",
+          "rank": 1,
+          "title": "Educational two-point Drosophila cross",
+          "type": "experiment",
+          "fit": "close",
+          "activity": "Score parental/recombinant offspring from a documented educational cross.",
+          "learningEvidence": "Estimate recombination from classified offspring and explain sample limits.",
+          "virtualChange": "Allow cross lead time; adapt sex-linked details and the current trait definitions.",
+          "sourceIds": [
+            "fly-cross"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "linked-genes-option-2",
+          "rank": 2,
+          "title": "Printed offspring-photo mapping investigation",
+          "type": "data",
+          "fit": "adapted",
+          "activity": "Classify a prepared, cross-labeled photograph set and calculate recombination.",
+          "learningEvidence": "Use scored evidence and retain ambiguous cases.",
+          "virtualChange": "Author a verifiable image/data pack; this is our proposed adaptation, not a supplied ready-made photo lesson.",
+          "sourceIds": [
+            "project-linked-genes"
+          ],
+          "origin": "original-adaptation"
+        }
+      ]
+    },
+    {
+      "labId": "dna-replication",
+      "decisionNote": "The stable ID refers to fruit extraction. Preserve the no-detergent and blank comparisons and the limits of crude material.",
+      "status": "proposed-awaiting-user-selection",
+      "options": [
+        {
+          "id": "dna-replication-option-1",
+          "rank": 1,
+          "title": "Controlled fruit extraction with comparison samples",
+          "type": "experiment",
+          "fit": "close",
+          "activity": "Use the existing complete preparation and its no-detergent/blank controls.",
+          "learningEvidence": "Explain mechanical disruption, membranes, separation and precipitation.",
+          "virtualChange": "Retain controls; visible crude material is not a purity or DNA-concentration measurement.",
+          "sourceIds": [
+            "project-dna-replication"
+          ],
+          "origin": "project"
+        },
+        {
+          "id": "dna-replication-option-2",
+          "rank": 2,
+          "title": "Publisher plant-material extraction method",
+          "type": "experiment",
+          "fit": "adapted",
+          "activity": "Use the published bulk-extraction method as an alternative classroom preparation.",
+          "learningEvidence": "Relate each separation step to the material observed.",
+          "virtualChange": "Choose one reviewed recipe and keep comparable controls; do not combine incompatible recipes or add unnecessary repeated extractions.",
+          "sourceIds": [
+            "dna-extract"
+          ],
+          "origin": "published"
+        }
+      ]
+    },
+    {
+      "labId": "dna-protein",
+      "decisionNote": "Cell-free expression is the direct practical route; paper models are useful when kit equipment is unavailable.",
+      "status": "proposed-awaiting-user-selection",
+      "options": [
+        {
+          "id": "dna-protein-option-1",
+          "rank": 1,
+          "title": "BioBits Central Dogma expression investigation",
+          "type": "experiment",
+          "fit": "close",
+          "activity": "Use the kit’s supported fluorescence observations to investigate gene expression.",
+          "learningEvidence": "Distinguish transcription and protein-expression evidence.",
+          "virtualChange": "Use only actual kit-supported comparisons and timing; retain controls and label ordinal versus instrument readings.",
+          "sourceIds": [
+            "biobits"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "dna-protein-option-2",
+          "rank": 2,
+          "title": "Paper transcription and translation",
+          "type": "model",
+          "fit": "adapted",
+          "activity": "Build an RNA message and translate a short sequence with paper components.",
+          "learningEvidence": "Explain how sequence information is used to produce a peptide.",
+          "virtualChange": "Replace brightness evidence with sequence/process evidence and an appropriate report.",
+          "sourceIds": [
+            "tx-paper"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "dna-protein-option-3",
+          "rank": 3,
+          "title": "Protein structure/function engineering",
+          "type": "experiment",
+          "fit": "related",
+          "activity": "Investigate predicted fluorescent-protein changes with the published kit.",
+          "learningEvidence": "Connect protein sequence/structure with an observed function.",
+          "virtualChange": "Redesign around structure/function rather than the present expression-control question.",
+          "sourceIds": [
+            "protein-kit"
+          ],
+          "origin": "published"
+        }
+      ]
+    },
+    {
+      "labId": "lac-operon",
+      "decisionNote": "The current lab models an arabinose-controlled reporter. Its legacy ID must not turn this into a claimed lac-operon experiment.",
+      "status": "proposed-awaiting-user-selection",
+      "options": [
+        {
+          "id": "lac-operon-option-1",
+          "rank": 1,
+          "title": "pGLO reporter induction and selection",
+          "type": "experiment",
+          "fit": "close",
+          "activity": "Compare reporter-bearing/control cells under the kit’s supported plate conditions.",
+          "learningEvidence": "Distinguish gene presence, selection, growth and induced expression.",
+          "virtualChange": "Use the approved kit protocol and actual arabinose system; maintain the current distinctions.",
+          "sourceIds": [
+            "pglo"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "lac-operon-option-2",
+          "rank": 2,
+          "title": "Plate-evidence card investigation",
+          "type": "data",
+          "fit": "adapted",
+          "activity": "Sort provided plate images by growth and fluorescence and justify the controls.",
+          "learningEvidence": "Use evidence to separate transformation/selection from expression.",
+          "virtualChange": "Create a labeled evidence pack from reviewed images or original artwork; no culture handling is needed for this proposed route.",
+          "sourceIds": [
+            "project-lac-operon"
+          ],
+          "origin": "original-adaptation"
+        }
+      ]
+    },
+    {
+      "labId": "gel-electrophoresis",
+      "decisionNote": "Actual DNA, simulated dye samples and paper-band analysis are useful options with different limits.",
+      "status": "proposed-awaiting-user-selection",
+      "options": [
+        {
+          "id": "gel-electrophoresis-option-1",
+          "rank": 1,
+          "title": "Prepared DNA with a ladder",
+          "type": "experiment",
+          "fit": "close",
+          "activity": "Run prepared DNA samples and estimate sizes from a calibrated ladder.",
+          "learningEvidence": "Use migration measurements and interpolation rather than visual matching alone.",
+          "virtualChange": "Use existing guidance with actual supplier equipment/stain settings.",
+          "sourceIds": [
+            "project-gel-electrophoresis"
+          ],
+          "origin": "project"
+        },
+        {
+          "id": "gel-electrophoresis-option-2",
+          "rank": 2,
+          "title": "Dye electrophoresis mystery",
+          "type": "experiment",
+          "fit": "adapted",
+          "activity": "Separate the kit’s dye mixtures and compare band patterns in a fictional case.",
+          "learningEvidence": "Practice loading, polarity and separation while interpreting model evidence.",
+          "virtualChange": "Identify dyes as simulated samples; do not convert dye mobility into actual DNA base-pair size.",
+          "sourceIds": [
+            "dye-gel"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "gel-electrophoresis-option-3",
+          "rank": 3,
+          "title": "Paper ladder calibration and unknown bands",
+          "type": "data",
+          "fit": "adapted",
+          "activity": "Measure original, scale-labeled band images and estimate an unknown within the ladder range.",
+          "learningEvidence": "Demonstrate calibration and explain uncertainty.",
+          "virtualChange": "Author or obtain an appropriate image/data set; this proposed worksheet does not practice physical gel loading.",
+          "sourceIds": [
+            "project-gel-electrophoresis"
+          ],
+          "origin": "original-adaptation"
+        }
+      ]
+    },
+    {
+      "labId": "genetic-information",
+      "decisionNote": "Retain the reviewed virtual-only core unless you choose otherwise. These can be classroom supplements; none automatically replaces every enzyme/location task.",
+      "status": "proposed-awaiting-user-selection",
+      "options": [
+        {
+          "id": "genetic-information-option-1",
+          "rank": 1,
+          "title": "Paper transcription and translation",
+          "type": "model",
+          "fit": "close",
+          "activity": "Manipulate paper DNA, RNA and translation components.",
+          "learningEvidence": "Use complementary sequences and codons to explain information transfer.",
+          "virtualChange": "Supplement the current lab; add replication, processing and location tasks if chosen as a complete alternative.",
+          "sourceIds": [
+            "tx-paper"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "genetic-information-option-2",
+          "rank": 2,
+          "title": "Central dogma card sorting",
+          "type": "model",
+          "fit": "adapted",
+          "activity": "Arrange process and molecule cards and explain their relationships.",
+          "learningEvidence": "Distinguish DNA replication, transcription and translation.",
+          "virtualChange": "Use as an explanation check; include enzyme placement and sequence evidence separately.",
+          "sourceIds": [
+            "central-cards"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "genetic-information-option-3",
+          "rank": 3,
+          "title": "Cell-free gene-expression experiment",
+          "type": "experiment",
+          "fit": "related",
+          "activity": "Observe the kit’s actual transcription/translation reporter evidence.",
+          "learningEvidence": "Connect molecular information with a measured or scored output.",
+          "virtualChange": "Cell-free reactions do not model a nucleus or RNA export; redesign location-specific claims if this becomes the primary pairing.",
+          "sourceIds": [
+            "biobits"
+          ],
+          "origin": "published"
+        }
+      ]
+    },
+    {
+      "labId": "sordaria-crossing-over",
+      "decisionNote": "Prepared material and images can both support the sampling question; culturing is not required for the basic route.",
+      "status": "proposed-awaiting-user-selection",
+      "options": [
+        {
+          "id": "sordaria-crossing-over-option-1",
+          "rank": 1,
+          "title": "Prepared Sordaria cross-slide counts",
+          "type": "specimen",
+          "fit": "close",
+          "activity": "Classify ordered asci in non-overlapping fields from a prepared educational cross.",
+          "learningEvidence": "Connect segregation patterns, sampling and the centromere-distance estimate.",
+          "virtualChange": "Use existing scoring guidance and keep uncertain/excluded asci visible.",
+          "sourceIds": [
+            "project-sordaria-crossing-over",
+            "sordaria"
+          ],
+          "origin": "project"
+        },
+        {
+          "id": "sordaria-crossing-over-option-2",
+          "rank": 2,
+          "title": "Printed ascus-image scoring and comparison",
+          "type": "data",
+          "fit": "adapted",
+          "activity": "Count and classify a documented set of real or clearly labeled teaching images.",
+          "learningEvidence": "Compare independent fields without selecting only clear or unusual patterns.",
+          "virtualChange": "Author an image sampling pack and answer key; distinguish schematic data from actual cross images.",
+          "sourceIds": [
+            "project-sordaria-crossing-over"
+          ],
+          "origin": "original-adaptation"
+        }
+      ]
+    },
+    {
+      "labId": "natural-selection",
+      "decisionNote": "The beak-tool model is the closest published match. A feeding contest needs an explicit link to inheritance and later generations.",
+      "status": "proposed-awaiting-user-selection",
+      "options": [
+        {
+          "id": "natural-selection-option-1",
+          "rank": 1,
+          "title": "Beaks as tools and changing food supply",
+          "type": "model",
+          "fit": "close",
+          "activity": "Collect model food with contrasting tools and compare success across environments.",
+          "learningEvidence": "Explain environment-dependent advantage using measured class results.",
+          "virtualChange": "Add a clear inheritance/offspring step to pair fully with our next-generation task.",
+          "sourceIds": [
+            "beaks"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "natural-selection-option-2",
+          "rank": 2,
+          "title": "Rock pocket mouse populations over time",
+          "type": "data",
+          "fit": "related",
+          "activity": "Count and analyze coat-color patterns in supplied population scenes.",
+          "learningEvidence": "Explain selection from differences in survival and inherited variation.",
+          "virtualChange": "Redesign the virtual context and evidence around camouflage and time-series populations.",
+          "sourceIds": [
+            "pocket"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "natural-selection-option-3",
+          "rank": 3,
+          "title": "Lizard limb traits and habitats",
+          "type": "data",
+          "fit": "related",
+          "activity": "Graph a selected subset of published lizard measurements on paper.",
+          "learningEvidence": "Support a habitat/trait comparison from real data.",
+          "virtualChange": "Change the virtual question from feeding and generations to comparative trait evidence.",
+          "sourceIds": [
+            "lizard-traits"
+          ],
+          "origin": "original-adaptation"
+        }
+      ]
+    },
+    {
+      "labId": "genetic-drift",
+      "decisionNote": "The publisher offers a physical demonstration alongside a digital tool; only the marble demonstration is proposed as the classroom activity.",
+      "status": "proposed-awaiting-user-selection",
+      "options": [
+        {
+          "id": "genetic-drift-option-1",
+          "rank": 1,
+          "title": "Two-color marble drift demonstration",
+          "type": "model",
+          "fit": "close",
+          "activity": "Use the educator demonstration to follow allele sampling through model generations.",
+          "learningEvidence": "Distinguish chance changes from an advantage-based selection rule.",
+          "virtualChange": "Align the sampling rules, counts and population comparisons with our model.",
+          "sourceIds": [
+            "drift-demo"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "genetic-drift-option-2",
+          "rank": 2,
+          "title": "Repeated small versus large gene pools",
+          "type": "model",
+          "fit": "adapted",
+          "activity": "Use our proposed repeated bead draws from matched starting allele pools.",
+          "learningEvidence": "Compare variation among independent population histories.",
+          "virtualChange": "Author a classroom protocol and collector sheet; NHGRI supplies scientific background, not this ready-made activity.",
+          "sourceIds": [
+            "drift-background"
+          ],
+          "origin": "original-adaptation"
+        },
+        {
+          "id": "genetic-drift-option-3",
+          "rank": 3,
+          "title": "Founder or bottleneck event investigation",
+          "type": "model",
+          "fit": "adapted",
+          "activity": "Use a clearly labeled extension that sharply samples a model population, then follows later draws.",
+          "learningEvidence": "Explain lost variation without assuming that removed alleles were less useful.",
+          "virtualChange": "Add a named founder/bottleneck event and compare it with ordinary drift.",
+          "sourceIds": [
+            "drift-demo"
+          ],
+          "origin": "original-adaptation"
+        }
+      ]
+    },
+    {
+      "labId": "phylogenetic-trees",
+      "decisionNote": "Strong card activities exist. Some DNA-tree resources use software, so a paper version needs prepared evidence rather than a digital-only link.",
+      "status": "proposed-awaiting-user-selection",
+      "options": [
+        {
+          "id": "phylogenetic-trees-option-1",
+          "rank": 1,
+          "title": "Shell cards and proposed evolutionary groups",
+          "type": "model",
+          "fit": "close",
+          "activity": "Use printable shell cards to propose and revise a relationship tree.",
+          "learningEvidence": "Justify grouping from characters and identify uncertain inferences.",
+          "virtualChange": "Retain tree comparisons and avoid treating overall resemblance as sufficient evidence.",
+          "sourceIds": [
+            "shells"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "phylogenetic-trees-option-2",
+          "rank": 2,
+          "title": "Finch evidence cards and evolutionary relationships",
+          "type": "model",
+          "fit": "adapted",
+          "activity": "Use the published finch inquiry and cards to reason about species relationships.",
+          "learningEvidence": "Connect ecological and trait evidence with an explanatory model.",
+          "virtualChange": "Select the tree-reasoning portions and scaffold the wider inquiry for grade 9.",
+          "sourceIds": [
+            "finch-tree"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "phylogenetic-trees-option-3",
+          "rank": 3,
+          "title": "Prepared DNA alignment on paper",
+          "type": "data",
+          "fit": "adapted",
+          "activity": "Compare a short teacher-prepared alignment and test alternative trees.",
+          "learningEvidence": "Use sequence characters as a second evidence source.",
+          "virtualChange": "Author a paper subset; the publisher’s full molecular activity includes online analysis.",
+          "sourceIds": [
+            "dna-trees"
+          ],
+          "origin": "original-adaptation"
+        }
+      ]
+    },
+    {
+      "labId": "viral-spread",
+      "decisionNote": "A network-spread activity and a cell-level release model address different scales; retain that distinction.",
+      "status": "proposed-awaiting-user-selection",
+      "options": [
+        {
+          "id": "viral-spread-option-1",
+          "rank": 1,
+          "title": "Graphing disease spread on a network",
+          "type": "model",
+          "fit": "close",
+          "activity": "Track a modeled spread event, graph relationships and test a prevention change.",
+          "learningEvidence": "Explain how contact structure affects transmission.",
+          "virtualChange": "Align network rules and the prevention comparison; use fictional rather than personal contact data.",
+          "sourceIds": [
+            "network"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "viral-spread-option-2",
+          "rank": 2,
+          "title": "Viral lysis and budding with components/cards",
+          "type": "model",
+          "fit": "adapted",
+          "activity": "Use the published demonstration to compare release from host cells.",
+          "learningEvidence": "Distinguish host-cell processes and different release mechanisms.",
+          "virtualChange": "Adjust the pathogen context and molecular components; do not imply that every virus uses the same cycle.",
+          "sourceIds": [
+            "virus-cards"
+          ],
+          "origin": "published"
+        }
+      ]
+    },
+    {
+      "labId": "unknown-prokaryote",
+      "decisionNote": "I found useful morphology and DNA-identification resources, but no verified ready-made nonculture packet that duplicates our fictional metabolic profiles. The closest match needs an original evidence pack.",
+      "status": "proposed-awaiting-user-selection",
+      "options": [
+        {
+          "id": "unknown-prokaryote-option-1",
+          "rank": 1,
+          "title": "Fictional microbe evidence-card mystery",
+          "type": "data",
+          "fit": "close",
+          "activity": "Compare original cell images, structure descriptions and supplied test-result cards.",
+          "learningEvidence": "Use several evidence types to distinguish profiles without claiming a clinical identification.",
+          "virtualChange": "Develop and review the packet; OpenStax is background, not a published protocol for this exact activity.",
+          "sourceIds": [
+            "prok-background"
+          ],
+          "origin": "original-adaptation"
+        },
+        {
+          "id": "unknown-prokaryote-option-2",
+          "rank": 2,
+          "title": "Build bacterial shapes and arrangements with manipulatives",
+          "type": "model",
+          "fit": "related",
+          "activity": "Use the published candy/manipulative model to describe bacterial morphology.",
+          "learningEvidence": "Distinguish shapes and arrangements using consistent observations.",
+          "virtualChange": "Broaden or narrow the virtual question to morphology; shape alone does not identify our metabolic profiles.",
+          "sourceIds": [
+            "candy-bacteria"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "unknown-prokaryote-option-3",
+          "rank": 3,
+          "title": "DNA-identification case on paper",
+          "type": "data",
+          "fit": "related",
+          "activity": "Use teacher-prepared sequence/test evidence inspired by the identification workflow.",
+          "learningEvidence": "Explain why sequence evidence can distinguish organisms.",
+          "virtualChange": "This is an original paper adaptation of a digital lab; redesign around molecular evidence instead of our current profile tests.",
+          "sourceIds": [
+            "bacterial-dna"
+          ],
+          "origin": "original-adaptation"
+        }
+      ]
+    },
+    {
+      "labId": "protist-movement",
+      "decisionNote": "Several genuine microscopy options exist. Fixed slides can show structure; they cannot show live movement.",
+      "status": "proposed-awaiting-user-selection",
+      "options": [
+        {
+          "id": "protist-movement-option-1",
+          "rank": 1,
+          "title": "Protist survey with live observations",
+          "type": "specimen",
+          "fit": "close",
+          "activity": "Compare approved educational protist specimens and record visible structures and locomotion.",
+          "learningEvidence": "Connect movement with observed structures and state identification limits.",
+          "virtualChange": "Align specimens, scale calibration and observation categories with the current comparison.",
+          "sourceIds": [
+            "protist-survey"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "protist-movement-option-2",
+          "rank": 2,
+          "title": "Observe living material in a hanging drop",
+          "type": "specimen",
+          "fit": "adapted",
+          "activity": "Use the published preparation to observe movement with less compression.",
+          "learningEvidence": "Explain how preparation affects what can be observed.",
+          "virtualChange": "Scaffold the post-16 technique and use approved specimens; add a fair motion-observation plan.",
+          "sourceIds": [
+            "hanging-drop"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "protist-movement-option-3",
+          "rank": 3,
+          "title": "Preying protozoa: feeding behavior",
+          "type": "specimen",
+          "fit": "related",
+          "activity": "Compare feeding behaviors in the publisher’s educational specimens.",
+          "learningEvidence": "Use direct observations to compare cellular strategies.",
+          "virtualChange": "Redesign or extend the virtual question around feeding rather than locomotion alone.",
+          "sourceIds": [
+            "protist-food"
+          ],
+          "origin": "published"
+        }
+      ]
+    },
+    {
+      "labId": "fungal-structures",
+      "decisionNote": "The spore print and yeast observations offer different life-history evidence; neither should become an edibility test.",
+      "status": "proposed-awaiting-user-selection",
+      "options": [
+        {
+          "id": "fungal-structures-option-1",
+          "rank": 1,
+          "title": "Mushroom spore-print investigation",
+          "type": "specimen",
+          "fit": "close",
+          "activity": "Make and compare prints using the published activity and a defined observation question.",
+          "learningEvidence": "Connect visible patterns with microscopic spores and reproductive structures.",
+          "virtualChange": "Add time, specimen maturity and uncertain-result notes; a print is not species or edibility proof.",
+          "sourceIds": [
+            "spore-print"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "fungal-structures-option-2",
+          "rank": 2,
+          "title": "Budding yeast under the microscope",
+          "type": "specimen",
+          "fit": "adapted",
+          "activity": "Use the publisher’s yeast-cell investigation to observe budding and other cell features.",
+          "learningEvidence": "Compare asexual budding with spore-based examples.",
+          "virtualChange": "Add yeast microscopy and an explicit comparison with the current fungal examples.",
+          "sourceIds": [
+            "yeast-cells"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "fungal-structures-option-3",
+          "rank": 3,
+          "title": "Hyphae, mycelium and fruiting-body stations",
+          "type": "specimen",
+          "fit": "adapted",
+          "activity": "Compare prepared images/slides and original labeled mushroom observations.",
+          "learningEvidence": "Explain relationships among fungal structures.",
+          "virtualChange": "Author the station sheets and reviewed image set; the botanical-garden resource is scientific background.",
+          "sourceIds": [
+            "fungi-anatomy"
+          ],
+          "origin": "original-adaptation"
+        }
+      ]
+    },
+    {
+      "labId": "moss-fern",
+      "decisionNote": "Specimen stations and model cards are good matches; observing a complete life cycle needs far more time than one class.",
+      "status": "proposed-awaiting-user-selection",
+      "options": [
+        {
+          "id": "moss-fern-option-1",
+          "rank": 1,
+          "title": "Fern fronds, sori and spores",
+          "type": "specimen",
+          "fit": "close",
+          "activity": "Inspect suitable specimens/prepared material using the university laboratory reference.",
+          "learningEvidence": "Identify the sporophyte and connect sori with spores.",
+          "virtualChange": "Build a grade-9 worksheet; UBC supplies reference observations rather than our complete class protocol.",
+          "sourceIds": [
+            "fern-sporophyte"
+          ],
+          "origin": "original-adaptation"
+        },
+        {
+          "id": "moss-fern-option-2",
+          "rank": 2,
+          "title": "Fern gametophytes and young sporophytes",
+          "type": "specimen",
+          "fit": "adapted",
+          "activity": "Compare prepared gametophytes and young sporophytes or suitable documented images.",
+          "learningEvidence": "Distinguish life-cycle generations and structures.",
+          "virtualChange": "Source the missing stages or images and simplify the university terminology.",
+          "sourceIds": [
+            "fern-gametophyte"
+          ],
+          "origin": "original-adaptation"
+        },
+        {
+          "id": "moss-fern-option-3",
+          "rank": 3,
+          "title": "Moss/fern life-cycle floor or card model",
+          "type": "model",
+          "fit": "adapted",
+          "activity": "Arrange original stage cards and label meiosis, gametes, fertilization and ploidy.",
+          "learningEvidence": "Explain where the life-cycle transitions occur.",
+          "virtualChange": "Author the card set and check organism-specific details; do not equate spores with gametes.",
+          "sourceIds": [
+            "fern-gametophyte",
+            "fern-sporophyte"
+          ],
+          "origin": "original-adaptation"
+        }
+      ]
+    },
+    {
+      "labId": "seed-dispersal",
+      "decisionNote": "Both physical design options are plausible; use actual fall/drift observations rather than the virtual model’s numerical targets.",
+      "status": "proposed-awaiting-user-selection",
+      "options": [
+        {
+          "id": "seed-dispersal-option-1",
+          "rank": 1,
+          "title": "Design wind-dispersed model seeds",
+          "type": "experiment",
+          "fit": "close",
+          "activity": "Build and test simple dispersal designs from the published activity.",
+          "learningEvidence": "Use controlled comparisons to connect structure with movement.",
+          "virtualChange": "Define mass, release conditions, measurement and meaningful repeats.",
+          "sourceIds": [
+            "seed-dispersal"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "seed-dispersal-option-2",
+          "rank": 2,
+          "title": "Paper-helicopter design investigation",
+          "type": "experiment",
+          "fit": "adapted",
+          "activity": "Compare a defined rotor-design variable using paper helicopters.",
+          "learningEvidence": "Measure descent and explain the limits of a seed analogy.",
+          "virtualChange": "Connect the rotor explicitly with winged seeds; a Mars/helicopter context alone does not teach plant dispersal.",
+          "sourceIds": [
+            "helicopter"
+          ],
+          "origin": "published"
+        }
+      ]
+    },
+    {
+      "labId": "animal-body-plans",
+      "decisionNote": "Published general sorting lessons are useful but do not fully replace evidence about symmetry, tissues and internal body cavities. This pairing needs careful scope selection.",
+      "status": "proposed-awaiting-user-selection",
+      "options": [
+        {
+          "id": "animal-body-plans-option-1",
+          "rank": 1,
+          "title": "Anatomical evidence stations",
+          "type": "data",
+          "fit": "close",
+          "activity": "Compare original specimen images and sections showing the target body-plan traits.",
+          "learningEvidence": "Justify classifications from visible anatomical evidence.",
+          "virtualChange": "Author a scientifically reviewed station set; the chapter provides background, not a complete activity.",
+          "sourceIds": [
+            "bodyplans-background"
+          ],
+          "origin": "original-adaptation"
+        },
+        {
+          "id": "animal-body-plans-option-2",
+          "rank": 2,
+          "title": "NPS classification systems inquiry",
+          "type": "model",
+          "fit": "related",
+          "activity": "Sort organisms and explain the observations used to construct groups.",
+          "learningEvidence": "Show why classifications require explicit characters.",
+          "virtualChange": "Deepen the middle-school task for grade 9 or redesign the virtual around general classification instead of internal body plans.",
+          "sourceIds": [
+            "classification"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "animal-body-plans-option-3",
+          "rank": 3,
+          "title": "Shell sorting and evolutionary grouping",
+          "type": "model",
+          "fit": "related",
+          "activity": "Use the printed shell activity to compare character-based groupings.",
+          "learningEvidence": "Explain how a classification proposal can be supported or revised.",
+          "virtualChange": "Change the main virtual question toward evolutionary relationships; shell appearance does not show every internal body-plan trait.",
+          "sourceIds": [
+            "shells"
+          ],
+          "origin": "published"
+        }
+      ]
+    },
+    {
+      "labId": "invertebrate-key",
+      "decisionNote": "A classroom key-building task and a field key-use task are both strong options; use observable characters.",
+      "status": "proposed-awaiting-user-selection",
+      "options": [
+        {
+          "id": "invertebrate-key-option-1",
+          "rank": 1,
+          "title": "Build and peer-test a dichotomous key",
+          "type": "model",
+          "fit": "close",
+          "activity": "Use the NPS picture-based process to build and test a key.",
+          "learningEvidence": "Demonstrate that paired choices identify a new example reliably.",
+          "virtualChange": "Use invertebrate examples and enough detail for grade 9.",
+          "sourceIds": [
+            "keys"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "invertebrate-key-option-2",
+          "rank": 2,
+          "title": "Use and evaluate a real field key",
+          "type": "field",
+          "fit": "adapted",
+          "activity": "Use the NPS tree-key field activity as a method model, or choose a reviewed local invertebrate key.",
+          "learningEvidence": "Explain uncertain identifications and limits of observable features.",
+          "virtualChange": "A tree version changes the organism group; align the virtual examples if it becomes the main pairing.",
+          "sourceIds": [
+            "tree-key"
+          ],
+          "origin": "published"
+        }
+      ]
+    },
+    {
+      "labId": "vertebrate-limbs",
+      "decisionNote": "Comparative anatomy and ecological trait graphs are useful, but they support different kinds of claim.",
+      "status": "proposed-awaiting-user-selection",
+      "options": [
+        {
+          "id": "vertebrate-limbs-option-1",
+          "rank": 1,
+          "title": "Scaled homologous-limb comparison",
+          "type": "specimen",
+          "fit": "close",
+          "activity": "Measure corresponding bones in original scale-labeled images or replicas.",
+          "learningEvidence": "Use homologous parts while distinguishing size, proportion and function.",
+          "virtualChange": "Create a reviewed image/replica pack; a reference photograph is not a complete measurement protocol.",
+          "sourceIds": [
+            "one-bone"
+          ],
+          "origin": "original-adaptation"
+        },
+        {
+          "id": "vertebrate-limbs-option-2",
+          "rank": 2,
+          "title": "One Bone, Two Bones observation and explanation",
+          "type": "data",
+          "fit": "adapted",
+          "activity": "Use the published image phenomenon for a student-generated structural explanation.",
+          "learningEvidence": "Identify a common skeletal pattern in a modified limb.",
+          "virtualChange": "Author an evidence question; do not measure absolute lengths without a valid scale.",
+          "sourceIds": [
+            "one-bone"
+          ],
+          "origin": "original-adaptation"
+        },
+        {
+          "id": "vertebrate-limbs-option-3",
+          "rank": 3,
+          "title": "Lizard limb measurements across habitats",
+          "type": "data",
+          "fit": "related",
+          "activity": "Graph a prepared subset of published species measurements.",
+          "learningEvidence": "Support a trait/habitat comparison using real data.",
+          "virtualChange": "Redesign around ecological trait variation rather than the current cross-vertebrate homology question.",
+          "sourceIds": [
+            "lizard-traits"
+          ],
+          "origin": "original-adaptation"
+        }
+      ]
+    },
+    {
+      "labId": "transpiration",
+      "decisionNote": "Water uptake, mass loss and stomatal density are distinct measurements. Choose the evidence first.",
+      "status": "proposed-awaiting-user-selection",
+      "options": [
+        {
+          "id": "transpiration-option-1",
+          "rank": 1,
+          "title": "Moving-bubble potometer",
+          "type": "experiment",
+          "fit": "close",
+          "activity": "Compare water uptake under a defined environmental change.",
+          "learningEvidence": "Use a controlled rate measurement and explain the uptake/transpiration connection.",
+          "virtualChange": "Use teacher-prepared apparatus and actual units; uptake is an indirect indicator.",
+          "sourceIds": [
+            "potometer"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "transpiration-option-2",
+          "rank": 2,
+          "title": "Gravimetric water-loss comparison",
+          "type": "experiment",
+          "fit": "adapted",
+          "activity": "Use a reviewed mass-loss setup to compare plant water loss.",
+          "learningEvidence": "Explain water balance and apparatus/evaporation controls.",
+          "virtualChange": "Add mass/time observations and preserve the distinction from a bubble displacement reading.",
+          "sourceIds": [
+            "potometer"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "transpiration-option-3",
+          "rank": 3,
+          "title": "Count stomata in leaf impressions",
+          "type": "specimen",
+          "fit": "related",
+          "activity": "Estimate stomatal density in calibrated microscopic fields.",
+          "learningEvidence": "Use counts per area and explain variation among leaf surfaces or specimens.",
+          "virtualChange": "Redesign around leaf structure; stomatal counts alone do not measure transpiration rate.",
+          "sourceIds": [
+            "stomata"
+          ],
+          "origin": "published"
+        }
+      ]
+    },
+    {
+      "labId": "soil-water",
+      "decisionNote": "Strong soil activities exist, but infiltration, retained water and engineered amendments answer different questions.",
+      "status": "proposed-awaiting-user-selection",
+      "options": [
+        {
+          "id": "soil-water-option-1",
+          "rank": 1,
+          "title": "Biochar and measured soil-water behavior",
+          "type": "experiment",
+          "fit": "adapted",
+          "activity": "Use the published design activity to compare a soil amendment with an appropriate control.",
+          "learningEvidence": "Use water measurements to evaluate a soil-function claim.",
+          "virtualChange": "Add amendment conditions and distinguish retention from drainage.",
+          "sourceIds": [
+            "biochar"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "soil-water-option-2",
+          "rank": 2,
+          "title": "Field infiltration comparison",
+          "type": "field",
+          "fit": "related",
+          "activity": "Adapt the USDA field method to compare water entering selected soil locations.",
+          "learningEvidence": "Explain infiltration rate using observed time and field conditions.",
+          "virtualChange": "Change the question and apparatus from retained water in columns to infiltration in place; adapt equipment for school use.",
+          "sourceIds": [
+            "infiltration"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "soil-water-option-3",
+          "rank": 3,
+          "title": "Design a water-retaining hydrogel",
+          "type": "experiment",
+          "fit": "related",
+          "activity": "Use the published engineering sequence to investigate a water-retaining material.",
+          "learningEvidence": "Evaluate a designed solution with measured evidence.",
+          "virtualChange": "Redesign around materials and water conservation; the full source is a multi-session sequence.",
+          "sourceIds": [
+            "hydrogel"
+          ],
+          "origin": "published"
+        }
+      ]
+    },
+    {
+      "labId": "flower-pollination",
+      "decisionNote": "All three are useful; dissection and pollen transfer do not by themselves demonstrate fertilization.",
+      "status": "proposed-awaiting-user-selection",
+      "options": [
+        {
+          "id": "flower-pollination-option-1",
+          "rank": 1,
+          "title": "Flower structure observation/dissection",
+          "type": "specimen",
+          "fit": "close",
+          "activity": "Locate and compare flower structures using a reviewed specimen method.",
+          "learningEvidence": "Connect observed structures with reproductive roles.",
+          "virtualChange": "Extend the primary-level resource with grade-9 explanations and distinguish unseen processes.",
+          "sourceIds": [
+            "flower-dissection"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "flower-pollination-option-2",
+          "rank": 2,
+          "title": "Observe and measure pollen-tube growth",
+          "type": "experiment",
+          "fit": "adapted",
+          "activity": "Observe suitable pollen and compare tube growth with the published method.",
+          "learningEvidence": "Distinguish pollen germination/tube growth from pollen transfer.",
+          "virtualChange": "Add actual microscopy evidence, suitable seasonal specimens and its own timing.",
+          "sourceIds": [
+            "pollen-tubes"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "flower-pollination-option-3",
+          "rank": 3,
+          "title": "Pollination role-play game",
+          "type": "model",
+          "fit": "adapted",
+          "activity": "Use a physical role-play to trace pollen transfer among flowers.",
+          "learningEvidence": "Explain transfer paths and compare a model with real structures.",
+          "virtualChange": "Deepen the primary-level game and add fertilization evidence separately if covering the entire current question.",
+          "sourceIds": [
+            "pollination-game"
+          ],
+          "origin": "published"
+        }
+      ]
+    },
+    {
+      "labId": "body-heat",
+      "decisionNote": "A close cooling practical needs an original controlled protocol. Diffusion and dinosaur data are good chapter options but should not be described as the same heat-loss experiment.",
+      "status": "proposed-awaiting-user-selection",
+      "options": [
+        {
+          "id": "body-heat-option-1",
+          "rank": 1,
+          "title": "Controlled cooling in matched container shapes",
+          "type": "experiment",
+          "fit": "close",
+          "activity": "Measure cooling for defined container sizes and calculate geometric ratios.",
+          "learningEvidence": "Distinguish total area, area per volume and temperature change.",
+          "virtualChange": "Author and pilot the protocol; OpenStax supplies background, not this ready-made classroom experiment.",
+          "sourceIds": [
+            "heat-background"
+          ],
+          "origin": "original-adaptation"
+        },
+        {
+          "id": "body-heat-option-2",
+          "rank": 2,
+          "title": "Agar-cell diffusion and surface-area-to-volume ratio",
+          "type": "experiment",
+          "fit": "related",
+          "activity": "Compare how far a visible diffusion front penetrates model cells.",
+          "learningEvidence": "Use size and geometry to explain a transport limit.",
+          "virtualChange": "Redesign around diffusion rather than heat transfer if this is the main practical.",
+          "sourceIds": [
+            "agar"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "body-heat-option-3",
+          "rank": 3,
+          "title": "Use scientific evidence to investigate dinosaur thermoregulation",
+          "type": "data",
+          "fit": "related",
+          "activity": "Analyze the educator activity’s supplied evidence about temperature regulation.",
+          "learningEvidence": "Distinguish physical cooling from biological thermoregulation claims.",
+          "virtualChange": "Review the educator-submitted resource and redesign toward data-based inference, not the present two-cube calculation.",
+          "sourceIds": [
+            "dino"
+          ],
+          "origin": "published"
+        }
+      ]
+    },
+    {
+      "labId": "starch-digestion",
+      "decisionNote": "A starch endpoint is a strong match; a model gut adds absorption and membrane transport.",
+      "status": "proposed-awaiting-user-selection",
+      "options": [
+        {
+          "id": "starch-digestion-option-1",
+          "rank": 1,
+          "title": "Amylase activity under different pH conditions",
+          "type": "experiment",
+          "fit": "close",
+          "activity": "Track a defined starch-test endpoint with reviewed enzyme conditions.",
+          "learningEvidence": "Use controls and a time-based rate interpretation.",
+          "virtualChange": "Align the virtual treatments with the chosen enzyme investigation and actual endpoint method.",
+          "sourceIds": [
+            "amylase-ph"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "starch-digestion-option-2",
+          "rank": 2,
+          "title": "Food digestion in a model gut",
+          "type": "experiment",
+          "fit": "adapted",
+          "activity": "Use the published food/amylase investigation with a membrane compartment.",
+          "learningEvidence": "Separate digestion evidence from transport across a model barrier.",
+          "virtualChange": "Add absorption/transport questions and label the membrane and chemical-test models.",
+          "sourceIds": [
+            "model-gut"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "starch-digestion-option-3",
+          "rank": 3,
+          "title": "Banana ripening and visible starch grains",
+          "type": "specimen",
+          "fit": "related",
+          "activity": "Compare stained plant samples at different ripeness stages.",
+          "learningEvidence": "Use an observation to support a limited claim about starch.",
+          "virtualChange": "Redesign around plant carbohydrate change; this is not an isolated test of amylase action.",
+          "sourceIds": [
+            "banana"
+          ],
+          "origin": "published"
+        }
+      ]
+    },
+    {
+      "labId": "reaction-time",
+      "decisionNote": "A ruler response and a Stroop task measure different combinations of perception and action.",
+      "status": "proposed-awaiting-user-selection",
+      "options": [
+        {
+          "id": "reaction-time-option-1",
+          "rank": 1,
+          "title": "Ruler-drop reaction-time investigation",
+          "type": "experiment",
+          "fit": "close",
+          "activity": "Record catch distances and use an appropriate distance/time conversion.",
+          "learningEvidence": "Compare repeated measurements and explain anticipation and apparatus limits.",
+          "virtualChange": "Replace browser-event timing with physical catch data and its assumptions.",
+          "sourceIds": [
+            "ruler"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "reaction-time-option-2",
+          "rank": 2,
+          "title": "Printed Stroop interference comparison",
+          "type": "experiment",
+          "fit": "related",
+          "activity": "Compare timed naming of suitable printed color/word conditions.",
+          "learningEvidence": "Explain interference and distinguish response choice from a simple detection task.",
+          "virtualChange": "Create a printable version from the source approach and redesign the virtual around attention/choice effects.",
+          "sourceIds": [
+            "stroop"
+          ],
+          "origin": "original-adaptation"
+        }
+      ]
+    },
+    {
+      "labId": "blind-spot",
+      "decisionNote": "The existing virtual perception task can pair with a paper demonstration; a wider visual-field activity changes the question.",
+      "status": "proposed-awaiting-user-selection",
+      "options": [
+        {
+          "id": "blind-spot-option-1",
+          "rank": 1,
+          "title": "Printed dot/cross blind-spot demonstration",
+          "type": "experiment",
+          "fit": "close",
+          "activity": "Record disappearance/reappearance with fixed viewing conditions and measured distance.",
+          "learningEvidence": "Connect the observation with the optic-disc model.",
+          "virtualChange": "Supply scale and viewing instructions and retain the activity’s approximate, nonclinical interpretation.",
+          "sourceIds": [
+            "blind"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "blind-spot-option-2",
+          "rank": 2,
+          "title": "What fills in the missing visual region?",
+          "type": "experiment",
+          "fit": "adapted",
+          "activity": "Use the source’s line/pattern variations through the blind-spot region.",
+          "learningEvidence": "Explain the difference between missing retinal input and perceived continuity.",
+          "virtualChange": "Add a perception explanation task rather than only a boundary calculation.",
+          "sourceIds": [
+            "blind"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "blind-spot-option-3",
+          "rank": 3,
+          "title": "Peripheral vision limits",
+          "type": "experiment",
+          "fit": "related",
+          "activity": "Use the published angle-based activity to compare detection of different visual information.",
+          "learningEvidence": "Distinguish peripheral detection from the anatomical blind spot.",
+          "virtualChange": "Redesign around visual fields and stimulus properties; these are different phenomena.",
+          "sourceIds": [
+            "peripheral"
+          ],
+          "origin": "published"
+        }
+      ]
+    },
+    {
+      "labId": "glucose-feedback",
+      "decisionNote": "Three strong classroom models are available; none requires testing students’ blood.",
+      "status": "proposed-awaiting-user-selection",
+      "options": [
+        {
+          "id": "glucose-feedback-option-1",
+          "rank": 1,
+          "title": "Keep It Balanced card game",
+          "type": "model",
+          "fit": "close",
+          "activity": "Use the Smithsonian endocrine/homeostasis game and explain the strategy used.",
+          "learningEvidence": "Reason about regulation rather than memorizing a hormone name.",
+          "virtualChange": "Match the game’s simplifications with the virtual insulin/glucagon and storage model.",
+          "sourceIds": [
+            "glucose-smithsonian"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "glucose-feedback-option-2",
+          "rank": 2,
+          "title": "Blood-glucose board model and scenarios",
+          "type": "model",
+          "fit": "close",
+          "activity": "Use the university board/pasta model for meal, fasting and selected challenge scenarios.",
+          "learningEvidence": "Explain interacting organs and feedback from model changes.",
+          "virtualChange": "Select grade-9 scenarios and separate physiological modeling from personal health interpretation.",
+          "sourceIds": [
+            "glucose-uw"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "glucose-feedback-option-3",
+          "rank": 3,
+          "title": "Whole-class glucose-regulation role play",
+          "type": "model",
+          "fit": "adapted",
+          "activity": "Act out roles and trace the movement of signals and glucose.",
+          "learningEvidence": "Explain a coordinated feedback response across parts of a system.",
+          "virtualChange": "Review and simplify the archived educator resource; add individual evidence rather than credit for taking a role.",
+          "sourceIds": [
+            "glucose-cdc"
+          ],
+          "origin": "published"
+        }
+      ]
+    },
+    {
+      "labId": "muscle-levers",
+      "decisionNote": "A measured lever is the closest match. A hydraulic limb is a useful engineering alternative but changes the mechanism.",
+      "status": "proposed-awaiting-user-selection",
+      "options": [
+        {
+          "id": "muscle-levers-option-1",
+          "rank": 1,
+          "title": "Model elbow with measured force and attachment points",
+          "type": "experiment",
+          "fit": "close",
+          "activity": "Use an original hinged-arm apparatus to compare effort at different lever arms.",
+          "learningEvidence": "Use measurements to explain turning effects and force tradeoffs.",
+          "virtualChange": "Author the apparatus/procedure and retain explicit model limits; the lesson supplies mechanical background.",
+          "sourceIds": [
+            "lever-lesson"
+          ],
+          "origin": "original-adaptation"
+        },
+        {
+          "id": "muscle-levers-option-2",
+          "rank": 2,
+          "title": "Simple-lever mechanical-advantage investigation",
+          "type": "experiment",
+          "fit": "adapted",
+          "activity": "Use the publisher lesson and associated practical to compare effort/load distances.",
+          "learningEvidence": "Support a mechanical-advantage claim using evidence.",
+          "virtualChange": "Add a clear connection to muscle attachment and an arm rather than treating every lever as anatomically identical.",
+          "sourceIds": [
+            "lever-lesson"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "muscle-levers-option-3",
+          "rank": 3,
+          "title": "Build hydraulic artificial limbs",
+          "type": "experiment",
+          "fit": "related",
+          "activity": "Construct and evaluate the published syringe-actuated limb design.",
+          "learningEvidence": "Explain how an engineered actuator moves a joint.",
+          "virtualChange": "Redesign toward prosthetic/hydraulic engineering; a syringe is not a contracting muscle.",
+          "sourceIds": [
+            "hydraulic-limbs"
+          ],
+          "origin": "published"
+        }
+      ]
+    },
+    {
+      "labId": "breathing",
+      "decisionNote": "The two published models show different ways to inflate a balloon. Their pressure mechanisms must be distinguished.",
+      "status": "proposed-awaiting-user-selection",
+      "options": [
+        {
+          "id": "breathing-option-1",
+          "rank": 1,
+          "title": "Diaphragm bottle-and-balloon model",
+          "type": "model",
+          "fit": "close",
+          "activity": "Change the model cavity volume and observe the balloon response.",
+          "learningEvidence": "Explain pressure, volume and airflow with a causal model.",
+          "virtualChange": "Author the student observation/report task and discuss the rigid-bottle limitations.",
+          "sourceIds": [
+            "lung"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "breathing-option-2",
+          "rank": 2,
+          "title": "Syringe-driven interactive lung box",
+          "type": "model",
+          "fit": "adapted",
+          "activity": "Use the publisher’s second model to move air directly into/out of balloons.",
+          "learningEvidence": "Compare active air delivery with a changing-cavity model.",
+          "virtualChange": "Distinguish positive-pressure air delivery from ordinary diaphragm-driven inspiration.",
+          "sourceIds": [
+            "lung"
+          ],
+          "origin": "published"
+        }
+      ]
+    },
+    {
+      "labId": "blood-flow",
+      "decisionNote": "A controlled water-tube practical is a close original proposal; the published obstruction activity has a different engineering objective.",
+      "status": "proposed-awaiting-user-selection",
+      "options": [
+        {
+          "id": "blood-flow-option-1",
+          "rank": 1,
+          "title": "Tube diameter and driving-pressure investigation",
+          "type": "experiment",
+          "fit": "close",
+          "activity": "Measure outflow from defined tubes under controlled head/pressure conditions.",
+          "learningEvidence": "Separate diameter and pressure effects and distinguish rate from speed.",
+          "virtualChange": "Author and pilot the setup; the physics source is not a ready-made school protocol or a human blood model.",
+          "sourceIds": [
+            "flow-background"
+          ],
+          "origin": "original-adaptation"
+        },
+        {
+          "id": "blood-flow-option-2",
+          "rank": 2,
+          "title": "Let the Blood Flow: blocked-tube engineering",
+          "type": "experiment",
+          "fit": "related",
+          "activity": "Use the published model to investigate removing an artificial obstruction.",
+          "learningEvidence": "Evaluate a proposed solution from flow observations.",
+          "virtualChange": "Redesign around blockage and engineering rather than the current ideal diameter/pressure comparison.",
+          "sourceIds": [
+            "clot"
+          ],
+          "origin": "published"
+        }
+      ]
+    },
+    {
+      "labId": "nephron",
+      "decisionNote": "No verified full wet-lab counterpart was found for filtration plus selective reabsorption and secretion. Prefer a whole-nephron model, or deliberately narrow/redesign the virtual around membrane transport.",
+      "status": "proposed-awaiting-user-selection",
+      "options": [
+        {
+          "id": "nephron-option-1",
+          "rank": 1,
+          "title": "Nephron substance-accounting board",
+          "type": "model",
+          "fit": "close",
+          "activity": "Move original labeled tokens through filtration, reabsorption and secretion steps.",
+          "learningEvidence": "Account for each substance and explain the different transport processes.",
+          "virtualChange": "Develop the board, rules and checks; the chapter is background, not a published ready-to-use activity.",
+          "sourceIds": [
+            "nephron-background"
+          ],
+          "origin": "original-adaptation"
+        },
+        {
+          "id": "nephron-option-2",
+          "rank": 2,
+          "title": "Selective membrane transport with dialysis tubing",
+          "type": "experiment",
+          "fit": "related",
+          "activity": "Use a reviewed membrane experiment to compare passage of different solutes/water.",
+          "learningEvidence": "Explain selective passage using observed evidence.",
+          "virtualChange": "Narrow the virtual question if chosen as the main pairing: this does not demonstrate nephron pressure filtration, reabsorption or secretion.",
+          "sourceIds": [
+            "membranes"
+          ],
+          "origin": "published"
+        }
+      ]
+    },
+    {
+      "labId": "immune-memory",
+      "decisionNote": "The immune-cell card resource is a strong match. An antibody-detection assay would shift the question away from memory.",
+      "status": "proposed-awaiting-user-selection",
+      "options": [
+        {
+          "id": "immune-memory-option-1",
+          "rank": 1,
+          "title": "Smallpox, immune-cell cards and vaccination evidence",
+          "type": "model",
+          "fit": "close",
+          "activity": "Build an immune-response sequence and relate it to the activity’s graphs/stories.",
+          "learningEvidence": "Explain memory-cell roles using both process and response evidence.",
+          "virtualChange": "Scaffold the AP-level terms and keep the initial/later-response comparison explicit.",
+          "sourceIds": [
+            "immune-cards"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "immune-memory-option-2",
+          "rank": 2,
+          "title": "First versus later response on a tabletop timeline",
+          "type": "model",
+          "fit": "adapted",
+          "activity": "Use an original printed-cell and response-curve timeline based on the reference module.",
+          "learningEvidence": "Explain why a later response can differ from a first response.",
+          "virtualChange": "Author the paper activity; the linked module is digital and is not itself a ready-made physical lesson.",
+          "sourceIds": [
+            "immune-timeline"
+          ],
+          "origin": "original-adaptation"
+        },
+        {
+          "id": "immune-memory-option-3",
+          "rank": 3,
+          "title": "Educational ELISA antibody detection",
+          "type": "experiment",
+          "fit": "related",
+          "activity": "Use the educational kit’s samples and controls to interpret a detection result.",
+          "learningEvidence": "Explain binding specificity and the function of assay controls.",
+          "virtualChange": "Redesign toward antibody detection; one positive assay does not demonstrate immune memory or protection.",
+          "sourceIds": [
+            "elisa"
+          ],
+          "origin": "published"
+        }
+      ]
+    },
+    {
+      "labId": "embryonic-development",
+      "decisionNote": "The current virtual uses a sea-urchin example. Human clay activities are useful related options, not interchangeable stage diagrams.",
+      "status": "proposed-awaiting-user-selection",
+      "options": [
+        {
+          "id": "embryonic-development-option-1",
+          "rank": 1,
+          "title": "Sea-urchin cleavage and gastrulation model",
+          "type": "model",
+          "fit": "close",
+          "activity": "Use original clay/paper sections to show smaller cells and distinct cell movements.",
+          "learningEvidence": "Distinguish cleavage, ingression and invagination and track tissue origins.",
+          "virtualChange": "Build and review a sea-urchin-specific activity using our current evidence; the image resource is supporting observation, not a complete protocol.",
+          "sourceIds": [
+            "embryo-image"
+          ],
+          "origin": "original-adaptation"
+        },
+        {
+          "id": "embryonic-development-option-2",
+          "rank": 2,
+          "title": "Synchronized Division image investigation",
+          "type": "data",
+          "fit": "adapted",
+          "activity": "Use the published early-embryo image to develop questions and explain division evidence.",
+          "learningEvidence": "Distinguish observed cell patterns from assumed timing or later movements.",
+          "virtualChange": "Add suitable supplied sections for gastrulation if covering the full current question.",
+          "sourceIds": [
+            "embryo-image"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "embryonic-development-option-3",
+          "rank": 3,
+          "title": "Human gastrulation with modeling clay",
+          "type": "model",
+          "fit": "related",
+          "activity": "Adapt the published collegiate model of cellular/tissue movements.",
+          "learningEvidence": "Use a three-dimensional representation to explain development.",
+          "virtualChange": "Simplify heavily for grade 9 and redesign the organism/stage context; human and sea-urchin development cannot be mixed.",
+          "sourceIds": [
+            "embryo-clay"
+          ],
+          "origin": "published"
+        }
+      ]
+    },
+    {
+      "labId": "microhabitats",
+      "decisionNote": "Field observations, gradients and an animal choice experiment answer related but different questions.",
+      "status": "proposed-awaiting-user-selection",
+      "options": [
+        {
+          "id": "microhabitats-option-1",
+          "rank": 1,
+          "title": "Compare local microhabitats with quadrats",
+          "type": "field",
+          "fit": "close",
+          "activity": "Use a reviewed random-sampling method and measure selected abiotic conditions in two areas.",
+          "learningEvidence": "Support a limited habitat/abundance comparison with actual samples.",
+          "virtualChange": "Adapt species and instrument methods to the site; field correlations alone do not prove a cause.",
+          "sourceIds": [
+            "quadrat"
+          ],
+          "origin": "original-adaptation"
+        },
+        {
+          "id": "microhabitats-option-2",
+          "rank": 2,
+          "title": "Investigate a local environmental gradient",
+          "type": "field",
+          "fit": "adapted",
+          "activity": "Use a schoolyard transect to compare abundance and an abiotic condition along a gradient.",
+          "learningEvidence": "Explain spatial patterns and the sampling method.",
+          "virtualChange": "Adapt the published transect technique to a local site; the source’s saltmarsh context and post-16 detail are not adopted wholesale.",
+          "sourceIds": [
+            "transect"
+          ],
+          "origin": "original-adaptation"
+        },
+        {
+          "id": "microhabitats-option-3",
+          "rank": 3,
+          "title": "Humidity choice in pill bugs",
+          "type": "experiment",
+          "fit": "related",
+          "activity": "Use the published choice-chamber experiment with approved educational specimens.",
+          "learningEvidence": "Distinguish an observed behavioral response from field distribution.",
+          "virtualChange": "Redesign around a controlled animal-behavior question if selected; it is not a direct test of the current habitat survey.",
+          "sourceIds": [
+            "pillbug"
+          ],
+          "origin": "published"
+        }
+      ]
+    },
+    {
+      "labId": "population-estimates",
+      "decisionNote": "The bean model is an unusually close published match; a quadrat alternative changes the method and organism assumptions.",
+      "status": "proposed-awaiting-user-selection",
+      "options": [
+        {
+          "id": "population-estimates-option-1",
+          "rank": 1,
+          "title": "Mark-recapture with a known bean/bead population",
+          "type": "model",
+          "fit": "close",
+          "activity": "Use the published simulation and compare an estimate with a known model total.",
+          "learningEvidence": "Explain mixing, recapture, sampling variation and assumptions.",
+          "virtualChange": "Align sample sizes and recording; avoid unnecessary repeated setup while retaining meaningful independent samples.",
+          "sourceIds": [
+            "mark-beans"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "population-estimates-option-2",
+          "rank": 2,
+          "title": "What happens when capture is biased?",
+          "type": "model",
+          "fit": "adapted",
+          "activity": "Use an original extension in which some model individuals have a different capture chance.",
+          "learningEvidence": "Explain why a biased sample can distort the estimate.",
+          "virtualChange": "Author the bias rule and comparison; the population chapter supports the assumptions, not this exact activity.",
+          "sourceIds": [
+            "population-background"
+          ],
+          "origin": "original-adaptation"
+        },
+        {
+          "id": "population-estimates-option-3",
+          "rank": 3,
+          "title": "Estimate a plant population using quadrats",
+          "type": "field",
+          "fit": "related",
+          "activity": "Use random quadrats to estimate abundance/cover in an appropriate local area.",
+          "learningEvidence": "Connect area samples with a justified population inference.",
+          "virtualChange": "Redesign the virtual method from mobile-animal mark-recapture to quadrat sampling.",
+          "sourceIds": [
+            "quadrat"
+          ],
+          "origin": "published"
+        }
+      ]
+    },
+    {
+      "labId": "food-web-energy",
+      "decisionNote": "Choose whether students should quantify energy budgets or explain population effects; arrows alone do not demonstrate transfer efficiency.",
+      "status": "proposed-awaiting-user-selection",
+      "options": [
+        {
+          "id": "food-web-energy-option-1",
+          "rank": 1,
+          "title": "Food-chain and food-web cards",
+          "type": "model",
+          "fit": "close",
+          "activity": "Use the Gorongosa cards to build relationships and predict a disturbance effect.",
+          "learningEvidence": "Explain the direction of energy flow using organism evidence.",
+          "virtualChange": "Add a quantitative budget if replacing all of the current energy-calculation work.",
+          "sourceIds": [
+            "food-web"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "food-web-energy-option-2",
+          "rank": 2,
+          "title": "Energy-token accounting through a web",
+          "type": "model",
+          "fit": "close",
+          "activity": "Move original counted tokens through transfers and record outputs and losses.",
+          "learningEvidence": "Distinguish energy flow from matter cycling with an explicit budget.",
+          "virtualChange": "Author and review the rules; OpenStax is background, and a chosen efficiency is not a universal law.",
+          "sourceIds": [
+            "energy-background"
+          ],
+          "origin": "original-adaptation"
+        },
+        {
+          "id": "food-web-energy-option-3",
+          "rank": 3,
+          "title": "Model a trophic cascade",
+          "type": "model",
+          "fit": "related",
+          "activity": "Use the published activity to test the consequences of a predator change.",
+          "learningEvidence": "Explain indirect effects across multiple trophic levels.",
+          "virtualChange": "Redesign around abundance/interaction predictions rather than only an energy budget.",
+          "sourceIds": [
+            "cascade"
+          ],
+          "origin": "published"
+        }
+      ]
+    },
+    {
+      "labId": "reserve-design",
+      "decisionNote": "There is a direct original printed-map extension and two strong published conservation options with different decision/evidence tasks.",
+      "status": "proposed-awaiting-user-selection",
+      "options": [
+        {
+          "id": "reserve-design-option-1",
+          "rank": 1,
+          "title": "Printed reserve-design map and budget",
+          "type": "model",
+          "fit": "close",
+          "activity": "Use the existing fictional map with original protection tokens and a fixed budget.",
+          "learningEvidence": "Justify habitat/connectivity tradeoffs from a documented plan.",
+          "virtualChange": "Create classroom turn/scoring/report rules; the current printable map alone is not a finished classroom protocol.",
+          "sourceIds": [
+            "reserve-map"
+          ],
+          "origin": "original-adaptation"
+        },
+        {
+          "id": "reserve-design-option-2",
+          "rank": 2,
+          "title": "Interpret real fragmentation and corridor evidence",
+          "type": "data",
+          "fit": "adapted",
+          "activity": "Analyze the published scientific figure and compare fragmented/connected treatments.",
+          "learningEvidence": "Separate empirical support from a reserve-planning prediction.",
+          "virtualChange": "Add experimental-data interpretation to the virtual or use it to evaluate the current model’s limits.",
+          "sourceIds": [
+            "fragmentation"
+          ],
+          "origin": "published"
+        },
+        {
+          "id": "reserve-design-option-3",
+          "rank": 3,
+          "title": "Design and defend a biodiversity solution",
+          "type": "model",
+          "fit": "related",
+          "activity": "Use the collaborative threat/solution activity to propose and refine an intervention.",
+          "learningEvidence": "Use biological and stakeholder evidence to defend a design.",
+          "virtualChange": "Broaden the virtual from grid optimization to open-ended conservation planning if this becomes the core activity.",
+          "sourceIds": [
+            "biodiversity"
+          ],
+          "origin": "published"
+        }
+      ]
+    }
+  ],
+  "rejectedOrLimited": [
+    {
+      "labId": "nephron",
+      "example": "Simple sieve or muddy-water kidney filter",
+      "reason": "Useful for a filtration analogy, but it does not account for selective reabsorption or secretion. Not recommended as a complete counterpart to the current nephron learning goals."
+    },
+    {
+      "labId": "embryonic-development",
+      "example": "Human/frog diagrams used interchangeably with the current sea-urchin example",
+      "reason": "Organism-specific movements and structures differ. A new context requires a coordinated redesign, not swapped illustrations."
+    },
+    {
+      "labId": "viral-spread",
+      "example": "A digital-only epidemic simulator described as a physical classroom activity",
+      "reason": "A website resource is not itself an offline class model. Only an explicitly authored paper/network adaptation would satisfy that goal."
+    },
+    {
+      "labId": "unknown-prokaryote",
+      "example": "Uncontrolled culturing of unknown classroom/environmental microbes",
+      "reason": "Not a proposed option. Prefer prepared evidence, images or a separately approved educational protocol."
+    }
+  ]
+}

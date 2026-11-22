@@ -1,0 +1,59 @@
+vite v7.3.6 building client environment for production...
+transforming...
+✓ 287 modules transformed.
+rendering chunks...
+computing gzip size...
+.platform-build/runtime/index.html                               0.65 kB │ gzip:     0.37 kB
+.platform-build/runtime/activity.html                            0.77 kB │ gzip:     0.42 kB
+.platform-build/runtime/lab.html                                 0.84 kB │ gzip:     0.42 kB
+.platform-build/runtime/investigation.html                       1.01 kB │ gzip:     0.45 kB
+.platform-build/runtime/sw.js                                    7.48 kB
+.platform-build/runtime/assets/report-identity-NidRWEcd.css      3.85 kB │ gzip:     1.17 kB
+.platform-build/runtime/assets/library-BEhjV8CM.css              6.83 kB │ gzip:     2.30 kB
+.platform-build/runtime/assets/activity-CEgFJJFy.css             7.76 kB │ gzip:     2.25 kB
+.platform-build/runtime/assets/lab-BNuBkTRH.css                 11.47 kB │ gzip:     3.16 kB
+.platform-build/runtime/assets/investigation-BUO2_a2q.css      132.85 kB │ gzip:    25.70 kB
+.platform-build/runtime/assets/report-identity-TQRj9Il6.js       4.74 kB │ gzip:     1.99 kB
+.platform-build/runtime/assets/activity-DiwtWDTb.js             15.04 kB │ gzip:     6.10 kB
+.platform-build/runtime/assets/preview-D4bfzPc_.js              18.25 kB │ gzip:     7.63 kB
+.platform-build/runtime/assets/library-CnYS5hxh.js              30.94 kB │ gzip:     8.64 kB
+.platform-build/runtime/assets/lab-or7vuHCP.js                  31.76 kB │ gzip:    11.80 kB
+.platform-build/runtime/assets/extended-content-8XQx9Tcv.js     42.04 kB │ gzip:    14.91 kB
+.platform-build/runtime/assets/runtime-bridge-BXLtJ-F2.js       82.35 kB │ gzip:    30.14 kB
+.platform-build/runtime/assets/investigation-iGywWBU6.js     1,302.70 kB │ gzip:   415.24 kB
+.platform-build/runtime/assets/lab-report-pdf-BctYdNTh.js    2,686.78 kB │ gzip: 1,250.34 kB
+✓ built in 3.28s
+vite v7.3.6 building client environment for production...
+transforming...
+✓ 36 modules transformed.
+rendering chunks...
+computing gzip size...
+dist-platform/platform.html                          0.41 kB │ gzip:     0.28 kB
+dist-platform/assets/platform-B2vWUc41.css           9.57 kB │ gzip:     2.97 kB
+dist-platform/assets/platform-BnkLZf9V.js          130.86 kB │ gzip:    44.61 kB
+dist-platform/assets/lab-report-pdf-BctYdNTh.js  2,686.78 kB │ gzip: 1,250.34 kB
+✓ built in 2.26s
+Built portal and immutable lab release 48a1e3b34228bf78fe711ff2 (49 labs). Upload runtime files to the private release bucket before registering the release.
+Registered 1 local release(s); publication settings and assigned versions retained.
+Local owner: owner@example.test / ScienceLabs!Local2026
+Local accounts and email stay on this computer. All content starts unpublished; choose versions and publication settings in Manage publishing.
+
+  VITE v7.3.6  ready in 280 ms
+
+  ➜  Local:   http://127.0.0.1:4310/
+Science Labs API ready at http://localhost:3301 (local).
+5:43:39 PM [vite] (client) page reload dist/activity.html
+5:43:39 PM [vite] (client) page reload dist/dev/activity.html
+5:43:39 PM [vite] (client) page reload dist/dev/index.html
+5:43:39 PM [vite] (client) page reload dist/dev/investigation.html
+5:43:39 PM [vite] (client) page reload dist/dev/lab.html
+5:43:39 PM [vite] (client) page reload dist/dev/resources/fermentation-model-evidence.html
+5:43:39 PM [vite] (client) page reload dist/index.html
+5:43:39 PM [vite] (client) page reload dist/investigation.html
+5:43:39 PM [vite] (client) page reload dist/lab.html
+5:43:39 PM [vite] (client) page reload dist/resources/fermentation-model-evidence.html
+5:43:40 PM [vite] (client) page reload dist/resources/fermentation-model-evidence.html
+5:43:40 PM [vite] (client) page reload dist/activity.html
+5:43:40 PM [vite] (client) page reload dist/investigation.html
+5:43:40 PM [vite] (client) page reload dist/index.html
+5:43:40 PM [vite] (client) page reload dist/lab.html

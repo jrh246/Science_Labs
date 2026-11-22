@@ -1,0 +1,110 @@
+node.exe : [WebServer] (node:57524) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([WebServer] (no... env being set.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+
+[WebServer] 
+[WebServer] (!) Some chunks are larger than 500 kB after minification. Consider:
+[WebServer] - Using dynamic import() to code-split the application
+[WebServer] - Use build.rollupOptions.output.manualChunks to improve chunking: 
+https://rollupjs.org/configuration-options/#output-manualchunks
+[WebServer] - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[WebServer] (node:57336) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+
+Running 50 tests using 1 worker
+
+(node:21776) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+
+[1/50] tests\browser\drift.spec.js:12:1 › drift full independent-population workflow, corrections, saved completion, named PDF/JSON/native print and edits
+[2/50] tests\browser\drift.spec.js:13:1 › drift actual mouse scoop, wrong placement, keyboard focus and resize/reload preserve held copy
+[3/50] tests\browser\drift.spec.js:14:1 › drift native touch draw-release-deposit, reduced motion and phone variation layout
+[4/50] tests\browser\drift.spec.js:15:1 › drift denied storage/retry, long Unicode writing and first offline PDF/native print
+[5/50] tests\browser\drift.spec.js:16:1 › drift PDF failure recovery and neutral unfinished filename
+[6/50] tests\browser\drift.spec.js:17:1 › drift root/development progress isolation and first offline development PDF
+[7/50] tests\browser\food.spec.js:11:1 › food lab full control-based workflow, distinct assays, corrections, saved completion and named PDF/native print
+[8/50] tests\browser\food.spec.js:12:1 › food lab keyboard, touch drop at the tube opening, drag release then tap, reduced motion and tablet reload
+[9/50] tests\browser\food.spec.js:13:1 › food lab draft, storage failure/retry, long Unicode explanation and first PDF export offline
+[10/50] tests\browser\food.spec.js:14:1 › food lab mouse work sites remain aligned after scroll and resize
+[11/50] tests\browser\food.spec.js:15:1 › food lab draft PDF failure recovers and leaves native print available
+[12/50] tests\browser\food.spec.js:16:1 › food lab root/development progress and caches stay separate, including first offline draft PDF
+[13/50] tests\browser\library.spec.js:3:1 › navigate from landing through units to the working lab and back
+[14/50] tests\browser\library.spec.js:17:1 › search, shareable results, planned details, empty results, and unknown routes
+[15/50] tests\browser\library.spec.js:30:1 › catalog and lab stay separate after offline navigation
+[16/50] tests\browser\library.spec.js:37:35 › library layout at 390px
+[17/50] tests\browser\library.spec.js:37:35 › library layout at 768px
+[18/50] tests\browser\library.spec.js:37:35 › library layout at 1440px
+[19/50] tests\browser\phylo.spec.js:9:1 › phylo full evidence comparison, wrong/current tree, rotation, save, named PDF/JSON/native print and edits
+[20/50] tests\browser\phylo.spec.js:10:1 › phylo actual mouse placements after resize and keyboard columns/focus; edited checked columns block progression
+[21/50] tests\browser\phylo.spec.js:11:1 › phylo native touch drag-release-then-tap, reduced motion and phone targets
+[22/50] tests\browser\phylo.spec.js:12:1 › phylo denied save/retry, long Unicode explanation and first offline PDF/native print
+[23/50] tests\browser\phylo.spec.js:13:1 › phylo draft export failure recovery and native print availability
+[24/50] tests\browser\phylo.spec.js:14:1 › phylo root/development isolated progress and first offline development PDF
+[25/50] tests\browser\seed-germination.spec.js:10:1 › Seed Germination full student workflow, corrections, named reports, save/reload/edit and mobile review
+[26/50] tests\browser\seed-germination.spec.js:17:1 › Seed Germination prediction gates, keyboard placement, wrong target, stable reload and touch drag at phone width
+[27/50] tests\browser\seed-germination.spec.js:27:1 › Seed Germination denied save, retry, long Unicode report and first PDF offline
+[28/50] tests\browser\seed-germination.spec.js:30:1 › Seed Germination draft report and PDF failure recovery
+[29/50] tests\browser\seed-germination.spec.js:32:1 › Seed Germination mouse tool placement stays aligned after scrolling and resizing
+[30/50] tests\browser\seed-germination.spec.js:45:1 › Seed Germination ordinary touch selection and clock tap
+[31/50] tests\browser\selection.spec.js:10:1 › selection full comparison, real corrections, saved completion, named PDF/JSON/native print and academic edits
+[32/50] tests\browser\selection.spec.js:11:1 › selection actual mouse placement and keyboard correction after resize, plus stale feedback gate
+[33/50] tests\browser\selection.spec.js:12:1 › selection native touch drag release then tap, phone targets, reduced motion and partial reload
+[34/50] tests\browser\selection.spec.js:13:1 › selection denied save/retry, long Unicode answer, first PDF offline and native print final text
+[35/50] tests\browser\selection.spec.js:14:1 › selection neutral draft and PDF failure recovery leave printing available
+[36/50] tests\browser\selection.spec.js:15:1 › selection root/development keys and caches, first offline development PDF
+[37/50] tests\browser\surface.spec.js:10:1 › surface-tension complete workflow, wrong interpretation, reports, native print, reload and completion edits
+[38/50] tests\browser\surface.spec.js:11:1 › surface-tension mouse, keyboard, touch drag then tap, resize, stable reload and reduced motion
+[39/50] tests\browser\surface.spec.js:12:1 › surface-tension draft, storage denial/retry, long Unicode native print and first PDF offline
+[40/50] tests\browser\surface.spec.js:13:1 › surface-tension PDF failure leaves native print available and can recover
+[41/50] tests\browser\surface.spec.js:15:1 › surface-tension mouse tool placement remains aligned after scroll and resize
+[42/50] tests\browser\surface.spec.js:21:1 › new Biology labs keep root and development attempts/caches separate with first offline PDFs
+[43/50] tests\browser\touch-once.spec.js:4:1 › one physical touch adds one surface-tension drop, with the next deliberate tap still usable
+  1) tests\browser\touch-once.spec.js:4:1 › one physical touch adds one surface-tension drop, with the next deliberate tap still usable 
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: locator('.surface-meter')
+    Expected substring: "1 drops"
+    Received string:    "1 drop dispensed · 0.05 mL total added"
+    Timeout: 5000ms
+
+    Call log:
+      - Expect "toContainText" locator('.surface-meter') with timeout 5000ms
+      - waiting for locator('.surface-meter')
+        14 × locator resolved to <div role="status" class="surface-meter">1 drop dispensed · 0.05 mL total added</div>
+           - unexpected value "1 drop dispensed · 0.05 mL total added"
+
+
+      2 | async function mobile(browser){const context=await browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true}),page=await context.newPage();return {context,page};}
+      3 | async function plan(page,id,prefix){await page.goto('/investigation.html?lab='+id);await page.locator('[data-writing="prediction"]').fill('A reasoned prediction before results.');await page.locator('[data-writing="design"]').fill('Keep the matched conditions and compare actual evidence.');await page.locator(`[data-${prefix}-action="start"]`).click();}
+    > 4 | test('one physical touch adds one surface-tension drop, with the next deliberate tap still usable',async({browser})=>{const {context,page}=await mobile(browser);await plan(page,'water-surface-tension','surface');for(const tool of ['cloth','water']){await page.locator(`[data-tool="${tool}"]`).tap();await page.locator('[data-place]').tap();}await page.locator('[data-surface-action="drop"]').tap();await expect(page.locator('.surface-meter')).toContainText('1 drops');await page.locator('[data-surface-action="drop"]').tap();await expect(page.locator('.surface-meter')).toContainText('2 drops');await context.close();});
+        |                                                                                                                                                                                                                                                                                                                                                                                                                                                            ^
+      5 | test('one physical touch toggles a DNA column once and rotates sibling tips once after replacement rendering',async({browser})=>{const {context,page}=await mobile(browser);await plan(page,'phylogenetic-trees','phylo');await page.locator('[data-position="8"]').tap();await expect(page.locator('[data-position="8"]')).toHaveAttribute('aria-pressed','true');await page.locator('[data-phylo-action="positions"]').tap();await expect(page.locator('.phylo-feedback')).toContainText('Correct!');await page.locator('[data-phylo-action="next-comparison"]').tap();for(const n of [1,2,5,6,7,8])await page.locator(`[data-position="${n}"]`).tap();await page.locator('[data-phylo-action="positions"]').tap();await page.locator('[data-phylo-action="next-comparison"]').tap();for(const [id,slot] of [['bat','mammal'],['hippo','sisterA'],['whale','sisterB']]){await page.locator(`[data-tool="${id}"]`).tap();await page.locator(`[data-place="${slot}"]`).tap();}await page.locator('[data-phylo-action="tree"]').tap();await page.locator('[data-phylo-action="finish-tree"]').tap();await expect(page.locator('.phylo-tip').nth(2)).toContainText('Hippo');await page.locator('[data-phylo-action="rotate"]').tap();await expect(page.locator('.phylo-tip').nth(2)).toContainText('Whale');await page.locator('[data-phylo-action="rotate"]').tap();await expect(page.locator('.phylo-tip').nth(2)).toContainText('Hippo');await context.close();});
+      6 |
+        at C:\Projects\Science_Labs\tests\browser\touch-once.spec.js:4:444
+
+    Error Context: test-results\touch-once-one-physical-to-ac0c2-deliberate-tap-still-usable\error-context.md
+
+
+
+
+(node:54452) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[44/50] tests\browser\touch-once.spec.js:5:1 › one physical touch toggles a DNA column once and rotates sibling tips once after replacement rendering
+[45/50] tests\browser\biology-browser-contract.mjs:5:2 › viral-spread: complete corrected attempt, truthful saves, named PDF/JSON/native print and edits
+[46/50] tests\browser\biology-browser-contract.mjs:6:2 › viral-spread: denied storage/retry, Unicode long writing and first offline PDF/native print
+[47/50] tests\browser\biology-browser-contract.mjs:7:2 › viral-spread: unfinished neutral PDF and export failure recovery
+[48/50] tests\browser\biology-browser-contract.mjs:8:2 › viral-spread: root/development progress isolation and first offline development PDF
+[49/50] tests\browser\viral.spec.js:9:1 › viral actual mouse/keyboard work sites, changed contact before start, zero effect and edited count gates
+[50/50] tests\browser\viral.spec.js:10:1 › viral native touch receptor drag-release-then-tap, phone contact targets and reduced motion
+  1 failed
+    tests\browser\touch-once.spec.js:4:1 › one physical touch adds one surface-tension drop, with the next deliberate tap still usable 
+  49 passed (1.7m)

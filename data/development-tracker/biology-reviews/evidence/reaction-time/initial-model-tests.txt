@@ -1,0 +1,81 @@
+✔ flower first plan/anatomy and loaded brush gate transfer; petal deposit does not pollinate (22.1882ms)
+✔ flower required transfer checkpoint distinguishes pollination/fertilization and tip follows real model extension (2.2214ms)
+✔ flower sperm are interchangeable but each must be used once; correct counts are per nucleus (0.8156ms)
+✔ flower current fusion/anatomy/fate proposals and empty counts survive reload with downstream completion invalidated (5.5913ms)
+✔ flower four tissue origins and concept corrections retain source, independent maternal tissue and feedback (0.8916ms)
+✔ flower report keeps original writing, first plan, identity, named filename and honest completed status (1.1591ms)
+✔ heat first plan/current geometry and both cube/probe/initial setups gate a single shared interval (23.4008ms)
+✔ heat geometric scaling distinguishes total area from area per volume and uniform cooling is bounded/curved (1.9352ms)
+✔ heat checked rounded model readings drive finite-interval rates and separate energy estimates (2.9429ms)
+✔ heat view-only snapshots preserve work, current empty/read/calculation edits clear dependencies and survive reload (5.8223ms)
+✔ heat current interpretations gate concepts and preserve meaningful correction, ratios and original model source (6.7009ms)
+✔ heat report retains supplied versus student-calculated sources, Unicode, identity and honest completion (11.7064ms)
+✔ reaction first reasoning and current pathway gate task; seeded variable wait bounded and stable (2.5837ms)
+✔ reaction early/wrong-method/duplicate/negative events never invent zero or extra valid data (0.4379ms)
+✔ reaction interrupted/reloaded pending clocks are excluded while prior valid observations and original plan remain (0.5214ms)
+✔ reaction statistics use three displayed rounded values, accept ties/zero range and prevent extra trials (1.2457ms)
+✔ reaction raw wrong/empty calculations and pathway edits invalidate current checks without deleting trials (19.7668ms)
+✖ reaction report retains actual browser source, exclusions, corrections, identity and honest not-graded completion (1.6311ms)
+✔ all 14 report pathways group actual evidence by learning goal across PDF, print, text and response data (34.0264ms)
+✔ feedback summaries describe actual revisions, retain raw checks and deduplicate repeat reviews (0.3929ms)
+✔ calculation summaries respect the actual tolerance check and older attempts expose unavailable history (1.768ms)
+✔ incomplete learning evidence retains missing responses and never claims explanations were demonstrated (3.8769ms)
+✔ extraction reports summarize concepts and revisions while preserving attempts in structured data (5.7138ms)
+✔ classroom extraction evidence refers to the recorded claim and observations (0.6208ms)
+✔ soil first prediction, collector and measured dose gate one distinct endpoint per composition (4.9964ms)
+✔ soil synthetic budgets conserve input and distinguish total retention from separately supplied availability (19.606ms)
+✔ soil current wrong/empty readings survive reload, clear dependent evidence and remain in human reports (1.925ms)
+✔ soil retention and availability corrections persist without dropping current empty selections (2.4666ms)
+✔ soil pore classifications gate concepts and keep meaningful revisions in reports (0.9845ms)
+✔ soil report keeps source/units, first plan, original writing, optional named identity and honest completion (1.0963ms)
+✔ starch prediction, molecular site and both reference checks gate reaction action (2.5481ms)
+✔ starch two-by-two conditions need correct matched additions, one interval and separate stopped iodine portions (0.7097ms)
+✔ starch qualitative truth table distinguishes both pH-matched controls and indicator references (20.3295ms)
+✔ starch wrong/empty current observations and routes invalidate downstream evidence and remain across reload (1.4288ms)
+✔ starch completed view-only evidence does not repeat time/assays and meaningful concept corrections retained (0.8084ms)
+✔ starch report identity Unicode original writing and honest not-graded status survive restoration (2.052ms)
+✔ all 14 reports preserve completed work and use a shared faithful PDF/print snapshot (28.5057ms)
+✔ partial reports never fill hidden observations or invent completed work (3.4956ms)
+✔ core reports retain mixed sources, unreached thresholds, student classifications and uncollected readings (2.2511ms)
+✔ extended reports retain measured estimates, cell products, source separation and draft classifications (1.0247ms)
+✔ osmosis identity restores without changing existing or legacy measurement data (0.6614ms)
+✔ reports escape student HTML, sanitize filenames, and preserve long answers verbatim (0.7352ms)
+✔ transpiration first prediction, cover, pan, correct off-pan controller and initial readings gate one interval (2.5617ms)
+✔ transpiration isolates all three model factors with explicit normalized passage/gradient settings (0.7745ms)
+✔ transpiration derives comparisons from rounded recorded changes rather than higher final mass (17.0881ms)
+✔ transpiration raw current readings/empty calculations and archived time snapshots survive reload (1.9934ms)
+✔ transpiration leaf-phase/pathway choices require current calculations and preserve corrections (0.9902ms)
+✔ transpiration report retains synthetic sources, units, first plan, Unicode and honest completed identity (1.0792ms)
+ℹ tests 48
+ℹ suites 0
+ℹ pass 47
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 288.7055
+
+✖ failing tests:
+
+test at tests\reaction.test.js:11:1
+✖ reaction report retains actual browser source, exclusions, corrections, identity and honest not-graded completion (1.6311ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'In progress'
+  - 'Complete'
+  
+      at TestContext.<anonymous> (file:///C:/Projects/Science_Labs/tests/reaction.test.js:11:388)
+      at Test.runInAsyncScope (node:async_hooks:228:14)
+      at Test.run (node:internal/test_runner/test:1118:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:787:18)
+      at Test.postRun (node:internal/test_runner/test:1247:19)
+      at Test.run (node:internal/test_runner/test:1175:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:787:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'In progress',
+    expected: 'Complete',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

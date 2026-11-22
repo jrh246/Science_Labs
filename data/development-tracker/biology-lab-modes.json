@@ -1,0 +1,507 @@
+{
+  "schemaVersion": 1,
+  "assessedOn": "2026-11-15",
+  "scope": "48 Biology catalog labs plus Sordaria extension. All suggestions are delivery planning, separate from user approval and physical classroom validation.",
+  "categories": {
+    "existing-classroom": {
+      "label": "Virtual + classroom guidance exists",
+      "readiness": "Classroom data/model route and guidance already exist; local teacher pilot and user acceptance are separate."
+    },
+    "physical-candidate": {
+      "label": "Virtual now; classroom practical proposed",
+      "readiness": "Classroom adaptation needs its own procedure, materials, student/teacher PDFs, measurement plan and teacher pilot. App classroom entry is not implemented."
+    },
+    "model-candidate": {
+      "label": "Virtual now; classroom model/data activity proposed",
+      "readiness": "A paper, token, tool or supplied-data activity can teach the concepts; a classroom version and matching resources still need development and review. This does not reproduce the actual biological process."
+    },
+    "keep-virtual": {
+      "label": "Keep virtual by design",
+      "readiness": "Retain the requested virtual-only lab. A paper reinforcement activity would be a separate optional supplement, not an implemented classroom mode."
+    }
+  },
+  "sources": {
+    "acs": {
+      "title": "American Chemical Society: Surface Spectaculars",
+      "url": "https://www.acs.org/education/whatischemistry/adventures-in-chemistry/experiments/surface-spectaculars.html",
+      "basis": "Comparable coin/drop and detergent activity.",
+      "checkedOn": "2026-11-15"
+    },
+    "blind": {
+      "title": "Exploratorium: Blind Spot",
+      "url": "https://www.exploratorium.edu/snacks/blind-spot",
+      "basis": "Comparable printed-card perception and approximate geometry activity.",
+      "checkedOn": "2026-11-15"
+    },
+    "lung": {
+      "title": "Australian National University: How to make a lung model",
+      "url": "https://science.anu.edu.au/engagement/science-lab-experiments-home-school/how-make-lung-model",
+      "basis": "Comparable bottle/balloon diaphragm model.",
+      "checkedOn": "2026-11-15"
+    },
+    "transp": {
+      "title": "Science & Plants for Schools: investigating transpiration with a potometer",
+      "url": "https://www.saps.org.uk/teaching-resources/resources/1263/investigating-transpiration-with-a-potometer/",
+      "basis": "Comparable water-uptake and mass-loss measurements; these are distinct measurements.",
+      "checkedOn": "2026-11-15"
+    },
+    "bird": {
+      "title": "HHMI BioInteractive: Beaks As Tools",
+      "url": "https://www.biointeractive.org/classroom-resources/beaks-tools-selective-advantage-changing-environments",
+      "basis": "Comparable hands-on feeding-tool model for environment-dependent selective advantage.",
+      "checkedOn": "2026-11-15"
+    },
+    "key": {
+      "title": "National Park Service: Using Dichotomous Keys",
+      "url": "https://home.nps.gov/teachers/classrooms/dichotomous-key.htm",
+      "basis": "Comparable student-built and peer-tested keys using visible traits in pictures.",
+      "checkedOn": "2026-11-15"
+    },
+    "seeds": {
+      "title": "University of Florida / partner universities: Seed Germination",
+      "url": "https://propg.ifas.ufl.edu/04-seeds/03-germination/04-seedsgermination-germination.html",
+      "basis": "Scientific basis for water uptake and root emergence; not a classroom protocol.",
+      "checkedOn": "2026-11-15"
+    },
+    "amylase": {
+      "title": "University of Maryland: Starch Hydrolysis by Amylase",
+      "url": "https://terpconnect.umd.edu/~nsw/ench485/lab5.htm",
+      "basis": "Scientific/experimental precedent only. This university protocol is not adopted as a ninth-grade classroom procedure.",
+      "checkedOn": "2026-11-15"
+    },
+    "drift": {
+      "title": "National Human Genome Research Institute: Genetic Drift",
+      "url": "https://www.genome.gov/genetics-glossary/Genetic-Drift",
+      "basis": "Scientific basis for random allele-frequency changes; bead adaptation is a planning proposal.",
+      "checkedOn": "2026-11-15"
+    },
+    "population": {
+      "title": "OpenStax Biology 2e: Population Demography",
+      "url": "https://openstax.org/books/biology-2e/pages/45-1-population-demography",
+      "basis": "Scientific basis for quadrats and mark-recapture; bean/population model is a planning proposal.",
+      "checkedOn": "2026-11-15"
+    },
+    "corridors": {
+      "title": "University of Wisconsin Damschen Research Lab: Habitat corridors",
+      "url": "https://damschenlab.zoology.wisc.edu/research/habitat-corridors/",
+      "basis": "Scientific basis for connectivity questions; printed fictional map remains a teaching model.",
+      "checkedOn": "2026-11-15"
+    }
+  },
+  "labs": [
+    {
+      "labId": "seed-germination",
+      "category": "physical-candidate",
+      "classroomActivity": "Compare germination in seeds given different water conditions; record germination and root growth.",
+      "learningEvidence": "Use observations to separate water availability from other growing conditions.",
+      "workNeeded": "Define species, germination criterion, timing, independent samples and matched growing conditions.",
+      "sourceIds": [
+        "seeds"
+      ]
+    },
+    {
+      "labId": "water-surface-tension",
+      "category": "physical-candidate",
+      "classroomActivity": "Count retained drops on a coin and compare water with a teacher-prepared detergent mixture.",
+      "learningEvidence": "Use measured comparisons to explain cohesion and surface behavior.",
+      "workNeeded": "Calibrate the actual dropper; do not assume the virtual drop volume or counts.",
+      "sourceIds": [
+        "acs"
+      ]
+    },
+    {
+      "labId": "food-macromolecules",
+      "category": "physical-candidate",
+      "classroomActivity": "Compare food samples and known controls with school-approved indicator tests.",
+      "learningEvidence": "Use positive/negative controls to support limited claims about food molecules.",
+      "workNeeded": "Author reagent, heating, disposal and observation procedures; use genuine observations rather than expected colors.",
+      "sourceIds": []
+    },
+    {
+      "labId": "cell-microscopy",
+      "category": "existing-classroom",
+      "classroomActivity": "Observe calibrated plant/animal slides and record actual measurements.",
+      "learningEvidence": "Use calibrated scales to compare visible cells and state sampling limits.",
+      "workNeeded": "Existing materials/procedure and classroom entry; teacher verifies slides, calibration and class setup.",
+      "sourceIds": []
+    },
+    {
+      "labId": "osmosis-homeostasis",
+      "category": "physical-candidate",
+      "classroomActivity": "Use a teacher-reviewed dialysis-tubing mass-change investigation alongside the existing accepted lab conditions.",
+      "learningEvidence": "Explain water movement using measured mass change and concentration relationships.",
+      "workNeeded": "Retain the accepted virtual lab and A/D condition wording; classroom preparation/data collection require their own confirmation and worksheet.",
+      "sourceIds": []
+    },
+    {
+      "labId": "enzyme-activity",
+      "category": "existing-classroom",
+      "classroomActivity": "Compare potato catalase reactions using the documented gas-collection procedure.",
+      "learningEvidence": "Use early gas-volume rates and controls to reason about enzyme activity.",
+      "workNeeded": "Existing starting quantities and apparatus still require the documented local teacher pilot.",
+      "sourceIds": []
+    },
+    {
+      "labId": "yeast-fermentation",
+      "category": "existing-classroom",
+      "classroomActivity": "Collect gas from matched yeast/sugar comparisons using the existing classroom apparatus options.",
+      "learningEvidence": "Compare actual gas changes and retain measurement/replicate provenance.",
+      "workNeeded": "Use the matching balloon, cylinder or syringe handout and validated class preparation.",
+      "sourceIds": []
+    },
+    {
+      "labId": "light-photosynthesis",
+      "category": "existing-classroom",
+      "classroomActivity": "Use matched leaf-disk preparations and record floating disks under different light conditions.",
+      "learningEvidence": "Interpret flotation evidence, controls and sample differences.",
+      "workNeeded": "Use existing classroom guidance; physical preparation and observation times need a local pilot.",
+      "sourceIds": []
+    },
+    {
+      "labId": "cell-signaling",
+      "category": "existing-classroom",
+      "classroomActivity": "Compare growth in matched plants using the documented signal/carrier comparison.",
+      "learningEvidence": "Use change from starting height and independent plants to reason about a signal effect.",
+      "workNeeded": "Teacher selects an educational preparation and approved supplier instructions; growing takes multiple days.",
+      "sourceIds": []
+    },
+    {
+      "labId": "mitosis",
+      "category": "existing-classroom",
+      "classroomActivity": "Count stages in non-overlapping fields on prepared root-tip slides.",
+      "learningEvidence": "Compare stage proportions and distinguish observations from an assumed cycle length.",
+      "workNeeded": "Existing classroom counts and guide; verify slide quality and classification criteria.",
+      "sourceIds": []
+    },
+    {
+      "labId": "meiosis-variation",
+      "category": "existing-classroom",
+      "classroomActivity": "Use the existing paper chromosome-strip model for crossing over and cell division.",
+      "learningEvidence": "Track allele combinations while distinguishing homologs, sister chromatids and the modeled pathways.",
+      "workNeeded": "Classroom counterpart is a chromosome model rather than a live-cell experiment.",
+      "sourceIds": []
+    },
+    {
+      "labId": "inheritance-ratios",
+      "category": "existing-classroom",
+      "classroomActivity": "Count traits on corn ears from documented crosses and compare ears and pooled results.",
+      "learningEvidence": "Compare observed ratios with predictions while retaining meaningful sampling.",
+      "workNeeded": "Use the documented cross/traits; preserve the user-reviewed corn lab.",
+      "sourceIds": []
+    },
+    {
+      "labId": "linked-genes",
+      "category": "existing-classroom",
+      "classroomActivity": "Score supplied fly-cross images/data, or use an approved documented educational cross.",
+      "learningEvidence": "Estimate recombination from parental/recombinant classes and sample size.",
+      "workNeeded": "Existing guidance includes an image/data alternative; live crosses need lead time and the supplier protocol.",
+      "sourceIds": []
+    },
+    {
+      "labId": "dna-replication",
+      "category": "existing-classroom",
+      "classroomActivity": "Extract crude material from fruit using the existing complete preparation and controls.",
+      "learningEvidence": "Explain membranes, separation, precipitation and the limits of visible material.",
+      "workNeeded": "Teacher confirms the existing extraction guidance against the local school procedure, including its controls.",
+      "sourceIds": []
+    },
+    {
+      "labId": "dna-protein",
+      "category": "existing-classroom",
+      "classroomActivity": "Use a suitable educational cell-free expression kit and its supported controls.",
+      "learningEvidence": "Use reporter evidence to connect DNA information with protein production.",
+      "workNeeded": "Kit-dependent: follow the supplier protocol and use only comparisons the kit actually supports.",
+      "sourceIds": []
+    },
+    {
+      "labId": "lac-operon",
+      "category": "existing-classroom",
+      "classroomActivity": "Compare growth and fluorescence with the documented educational arabinose-controlled reporter system.",
+      "learningEvidence": "Distinguish carrying a reporter from expressing it and distinguish selection from induction.",
+      "workNeeded": "This stable legacy ID does not mean the current lab is a literal lac-operon experiment; use its actual reporter kit and approved classroom protocol.",
+      "sourceIds": []
+    },
+    {
+      "labId": "gel-electrophoresis",
+      "category": "existing-classroom",
+      "classroomActivity": "Separate prepared DNA fragments with a ladder and measure migration.",
+      "learningEvidence": "Use a calibration relationship to compare and estimate fragment sizes.",
+      "workNeeded": "Existing classroom procedure; use approved equipment, stain and supplier settings.",
+      "sourceIds": []
+    },
+    {
+      "labId": "natural-selection",
+      "category": "model-candidate",
+      "classroomActivity": "Use different tools as beaks to collect different seed types, then model survival, inheritance and a new generation.",
+      "learningEvidence": "Explain why food conditions change the advantage of inherited beak differences.",
+      "workNeeded": "A feeding contest alone does not show evolution: retain an explicit inheritance/reproduction step and separate tool performance from real bird data.",
+      "sourceIds": [
+        "bird"
+      ]
+    },
+    {
+      "labId": "genetic-drift",
+      "category": "model-candidate",
+      "classroomActivity": "Draw colored beads from matched allele pools and compare changes in small and large populations.",
+      "learningEvidence": "Distinguish random sampling from selection and compare variation among independent model populations.",
+      "workNeeded": "Define what each bead represents; use fresh independent draws when testing variability.",
+      "sourceIds": [
+        "drift"
+      ]
+    },
+    {
+      "labId": "phylogenetic-trees",
+      "category": "model-candidate",
+      "classroomActivity": "Build and compare trees using printed character tables and labeled synthetic DNA-sequence cards.",
+      "learningEvidence": "Justify shared ancestry from evidence rather than arranging similar-looking pictures.",
+      "workNeeded": "Supply comparable character evidence, alternative trees and a reviewed scoring/explanation key.",
+      "sourceIds": []
+    },
+    {
+      "labId": "viral-spread",
+      "category": "model-candidate",
+      "classroomActivity": "Use a contact-network board, tokens and event cards to model transmission and prevention.",
+      "learningEvidence": "Explain how network contacts and interventions affect spread.",
+      "workNeeded": "Keep the contacts and model rules explicit; use fictional case information rather than personal health records.",
+      "sourceIds": []
+    },
+    {
+      "labId": "unknown-prokaryote",
+      "category": "model-candidate",
+      "classroomActivity": "Compare prepared cell images and supplied metabolic-test cards for the fictional profiles.",
+      "learningEvidence": "Use several lines of evidence to distinguish profiles and explain what remains uncertain.",
+      "workNeeded": "Prepare consistent reference evidence; retain this as a supplied-data activity rather than culturing unknown organisms.",
+      "sourceIds": []
+    },
+    {
+      "labId": "protist-movement",
+      "category": "physical-candidate",
+      "classroomActivity": "Observe movement in school-approved educational protist samples; use prepared images or slides for structure and videos when motion cannot be observed.",
+      "learningEvidence": "Connect visible locomotion structures with movement and distinguish observations from identification claims.",
+      "workNeeded": "Choose specimens and handling procedures; prepared fixed slides cannot demonstrate live movement.",
+      "sourceIds": []
+    },
+    {
+      "labId": "fungal-structures",
+      "category": "physical-candidate",
+      "classroomActivity": "Examine a store-bought mushroom and prepared fungal slides or labeled microscopy images.",
+      "learningEvidence": "Connect visible fungal structures with growth and reproduction.",
+      "workNeeded": "Specify the specimen/reference images and observable features; this is not wild-mushroom identification or a mold-culture project.",
+      "sourceIds": []
+    },
+    {
+      "labId": "moss-fern",
+      "category": "physical-candidate",
+      "classroomActivity": "Inspect moss and fern specimens, then use prepared images and stage cards to connect life-cycle stages.",
+      "learningEvidence": "Distinguish gametophyte/sporophyte stages and the roles of spores and gametes.",
+      "workNeeded": "Provide the stages not visible on the available specimens; do not claim to observe an entire life cycle during one class.",
+      "sourceIds": []
+    },
+    {
+      "labId": "seed-dispersal",
+      "category": "physical-candidate",
+      "classroomActivity": "Build paper seed models and compare measured descent or dispersal under matched conditions.",
+      "learningEvidence": "Use evidence to explain how shape affects the model seed movement.",
+      "workNeeded": "Define mass, release height, airflow, measurement method and meaningful repeats; physical models are not real plant fitness measurements.",
+      "sourceIds": []
+    },
+    {
+      "labId": "animal-body-plans",
+      "category": "physical-candidate",
+      "classroomActivity": "Classify prepared specimens, models or complete organism images using visible body-plan traits.",
+      "learningEvidence": "Justify classifications with observable features, including exceptions and limits.",
+      "workNeeded": "Choose reference material where the necessary traits can actually be seen; an image activity can replace specimens.",
+      "sourceIds": []
+    },
+    {
+      "labId": "invertebrate-key",
+      "category": "physical-candidate",
+      "classroomActivity": "Use specimen/photo cards to build a dichotomous key, then have another group test it with new examples.",
+      "learningEvidence": "Show that each paired choice uses a visible, useful distinction.",
+      "workNeeded": "Prepare suitable examples and a test set; complete a teacher review of key wording and ambiguities.",
+      "sourceIds": [
+        "key"
+      ]
+    },
+    {
+      "labId": "vertebrate-limbs",
+      "category": "physical-candidate",
+      "classroomActivity": "Measure corresponding bones in replicas or scaled images and compare limb structures.",
+      "learningEvidence": "Use homologous parts as evidence while distinguishing ancestry from present function.",
+      "workNeeded": "Supply reliable scale bars and measurement rules; compare the same anatomical structures.",
+      "sourceIds": []
+    },
+    {
+      "labId": "transpiration",
+      "category": "physical-candidate",
+      "classroomActivity": "Compare plant water loss or water uptake using teacher-prepared weighing/potometer setups.",
+      "learningEvidence": "Explain the effect of an environmental condition and distinguish uptake from measured mass loss.",
+      "workNeeded": "Select one validated apparatus and define controls, units and preparation; do not treat uptake as a direct equivalent of every transpiration measurement.",
+      "sourceIds": [
+        "transp"
+      ]
+    },
+    {
+      "labId": "soil-water",
+      "category": "physical-candidate",
+      "classroomActivity": "Compare drainage and retained water in measured soil columns.",
+      "learningEvidence": "Use a water balance to distinguish drainage, retention and claims about plant-available water.",
+      "workNeeded": "Define soil preparation, sample size, water input, drainage time and evaporation controls.",
+      "sourceIds": []
+    },
+    {
+      "labId": "flower-pollination",
+      "category": "physical-candidate",
+      "classroomActivity": "Observe real flower parts and model pollen transfer; use stage cards for fertilization and seed formation.",
+      "learningEvidence": "Distinguish pollination from fertilization and connect structures with their roles.",
+      "workNeeded": "Choose suitable specimens and observation tools; visible pollen transfer does not demonstrate fertilization.",
+      "sourceIds": []
+    },
+    {
+      "labId": "body-heat",
+      "category": "physical-candidate",
+      "classroomActivity": "Measure cooling in different-sized containers of the same shape/material and calculate surface-area-to-volume ratios.",
+      "learningEvidence": "Distinguish total surface area from area per volume and interpret model cooling evidence.",
+      "workNeeded": "Author starting conditions, sensor placement and measurement rules; this is a physical heat-transfer model, not animal thermoregulation.",
+      "sourceIds": []
+    },
+    {
+      "labId": "starch-digestion",
+      "category": "physical-candidate",
+      "classroomActivity": "Compare starch breakdown with educational amylase, matched controls and an approved starch indicator.",
+      "learningEvidence": "Use controls and observations to explain enzyme action and the limits of a starch test.",
+      "workNeeded": "Develop a school-level reagent/temperature/timing protocol; use supplied enzyme rather than student saliva.",
+      "sourceIds": [
+        "amylase"
+      ]
+    },
+    {
+      "labId": "reaction-time",
+      "category": "physical-candidate",
+      "classroomActivity": "Measure ruler-drop responses and compare repeated observations under a controlled condition.",
+      "learningEvidence": "Interpret real variation and explain the limits of the distance-to-time model.",
+      "workNeeded": "Define the release cue, anticipation controls and justified repeat count; keep individual results private if recorded by name.",
+      "sourceIds": []
+    },
+    {
+      "labId": "blind-spot",
+      "category": "physical-candidate",
+      "classroomActivity": "Use printed dot/cross targets and measured viewing distances to compare disappearance and reappearance.",
+      "learningEvidence": "Connect an observation with the optic-disc model and explain approximate geometry.",
+      "workNeeded": "Create print-scale and viewing instructions plus an alternative supplied-data route; this is not a clinical vision test.",
+      "sourceIds": [
+        "blind"
+      ]
+    },
+    {
+      "labId": "glucose-feedback",
+      "category": "model-candidate",
+      "classroomActivity": "Move glucose, signal and liver-store tokens through meal/fasting scenarios.",
+      "learningEvidence": "Explain negative feedback and the distinct roles of insulin and glucagon.",
+      "workNeeded": "Keep model units, storage and response rules explicit; the activity does not measure or change real blood glucose.",
+      "sourceIds": []
+    },
+    {
+      "labId": "muscle-levers",
+      "category": "physical-candidate",
+      "classroomActivity": "Use a hinged arm model, a small load and a force meter to compare attachment points.",
+      "learningEvidence": "Use measurements to relate lever arms, force and turning effects.",
+      "workNeeded": "Define apparatus geometry, fixed loads and measurement limits; classroom arm models are not measurements of a student muscle.",
+      "sourceIds": []
+    },
+    {
+      "labId": "breathing",
+      "category": "physical-candidate",
+      "classroomActivity": "Use a teacher-prepared bottle/balloon diaphragm model to observe changes in balloon volume.",
+      "learningEvidence": "Explain the relationship between pressure, volume and air movement.",
+      "workNeeded": "Author construction and observation instructions and discuss the rigid bottle and balloon model limits.",
+      "sourceIds": [
+        "lung"
+      ]
+    },
+    {
+      "labId": "blood-flow",
+      "category": "physical-candidate",
+      "classroomActivity": "Compare water flow through tubes of different internal radius at a controlled driving pressure.",
+      "learningEvidence": "Use outflow measurements to explain how tube geometry affects resistance.",
+      "workNeeded": "Specify head/pressure, tube length, radius, fluid and timing; this is a hydraulic analogy rather than actual blood flow.",
+      "sourceIds": []
+    },
+    {
+      "labId": "nephron",
+      "category": "model-candidate",
+      "classroomActivity": "Move labeled substance tokens on a printed nephron board through filtration, reabsorption and secretion.",
+      "learningEvidence": "Distinguish the three processes and account for where each substance ends up.",
+      "workNeeded": "Provide reviewed transport rules; a simple sieve alone cannot represent selective reabsorption or secretion.",
+      "sourceIds": []
+    },
+    {
+      "labId": "immune-memory",
+      "category": "model-candidate",
+      "classroomActivity": "Use matching antigen/receptor cards and memory-cell tokens for first and later encounters.",
+      "learningEvidence": "Explain why later responses can differ and what the memory-cell model represents.",
+      "workNeeded": "Define the time/response model and limits; this is a model, not an exposure or immunity test.",
+      "sourceIds": []
+    },
+    {
+      "labId": "embryonic-development",
+      "category": "model-candidate",
+      "classroomActivity": "Use clay or paper cell models to order cleavage, blastula and gastrulation stages.",
+      "learningEvidence": "Explain changes in cell arrangement and distinguish them from simple growth.",
+      "workNeeded": "Choose a consistent organism context and reviewed stage diagrams; stage models do not reproduce live development.",
+      "sourceIds": []
+    },
+    {
+      "labId": "microhabitats",
+      "category": "physical-candidate",
+      "classroomActivity": "Compare nearby schoolyard microhabitats with light, temperature/moisture readings and visible organism observations.",
+      "learningEvidence": "Use measurements and sampling to support a limited habitat comparison.",
+      "workNeeded": "Define field boundaries, instrument methods and comparable sampling; student observations need not match virtual values.",
+      "sourceIds": []
+    },
+    {
+      "labId": "population-estimates",
+      "category": "model-candidate",
+      "classroomActivity": "Use mixed beans or beads for a mark-recapture model; a separate plant/quadrat extension can use field observations.",
+      "learningEvidence": "Explain sampling assumptions and compare an estimate with a known model population.",
+      "workNeeded": "Specify mixing, marking, equal capture chance and a closed population; quadrats are a different sampling method.",
+      "sourceIds": [
+        "population"
+      ]
+    },
+    {
+      "labId": "food-web-energy",
+      "category": "model-candidate",
+      "classroomActivity": "Move counted energy tokens through food-web cards and record transfers and losses.",
+      "learningEvidence": "Track an energy budget and distinguish energy flow from matter cycling.",
+      "workNeeded": "State the chosen transfer rules; do not turn an illustrative efficiency into a universal ten-percent law.",
+      "sourceIds": []
+    },
+    {
+      "labId": "reserve-design",
+      "category": "model-candidate",
+      "classroomActivity": "Print the fictional landscape and choose protected cells using the same budget and habitat/connectivity constraints.",
+      "learningEvidence": "Use the map and budget to justify tradeoffs and evaluate model predictions.",
+      "workNeeded": "Prepare scale-correct map/cards and scoring rules; predicted persistence is not a measured conservation outcome.",
+      "sourceIds": [
+        "corridors"
+      ]
+    },
+    {
+      "labId": "genetic-information",
+      "category": "keep-virtual",
+      "classroomActivity": "Keep the interactive enzyme-placement lab virtual; a paper DNA/RNA/codon model could be an optional separate reinforcement activity.",
+      "learningEvidence": "Connect enzyme action, base pairing and process location without changing the reviewed lab.",
+      "workNeeded": "The user explicitly requested a virtual-only lab. A physical supplement is not a change to its current delivery mode.",
+      "sourceIds": []
+    },
+    {
+      "labId": "sordaria-crossing-over",
+      "category": "existing-classroom",
+      "classroomActivity": "Count ordered asci on prepared Sordaria cross slides, retaining fields and uncertain observations.",
+      "learningEvidence": "Use segregation patterns and sampling limits to estimate gene-to-centromere distance.",
+      "workNeeded": "Prepared slides are the basic classroom route; culturing is not required.",
+      "sourceIds": []
+    }
+  ]
+}

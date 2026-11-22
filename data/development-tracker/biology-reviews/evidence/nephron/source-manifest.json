@@ -1,0 +1,24 @@
+{
+  "capturedAt": "2026-11-15T20:17:05.494Z",
+  "scope": "Actual reviewed working-tree files; unrelated changes and previous student attempts preserved.",
+  "files": {
+    "src/investigations/neph-content.js": "3bfdb6a116dfb5d1db9e51511c81a322f42ae0599374ce5eb16b4caebca01ca5",
+    "src/investigations/neph-model.js": "43be2b05415c4cd23bc3a502e75afa33535bd6b428cce4410b58c2796ef11b13",
+    "src/investigations/neph-art.js": "15a43c334d8f94cfa4b7ba2e191534b8024e54fa4b59d6215211995ea0591fa0",
+    "src/investigations/neph-report.js": "41910e4b60df47bcda9040510b323e05040b991fa870c81555464479d18e5555",
+    "src/investigations/neph-app.js": "b1cd2af1218d8216b770b16443e46a1fe0ae9279ec692cfd53ac73a1e329f844",
+    "src/investigations/neph.css": "c9fd1c1ac15d0c5fe45cfb87bc5bf3e37e9f19c38729ca0d8d15cb10e7d74d5d",
+    "tests/neph.test.js": "9234a86a05ac60b61f8b599a23d0d8201e07bc3154fe7601830f692d5fb44ee7",
+    "tests/browser/neph.spec.js": "465715cfd96ed34ba2d5c332e42b39f2ba9bcdfa73671fc7e80774844392d07e",
+    "src/investigations/guided-lab-shell.js": "7718d1ab83d65ac8551b25323338c5c2bb4c73afc988331f3c29b767a9abc55f",
+    "src/investigations/student-report.js": "5cdec89cf015cada33fbf14585705605f2a33f90d84aa0ebb248ab6c0d0d5ca0",
+    "src/investigations/lab-report-pdf.js": "d3313db4efc5086da99bbd244ba4ceada0c2a37351ef0b4d67255b76d4f20d4c",
+    "src/catalog.js": "a4c7fb97fa384648bbd5236f3c585a97b9c7f905978c95393685fd3681484ab8",
+    "src/investigations/app.js": "10b747337c950b7e663a4a1a50153f3f806c72f7547223ced0efb52159a40aec",
+    "src/investigations/learning-design.js": "2b54c12106f58d6c6a78f8986ffd731f1e7bce62864c34fc044e00c9dcd60177",
+    "scripts/build-biology-resources.py": "6c950c857ccc7a5903363b9742922ded31cb0624974d20199567df30a3b01546",
+    "scripts/verify-resources.py": "3530678e1b7cf0688388ccb682e36ad3f4c205ba015360e7f2a569e0b8b30d50",
+    "public/resources/nephron-worksheet.pdf": "1ab7b0c777be327a86402fd4ca9aa95f2dc15f4337c55723f395d4a62b3467ac",
+    "public/resources/nephron-teacher-guide.pdf": "0705a31c53ca909a6e794e5cce38534291e4aea27a9627b4353c35d524f3db40"
+  }
+}

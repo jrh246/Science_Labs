@@ -1,0 +1,274 @@
+{
+  "schemaVersion": 1,
+  "labId": "breathing",
+  "taskId": "BIO-25-REVIEW",
+  "reviewedBy": "Codex - separate development review",
+  "reviewedOn": "2026-11-15",
+  "sourceSnapshot": "sha256:e7622c3dd3cba1995ee0aeae10ca74a60e5f4e2eb662afd49ed9dc2e31988a00",
+  "checks": {
+    "G01": {
+      "status": "pass",
+      "notes": "Three goals connect inside/outside pressure-gradient flow, moving versus settled B/C distinction, and controlled vent/model-limit evidence to manipulation/records/original explanations.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/breathing/build-brief.md",
+        "data/development-tracker/biology-reviews/evidence/breathing/complete-responses.json"
+      ]
+    },
+    "G02": {
+      "status": "pass",
+      "notes": "One sealed cycle supplies three distinct phases plus one side-vent control; no default three cycles, no human breaths, direct review return avoids repeat model actions.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/breathing/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/breathing/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/breathing/final-browser-tests.txt"
+      ]
+    },
+    "G03": {
+      "status": "pass",
+      "notes": "Relevant A&P/ANU/Akron text checked; pressure inside B differs from chamber C, equalized open-airway flow stops, quiet recoil differs from forced muscle action, wide-vent limiting assumptions and thin fluid pleura explicit.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/breathing/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/breathing/final-model-tests.txt"
+      ]
+    },
+    "G04": {
+      "status": "pass",
+      "notes": "Prepared resting baseline, supplied qualitative paused phases/no pressure-volume-time measurement, wide-vent slow-pull limit and biological/clinical omissions near observations and reports.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/breathing/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/breathing/visual-contact-3.png",
+        "data/development-tracker/biology-reviews/evidence/breathing/review-notes.md"
+      ]
+    },
+    "G05": {
+      "status": "pass",
+      "notes": "Airway/sheet at actual neck/rim, hand at moving tab and wall plug produce balloon/sheet and airway/vent-flow changes; four distinct pressure/flow records and original explanations.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/breathing/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/breathing/visual-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/breathing/visual-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/breathing/visual-contact-3.png"
+      ]
+    },
+    "G06": {
+      "status": "pass",
+      "notes": "Original transparent jar/tubing/seal/rubber/balloon/support drawing reviewed at15 states; corrected apparent cap blockage, clearance, target-label overlap and settled-vent arrow.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/breathing/visual-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/breathing/visual-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/breathing/visual-contact-3.png",
+        "data/development-tracker/biology-reviews/evidence/breathing/visual-contact-4.png"
+      ]
+    },
+    "G07": {
+      "status": "pass",
+      "notes": "Stable seeded pressure/flow/concept choices, meaningful phase/air-space order maintained; wrong/current empty records retained without inferring independent mastery.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/breathing/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/breathing/hold-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/breathing/edited-unconfirmed.pdf"
+      ]
+    },
+    "G08": {
+      "status": "pass",
+      "notes": "Full student UI/diagram/feedback/report/handout wording manually reviewed; first-use ventilation/pressure/diaphragm, distinct B/C and net-flow meaning explained. Diagnostic6.2/10.7words only.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/breathing/reading-screen.json",
+        "data/development-tracker/biology-reviews/evidence/breathing/review-notes.md"
+      ]
+    },
+    "G09": {
+      "status": "pass",
+      "notes": "First required reasoning before actions; current checked phases gate settling/release/analysis, edits remove release tool/target and disable next/direct return immediately in model/UI/reload.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/breathing/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/breathing/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/breathing/edited-unconfirmed.pdf"
+      ]
+    },
+    "G10": {
+      "status": "pass",
+      "notes": "Correct! and Try again explain inside-versus-outside gradient/moving-versus-held distinction; all four incorrect phases/current blank reports remain unconfirmed with meaningful correction history.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/breathing/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/breathing/in-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/breathing/hold-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/breathing/out-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/breathing/leak-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/breathing/edited-unconfirmed.pdf"
+      ]
+    },
+    "G11": {
+      "status": "pass",
+      "notes": "Successful/repeated/reloaded completion plus denied storage/retry; optional identity preserves academic status and response edits invalidate it.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/breathing/final-browser-tests.txt"
+      ]
+    },
+    "G12": {
+      "status": "pass",
+      "notes": "Versioned scoped original plan, phase/assembly/viewed/current records and corrections preserved. Saved phase direct return retains completion; current edits keep raw/other phase evidence.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/breathing/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/breathing/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/breathing/complete-responses.json"
+      ]
+    },
+    "G13": {
+      "status": "pass",
+      "notes": "Actual named/neutral completed/draft PDF and native printing, optional name/period, safe filename and standard local time/PST verified.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/breathing/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/breathing/draft.pdf",
+        "data/development-tracker/biology-reviews/evidence/breathing/native-print.pdf"
+      ]
+    },
+    "G14": {
+      "status": "pass",
+      "notes": "Human report groups qualitative B-pressure/airway records, current statuses/corrections, original reasoning/concepts/limits; no click log, personal pressure measurement or mastery/grade claim.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/breathing/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/breathing/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/breathing/edited-unconfirmed.pdf"
+      ]
+    },
+    "G15": {
+      "status": "pass",
+      "notes": "All44 current rendered pages inspected, long first-offline download/print final marker, actual completed prompt starts/source-text glyph fidelity and all PDF missing-glyph checks pass.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/breathing/pdf-inspection.json",
+        "data/development-tracker/biology-reviews/evidence/breathing/pdf-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/breathing/pdf-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/breathing/pdf-contact-3.png",
+        "data/development-tracker/biology-reviews/evidence/breathing/pdf-contact-4.png",
+        "data/development-tracker/biology-reviews/evidence/breathing/pdf-contact-5.png",
+        "data/development-tracker/biology-reviews/evidence/breathing/pdf-contact-6.png",
+        "data/development-tracker/biology-reviews/evidence/breathing/pagination-check.txt",
+        "data/development-tracker/biology-reviews/evidence/breathing/glyph-check.txt",
+        "data/development-tracker/biology-reviews/evidence/breathing/glyph-all.txt"
+      ]
+    },
+    "G16": {
+      "status": "pass",
+      "notes": "Native drag-release-nexttap, keyboard/target focus, moving44px tab targets, mouse plug after resize, phone/tablet/no overflow/reduced motion pass; physical hardware/AT separate.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/breathing/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/breathing/visual-contact-4.png"
+      ]
+    },
+    "G17": {
+      "status": "pass",
+      "notes": "Initial14/6 and final15 selected model/report/font/7 browser workflows pass;89 current PDFs/resources and private runtime compile verified.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/breathing/model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/breathing/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/breathing/initial-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/breathing/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/breathing/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/breathing/platform-build.txt"
+      ]
+    },
+    "G18": {
+      "status": "pass",
+      "notes": "Stable English phase/goal/question IDs/locale and original writing; future native app/print translations tracked separately under AUD-10, no Spanish acceptance claimed.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/breathing/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/breathing/review-notes.md"
+      ]
+    },
+    "RESOURCES": {
+      "status": "pass",
+      "notes": "Teacher2/student3 from current content, pressure/flow collector table and concise biological limits; all89 current PDF prompt/link/hash checks and current pages reviewed.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/breathing/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/breathing/pdf-contact-1.png"
+      ]
+    },
+    "ACCESS": {
+      "status": "pass",
+      "notes": "Guest/free access, offline PDF/nativeprint remain account-free; existing paid/staff/publishing policy preserved and private compile only.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/breathing/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/breathing/platform-build.txt"
+      ]
+    },
+    "TRACKING": {
+      "status": "pass",
+      "notes": "Actual English implementation/resources/catalog and curriculum/tracker regenerated, standards/course/translation/publication acceptance separate.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/breathing/build-brief.md",
+        "data/development-tracker/biology-reviews/evidence/breathing/review-notes.md"
+      ]
+    }
+  },
+  "artifacts": {
+    "workflow": [
+      "data/development-tracker/biology-reviews/evidence/breathing/build-brief.md",
+      "data/development-tracker/biology-reviews/evidence/breathing/review-notes.md",
+      "data/development-tracker/biology-reviews/evidence/breathing/reading-screen.json",
+      "data/development-tracker/biology-reviews/evidence/breathing/complete-responses.json",
+      "data/development-tracker/biology-reviews/evidence/breathing/source-manifest.json"
+    ],
+    "visuals": [
+      "data/development-tracker/biology-reviews/evidence/breathing/visual-contact-1.png",
+      "data/development-tracker/biology-reviews/evidence/breathing/visual-contact-2.png",
+      "data/development-tracker/biology-reviews/evidence/breathing/visual-contact-3.png",
+      "data/development-tracker/biology-reviews/evidence/breathing/visual-contact-4.png"
+    ],
+    "pdfReports": [
+      "data/development-tracker/biology-reviews/evidence/breathing/complete.pdf",
+      "data/development-tracker/biology-reviews/evidence/breathing/draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/breathing/long-offline.pdf",
+      "data/development-tracker/biology-reviews/evidence/breathing/in-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/breathing/hold-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/breathing/out-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/breathing/leak-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/breathing/edited-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/breathing/development-draft.pdf"
+    ],
+    "nativePrint": [
+      "data/development-tracker/biology-reviews/evidence/breathing/native-print.pdf",
+      "data/development-tracker/biology-reviews/evidence/breathing/long-native-print.pdf"
+    ],
+    "tests": [
+      "data/development-tracker/biology-reviews/evidence/breathing/final-model-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/breathing/final-browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/breathing/pagination-check.txt",
+      "data/development-tracker/biology-reviews/evidence/breathing/glyph-check.txt",
+      "data/development-tracker/biology-reviews/evidence/breathing/glyph-all.txt",
+      "data/development-tracker/biology-reviews/evidence/breathing/resource-check.txt",
+      "data/development-tracker/biology-reviews/evidence/breathing/platform-build.txt"
+    ],
+    "resources": [
+      "public/resources/breathing-worksheet.pdf",
+      "public/resources/breathing-teacher-guide.pdf"
+    ]
+  },
+  "externalValidation": {
+    "teacherStudentComprehension": {
+      "status": "pending",
+      "notes": "Not performed; development checks do not establish classroom comprehension."
+    },
+    "physicalDevices": {
+      "status": "pending",
+      "notes": "Emulation is not physical-device or assistive-technology acceptance."
+    },
+    "classroomProtocol": {
+      "status": "not-applicable",
+      "notes": "Virtual-only activity; no physical protocol supplied."
+    }
+  },
+  "history": [
+    {
+      "event": "Separate visual/scientific review fixed cap passage, support/tab clearance, labels and settled vent flow arrow; added directly gated review return without repeated cycles.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/breathing/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/breathing/initial-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/breathing/final-browser-tests.txt"
+      ]
+    }
+  ],
+  "decision": "pass",
+  "summary": "Development review passed for direct jar-model setup/sheet/vent manipulation with distinct balloon/chamber pressures, transient/settled flow and explicit wide-vent limits. Corrected real visual/flow issues and streamlined saved-phase review. External classroom/devices/translations/release remain separate.",
+  "blockers": []
+}

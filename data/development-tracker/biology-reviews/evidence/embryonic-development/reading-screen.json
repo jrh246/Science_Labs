@@ -1,0 +1,86 @@
+{
+  "labId": "embryonic-development",
+  "locale": "en",
+  "scope": "Authored core directions/questions; excludes teacher notes, sources and student writing. Dynamic app/diagram/report wording is reviewed manually.",
+  "method": "Approximate Flesch-Kincaid with heuristic syllable counts and explicit scientific-word exceptions. Short fragments and technical terms can distort the score; no pass/fail or language certification.",
+  "overall": {
+    "words": 623,
+    "sentences": 61,
+    "wordsPerSentence": 10.2,
+    "approximateFleschKincaidGrade": 7.9
+  },
+  "fragments": {
+    "intro": {
+      "words": 76,
+      "sentences": 6,
+      "wordsPerSentence": 12.7,
+      "approximateFleschKincaidGrade": 7.1
+    },
+    "prediction": {
+      "words": 31,
+      "sentences": 3,
+      "wordsPerSentence": 10.3,
+      "approximateFleschKincaidGrade": 7.9
+    },
+    "design": {
+      "words": 26,
+      "sentences": 2,
+      "wordsPerSentence": 13,
+      "approximateFleschKincaidGrade": 9.4
+    },
+    "controls": {
+      "words": 41,
+      "sentences": 4,
+      "wordsPerSentence": 10.3,
+      "approximateFleschKincaidGrade": 8.3
+    },
+    "sampling": {
+      "words": 33,
+      "sentences": 2,
+      "wordsPerSentence": 16.5,
+      "approximateFleschKincaidGrade": 13
+    },
+    "limits": {
+      "words": 142,
+      "sentences": 11,
+      "wordsPerSentence": 12.9,
+      "approximateFleschKincaidGrade": 9.5
+    },
+    "explanation:cleavage": {
+      "words": 25,
+      "sentences": 3,
+      "wordsPerSentence": 8.3,
+      "approximateFleschKincaidGrade": 5.1
+    },
+    "explanation:movement": {
+      "words": 25,
+      "sentences": 3,
+      "wordsPerSentence": 8.3,
+      "approximateFleschKincaidGrade": 7
+    },
+    "explanation:layers": {
+      "words": 34,
+      "sentences": 3,
+      "wordsPerSentence": 11.3,
+      "approximateFleschKincaidGrade": 6.9
+    },
+    "check:growth": {
+      "words": 68,
+      "sentences": 7,
+      "wordsPerSentence": 9.7,
+      "approximateFleschKincaidGrade": 6.6
+    },
+    "check:cavity": {
+      "words": 57,
+      "sentences": 8,
+      "wordsPerSentence": 7.1,
+      "approximateFleschKincaidGrade": 5.6
+    },
+    "check:origin": {
+      "words": 65,
+      "sentences": 9,
+      "wordsPerSentence": 7.2,
+      "approximateFleschKincaidGrade": 9.4
+    }
+  }
+}

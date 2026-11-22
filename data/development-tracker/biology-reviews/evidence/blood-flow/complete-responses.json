@@ -1,0 +1,356 @@
+{
+  "schemaVersion": 2,
+  "labId": "blood-flow",
+  "title": "Vessel Diameter and Flow",
+  "question": "How do tube diameter and driving pressure affect the amount of fluid that flows each minute?",
+  "student": {
+    "name": "Zoë García",
+    "class": "Period 5"
+  },
+  "status": "Complete",
+  "grading": "not_graded",
+  "exportedAt": "2026-11-15T19:35:26.043Z",
+  "exportTimeZone": "America/Los_Angeles",
+  "exportedAtDisplay": "Nov 15, 2026, 11:35 AM PST",
+  "sections": [
+    {
+      "heading": "First prediction and controlled-comparison design",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Required before collecting: Predict how a wider tube could affect flow at the same pressure difference. Separately, predict what doubling pressure difference could do in the original tube. Give reasons.",
+          "text": "A wider bore may allow more flow at fixed pressure; doubling pressure may also increase rate. These are different controlled changes, not a narrow-faster rule for every experiment."
+        },
+        {
+          "type": "response",
+          "prompt": "Required before collecting: What should stay fixed in a diameter comparison? Why return to the original diameter to test pressure? Explain how three different conditions differ from three repeated trials.",
+          "text": "Match10cm length, fixed viscosity/model fluid and5model-minute interval. Baseline2mm/1×pressure; diameter4mm/1×; pressure2mm/2×. These three conditions isolate two variables with a shared baseline and do not measure independent biological variation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Timing: Before assembly or any model collection."
+        }
+      ]
+    },
+    {
+      "heading": "Collection evidence",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Supplied outputs from ideal regulated model fluid, not physical blood measurements. Same length10cm, viscosity and five-model-minute interval. Baseline shared by separate bore and pressure comparisons; not three repeats. Third matched tube/empty cylinder supplied, not copied volume data."
+        },
+        {
+          "type": "response",
+          "prompt": "Baseline · current volume record",
+          "text": "2mm bore; 1× reference driving pressure difference. Supplied collected volume 3mL over5model minutes. Current student volume entry: 3mL.\nCorrect after feedback. Earlier incorrect entries: 999mL."
+        },
+        {
+          "type": "response",
+          "prompt": "Diameter comparison · current volume record",
+          "text": "4mm bore; 1× reference driving pressure difference. Supplied collected volume 48mL over5model minutes. Current student volume entry: 48mL.\nCorrect first check."
+        },
+        {
+          "type": "response",
+          "prompt": "Pressure comparison · current volume record",
+          "text": "2mm bore; 2× reference driving pressure difference. Supplied collected volume 6mL over5model minutes. Current student volume entry: 6mL.\nCorrect first check."
+        }
+      ]
+    },
+    {
+      "heading": "Student rate and comparison calculations",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Baseline flow rate(mL/min)",
+          "text": "0.6\nCorrect after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "Wider-tube flow rate(mL/min)",
+          "text": "9.6\nCorrect after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "Double-pressure flow rate(mL/min)",
+          "text": "1.2\nCorrect after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "Wider-tube rate ÷ baseline rate",
+          "text": "16\nCorrect after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "Double-pressure rate ÷ baseline rate",
+          "text": "2\nCorrect after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "Earlier calculation set needing revision",
+          "text": "Baseline flow rate(mL/min): empty; Wider-tube flow rate(mL/min): empty; Double-pressure flow rate(mL/min): empty; Wider-tube rate ÷ baseline rate: 4; Double-pressure rate ÷ baseline rate: empty. Needs correction; retained as feedback evidence."
+        }
+      ]
+    },
+    {
+      "heading": "Evidence by learning goal",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Use collected model volume and a common interval to calculate flow rate with units."
+        },
+        {
+          "type": "response",
+          "prompt": "Use all three checked collected volumes and the common interval to show your flow rates in mL/min. Why is a collected volume alone different from a flow rate?",
+          "text": "My rate evidence uses supplied model volumes3/48/6mL over5model minutes, not blood measurements. Rates are.6/9.6/1.2mL/min, with wider/base16 and double-pressure/base2. Diameter alone changes2→4mm at1×pressure; pressure alone1→2× uses the original2mm tube. Same10cm length/fixed viscosity/fluid/time and ideal regulator. Doubling diameter doubles radius: chosen laminar flow scales with radius⁴ and pressure factor, so2⁴=16 versus a linear pressure factor2. Opening area4× and flow16× imply average speed4× since Q=area×speed. Narrower-faster continuity assumes the same flow, which is not fixed here. These three distinct conditions share baseline and cannot estimate independent specimens/variation. Real blood cells, nonconstant viscosity, pulsing/branching and changing walls differ; the model has long rigid round tubes, incompressible steady laminar fluid, ideal replenished pressure source, ignored connector/start-stop losses and exaggerated bore drawings. It is not a clinical pressure or health test."
+        },
+        {
+          "type": "paragraph",
+          "text": "Compare diameter and pressure effects with a shared baseline and matched other conditions."
+        },
+        {
+          "type": "response",
+          "prompt": "Compare both rate ratios with your original predictions. Which condition changes diameter alone, and which changes pressure alone? Why is the shared baseline not three independent specimens or evidence about variation?",
+          "text": "My controls evidence uses supplied model volumes3/48/6mL over5model minutes, not blood measurements. Rates are.6/9.6/1.2mL/min, with wider/base16 and double-pressure/base2. Diameter alone changes2→4mm at1×pressure; pressure alone1→2× uses the original2mm tube. Same10cm length/fixed viscosity/fluid/time and ideal regulator. Doubling diameter doubles radius: chosen laminar flow scales with radius⁴ and pressure factor, so2⁴=16 versus a linear pressure factor2. Opening area4× and flow16× imply average speed4× since Q=area×speed. Narrower-faster continuity assumes the same flow, which is not fixed here. These three distinct conditions share baseline and cannot estimate independent specimens/variation. Real blood cells, nonconstant viscosity, pulsing/branching and changing walls differ; the model has long rigid round tubes, incompressible steady laminar fluid, ideal replenished pressure source, ignored connector/start-stop losses and exaggerated bore drawings. It is not a clinical pressure or health test."
+        },
+        {
+          "type": "paragraph",
+          "text": "Distinguish flow rate from speed and explain the limits of a single ideal tube for blood vessels."
+        },
+        {
+          "type": "response",
+          "prompt": "In this model, doubling diameter gives four times the opening area but sixteen times the flow at fixed pressure. What does that imply about average speed? Why can a narrow section be faster in a different experiment that keeps flow fixed? Explain two limits for real blood vessels.",
+          "text": "My biology evidence uses supplied model volumes3/48/6mL over5model minutes, not blood measurements. Rates are.6/9.6/1.2mL/min, with wider/base16 and double-pressure/base2. Diameter alone changes2→4mm at1×pressure; pressure alone1→2× uses the original2mm tube. Same10cm length/fixed viscosity/fluid/time and ideal regulator. Doubling diameter doubles radius: chosen laminar flow scales with radius⁴ and pressure factor, so2⁴=16 versus a linear pressure factor2. Opening area4× and flow16× imply average speed4× since Q=area×speed. Narrower-faster continuity assumes the same flow, which is not fixed here. These three distinct conditions share baseline and cannot estimate independent specimens/variation. Real blood cells, nonconstant viscosity, pulsing/branching and changing walls differ; the model has long rigid round tubes, incompressible steady laminar fluid, ideal replenished pressure source, ignored connector/start-stop losses and exaggerated bore drawings. It is not a clinical pressure or health test."
+        }
+      ]
+    },
+    {
+      "heading": "Concept checks",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "At fixed pressure, doubling a circular tube’s diameter doubles its radius too. In this laminar model, what happens to flow?",
+          "text": "It becomes sixteen times as large; the radius acts to the fourth power.\nCorrect! The ideal law includes radius four times in a product.2×2×2×2=16. Both area and the velocity profile change under a fixed pressure difference. Correct on first recorded check."
+        },
+        {
+          "type": "response",
+          "prompt": "The wider tube has four times the area and sixteen times the flow here. What happens to its average speed?",
+          "text": "It is four times as large: flow ÷ area gives average speed.\nCorrect! Flow rate = area × average speed. The ratio16÷4=4 applies here. The common narrower-faster claim assumes the same flow, which was not fixed in this comparison. Revised after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "Can these three ideal collections give a person’s blood pressure or diagnose a circulation problem?",
+          "text": "No. Real blood, changing vessel walls, pulses and networks need more evidence.\nCorrect! These are controlled model outputs. Repetition cannot turn a simplified chosen model into a clinical measurement. Correct on first recorded check."
+        }
+      ]
+    },
+    {
+      "heading": "Model limits and sources",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Chosen inputs and a reference rate generate these volumes; they are not physical blood, pressure or viscosity measurements. Assume smooth layered flow of a fluid that hardly compresses and has fixed viscosity. The long, rigid round tube has no branches, pulses, blood cells or moving walls. Turbulence and body regulation are omitted. An ideal replenished source holds driving pressure difference steady across the test tube, including height effects. Start/stop changes and connector losses are ignored. Bores are enlarged; width and length do not share a scale. Five minutes is model time. One collection per condition cannot show variation or a population effect. Real vessels change radius through smooth muscle and form networks. This model cannot predict a person’s pressure, flow, health or treatment. Flow rate is volume per time; speed is distance per time. A narrower section can be faster when the same flow passes through it. Here pressure, rather than flow, stays fixed in the diameter comparison."
+        },
+        {
+          "type": "paragraph",
+          "text": "OpenStax College Physics2e12.4: viscosity and Poiseuille flow: https://openstax.org/books/college-physics-2e/pages/12-4-viscosity-and-laminar-flow-poiseuilles-law"
+        },
+        {
+          "type": "paragraph",
+          "text": "OpenStax College Physics2e12.1: volume rate versus speed: https://openstax.org/books/college-physics-2e/pages/12-1-flow-rate-and-its-relation-to-velocity"
+        },
+        {
+          "type": "paragraph",
+          "text": "OpenStax Biology2e40.4: vessel size, pressure and regulation: https://openstax.org/books/biology-2e/pages/40-4-blood-flow-and-blood-pressure-regulation"
+        }
+      ],
+      "keepFirst": 4
+    }
+  ],
+  "activityVersion": 1,
+  "locale": "en",
+  "attemptId": "flow-3769960026-1794771322458",
+  "data": {
+    "schemaVersion": 1,
+    "activityVersion": 1,
+    "labId": "blood-flow",
+    "attemptId": "flow-3769960026-1794771322458",
+    "seed": 3769960026,
+    "locale": "en",
+    "stage": 3,
+    "studentName": "Zoë García",
+    "studentClass": "Period 5",
+    "prediction": "A wider bore may allow more flow at fixed pressure; doubling pressure may also increase rate. These are different controlled changes, not a narrow-faster rule for every experiment.",
+    "design": "Match10cm length, fixed viscosity/model fluid and5model-minute interval. Baseline2mm/1×pressure; diameter4mm/1×; pressure2mm/2×. These three conditions isolate two variables with a shared baseline and do not measure independent biological variation.",
+    "initialPlan": {
+      "prediction": "A wider bore may allow more flow at fixed pressure; doubling pressure may also increase rate. These are different controlled changes, not a narrow-faster rule for every experiment.",
+      "design": "Match10cm length, fixed viscosity/model fluid and5model-minute interval. Baseline2mm/1×pressure; diameter4mm/1×; pressure2mm/2×. These three conditions isolate two variables with a shared baseline and do not measure independent biological variation.",
+      "timing": "Before assembly or any model collection"
+    },
+    "current": "pressure",
+    "conditions": {
+      "base": {
+        "tube": true,
+        "collector": true,
+        "pressureFactor": 1,
+        "collected": true,
+        "volume": 3,
+        "entry": "3",
+        "attempts": [
+          {
+            "value": "999",
+            "correct": false
+          },
+          {
+            "value": "3",
+            "correct": true
+          }
+        ],
+        "record": {
+          "volume": 3,
+          "correctAfterFeedback": true,
+          "sourceId": "student-read-supplied-model-collection"
+        }
+      },
+      "wide": {
+        "tube": true,
+        "collector": true,
+        "pressureFactor": 1,
+        "collected": true,
+        "volume": 48,
+        "entry": "48",
+        "attempts": [
+          {
+            "value": "48",
+            "correct": true
+          }
+        ],
+        "record": {
+          "volume": 48,
+          "correctAfterFeedback": false,
+          "sourceId": "student-read-supplied-model-collection"
+        }
+      },
+      "pressure": {
+        "tube": true,
+        "collector": true,
+        "pressureFactor": 2,
+        "collected": true,
+        "volume": 6,
+        "entry": "6",
+        "attempts": [
+          {
+            "value": "6",
+            "correct": true
+          }
+        ],
+        "record": {
+          "volume": 6,
+          "correctAfterFeedback": false,
+          "sourceId": "student-read-supplied-model-collection"
+        }
+      }
+    },
+    "calculations": {
+      "base-rate": "0.6",
+      "wide-rate": "9.6",
+      "pressure-rate": "1.2",
+      "diameter-ratio": "16",
+      "pressure-ratio": "2"
+    },
+    "calculationAttempts": [
+      {
+        "values": {
+          "base-rate": "",
+          "wide-rate": "",
+          "pressure-rate": "",
+          "diameter-ratio": "4",
+          "pressure-ratio": ""
+        },
+        "correct": false
+      },
+      {
+        "values": {
+          "base-rate": "0.6",
+          "wide-rate": "9.6",
+          "pressure-rate": "1.2",
+          "diameter-ratio": "16",
+          "pressure-ratio": "2"
+        },
+        "correct": true
+      }
+    ],
+    "calculationRecord": {
+      "values": {
+        "base-rate": "0.6",
+        "wide-rate": "9.6",
+        "pressure-rate": "1.2",
+        "diameter-ratio": "16",
+        "pressure-ratio": "2"
+      },
+      "correctAfterFeedback": true,
+      "sourceId": "student-calculated-model-rates-and-controlled-ratios"
+    },
+    "checks": {
+      "speed": {
+        "attempts": [
+          {
+            "value": "always",
+            "correct": false
+          },
+          {
+            "value": "four",
+            "correct": true
+          }
+        ],
+        "value": "four",
+        "correct": true
+      },
+      "power": {
+        "attempts": [
+          {
+            "value": "sixteen",
+            "correct": true
+          }
+        ],
+        "value": "sixteen",
+        "correct": true
+      },
+      "real": {
+        "attempts": [
+          {
+            "value": "limits",
+            "correct": true
+          }
+        ],
+        "value": "limits",
+        "correct": true
+      }
+    },
+    "answers": {
+      "rate": "My rate evidence uses supplied model volumes3/48/6mL over5model minutes, not blood measurements. Rates are.6/9.6/1.2mL/min, with wider/base16 and double-pressure/base2. Diameter alone changes2→4mm at1×pressure; pressure alone1→2× uses the original2mm tube. Same10cm length/fixed viscosity/fluid/time and ideal regulator. Doubling diameter doubles radius: chosen laminar flow scales with radius⁴ and pressure factor, so2⁴=16 versus a linear pressure factor2. Opening area4× and flow16× imply average speed4× since Q=area×speed. Narrower-faster continuity assumes the same flow, which is not fixed here. These three distinct conditions share baseline and cannot estimate independent specimens/variation. Real blood cells, nonconstant viscosity, pulsing/branching and changing walls differ; the model has long rigid round tubes, incompressible steady laminar fluid, ideal replenished pressure source, ignored connector/start-stop losses and exaggerated bore drawings. It is not a clinical pressure or health test.",
+      "controls": "My controls evidence uses supplied model volumes3/48/6mL over5model minutes, not blood measurements. Rates are.6/9.6/1.2mL/min, with wider/base16 and double-pressure/base2. Diameter alone changes2→4mm at1×pressure; pressure alone1→2× uses the original2mm tube. Same10cm length/fixed viscosity/fluid/time and ideal regulator. Doubling diameter doubles radius: chosen laminar flow scales with radius⁴ and pressure factor, so2⁴=16 versus a linear pressure factor2. Opening area4× and flow16× imply average speed4× since Q=area×speed. Narrower-faster continuity assumes the same flow, which is not fixed here. These three distinct conditions share baseline and cannot estimate independent specimens/variation. Real blood cells, nonconstant viscosity, pulsing/branching and changing walls differ; the model has long rigid round tubes, incompressible steady laminar fluid, ideal replenished pressure source, ignored connector/start-stop losses and exaggerated bore drawings. It is not a clinical pressure or health test.",
+      "biology": "My biology evidence uses supplied model volumes3/48/6mL over5model minutes, not blood measurements. Rates are.6/9.6/1.2mL/min, with wider/base16 and double-pressure/base2. Diameter alone changes2→4mm at1×pressure; pressure alone1→2× uses the original2mm tube. Same10cm length/fixed viscosity/fluid/time and ideal regulator. Doubling diameter doubles radius: chosen laminar flow scales with radius⁴ and pressure factor, so2⁴=16 versus a linear pressure factor2. Opening area4× and flow16× imply average speed4× since Q=area×speed. Narrower-faster continuity assumes the same flow, which is not fixed here. These three distinct conditions share baseline and cannot estimate independent specimens/variation. Real blood cells, nonconstant viscosity, pulsing/branching and changing walls differ; the model has long rigid round tubes, incompressible steady laminar fluid, ideal replenished pressure source, ignored connector/start-stop losses and exaggerated bore drawings. It is not a clinical pressure or health test."
+    },
+    "complete": true
+  },
+  "evidence": [
+    {
+      "goalId": "rate",
+      "answerId": "rate",
+      "writing": "My rate evidence uses supplied model volumes3/48/6mL over5model minutes, not blood measurements. Rates are.6/9.6/1.2mL/min, with wider/base16 and double-pressure/base2. Diameter alone changes2→4mm at1×pressure; pressure alone1→2× uses the original2mm tube. Same10cm length/fixed viscosity/fluid/time and ideal regulator. Doubling diameter doubles radius: chosen laminar flow scales with radius⁴ and pressure factor, so2⁴=16 versus a linear pressure factor2. Opening area4× and flow16× imply average speed4× since Q=area×speed. Narrower-faster continuity assumes the same flow, which is not fixed here. These three distinct conditions share baseline and cannot estimate independent specimens/variation. Real blood cells, nonconstant viscosity, pulsing/branching and changing walls differ; the model has long rigid round tubes, incompressible steady laminar fluid, ideal replenished pressure source, ignored connector/start-stop losses and exaggerated bore drawings. It is not a clinical pressure or health test.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "controls",
+      "answerId": "controls",
+      "writing": "My controls evidence uses supplied model volumes3/48/6mL over5model minutes, not blood measurements. Rates are.6/9.6/1.2mL/min, with wider/base16 and double-pressure/base2. Diameter alone changes2→4mm at1×pressure; pressure alone1→2× uses the original2mm tube. Same10cm length/fixed viscosity/fluid/time and ideal regulator. Doubling diameter doubles radius: chosen laminar flow scales with radius⁴ and pressure factor, so2⁴=16 versus a linear pressure factor2. Opening area4× and flow16× imply average speed4× since Q=area×speed. Narrower-faster continuity assumes the same flow, which is not fixed here. These three distinct conditions share baseline and cannot estimate independent specimens/variation. Real blood cells, nonconstant viscosity, pulsing/branching and changing walls differ; the model has long rigid round tubes, incompressible steady laminar fluid, ideal replenished pressure source, ignored connector/start-stop losses and exaggerated bore drawings. It is not a clinical pressure or health test.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "biology",
+      "answerId": "biology",
+      "writing": "My biology evidence uses supplied model volumes3/48/6mL over5model minutes, not blood measurements. Rates are.6/9.6/1.2mL/min, with wider/base16 and double-pressure/base2. Diameter alone changes2→4mm at1×pressure; pressure alone1→2× uses the original2mm tube. Same10cm length/fixed viscosity/fluid/time and ideal regulator. Doubling diameter doubles radius: chosen laminar flow scales with radius⁴ and pressure factor, so2⁴=16 versus a linear pressure factor2. Opening area4× and flow16× imply average speed4× since Q=area×speed. Narrower-faster continuity assumes the same flow, which is not fixed here. These three distinct conditions share baseline and cannot estimate independent specimens/variation. Real blood cells, nonconstant viscosity, pulsing/branching and changing walls differ; the model has long rigid round tubes, incompressible steady laminar fluid, ideal replenished pressure source, ignored connector/start-stop losses and exaggerated bore drawings. It is not a clinical pressure or health test.",
+      "status": "not_graded"
+    }
+  ]
+}

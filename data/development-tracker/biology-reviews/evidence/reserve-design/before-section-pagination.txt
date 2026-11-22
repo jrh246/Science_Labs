@@ -1,0 +1,7 @@
+C:\Python_Workspace\.venv_science_platform_checks\Scripts\python.exe : Orphaned section heading: Learning evidence
+At line:5 char:1
++ C:\Python_Workspace\.venv_science_platform_checks\Scripts\python.exe  ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Orphaned sectio...arning evidence:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 

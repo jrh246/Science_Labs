@@ -1,0 +1,353 @@
+{
+  "schemaVersion": 2,
+  "labId": "phylogenetic-trees",
+  "title": "Build a Phylogenetic Tree",
+  "question": "How can body traits and DNA evidence help us infer common ancestry?",
+  "student": {
+    "name": "Zoë García",
+    "class": "Period 5"
+  },
+  "status": "Complete",
+  "grading": "not_graded",
+  "exportedAt": "2026-11-15T10:47:29.382Z",
+  "exportTimeZone": "America/Los_Angeles",
+  "exportedAtDisplay": "Nov 15, 2026, 2:47 AM PST",
+  "sections": [
+    {
+      "heading": "Prediction and evidence plan",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Required before seeing the evidence: Does a similar body shape guarantee that two animals are close relatives? Explain your prediction and name another kind of evidence you would want.",
+          "text": "A useful shape may arise in different lineages; DNA and several traits may help."
+        },
+        {
+          "type": "response",
+          "prompt": "Required before seeing the evidence: Why compare several traits and the same DNA positions, rather than one useful body feature?",
+          "text": "Compare corresponding DNA positions and multiple independent traits."
+        },
+        {
+          "type": "paragraph",
+          "text": "Timing: Before traits, sequences or tree observations."
+        },
+        {
+          "type": "paragraph",
+          "text": "All DNA rows represent the same eight aligned positions in a constructed teaching example. Aligned means that matching columns represent corresponding positions. Trout is a supplied outgroup: a comparison lineage outside the three mammals, based on broader biological evidence."
+        }
+      ]
+    },
+    {
+      "heading": "Provided traits and constructed sequences",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "These are provided reference facts and invented aligned DNA rows, not student measurements of real species."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Animal",
+            "DNA positions 1–8",
+            "Milk / swimming shape"
+          ],
+          "rows": [
+            [
+              "Trout",
+              "AACGACTA",
+              "no / yes"
+            ],
+            [
+              "Bat",
+              "GACGATTA",
+              "yes / no"
+            ],
+            [
+              "Hippo",
+              "GTCGGTCA",
+              "yes / no"
+            ],
+            [
+              "Whale",
+              "GTCGGTCG",
+              "yes / yes"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Student DNA comparisons",
+      "blocks": [
+        {
+          "type": "table",
+          "columns": [
+            "Comparison",
+            "Current differing positions",
+            "Difference count",
+            "Evidence status"
+          ],
+          "rows": [
+            [
+              "Whale and hippo",
+              "8",
+              1,
+              "Correct after feedback"
+            ],
+            [
+              "Whale and trout",
+              "1, 2, 5, 6, 7, 8",
+              6,
+              "Correct first check"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Compare two different pairs: one tests a proposed close relationship, and the other tests a similar swimming shape. Each comparison adds a different line of evidence. Build one tree and rotate its sibling branches; repeated identical tree building is not required."
+        }
+      ]
+    },
+    {
+      "heading": "Student-built relationship model",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Trout was the supplied outgroup. Current mammal tips from upper to lower: Bat, Hippo, Whale. Tip order is a display choice, not a ladder of ancestry."
+        },
+        {
+          "type": "paragraph",
+          "text": "Confirmed sister group: hippo and whale. Bat branches outside that pair. Built correctly after feedback."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sibling branches were rotated for comparison. The shared-ancestor relationship stays the same."
+        }
+      ]
+    },
+    {
+      "heading": "Evidence by learning goal",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Distinguish a useful similarity in body shape from evidence of recent shared ancestry."
+        },
+        {
+          "type": "response",
+          "prompt": "Whales and trout share a swimming shape. Use the supplied milk trait and your DNA comparisons to explain why that shape alone does not establish close ancestry. How did the evidence compare with your prediction?",
+          "text": "My traits explanation uses one and six differences, supplied milk traits and the shared node. Similar swimming shape alone does not establish close ancestry. Rotation changes display order; invented short DNA and unscaled branches limit real conclusions."
+        },
+        {
+          "type": "paragraph",
+          "text": "Compare corresponding DNA positions and use several lines of evidence."
+        },
+        {
+          "type": "response",
+          "prompt": "Compare the two DNA difference counts. How do they support the closest pair in this teaching example? Why would eight invented letters be insufficient to test the real species relationship?",
+          "text": "My dna explanation uses one and six differences, supplied milk traits and the shared node. Similar swimming shape alone does not establish close ancestry. Rotation changes display order; invented short DNA and unscaled branches limit real conclusions."
+        },
+        {
+          "type": "paragraph",
+          "text": "Build and interpret a branching tree without treating tip order as ancestry or progress."
+        },
+        {
+          "type": "response",
+          "prompt": "After rotating the sibling branches, what changed and what stayed the same? Explain why a living hippo is not an ancestor of a living whale and why this diagram cannot tell you their split date.",
+          "text": "My tree explanation uses one and six differences, supplied milk traits and the shared node. Similar swimming shape alone does not establish close ancestry. Rotation changes display order; invented short DNA and unscaled branches limit real conclusions."
+        }
+      ]
+    },
+    {
+      "heading": "Concept checks",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Why can whales and trout share a swimming shape without being the closest pair here?",
+          "text": "Similar water conditions can favor similar shapes in different lineages.\nCorrect! Convergent evolution can produce similar features in different lineages. Shared function alone is not enough to establish a close relationship. Revised after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "After swapping the two sibling tips, which statement is supported?",
+          "text": "Their shared ancestor stays the same; only the drawing order changes.\nCorrect! Trace the connecting branches to their shared node. A rotation does not add or remove an ancestor. All four tips represent living lineages. Correct on first recorded check."
+        }
+      ]
+    },
+    {
+      "heading": "Model limits and sources",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The eight DNA letters per animal are invented for this lesson. They are not sequences measured from these species and cannot test their real relationships. Real trees use much more evidence, including many genes and fossils. A short sequence, unequal rates of change or a misleading similar trait can lead to a wrong inference. The real whale–hippo relationship is supported by independent research. This four-tip tree leaves out most species. Node positions show branching order, not dates. Branch lengths have no time or DNA-change scale. Body drawings are illustrations, not to scale. Rotating branches changes the display, not shared ancestry."
+        },
+        {
+          "type": "paragraph",
+          "text": "OpenStax Biology 2e: Evolutionary Relationships: https://openstax.org/books/biology-2e/pages/20-2-determining-evolutionary-relationships"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nikaido, Rooney and Okada (1999): Mammal relationship research: https://pmc.ncbi.nlm.nih.gov/articles/PMC17876/"
+        }
+      ],
+      "keepFirst": 3
+    }
+  ],
+  "activityVersion": 1,
+  "locale": "en",
+  "attemptId": "phylo-3738283832-1794739646264",
+  "data": {
+    "schemaVersion": 1,
+    "activityVersion": 1,
+    "labId": "phylogenetic-trees",
+    "attemptId": "phylo-3738283832-1794739646264",
+    "seed": 3738283832,
+    "locale": "en",
+    "stage": 3,
+    "studentName": "Zoë García",
+    "studentClass": "Period 5",
+    "prediction": "A useful shape may arise in different lineages; DNA and several traits may help.",
+    "design": "Compare corresponding DNA positions and multiple independent traits.",
+    "initialPlan": {
+      "prediction": "A useful shape may arise in different lineages; DNA and several traits may help.",
+      "design": "Compare corresponding DNA positions and multiple independent traits.",
+      "timing": "Before traits, sequences or tree observations",
+      "recordedAt": "2026-11-15T10:47:26.427Z"
+    },
+    "active": 1,
+    "observations": {
+      "whale-hippo": {
+        "selected": [
+          8
+        ],
+        "attempts": [
+          {
+            "selected": [
+              3
+            ],
+            "correct": false
+          },
+          {
+            "selected": [
+              8
+            ],
+            "correct": true
+          }
+        ],
+        "correct": true,
+        "pending": false
+      },
+      "whale-trout": {
+        "selected": [
+          1,
+          2,
+          5,
+          6,
+          7,
+          8
+        ],
+        "attempts": [
+          {
+            "selected": [
+              1,
+              2,
+              5,
+              6,
+              7,
+              8
+            ],
+            "correct": true
+          }
+        ],
+        "correct": true,
+        "pending": false
+      }
+    },
+    "tips": {
+      "mammal": "bat",
+      "sisterA": "hippo",
+      "sisterB": "whale"
+    },
+    "treeAttempts": [
+      {
+        "tips": {
+          "mammal": "hippo",
+          "sisterA": "bat",
+          "sisterB": "whale"
+        },
+        "correct": false
+      },
+      {
+        "tips": {
+          "mammal": "bat",
+          "sisterA": "hippo",
+          "sisterB": "whale"
+        },
+        "correct": true
+      }
+    ],
+    "treeRecord": {
+      "tips": {
+        "mammal": "bat",
+        "sisterA": "hippo",
+        "sisterB": "whale"
+      },
+      "closestPair": [
+        "hippo",
+        "whale"
+      ],
+      "sourceId": "student-built-teaching-tree",
+      "correctAfterFeedback": true
+    },
+    "rotated": true,
+    "checks": {
+      "shape": {
+        "attempts": [
+          {
+            "value": "same",
+            "correct": false
+          },
+          {
+            "value": "convergence",
+            "correct": true
+          }
+        ],
+        "value": "convergence",
+        "correct": true
+      },
+      "rotation": {
+        "attempts": [
+          {
+            "value": "same",
+            "correct": true
+          }
+        ],
+        "value": "same",
+        "correct": true
+      }
+    },
+    "answers": {
+      "traits": "My traits explanation uses one and six differences, supplied milk traits and the shared node. Similar swimming shape alone does not establish close ancestry. Rotation changes display order; invented short DNA and unscaled branches limit real conclusions.",
+      "dna": "My dna explanation uses one and six differences, supplied milk traits and the shared node. Similar swimming shape alone does not establish close ancestry. Rotation changes display order; invented short DNA and unscaled branches limit real conclusions.",
+      "tree": "My tree explanation uses one and six differences, supplied milk traits and the shared node. Similar swimming shape alone does not establish close ancestry. Rotation changes display order; invented short DNA and unscaled branches limit real conclusions."
+    },
+    "complete": true
+  },
+  "evidence": [
+    {
+      "goalId": "traits",
+      "answerId": "traits",
+      "writing": "My traits explanation uses one and six differences, supplied milk traits and the shared node. Similar swimming shape alone does not establish close ancestry. Rotation changes display order; invented short DNA and unscaled branches limit real conclusions.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "dna",
+      "answerId": "dna",
+      "writing": "My dna explanation uses one and six differences, supplied milk traits and the shared node. Similar swimming shape alone does not establish close ancestry. Rotation changes display order; invented short DNA and unscaled branches limit real conclusions.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "tree",
+      "answerId": "tree",
+      "writing": "My tree explanation uses one and six differences, supplied milk traits and the shared node. Similar swimming shape alone does not establish close ancestry. Rotation changes display order; invented short DNA and unscaled branches limit real conclusions.",
+      "status": "not_graded"
+    }
+  ]
+}

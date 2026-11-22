@@ -1,0 +1,30 @@
+node.exe : [WebServer] (node:52068) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([WebServer] (no... env being set.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] 
+[WebServer] (!) Some chunks are larger than 500 kB after minification. Consider:
+[WebServer] - Using dynamic import() to code-split the application
+[WebServer] - Use build.rollupOptions.output.manualChunks to improve chunking: 
+https://rollupjs.org/configuration-options/#output-manualchunks
+[WebServer] - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[WebServer] (node:53240) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 7 tests using 1 worker
+
+(node:19096) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 tests\browser\biology-browser-contract.mjs:5:2 › fungal-structures: complete corrected attempt, truthful saves, named PDF/JSON/native print and edits (4.4s)
+  ok 2 tests\browser\biology-browser-contract.mjs:6:2 › fungal-structures: denied storage/retry, Unicode long writing and first offline PDF/native print (2.4s)
+  ok 3 tests\browser\biology-browser-contract.mjs:7:2 › fungal-structures: unfinished neutral PDF and export failure recovery (916ms)
+  ok 4 tests\browser\biology-browser-contract.mjs:8:2 › fungal-structures: root/development progress isolation and first offline development PDF (1.5s)
+  ok 5 tests\browser\fungal.spec.js:9:1 › fungal keyboard lens, mouse spore landing after resize, exact growth and pending edits (1.3s)
+  ok 6 tests\browser\fungal.spec.js:10:1 › fungal native touch lens drag-release, exact growth and bud tag on phone (1.8s)
+  ok 7 tests\browser\fungal.spec.js:11:1 › fungal current yeast edits clear stale completion and checks, view-only lens preserves saved work (2.0s)
+
+  7 passed (21.8s)

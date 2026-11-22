@@ -1,0 +1,9 @@
+complete.pdf: no missing/replacement glyphs; 0 complete source fragments retained across 3 pages (layout whitespace ignored).
+count-unconfirmed.pdf: no missing/replacement glyphs; 0 complete source fragments retained across 2 pages (layout whitespace ignored).
+development-draft.pdf: no missing/replacement glyphs; 0 complete source fragments retained across 2 pages (layout whitespace ignored).
+draft.pdf: no missing/replacement glyphs; 0 complete source fragments retained across 2 pages (layout whitespace ignored).
+edited-unconfirmed.pdf: no missing/replacement glyphs; 0 complete source fragments retained across 3 pages (layout whitespace ignored).
+long-native-print.pdf: no missing/replacement glyphs; 0 complete source fragments retained across 6 pages (layout whitespace ignored).
+long-offline.pdf: no missing/replacement glyphs; 0 complete source fragments retained across 7 pages (layout whitespace ignored).
+native-print.pdf: no missing/replacement glyphs; 0 complete source fragments retained across 3 pages (layout whitespace ignored).
+zero-recapture.pdf: no missing/replacement glyphs; 0 complete source fragments retained across 2 pages (layout whitespace ignored).

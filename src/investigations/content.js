@@ -2,17 +2,18 @@ import {learningDesign} from './learning-design.js';
 // Original lab content. The textbook links align concepts; simulated values are not textbook data.
 export const stages = ['Interphase','Prophase','Metaphase','Anaphase','Telophase'];
 export const stageClues = [
-  'Intact nucleus with diffuse chromatin; no separate condensed chromosomes.',
-  'Condensed chromosomes are visible but are not aligned at the middle. This lab groups prometaphase with prophase.',
-  'Condensed chromosomes line up across the middle of the cell.',
-  'Separated daughter chromosomes move toward opposite ends of the cell.',
-  'Two new nuclei form; a developing cell plate may divide the plant cell.',
+ "A whole nucleus is visible. Its DNA looks spread out. DNA and its packaging proteins are called chromatin.",
+ "Chromosomes become short and thick. They are scattered in the cell. This category includes prometaphase, when the nucleus opens and chromosomes attach to spindle fibers.",
+ "The chromosomes line up across the middle of the cell.",
+ "The copied chromosomes separate and move toward opposite ends.",
+ "Two new nuclei form. A cell plate begins growing between them. The plate helps divide the plant cell."
 ];
 export const investigations = {
  'light-photosynthesis': {
   id:'light-photosynthesis',title:'Light and Photosynthesis',chapter:8,kind:'leaf',duration:'45–60 minutes',
   question:'How does light level affect the time it takes leaf disks to float?',
-  overview:'Predict how infiltration and light conditions might affect the leaf disks. Then prepare your sample, adjust the lamp, and record your observations. For a controlled comparison, keep each trial at its assigned light level for 20 minutes; you can also change the lamp during a trial and examine the exploratory results.',
+  inlineLimit: "Flotation is evidence about gas buildup in the leaf. Respiration and sample preparation also affect it. Keep an unreached ET50 as “not reached,” and compare the three fresh cups.",
+  overview: "Predict how light and sample preparation could affect leaf disks. Prepare fresh cups and record the disks that float. Keep the assigned light level fixed for each 20-minute trial. After the comparison, you can explore changes in light.",
   conditions:[{id:'dark',label:'Dark control',detail:'0% relative light'},{id:'low',label:'Low light',detail:'25% relative light'},{id:'bright',label:'Bright light',detail:'100% relative light'}],
   interval:2,end:20,yLabel:'Floating disks (of 10)',max:10,
   constants:'10 same-sized disks, same leaf type, 0.2% sodium bicarbonate solution with a trace of detergent, solution depth, and temperature. Only light level changes.',
@@ -25,13 +26,13 @@ export const investigations = {
    'Repeat with new disks for trials 2 and 3. Independent cups, rather than individual disks in a shared cup, are the experimental replicates. Pool independent trials from class groups for a single-period lab; sequential repeats require additional time.',
   ],
   safety:'Use a needle-free syringe and a cool LED light. Keep electrical equipment dry. Do not taste solutions. Teacher supervision is needed for hole punches and glassware.',
-  model:'The interactive assay tracks an illustrative gas balance: light-driven production, continuing respiration, and gas loss. Rates, three preparation cycles, and disk variation are teaching assumptions, not calibrated predictions for a real leaf or lamp. Temperature and bicarbonate remain fixed. Guided trials require preparation and the assigned fixed light level. After all nine trials, separate exploration permits changing light intensity without replacing comparison data.',
-  interpretation:'ET50 is the interpolated time when 5 of 10 disks float. Lower ET50 suggests faster net oxygen accumulation under matched conditions. If five disks never float, report “not reached within 20 minutes”; do not treat that as a zero rate.',
-  questions:[
-   'Which light condition had the shortest ET50? Support your claim with values from at least two treatments and discuss variation between trials.',
-   'Why are the dark control and matched leaf preparation necessary?',
-   'Explain how oxygen accumulation makes disks float and why this is an indirect measure of net activity, not a direct measurement of sugar production.',
-   'Identify one limitation or source of uncertainty and propose an improved investigation.',
+  model: "This model follows oxygen production, oxygen use during respiration, and gas loss. The rates and three syringe cycles are teaching choices. Real leaves can behave differently. Temperature and bicarbonate stay fixed. Compare three fresh cups at each assigned light level. After all nine cups, exploration lets you change the lamp with a separate sample.",
+  interpretation: "ET50 is the estimated time when 5 of the 10 disks float. If that point falls between readings, estimate between those times. A shorter ET50 suggests faster net oxygen buildup under matched conditions. Net means the overall change after oxygen production and use. Record an unreached threshold as “not reached within 20 minutes.”",
+  questions: [
+   "Which light condition had the shortest ET50? Use at least two treatments and compare the differences among their trials.",
+   "What does the dark control test? Why should leaf preparation be matched across cups?",
+   "Explain how oxygen buildup helps disks float. What other evidence would you need to measure sugar production directly?",
+   "Describe one source of uncertainty. How would you improve the investigation?"
   ],
   teacherNotes:[
    'Virtual expectation: bright light generally reaches ET50 sooner than low light; darkness normally does not reach it during this model run. Exact times vary. Do not grade classroom results against the simulation.',
@@ -43,7 +44,8 @@ export const investigations = {
  'yeast-fermentation': {
   id:'yeast-fermentation',title:'Yeast Fermentation and Fuel Sources',chapter:7,kind:'yeast',duration:'45–60 minutes',
   question:'How does the available sugar affect gas accumulation in a yeast culture?',
-  overview:'Prepare fresh mixtures with no added sugar, glucose, and sucrose. Connect each flask to a gas syringe, observe for 30 simulated minutes, and collect three trials per treatment. Then explore temperature or a no-yeast control separately. Compare average gas accumulation rates over the same time interval.',
+  inlineLimit: "Gas collection is an indirect sign of yeast activity. A no-yeast control can help check background gas and heat effects. Keep classroom collector units and the virtual model results labeled.",
+  overview: "Prepare fresh mixtures with no added sugar, glucose, and sucrose. Connect each flask to a gas syringe. Observe for 30 simulated minutes. Use three fresh mixtures per treatment to compare the spread of the results.",
   conditions:[{id:'none',label:'No added sugar',detail:'Water control'},{id:'glucose',label:'Glucose',detail:'2 g / 50 mL final mixture'},{id:'sucrose',label:'Sucrose',detail:'2 g / 50 mL final mixture'}],
   interval:5,end:30,yLabel:'Collected gas (mL)',max:100,
   constants:'Virtual model: 0.5 g baker’s yeast, 50 mL final mixture, 30 °C water bath, identical gas collection apparatus, 30-minute observation. Sugar treatments have equal mass concentration, not equal molarity.',
@@ -57,13 +59,13 @@ export const investigations = {
 
   ],
   safety:'Use baker’s yeast only. Do not taste cultures. Never seal gas production in a rigid closed container or block the syringe plunger. Stop before apparatus capacity is reached. Teacher checks glassware and warm-water handling.',
-  model:'Volumes are illustrative, with a lag, gradual startup, and trial variation. Revised kinetics illustrate substrate availability; the minute-scale parameters are not fitted to experimental data. Saved older investigations retain their earlier kinetics. The virtual water bath changes gradually; temperature effects from 15 to 40 °C are simplified and omit thermal gas expansion, yeast damage, and substrate depletion. Glucose and sucrose responses overlap; their ranking is not universal. The water control can show small background gas. The model does not establish anaerobic conditions or identify collected gas chemically.',
-  interpretation:'Average gas accumulation rate = (final volume − initial volume) / elapsed minutes. Gas from yeast is consistent with CO₂ production, but volume alone does not prove fermentation rather than aerobic metabolism or directly measure ATP yield.',
-  questions:[
-   'Compare the mean gas accumulation rates for the three treatments. Use numerical evidence and discuss overlap between trials.',
-   'Why include yeast with no added sugar? What additional control would help separate yeast activity from physical gas expansion?',
-   'Explain how fermentation supports continued glycolysis. Why can gas volume alone not establish the amount of ATP made or prove oxygen was absent?',
-   'Identify one limitation of equal-mass sugar comparisons or gas collection, and propose a better experiment.',
+  model: "The gas volumes are teaching examples. The model includes a slow start and variation between trials. Both sugars can support yeast activity. Their order can vary. The water bath changes temperature gradually. Real gas readings can also change because of heat, leaks, yeast damage, or changing sugar levels. Earlier saved attempts keep their recorded model values.",
+  interpretation: "Average gas collection rate is final volume minus starting volume, divided by elapsed minutes. Gas supports an explanation about yeast activity. Identifying the gas, measuring oxygen, or measuring ATP needs other tests. ATP is a molecule cells use to transfer energy.",
+  questions: [
+   "Compare average gas collection rates for the three treatments. Use values and describe any overlap between trials.",
+   "What does the no-added-sugar control test? How could a no-yeast control help check gas expansion or background effects?",
+   "Fermentation recycles NAD+, a helper molecule needed for glycolysis. Glycolysis releases energy from sugar. Explain why gas volume alone gives limited evidence about ATP production or oxygen use.",
+   "Equal sugar masses contain different numbers of sugar molecules. Explain one limit of this comparison or the gas collector. Propose a better test."
   ],
   teacherNotes:[
    'Virtual expectation: both sugar treatments accumulate more gas than the no-added-sugar control. Glucose and sucrose may exchange rank across trials. Encourage evidence-based comparison rather than a fixed “winning sugar.”',
@@ -75,7 +77,8 @@ export const investigations = {
  'mitosis': {
   id:'mitosis',title:'Measuring Mitosis',chapter:10,kind:'mitosis',duration:'40–55 minutes',
   question:'What can a snapshot of dividing cells tell us about the cell cycle?',
-  overview:'Load the prepared slide, adjust illumination and focus, and inspect cells at higher power. Classify and collect Field A, then Field B, before exploring microscope controls and cycle-duration assumptions separately. Use stage frequencies to estimate time in each stage under an explicitly assumed cycle duration.',
+  inlineLimit: "These are drawn cells with clear chromosome features. Count all cells in both fields. Stage times use an assumed cycle length. The sample gives a snapshot of the cells.",
+  overview: "Load the prepared slide, set the light, and focus. Classify every cell in Field A, then Field B. Use the counts to estimate stage percentages. Later, explore how an assumed cycle length changes the estimated time in each stage.",
   conditions:[{id:'field-a',label:'Field A',detail:'20 schematic cells'},{id:'field-b',label:'Field B',detail:'20 schematic cells'}],
   constants:'Use the same scoring definitions and count every cell in each selected field. Group prometaphase with prophase; count telophase/cytokinesis as one event until daughter cells are separated.',
   materials:['Prepared onion root-tip slides, microscope, stage tally sheet','Alternatively: the app’s two schematic fields, with no equipment needed','Calculator; teacher-selected cycle duration (24 hours is an assumption, not a measured value)'],
@@ -87,13 +90,13 @@ export const investigations = {
    'Calculate each stage count / total count × 100. Multiply that fraction by the assumed cycle duration. Explain the assumptions needed to turn a snapshot into a time estimate.',
   ],
   safety:'Use prepared slides only. Carry microscopes with two hands and handle slide edges carefully. The classroom route does not require stains, acids, or cutting root tips.',
-  model:'The virtual fields are original teaching diagrams, not microscope photographs or measured samples. Each contains 20 cells. The revised model makes interphase dominant and allows a rare stage to be absent from one small field. Published onion-root mitotic indices vary with growth conditions, treatment and sampling; these curated counts are not a universal expected ratio or a fitted experimental dataset. A zero count does not mean a stage never occurs.',
-  interpretation:'Estimated stage time = stage count / total count × assumed cycle duration. This assumes representative sampling of an asynchronous, steadily cycling population with comparable cycle lengths. Non-cycling cells, sampling bias, and differential cell loss can invalidate the estimate.',
-  questions:[
-   'Which stage is most common? Give its count, percentage, and estimated duration, and distinguish observation from inference.',
-   'Describe the chromosome evidence you used to distinguish metaphase from anaphase. Why does interphase count even though it is not mitosis?',
-   'What assumptions are required to infer time from stage frequency? Explain why 24 hours is not a measured onion cell-cycle duration here.',
-   'Compare the two fields and identify one sampling limitation. Explain how you would improve the count.',
+  model: "Each drawn field contains 20 cells. Most are in interphase, when a cell grows and copies DNA before division. A rare stage can be absent from one small field. Real root samples vary with growing conditions and treatment. Use these drawings to practice classification. The 24-hour cycle is an assumption used for the time calculation.",
+  interpretation: "Estimated stage time equals stage count divided by total count, then multiplied by the assumed cycle length. The estimate treats the sample as a fair mix of cells at different points in a steady cycle. A poor sample or non-dividing cells can affect that estimate.",
+  questions: [
+   "Which stage is most common? Give its count, percentage, and estimated time. Which values come from observations, and which are calculated?",
+   "What chromosome features distinguish metaphase from anaphase? Explain why interphase cells belong in the total count.",
+   "How does the assumed cycle length affect the time estimates? What other evidence would you need to measure an onion cell's cycle length?",
+   "Compare the two fields. Describe one sampling limit and one way to improve the sample."
   ],
   teacherNotes:[
    'The schematic fields together contain 35 interphase, 2 prophase, 1 metaphase, 1 anaphase, and 1 telophase cells (40 total). Order is shuffled per attempt. Review feedback appears only after all cells in a virtual field are classified.',

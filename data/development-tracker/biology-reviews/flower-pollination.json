@@ -1,0 +1,334 @@
+{
+  "schemaVersion": 1,
+  "labId": "flower-pollination",
+  "taskId": "BIO-18-REVIEW",
+  "reviewedBy": "Codex - separate development review",
+  "reviewedOn": "2026-11-15",
+  "sourceSnapshot": "sha256:faef7c7c13755b057aac83a040a0378ee4ba504140de3ab5aaf4539435124085",
+  "checks": {
+    "G01": {
+      "status": "pass",
+      "notes": "Three goals connect five reproductive landmarks/transfer distinction, tube and two-fusion chromosome reasoning, and maternal versus fusion-derived tissue origins to observable proposals and original explanations.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/build-brief.md",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/complete-responses.json"
+      ]
+    },
+    "G02": {
+      "status": "pass",
+      "notes": "One supplied no-pollen recipient versus one matched compatible-pollen recipient, plus a donor and one focused ovule. No default triple transfers, independent-sample or real success-rate claim; supplied preparation streamlined.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/build-brief.md",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/reference-recipient.png",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/review-notes.md"
+      ]
+    },
+    "G03": {
+      "status": "pass",
+      "notes": "OpenStax32.1/32.2, UMN14.1, UF IFAS and OSU reproductive text checked; Dresselhaus2016 abstract/introduction/caption read for nonmotile transport/synergid guidance. Corrected for misleading general-source wording about ovule wall/embryo-sac cell counts. Typical2n/initial3n and maternal origins stated conditionally.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/model-tests.txt"
+      ]
+    },
+    "G04": {
+      "status": "pass",
+      "notes": "Generalized enlarged original anatomy, provided mature compatible cells/handling/reference, one selected tube/ovule, untimed reveal marker, omitted tube nucleus/signals, per-nucleus chromosome sets and variable endosperm/fruit/asexual processes explicit. No physical protocol.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/review-notes.md"
+      ]
+    },
+    "G05": {
+      "status": "pass",
+      "notes": "Students place structure names at actual leader sites, load brush at donor and deposit pollen, interpret the gated checkpoint, reveal growth at moving tip, assign interchangeable sperm/count sets and place four tissue-origin cards. Each action supports a distinct concept.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/transfer-after.png",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/tube-middle.png",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/fusion-after.png",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/seed-after.png"
+      ]
+    },
+    "G06": {
+      "status": "pass",
+      "notes": "Actual initial/petal/stigma/reference, tube start/middle/end, fusion before/after and early seed states inspected. Added petal/ovary shading; resized final sperm symbols to fit channel. Ring follows actual rendered tip; maternal covering gap/micropyle and receiving synergid route checked. Phone/tablet sites align.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/visual-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/visual-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/visual-contact-3.png",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/phone-anatomy.png",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/phone-fusion-before.png",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/phone-seed-diagram.png",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/tablet-tube-middle.png"
+      ]
+    },
+    "G07": {
+      "status": "pass",
+      "notes": "Seeded stable banks; either spermA/B can take either partner, once each. Same-sperm double assignment retained unconfirmed. Scientifically required anatomical/time relationships preserved, no answer from fixed sperm order.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/duplicate-proposal.pdf"
+      ]
+    },
+    "G08": {
+      "status": "pass",
+      "notes": "Full authored UI, dynamic feedback/labels, reports and handouts read. Anther/stigma/style/ovary/ovule, embryo sac, viable/compatible/receptive, micropyle/synergid, zygote/endosperm/maternal and chromosome-set labels explained. Diagnostic grade8.4/10.7 words per sentence only.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/reading-screen.json",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/review-notes.md"
+      ]
+    },
+    "G09": {
+      "status": "pass",
+      "notes": "First prediction/controls before observation; confirmed anatomy before transfer; loaded brush before deposit; explicit required correct pollination checkpoint before next-step button; both growth snapshots before ovule; valid two-fusion proposal before tissues, current tissue checks before completion.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/checkpoint-unconfirmed.pdf"
+      ]
+    },
+    "G10": {
+      "status": "pass",
+      "notes": "Explicit Correct!/Try again includes location, transfer-versus-fusion, distinct sperm/counts and tissue-origin explanation. Current wrong/empty anatomy/proposals/fates persist unconfirmed across reload/export, with useful petal/checkpoint/concept revisions.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/anatomy-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/checkpoint-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/fusion-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/duplicate-proposal.pdf",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/fate-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/edited-unconfirmed.pdf"
+      ]
+    },
+    "G11": {
+      "status": "pass",
+      "notes": "Actual successful/repeated/reloaded save, denied-write retry and identity versus academic edits verified. Confirmation reflects device-local storage, not grade or submission.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/final-browser-tests.txt"
+      ]
+    },
+    "G12": {
+      "status": "pass",
+      "notes": "Versioned root-scoped attempts preserve first reasoning, locations, transfers/checkpoint, tube phase, proposals/counts, fates and original writing. View-only reference/review preserves evidence/completion; edits clear current/dependent confirmations without deleting history.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/anatomy-edited.pdf",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/fate-edited.pdf"
+      ]
+    },
+    "G13": {
+      "status": "pass",
+      "notes": "Actual named/unnamed complete/draft PDF download and native print retain optional identity/period, safe filenames, readable local date/time/PST and truthful unfinished status.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/draft.pdf",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/native-print.pdf"
+      ]
+    },
+    "G14": {
+      "status": "pass",
+      "notes": "Report groups actual locations/transfer corrections/checkpoint, explanatory tube evidence, current two-fusion proposals/sets, early origins, original goal writing and limitations. Supplied reference/cells distinguished from independent observations; no click log or grade claim.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/duplicate-proposal.pdf"
+      ]
+    },
+    "G15": {
+      "status": "pass",
+      "notes": "All62 current pages inspected through eight sheets: worksheet3/teacher2, normal completed/native/edited4, other drafts/unconfirmed3, long offline8/native7. Worksheet checkpoint moved to process section without duplication; statuses grouped, tables/units/source distinctions and Unicode/final markers retained. Shared snapshot/offline/recovery pass.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/pdf-inspection.json",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/pdf-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/pdf-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/pdf-contact-3.png",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/pdf-contact-4.png",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/pdf-contact-5.png",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/pdf-contact-6.png",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/pdf-contact-7.png",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/pdf-contact-8.png",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.md",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.md"
+      ]
+    },
+    "G16": {
+      "status": "pass",
+      "notes": "Native brush drag-release-nextphysical taps, actual mouse marker and keyboard placements, geometric rendered-tip alignment after phone/tablet resize/scroll,44px target sizes and no overflow verified. Equivalent text/cell counts available; physical-device/AT acceptance pending.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/phone-tube-start.png",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/tablet-tube-middle.png",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/phone-fusion-before.png",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/phone-seed-diagram.png",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.json",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.md",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-native-focus-regressions.txt"
+      ]
+    },
+    "G17": {
+      "status": "pass",
+      "notes": "Initial100 selected model/report regressions passed; six focused cases and all seven actual browser workflows pass after review corrections. 75 current resource PDFs and standalone/private-platform builds verified locally.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/initial-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/standalone-build.txt",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/platform-build.txt"
+      ]
+    },
+    "G18": {
+      "status": "pass",
+      "notes": "Stable landmark/partner/product/fate/check/goal IDs and English version/locale retained; original student writing preserved. Native reviewed app/print translation remains AUD-10 with no Spanish-readiness claim.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/review-notes.md"
+      ]
+    },
+    "RESOURCES": {
+      "status": "pass",
+      "notes": "Worksheet3/teacher2 include required checkpoint at its correct point, actual current prompts, source/model limits and tissue/fusion table. Every current page/prompt/hash verified; Python build-time only.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/pdf-contact-1.png"
+      ]
+    },
+    "ACCESS": {
+      "status": "pass",
+      "notes": "Guest/free full lab and reports/offline exports work without sign-in. Existing account/paid/staff/publication policies preserved; private34-lab runtime compiled without deployment.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/platform-build.txt"
+      ]
+    },
+    "TRACKING": {
+      "status": "pass",
+      "notes": "Actual available English implementation/resources and stable plant-structure-function route updated; curriculum/tracker validated/regenerated. Standards and Spanish approvals unchanged; shared copy refreshed after individual review acceptance.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/build-brief.md",
+        "data/development-tracker/biology-reviews/evidence/flower-pollination/review-notes.md"
+      ]
+    }
+  },
+  "artifacts": {
+    "workflow": [
+      "data/development-tracker/biology-reviews/evidence/flower-pollination/build-brief.md",
+      "data/development-tracker/biology-reviews/evidence/flower-pollination/review-notes.md",
+      "data/development-tracker/biology-reviews/evidence/flower-pollination/reading-screen.json",
+      "data/development-tracker/biology-reviews/evidence/flower-pollination/complete-responses.json",
+      "data/development-tracker/biology-reviews/evidence/flower-pollination/source-manifest.json"
+    ],
+    "visuals": [
+      "data/development-tracker/biology-reviews/evidence/flower-pollination/visual-contact-1.png",
+      "data/development-tracker/biology-reviews/evidence/flower-pollination/visual-contact-2.png",
+      "data/development-tracker/biology-reviews/evidence/flower-pollination/visual-contact-3.png",
+      "data/development-tracker/biology-reviews/evidence/flower-pollination/phone-anatomy.png",
+      "data/development-tracker/biology-reviews/evidence/flower-pollination/phone-fusion-before.png",
+      "data/development-tracker/biology-reviews/evidence/flower-pollination/phone-seed-diagram.png",
+      "data/development-tracker/biology-reviews/evidence/flower-pollination/tablet-tube-middle.png",
+      "data/development-tracker/biology-reviews/evidence/flower-pollination/phone-tube-start.png",
+      "data/development-tracker/biology-reviews/evidence/flower-pollination/phone-seed-diagram.png",
+      "data/development-tracker/biology-reviews/evidence/flower-pollination/reference-recipient.png"
+    ],
+    "pdfReports": [
+      "data/development-tracker/biology-reviews/evidence/flower-pollination/complete.pdf",
+      "data/development-tracker/biology-reviews/evidence/flower-pollination/draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/flower-pollination/development-draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/flower-pollination/anatomy-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/flower-pollination/checkpoint-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/flower-pollination/fusion-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/flower-pollination/duplicate-proposal.pdf",
+      "data/development-tracker/biology-reviews/evidence/flower-pollination/fate-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/flower-pollination/edited-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/flower-pollination/anatomy-edited.pdf",
+      "data/development-tracker/biology-reviews/evidence/flower-pollination/fate-edited.pdf",
+      "data/development-tracker/biology-reviews/evidence/flower-pollination/long-offline.pdf",
+      "data/development-tracker/biology-reviews/evidence/flower-pollination/pdf-inspection.json"
+    ],
+    "nativePrint": [
+      "data/development-tracker/biology-reviews/evidence/flower-pollination/native-print.pdf",
+      "data/development-tracker/biology-reviews/evidence/flower-pollination/long-native-print.pdf"
+    ],
+    "tests": [
+      "data/development-tracker/biology-reviews/evidence/flower-pollination/model-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/flower-pollination/final-model-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/flower-pollination/initial-browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/flower-pollination/final-browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/flower-pollination/resource-check.txt",
+      "data/development-tracker/biology-reviews/evidence/flower-pollination/standalone-build.txt",
+      "data/development-tracker/biology-reviews/evidence/flower-pollination/platform-build.txt"
+    ],
+    "resources": [
+      "public/resources/flower-pollination-worksheet.pdf",
+      "public/resources/flower-pollination-teacher-guide.pdf"
+    ]
+  },
+  "externalValidation": {
+    "teacherStudentComprehension": {
+      "status": "pending",
+      "notes": "Not performed; development checks do not establish classroom comprehension."
+    },
+    "physicalDevices": {
+      "status": "pending",
+      "notes": "Emulation is not physical-device or assistive-technology acceptance."
+    },
+    "classroomProtocol": {
+      "status": "not-applicable",
+      "notes": "Virtual-only activity; no physical protocol supplied."
+    }
+  },
+  "history": [
+    {
+      "date": "2026-11-15T15:47:06.679Z",
+      "decision": "changes-required",
+      "notes": "Separate visual/report review after100 initial selected checks and7 browser passes found oversized final sperm symbols and an avoidable worksheet source-only tail. Also clarified transfer-review timing and improved flower shading/phone evidence."
+    },
+    {
+      "date": "2026-11-15T15:48:57.710Z",
+      "decision": "changes-required",
+      "notes": "Improved supplied no-pollen contrast from text-only to a selectable matched-recipient illustration. View-only navigation preserves evidence and cannot deliver pollen to reference; added actual comparison checks/captures. Clarified one grain is selected for the tube view."
+    }
+  ],
+  "decision": "pass",
+  "summary": "Development review passed after improving tube sperm geometry, visual reference comparison, snapshot language and worksheet checkpoint placement. Pollination, two different fusions and maternal tissue origins verified with explicit model limits; external classroom/device/translation/release acceptance remains separate.",
+  "blockers": [],
+  "followups": [
+    {
+      "id": "shared-touch-focus-2026-11-15",
+      "reviewedOn": "2026-11-15",
+      "reviewedBy": "Codex - shared interaction follow-up",
+      "decision": "pass",
+      "summary": "Pending native compatibility mousedown no longer steals newly assigned focus. Existing deliberate next-tap/mouse/keyboard behavior verified in39 selected browser cases; original lab review snapshot retained.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.json",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.md",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-native-focus-regressions.txt"
+      ]
+    },
+    {
+      "id": "shared-response-pagination-2026-11-15",
+      "recordedAt": "2026-11-15T17:05:24.807Z",
+      "scope": "Shared PDF question/answer page-break guard; original review remains its point-in-time snapshot. Representative current starch, stored heat/fungal and legacy enzyme reports checked; not a full rerun of this lab.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.md",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.json",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/pagination-corrected.txt",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-model-tests.txt"
+      ]
+    },
+    {
+      "id": "shared-scientific-symbols-2026-11-15",
+      "recordedAt": "2026-11-15T18:31:00.210Z",
+      "scope": "Shared offline scientific-symbol glyph fallback only; original source snapshot/history unchanged. Representative new/old outputs and legacy wrappers validated, not full rerun of this lab.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.md",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.json",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/glyph-all-artifacts.txt"
+      ]
+    }
+  ]
+}

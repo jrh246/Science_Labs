@@ -1,0 +1,356 @@
+{
+  "schemaVersion": 1,
+  "labId": "genetic-drift",
+  "taskId": "BIO-05-REVIEW",
+  "reviewedBy": "Codex - separate development review",
+  "reviewedOn": "2026-11-15",
+  "sourceSnapshot": "sha256:8deab555b20bf6a09d7e58c16562da628a203110f047a3cce60c64cc7e03ea87",
+  "decision": "pass",
+  "summary": "English virtual-only development review passed after non-color chart labels, exact source-count/held-tool artwork, response/status grouping and vocabulary clarification. Unexpected outcomes retained; external acceptance and translations separate.",
+  "blockers": [],
+  "checks": {
+    "G01": {
+      "status": "pass",
+      "notes": "Three goals have evidence in guided sampling, actual independent range/weighted percentage interpretations, checks and original explanations; completion does not grade understanding.",
+      "evidence": [
+        "src/investigations/drift-content.js",
+        "src/investigations/drift-report.js",
+        "data/development-tracker/biology-reviews/evidence/genetic-drift/complete-responses.json"
+      ]
+    },
+    "G02": {
+      "status": "pass",
+      "notes": "Three independent lineages per size are justified by variation; related generations and gene-copy draws are distinguished from replicates. Three initial small/one large guided draws demonstrate replacement before explicitly model-provided remainder.",
+      "evidence": [
+        "src/investigations/drift-content.js",
+        "data/development-tracker/biology-reviews/evidence/genetic-drift/review-notes.md"
+      ]
+    },
+    "G03": {
+      "status": "pass",
+      "notes": "NHGRI, Nature Education mathematics and OpenStax cross-check support the model. Independent binomial samples use prior-generation p, 2N copies, absorbing loss/fixation. A 2:1 gametic contribution rule is an abstract advantage, not genotype fitness/dominance. Unexpected outcomes are not forced.",
+      "evidence": [
+        "src/investigations/drift-model.js",
+        "tests/drift.test.js",
+        "https://www.genome.gov/genetics-glossary/Genetic-Drift",
+        "https://www.nature.com/scitable/topicpage/genetic-drift-and-effective-population-size-772523/"
+      ]
+    },
+    "G04": {
+      "status": "pass",
+      "notes": "Symbolic bead scale, replacement, no physical gamete reuse, fixed size, omitted pairing/mutation/migration, effective vs census size, three-line limits and abstract selection are stated near evidence and in reports/resources.",
+      "evidence": [
+        "src/investigations/drift-content.js",
+        "data/development-tracker/biology-reviews/evidence/genetic-drift/complete.pdf"
+      ]
+    },
+    "G05": {
+      "status": "pass",
+      "notes": "Students scoop a random copy at the source and place it in a new jar; the loaded tool and new pool change visibly. They place a contribution rule, calculate actual ranges/percentages and assess finite-population uncertainty.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/genetic-drift/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/genetic-drift/held-sampler.png",
+        "data/development-tracker/biology-reviews/evidence/genetic-drift/selected-complete.png"
+      ]
+    },
+    "G06": {
+      "status": "pass",
+      "notes": "Inspected initial, held/partial/complete and selected jars plus all relevant desktop/phone/tablet states. Exact 2N source counts, shaded glass/beads, loaded sampler and shared hit geometry are consistent. Non-color line styles/labels and exact tables resolve chart identity.",
+      "evidence": [
+        "src/investigations/drift-art.js",
+        "data/development-tracker/biology-reviews/evidence/genetic-drift/small-initial.png",
+        "data/development-tracker/biology-reviews/evidence/genetic-drift/large-complete.png",
+        "data/development-tracker/biology-reviews/evidence/genetic-drift/ensemble-recorded.png",
+        "data/development-tracker/biology-reviews/evidence/genetic-drift/phone-variation.png"
+      ]
+    },
+    "G07": {
+      "status": "pass",
+      "notes": "Seeded independent streams and stable choice shuffles survive correction/reload. Colors/letter case do not mean advantage or dominance; scientific counts/generation order are retained.",
+      "evidence": [
+        "src/investigations/drift-model.js",
+        "data/development-tracker/biology-reviews/evidence/genetic-drift/model-tests.txt"
+      ]
+    },
+    "G08": {
+      "status": "pass",
+      "notes": "Full authored English pathway/resources/reports manually reviewed. Remaining vocabulary defined and unnecessary genotype jargon removed. Retained heuristic reading screen covers core text only; comprehension remains pending.",
+      "evidence": [
+        "src/investigations/drift-content.js",
+        "data/development-tracker/biology-reviews/evidence/genetic-drift/reading-screen.json",
+        "data/development-tracker/biology-reviews/evidence/genetic-drift/review-notes.md"
+      ]
+    },
+    "G09": {
+      "status": "pass",
+      "notes": "Explicit required prediction/design gate all draws. First plan/timing retained. Both population demos and checked actual ranges gate the weighted comparison; rule placement gates selected sampling. Any reasoned prediction is accepted.",
+      "evidence": [
+        "tests/drift.test.js",
+        "data/development-tracker/biology-reviews/evidence/genetic-drift/browser-tests.txt"
+      ]
+    },
+    "G10": {
+      "status": "pass",
+      "notes": "Explicit Correct!/Try again with usable local feedback. Wrong/current work retained; edits clear stale confirmations and block progression. Real prior errors support correction summaries; repeated correct checks do not invent corrections. BIO-07 shared touch follow-up: suppress the pending native compatibility click across replacement DOM, reset on the next physical pointerdown. All six earlier lab browser files passed in the 50-check group; its only failure was a new singular/plural assertion typo, corrected in the focused 2/2 exact-tap rerun. Verify one increment/toggle/rotation and preserve the next deliberate tap. Science and saved observations unchanged; original acceptance snapshots retained.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/genetic-drift/unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/genetic-drift/focus-review-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/genetic-drift/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-exact-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-regression-initial.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-followup-manifest.json"
+      ]
+    },
+    "G11": {
+      "status": "pass",
+      "notes": "Successful writes alone show saved completion beside the button. Repeat save, denied write/retry, reload, identity updates and academic invalidation verified.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/genetic-drift/browser-tests.txt",
+        "src/investigations/completion-status.js"
+      ]
+    },
+    "G12": {
+      "status": "pass",
+      "notes": "New root-scoped v1 key preserves valid partial held allele, seed, manual/automatic sources, exact lineages, corrections and writing. Root/development caches and attempts isolated; other labs unchanged.",
+      "evidence": [
+        "src/investigations/drift-model.js",
+        "data/development-tracker/biology-reviews/evidence/genetic-drift/browser-tests.txt"
+      ]
+    },
+    "G13": {
+      "status": "pass",
+      "notes": "Actual named completed/neutral draft PDF download and native print preserve optional identity, safe filename, readable time/zone and appropriate work status.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/genetic-drift/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/genetic-drift/draft.pdf",
+        "data/development-tracker/biology-reviews/evidence/genetic-drift/native-print.pdf"
+      ]
+    },
+    "G14": {
+      "status": "pass",
+      "notes": "Learning report retains first plan, exact source-labeled samples/lineages, actual current interpretations including unconfirmed errors, meaningful corrections, concept selections and original goal-linked writing. Structured history retained without click-log reports or grading claims.",
+      "evidence": [
+        "src/investigations/drift-report.js",
+        "data/development-tracker/biology-reviews/evidence/genetic-drift/unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/genetic-drift/complete-responses.json"
+      ]
+    },
+    "G15": {
+      "status": "pass",
+      "notes": "All 34 final report/resource pages rendered and inspected; full Unicode/long final marker and named/time evidence retained. Response/status grouping fixes the observed orphan. PDF/print snapshots agree; first offline PDF and failure recovery tested.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/genetic-drift/pdf-inspection.json",
+        "data/development-tracker/biology-reviews/evidence/genetic-drift/pdf-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/genetic-drift/pdf-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/genetic-drift/pdf-contact-3.png",
+        "data/development-tracker/biology-reviews/evidence/genetic-drift/pdf-contact-4.png",
+        "data/development-tracker/biology-reviews/evidence/genetic-drift/pdf-contact-5.png",
+        "data/development-tracker/biology-reviews/evidence/genetic-drift/long-offline.pdf",
+        "data/development-tracker/biology-reviews/evidence/genetic-drift/long-native-print.pdf",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.md",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.md"
+      ]
+    },
+    "G16": {
+      "status": "pass",
+      "notes": "Actual mouse/native touch draw-release-deposit, keyboard/select-place/focus, wrong placement, held-copy reload, scroll/resize, reduced motion and phone/tablet/desktop checked. Exact tables and line styles supplement color. Physical device/AT certification remains pending. BIO-07 shared touch follow-up: suppress the pending native compatibility click across replacement DOM, reset on the next physical pointerdown. All six earlier lab browser files passed in the 50-check group; its only failure was a new singular/plural assertion typo, corrected in the focused 2/2 exact-tap rerun. Verify one increment/toggle/rotation and preserve the next deliberate tap. Science and saved observations unchanged; original acceptance snapshots retained.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/genetic-drift/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/genetic-drift/focus-review-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/genetic-drift/tablet-sampling.png",
+        "data/development-tracker/biology-reviews/evidence/genetic-drift/phone-large-pool.png",
+        "data/development-tracker/biology-reviews/evidence/genetic-drift/phone-variation.png",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-exact-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-regression-initial.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-followup-manifest.json",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.json",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.md",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-native-focus-regressions.txt"
+      ]
+    },
+    "G17": {
+      "status": "pass",
+      "notes": "126 model/report tests passed, including distribution/absorbing-state/unexpected-outcome checks. Six final lab browser workflows, six initial catalog regressions and a focused mouse/keyboard case pass. All 49 resources verified; standalone/platform builds compile; findings/fixes retained. BIO-07 shared touch follow-up: suppress the pending native compatibility click across replacement DOM, reset on the next physical pointerdown. All six earlier lab browser files passed in the 50-check group; its only failure was a new singular/plural assertion typo, corrected in the focused 2/2 exact-tap rerun. Verify one increment/toggle/rotation and preserve the next deliberate tap. Science and saved observations unchanged; original acceptance snapshots retained.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/genetic-drift/model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/genetic-drift/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/genetic-drift/initial-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/genetic-drift/focus-review-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/genetic-drift/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/genetic-drift/platform-build.txt",
+        "data/development-tracker/biology-reviews/evidence/genetic-drift/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-exact-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-regression-initial.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-followup-manifest.json"
+      ]
+    },
+    "G18": {
+      "status": "pass",
+      "notes": "English content and stable IDs/locale/version/original student writing retained. Remaining UI/diagram strings await extraction and reviewed translations under AUD-10; no native language switching or Spanish print claim.",
+      "evidence": [
+        "src/investigations/drift-content.js",
+        "src/investigations/drift-report.js",
+        "data/development-tracker/biology-reviews/evidence/genetic-drift/review-notes.md"
+      ]
+    },
+    "RESOURCES": {
+      "status": "pass",
+      "notes": "Current content generates a matching three-page student worksheet and two-page teacher guide with evidence tables, limits, report directions and Unicode fonts. All final pages and prompt/link/hash parity checked. Virtual only.",
+      "evidence": [
+        "scripts/build-biology-resources.py",
+        "public/resources/genetic-drift-worksheet.pdf",
+        "public/resources/genetic-drift-teacher-guide.pdf",
+        "data/development-tracker/biology-reviews/evidence/genetic-drift/resource-check.txt"
+      ]
+    },
+    "ACCESS": {
+      "status": "pass",
+      "notes": "Guest/free access and PDF/print work without login. Existing platform private-worker/publication/entitlement policy unchanged; compiled runtime not published. BIO-01 40-test API evidence reused without claiming live classroom/billing/email deployment.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/genetic-drift/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/genetic-drift/platform-build.txt",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/platform-tests.txt"
+      ]
+    },
+    "TRACKING": {
+      "status": "pass",
+      "notes": "Actual available virtual-only catalog route/unit/lab IDs, English dataset activity and handouts updated and generated checks validated. Spanish/standards approvals unchanged; no full-course completion awarded. Shared project copy refreshed after acceptance.",
+      "evidence": [
+        "src/catalog.js",
+        "data/curriculum/dataset.json",
+        "data/development-tracker/activity-checklist.csv"
+      ]
+    }
+  },
+  "artifacts": {
+    "workflow": [
+      "data/development-tracker/biology-reviews/evidence/genetic-drift/review-notes.md",
+      "data/development-tracker/biology-reviews/evidence/genetic-drift/complete-responses.json",
+      "data/development-tracker/biology-reviews/evidence/genetic-drift/source-manifest.json",
+      "data/development-tracker/biology-reviews/evidence/genetic-drift/reading-screen.json"
+    ],
+    "visuals": [
+      "data/development-tracker/biology-reviews/evidence/genetic-drift/small-initial.png",
+      "data/development-tracker/biology-reviews/evidence/genetic-drift/small-partial.png",
+      "data/development-tracker/biology-reviews/evidence/genetic-drift/small-complete.png",
+      "data/development-tracker/biology-reviews/evidence/genetic-drift/large-initial.png",
+      "data/development-tracker/biology-reviews/evidence/genetic-drift/large-partial.png",
+      "data/development-tracker/biology-reviews/evidence/genetic-drift/large-complete.png",
+      "data/development-tracker/biology-reviews/evidence/genetic-drift/held-sampler.png",
+      "data/development-tracker/biology-reviews/evidence/genetic-drift/ensemble-recorded.png",
+      "data/development-tracker/biology-reviews/evidence/genetic-drift/selected-partial.png",
+      "data/development-tracker/biology-reviews/evidence/genetic-drift/selected-complete.png",
+      "data/development-tracker/biology-reviews/evidence/genetic-drift/tablet-sampling.png",
+      "data/development-tracker/biology-reviews/evidence/genetic-drift/phone-large-pool.png",
+      "data/development-tracker/biology-reviews/evidence/genetic-drift/phone-variation.png",
+      "data/development-tracker/biology-reviews/evidence/genetic-drift/phone-explain.png"
+    ],
+    "pdfReports": [
+      "data/development-tracker/biology-reviews/evidence/genetic-drift/draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/genetic-drift/development-draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/genetic-drift/unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/genetic-drift/complete.pdf",
+      "data/development-tracker/biology-reviews/evidence/genetic-drift/long-offline.pdf",
+      "data/development-tracker/biology-reviews/evidence/genetic-drift/pdf-inspection.json"
+    ],
+    "nativePrint": [
+      "data/development-tracker/biology-reviews/evidence/genetic-drift/native-print.pdf",
+      "data/development-tracker/biology-reviews/evidence/genetic-drift/long-native-print.pdf"
+    ],
+    "tests": [
+      "data/development-tracker/biology-reviews/evidence/genetic-drift/model-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/genetic-drift/browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/genetic-drift/initial-browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/genetic-drift/focus-review-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/genetic-drift/resource-check.txt",
+      "data/development-tracker/biology-reviews/evidence/genetic-drift/platform-build.txt",
+      "data/development-tracker/biology-reviews/evidence/genetic-drift/review-notes.md"
+    ],
+    "resources": [
+      "public/resources/genetic-drift-worksheet.pdf",
+      "public/resources/genetic-drift-teacher-guide.pdf"
+    ]
+  },
+  "externalValidation": {
+    "teacherStudentComprehension": {
+      "status": "pending",
+      "notes": "Not yet performed; development checks do not establish classroom comprehension."
+    },
+    "physicalDevices": {
+      "status": "pending",
+      "notes": "Not yet performed; browser emulation is not physical-device acceptance."
+    },
+    "classroomProtocol": {
+      "status": "pending",
+      "notes": "Record the selected modes and actual protocol validation separately."
+    }
+  },
+  "futureWork": [
+    {
+      "id": "AUD-10",
+      "status": "planned",
+      "notes": "Full native language switching and translated printing are not certified by the localization-readiness check."
+    }
+  ],
+  "history": [
+    {
+      "finding": "Separate visual/report review: graph lines lacked non-color identity; an unfinished concept status could fall on the next page; source schematic bead count differed from actual 2N.",
+      "resolution": "Add solid/dashed/dotted labels; group each concept response and status; show exact source-copy counts. Loaded sampler also carries its actual bead. Final artifact checks pending."
+    },
+    {
+      "finding": "Final language review: gamete needed a direct definition and student genotype jargon could be clearer.",
+      "resolution": "Defined egg/sperm/gene-copy meaning, simplified student wording, regenerated matching resources and recaptured reports. Final model/browser/resource/build checks pass; no sample was rerolled during a saved attempt."
+    },
+    {
+      "id": "BIO-07-touch-once",
+      "finding": "A native compatibility click could hit a new control after a touch redraw; discovered from viral round-2 phone evidence.",
+      "resolution": "BIO-07 shared touch follow-up: suppress the pending native compatibility click across replacement DOM, reset on the next physical pointerdown. All six earlier lab browser files passed in the 50-check group; its only failure was a new singular/plural assertion typo, corrected in the focused 2/2 exact-tap rerun. Verify one increment/toggle/rotation and preserve the next deliberate tap. Science and saved observations unchanged; original acceptance snapshots retained.",
+      "sourceSnapshot": "sha256:615ccee6e5fe3033f3dba30fc3914477c955e54bf3a2271d32febc0b2a768c60",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/viral-spread/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-exact-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-regression-initial.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-followup-manifest.json"
+      ]
+    }
+  ],
+  "followups": [
+    {
+      "id": "shared-touch-focus-2026-11-15",
+      "reviewedOn": "2026-11-15",
+      "reviewedBy": "Codex - shared interaction follow-up",
+      "decision": "pass",
+      "summary": "Pending native compatibility mousedown no longer steals newly assigned focus. Existing deliberate next-tap/mouse/keyboard behavior verified in39 selected browser cases; original lab review snapshot retained.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.json",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.md",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-native-focus-regressions.txt"
+      ]
+    },
+    {
+      "id": "shared-response-pagination-2026-11-15",
+      "recordedAt": "2026-11-15T17:05:24.792Z",
+      "scope": "Shared PDF question/answer page-break guard; original review remains its point-in-time snapshot. Representative current starch, stored heat/fungal and legacy enzyme reports checked; not a full rerun of this lab.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.md",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.json",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/pagination-corrected.txt",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-model-tests.txt"
+      ]
+    },
+    {
+      "id": "shared-scientific-symbols-2026-11-15",
+      "recordedAt": "2026-11-15T18:31:00.195Z",
+      "scope": "Shared offline scientific-symbol glyph fallback only; original source snapshot/history unchanged. Representative new/old outputs and legacy wrappers validated, not full rerun of this lab.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.md",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.json",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/glyph-all-artifacts.txt"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "labId": "blood-flow",
+  "locale": "en",
+  "scope": "Authored core directions/questions; excludes teacher notes, sources and student writing. Dynamic app/diagram/report wording is reviewed manually.",
+  "method": "Approximate Flesch-Kincaid with heuristic syllable counts and explicit scientific-word exceptions. Short fragments and technical terms can distort the score; no pass/fail or language certification.",
+  "overall": {
+    "words": 743,
+    "sentences": 70,
+    "wordsPerSentence": 10.6,
+    "approximateFleschKincaidGrade": 7
+  },
+  "fragments": {
+    "intro": {
+      "words": 72,
+      "sentences": 7,
+      "wordsPerSentence": 10.3,
+      "approximateFleschKincaidGrade": 6.6
+    },
+    "prediction": {
+      "words": 30,
+      "sentences": 3,
+      "wordsPerSentence": 10,
+      "approximateFleschKincaidGrade": 9.2
+    },
+    "design": {
+      "words": 30,
+      "sentences": 3,
+      "wordsPerSentence": 10,
+      "approximateFleschKincaidGrade": 9.2
+    },
+    "controls": {
+      "words": 64,
+      "sentences": 5,
+      "wordsPerSentence": 12.8,
+      "approximateFleschKincaidGrade": 7.5
+    },
+    "sampling": {
+      "words": 54,
+      "sentences": 5,
+      "wordsPerSentence": 10.8,
+      "approximateFleschKincaidGrade": 6.5
+    },
+    "limits": {
+      "words": 160,
+      "sentences": 14,
+      "wordsPerSentence": 11.4,
+      "approximateFleschKincaidGrade": 6.9
+    },
+    "explanation:rate": {
+      "words": 29,
+      "sentences": 2,
+      "wordsPerSentence": 14.5,
+      "approximateFleschKincaidGrade": 5.9
+    },
+    "explanation:controls": {
+      "words": 31,
+      "sentences": 3,
+      "wordsPerSentence": 10.3,
+      "approximateFleschKincaidGrade": 10.1
+    },
+    "explanation:biology": {
+      "words": 48,
+      "sentences": 4,
+      "wordsPerSentence": 12,
+      "approximateFleschKincaidGrade": 6.8
+    },
+    "check:power": {
+      "words": 78,
+      "sentences": 7,
+      "wordsPerSentence": 11.1,
+      "approximateFleschKincaidGrade": 6.8
+    },
+    "check:speed": {
+      "words": 83,
+      "sentences": 8,
+      "wordsPerSentence": 10.4,
+      "approximateFleschKincaidGrade": 5.7
+    },
+    "check:real": {
+      "words": 64,
+      "sentences": 9,
+      "wordsPerSentence": 7.1,
+      "approximateFleschKincaidGrade": 7.5
+    }
+  }
+}

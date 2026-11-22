@@ -1,0 +1,377 @@
+{
+  "schemaVersion": 2,
+  "labId": "moss-fern",
+  "title": "Moss and Fern Life Cycles",
+  "question": "How do meiosis, mitosis and fertilization connect two plant generations in mosses and ferns?",
+  "student": {
+    "name": "Zoë García",
+    "class": "Period 5"
+  },
+  "status": "Complete",
+  "grading": "not_graded",
+  "exportedAt": "2026-11-15T12:51:22.329Z",
+  "exportTimeZone": "America/Los_Angeles",
+  "exportedAtDisplay": "Nov 15, 2026, 4:51 AM PST",
+  "sections": [
+    {
+      "heading": "First predictions and plan",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Required before observations: Do the familiar green moss and leafy fern represent the same generation? Make a prediction and explain your starting idea.",
+          "text": "The green moss and fern may represent different main generations."
+        },
+        {
+          "type": "response",
+          "prompt": "Required before observations: Predict why a thin film of water might matter when fern sperm must reach an egg. How is that different from water needed for general plant growth?",
+          "text": "A water film may supply a swimming route for sperm, which is different from general moisture for growth."
+        },
+        {
+          "type": "paragraph",
+          "text": "Timing: Before plant/gamete observations or water placement."
+        },
+        {
+          "type": "paragraph",
+          "text": "Follow one supplied fern cycle, then compare it with a supplied moss example. Place one spore, add one water film and guide one sperm to an egg. These actions illustrate different transitions, not repeated trials. Moist growing conditions are supplied; the later surface water film represents the route needed for sperm movement."
+        }
+      ]
+    },
+    {
+      "heading": "Spore and gametophyte evidence",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Student inspected the supplied fern sorus/spore-case enlargement."
+        },
+        {
+          "type": "response",
+          "prompt": "Current spore-formation interpretation",
+          "text": "Meiosis reduces chromosome sets from 2n to n to form spores.\nCorrect after feedback."
+        },
+        {
+          "type": "paragraph",
+          "text": "One supplied n spore placed on the moist patch; 2/2 shortened growth phases viewed."
+        },
+        {
+          "type": "response",
+          "prompt": "Current gametophyte-growth interpretation",
+          "text": "Mitosis grows an n gametophyte without changing its chromosome-set number.\nCorrect first check."
+        },
+        {
+          "type": "paragraph",
+          "text": "Chromosome-set labels and mature gametes are supplied biological context. They are not measured chromosome counts. The model shows one selected spore-producing cell, not all cells within a real spore case."
+        }
+      ]
+    },
+    {
+      "heading": "Water route and fertilization evidence",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Student added one surface water film. Moisture for earlier plant growth was separately supplied."
+        },
+        {
+          "type": "paragraph",
+          "text": "One compatible sperm was guided to the egg-holding organ and fusion was modeled. A previous attempt without a continuous water route was corrected."
+        },
+        {
+          "type": "response",
+          "prompt": "Current zygote interpretation",
+          "text": "The zygote is 2n: one set came from each gamete.\nCorrect first check."
+        },
+        {
+          "type": "paragraph",
+          "text": "Model-provided mitotic growth produced a young 2n sporophyte, initially attached to the n gametophyte."
+        },
+        {
+          "type": "paragraph",
+          "text": "This is one explanatory event, not a measurement of natural sperm travel, fertilization probability or growth rate."
+        }
+      ]
+    },
+    {
+      "heading": "Moss and fern generation comparison",
+      "blocks": [
+        {
+          "type": "table",
+          "columns": [
+            "Supplied structure",
+            "Current student tag",
+            "Status"
+          ],
+          "rows": [
+            [
+              "Leafy moss shoot",
+              "Gametophyte · n",
+              "Correct after feedback."
+            ],
+            [
+              "Moss stalk and capsule",
+              "Sporophyte · 2n",
+              "Correct after feedback."
+            ],
+            [
+              "Familiar leafy fern",
+              "Sporophyte · 2n",
+              "Correct after feedback."
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Generation identities and dependency information are supplied model evidence; drawings alone do not reveal chromosome sets. Moss stalk/capsule stays attached and dependent. The fern sporophyte becomes an independent plant."
+        }
+      ]
+    },
+    {
+      "heading": "Evidence by learning goal",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Track chromosome sets and distinguish spores, gametes and the two plant generations."
+        },
+        {
+          "type": "response",
+          "prompt": "Trace the fern from a 2n spore-producing plant to an n spore, an n gametophyte, gametes and a new 2n sporophyte. Where do meiosis, mitosis and fertilization occur? Why is a spore not the same as a gamete?",
+          "text": "My cycle explanation: meiosis in a 2n spore-producing cell makes n spores. A spore grows by mitosis into an n gametophyte, which makes n gametes by mitosis. A water film supplies a sperm route; fusion gives a 2n zygote and mitotic growth gives a sporophyte. The leafy moss is n, and its attached stalk/capsule is 2n. The familiar fern is an independent 2n plant after its early attached stage. These supplied set labels are not measurements, and water alone cannot guarantee natural fertilization."
+        },
+        {
+          "type": "paragraph",
+          "text": "Explain how a water film supports sperm movement and how fertilization restores two sets."
+        },
+        {
+          "type": "response",
+          "prompt": "Compare your water prediction with the water-film model. What role did water have in sperm movement, and what would be missing without the film? Why would water alone not prove successful fertilization in nature?",
+          "text": "My water explanation: meiosis in a 2n spore-producing cell makes n spores. A spore grows by mitosis into an n gametophyte, which makes n gametes by mitosis. A water film supplies a sperm route; fusion gives a 2n zygote and mitotic growth gives a sporophyte. The leafy moss is n, and its attached stalk/capsule is 2n. The familiar fern is an independent 2n plant after its early attached stage. These supplied set labels are not measurements, and water alone cannot guarantee natural fertilization."
+        },
+        {
+          "type": "paragraph",
+          "text": "Compare the familiar moss and fern forms and explain their different generation relationships."
+        },
+        {
+          "type": "response",
+          "prompt": "Compare the leafy moss shoot, its attached stalk/capsule, and the familiar fern. Which generation is each? Explain which is the main long-lived form in each example, and compare how the young sporophyte depends on the gametophyte.",
+          "text": "My comparison explanation: meiosis in a 2n spore-producing cell makes n spores. A spore grows by mitosis into an n gametophyte, which makes n gametes by mitosis. A water film supplies a sperm route; fusion gives a 2n zygote and mitotic growth gives a sporophyte. The leafy moss is n, and its attached stalk/capsule is 2n. The familiar fern is an independent 2n plant after its early attached stage. These supplied set labels are not measurements, and water alone cannot guarantee natural fertilization."
+        }
+      ]
+    },
+    {
+      "heading": "Concept checks",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "How are gametes made in the n gametophyte of this fern?",
+          "text": "By mitosis; the gametophyte already has one chromosome set.\nCorrect! In this plant cycle, meiosis makes spores in the 2n sporophyte. The n gametophyte grows and forms gametes by mitosis. This differs from the familiar animal cycle. Revised after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "What distinguishes a spore from a gamete here?",
+          "text": "The spore can grow into a gametophyte without fusion; gametes fuse at fertilization.\nCorrect! A haploid spore germinates and grows by mitosis. Egg and sperm are haploid gametes whose fusion forms a diploid zygote. These mosses and ferns do not make seeds. Correct on first recorded check."
+        },
+        {
+          "type": "response",
+          "prompt": "What does the main or dominant generation mean in this comparison?",
+          "text": "The main long-lived plant form, rather than simply the tallest structure.\nCorrect! The leafy moss gametophyte is the main form; its sporophyte stays attached and depends on it. The fern sporophyte becomes the large independent plant, though it first grows from a gametophyte. Correct on first recorded check."
+        }
+      ]
+    },
+    {
+      "heading": "Model limits and sources",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "These original plant views, cell enlargements and growth stages are teaching models, not recordings or measurements. The fern is one typical homosporous example: it makes one kind of spore. Not all fern gametophytes have this shape or life history. Suitable growth conditions, mature gametes and compatible sperm are supplied. Water permits the modeled sperm route; it does not guarantee fertilization in nature. Moving a sperm with a tool represents its swimming route, not a physical lab method. Organs, gametes and chromosome-set symbols have separate scales and are explanatory. DNA copying, chromosome movements, embryo growth and many life-cycle details are shortened. Chromosome sets are not measured from the illustrations. The moss comparison omits its early threadlike protonema stage and follows no new culture. No live-plant protocol or species identification is supplied."
+        },
+        {
+          "type": "paragraph",
+          "text": "OpenStax Biology 2e: Early Plant Life: https://openstax.org/books/biology-2e/pages/25-1-early-plant-life"
+        },
+        {
+          "type": "paragraph",
+          "text": "OpenStax Biology 2e: Bryophytes: https://openstax.org/books/biology-2e/pages/25-3-bryophytes"
+        },
+        {
+          "type": "paragraph",
+          "text": "OpenStax Biology 2e: Seedless Vascular Plants: https://openstax.org/books/biology-2e/pages/25-4-seedless-vascular-plants"
+        },
+        {
+          "type": "paragraph",
+          "text": "University of British Columbia: Fern Gametophyte: https://blogs.ubc.ca/biology210/lab/lab-7-ferns/fern-gametophyte/"
+        }
+      ],
+      "keepFirst": 5
+    }
+  ],
+  "activityVersion": 1,
+  "locale": "en",
+  "attemptId": "seedless-3745716352-1794747078784",
+  "data": {
+    "schemaVersion": 1,
+    "activityVersion": 1,
+    "labId": "moss-fern",
+    "attemptId": "seedless-3745716352-1794747078784",
+    "seed": 3745716352,
+    "locale": "en",
+    "stage": 3,
+    "studentName": "Zoë García",
+    "studentClass": "Period 5",
+    "prediction": "The green moss and fern may represent different main generations.",
+    "design": "A water film may supply a swimming route for sperm, which is different from general moisture for growth.",
+    "initialPlan": {
+      "prediction": "The green moss and fern may represent different main generations.",
+      "design": "A water film may supply a swimming route for sperm, which is different from general moisture for growth.",
+      "timing": "Before plant/gamete observations or water placement",
+      "recordedAt": "2026-11-15T12:51:18.956Z"
+    },
+    "inspected": true,
+    "process": "meiosis",
+    "processRecord": {
+      "value": "meiosis",
+      "correctAfterFeedback": true,
+      "sourceId": "student-interpreted-spore-transition"
+    },
+    "processAttempts": [
+      {
+        "value": "mitosis",
+        "correct": false
+      },
+      {
+        "value": "meiosis",
+        "correct": true
+      }
+    ],
+    "sporePlaced": true,
+    "growth": 2,
+    "growthEntry": "mitosis",
+    "growthRecord": {
+      "value": "mitosis",
+      "correctAfterFeedback": false,
+      "sourceId": "student-interpreted-gametophyte-growth"
+    },
+    "growthAttempts": [
+      {
+        "value": "mitosis",
+        "correct": true
+      }
+    ],
+    "water": true,
+    "fertilized": true,
+    "spermAttempts": [
+      {
+        "waterAvailable": false,
+        "correct": false
+      },
+      {
+        "waterAvailable": true,
+        "correct": true
+      }
+    ],
+    "zygoteEntry": "diploid",
+    "zygoteRecord": {
+      "value": "diploid",
+      "correctAfterFeedback": false,
+      "sourceId": "student-interpreted-gamete-fusion"
+    },
+    "zygoteAttempts": [
+      {
+        "value": "diploid",
+        "correct": true
+      }
+    ],
+    "youngGrown": true,
+    "tags": {
+      "moss-leafy": "gametophyte",
+      "moss-capsule": "sporophyte",
+      "fern-frond": "sporophyte"
+    },
+    "comparisonRecord": {
+      "tags": {
+        "moss-leafy": "gametophyte",
+        "moss-capsule": "sporophyte",
+        "fern-frond": "sporophyte"
+      },
+      "correctAfterFeedback": true,
+      "sourceId": "student-classified-supplied-generation-evidence"
+    },
+    "comparisonAttempts": [
+      {
+        "tags": {
+          "moss-leafy": "gametophyte",
+          "moss-capsule": "gametophyte",
+          "fern-frond": "gametophyte"
+        },
+        "correct": false
+      },
+      {
+        "tags": {
+          "moss-leafy": "gametophyte",
+          "moss-capsule": "sporophyte",
+          "fern-frond": "sporophyte"
+        },
+        "correct": true
+      }
+    ],
+    "checks": {
+      "gametes": {
+        "attempts": [
+          {
+            "value": "meiosis",
+            "correct": false
+          },
+          {
+            "value": "mitosis",
+            "correct": true
+          }
+        ],
+        "value": "mitosis",
+        "correct": true
+      },
+      "spore-gamete": {
+        "attempts": [
+          {
+            "value": "grow",
+            "correct": true
+          }
+        ],
+        "value": "grow",
+        "correct": true
+      },
+      "dominance": {
+        "attempts": [
+          {
+            "value": "form",
+            "correct": true
+          }
+        ],
+        "value": "form",
+        "correct": true
+      }
+    },
+    "answers": {
+      "cycle": "My cycle explanation: meiosis in a 2n spore-producing cell makes n spores. A spore grows by mitosis into an n gametophyte, which makes n gametes by mitosis. A water film supplies a sperm route; fusion gives a 2n zygote and mitotic growth gives a sporophyte. The leafy moss is n, and its attached stalk/capsule is 2n. The familiar fern is an independent 2n plant after its early attached stage. These supplied set labels are not measurements, and water alone cannot guarantee natural fertilization.",
+      "water": "My water explanation: meiosis in a 2n spore-producing cell makes n spores. A spore grows by mitosis into an n gametophyte, which makes n gametes by mitosis. A water film supplies a sperm route; fusion gives a 2n zygote and mitotic growth gives a sporophyte. The leafy moss is n, and its attached stalk/capsule is 2n. The familiar fern is an independent 2n plant after its early attached stage. These supplied set labels are not measurements, and water alone cannot guarantee natural fertilization.",
+      "comparison": "My comparison explanation: meiosis in a 2n spore-producing cell makes n spores. A spore grows by mitosis into an n gametophyte, which makes n gametes by mitosis. A water film supplies a sperm route; fusion gives a 2n zygote and mitotic growth gives a sporophyte. The leafy moss is n, and its attached stalk/capsule is 2n. The familiar fern is an independent 2n plant after its early attached stage. These supplied set labels are not measurements, and water alone cannot guarantee natural fertilization."
+    },
+    "complete": true
+  },
+  "evidence": [
+    {
+      "goalId": "cycle",
+      "answerId": "cycle",
+      "writing": "My cycle explanation: meiosis in a 2n spore-producing cell makes n spores. A spore grows by mitosis into an n gametophyte, which makes n gametes by mitosis. A water film supplies a sperm route; fusion gives a 2n zygote and mitotic growth gives a sporophyte. The leafy moss is n, and its attached stalk/capsule is 2n. The familiar fern is an independent 2n plant after its early attached stage. These supplied set labels are not measurements, and water alone cannot guarantee natural fertilization.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "water",
+      "answerId": "water",
+      "writing": "My water explanation: meiosis in a 2n spore-producing cell makes n spores. A spore grows by mitosis into an n gametophyte, which makes n gametes by mitosis. A water film supplies a sperm route; fusion gives a 2n zygote and mitotic growth gives a sporophyte. The leafy moss is n, and its attached stalk/capsule is 2n. The familiar fern is an independent 2n plant after its early attached stage. These supplied set labels are not measurements, and water alone cannot guarantee natural fertilization.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "comparison",
+      "answerId": "comparison",
+      "writing": "My comparison explanation: meiosis in a 2n spore-producing cell makes n spores. A spore grows by mitosis into an n gametophyte, which makes n gametes by mitosis. A water film supplies a sperm route; fusion gives a 2n zygote and mitotic growth gives a sporophyte. The leafy moss is n, and its attached stalk/capsule is 2n. The familiar fern is an independent 2n plant after its early attached stage. These supplied set labels are not measurements, and water alone cannot guarantee natural fertilization.",
+      "status": "not_graded"
+    }
+  ]
+}

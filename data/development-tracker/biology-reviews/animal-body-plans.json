@@ -1,0 +1,302 @@
+{
+  "schemaVersion": 1,
+  "labId": "animal-body-plans",
+  "taskId": "BIO-13-REVIEW",
+  "reviewedBy": "Codex - separate development review",
+  "reviewedOn": "2026-11-15",
+  "sourceSnapshot": "sha256:c75ad4a5c0d32b89bccc61a15558574bc665a495fbe3c278e319c35e91895b71",
+  "checks": {
+    "G01": {
+      "status": "pass",
+      "notes": "Symmetry tests, internal/developmental evidence and limited inference map to three original written explanations and retained classifications. Navigation alone does not satisfy completion.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/build-brief.md"
+      ]
+    },
+    "G02": {
+      "status": "pass",
+      "notes": "Five selected examples add distinct symmetry/tissue/cavity contrasts. Two perpendicular tests compare planes, not replicate animals; probes distinguish lumen versus outside-gut tissue. No repeated preparation or default triple trials.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/build-brief.md",
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/review-notes.md"
+      ]
+    },
+    "G03": {
+      "status": "pass",
+      "notes": "Read OpenStax 27.2/28.1/28.2/28.3 and Michigan ADW Nematoda. Verified selected whole-body symmetry, supplied tissue origins and the mesoderm boundary distinguishing acoelomate/pseudocoelomate/coelomate. Sponge water spaces and polyp gut are not mislabeled coeloms.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/review-notes.md"
+      ]
+    },
+    "G04": {
+      "status": "pass",
+      "notes": "Idealized selected views, incomplete two-plane evidence, false colors/enlarged sections, supplied development records, omitted organs/species/life stages and lack of phylogenetic ranking stated. No direct microscopy, embryo or dissection claim.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/review-notes.md"
+      ]
+    },
+    "G05": {
+      "status": "pass",
+      "notes": "Students rotate reflected geometry, test planes, place a section lens and probe anatomical regions before classifying. Actual actions/interpretations are retained, not merely animation navigation.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/review-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/roundworm-probe.png",
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/annelid-probe.png"
+      ]
+    },
+    "G06": {
+      "status": "pass",
+      "notes": "Original sponge openings, polyp oral view, head/tail worm differences, annelid segmentation and explanatory sections inspected in initial/mirror/section/probe states. Mirror geometry follows angle and tissue boundaries agree with captions. Phone lens was moved beside its work area after actual touch failure.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/sponge-whole.png",
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/polyp-mirror.png",
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/flatworm-section.png",
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/roundworm-probe.png",
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/annelid-probe.png",
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/phone-section.png",
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/tablet-roundworm.png"
+      ]
+    },
+    "G07": {
+      "status": "pass",
+      "notes": "Stable seeded example/choice order and IDs. Biological symmetry/linings do not randomize; comparison is based on selected evidence rather than option order or a complexity ladder.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/complete-responses.json"
+      ]
+    },
+    "G08": {
+      "status": "pass",
+      "notes": "Full UI/feedback/report/resource wording read. Germ-layer names now explicitly defined before records; perpendicular explained as crossing at right angle, lumen defined at probe and coelom defined in choices. Grade8.6/10.6 words per sentence is heuristic only.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/reading-screen.json",
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/review-notes.md"
+      ]
+    },
+    "G09": {
+      "status": "pass",
+      "notes": "First prediction/plan before observations; both planes, section/record and relevant probes required before classification; all five checked examples gate explanations. Model and UI gates tested.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/review-browser-tests.txt"
+      ]
+    },
+    "G10": {
+      "status": "pass",
+      "notes": "Explicit Correct!/Try again, scientific explanations and usable revision path. Wrong/empty current choices retained unconfirmed. Review corrected stale live-summary wording after an answer edit.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/edited-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/review-browser-tests.txt"
+      ]
+    },
+    "G11": {
+      "status": "pass",
+      "notes": "Actual successful and repeated completion, denied-write/retry, reload and identity/academic edit behavior exercised with honest device-local confirmation.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/review-browser-tests.txt"
+      ]
+    },
+    "G12": {
+      "status": "pass",
+      "notes": "Root-scoped versioned attempts preserve first plan, tested planes, inspected regions, current choices, wrong attempts and original writing. View-only example review preserves completion; substantive edits invalidate it.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/model-edit-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/review-browser-tests.txt"
+      ]
+    },
+    "G13": {
+      "status": "pass",
+      "notes": "Actual completed/draft PDF download and native print include optional name/period, safe named/unnamed filenames, standard local date/time/zone and honest completion status.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/draft.pdf",
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/native-print.pdf"
+      ]
+    },
+    "G14": {
+      "status": "pass",
+      "notes": "Human report explains tested/supplied evidence, current interpretations, true corrections and original goal writing. No click-by-click log; original student writing and structured attempts remain intact.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/complete.pdf"
+      ]
+    },
+    "G15": {
+      "status": "pass",
+      "notes": "All 40 current PDF pages rendered/inspected across five sheets. Current classification and correctness stay grouped; Unicode long final markers survive PDF/native print. First offline PDF and export recovery verified.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/pdf-inspection.json",
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/pdf-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/pdf-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/pdf-contact-3.png",
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/pdf-contact-4.png",
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/pdf-contact-5.png",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.md",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.md"
+      ]
+    },
+    "G16": {
+      "status": "pass",
+      "notes": "Native touch lens drag-release-next tap, continuous range input/reload, keyboard focus/selection, mouse probe after resize/scroll, 44px phone targets and reduced motion verified. Physical-device/AT acceptance pending.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/review-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/phone-section.png",
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/tablet-roundworm.png",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.json",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.md",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-native-focus-regressions.txt"
+      ]
+    },
+    "G17": {
+      "status": "pass",
+      "notes": "84 selected model/report regressions, five focused edit cases and final six browser workflows passed. 65 public resources and standalone/private-platform builds passed. Initial art syntax and mobile lens failure retained; review rerun passed.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/model-edit-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/review-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/standalone-build.txt",
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/platform-build.txt"
+      ]
+    },
+    "G18": {
+      "status": "pass",
+      "notes": "Stable specimen/plane/region/question/goal IDs, locale/version and English content bundle retained; original responses preserved. Reviewed native translation/print delivery and remaining UI extraction remain AUD-10.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/review-notes.md"
+      ]
+    },
+    "RESOURCES": {
+      "status": "pass",
+      "notes": "Three-page student worksheet/two-page teacher guide match current prompts, evidence table, caveats and answer guidance; all pages and hashes checked. Build-time Python only.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/pdf-contact-1.png"
+      ]
+    },
+    "ACCESS": {
+      "status": "pass",
+      "notes": "Guest/free runtime and exports remain usable without sign-in. Existing entitlements/staff/release policy unchanged; private 29-lab runtime compiled only, without upload/registration/publication.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/review-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/platform-build.txt"
+      ]
+    },
+    "TRACKING": {
+      "status": "pass",
+      "notes": "Stable biological-diversity virtual route, English metadata and actual resources reflected in validated regenerated dataset/tracker; standards/Spanish approvals unchanged. Shared copies refreshed after review.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/animal-body-plans/review-notes.md"
+      ]
+    }
+  },
+  "artifacts": {
+    "workflow": [
+      "data/development-tracker/biology-reviews/evidence/animal-body-plans/build-brief.md",
+      "data/development-tracker/biology-reviews/evidence/animal-body-plans/review-notes.md",
+      "data/development-tracker/biology-reviews/evidence/animal-body-plans/reading-screen.json",
+      "data/development-tracker/biology-reviews/evidence/animal-body-plans/complete-responses.json",
+      "data/development-tracker/biology-reviews/evidence/animal-body-plans/source-manifest.json"
+    ],
+    "visuals": [
+      "data/development-tracker/biology-reviews/evidence/animal-body-plans/sponge-whole.png",
+      "data/development-tracker/biology-reviews/evidence/animal-body-plans/polyp-mirror.png",
+      "data/development-tracker/biology-reviews/evidence/animal-body-plans/flatworm-section.png",
+      "data/development-tracker/biology-reviews/evidence/animal-body-plans/roundworm-probe.png",
+      "data/development-tracker/biology-reviews/evidence/animal-body-plans/annelid-probe.png",
+      "data/development-tracker/biology-reviews/evidence/animal-body-plans/phone-section.png",
+      "data/development-tracker/biology-reviews/evidence/animal-body-plans/tablet-roundworm.png",
+      "data/development-tracker/biology-reviews/evidence/animal-body-plans/phone-explain.png"
+    ],
+    "pdfReports": [
+      "data/development-tracker/biology-reviews/evidence/animal-body-plans/complete.pdf",
+      "data/development-tracker/biology-reviews/evidence/animal-body-plans/draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/animal-body-plans/development-draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/animal-body-plans/unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/animal-body-plans/edited-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/animal-body-plans/long-offline.pdf",
+      "data/development-tracker/biology-reviews/evidence/animal-body-plans/pdf-inspection.json"
+    ],
+    "nativePrint": [
+      "data/development-tracker/biology-reviews/evidence/animal-body-plans/native-print.pdf",
+      "data/development-tracker/biology-reviews/evidence/animal-body-plans/long-native-print.pdf"
+    ],
+    "tests": [
+      "data/development-tracker/biology-reviews/evidence/animal-body-plans/model-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/animal-body-plans/model-edit-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/animal-body-plans/review-browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/animal-body-plans/resource-check.txt",
+      "data/development-tracker/biology-reviews/evidence/animal-body-plans/standalone-build.txt",
+      "data/development-tracker/biology-reviews/evidence/animal-body-plans/platform-build.txt"
+    ],
+    "resources": [
+      "public/resources/animal-body-plans-worksheet.pdf",
+      "public/resources/animal-body-plans-teacher-guide.pdf"
+    ]
+  },
+  "externalValidation": {
+    "teacherStudentComprehension": {
+      "status": "pending",
+      "notes": "Not performed; development checks do not establish classroom comprehension."
+    },
+    "physicalDevices": {
+      "status": "pending",
+      "notes": "Emulation is not physical-device or assistive-technology acceptance."
+    },
+    "classroomProtocol": {
+      "status": "not-applicable",
+      "notes": "Virtual-only activity; no physical protocol supplied."
+    }
+  },
+  "history": [
+    {
+      "on": "2026-11-15",
+      "decision": "changes-required",
+      "notes": "The live summary can keep saying checked after a classification edit until reload. Define the three germ-layer names in plain language before the record labels."
+    }
+  ],
+  "decision": "pass",
+  "summary": "Development review passed after live-summary and vocabulary corrections. Direct mirror-plane/lens/probe work supports distinct external, developmental and internal evidence; selected-example/model limits remain explicit. External, translation and release acceptance remain separate.",
+  "blockers": [],
+  "followups": [
+    {
+      "id": "shared-touch-focus-2026-11-15",
+      "reviewedOn": "2026-11-15",
+      "reviewedBy": "Codex - shared interaction follow-up",
+      "decision": "pass",
+      "summary": "Pending native compatibility mousedown no longer steals newly assigned focus. Existing deliberate next-tap/mouse/keyboard behavior verified in39 selected browser cases; original lab review snapshot retained.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.json",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.md",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-native-focus-regressions.txt"
+      ]
+    },
+    {
+      "id": "shared-response-pagination-2026-11-15",
+      "recordedAt": "2026-11-15T17:05:24.801Z",
+      "scope": "Shared PDF question/answer page-break guard; original review remains its point-in-time snapshot. Representative current starch, stored heat/fungal and legacy enzyme reports checked; not a full rerun of this lab.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.md",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.json",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/pagination-corrected.txt",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-model-tests.txt"
+      ]
+    },
+    {
+      "id": "shared-scientific-symbols-2026-11-15",
+      "recordedAt": "2026-11-15T18:31:00.204Z",
+      "scope": "Shared offline scientific-symbol glyph fallback only; original source snapshot/history unchanged. Representative new/old outputs and legacy wrappers validated, not full rerun of this lab.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.md",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.json",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/glyph-all-artifacts.txt"
+      ]
+    }
+  ]
+}

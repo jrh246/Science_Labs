@@ -1,0 +1,477 @@
+{
+  "schemaVersion": 2,
+  "labId": "flower-pollination",
+  "title": "Flower Structure and Pollination",
+  "question": "How does pollen transfer connect to fertilization and the development of a seed and fruit?",
+  "student": {
+    "name": "Zoë García",
+    "class": "Period 5"
+  },
+  "status": "Complete",
+  "grading": "not_graded",
+  "exportedAt": "2026-11-15T15:49:12.327Z",
+  "exportTimeZone": "America/Los_Angeles",
+  "exportedAtDisplay": "Nov 15, 2026, 7:49 AM PST",
+  "sections": [
+    {
+      "heading": "First prediction and comparison",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Required before observing: What changes might occur between pollen reaching a flower and a seed developing? Predict whether two matched recipients, with or without compatible pollen on the stigma, will show the same internal changes. Explain.",
+          "text": "Compatible pollen may allow a tube and later fertilization, while a no-pollen recipient will lack these events under the stated model rules. Transfer alone is not a whole seed."
+        },
+        {
+          "type": "response",
+          "prompt": "Required before observing: Why include a no-pollen reference and match the recipients and conditions? Why must we state that pollen is viable and compatible? Why would one model comparison not measure pollination success in real plants?",
+          "text": "Match receptive recipients and conditions, supply viable compatible donor pollen and exclude accidental/self pollen in both. A single ideal contrast cannot estimate natural pollination success or describe all seedless/asexual routes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Timing: Before flower observations or transfers."
+        },
+        {
+          "type": "paragraph",
+          "text": "The supplied model has one no-pollen recipient reference and one matched recipient for pollen transfer. Both are receptive, meaning ready to receive pollen. The donor pollen is viable (alive) and compatible (able to work with this recipient). Model preparation excludes accidental and self pollen transfer; recipient pollen-bearing anthers are excluded. Other conditions stay suitable and matched. Follow one selected ovule, not a whole seed-count experiment."
+        }
+      ]
+    },
+    {
+      "heading": "Flower locations and pollen-transfer evidence",
+      "blocks": [
+        {
+          "type": "table",
+          "columns": [
+            "Cutaway landmark",
+            "Current interpretation",
+            "Status"
+          ],
+          "rows": [
+            [
+              "Anther landmark",
+              "Anther · pollen-producing part",
+              "Correct after feedback"
+            ],
+            [
+              "Stigma landmark",
+              "Stigma · pollen-receiving surface",
+              "Correct after feedback"
+            ],
+            [
+              "Style landmark",
+              "Style · link between stigma and ovary",
+              "Correct after feedback"
+            ],
+            [
+              "Ovary landmark",
+              "Ovary · contains ovules",
+              "Correct after feedback"
+            ],
+            [
+              "Selected ovule landmark",
+              "Ovule · contains the embryo sac and egg",
+              "Correct after feedback"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Recipient stigma: compatible donor pollen transferred; pollination shown. No-pollen reference: supplied absence of stigma pollen and pollen-tube/fusion events in this model. One selected ovule, not a measured success rate."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pollen was also deposited on a petal. That did not count as pollination; a later stigma transfer corrected the destination."
+        },
+        {
+          "type": "response",
+          "prompt": "Required stop: Pollen is now on the stigma. Which event has happened so far?",
+          "text": "Pollination. The egg and sperm have not yet fused.\nCorrect! Reaching the stigma is pollination. Fertilization needs sperm delivery and cell fusion later. A pollen grain is not an egg or a seed. Revised after feedback."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tube evidence: Tube reaches selected ovule through micropyle and receiving synergid. Growth marker is an explanatory reveal tool; no real timing or steering."
+        }
+      ]
+    },
+    {
+      "heading": "Two-fusion proposal and chromosome sets",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Two nonmotile sperm are supplied from one pollen tube. The central cell begins with two n polar nuclei; the egg has n. Assign each sperm once. n describes sets per nucleus, not number of cells or DNA molecules. Current proposals are unconfirmed until checked."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Partner",
+            "Current sperm assignment",
+            "Current product sets",
+            "Status"
+          ],
+          "rows": [
+            [
+              "Egg",
+              "Sperm A",
+              "2n",
+              "Correct after feedback"
+            ],
+            [
+              "Central cell",
+              "Sperm B",
+              "3n",
+              "Correct after feedback"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Checked products: sperm+egg →2n zygote; the other sperm+two polar nuclei in the central cell →initial 3n endosperm product."
+        }
+      ]
+    },
+    {
+      "heading": "Early seed and fruit origins",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Embryo origin",
+          "text": "Zygote descendant · 2n embryo\nCorrect after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "Endosperm origin",
+          "text": "Central-cell fusion descendant · initially 3n endosperm\nCorrect after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "Seed coat origin",
+          "text": "Maternal ovule covering · 2n seed coat\nCorrect after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "Fruit wall origin",
+          "text": "Maternal ovary wall · 2n fruit wall\nCorrect after feedback."
+        },
+        {
+          "type": "paragraph",
+          "text": "Enlarged early seed/fruit anatomy is supplied, not a specimen measured by the student. Maternal coverings and ovary wall are distinct from fusion-derived tissues."
+        }
+      ]
+    },
+    {
+      "heading": "Evidence by learning goal",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Locate key flower structures and distinguish pollen transfer from fertilization."
+        },
+        {
+          "type": "response",
+          "prompt": "Trace pollen from the donor anther to the recipient stigma. Compare the transferred-pollen model with the no-pollen reference. Why does pollen on a petal not establish pollination here, and why does pollen on a stigma not yet prove fertilization?",
+          "text": "My transfer explanation distinguishes compatible pollen transfer at stigma from later cell fusion. No-pollen reference lacks tube/fusions by supplied rules. Pollen stays on stigma; a tube grows through style and micropyle into a receiving synergid, delivering two nonmotile sperm. Each is used once: n sperm+n egg gives 2n zygote; the other sperm+two n polar nuclei gives initial 3n endosperm. n counts chromosome sets per nucleus, not cells or DNA molecules. Zygote descendants form embryo, central product endosperm; maternal ovule coverings form seed coat and maternal ovary wall fruit wall here. Species, conditions, endosperm persistence and seedless/asexual pathways vary; this model does not establish real success rates."
+        },
+        {
+          "type": "paragraph",
+          "text": "Connect pollen-tube delivery with two cell fusions and their chromosome-set counts."
+        },
+        {
+          "type": "response",
+          "prompt": "Trace the tube through the style and micropyle to the embryo sac. Explain the two sperm partners and why the zygote has 2n while the initial endosperm product has 3n. What does n describe, and what does it not count?",
+          "text": "My fusion explanation distinguishes compatible pollen transfer at stigma from later cell fusion. No-pollen reference lacks tube/fusions by supplied rules. Pollen stays on stigma; a tube grows through style and micropyle into a receiving synergid, delivering two nonmotile sperm. Each is used once: n sperm+n egg gives 2n zygote; the other sperm+two n polar nuclei gives initial 3n endosperm. n counts chromosome sets per nucleus, not cells or DNA molecules. Zygote descendants form embryo, central product endosperm; maternal ovule coverings form seed coat and maternal ovary wall fruit wall here. Species, conditions, endosperm persistence and seedless/asexual pathways vary; this model does not establish real success rates."
+        },
+        {
+          "type": "paragraph",
+          "text": "Trace the origins of early seed and fruit tissues while stating the model’s limits."
+        },
+        {
+          "type": "response",
+          "prompt": "Explain how an ovule, its coverings, the zygote, the central-cell product and the ovary wall contribute to an early seed and fruit. Which tissues come only from the maternal plant? Why do these two ideal models not show every plant’s seed or fruit development?",
+          "text": "My origins explanation distinguishes compatible pollen transfer at stigma from later cell fusion. No-pollen reference lacks tube/fusions by supplied rules. Pollen stays on stigma; a tube grows through style and micropyle into a receiving synergid, delivering two nonmotile sperm. Each is used once: n sperm+n egg gives 2n zygote; the other sperm+two n polar nuclei gives initial 3n endosperm. n counts chromosome sets per nucleus, not cells or DNA molecules. Zygote descendants form embryo, central product endosperm; maternal ovule coverings form seed coat and maternal ovary wall fruit wall here. Species, conditions, endosperm persistence and seedless/asexual pathways vary; this model does not establish real success rates."
+        }
+      ]
+    },
+    {
+      "heading": "Concept checks",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "The central cell has two n polar nuclei before fusion with an n sperm. What does the resulting 3n label mean?",
+          "text": "Three chromosome sets in the initial endosperm nucleus.\nCorrect! n counts chromosome sets per nucleus in this model. Two maternal sets plus one sperm set give 3n. The embryo comes from a different fusion and begins 2n. Revised after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "Does the seed coat form by fusion of a third sperm with another egg?",
+          "text": "No. It develops from the maternal ovule coverings.\nCorrect! Two sperm make the modeled double fertilization. Maternal ovule coverings develop into seed coat; the maternal ovary wall develops into fruit wall here. Correct on first recorded check."
+        },
+        {
+          "type": "response",
+          "prompt": "What does compatible pollen reaching the stigma prove about every real flower?",
+          "text": "Only that pollination occurred; later fertilization and development can still fail.\nCorrect! Viability, compatibility, growth, signals and conditions matter. Our ideal outcome is not a real success-rate study, and some plants make seeds or fruit through processes omitted here. Correct on first recorded check."
+        }
+      ]
+    },
+    {
+      "heading": "Model limits and sources",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "This is an enlarged, generalized flowering-plant model, not a real specimen or timed experiment. Shapes, colors, chromosome labels and movements explain invisible events. Flower forms vary. Viable compatible pollen, receptive tissues and suitable conditions are assumed. The reference receives no pollen; this model excludes seed formation without fertilization and fruit formation without seeds. Pollination alone does not guarantee fertilization in real plants. A growth marker reveals snapshots; it is not a plant part or a hand steering the tube. Mature pollen and embryo-sac cells are supplied; their formation, the tube nucleus and most guidance signals are omitted. One tube reaches one selected ovule and delivers two nonmotile sperm. We use a typical diploid plant: n, 2n and 3n mean chromosome sets per nucleus, not cell counts or DNA amounts. The central cell starts with two n polar nuclei. Its initial endosperm product is 3n; later DNA-copy cycles and variation are omitted. The early seed retains endosperm here; seed tissues and fruit origins vary among plants. No physical pollination, dissection or microscopy protocol is supplied."
+        },
+        {
+          "type": "paragraph",
+          "text": "OpenStax Biology2e: Reproductive Development and Structure: https://openstax.org/books/biology-2e/pages/32-1-reproductive-development-and-structure"
+        },
+        {
+          "type": "paragraph",
+          "text": "OpenStax Biology2e: Pollination and Fertilization: https://openstax.org/books/biology-2e/pages/32-2-pollination-and-fertilization"
+        },
+        {
+          "type": "paragraph",
+          "text": "University of Minnesota: Gametogenesis: https://open.lib.umn.edu/horticulture/chapter/14-1-gametogenesis/"
+        },
+        {
+          "type": "paragraph",
+          "text": "UF IFAS: Fertilization: https://propg.ifas.ufl.edu/04-seeds/01-development/06-seedsdevelopment-fertilization.html"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dresselhaus et al.2016: Fertilization Mechanisms in Flowering Plants: https://pmc.ncbi.nlm.nih.gov/articles/PMC4934421/"
+        }
+      ],
+      "keepFirst": 6
+    }
+  ],
+  "activityVersion": 1,
+  "locale": "en",
+  "attemptId": "flower-3756384550-1794757746982",
+  "data": {
+    "schemaVersion": 1,
+    "activityVersion": 1,
+    "labId": "flower-pollination",
+    "attemptId": "flower-3756384550-1794757746982",
+    "seed": 3756384550,
+    "locale": "en",
+    "stage": 5,
+    "recipientView": "treated",
+    "studentName": "Zoë García",
+    "studentClass": "Period 5",
+    "prediction": "Compatible pollen may allow a tube and later fertilization, while a no-pollen recipient will lack these events under the stated model rules. Transfer alone is not a whole seed.",
+    "design": "Match receptive recipients and conditions, supply viable compatible donor pollen and exclude accidental/self pollen in both. A single ideal contrast cannot estimate natural pollination success or describe all seedless/asexual routes.",
+    "initialPlan": {
+      "prediction": "Compatible pollen may allow a tube and later fertilization, while a no-pollen recipient will lack these events under the stated model rules. Transfer alone is not a whole seed.",
+      "design": "Match receptive recipients and conditions, supply viable compatible donor pollen and exclude accidental/self pollen in both. A single ideal contrast cannot estimate natural pollination success or describe all seedless/asexual routes.",
+      "timing": "Before flower observations or transfers",
+      "recordedAt": "2026-11-15T15:49:07.164Z"
+    },
+    "anatomy": {
+      "a": "anther",
+      "b": "stigma",
+      "c": "style",
+      "d": "ovary",
+      "e": "ovule"
+    },
+    "anatomyRecord": {
+      "values": {
+        "a": "anther",
+        "b": "stigma",
+        "c": "style",
+        "d": "ovary",
+        "e": "ovule"
+      },
+      "correctAfterFeedback": true,
+      "sourceId": "student-interpreted-supplied-flower-cutaway"
+    },
+    "anatomyAttempts": [
+      {
+        "values": {
+          "a": "ovary",
+          "b": "",
+          "c": "",
+          "d": "",
+          "e": ""
+        },
+        "correct": false
+      },
+      {
+        "values": {
+          "a": "anther",
+          "b": "stigma",
+          "c": "style",
+          "d": "ovary",
+          "e": "ovule"
+        },
+        "correct": true
+      }
+    ],
+    "brushLoaded": false,
+    "pollinated": true,
+    "petalDeposits": 1,
+    "transferAttempts": [
+      {
+        "site": "petal",
+        "correct": false
+      },
+      {
+        "site": "stigma",
+        "correct": true
+      }
+    ],
+    "pollinationAnswer": {
+      "attempts": [
+        {
+          "value": "fusion",
+          "correct": false
+        },
+        {
+          "value": "transfer",
+          "correct": true
+        }
+      ],
+      "value": "transfer",
+      "correct": true
+    },
+    "tubePhase": 2,
+    "sperm": {
+      "egg": "sperm-a",
+      "central": "sperm-b"
+    },
+    "sets": {
+      "egg": "2",
+      "central": "3"
+    },
+    "fusionRecord": {
+      "sperm": {
+        "egg": "sperm-a",
+        "central": "sperm-b"
+      },
+      "sets": {
+        "egg": "2",
+        "central": "3"
+      },
+      "correctAfterFeedback": true,
+      "sourceId": "student-proposed-fusions-in-supplied-embryo-sac"
+    },
+    "fusionAttempts": [
+      {
+        "sperm": {
+          "egg": "sperm-a",
+          "central": "sperm-b"
+        },
+        "sets": {
+          "egg": "3",
+          "central": "2"
+        },
+        "correct": false
+      },
+      {
+        "sperm": {
+          "egg": "sperm-a",
+          "central": "sperm-b"
+        },
+        "sets": {
+          "egg": "2",
+          "central": "3"
+        },
+        "correct": true
+      }
+    ],
+    "fates": {
+      "embryo": "zygote",
+      "endosperm": "central",
+      "coat": "covering",
+      "fruit": "ovary"
+    },
+    "fateRecord": {
+      "values": {
+        "embryo": "zygote",
+        "endosperm": "central",
+        "coat": "covering",
+        "fruit": "ovary"
+      },
+      "correctAfterFeedback": true,
+      "sourceId": "student-interpreted-supplied-early-seed-fruit-origins"
+    },
+    "fateAttempts": [
+      {
+        "values": {
+          "embryo": "",
+          "endosperm": "",
+          "coat": "zygote",
+          "fruit": ""
+        },
+        "correct": false
+      },
+      {
+        "values": {
+          "embryo": "zygote",
+          "endosperm": "central",
+          "coat": "covering",
+          "fruit": "ovary"
+        },
+        "correct": true
+      }
+    ],
+    "checks": {
+      "sets": {
+        "attempts": [
+          {
+            "value": "cells",
+            "correct": false
+          },
+          {
+            "value": "sets",
+            "correct": true
+          }
+        ],
+        "value": "sets",
+        "correct": true
+      },
+      "coat": {
+        "attempts": [
+          {
+            "value": "maternal",
+            "correct": true
+          }
+        ],
+        "value": "maternal",
+        "correct": true
+      },
+      "scope": {
+        "attempts": [
+          {
+            "value": "limited",
+            "correct": true
+          }
+        ],
+        "value": "limited",
+        "correct": true
+      }
+    },
+    "answers": {
+      "transfer": "My transfer explanation distinguishes compatible pollen transfer at stigma from later cell fusion. No-pollen reference lacks tube/fusions by supplied rules. Pollen stays on stigma; a tube grows through style and micropyle into a receiving synergid, delivering two nonmotile sperm. Each is used once: n sperm+n egg gives 2n zygote; the other sperm+two n polar nuclei gives initial 3n endosperm. n counts chromosome sets per nucleus, not cells or DNA molecules. Zygote descendants form embryo, central product endosperm; maternal ovule coverings form seed coat and maternal ovary wall fruit wall here. Species, conditions, endosperm persistence and seedless/asexual pathways vary; this model does not establish real success rates.",
+      "fusion": "My fusion explanation distinguishes compatible pollen transfer at stigma from later cell fusion. No-pollen reference lacks tube/fusions by supplied rules. Pollen stays on stigma; a tube grows through style and micropyle into a receiving synergid, delivering two nonmotile sperm. Each is used once: n sperm+n egg gives 2n zygote; the other sperm+two n polar nuclei gives initial 3n endosperm. n counts chromosome sets per nucleus, not cells or DNA molecules. Zygote descendants form embryo, central product endosperm; maternal ovule coverings form seed coat and maternal ovary wall fruit wall here. Species, conditions, endosperm persistence and seedless/asexual pathways vary; this model does not establish real success rates.",
+      "origins": "My origins explanation distinguishes compatible pollen transfer at stigma from later cell fusion. No-pollen reference lacks tube/fusions by supplied rules. Pollen stays on stigma; a tube grows through style and micropyle into a receiving synergid, delivering two nonmotile sperm. Each is used once: n sperm+n egg gives 2n zygote; the other sperm+two n polar nuclei gives initial 3n endosperm. n counts chromosome sets per nucleus, not cells or DNA molecules. Zygote descendants form embryo, central product endosperm; maternal ovule coverings form seed coat and maternal ovary wall fruit wall here. Species, conditions, endosperm persistence and seedless/asexual pathways vary; this model does not establish real success rates."
+    },
+    "complete": true
+  },
+  "evidence": [
+    {
+      "goalId": "transfer",
+      "answerId": "transfer",
+      "writing": "My transfer explanation distinguishes compatible pollen transfer at stigma from later cell fusion. No-pollen reference lacks tube/fusions by supplied rules. Pollen stays on stigma; a tube grows through style and micropyle into a receiving synergid, delivering two nonmotile sperm. Each is used once: n sperm+n egg gives 2n zygote; the other sperm+two n polar nuclei gives initial 3n endosperm. n counts chromosome sets per nucleus, not cells or DNA molecules. Zygote descendants form embryo, central product endosperm; maternal ovule coverings form seed coat and maternal ovary wall fruit wall here. Species, conditions, endosperm persistence and seedless/asexual pathways vary; this model does not establish real success rates.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "fusion",
+      "answerId": "fusion",
+      "writing": "My fusion explanation distinguishes compatible pollen transfer at stigma from later cell fusion. No-pollen reference lacks tube/fusions by supplied rules. Pollen stays on stigma; a tube grows through style and micropyle into a receiving synergid, delivering two nonmotile sperm. Each is used once: n sperm+n egg gives 2n zygote; the other sperm+two n polar nuclei gives initial 3n endosperm. n counts chromosome sets per nucleus, not cells or DNA molecules. Zygote descendants form embryo, central product endosperm; maternal ovule coverings form seed coat and maternal ovary wall fruit wall here. Species, conditions, endosperm persistence and seedless/asexual pathways vary; this model does not establish real success rates.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "origins",
+      "answerId": "origins",
+      "writing": "My origins explanation distinguishes compatible pollen transfer at stigma from later cell fusion. No-pollen reference lacks tube/fusions by supplied rules. Pollen stays on stigma; a tube grows through style and micropyle into a receiving synergid, delivering two nonmotile sperm. Each is used once: n sperm+n egg gives 2n zygote; the other sperm+two n polar nuclei gives initial 3n endosperm. n counts chromosome sets per nucleus, not cells or DNA molecules. Zygote descendants form embryo, central product endosperm; maternal ovule coverings form seed coat and maternal ovary wall fruit wall here. Species, conditions, endosperm persistence and seedless/asexual pathways vary; this model does not establish real success rates.",
+      "status": "not_graded"
+    }
+  ]
+}

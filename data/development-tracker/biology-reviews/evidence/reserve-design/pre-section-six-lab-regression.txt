@@ -1,0 +1,60 @@
+node.exe : [WebServer] (node:51092) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([WebServer] (no... env being set.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] 
+[WebServer] (!) Some chunks are larger than 500 kB after minification. Consider:
+[WebServer] - Using dynamic import() to code-split the application
+[WebServer] - Use build.rollupOptions.output.manualChunks to improve chunking: 
+https://rollupjs.org/configuration-options/#output-manualchunks
+[WebServer] - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[WebServer] (node:44024) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 37 tests using 1 worker
+
+(node:48464) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  1 tests\browser\biology-browser-contract.mjs:5:2 › embryonic-development: complete corrected attempt, truthful saves, named PDF/JSON/native print and edits (3.5s)
+  ok  2 tests\browser\biology-browser-contract.mjs:6:2 › embryonic-development: denied storage/retry, Unicode long writing and first offline PDF/native print (8.3s)
+  ok  3 tests\browser\biology-browser-contract.mjs:7:2 › embryonic-development: unfinished neutral PDF and export failure recovery (962ms)
+  ok  4 tests\browser\biology-browser-contract.mjs:8:2 › embryonic-development: root/development progress isolation and first offline development PDF (2.1s)
+  ok  5 tests\browser\embryo.spec.js:2:103 › embryo saved review returns without repeating movement; current volume edit immediately gates (1.9s)
+  ok  6 tests\browser\embryo.spec.js:2:897 › native touch cleavage release then next reading, keyboard ingression, resized mouse tissue placement (1.5s)
+  ok  7 tests\browser\biology-browser-contract.mjs:5:2 › food-web-energy: complete corrected attempt, truthful saves, named PDF/JSON/native print and edits (3.8s)
+  ok  8 tests\browser\biology-browser-contract.mjs:6:2 › food-web-energy: denied storage/retry, Unicode long writing and first offline PDF/native print (2.2s)
+  ok  9 tests\browser\biology-browser-contract.mjs:7:2 › food-web-energy: unfinished neutral PDF and export failure recovery (995ms)
+  ok 10 tests\browser\biology-browser-contract.mjs:8:2 › food-web-energy: root/development progress isolation and first offline development PDF (2.1s)
+  ok 11 tests\browser\energy.spec.js:2:105 › saved web review avoids repeated links, current transfer edit immediately gates and reloads raw blank (1.8s)
+  ok 12 tests\browser\energy.spec.js:2:930 › native plant drag-release-next plant rabbit taps, keyboard hopper link and resized mouse rabbit link (1.5s)
+  ok 13 tests\browser\biology-browser-contract.mjs:5:2 › microhabitats: complete corrected attempt, truthful saves, named PDF/JSON/native print and edits (3.8s)
+  ok 14 tests\browser\biology-browser-contract.mjs:6:2 › microhabitats: denied storage/retry, Unicode long writing and first offline PDF/native print (2.4s)
+  ok 15 tests\browser\biology-browser-contract.mjs:7:2 › microhabitats: unfinished neutral PDF and export failure recovery (988ms)
+  ok 16 tests\browser\biology-browser-contract.mjs:8:2 › microhabitats: root/development progress isolation and first offline development PDF (2.0s)
+  ok 17 tests\browser\habitat.spec.js:2:106 › saved comparison review direct return preserves completion; count edit immediately gates downstream comparison (1.9s)
+  ok 18 tests\browser\habitat.spec.js:2:922 › native quadrat drag-release-next probe tap, keyboard organism marking and resized mouse counting (1.1s)
+  ok 19 tests\browser\biology-browser-contract.mjs:5:2 › immune-memory: complete corrected attempt, truthful saves, named PDF/JSON/native print and edits (4.2s)
+  ok 20 tests\browser\biology-browser-contract.mjs:6:2 › immune-memory: denied storage/retry, Unicode long writing and first offline PDF/native print (2.3s)
+  ok 21 tests\browser\biology-browser-contract.mjs:7:2 › immune-memory: unfinished neutral PDF and export failure recovery (945ms)
+  ok 22 tests\browser\biology-browser-contract.mjs:8:2 › immune-memory: root/development progress isolation and first offline development PDF (2.1s)
+  ok 23 tests\browser\immune.spec.js:5:1 › immune review cursor preserves completion but current comparison edits immediately gate return (1.9s)
+  ok 24 tests\browser\immune.spec.js:6:1 › native touch antigen drag-release-next helper tap, keyboard plasma, graph cursor and responsive targets (1.5s)
+  ok 25 tests\browser\biology-browser-contract.mjs:5:2 › population-estimates: complete corrected attempt, truthful saves, named PDF/JSON/native print and edits (3.5s)
+  ok 26 tests\browser\biology-browser-contract.mjs:6:2 › population-estimates: denied storage/retry, Unicode long writing and first offline PDF/native print (2.3s)
+  ok 27 tests\browser\biology-browser-contract.mjs:7:2 › population-estimates: unfinished neutral PDF and export failure recovery (984ms)
+  ok 28 tests\browser\biology-browser-contract.mjs:8:2 › population-estimates: root/development progress isolation and first offline development PDF (2.0s)
+  ok 29 tests\browser\population.spec.js:2:108 › saved catch review returns without resampling; current raw blank immediately gates (2.1s)
+  ok 30 tests\browser\population.spec.js:2:1002 › legitimate zero-recapture fixture accepts not estimable and retains zero (1.1s)
+  ok 31 tests\browser\population.spec.js:2:1876 › native net drag-release-next tag tap, keyboard release, resized mouse recapture (1.3s)
+  ok 32 tests\browser\biology-browser-contract.mjs:5:2 › reserve-design: complete corrected attempt, truthful saves, named PDF/JSON/native print and edits (4.2s)
+  ok 33 tests\browser\biology-browser-contract.mjs:6:2 › reserve-design: denied storage/retry, Unicode long writing and first offline PDF/native print (2.6s)
+  ok 34 tests\browser\biology-browser-contract.mjs:7:2 › reserve-design: unfinished neutral PDF and export failure recovery (943ms)
+  ok 35 tests\browser\biology-browser-contract.mjs:8:2 › reserve-design: root/development progress isolation and first offline development PDF (2.0s)
+  ok 36 tests\browser\reserve.spec.js:2:105 › saved map review direct return preserves completion; current selection edit gates and retains original other plan (2.2s)
+  ok 37 tests\browser\reserve.spec.js:2:1003 › native planning marker drag-release-next land tap, arrow-key selection and resized mouse revision (1.4s)
+
+  37 passed (1.5m)

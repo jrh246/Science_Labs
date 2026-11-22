@@ -1,0 +1,124 @@
+[
+  {
+    "file": "public/resources/immune-memory-teacher-guide.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      3192,
+      3076
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "public/resources/immune-memory-worksheet.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1994,
+      1661,
+      2824
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/immune-memory/complete.pdf",
+    "pages": 4,
+    "pageCharacters": [
+      2267,
+      1334,
+      3126,
+      4073
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/immune-memory/development-draft.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1914,
+      2069,
+      1743
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/immune-memory/draft.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1904,
+      2069,
+      1743
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/immune-memory/edited-unconfirmed.pdf",
+    "pages": 4,
+    "pageCharacters": [
+      2438,
+      836,
+      4287,
+      2829
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/immune-memory/long-native-print.pdf",
+    "pages": 8,
+    "pageCharacters": [
+      2401,
+      730,
+      3383,
+      837,
+      837,
+      837,
+      1507,
+      1645
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/immune-memory/long-offline.pdf",
+    "pages": 8,
+    "pageCharacters": [
+      2438,
+      834,
+      3460,
+      905,
+      905,
+      905,
+      1668,
+      1743
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/immune-memory/native-print.pdf",
+    "pages": 4,
+    "pageCharacters": [
+      2626,
+      865,
+      3905,
+      3076
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/immune-memory/reading-unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2153,
+      1793,
+      2633
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/immune-memory/receptor-unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2314,
+      2094,
+      1743
+    ],
+    "finalLongMarker": false
+  }
+]

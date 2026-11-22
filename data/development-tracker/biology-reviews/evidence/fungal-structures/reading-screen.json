@@ -1,0 +1,86 @@
+{
+  "labId": "fungal-structures",
+  "locale": "en",
+  "scope": "Authored core directions/questions; excludes teacher notes, sources and student writing. Dynamic app/diagram/report wording is reviewed manually.",
+  "method": "Approximate Flesch-Kincaid with heuristic syllable counts and explicit scientific-word exceptions. Short fragments and technical terms can distort the score; no pass/fail or language certification.",
+  "overall": {
+    "words": 595,
+    "sentences": 62,
+    "wordsPerSentence": 9.6,
+    "approximateFleschKincaidGrade": 7.9
+  },
+  "fragments": {
+    "intro": {
+      "words": 49,
+      "sentences": 5,
+      "wordsPerSentence": 9.8,
+      "approximateFleschKincaidGrade": 6.8
+    },
+    "prediction": {
+      "words": 20,
+      "sentences": 2,
+      "wordsPerSentence": 10,
+      "approximateFleschKincaidGrade": 7.2
+    },
+    "design": {
+      "words": 25,
+      "sentences": 2,
+      "wordsPerSentence": 12.5,
+      "approximateFleschKincaidGrade": 7.7
+    },
+    "controls": {
+      "words": 43,
+      "sentences": 4,
+      "wordsPerSentence": 10.8,
+      "approximateFleschKincaidGrade": 7.8
+    },
+    "sampling": {
+      "words": 34,
+      "sentences": 3,
+      "wordsPerSentence": 11.3,
+      "approximateFleschKincaidGrade": 10.3
+    },
+    "limits": {
+      "words": 145,
+      "sentences": 12,
+      "wordsPerSentence": 12.1,
+      "approximateFleschKincaidGrade": 10.4
+    },
+    "explanation:body": {
+      "words": 27,
+      "sentences": 3,
+      "wordsPerSentence": 9,
+      "approximateFleschKincaidGrade": 4.5
+    },
+    "explanation:spore": {
+      "words": 30,
+      "sentences": 3,
+      "wordsPerSentence": 10,
+      "approximateFleschKincaidGrade": 6.8
+    },
+    "explanation:budding": {
+      "words": 35,
+      "sentences": 3,
+      "wordsPerSentence": 11.7,
+      "approximateFleschKincaidGrade": 7.2
+    },
+    "check:nutrition": {
+      "words": 62,
+      "sentences": 7,
+      "wordsPerSentence": 8.9,
+      "approximateFleschKincaidGrade": 6.7
+    },
+    "check:sexual": {
+      "words": 60,
+      "sentences": 10,
+      "wordsPerSentence": 6,
+      "approximateFleschKincaidGrade": 7.2
+    },
+    "check:yeast": {
+      "words": 65,
+      "sentences": 8,
+      "wordsPerSentence": 8.1,
+      "approximateFleschKincaidGrade": 7.9
+    }
+  }
+}

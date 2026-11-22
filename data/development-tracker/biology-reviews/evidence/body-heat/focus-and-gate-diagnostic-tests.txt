@@ -1,0 +1,81 @@
+node.exe : [WebServer] (node:43896) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([WebServer] (no... env being set.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] 
+[WebServer] (!) Some chunks are larger than 500 kB after minification. Consider:
+[WebServer] - Using dynamic import() to code-split the application
+[WebServer] - Use build.rollupOptions.output.manualChunks to improve chunking: 
+https://rollupjs.org/configuration-options/#output-manualchunks
+[WebServer] - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[WebServer] (node:57264) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 2 tests using 2 workers
+
+(node:56760) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:51416) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  2 tests\browser\heat.spec.js:11:1 › heat native cube drag-release then next physical probe taps, keyboard focus, phone graph and mouse resized ports (6.3s)
+  x  1 tests\browser\soil.spec.js:14:1 › soil current availability gate disables dependent concepts immediately after editing (7.7s)
+
+
+  1) tests\browser\heat.spec.js:11:1 › heat native cube drag-release then next physical probe taps, keyboard focus, phone graph and mouse resized ports 
+
+    Error: expect(locator).toBeFocused() failed
+
+    Locator:  locator('[data-entry="temperature"]')
+    Expected: focused
+    Received: inactive
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toBeFocused" locator('[data-entry="temperature"]') with timeout 5000ms
+      - waiting for locator('[data-entry="temperature"]')
+        14 × locator resolved to <input value="" id="heat-reading" inputmode="decimal" data-entry="temperature"/>
+           - unexpected value "inactive"
+
+
+       9 | sharedBiologyReportTests({id,fullAttempt,lastAnswer:'energy',printEvidence:'Revised after feedback'});
+      10 | test('heat view-only saved review and existing initial-snapshot/current calculation edits preserve raw data without rerunning',async({page:p})=>{await fullAttempt(p);await a(p,'complete').click();await p.getByText('Review the same saved evidence',{exact:true}).click();await a(p,'review-geometry').click();await a(p,'measure').click();await select(p,'small');await p.getByText('Review the same model time points',{exact:true}).click();await p.locator('[data-lab-action="phase"][data-id="initial"]').click();await p.getByText('Review the same model time points',{exact:true}).click();await p.locator('[data-lab-action="phase"][data-id="final"]').click();await a(p,'calculate').click();await a(p,'explain').click();await expect(a(p,'complete')).toHaveText('Work saved as complete');await p.getByText('Review the same saved evidence',{exact:true}).click();await a(p,'review-readings').click();await entry(p,'temperature').fill('');await expect(a(p,'calculate')).toBeDisabled();await p.reload();await expect(entry(p,'temperature')).toHaveValue('');await expect(p.locator('[data-heat-summary="small"]')).not.toContainText('final reading checked');await downloadBiologyPdf(p,out,'edited-unconfirmed.pdf');await read(p);await a(p,'calculate').click();await expect(a(p,'explain')).toBeDisabled();await entry(p,'large-rate').fill('');await p.reload();await expect(entry(p,'large-rate')).toHaveValue('');});
+    > 11 | test('heat native cube drag-release then next physical probe taps, keyboard focus, phone graph and mouse resized ports',async({browser})=>{const context=await browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true,reducedMotion:'reduce'}),p=await context.newPage();await plan(p);await geometry(p);await p.locator('.heat-bench').evaluate(el=>el.scrollIntoView({block:'center'}));const x=await p.locator('[data-tool="cube"]').boundingBox(),y=await p.locator('[data-place="stand"]').boundingBox(),cdp=await context.newCDPSession(p);expect(y.width).toBeGreaterThanOrEqual(44);expect(y.height).toBeGreaterThanOrEqual(44);await cdp.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x:x.x+x.width/2,y:x.y+x.height/2}]});for(let i=1;i<=8;i++)await cdp.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x:x.x+x.width/2+(y.x+y.width/2-x.x-x.width/2)*i/8,y:x.y+x.height/2+(y.y+y.height/2-x.y-x.height/2)*i/8}]});await cdp.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});await p.evaluate(()=>{window.heatFocusEvents=[];for(const type of ['pointerdown','pointerup','mousedown','mouseup','click','focusin','focusout'])document.addEventListener(type,e=>window.heatFocusEvents.push({type,tag:e.target.tagName,id:e.target.id,place:e.target.closest?.('[data-place]')?.dataset.place,active:document.activeElement?.id,trusted:e.isTrusted,touchMouse:e.sourceCapabilities?.firesTouchEvents}),true);});await p.locator('[data-tool="probe"]').tap();await p.locator('[data-place="port"]').tap();await fs.mkdir(out,{recursive:true});await fs.writeFile(out+'/touch-focus-diagnostic.json',JSON.stringify(await p.evaluate(()=>window.heatFocusEvents),null,2));await expect(entry(p,'temperature')).toBeFocused();await read(p);await fs.mkdir(out,{recursive:true});await p.locator('.heat-bench').screenshot({path:out+'/phone-small-probe.png'});await select(p,'large');for(const[tool,site]of[['cube','stand'],['probe','port']]){await p.locator(`[data-tool="${tool}"]`).focus();await p.keyboard.press('Enter');await p.locator(`[data-place="${site}"]`).focus();await p.keyboard.press('Enter');}await read(p);await p.locator('.heat-bench').screenshot({path:out+'/phone-large-probe.png'});await a(p,'advance').click();for(const id of ids){await select(p,id);await read(p);}await a(p,'calculate').click();await calculations(p);await interpretation(p);expect(await p.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);await p.locator('.heat-graph').screenshot({path:out+'/phone-graph.png'});await p.setViewportSize({width:768,height:1024});await p.locator('.heat-graph').screenshot({path:out+'/tablet-graph.png'});await p.goto('/');await p.evaluate(()=>localStorage.clear());await plan(p);await geometry(p);await setup(p,{mouseProbe:true});await context.close();});
+         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ^
+      12 | test('heat current interpretation edits immediately disable dependent checks and remain unconfirmed in exports/reload',async({page:p})=>{await fullAttempt(p);await a(p,'complete').click();await entry(p,'meaning-energy').selectOption('');await expect(p.locator('.seed-choices button').first()).toBeDisabled();await expect(a(p,'complete')).toBeDisabled();await p.reload();await expect(entry(p,'meaning-energy')).toHaveValue('');await expect(p.locator('.heat-interpretation-feedback')).not.toContainText('Correct!');await downloadBiologyPdf(p,out,'interpretation-edited.pdf');await interpretation(p);await expect(p.locator('.seed-choices button').first()).toBeEnabled();});
+      13 |
+        at C:\Projects\Science_Labs\tests\browser\heat.spec.js:11:1739
+
+    Error Context: test-results\heat-heat-native-cube-drag-db09f-aph-and-mouse-resized-ports\error-context.md
+
+  2) tests\browser\soil.spec.js:14:1 › soil current availability gate disables dependent concepts immediately after editing 
+
+    Error: expect(locator).toBeDisabled() failed
+
+    Locator:  locator('.seed-choices button').first()
+    Expected: disabled
+    Received: enabled
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toBeDisabled" locator('.seed-choices button').first() with timeout 5000ms
+      - waiting for locator('.seed-choices button').first()
+        14 × locator resolved to <button type="button" data-value="speed" aria-pressed="false" data-question="budget" data-lab-action="check">The volume alone proves how fast each soil draine…</button>
+           - unexpected value "enabled"
+
+
+      12 | test('soil native collector drag-release then physical dose taps, keyboard placements, phone sites and mouse geometry',async({browser})=>{const context=await browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true,reducedMotion:'reduce'}),p=await context.newPage();await plan(p);await p.locator('.soil-bench').evaluate(el=>el.scrollIntoView({block:'center'}));const x=await p.locator('[data-tool="collector"]').boundingBox(),y=await p.locator('[data-place="collector"]').boundingBox(),cdp=await context.newCDPSession(p);expect(y.width).toBeGreaterThanOrEqual(44);await cdp.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x:x.x+x.width/2,y:x.y+x.height/2}]});for(let i=1;i<=8;i++)await cdp.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x:x.x+x.width/2+(y.x+y.width/2-x.x-x.width/2)*i/8,y:x.y+x.height/2+(y.y+y.height/2-x.y-x.height/2)*i/8}]});await cdp.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});await p.locator('[data-tool="dose"]').tap();await p.locator('[data-place="dose"]').tap();await expect(a(p,'settle')).toBeVisible();await a(p,'settle').tap();await expect(entry(p,'reading')).toBeFocused();await read(p);for(const id of ['loam','clay']){await select(p,id);for(const tool of ['collector','dose']){await p.locator(`[data-tool="${tool}"]`).focus();await p.keyboard.press('Enter');await p.locator(`[data-place="${tool}"]`).focus();await p.keyboard.press('Enter');}await a(p,'settle').click();await read(p);}await a(p,'compare').click();await retention(p);await available(p);for(const site of ['film','pool','outlet']){const b=await p.locator(`[data-place="${site}"]`).boundingBox();expect(b.width).toBeGreaterThanOrEqual(44);expect(b.height).toBeGreaterThanOrEqual(44);}await pore(p);expect(await p.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);await shot(p,'phone-pore');await p.setViewportSize({width:768,height:1024});await shot(p,'tablet-pore');await p.goto('/');await p.evaluate(()=>localStorage.clear());await plan(p);await setup(p,{mouseDose:true});await context.close();});
+      13 |
+    > 14 | test('soil current availability gate disables dependent concepts immediately after editing',async({page:p})=>{await fullAttempt(p);await a(p,'complete').click();await entry(p,'availability-clay').fill('');await fs.mkdir(out,{recursive:true});await p.screenshot({path:out+'/availability-gate-edit.png',fullPage:true});await expect(p.locator('.seed-choices button').first()).toBeDisabled();await expect(a(p,'complete')).toBeDisabled();await p.reload();await expect(entry(p,'availability-clay')).toHaveValue('');await available(p);await expect(p.locator('.seed-choices button').first()).toBeEnabled();});
+         |                                                                                                                                                                                                                                                                                                                                                                                      ^
+      15 |
+        at C:\Projects\Science_Labs\tests\browser\soil.spec.js:14:374
+
+    Error Context: test-results\soil-soil-current-availabi-fc8bc-s-immediately-after-editing\error-context.md
+
+  2 failed
+    tests\browser\heat.spec.js:11:1 › heat native cube drag-release then next physical probe taps, keyboard focus, phone graph and mouse resized ports 
+    tests\browser\soil.spec.js:14:1 › soil current availability gate disables dependent concepts immediately after editing 

@@ -5,3 +5,15 @@ test-results/
 
 tmp/
 output/pdf/
+
+# Account platform secrets and local runtime data
+.env
+.env.*
+!.env.example
+server/.env
+server/node_modules/
+.platform-local/
+.platform-build/
+dist-platform/
+.aws-sam/
+server/generated/

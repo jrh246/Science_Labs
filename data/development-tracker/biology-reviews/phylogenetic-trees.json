@@ -1,0 +1,351 @@
+{
+  "schemaVersion": 1,
+  "labId": "phylogenetic-trees",
+  "taskId": "BIO-06-REVIEW",
+  "reviewedBy": "Codex - separate development review",
+  "reviewedOn": "2026-11-15",
+  "sourceSnapshot": "sha256:5e6ee2fe85cda024eea43907cc7ef32a43c8b06579f7c11e5a65d460f1a82c88",
+  "decision": "pass",
+  "summary": "English virtual-only development review passed after plain report tip labels, readable phone node key and top-view whale illustration corrections. External classroom/hardware and AUD-10 delivery remain separate.",
+  "blockers": [],
+  "checks": {
+    "G01": {
+      "status": "pass",
+      "notes": "Three goals have evidence in two distinct aligned-column classifications, a student-built topology, rotation, concept responses and original explanations; no mastery inferred from completion.",
+      "evidence": [
+        "src/investigations/phylo-content.js",
+        "src/investigations/phylo-report.js",
+        "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/complete-responses.json"
+      ]
+    },
+    "G02": {
+      "status": "pass",
+      "notes": "Two comparisons contrast illustrative close ancestry with similar swimming form. Build one topology and rotate it; no repetitive identical trials. Supplied traits/outgroup are distinguished from student inference.",
+      "evidence": [
+        "src/investigations/phylo-content.js",
+        "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/review-notes.md"
+      ]
+    },
+    "G03": {
+      "status": "pass",
+      "notes": "OpenStax 20.1/20.2 and primary Nikaido et al. (1999) read. Constructed DNA differences are accurate and explicitly synthetic. Real whale/hippo ancestry rests on independent research; no generic fewest-differences rule, ancestor-tip ladder or dates from unscaled branches.",
+      "evidence": [
+        "src/investigations/phylo-model.js",
+        "tests/phylo.test.js",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC17876/",
+        "https://openstax.org/books/biology-2e/pages/20-2-determining-evolutionary-relationships"
+      ]
+    },
+    "G04": {
+      "status": "pass",
+      "notes": "Invented rows, supplied outgroup, limited taxa, convergent form, short-sequence/rate limits, unscaled branch length, body scale and rotation equivalence are stated at relevant steps and in resources/reports.",
+      "evidence": [
+        "src/investigations/phylo-content.js",
+        "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/complete.pdf"
+      ]
+    },
+    "G05": {
+      "status": "pass",
+      "notes": "Students classify corresponding actual base positions, place living cards at branch tips, revise an incorrect tree and rotate sibling branches. Changes are visible and recorded; navigation alone does not supply evidence.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/comparison-1-recorded.png",
+        "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/tree-confirmed.png",
+        "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/tree-rotated.png"
+      ]
+    },
+    "G06": {
+      "status": "pass",
+      "notes": "Desktop/tablet/phone DNA and empty/filled/rotated trees inspected. Shared coordinates align work sites. Top-view whale clarifies flukes, readable outside node key replaces tiny phone labels, shaded anatomy supports a plausible illustration.",
+      "evidence": [
+        "src/investigations/phylo-art.js",
+        "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/comparison-1-initial.png",
+        "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/tree-empty.png",
+        "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/phone-tree.png",
+        "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/tablet-tree.png"
+      ]
+    },
+    "G07": {
+      "status": "pass",
+      "notes": "Stable seeded bank order/reload and unchanged biological positions. Both sibling orders accepted; rotation changes display only. No correctness cue is supplied by a fixed card position.",
+      "evidence": [
+        "src/investigations/phylo-model.js",
+        "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/model-tests.txt"
+      ]
+    },
+    "G08": {
+      "status": "pass",
+      "notes": "Full authored English pathway, errors, concepts, report and resources manually reviewed; needed tree/DNA vocabulary defined. Core diagnostic ~7.7 is a screen, not comprehension evidence; external review remains pending.",
+      "evidence": [
+        "src/investigations/phylo-content.js",
+        "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/reading-screen.json",
+        "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/review-notes.md"
+      ]
+    },
+    "G09": {
+      "status": "pass",
+      "notes": "Prediction/design required before traits/sequences/tree observations; first response/timing retained. Checked comparisons gate building; checked topology gates rotation; required rotation gates checks; reasoned predictions may be wrong.",
+      "evidence": [
+        "tests/phylo.test.js",
+        "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/browser-tests.txt"
+      ]
+    },
+    "G10": {
+      "status": "pass",
+      "notes": "Explicit Correct! and usable feedback preserve actual mistakes/current edits. Edited positions/tips immediately clear stale correctness and block next actions; repeated correct checks do not invent correction history. BIO-07 shared touch follow-up: suppress the pending native compatibility click across replacement DOM, reset on the next physical pointerdown. All six earlier lab browser files passed in the 50-check group; its only failure was a new singular/plural assertion typo, corrected in the focused 2/2 exact-tap rerun. Verify one increment/toggle/rotation and preserve the next deliberate tap. Science and saved observations unchanged; original acceptance snapshots retained.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/unconfirmed-tree.pdf",
+        "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-exact-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-regression-initial.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-followup-manifest.json"
+      ]
+    },
+    "G11": {
+      "status": "pass",
+      "notes": "Successful storage alone yields nearby repeatable completion confirmation. Denied save/retry, reload, identity changes and academic invalidation pass; equivalent branch rotation preserves completion.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/browser-tests.txt",
+        "src/investigations/completion-status.js"
+      ]
+    },
+    "G12": {
+      "status": "pass",
+      "notes": "Stable root-scoped v1 key/schema preserves partial classifications, placements, choice seed, original tree, rotations and corrections. Root/development storage/caches remain separate and other lab attempts unchanged.",
+      "evidence": [
+        "src/investigations/phylo-model.js",
+        "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/browser-tests.txt"
+      ]
+    },
+    "G13": {
+      "status": "pass",
+      "notes": "Actual completed named/neutral draft PDF downloads and native print preserve current work, optional identity, safe filename and readable time/zone/status.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/draft.pdf",
+        "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/native-print.pdf"
+      ]
+    },
+    "G14": {
+      "status": "pass",
+      "notes": "Reports separate supplied references from student positions/counts/tree and preserve current unconfirmed work, real revisions, original/current display and verbatim goal-linked explanations. Plain tip descriptions replace internal IDs. Structured raw history is retained; no click-log grade/submission claim.",
+      "evidence": [
+        "src/investigations/phylo-report.js",
+        "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/unconfirmed-tree.pdf",
+        "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/complete-responses.json"
+      ]
+    },
+    "G15": {
+      "status": "pass",
+      "notes": "All 31 final report/resource pages rendered and inspected. Full-page check resolves a thumbnail-only clipping concern. Unicode/long final marker, named identity/time, native print and first offline PDF/failure recovery pass; all exports use one snapshot.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/pdf-inspection.json",
+        "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/pdf-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/pdf-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/pdf-contact-3.png",
+        "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/pdf-contact-4.png",
+        "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/long-offline.pdf",
+        "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/long-native-print.pdf",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.md",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.md"
+      ]
+    },
+    "G16": {
+      "status": "pass",
+      "notes": "Actual mouse/native touch drag-release-next-tap, keyboard/select-place/focus, scroll/resize/reload, 44px phone tip targets and reduced motion pass. Readable labels/text supplement graphics. Physical device/AT acceptance remains pending. BIO-07 shared touch follow-up: suppress the pending native compatibility click across replacement DOM, reset on the next physical pointerdown. All six earlier lab browser files passed in the 50-check group; its only failure was a new singular/plural assertion typo, corrected in the focused 2/2 exact-tap rerun. Verify one increment/toggle/rotation and preserve the next deliberate tap. Science and saved observations unchanged; original acceptance snapshots retained.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/phone-columns.png",
+        "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/phone-tree.png",
+        "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/tablet-tree.png",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-exact-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-regression-initial.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-followup-manifest.json",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.json",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.md",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-native-focus-regressions.txt"
+      ]
+    },
+    "G17": {
+      "status": "pass",
+      "notes": "131 model/report tests; final six lab browser workflows plus six initial catalog regressions pass. All 51 public PDFs verified, standalone/platform build compiles, review findings/fixes retained. This is development evidence only. BIO-07 shared touch follow-up: suppress the pending native compatibility click across replacement DOM, reset on the next physical pointerdown. All six earlier lab browser files passed in the 50-check group; its only failure was a new singular/plural assertion typo, corrected in the focused 2/2 exact-tap rerun. Verify one increment/toggle/rotation and preserve the next deliberate tap. Science and saved observations unchanged; original acceptance snapshots retained.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/initial-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/platform-build.txt",
+        "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-exact-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-regression-initial.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-followup-manifest.json"
+      ]
+    },
+    "G18": {
+      "status": "pass",
+      "notes": "English content, stable IDs/locale/version and original writing preserved for future localization. Remaining status/diagram strings await AUD-10; no Spanish switching or translated output claimed.",
+      "evidence": [
+        "src/investigations/phylo-content.js",
+        "src/investigations/phylo-report.js",
+        "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/review-notes.md"
+      ]
+    },
+    "RESOURCES": {
+      "status": "pass",
+      "notes": "Matching three-page student/two-page teacher resources use current shared questions, limits and evidence tables. Links/hashes and every final page inspected. Virtual only; Python is build-time tooling.",
+      "evidence": [
+        "scripts/build-biology-resources.py",
+        "public/resources/phylogenetic-trees-worksheet.pdf",
+        "public/resources/phylogenetic-trees-teacher-guide.pdf",
+        "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/resource-check.txt"
+      ]
+    },
+    "ACCESS": {
+      "status": "pass",
+      "notes": "Guest/free lab/report access verified. Existing runtime worker and role/entitlement/publication policy unchanged. Compiled release is not published; BIO-01 40-test API protection evidence reused without a live teacher/billing/email claim.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/platform-build.txt",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/platform-tests.txt"
+      ]
+    },
+    "TRACKING": {
+      "status": "pass",
+      "notes": "Actual available virtual-only catalog/unit/route, English activity and handouts reflected in validated generated dataset/checklists. Spanish/standards approvals unchanged; shared project copies refreshed without full-course approval.",
+      "evidence": [
+        "src/catalog.js",
+        "data/curriculum/dataset.json",
+        "data/development-tracker/activity-checklist.csv"
+      ]
+    }
+  },
+  "artifacts": {
+    "workflow": [
+      "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/review-notes.md",
+      "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/complete-responses.json",
+      "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/source-manifest.json",
+      "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/reading-screen.json"
+    ],
+    "visuals": [
+      "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/comparison-1-initial.png",
+      "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/comparison-1-recorded.png",
+      "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/comparison-2-initial.png",
+      "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/comparison-2-recorded.png",
+      "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/tree-empty.png",
+      "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/tree-confirmed.png",
+      "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/tree-rotated.png",
+      "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/phone-columns.png",
+      "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/phone-tree.png",
+      "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/phone-explain.png",
+      "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/tablet-tree.png"
+    ],
+    "pdfReports": [
+      "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/development-draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/unconfirmed-tree.pdf",
+      "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/complete.pdf",
+      "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/long-offline.pdf",
+      "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/pdf-inspection.json"
+    ],
+    "nativePrint": [
+      "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/native-print.pdf",
+      "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/long-native-print.pdf"
+    ],
+    "tests": [
+      "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/model-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/initial-browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/resource-check.txt",
+      "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/platform-build.txt",
+      "data/development-tracker/biology-reviews/evidence/phylogenetic-trees/review-notes.md"
+    ],
+    "resources": [
+      "public/resources/phylogenetic-trees-worksheet.pdf",
+      "public/resources/phylogenetic-trees-teacher-guide.pdf"
+    ]
+  },
+  "externalValidation": {
+    "teacherStudentComprehension": {
+      "status": "pending",
+      "notes": "Not yet performed; development checks do not establish classroom comprehension."
+    },
+    "physicalDevices": {
+      "status": "pending",
+      "notes": "Not yet performed; browser emulation is not physical-device acceptance."
+    },
+    "classroomProtocol": {
+      "status": "pending",
+      "notes": "Record the selected modes and actual protocol validation separately."
+    }
+  },
+  "futureWork": [
+    {
+      "id": "AUD-10",
+      "status": "planned",
+      "notes": "Full native language switching and translated printing are not certified by the localization-readiness check."
+    }
+  ],
+  "history": [
+    {
+      "finding": "Separate review: report used internal slot IDs; phone diagram labels were too small; whale side drawing could confuse fluke orientation.",
+      "resolution": "Use plain tip descriptions, readable outside node/root key and a labeled top-view whale with flippers/flukes. Affected visual/report evidence pending."
+    },
+    {
+      "finding": "Contact-sheet thumbnail appeared clipped on the first long offline page.",
+      "resolution": "Viewed the full rendered page: all content and margins intact. No PDF-engine change needed. All 31 final pages and corrected screenshots inspected."
+    },
+    {
+      "id": "BIO-07-touch-once",
+      "finding": "A native compatibility click could hit a new control after a touch redraw; discovered from viral round-2 phone evidence.",
+      "resolution": "BIO-07 shared touch follow-up: suppress the pending native compatibility click across replacement DOM, reset on the next physical pointerdown. All six earlier lab browser files passed in the 50-check group; its only failure was a new singular/plural assertion typo, corrected in the focused 2/2 exact-tap rerun. Verify one increment/toggle/rotation and preserve the next deliberate tap. Science and saved observations unchanged; original acceptance snapshots retained.",
+      "sourceSnapshot": "sha256:615ccee6e5fe3033f3dba30fc3914477c955e54bf3a2271d32febc0b2a768c60",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/viral-spread/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-exact-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-regression-initial.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-followup-manifest.json"
+      ]
+    }
+  ],
+  "followups": [
+    {
+      "id": "shared-touch-focus-2026-11-15",
+      "reviewedOn": "2026-11-15",
+      "reviewedBy": "Codex - shared interaction follow-up",
+      "decision": "pass",
+      "summary": "Pending native compatibility mousedown no longer steals newly assigned focus. Existing deliberate next-tap/mouse/keyboard behavior verified in39 selected browser cases; original lab review snapshot retained.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.json",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.md",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-native-focus-regressions.txt"
+      ]
+    },
+    {
+      "id": "shared-response-pagination-2026-11-15",
+      "recordedAt": "2026-11-15T17:05:24.793Z",
+      "scope": "Shared PDF question/answer page-break guard; original review remains its point-in-time snapshot. Representative current starch, stored heat/fungal and legacy enzyme reports checked; not a full rerun of this lab.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.md",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.json",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/pagination-corrected.txt",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-model-tests.txt"
+      ]
+    },
+    {
+      "id": "shared-scientific-symbols-2026-11-15",
+      "recordedAt": "2026-11-15T18:31:00.196Z",
+      "scope": "Shared offline scientific-symbol glyph fallback only; original source snapshot/history unchanged. Representative new/old outputs and legacy wrappers validated, not full rerun of this lab.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.md",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.json",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/glyph-all-artifacts.txt"
+      ]
+    }
+  ]
+}

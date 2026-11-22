@@ -1,0 +1,6 @@
+﻿"id","title","jurisdiction","version","status","url","effectiveFrom","effectiveTo"
+"ngss-2013","Next Generation Science Standards","US-national-model","2013","reference","https://www.nextgenscience.org/sites/default/files/AllDCI.pdf","",""
+"ccss-math-2010","Common Core Mathematics","US-national-model","2010","reference","https://www.thecorestandards.org/Math/Content/7/SP/","",""
+"ccss-ela-2010","Common Core ELA and Literacy","US-national-model","2010","expansion-planned","https://www.thecorestandards.org/ELA-Literacy/","",""
+"wa-science-pending","Washington Science Standards","US-WA","unverified","review-required","https://ospi.k12.wa.us/","",""
+"ut-seed-pending","Utah SEEd Standards","US-UT","unverified","review-required","https://schools.utah.gov/","",""

@@ -1,0 +1,320 @@
+{
+  "schemaVersion": 1,
+  "labId": "body-heat",
+  "taskId": "BIO-19-REVIEW",
+  "reviewedBy": "Codex - separate development review",
+  "reviewedOn": "2026-11-15",
+  "sourceSnapshot": "sha256:76d5658dd9a9bbffe8b95558d8ae7acca3b0a4bb10fcff8aa322d157a78958a0",
+  "checks": {
+    "G01": {
+      "status": "pass",
+      "notes": "Three goals connect area/volume scaling, checked rounded temperature changes/rates, and total transferred energy versus temperature with explicit limits for animals.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/body-heat/build-brief.md",
+        "data/development-tracker/biology-reviews/evidence/body-heat/complete-responses.json"
+      ]
+    },
+    "G02": {
+      "status": "pass",
+      "notes": "One small and one large supplied cube, one synchronized20-model-minute interval. Same material/initial temperature/air/exposed faces, varying mass with volume. No default triplicates, animal samples or empirical population inference.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/body-heat/build-brief.md",
+        "data/development-tracker/biology-reviews/evidence/body-heat/review-notes.md"
+      ]
+    },
+    "G03": {
+      "status": "pass",
+      "notes": "OpenStax Biology33.1/33.3, OU size/shape, NTHU chapter5 actual pages2–4 and OpenStax Physics11.2 consulted. Area scales4×, volume8×, A/V halves. Exponential uniform cooling and Qout=mcΔT consistent under stated assumptions.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/body-heat/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/body-heat/final-model-tests.txt"
+      ]
+    },
+    "G04": {
+      "status": "pass",
+      "notes": "Chosen coefficient/material/density/capacity, passive uniform-temperature model, all six faces exposed and negligible probe/support heat explicit. Rounded endpoints and provided energy calculations distinguished from measurement and student calculation. No universal animal cooling prediction.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/body-heat/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/body-heat/build-brief.md"
+      ]
+    },
+    "G05": {
+      "status": "pass",
+      "notes": "Students calculate geometry, move each cube onto its stand, insert probe at actual port, read both initial/final displays, calculate interval rates and distinguish temperature from supplied total energy estimates.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/body-heat/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/body-heat/visual-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/body-heat/visual-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/body-heat/visual-contact-3.png"
+      ]
+    },
+    "G06": {
+      "status": "pass",
+      "notes": "Common geometric scale, actual port/probe alignment, initial/stand/zero/final states and graph inspected. Review added warm tray support/legs, display feet and past-tense paused-clock caption; phone/tablet probes/graph fit.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/body-heat/visual-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/body-heat/visual-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/body-heat/visual-contact-3.png",
+        "data/development-tracker/biology-reviews/evidence/body-heat/phone-small-probe.png",
+        "data/development-tracker/biology-reviews/evidence/body-heat/phone-large-probe.png",
+        "data/development-tracker/biology-reviews/evidence/body-heat/phone-graph.png"
+      ]
+    },
+    "G07": {
+      "status": "pass",
+      "notes": "Small/large identity is the explanatory independent variable, not a hidden-answer task; comparisons include both/equal choices. Nonlinear finite rates do not falsely force a2× result; temperature/energy ranking differs.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/body-heat/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/body-heat/interpretation-unconfirmed.pdf"
+      ]
+    },
+    "G08": {
+      "status": "pass",
+      "notes": "All authored directions, messages, labels, reports and resources read. Area per volume, passive cooling, average rate, heat capacity and joules explained with units. Diagnostic grade7.5/10.7words per sentence; classroom comprehension untested.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/body-heat/reading-screen.json",
+        "data/development-tracker/biology-reviews/evidence/body-heat/review-notes.md"
+      ]
+    },
+    "G09": {
+      "status": "pass",
+      "notes": "Prediction/control reasoning before geometry or temperatures; checked ratios before readings; both setups and initials before the single interval; all readings before calculation; current interpretation before concepts/completion. Current edits immediately disable dependent controls.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/body-heat/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/body-heat/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/body-heat/interpretation-edited.pdf"
+      ]
+    },
+    "G10": {
+      "status": "pass",
+      "notes": "Explicit Correct!/Try again explains ratio, display reading, drop/rate and energy comparison. Wrong/empty/current edited proposals remain unconfirmed; meaningful revisions appear in learning report.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/body-heat/ratio-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/body-heat/unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/body-heat/calculation-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/body-heat/interpretation-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/body-heat/edited-unconfirmed.pdf"
+      ]
+    },
+    "G11": {
+      "status": "pass",
+      "notes": "Actual successful/repeated/reloaded completion, denied storage/retry and identity versus academic edits pass. Confirmation means local saved evidence, not grade or cloud submission.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/body-heat/final-browser-tests.txt"
+      ]
+    },
+    "G12": {
+      "status": "pass",
+      "notes": "Versioned scoped attempts retain first reasoning, snapshots and corrections. View-only navigation preserves completion; substantive edits invalidate current dependencies without rerunning time or erasing recorded temperatures. Energy remains available if only geometry math is edited.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/body-heat/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/body-heat/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/body-heat/edited-unconfirmed.pdf"
+      ]
+    },
+    "G13": {
+      "status": "pass",
+      "notes": "Actual named/unnamed completed/draft PDF download and native print include optional identity/period, safe names and standard local date/time/PST.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/body-heat/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/body-heat/draft.pdf",
+        "data/development-tracker/biology-reviews/evidence/body-heat/native-print.pdf"
+      ]
+    },
+    "G14": {
+      "status": "pass",
+      "notes": "Report groups geometry, checked temperature data, student rates, provided mass/energy estimates, interpretations, original writing, corrective evidence and limitations. No chronological click log/autograde.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/body-heat/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/body-heat/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/body-heat/interpretation-edited.pdf"
+      ]
+    },
+    "G15": {
+      "status": "pass",
+      "notes": "All54 current PDF pages inspected through seven sheets: worksheet3/teacher2, completed/native/edited4, drafts/unconfirmed3, long offline8/native7. Tables/statuses/units/readable Unicode and FINAL marker verified; first offline, recovery and shared snapshot pass.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/body-heat/pdf-inspection.json",
+        "data/development-tracker/biology-reviews/evidence/body-heat/pdf-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/body-heat/pdf-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/body-heat/pdf-contact-3.png",
+        "data/development-tracker/biology-reviews/evidence/body-heat/pdf-contact-4.png",
+        "data/development-tracker/biology-reviews/evidence/body-heat/pdf-contact-5.png",
+        "data/development-tracker/biology-reviews/evidence/body-heat/pdf-contact-6.png",
+        "data/development-tracker/biology-reviews/evidence/body-heat/pdf-contact-7.png",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.md",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.md"
+      ]
+    },
+    "G16": {
+      "status": "pass",
+      "notes": "Native cube drag-release-nextphysical probe taps, mouse resized ports, keyboard placement/focus, reduced motion,44px targets, no horizontal overflow and phone/tablet graph checked. Fixed trusted compatibility mousedown stealing newly focused input;39 selected native/focus regressions pass. Physical-device/AT remains pending.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/body-heat/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-native-focus-regressions.txt",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.md",
+        "data/development-tracker/biology-reviews/evidence/body-heat/touch-focus-corrected.json"
+      ]
+    },
+    "G17": {
+      "status": "pass",
+      "notes": "Initial106 selected model/report cases and final six focused cases passed. Initial native focus failure retained and corrected; final seven browser workflows pass. Standalone/private35-lab platform compile and77 resource PDFs validated locally.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/body-heat/model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/body-heat/initial-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/body-heat/focus-and-gate-diagnostic-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/body-heat/focus-and-gate-corrected-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/body-heat/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/body-heat/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-native-focus-regressions.txt",
+        "data/development-tracker/biology-reviews/evidence/body-heat/standalone-build.txt",
+        "data/development-tracker/biology-reviews/evidence/body-heat/platform-build.txt",
+        "data/development-tracker/biology-reviews/evidence/body-heat/resource-check.txt"
+      ]
+    },
+    "G18": {
+      "status": "pass",
+      "notes": "Stable size/reading/calculation/interpretation/goal IDs and English version/locale, original student responses preserved. Native language selection and reviewed translated print remain AUD-10; no Spanish readiness claim.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/body-heat/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/body-heat/review-notes.md"
+      ]
+    },
+    "RESOURCES": {
+      "status": "pass",
+      "notes": "Current worksheet3/teacher2 contain actual prompts, geometry/readings/rate tables, energy-source distinction and limitations. All pages,77 current PDF prompt/hash mappings verified; Python build-time only.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/body-heat/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/body-heat/pdf-contact-1.png"
+      ]
+    },
+    "ACCESS": {
+      "status": "pass",
+      "notes": "Guest/free pathway and report/offline exports require no sign-in. Existing paid/staff/publication policies preserved; private35-lab release2ddda8a173544174dbec4d16 compiled without upload/register/deploy.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/body-heat/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/body-heat/platform-build.txt"
+      ]
+    },
+    "TRACKING": {
+      "status": "pass",
+      "notes": "Actual available English route/resources and animal-structure-function mapping updated and curriculum/tracker regenerated. Standards/Spanish approvals unchanged. Shared data refreshed after individual review acceptance.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/body-heat/build-brief.md",
+        "data/development-tracker/biology-reviews/evidence/body-heat/review-notes.md"
+      ]
+    }
+  },
+  "artifacts": {
+    "workflow": [
+      "data/development-tracker/biology-reviews/evidence/body-heat/build-brief.md",
+      "data/development-tracker/biology-reviews/evidence/body-heat/review-notes.md",
+      "data/development-tracker/biology-reviews/evidence/body-heat/reading-screen.json",
+      "data/development-tracker/biology-reviews/evidence/body-heat/complete-responses.json",
+      "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.json",
+      "data/development-tracker/biology-reviews/evidence/body-heat/source-manifest.json"
+    ],
+    "visuals": [
+      "data/development-tracker/biology-reviews/evidence/body-heat/visual-contact-1.png",
+      "data/development-tracker/biology-reviews/evidence/body-heat/visual-contact-2.png",
+      "data/development-tracker/biology-reviews/evidence/body-heat/visual-contact-3.png",
+      "data/development-tracker/biology-reviews/evidence/body-heat/phone-small-probe.png",
+      "data/development-tracker/biology-reviews/evidence/body-heat/phone-large-probe.png",
+      "data/development-tracker/biology-reviews/evidence/body-heat/phone-graph.png"
+    ],
+    "pdfReports": [
+      "data/development-tracker/biology-reviews/evidence/body-heat/complete.pdf",
+      "data/development-tracker/biology-reviews/evidence/body-heat/draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/body-heat/development-draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/body-heat/ratio-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/body-heat/unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/body-heat/calculation-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/body-heat/interpretation-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/body-heat/interpretation-edited.pdf",
+      "data/development-tracker/biology-reviews/evidence/body-heat/edited-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/body-heat/long-offline.pdf",
+      "data/development-tracker/biology-reviews/evidence/body-heat/pdf-inspection.json"
+    ],
+    "nativePrint": [
+      "data/development-tracker/biology-reviews/evidence/body-heat/native-print.pdf",
+      "data/development-tracker/biology-reviews/evidence/body-heat/long-native-print.pdf"
+    ],
+    "tests": [
+      "data/development-tracker/biology-reviews/evidence/body-heat/model-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/body-heat/initial-browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/body-heat/focus-and-gate-diagnostic-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/body-heat/focus-and-gate-corrected-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/body-heat/final-model-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/body-heat/final-browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/body-heat/shared-native-focus-regressions.txt",
+      "data/development-tracker/biology-reviews/evidence/body-heat/standalone-build.txt",
+      "data/development-tracker/biology-reviews/evidence/body-heat/platform-build.txt",
+      "data/development-tracker/biology-reviews/evidence/body-heat/resource-check.txt"
+    ],
+    "resources": [
+      "public/resources/body-heat-worksheet.pdf",
+      "public/resources/body-heat-teacher-guide.pdf"
+    ]
+  },
+  "externalValidation": {
+    "teacherStudentComprehension": {
+      "status": "pending",
+      "notes": "Not performed; development checks do not establish classroom comprehension."
+    },
+    "physicalDevices": {
+      "status": "pending",
+      "notes": "Emulation is not physical-device or assistive-technology acceptance."
+    },
+    "classroomProtocol": {
+      "status": "not-applicable",
+      "notes": "Virtual-only activity; no physical protocol supplied."
+    }
+  },
+  "history": [
+    {
+      "date": "2026-11-15T16:30:21.934Z",
+      "decision": "changes-required",
+      "notes": "Separate apparatus review found a visually unsupported warm-tray cube/display housing and an ambiguous paused-at0 caption during final-time review. Geometry/temperature/energy model and full7 browser workflows passed after shared focus correction."
+    }
+  ],
+  "decision": "pass",
+  "summary": "Development review passed after supported apparatus/caption fixes and shared native-focus correction. Distinct temperature-rate and total-heat reasoning verified under explicit passive-model assumptions. External classroom/device/AT/translation/release acceptance remains separate.",
+  "blockers": [],
+  "followups": [
+    {
+      "id": "shared-response-pagination-2026-11-15",
+      "recordedAt": "2026-11-15T17:05:24.808Z",
+      "scope": "Shared PDF question/answer page-break guard; original review remains its point-in-time snapshot. Representative current starch, stored heat/fungal and legacy enzyme reports checked; not a full rerun of this lab.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.md",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.json",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/pagination-corrected.txt",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-model-tests.txt"
+      ]
+    },
+    {
+      "id": "shared-scientific-symbols-2026-11-15",
+      "recordedAt": "2026-11-15T18:31:00.211Z",
+      "scope": "Shared offline scientific-symbol glyph fallback only; original source snapshot/history unchanged. Representative new/old outputs and legacy wrappers validated, not full rerun of this lab.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.md",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.json",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/glyph-all-artifacts.txt"
+      ]
+    }
+  ],
+  "followUps": [
+    {
+      "id": "pdf-delivery-and-symbols-2026-11-15",
+      "recordedAt": "2026-11-16T01:43:40.982Z",
+      "scope": "Local source/public/member PDF transport and resource glyphs only. Original development-review snapshot retained; this is not a new full learning or user review.",
+      "findings": "Unsupported handout scientific glyphs repaired with a licensed fallback; both resource files regenerated and selected in a new local release.",
+      "evidence": [
+        "data/development-tracker/pdf-audits/2026-11-15/summary.json",
+        "data/development-tracker/pdf-audits/2026-11-15/pdf-inspection.json",
+        "data/development-tracker/pdf-audits/2026-11-15/delivery-audit.json"
+      ]
+    }
+  ]
+}

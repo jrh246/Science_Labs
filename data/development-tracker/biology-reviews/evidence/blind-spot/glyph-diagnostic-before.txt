@@ -1,0 +1,7 @@
+python.exe : Missing/replacement glyph in complete.pdf
+At line:4 char:1
++ & C:/Python_Workspace/.venv_science_platform_checks/Scripts/python.ex ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Missing/replace...in complete.pdf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 

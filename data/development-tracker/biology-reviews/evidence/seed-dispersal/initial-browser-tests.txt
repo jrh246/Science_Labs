@@ -1,0 +1,68 @@
+node.exe : [WebServer] (node:56140) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([WebServer] (no... env being set.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] 
+[WebServer] (!) Some chunks are larger than 500 kB after minification. Consider:
+[WebServer] - Using dynamic import() to code-split the application
+[WebServer] - Use build.rollupOptions.output.manualChunks to improve chunking: 
+https://rollupjs.org/configuration-options/#output-manualchunks
+[WebServer] - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[WebServer] (node:56828) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 7 tests using 1 worker
+
+(node:45392) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 tests\browser\biology-browser-contract.mjs:5:2 › seed-dispersal: complete corrected attempt, truthful saves, named PDF/JSON/native print and edits (9.2s)
+  x  2 tests\browser\biology-browser-contract.mjs:6:2 › seed-dispersal: denied storage/retry, Unicode long writing and first offline PDF/native print (5.8s)
+(node:57100) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 3 tests\browser\biology-browser-contract.mjs:7:2 › seed-dispersal: unfinished neutral PDF and export failure recovery (1.0s)
+  ok 4 tests\browser\biology-browser-contract.mjs:8:2 › seed-dispersal: root/development progress isolation and first offline development PDF (1.5s)
+  ok 5 tests\browser\dispersal.spec.js:12:1 › dispersal all six manual releases, keyboard balance and data-source integrity at higher wind (2.1s)
+  ok 6 tests\browser\dispersal.spec.js:13:1 › dispersal native touch seed drag-release, exact one release and continuous phone ruler (1.6s)
+  ok 7 tests\browser\dispersal.spec.js:14:1 › dispersal view-only review preserves completion; revised readings and calculations reopen evidence (2.3s)
+
+
+  1) tests\browser\biology-browser-contract.mjs:6:2 › seed-dispersal: denied storage/retry, Unicode long writing and first offline PDF/native print 
+
+    Error: expect(locator).toHaveValue(expected) failed
+
+    Locator:  locator('[data-entry="cursor"]')
+    Expected: "1.0"
+    Received: "1"
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveValue" locator('[data-entry="cursor"]') with timeout 5000ms
+      - waiting for locator('[data-entry="cursor"]')
+        14 × locator resolved to <input min="0" max="5" step="0.1" value="0.0" type="range" data-entry="cursor" id="dispersal-ruler"/>
+           - unexpected value "1"
+
+
+       at dispersal.spec.js:6
+
+      4 | async function weigh(p,{capture=false}={}){await shot(p,'balance-empty',capture);await use(p,'small','balance');await shot(p,'balance-small',capture);await expect(p.locator('.dispersal-balance svg')).toHaveAttribute('aria-label',/0.20 grams/);await use(p,'large','balance');await expect(p.locator('[data-place="balance"]')).toHaveCount(0);}
+      5 | async function rulerValue(p){const n=await p.locator('.dispersal-field').evaluate(el=>{const center=n=>{const b=n.getBoundingClientRect();return b.x+b.width/2;},o=center(el.querySelector('.dispersal-origin')),one=center(el.querySelector('[data-m="1"]')),land=center(el.querySelector('.dispersal-landmark'));return (land-o)/(one-o);});return Math.round(n*10)/10;}
+    > 6 | async function setRuler(p,value){await entry(p,'cursor').focus();await p.keyboard.press('Home');for(let i=0;i<Math.round(value*10);i++)await p.keyboard.press('ArrowRight');await expect(entry(p,'cursor')).toHaveValue(value.toFixed(1));}
+        |                                                                                                                                                                                                             ^
+      7 | async function release(p,design,{capture=false,wrong=false}={}){await use(p,design,'holder');await shot(p,design+'-loaded',capture);await a(p,'release').click();if(capture)await p.waitForTimeout(2500);await shot(p,design+'-landed',capture);const value=await rulerValue(p);if(wrong){await setRuler(p,4.9);await a(p,'read').click();await expect(p.locator('.dispersal-reading-feedback')).not.toContainText('Correct!');await downloadBiologyPdf(p,out,'unconfirmed.pdf');}await setRuler(p,value);await a(p,'read').click();await expect(p.locator('.dispersal-reading-feedback')).toContainText('Correct!');return value;}
+      8 | async function collect(p,{capture=false,wrong=false,manual=false}={}){await weigh(p,{capture});const data={};for(const design of ['small','large']){data[design]=[await release(p,design,{capture,wrong:wrong&&design==='small'})];if(manual)for(let i=0;i<2;i++)data[design].push(await release(p,design));else await p.locator(`[data-lab-action="provided"][data-id="${design}"]`).click();}if(!manual){const rows=await p.locator('table tbody tr').allTextContents();expect(rows.filter(x=>x.includes('Model-provided'))).toHaveLength(4);for(const design of ['small','large'])data[design]=await p.locator('table tbody tr').evaluateAll((rows,label)=>rows.filter(r=>r.cells[0].textContent.includes(label)).map(r=>Number(r.cells[1].textContent)),design==='small'?'Small wing':'Large wing');}await shot(p,'recorded-releases',capture);await a(p,'compare-data').click();return data;}
+      9 | async function compare(p,data,{wrong=false}={}){if(wrong){await entry(p,'small-mean').fill('99');await a(p,'comparison-check').click();await expect(a(p,'explain')).toBeDisabled();await downloadBiologyPdf(p,out,'comparison-unconfirmed.pdf');}const means={};for(const id of ['small','large']){const v=data[id],mean=Math.round(v.reduce((x,y)=>x+y,0)/3*10)/10,range=Math.round((Math.max(...v)-Math.min(...v))*10)/10;means[id]=mean;await entry(p,id+'-mean').fill(mean.toFixed(1));await entry(p,id+'-range').fill(range.toFixed(1));}await entry(p,'rank').selectOption(means.small===means.large?'tie':means.small>means.large?'small':'large');await a(p,'comparison-check').click();await expect(p.locator('.dispersal-comparison-feedback')).toContainText('Correct!');await a(p,'explain').click();}
+        at setRuler (C:\Projects\Science_Labs\tests\browser\dispersal.spec.js:6:205)
+        at release (C:\Projects\Science_Labs\tests\browser\dispersal.spec.js:7:467)
+        at collect (C:\Projects\Science_Labs\tests\browser\dispersal.spec.js:8:163)
+        at fullAttempt (C:\Projects\Science_Labs\tests\browser\dispersal.spec.js:10:87)
+        at C:\Projects\Science_Labs\tests\browser\biology-browser-contract.mjs:6:118
+
+    Error Context: test-results\dispersal-seed-dispersal-d-9648d-st-offline-PDF-native-print\error-context.md
+
+  1 failed
+    tests\browser\biology-browser-contract.mjs:6:2 › seed-dispersal: denied storage/retry, Unicode long writing and first offline PDF/native print 
+  6 passed (31.4s)

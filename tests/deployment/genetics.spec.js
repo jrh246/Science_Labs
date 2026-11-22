@@ -6,6 +6,7 @@ test('preview genetics preserves production work and generates PDFs offline',asy
  const productionLab=await page.getByRole('button',{name:'Begin Lab'}).count()?'/Science_Labs/':'/Science_Labs/lab.html';
  if(productionLab!=='/Science_Labs/')await page.goto(productionLab);
  await page.waitForFunction(()=>navigator.serviceWorker.controller?.scriptURL.endsWith('/Science_Labs/sw.js'));
+ if(await page.locator('#osmosis-prediction').count())await page.locator('#osmosis-prediction').fill('Water moves toward a higher sugar concentration.');
  await page.getByRole('button',{name:'Begin Lab'}).click();
  const productionWork=await page.evaluate(()=>localStorage.getItem('cell-lab'));
  expect(productionWork).not.toBeNull();

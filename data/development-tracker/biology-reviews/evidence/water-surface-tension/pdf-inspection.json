@@ -1,0 +1,92 @@
+[
+  {
+    "file": "public/resources/water-surface-tension-teacher-guide.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      1682,
+      2594
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "public/resources/water-surface-tension-worksheet.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1506,
+      1327,
+      1572
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/water-surface-tension/complete.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      2190,
+      2468
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/water-surface-tension/draft.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      2001,
+      1582
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/water-surface-tension/long-native-print.pdf",
+    "pages": 6,
+    "pageCharacters": [
+      2166,
+      1442,
+      1053,
+      1053,
+      1467,
+      734
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/water-surface-tension/long-offline.pdf",
+    "pages": 6,
+    "pageCharacters": [
+      2201,
+      1504,
+      1113,
+      1113,
+      1500,
+      1016
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/water-surface-tension/native-print.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      2158,
+      2370
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/water-surface-tension/seed-germination-development-draft.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      1673,
+      1713
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/water-surface-tension/water-surface-tension-development-draft.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      2001,
+      1582
+    ],
+    "finalLongMarker": false
+  }
+]

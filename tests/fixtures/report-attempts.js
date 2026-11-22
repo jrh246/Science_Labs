@@ -2,7 +2,7 @@ import {investigations} from '../../src/investigations/content.js';
 import {fresh,times} from '../../src/investigations/model.js';
 import {extendedById} from '../../src/investigations/extended-content.js';
 import {freshState,newRun,sequence,record,advance,result} from '../../src/investigations/extended-model.js';
-import {freshState as freshOsmosis,ids,difference} from '../../src/state.js';
+import {freshState as freshOsmosis,ids,difference,recordPrediction} from '../../src/state.js';
 
 export const reportLabIds=['osmosis-homeostasis',...Object.keys(investigations),...Object.values(extendedById).filter(c=>c.kind!=='extraction').map(c=>c.id)];
 export function reportAttempt(id,complete=false){
@@ -10,7 +10,7 @@ export function reportAttempt(id,complete=false){
  const c=investigations[id]||extendedById[id];
  if(id==='osmosis-homeostasis'){
   state=freshOsmosis();key='cell-lab';url='/lab.html';
-  if(complete){for(const field of ['prepared','initial','placed','final','valid'])state[field]=Object.fromEntries(ids.map(id=>[id,true]));state.elapsed=true;state.step=6;state.answers=Object.fromEntries(state.run.map(t=>[t.id,String(difference(t))]));}
+  if(complete){state.prediction='Water will move toward the higher sugar concentration.';recordPrediction(state);state.reasoning=Object.fromEntries(Object.keys(state.reasoning).map(key=>[key,'My written explanation for '+key+'.']));state.complete=true;for(const field of ['prepared','initial','placed','final','valid'])state[field]=Object.fromEntries(ids.map(id=>[id,true]));state.elapsed=true;state.step=6;state.answers=Object.fromEntries(state.run.map(t=>[t.id,String(difference(t))]));}
  }else if(investigations[id]){
   state=fresh(c);state.step=2;state.notes.prediction='My prediction for '+id;state.notes.design='Keep conditions matched; compare the assigned samples.';state.notes.observations='Recorded observation: '+id;
   key=`science-labs:/:${id}:v1:${c.conditions.map(()=>'virtual').join(',')}`;url='/investigation.html?lab='+id;
@@ -24,7 +24,7 @@ export function reportAttempt(id,complete=false){
   state=freshState(c,12345);state.prediction='My prediction for '+id;state.design='Use distinct controls and keep sources separate.';
   key=`science-labs:/:${c.kind==='asci'?'meiosis-variation':id}:${c.workflowVersion?'streamlined-v'+c.workflowVersion:c.kind==='meiosis'?'gametogenesis-v1':'original-v1'}`;url='/investigation.html?lab='+id;
   if(complete){
-   state.records=sequence(c).map((job,i)=>{let r=newRun(c,i,state.seed);r.prepared=c.steps.length;if(c.duration>0)r=advance(c,r,c.duration);r.note='Sample note '+(i+1);r.ruler=35;r.rulerMeasured=true;r.estimates=['3100','1510','690'];r.chromatids=[0,2];r.cut=1;r.placed=[0,1,2,3];r.eggActivated=true;r.spermMature=true;if(c.kind==='corn')r.tallies=[35,13];if(c.kind==='flies')r.tallies=[12,14,3,3];if(c.kind==='asci')r.scores=[...Array(7).fill(0),0,1,1,2,2];return record(c,r,i%2?'classroom':'virtual',result(c,r),r.note);});
+   state.records=sequence(c).map((job,i)=>{let r=newRun(c,i,state.seed);r.prepared=c.steps.length;if(c.duration>0)r=advance(c,r,c.duration);r.note='Sample note '+(i+1);r.ruler=35;r.rulerMeasured=true;if(c.kind==='microscope'){r.calibrationAnswer='2';r.calibrationChecked=true;r.calibrationSource='student';}r.estimates=['3100','1510','690'];r.chromatids=[0,2];r.cut=1;r.placed=[0,1,2,3];r.eggActivated=true;r.spermMature=true;if(c.kind==='corn')r.tallies=[35,13];if(c.kind==='flies')r.tallies=[12,14,3,3];if(c.kind==='asci')r.scores=[...Array(7).fill(0),0,1,1,2,2];return record(c,r,i%2?'classroom':'virtual',result(c,r),r.note);});
    state.run=newRun(c,state.records.length,state.seed);state.step=2;state.answers=c.analysis.map((_,i)=>`Written explanation ${i+1} for ${id}. Evidence remains my own response.`);state.complete=true;
   }
  }

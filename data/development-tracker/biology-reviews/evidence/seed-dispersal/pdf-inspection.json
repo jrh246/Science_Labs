@@ -1,0 +1,129 @@
+[
+  {
+    "file": "public/resources/seed-dispersal-teacher-guide.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      3175,
+      2804
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "public/resources/seed-dispersal-worksheet.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1850,
+      1546,
+      2462
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/seed-dispersal/comparison-unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2247,
+      2046,
+      1670
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/seed-dispersal/complete.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2235,
+      2516,
+      3471
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/seed-dispersal/development-draft.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1963,
+      1687,
+      1447
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/seed-dispersal/draft.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1953,
+      1687,
+      1447
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/seed-dispersal/edited-unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2256,
+      2496,
+      3590
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/seed-dispersal/long-native-print.pdf",
+    "pages": 7,
+    "pageCharacters": [
+      2208,
+      2556,
+      1102,
+      837,
+      837,
+      1039,
+      2041
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/seed-dispersal/long-offline.pdf",
+    "pages": 7,
+    "pageCharacters": [
+      2244,
+      2514,
+      1285,
+      905,
+      905,
+      892,
+      2510
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/seed-dispersal/native-print.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2202,
+      2562,
+      3229
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/seed-dispersal/revised-provided-release.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2244,
+      2500,
+      3590
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/seed-dispersal/unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2206,
+      1763,
+      1447
+    ],
+    "finalLongMarker": false
+  }
+]

@@ -1,0 +1,315 @@
+{
+  "schemaVersion": 1,
+  "labId": "blind-spot",
+  "taskId": "BIO-22-REVIEW",
+  "reviewedBy": "Codex - separate development review",
+  "reviewedOn": "2026-11-15",
+  "sourceSnapshot": "sha256:46898526a20b2d4d99f9670bc9d315823544112824e5a6f1abee3a3dd1bd7937",
+  "checks": {
+    "G01": {
+      "status": "pass",
+      "notes": "Three goals connect local retinal detection/output, coarse reported/supplied maps and matched eye comparisons, and fixation/geometry/filling-in limits to actual decisions and original writing.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blind-spot/build-brief.md",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/complete-responses.json"
+      ]
+    },
+    "G02": {
+      "status": "pass",
+      "notes": "At least three distinct positions per eye and one both-eyes point serve spatial/coverage comparisons, not default repeat trials or independent people. Example supplies seven points once; no-gap/uncertain accepted, more positions optional.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blind-spot/build-brief.md",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/example-complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/no-clear-gap.pdf"
+      ]
+    },
+    "G03": {
+      "status": "pass",
+      "notes": "Exploratorium/UW demonstrations, OpenStax disc/output text and Ling2021 abstract/apparatus/fixation/mapping sections checked. Receptor absence differs from nerve transmission; image reversal/outer field explained without false same-side fundus diagram. Self-reports never forced to physiology.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blind-spot/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/model-tests.txt"
+      ]
+    },
+    "G04": {
+      "status": "pass",
+      "notes": "Always-drawn target, unverified gaze/eye closure/distance, original pixel/screen contexts, no physical-angle/retinal-size/health/population inference, schematic omissions and invented example source explicit.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blind-spot/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/example-complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/resized-contexts.pdf"
+      ]
+    },
+    "G05": {
+      "status": "pass",
+      "notes": "Functional retinal labels/light-marker contrast, direct horizontal dot drag/range/keyboard positioning and visibility reporting, controlled-record interpretation and meaningful revisions support goals. Example route retains model manipulation and analysis.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blind-spot/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/light-receptors.png",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/light-disc.png",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/right-120.png",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/visibility-map.png"
+      ]
+    },
+    "G06": {
+      "status": "pass",
+      "notes": "Original enlarged receptor/cell/output-fiber schematic and actual always-drawn white target panel inspected before/after, both eye directions and phone/tablet. Targets match actual sites; no software disappearance.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blind-spot/visual-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/visual-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/visual-contact-3.png",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/phone-retina.png",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/tablet-retina.png",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/phone-target.png"
+      ]
+    },
+    "G07": {
+      "status": "pass",
+      "notes": "Seeded stable label/concept banks, meaningful anatomy/direction maintained. Own outcomes uncertain/no-clear accepted; bracket depends on current reports/context/gaze, not a built-in target hiding coordinate.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blind-spot/model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/no-clear-gap.pdf"
+      ]
+    },
+    "G08": {
+      "status": "pass",
+      "notes": "Full UI/dynamic feedback/report/resource wording read; retina/photoreceptor/disc/nerve/fixation/browser px explained. Clarified both-eyes reuse/context code, removed unnecessary perimetry term and repeated limits. Diagnostic grade6.6/10.7words only.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blind-spot/reading-screen.json",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/review-notes.md"
+      ]
+    },
+    "G09": {
+      "status": "pass",
+      "notes": "First plan/source before data, current labels and both light comparisons before observation route; current reports/minimum spatial sampling before analysis; matching interpretation before concepts/completion. Edits immediately disable dependencies.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blind-spot/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/edited-unconfirmed.pdf"
+      ]
+    },
+    "G10": {
+      "status": "pass",
+      "notes": "Correct!/Try again for anatomy/inference/concepts; perception recorded without physiological correctness grade. Current blank/revised reports and wrong/empty interpretations remain unconfirmed across reload/export, meaningful self-report revisions retained.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blind-spot/report-revision-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/interpretation-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/interpretation-edited.pdf",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/edited-unconfirmed.pdf"
+      ]
+    },
+    "G11": {
+      "status": "pass",
+      "notes": "Successful/repeated/reloaded saves, denied-write retry, identity versus academic edits verified; local completion not submission/grade.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blind-spot/final-browser-tests.txt"
+      ]
+    },
+    "G12": {
+      "status": "pass",
+      "notes": "Versioned scoped first plan/source/points/context/gaze/initial reports/revisions preserved. Selection-time context retained through resize/record/reload, old data never recalculated. View-only review/completed example reload does not regenerate observations.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blind-spot/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/resized-contexts.pdf"
+      ]
+    },
+    "G13": {
+      "status": "pass",
+      "notes": "Actual named/neutral complete/draft PDF and native print, optional identity/period, safe filenames and standard local date/time/PST verified.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blind-spot/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/draft.pdf",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/native-print.pdf"
+      ]
+    },
+    "G14": {
+      "status": "pass",
+      "notes": "Human report groups reasoning, retinal/light evidence, current table with source/status/context/gaze, meaningful self-report revisions, matching inferences, original writing and limitations. No click log/autograde or invented personal physiology.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blind-spot/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/example-complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/no-clear-gap.pdf"
+      ]
+    },
+    "G15": {
+      "status": "pass",
+      "notes": "All84 current pages inspected through eleven sheets. Current17 prompts share answer start, old known orphan still fails and corrected starch passes. Actual arrow missing-glyph defect fixed by licensed offline glyph fallback at shared engine; every current PDF free of missing glyphs, full representative source text verified.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blind-spot/pdf-inspection.json",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/pdf-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/pdf-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/pdf-contact-3.png",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/pdf-contact-4.png",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/pdf-contact-5.png",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/pdf-contact-6.png",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/pdf-contact-7.png",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/pdf-contact-8.png",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/pdf-contact-9.png",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/pdf-contact-10.png",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/pdf-contact-11.png",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/pagination-check.txt",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/glyph-all-artifacts.txt",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.md"
+      ]
+    },
+    "G16": {
+      "status": "pass",
+      "notes": "Native label drag-release-nextphysical taps, mouse/touch dot drag, native keyboard/range,44px targets/exact phone-tablet centers, resize/reload/no overflow/reduced motion pass. Example supports data-analysis route; physical-device/AT and actual gaze acceptance pending.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blind-spot/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/phone-retina.png",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/tablet-retina.png",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/phone-target.png"
+      ]
+    },
+    "G17": {
+      "status": "pass",
+      "notes": "Initial33 and final19 focused/report cases pass;61 affected shared/font/model/legacy cases pass. Final eight browser workflows include first-offline arrow PDF.83 current resources, reproducible font rebuild and standalone/private38-lab compile verified.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blind-spot/model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/initial-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/glyph-all-artifacts.txt",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/font-rebuild-check.txt",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/standalone-build.txt",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/platform-build.txt"
+      ]
+    },
+    "G18": {
+      "status": "pass",
+      "notes": "Stable mode/point/condition/goal/check IDs, versioned English content and original responses. Licensed font fallback supports tested scientific/current Latin-Greek characters, not full Unicode, translated language/shaping or Spanish publishing approval; AUD-10 remains future.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blind-spot/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.md",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/review-notes.md"
+      ]
+    },
+    "RESOURCES": {
+      "status": "pass",
+      "notes": "Teacher2/student3 current PDFs retain actual prompts/table/source and concise limits. Removed source-only tail pages without losing meaning;83 prompt/link/hash mappings and every current page verified, Python authoring only.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blind-spot/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/pdf-contact-1.png"
+      ]
+    },
+    "ACCESS": {
+      "status": "pass",
+      "notes": "Guest/free own/example routes and PDF/print/offline remain account-free. Existing paid/staff/publication policy preserved; private38-lab runtime compiled without upload/registration/deployment.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blind-spot/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/platform-build.txt"
+      ]
+    },
+    "TRACKING": {
+      "status": "pass",
+      "notes": "Actual English implementation/resources/animal-structure-function route and curriculum/tracker validated/regenerated, standards/Spanish approvals unchanged. Shared copies refreshed after this individual acceptance.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blind-spot/build-brief.md",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/review-notes.md"
+      ]
+    }
+  },
+  "artifacts": {
+    "workflow": [
+      "data/development-tracker/biology-reviews/evidence/blind-spot/build-brief.md",
+      "data/development-tracker/biology-reviews/evidence/blind-spot/review-notes.md",
+      "data/development-tracker/biology-reviews/evidence/blind-spot/reading-screen.json",
+      "data/development-tracker/biology-reviews/evidence/blind-spot/complete-responses.json",
+      "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.md",
+      "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.json",
+      "data/development-tracker/biology-reviews/evidence/blind-spot/font-cmap-inspection.json",
+      "data/development-tracker/biology-reviews/evidence/blind-spot/source-manifest.json"
+    ],
+    "visuals": [
+      "data/development-tracker/biology-reviews/evidence/blind-spot/visual-contact-1.png",
+      "data/development-tracker/biology-reviews/evidence/blind-spot/visual-contact-2.png",
+      "data/development-tracker/biology-reviews/evidence/blind-spot/visual-contact-3.png",
+      "data/development-tracker/biology-reviews/evidence/blind-spot/phone-retina.png",
+      "data/development-tracker/biology-reviews/evidence/blind-spot/tablet-retina.png",
+      "data/development-tracker/biology-reviews/evidence/blind-spot/phone-target.png",
+      "data/development-tracker/biology-reviews/evidence/blind-spot/symbols-diagnostic-page-1.png"
+    ],
+    "pdfReports": [
+      "data/development-tracker/biology-reviews/evidence/blind-spot/complete.pdf",
+      "data/development-tracker/biology-reviews/evidence/blind-spot/draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/blind-spot/development-draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/blind-spot/structure-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/blind-spot/report-revision-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/blind-spot/interpretation-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/blind-spot/interpretation-edited.pdf",
+      "data/development-tracker/biology-reviews/evidence/blind-spot/edited-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/blind-spot/example-complete.pdf",
+      "data/development-tracker/biology-reviews/evidence/blind-spot/no-clear-gap.pdf",
+      "data/development-tracker/biology-reviews/evidence/blind-spot/resized-contexts.pdf",
+      "data/development-tracker/biology-reviews/evidence/blind-spot/long-offline.pdf",
+      "data/development-tracker/biology-reviews/evidence/blind-spot/symbols-diagnostic.pdf",
+      "data/development-tracker/biology-reviews/evidence/blind-spot/symbols-first-offline.pdf",
+      "data/development-tracker/biology-reviews/evidence/blind-spot/symbols-body-heat.pdf",
+      "data/development-tracker/biology-reviews/evidence/blind-spot/symbols-flower-pollination.pdf",
+      "data/development-tracker/biology-reviews/evidence/blind-spot/symbols-reaction-time.pdf",
+      "data/development-tracker/biology-reviews/evidence/blind-spot/symbols-original-genetics.pdf",
+      "data/development-tracker/biology-reviews/evidence/blind-spot/symbols-original-extraction.pdf",
+      "data/development-tracker/biology-reviews/evidence/blind-spot/pdf-inspection.json"
+    ],
+    "nativePrint": [
+      "data/development-tracker/biology-reviews/evidence/blind-spot/native-print.pdf",
+      "data/development-tracker/biology-reviews/evidence/blind-spot/long-native-print.pdf"
+    ],
+    "tests": [
+      "data/development-tracker/biology-reviews/evidence/blind-spot/model-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/blind-spot/final-model-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-model-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/blind-spot/initial-browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/blind-spot/final-browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/blind-spot/glyph-all-artifacts.txt",
+      "data/development-tracker/biology-reviews/evidence/blind-spot/font-rebuild-check.txt",
+      "data/development-tracker/biology-reviews/evidence/blind-spot/resource-check.txt",
+      "data/development-tracker/biology-reviews/evidence/blind-spot/standalone-build.txt",
+      "data/development-tracker/biology-reviews/evidence/blind-spot/platform-build.txt",
+      "data/development-tracker/biology-reviews/evidence/blind-spot/pagination-check.txt",
+      "data/development-tracker/biology-reviews/evidence/blind-spot/pagination-known-orphan.txt",
+      "data/development-tracker/biology-reviews/evidence/blind-spot/pagination-starch-regression.txt",
+      "data/development-tracker/biology-reviews/evidence/blind-spot/glyph-diagnostic-before.txt",
+      "data/development-tracker/biology-reviews/evidence/blind-spot/symbol-glyph-check.txt"
+    ],
+    "resources": [
+      "public/resources/blind-spot-worksheet.pdf",
+      "public/resources/blind-spot-teacher-guide.pdf"
+    ]
+  },
+  "externalValidation": {
+    "teacherStudentComprehension": {
+      "status": "pending",
+      "notes": "Not performed; development checks do not establish classroom comprehension."
+    },
+    "physicalDevices": {
+      "status": "pending",
+      "notes": "Emulation is not physical-device or assistive-technology acceptance."
+    },
+    "classroomProtocol": {
+      "status": "not-applicable",
+      "notes": "Virtual-only activity; no physical protocol supplied."
+    }
+  },
+  "history": [
+    {
+      "date": "2026-11-15T17:55:46.977Z",
+      "decision": "changes-required",
+      "notes": "Initial33 model/report and seven browser cases passed. Separate resource review found a citation-only tail in both teacher/student handouts. Streamlined repeated model-limit wording/source title while preserving scientific limits; clarified matching a both-eyes position and screen-context code, replaced unnecessary student perimetry term."
+    },
+    {
+      "date": "2026-11-15T18:09:42.746Z",
+      "decision": "changes-required",
+      "notes": "Actual completed report rendered U2192 arrow as a box/NULL glyph in revision text. Local fontkit inspection confirmed all bundled Roboto faces lack it; pinned unmodified DejaVu Sans supplies only additional glyph runs, with full redistribution license in source/public and offline VFS. Original response strings/snapshot unchanged, ordinary Roboto text unchanged. Targeted actual glyph diagnostic and46 report/model cases pass. Pagination checker also needed within-page hyphen-line-wrap tolerance; known old orphan must remain detectable. Initial font wrapper syntax failure retained and corrected before browser build."
+    }
+  ],
+  "decision": "pass",
+  "summary": "Development review passed with honest self-reported/invented data routes and coarse matched-context interpretation. Streamlined handout tails and fixed shared real-PDF scientific glyph loss with licensed first-offline fallback, preserving original text. External classroom/gaze/calibration/AT/translation/release acceptance remains separate.",
+  "blockers": []
+}

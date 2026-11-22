@@ -1,0 +1,137 @@
+[
+  {
+    "file": "public/resources/breathing-teacher-guide.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      3064,
+      2745
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "public/resources/breathing-worksheet.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1680,
+      1515,
+      2727
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/breathing/complete.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2563,
+      4583,
+      2936
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/breathing/development-draft.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      1971,
+      2920
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/breathing/draft.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      1961,
+      2920
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/breathing/edited-unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2398,
+      4527,
+      2397
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/breathing/hold-unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2498,
+      1545,
+      1773
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/breathing/in-unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2420,
+      1374,
+      1773
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/breathing/leak-unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2575,
+      1961,
+      1773
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/breathing/long-native-print.pdf",
+    "pages": 7,
+    "pageCharacters": [
+      2388,
+      3352,
+      837,
+      837,
+      837,
+      1263,
+      1673
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/breathing/long-offline.pdf",
+    "pages": 7,
+    "pageCharacters": [
+      2425,
+      3425,
+      905,
+      905,
+      905,
+      1486,
+      1773
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/breathing/native-print.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2529,
+      4357,
+      2963
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/breathing/out-unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2561,
+      1723,
+      1773
+    ],
+    "finalLongMarker": false
+  }
+]

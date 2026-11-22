@@ -1,0 +1,26 @@
+{
+  "capturedAt": "2026-11-15T21:41:53.471Z",
+  "scope": "Actual reviewed working-tree files; unrelated changes and previous student attempts preserved.",
+  "files": {
+    "src/investigations/energy-content.js": "3439f740ba26a34d059dd838370e3661651cf420343f11b0da283209d47c15fe",
+    "src/investigations/energy-model.js": "6961b9dda0e08857680dd15093af33a602c6ec709a4ebf93bb482c8df46f69f8",
+    "src/investigations/energy-art.js": "27efbad8aa5d87c86b53c61d8e44e92929ce611e9e500a850229366a01354c89",
+    "src/investigations/energy-report.js": "82b116135cf7a24aead857f518108cec5660c9b40730e5b74463897655ec9ad1",
+    "src/investigations/energy-app.js": "ba6b5ceefc11b01112eef985943723fefe90cc4b5d202b77c42d9e69fb69e039",
+    "src/investigations/energy.css": "c13184309311fe1565ebc1baf8f74de466a7e996d3eaa58e243c829ede34a0a3",
+    "tests/energy.test.js": "78830ff824535f7c8b73529ce926e963e769a3d62a8ccec3197ecb5b78be132a",
+    "tests/browser/energy.spec.js": "56106360347b0ccaadd569d5efbcd69c2b0d3b6c91aa4d98470f0576e4876231",
+    "tests/browser/biology-browser-contract.mjs": "4f1308fe273c887d1f00e08f4438b88cdd3b660d8ed0d3819bb858fb8206b3a6",
+    "src/investigations/guided-lab-shell.js": "7718d1ab83d65ac8551b25323338c5c2bb4c73afc988331f3c29b767a9abc55f",
+    "src/investigations/student-report.js": "2fb51a960aa03382a6b4fdc9ba228867a3dac181e54041d24a9efb7652d97477",
+    "src/investigations/student-report.css": "42d4e4f705fa5b4af08bc6f284fab2d3e4d21659164096e065dbcc6f2d75cbdd",
+    "src/investigations/lab-report-pdf.js": "d3313db4efc5086da99bbd244ba4ceada0c2a37351ef0b4d67255b76d4f20d4c",
+    "src/catalog.js": "cd84d34d1d4866a01c8c72fb33f3ffa391fefe249a3447d65b59b7f30c8b54c5",
+    "src/investigations/app.js": "a1de3551d71d91717a0f42a45d9f3100ce4da67a2b645b78a9b66e41ae7ac838",
+    "src/investigations/learning-design.js": "e52fea0e2cc6cd49c04b03c6073d2f50460ccd96698d45261ec6570c1f609c58",
+    "scripts/build-biology-resources.py": "6c950c857ccc7a5903363b9742922ded31cb0624974d20199567df30a3b01546",
+    "scripts/verify-resources.py": "8a34b4c17fa3fab778d6cfba50b76b1c63802866698383ba3eac601d722228ff",
+    "public/resources/food-web-energy-worksheet.pdf": "963e8174ea21d4b494409e032196ca304880a1e1e4eae3dd9cac1596f00e5690",
+    "public/resources/food-web-energy-teacher-guide.pdf": "4823a6f82527093b109cdbb2b3f9a5cdf4b47b8c2a43f4b7bfca238c2f30ab24"
+  }
+}

@@ -1,0 +1,176 @@
+[
+  {
+    "file": "public/resources/flower-pollination-teacher-guide.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      3218,
+      3668
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "public/resources/flower-pollination-worksheet.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1802,
+      1835,
+      2840
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/flower-pollination/anatomy-edited.pdf",
+    "pages": 4,
+    "pageCharacters": [
+      2710,
+      2345,
+      3325,
+      1904
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/flower-pollination/anatomy-unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2537,
+      1823,
+      2495
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/flower-pollination/checkpoint-unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2625,
+      1943,
+      2810
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/flower-pollination/complete.pdf",
+    "pages": 4,
+    "pageCharacters": [
+      2613,
+      2116,
+      3903,
+      1901
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/flower-pollination/development-draft.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2122,
+      1823,
+      2495
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/flower-pollination/draft.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2112,
+      1823,
+      2495
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/flower-pollination/duplicate-proposal.pdf",
+    "pages": 4,
+    "pageCharacters": [
+      2757,
+      2350,
+      3325,
+      1904
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/flower-pollination/edited-unconfirmed.pdf",
+    "pages": 4,
+    "pageCharacters": [
+      2757,
+      2360,
+      3325,
+      1904
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/flower-pollination/fate-edited.pdf",
+    "pages": 4,
+    "pageCharacters": [
+      2757,
+      2345,
+      3325,
+      1904
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/flower-pollination/fate-unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2625,
+      1876,
+      2894
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/flower-pollination/fusion-unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2625,
+      1849,
+      2894
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/flower-pollination/long-native-print.pdf",
+    "pages": 7,
+    "pageCharacters": [
+      2719,
+      2402,
+      1883,
+      837,
+      837,
+      806,
+      2930
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/flower-pollination/long-offline.pdf",
+    "pages": 8,
+    "pageCharacters": [
+      2757,
+      2386,
+      2042,
+      905,
+      905,
+      905,
+      1348,
+      1904
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/flower-pollination/native-print.pdf",
+    "pages": 4,
+    "pageCharacters": [
+      2578,
+      2369,
+      3450,
+      1805
+    ],
+    "finalLongMarker": false
+  }
+]

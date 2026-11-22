@@ -1,0 +1,86 @@
+{
+  "labId": "breathing",
+  "locale": "en",
+  "scope": "Authored core directions/questions; excludes teacher notes, sources and student writing. Dynamic app/diagram/report wording is reviewed manually.",
+  "method": "Approximate Flesch-Kincaid with heuristic syllable counts and explicit scientific-word exceptions. Short fragments and technical terms can distort the score; no pass/fail or language certification.",
+  "overall": {
+    "words": 717,
+    "sentences": 67,
+    "wordsPerSentence": 10.7,
+    "approximateFleschKincaidGrade": 6.2
+  },
+  "fragments": {
+    "intro": {
+      "words": 72,
+      "sentences": 8,
+      "wordsPerSentence": 9,
+      "approximateFleschKincaidGrade": 3.8
+    },
+    "prediction": {
+      "words": 28,
+      "sentences": 2,
+      "wordsPerSentence": 14,
+      "approximateFleschKincaidGrade": 8
+    },
+    "design": {
+      "words": 39,
+      "sentences": 3,
+      "wordsPerSentence": 13,
+      "approximateFleschKincaidGrade": 5.8
+    },
+    "controls": {
+      "words": 37,
+      "sentences": 3,
+      "wordsPerSentence": 12.3,
+      "approximateFleschKincaidGrade": 6.8
+    },
+    "sampling": {
+      "words": 45,
+      "sentences": 5,
+      "wordsPerSentence": 9,
+      "approximateFleschKincaidGrade": 5.8
+    },
+    "limits": {
+      "words": 198,
+      "sentences": 14,
+      "wordsPerSentence": 14.1,
+      "approximateFleschKincaidGrade": 8.2
+    },
+    "explanation:gradient": {
+      "words": 35,
+      "sentences": 3,
+      "wordsPerSentence": 11.7,
+      "approximateFleschKincaidGrade": 7.2
+    },
+    "explanation:pause": {
+      "words": 29,
+      "sentences": 3,
+      "wordsPerSentence": 9.7,
+      "approximateFleschKincaidGrade": 6.9
+    },
+    "explanation:model": {
+      "words": 40,
+      "sentences": 4,
+      "wordsPerSentence": 10,
+      "approximateFleschKincaidGrade": 3.7
+    },
+    "check:flow": {
+      "words": 64,
+      "sentences": 6,
+      "wordsPerSentence": 10.7,
+      "approximateFleschKincaidGrade": 7.4
+    },
+    "check:pause": {
+      "words": 66,
+      "sentences": 10,
+      "wordsPerSentence": 6.6,
+      "approximateFleschKincaidGrade": 4.9
+    },
+    "check:pleura": {
+      "words": 64,
+      "sentences": 6,
+      "wordsPerSentence": 10.7,
+      "approximateFleschKincaidGrade": 5.5
+    }
+  }
+}

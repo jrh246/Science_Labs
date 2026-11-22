@@ -1,0 +1,356 @@
+{
+  "schemaVersion": 1,
+  "labId": "food-macromolecules",
+  "taskId": "BIO-03-REVIEW",
+  "reviewedBy": "Codex - separate development review",
+  "reviewedOn": "2026-11-15",
+  "sourceSnapshot": "sha256:09aa44b61ab288c3397359768eda5c47e55b2f8f0eaca7c310dc08abec9aefce",
+  "decision": "pass",
+  "summary": "English virtual-only development review passed after nonoverlapping tool layout, compact report controls, precise final-assay wording, robust post-drag choices and stale-feedback fixes. External comprehension, hardware/protocol and AUD-10 delivery remain separate.",
+  "blockers": [],
+  "checks": {
+    "G01": {
+      "status": "pass",
+      "notes": "Three goals link controlled test design, four observation/claim pairs and limited inference to original written explanations. Completion does not grade understanding.",
+      "evidence": [
+        "src/investigations/food-content.js",
+        "src/investigations/food-report.js",
+        "data/development-tracker/biology-reviews/evidence/food-macromolecules/complete-responses.json"
+      ]
+    },
+    "G02": {
+      "status": "pass",
+      "notes": "Four assays address different targets on separate portions. Supplied positive/negative controls and optional matched preparation are labeled; shortcuts do not fill observations. Portions are not independent biological replicates.",
+      "evidence": [
+        "src/investigations/food-content.js",
+        "src/investigations/food-model.js",
+        "data/development-tracker/biology-reviews/evidence/food-macromolecules/review-notes.md"
+      ]
+    },
+    "G03": {
+      "status": "pass",
+      "notes": "Reviewed primary Pratt 2011 methods and institutional cross-check. Heated Benedict detects reducing sugars including lactose, iodine starch, Biuret peptide bonds, and Sudan IV paper staining is interpreted after rinsing. Synthetic profiles are not empirical food measurements.",
+      "evidence": [
+        "src/investigations/food-content.js",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3577220/",
+        "data/development-tracker/biology-reviews/evidence/food-macromolecules/review-notes.md"
+      ]
+    },
+    "G04": {
+      "status": "pass",
+      "notes": "Sensitivity, food-color interference, shortened treatment, synthetic quantities and negative-result limits appear beside the bench and in reports/resources. No exact concentration or named food is inferred.",
+      "evidence": [
+        "src/investigations/food-content.js",
+        "data/development-tracker/biology-reviews/evidence/food-macromolecules/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/food-macromolecules/lipid-before-rinse.png"
+      ]
+    },
+    "G05": {
+      "status": "pass",
+      "notes": "Students place the sample/reagent at the actual specimen, grip the tube with tongs and move it to a bath, stain/rinse paper, then classify visible observations and claims. Wrong placement and corrections have consequences.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/food-macromolecules/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/food-macromolecules/sugar-before-heat.png",
+        "data/development-tracker/biology-reviews/evidence/food-macromolecules/lipid-recorded.png"
+      ]
+    },
+    "G06": {
+      "status": "pass",
+      "notes": "Inspected initial, each assay intermediate/final, phone and tablet states. Glass, meniscus, increased liquid, precipitate, paper and dye support interpretation. Shared scene/target coordinates and adjacent nonoverlapping tools survive scroll/resize/reload.",
+      "evidence": [
+        "src/investigations/food-art.js",
+        "data/development-tracker/biology-reviews/evidence/food-macromolecules/initial-bench.png",
+        "data/development-tracker/biology-reviews/evidence/food-macromolecules/sugar-recorded.png",
+        "data/development-tracker/biology-reviews/evidence/food-macromolecules/protein-recorded.png",
+        "data/development-tracker/biology-reviews/evidence/food-macromolecules/phone-heated-tube.png",
+        "data/development-tracker/biology-reviews/evidence/food-macromolecules/tablet-heated-tube.png"
+      ]
+    },
+    "G07": {
+      "status": "pass",
+      "notes": "Seeded sample profile and shuffled choices remain stable within the attempt and on reload. Reference identities and meaningful assay order remain intact; position does not indicate the answer.",
+      "evidence": [
+        "src/investigations/food-model.js",
+        "data/development-tracker/biology-reviews/evidence/food-macromolecules/browser-tests.txt"
+      ]
+    },
+    "G08": {
+      "status": "pass",
+      "notes": "Reviewed the full English pathway, error feedback, questions, report and handouts for ninth-grade language. Indicator, controls, reducing sugar, peptide bond, basic pH and sensitivity are explained in context. External comprehension remains pending.",
+      "evidence": [
+        "src/investigations/food-content.js",
+        "data/development-tracker/biology-reviews/evidence/food-macromolecules/review-notes.md",
+        "public/resources/food-macromolecules-worksheet.pdf"
+      ]
+    },
+    "G09": {
+      "status": "pass",
+      "notes": "Required reasoned prediction and control/portion design are recorded before apparatus/results. Initial plan remains preserved. Heat/rinse gates prevent premature interpretations; predictions need not agree with the outcome.",
+      "evidence": [
+        "src/investigations/food-model.js",
+        "tests/food.test.js",
+        "data/development-tracker/biology-reviews/evidence/food-macromolecules/browser-tests.txt"
+      ]
+    },
+    "G10": {
+      "status": "pass",
+      "notes": "Correct! explains supported inference; wrong observations/concepts suggest reconsideration. Current edits clear stale correctness and next-step access. Actual wrong attempts are retained; repeated correct checks do not invent corrections. BIO-07 shared touch follow-up: suppress the pending native compatibility click across replacement DOM, reset on the next physical pointerdown. All six earlier lab browser files passed in the 50-check group; its only failure was a new singular/plural assertion typo, corrected in the focused 2/2 exact-tap rerun. Verify one increment/toggle/rotation and preserve the next deliberate tap. Science and saved observations unchanged; original acceptance snapshots retained.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/food-macromolecules/edit-feedback-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/food-macromolecules/unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/food-macromolecules/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-exact-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-regression-initial.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-followup-manifest.json"
+      ]
+    },
+    "G11": {
+      "status": "pass",
+      "notes": "Completion confirms only a successful write beside the control, including repeated clicks. Denied storage/retry, reload, identity changes and substantive invalidation were exercised.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/food-macromolecules/browser-tests.txt",
+        "src/investigations/completion-status.js"
+      ]
+    },
+    "G12": {
+      "status": "pass",
+      "notes": "Stable v1 root-scoped key and versioned attempt preserve sample profile, partial treatment, first plan and corrections. Root/development attempts and caches are isolated; unrelated earlier lab keys remain untouched.",
+      "evidence": [
+        "src/investigations/food-model.js",
+        "data/development-tracker/biology-reviews/evidence/food-macromolecules/browser-tests.txt"
+      ]
+    },
+    "G13": {
+      "status": "pass",
+      "notes": "Actual completed PDF download and native print retain optional name/period, safely named or neutral files, readable date/time/zone and completion status. Draft exports work independently of completion.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/food-macromolecules/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/food-macromolecules/native-print.pdf",
+        "data/development-tracker/biology-reviews/evidence/food-macromolecules/draft.pdf",
+        "data/development-tracker/biology-reviews/evidence/food-macromolecules/browser-tests.txt"
+      ]
+    },
+    "G14": {
+      "status": "pass",
+      "notes": "Reports organize actual prediction/design, current observations/claims, compact supplied-control reference, original goal-linked writing and meaningful corrections. Wrong current entries remain unconfirmed, not missing. Full raw attempts remain in structured export; no grade or authenticated submission is claimed.",
+      "evidence": [
+        "src/investigations/food-report.js",
+        "data/development-tracker/biology-reviews/evidence/food-macromolecules/unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/food-macromolecules/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/food-macromolecules/complete-responses.json"
+      ]
+    },
+    "G15": {
+      "status": "pass",
+      "notes": "Rendered and inspected 29 final report/resource pages. Unicode names, full long-answer final marker, pagination, grouped limits/sources and teacher headings checked. First offline PDF and export failure/print recovery exercised. Native print and PDF use the same response snapshot.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/food-macromolecules/pdf-inspection.json",
+        "data/development-tracker/biology-reviews/evidence/food-macromolecules/pdf-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/food-macromolecules/pdf-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/food-macromolecules/pdf-contact-3.png",
+        "data/development-tracker/biology-reviews/evidence/food-macromolecules/pdf-contact-4.png",
+        "data/development-tracker/biology-reviews/evidence/food-macromolecules/long-offline.pdf",
+        "data/development-tracker/biology-reviews/evidence/food-macromolecules/long-native-print.pdf",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.md",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.md"
+      ]
+    },
+    "G16": {
+      "status": "pass",
+      "notes": "Actual Chromium mouse and native touch drags, release-then-tap, immediate next tool choice, keyboard select/place, reduced motion, phone/tablet/desktop, scroll/resize/reload pass. Text observations supplement color. Physical devices and assistive-technology certification remain pending. BIO-07 shared touch follow-up: suppress the pending native compatibility click across replacement DOM, reset on the next physical pointerdown. All six earlier lab browser files passed in the 50-check group; its only failure was a new singular/plural assertion typo, corrected in the focused 2/2 exact-tap rerun. Verify one increment/toggle/rotation and preserve the next deliberate tap. Science and saved observations unchanged; original acceptance snapshots retained.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/food-macromolecules/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/food-macromolecules/edit-feedback-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/food-macromolecules/phone-explain.png",
+        "src/investigations/touch-buttons.js",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-exact-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-regression-initial.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-followup-manifest.json",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.json",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.md",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-native-focus-regressions.txt"
+      ]
+    },
+    "G17": {
+      "status": "pass",
+      "notes": "116 model/report tests, 25 browser regressions and three edit/recheck cases passed. All 45 public PDF resources verified; standalone offline cache and final 19-lab platform build passed. Earlier review findings/fixes retained. Existing 40 API protection checks from BIO-01 cover unchanged policy, not a live deployment. BIO-07 shared touch follow-up: suppress the pending native compatibility click across replacement DOM, reset on the next physical pointerdown. All six earlier lab browser files passed in the 50-check group; its only failure was a new singular/plural assertion typo, corrected in the focused 2/2 exact-tap rerun. Verify one increment/toggle/rotation and preserve the next deliberate tap. Science and saved observations unchanged; original acceptance snapshots retained.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/food-macromolecules/model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/food-macromolecules/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/food-macromolecules/edit-feedback-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/food-macromolecules/platform-build.txt",
+        "data/development-tracker/biology-reviews/evidence/food-macromolecules/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/food-macromolecules/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-exact-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-regression-initial.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-followup-manifest.json"
+      ]
+    },
+    "G18": {
+      "status": "pass",
+      "notes": "English content bundle, stable lab/assay/goal/question/source IDs, locale/version and original writing are separated from identity. Remaining status/diagram strings require extraction under AUD-10. No Spanish switching or translated printing is claimed.",
+      "evidence": [
+        "src/investigations/food-content.js",
+        "src/investigations/food-report.js",
+        "data/development-tracker/biology-reviews/evidence/food-macromolecules/review-notes.md"
+      ]
+    },
+    "RESOURCES": {
+      "status": "pass",
+      "notes": "Current shared definitions generate matching three-page student and teacher PDFs with embedded Unicode fonts. Links/prompts/hashes verified and every final page inspected. Virtual-only boundaries distinguish teaching notes from an authorized physical protocol. Python is a build-time authoring tool.",
+      "evidence": [
+        "scripts/build-biology-resources.py",
+        "public/resources/food-macromolecules-worksheet.pdf",
+        "public/resources/food-macromolecules-teacher-guide.pdf",
+        "data/development-tracker/biology-reviews/evidence/food-macromolecules/resource-check.txt"
+      ]
+    },
+    "ACCESS": {
+      "status": "pass",
+      "notes": "Guest/free lab use and local PDF/print need no login. Compiles into immutable runtime; production release registration/publication is separate. Existing entitlements/publication policy is unchanged; retained API protection evidence is reused without claiming live classroom deployment.",
+      "evidence": [
+        "src/catalog.js",
+        "data/development-tracker/biology-reviews/evidence/food-macromolecules/platform-build.txt",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/platform-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/food-macromolecules/browser-tests.txt"
+      ]
+    },
+    "TRACKING": {
+      "status": "pass",
+      "notes": "Stable catalog ID/unit/route, dataset activity/handouts and English actual availability updated and validated. Spanish remains planned, reviewer approvals unchanged, no standards or whole-course completion awarded. Shared project copies refreshed after acceptance.",
+      "evidence": [
+        "src/catalog.js",
+        "data/curriculum/dataset.json",
+        "data/development-tracker/activity-checklist.csv",
+        "data/development-tracker/biology-reviews/evidence/food-macromolecules/review-notes.md"
+      ]
+    }
+  },
+  "artifacts": {
+    "workflow": [
+      "data/development-tracker/biology-reviews/evidence/food-macromolecules/complete-responses.json",
+      "data/development-tracker/biology-reviews/evidence/food-macromolecules/review-notes.md",
+      "data/development-tracker/biology-reviews/evidence/food-macromolecules/source-manifest.json"
+    ],
+    "visuals": [
+      "data/development-tracker/biology-reviews/evidence/food-macromolecules/initial-bench.png",
+      "data/development-tracker/biology-reviews/evidence/food-macromolecules/sugar-before-heat.png",
+      "data/development-tracker/biology-reviews/evidence/food-macromolecules/sugar-recorded.png",
+      "data/development-tracker/biology-reviews/evidence/food-macromolecules/starch-recorded.png",
+      "data/development-tracker/biology-reviews/evidence/food-macromolecules/protein-recorded.png",
+      "data/development-tracker/biology-reviews/evidence/food-macromolecules/lipid-before-rinse.png",
+      "data/development-tracker/biology-reviews/evidence/food-macromolecules/lipid-recorded.png",
+      "data/development-tracker/biology-reviews/evidence/food-macromolecules/phone-heated-tube.png",
+      "data/development-tracker/biology-reviews/evidence/food-macromolecules/tablet-heated-tube.png",
+      "data/development-tracker/biology-reviews/evidence/food-macromolecules/phone-explain.png"
+    ],
+    "pdfReports": [
+      "data/development-tracker/biology-reviews/evidence/food-macromolecules/complete.pdf",
+      "data/development-tracker/biology-reviews/evidence/food-macromolecules/draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/food-macromolecules/unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/food-macromolecules/long-offline.pdf",
+      "data/development-tracker/biology-reviews/evidence/food-macromolecules/pdf-inspection.json"
+    ],
+    "nativePrint": [
+      "data/development-tracker/biology-reviews/evidence/food-macromolecules/native-print.pdf",
+      "data/development-tracker/biology-reviews/evidence/food-macromolecules/long-native-print.pdf"
+    ],
+    "tests": [
+      "data/development-tracker/biology-reviews/evidence/food-macromolecules/model-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/food-macromolecules/browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/food-macromolecules/edit-feedback-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/food-macromolecules/platform-build.txt",
+      "data/development-tracker/biology-reviews/evidence/food-macromolecules/resource-check.txt"
+    ],
+    "resources": [
+      "public/resources/food-macromolecules-worksheet.pdf",
+      "public/resources/food-macromolecules-teacher-guide.pdf"
+    ]
+  },
+  "externalValidation": {
+    "teacherStudentComprehension": {
+      "status": "pending",
+      "notes": "Not yet performed; development checks do not establish classroom comprehension."
+    },
+    "physicalDevices": {
+      "status": "pending",
+      "notes": "Not yet performed; browser emulation is not physical-device acceptance."
+    },
+    "classroomProtocol": {
+      "status": "pending",
+      "notes": "Record the selected modes and actual protocol validation separately."
+    }
+  },
+  "futureWork": [
+    {
+      "id": "AUD-10",
+      "status": "planned",
+      "notes": "Full native language switching and translated printing are not certified by the localization-readiness check."
+    }
+  ],
+  "history": [
+    {
+      "finding": "Initial resource generator lacked its Small paragraph style.",
+      "resolution": "Defined the Unicode small-text style and reran resource generation; 45 public resource PDFs verified."
+    },
+    {
+      "finding": "Separate screenshot review: sticky tools covered part of the tube and rinse bath; last assay still said continue to another test.",
+      "resolution": "Reopened this build for compact nonoverlapping workbench and final-assay wording; retests pending."
+    },
+    {
+      "finding": "Separate review findings detailed in review-notes.md, including covered specimens, report repetition, post-drag timeout and stale correctness after edits.",
+      "resolution": "All identified issues fixed; complete/corrected/unfinished/long/offline and edit/recheck evidence reviewed. Final platform release compiled as 3d0ba065d15888a5f118ed33; not published."
+    },
+    {
+      "id": "BIO-07-touch-once",
+      "finding": "A native compatibility click could hit a new control after a touch redraw; discovered from viral round-2 phone evidence.",
+      "resolution": "BIO-07 shared touch follow-up: suppress the pending native compatibility click across replacement DOM, reset on the next physical pointerdown. All six earlier lab browser files passed in the 50-check group; its only failure was a new singular/plural assertion typo, corrected in the focused 2/2 exact-tap rerun. Verify one increment/toggle/rotation and preserve the next deliberate tap. Science and saved observations unchanged; original acceptance snapshots retained.",
+      "sourceSnapshot": "sha256:615ccee6e5fe3033f3dba30fc3914477c955e54bf3a2271d32febc0b2a768c60",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/viral-spread/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-exact-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-regression-initial.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-followup-manifest.json"
+      ]
+    }
+  ],
+  "followups": [
+    {
+      "id": "shared-touch-focus-2026-11-15",
+      "reviewedOn": "2026-11-15",
+      "reviewedBy": "Codex - shared interaction follow-up",
+      "decision": "pass",
+      "summary": "Pending native compatibility mousedown no longer steals newly assigned focus. Existing deliberate next-tap/mouse/keyboard behavior verified in39 selected browser cases; original lab review snapshot retained.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.json",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.md",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-native-focus-regressions.txt"
+      ]
+    },
+    {
+      "id": "shared-response-pagination-2026-11-15",
+      "recordedAt": "2026-11-15T17:05:24.789Z",
+      "scope": "Shared PDF question/answer page-break guard; original review remains its point-in-time snapshot. Representative current starch, stored heat/fungal and legacy enzyme reports checked; not a full rerun of this lab.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.md",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.json",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/pagination-corrected.txt",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-model-tests.txt"
+      ]
+    },
+    {
+      "id": "shared-scientific-symbols-2026-11-15",
+      "recordedAt": "2026-11-15T18:31:00.193Z",
+      "scope": "Shared offline scientific-symbol glyph fallback only; original source snapshot/history unchanged. Representative new/old outputs and legacy wrappers validated, not full rerun of this lab.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.md",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.json",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/glyph-all-artifacts.txt"
+      ]
+    }
+  ]
+}

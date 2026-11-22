@@ -1,0 +1,332 @@
+{
+  "schemaVersion": 1,
+  "labId": "fungal-structures",
+  "taskId": "BIO-10-REVIEW",
+  "reviewedBy": "Codex - separate development review",
+  "reviewedOn": "2026-11-15",
+  "sourceSnapshot": "sha256:f5e8064201bf77734f768e2aaafb72f5f28a3b515d3958432f273b1bdc6c2019",
+  "checks": {
+    "G01": {
+      "status": "pass",
+      "notes": "Three goal-linked observations/explanations distinguish feeding body, early spore growth and budding; navigation completion does not establish mastery.",
+      "evidence": [
+        "src/investigations/fungal-content.js",
+        "src/investigations/fungal-report.js",
+        "data/development-tracker/biology-reviews/evidence/fungal-structures/complete-responses.json"
+      ]
+    },
+    "G02": {
+      "status": "pass",
+      "notes": "Two lens locations, one tracked spore and one bud answer different questions; no routine triple trials, independent-culture or rate claims.",
+      "evidence": [
+        "src/investigations/fungal-content.js",
+        "data/development-tracker/biology-reviews/evidence/fungal-structures/review-notes.md"
+      ]
+    },
+    "G03": {
+      "status": "pass",
+      "notes": "ANBG/CANBR sources, OpenStax 24.1 and primary yeast abstract consulted. Feeding/fruiting body, external sexual-cycle basidiospores, early growth, mating/fruiting limits and asexual budding with mitosis agree across artifacts.",
+      "evidence": [
+        "src/investigations/fungal-model.js",
+        "tests/fungal.test.js",
+        "https://anbg.gov.au/fungi/mycelium.html",
+        "https://anbg.gov.au/fungi/spore-discharge-mushrooms.html",
+        "https://www.cpbr.gov.au/fungi/ascomycetes-basidiomycetes.html",
+        "https://pubmed.ncbi.nlm.nih.gov/28939614/"
+      ]
+    },
+    "G04": {
+      "status": "pass",
+      "notes": "Explanatory lens/nuclear views, four-spore example variation, untimed growth, supplied conditions, shortened launch/transport and incomplete sexual/yeast cycles clearly stated; no species/edibility/rate proof.",
+      "evidence": [
+        "src/investigations/fungal-content.js",
+        "data/development-tracker/biology-reviews/evidence/fungal-structures/complete.pdf"
+      ]
+    },
+    "G05": {
+      "status": "pass",
+      "notes": "Lens placement at wood/gills, actual suitable-surface decision/spore placement, growth interpretation and attached-bud marking cause visible consequences and supply learning evidence.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/fungal-structures/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/fungal-structures/mycelium-lens.png",
+        "data/development-tracker/biology-reviews/evidence/fungal-structures/spore-landed.png",
+        "data/development-tracker/biology-reviews/evidence/fungal-structures/yeast-1.png"
+      ]
+    },
+    "G06": {
+      "status": "pass",
+      "notes": "Original shaded specimen and enlarged structures inspected across initial/intermediate/final and phone/tablet states. Corrected true hyphal enlargement/caption space and surface-attached basidium projections; aligned geometric targets.",
+      "evidence": [
+        "src/investigations/fungal-art.js",
+        "data/development-tracker/biology-reviews/evidence/fungal-structures/mycelium-lens.png",
+        "data/development-tracker/biology-reviews/evidence/fungal-structures/basidium-attached.png",
+        "data/development-tracker/biology-reviews/evidence/fungal-structures/phone-budding.png",
+        "data/development-tracker/biology-reviews/evidence/fungal-structures/review-notes.md"
+      ]
+    },
+    "G07": {
+      "status": "pass",
+      "notes": "Stable choice order within attempt and scientifically meaningful view/phase identities preserved. Corrections/reload do not regenerate spore/bud events or supply student interpretations.",
+      "evidence": [
+        "src/investigations/fungal-model.js",
+        "data/development-tracker/biology-reviews/evidence/fungal-structures/model-tests.txt"
+      ]
+    },
+    "G08": {
+      "status": "pass",
+      "notes": "Full authored workflow/report/resources read, necessary terms defined. Approximate core grade around 8 is diagnostic only; classroom comprehension pending.",
+      "evidence": [
+        "src/investigations/fungal-content.js",
+        "data/development-tracker/biology-reviews/evidence/fungal-structures/reading-screen.json",
+        "data/development-tracker/biology-reviews/evidence/fungal-structures/review-notes.md"
+      ]
+    },
+    "G09": {
+      "status": "pass",
+      "notes": "Required first predictions precede results; paired lens views, verified body comparison, release/landing/growth, bud marking and verified budding enforce model/UI gates.",
+      "evidence": [
+        "src/investigations/fungal-model.js",
+        "data/development-tracker/biology-reviews/evidence/fungal-structures/browser-tests.txt",
+        "tests/fungal.test.js"
+      ]
+    },
+    "G10": {
+      "status": "pass",
+      "notes": "Explicit Correct!/Try again and scientific feedback; current wrong interpretations retained unconfirmed, stale feedback/gates cleared after edits, prior actual errors determine corrections.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/fungal-structures/unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/fungal-structures/edited-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/fungal-structures/complete-responses.json"
+      ]
+    },
+    "G11": {
+      "status": "pass",
+      "notes": "Actual browser evidence for successful save/repeat/reload, denied writes/retry and identity versus academic edits; no cloud submission/automatic grade claim.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/fungal-structures/browser-tests.txt",
+        "src/investigations/completion-status.js"
+      ]
+    },
+    "G12": {
+      "status": "pass",
+      "notes": "Root-scoped versioned state keeps first plan, inspected locations, surface decisions, one spore/bud, wrong entries and original writing. Viewing alone preserves completion; substantive edits reopen work.",
+      "evidence": [
+        "src/investigations/fungal-model.js",
+        "data/development-tracker/biology-reviews/evidence/fungal-structures/browser-tests.txt"
+      ]
+    },
+    "G13": {
+      "status": "pass",
+      "notes": "Actual completed named/neutral PDF and native print include optional name/period, safe filenames, readable local date/time/zone and honest status.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/fungal-structures/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/fungal-structures/draft.pdf",
+        "data/development-tracker/biology-reviews/evidence/fungal-structures/native-print.pdf"
+      ]
+    },
+    "G14": {
+      "status": "pass",
+      "notes": "Shared snapshot groups original plans, observations/interpretations and model provenance, meaningful corrections, concept checks and original goal-level writing; no step-log or grading claim.",
+      "evidence": [
+        "src/investigations/fungal-report.js",
+        "data/development-tracker/biology-reviews/evidence/fungal-structures/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/fungal-structures/edited-unconfirmed.pdf"
+      ]
+    },
+    "G15": {
+      "status": "pass",
+      "notes": "All 37 final pages rendered/inspected. Full Unicode/long final markers, snapshot fidelity, neutral/edited/completed, first offline PDF/native print and export recovery verified.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/fungal-structures/pdf-inspection.json",
+        "data/development-tracker/biology-reviews/evidence/fungal-structures/pdf-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/fungal-structures/pdf-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/fungal-structures/pdf-contact-3.png",
+        "data/development-tracker/biology-reviews/evidence/fungal-structures/pdf-contact-4.png",
+        "data/development-tracker/biology-reviews/evidence/fungal-structures/pdf-contact-5.png",
+        "data/development-tracker/biology-reviews/evidence/fungal-structures/long-offline.pdf",
+        "data/development-tracker/biology-reviews/evidence/fungal-structures/long-native-print.pdf",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.md",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.md"
+      ]
+    },
+    "G16": {
+      "status": "pass",
+      "notes": "Keyboard lens/select/place/focus; mouse drag after resize/scroll; native touch drag-release-next-tap/exact growth/bud changes; 44px sites, phone/tablet and reduced motion exercised. Real-device/AT review pending.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/fungal-structures/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/fungal-structures/phone-mycelium.png",
+        "data/development-tracker/biology-reviews/evidence/fungal-structures/phone-landing-options.png",
+        "data/development-tracker/biology-reviews/evidence/fungal-structures/tablet-germ-tube.png",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.json",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.md",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-native-focus-regressions.txt"
+      ]
+    },
+    "G17": {
+      "status": "pass",
+      "notes": "152 model checks, initial seven and final seven actual browser workflows pass. All 59 resources/current prompts/hashes and standalone/private-platform builds verify; actual findings and logs retained.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/fungal-structures/model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/fungal-structures/initial-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/fungal-structures/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/fungal-structures/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/fungal-structures/standalone-build.txt",
+        "data/development-tracker/biology-reviews/evidence/fungal-structures/platform-build.txt",
+        "data/development-tracker/biology-reviews/evidence/fungal-structures/review-notes.md"
+      ]
+    },
+    "G18": {
+      "status": "pass",
+      "notes": "Stable activity/view/condition/question/goal IDs, English bundle, locale/version and original student writing retained. Remaining string extraction, native language switching and translated print remain AUD-10.",
+      "evidence": [
+        "src/investigations/fungal-content.js",
+        "src/investigations/fungal-report.js",
+        "src/investigations/guided-lab-shell.js"
+      ]
+    },
+    "RESOURCES": {
+      "status": "pass",
+      "notes": "Three-page worksheet and two-page teacher guide match current questions, controls, reproductive distinctions and limits. Hashes and every page verified; virtual only, build-time Python tooling.",
+      "evidence": [
+        "public/resources/fungal-structures-worksheet.pdf",
+        "public/resources/fungal-structures-teacher-guide.pdf",
+        "data/development-tracker/biology-reviews/evidence/fungal-structures/resource-check.txt",
+        "scripts/build-biology-resources.py"
+      ]
+    },
+    "ACCESS": {
+      "status": "pass",
+      "notes": "Guest/free reports remain available without sign-in; policies unchanged. Private 26-lab runtime is compiled only, not uploaded/registered/published. Earlier protection checks reused rather than claimed rerun.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/fungal-structures/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/fungal-structures/platform-build.txt",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/platform-tests.txt"
+      ]
+    },
+    "TRACKING": {
+      "status": "pass",
+      "notes": "Stable biological-diversity/virtual-only route and actual English resources reflected in validated generated curriculum/tracker outputs. Standards/other-language approvals unchanged; shared copies synced after acceptance.",
+      "evidence": [
+        "src/catalog.js",
+        "data/curriculum/dataset.json",
+        "data/development-tracker/activity-checklist.csv"
+      ]
+    }
+  },
+  "artifacts": {
+    "workflow": [
+      "data/development-tracker/biology-reviews/evidence/fungal-structures/review-notes.md",
+      "data/development-tracker/biology-reviews/evidence/fungal-structures/reading-screen.json",
+      "data/development-tracker/biology-reviews/evidence/fungal-structures/complete-responses.json",
+      "data/development-tracker/biology-reviews/evidence/fungal-structures/source-manifest.json"
+    ],
+    "visuals": [
+      "data/development-tracker/biology-reviews/evidence/fungal-structures/mushroom-initial.png",
+      "data/development-tracker/biology-reviews/evidence/fungal-structures/mycelium-lens.png",
+      "data/development-tracker/biology-reviews/evidence/fungal-structures/gills-lens.png",
+      "data/development-tracker/biology-reviews/evidence/fungal-structures/basidium-attached.png",
+      "data/development-tracker/biology-reviews/evidence/fungal-structures/spore-released.png",
+      "data/development-tracker/biology-reviews/evidence/fungal-structures/spore-landed.png",
+      "data/development-tracker/biology-reviews/evidence/fungal-structures/growth-1.png",
+      "data/development-tracker/biology-reviews/evidence/fungal-structures/growth-2.png",
+      "data/development-tracker/biology-reviews/evidence/fungal-structures/yeast-0.png",
+      "data/development-tracker/biology-reviews/evidence/fungal-structures/yeast-1.png",
+      "data/development-tracker/biology-reviews/evidence/fungal-structures/yeast-2.png",
+      "data/development-tracker/biology-reviews/evidence/fungal-structures/yeast-3.png",
+      "data/development-tracker/biology-reviews/evidence/fungal-structures/phone-mycelium.png",
+      "data/development-tracker/biology-reviews/evidence/fungal-structures/phone-landing-options.png",
+      "data/development-tracker/biology-reviews/evidence/fungal-structures/phone-budding.png",
+      "data/development-tracker/biology-reviews/evidence/fungal-structures/tablet-germ-tube.png",
+      "data/development-tracker/biology-reviews/evidence/fungal-structures/phone-explain.png"
+    ],
+    "pdfReports": [
+      "data/development-tracker/biology-reviews/evidence/fungal-structures/complete.pdf",
+      "data/development-tracker/biology-reviews/evidence/fungal-structures/draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/fungal-structures/development-draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/fungal-structures/unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/fungal-structures/edited-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/fungal-structures/long-offline.pdf",
+      "data/development-tracker/biology-reviews/evidence/fungal-structures/pdf-inspection.json"
+    ],
+    "nativePrint": [
+      "data/development-tracker/biology-reviews/evidence/fungal-structures/native-print.pdf",
+      "data/development-tracker/biology-reviews/evidence/fungal-structures/long-native-print.pdf"
+    ],
+    "tests": [
+      "data/development-tracker/biology-reviews/evidence/fungal-structures/model-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/fungal-structures/initial-browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/fungal-structures/browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/fungal-structures/resource-check.txt",
+      "data/development-tracker/biology-reviews/evidence/fungal-structures/standalone-build.txt",
+      "data/development-tracker/biology-reviews/evidence/fungal-structures/platform-build.txt",
+      "data/development-tracker/biology-reviews/evidence/fungal-structures/review-notes.md"
+    ],
+    "resources": [
+      "public/resources/fungal-structures-worksheet.pdf",
+      "public/resources/fungal-structures-teacher-guide.pdf"
+    ]
+  },
+  "externalValidation": {
+    "teacherStudentComprehension": {
+      "status": "pending",
+      "notes": "Not performed; development checks do not establish classroom comprehension."
+    },
+    "physicalDevices": {
+      "status": "pending",
+      "notes": "Emulation is not physical-device or assistive-technology acceptance."
+    },
+    "classroomProtocol": {
+      "status": "not-applicable",
+      "notes": "Virtual-only activity; no physical protocol supplied."
+    }
+  },
+  "history": [
+    {
+      "finding": "The hyphal enlargement reused a macro network and overlapped its caption; some basidium projection strokes began inside the cell rather than at its surface.",
+      "resolution": "Author a separate tubular hyphal enlargement with clear caption space and four projections attached to the club-shaped basidium surface; clarify that spore number varies. Recheck drawings and actual exports."
+    },
+    {
+      "finding": "PDF review found an early-growth correctness status separated from its interpretation by a page break.",
+      "resolution": "Group each structure/growth/budding interpretation and its status into one response block in both PDF and native print; rerun actual exports and inspect all pages."
+    }
+  ],
+  "decision": "pass",
+  "summary": "English virtual-only development review passed after hyphal enlargement and basidium attachment refinements. Source-backed structure/reproduction comparisons retain original reasoning and narrow model claims. External/classroom/hardware/translation and release acceptance separate.",
+  "blockers": [],
+  "followups": [
+    {
+      "id": "shared-touch-focus-2026-11-15",
+      "reviewedOn": "2026-11-15",
+      "reviewedBy": "Codex - shared interaction follow-up",
+      "decision": "pass",
+      "summary": "Pending native compatibility mousedown no longer steals newly assigned focus. Existing deliberate next-tap/mouse/keyboard behavior verified in39 selected browser cases; original lab review snapshot retained.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.json",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.md",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-native-focus-regressions.txt"
+      ]
+    },
+    {
+      "id": "shared-response-pagination-2026-11-15",
+      "recordedAt": "2026-11-15T17:05:24.798Z",
+      "scope": "Shared PDF question/answer page-break guard; original review remains its point-in-time snapshot. Representative current starch, stored heat/fungal and legacy enzyme reports checked; not a full rerun of this lab.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.md",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.json",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/pagination-corrected.txt",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-model-tests.txt"
+      ]
+    },
+    {
+      "id": "shared-scientific-symbols-2026-11-15",
+      "recordedAt": "2026-11-15T18:31:00.200Z",
+      "scope": "Shared offline scientific-symbol glyph fallback only; original source snapshot/history unchanged. Representative new/old outputs and legacy wrappers validated, not full rerun of this lab.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.md",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.json",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/glyph-all-artifacts.txt"
+      ]
+    }
+  ]
+}

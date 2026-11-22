@@ -1,0 +1,121 @@
+[
+  {
+    "file": "public/resources/blood-flow-teacher-guide.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      2756,
+      2906
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "public/resources/blood-flow-worksheet.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1805,
+      1492,
+      2770
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/blood-flow/calculation-unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2260,
+      1703,
+      2004
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/blood-flow/complete.pdf",
+    "pages": 4,
+    "pageCharacters": [
+      2248,
+      2768,
+      3170,
+      1612
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/blood-flow/development-draft.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1853,
+      1668,
+      1615
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/blood-flow/draft.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1843,
+      1668,
+      1615
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/blood-flow/edited-unconfirmed.pdf",
+    "pages": 4,
+    "pageCharacters": [
+      2225,
+      3004,
+      2598,
+      1615
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/blood-flow/long-native-print.pdf",
+    "pages": 7,
+    "pageCharacters": [
+      2279,
+      3292,
+      837,
+      837,
+      837,
+      1303,
+      1852
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/blood-flow/long-offline.pdf",
+    "pages": 7,
+    "pageCharacters": [
+      2223,
+      3044,
+      1225,
+      905,
+      905,
+      861,
+      2710
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/blood-flow/native-print.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2310,
+      3247,
+      3914
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/blood-flow/volume-unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2282,
+      1722,
+      1615
+    ],
+    "finalLongMarker": false
+  }
+]

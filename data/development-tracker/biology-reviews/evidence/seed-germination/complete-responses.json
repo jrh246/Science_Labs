@@ -1,0 +1,379 @@
+{
+  "schemaVersion": 2,
+  "labId": "seed-germination",
+  "title": "Seed Germination",
+  "question": "How does water affect the start of seed growth?",
+  "student": {
+    "name": "Zoë García",
+    "class": "Period 3"
+  },
+  "status": "Complete",
+  "grading": "not_graded",
+  "exportedAt": "2026-11-15T07:54:52.612Z",
+  "exportTimeZone": "America/Los_Angeles",
+  "exportedAtDisplay": "Nov 14, 2026, 11:54 PM PST",
+  "sections": [
+    {
+      "heading": "Question and investigation design",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Virtual teaching model. Not an authenticated submission."
+        },
+        {
+          "type": "paragraph",
+          "text": "Both dishes use 10 bean seeds from the same model seed batch, the same paper, air, light, and a temperature of 22 °C. Only the added water differs."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ten seeds help you see differences among seeds in one dish. They are not ten independent dishes. Days 2 and 5 are observations of the same seeds, not new trials."
+        },
+        {
+          "type": "response",
+          "prompt": "Required before setup: Which dish do you think will have more germinated seeds by day 5? Explain why.",
+          "text": "I predict that damp seeds will have more roots because water supports growth."
+        },
+        {
+          "type": "response",
+          "prompt": "Required before setup: What will you change, what will you count, and what will you keep the same?",
+          "text": "I will change water and count roots. I will keep the seed batch, temperature, light, air, and sample size the same."
+        },
+        {
+          "type": "paragraph",
+          "text": "Prediction timing: Before setup and observations."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Dish",
+            "Planned water",
+            "Seed sample placed",
+            "Water added"
+          ],
+          "rows": [
+            [
+              "A",
+              "5 mL",
+              "10 seeds",
+              "5 mL"
+            ],
+            [
+              "B",
+              "0 mL",
+              "10 seeds",
+              "Dry control"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Observed germination",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Data source: student classifications of model-generated seeds. A root emerging from the coat is the visible criterion. Counts are cumulative; percentages use 10 seeds per dish."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Dish",
+            "Water",
+            "Day",
+            "Confirmed roots / 10",
+            "Germination",
+            "Check status"
+          ],
+          "rows": [
+            [
+              "A",
+              "5 mL",
+              2,
+              2,
+              "20%",
+              "Correct after feedback"
+            ],
+            [
+              "B",
+              "0 mL",
+              2,
+              0,
+              "0%",
+              "Correct first check"
+            ],
+            [
+              "A",
+              "5 mL",
+              5,
+              8,
+              "80%",
+              "Correct first check"
+            ],
+            [
+              "B",
+              "0 mL",
+              5,
+              0,
+              "0%",
+              "Correct first check"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Evidence by learning goal",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Design a fair test of water."
+        },
+        {
+          "type": "paragraph",
+          "text": "A one-variable design was recorded before setup. Written reasoning needs teacher review."
+        },
+        {
+          "type": "response",
+          "prompt": "Compare your prediction with the results. Use the day 5 counts or percentages from both dishes to explain your conclusion.",
+          "text": "My conclusion explanation uses the recorded counts from both dishes. One dish per condition cannot show repeatability."
+        },
+        {
+          "type": "paragraph",
+          "text": "Identify germination and compare observations over time."
+        },
+        {
+          "type": "paragraph",
+          "text": "4 of 4 seed classifications confirmed. This does not grade the explanations."
+        },
+        {
+          "type": "response",
+          "prompt": "Why did you keep the seed batch, temperature, light, and air the same? Explain what the dry control helps you test.",
+          "text": "My fair-test explanation uses the recorded counts from both dishes. One dish per condition cannot show repeatability."
+        },
+        {
+          "type": "paragraph",
+          "text": "Use evidence without overstating what the test shows."
+        },
+        {
+          "type": "paragraph",
+          "text": "The student explanation below is preserved for teacher review."
+        },
+        {
+          "type": "response",
+          "prompt": "Do these two dishes prove that all seeds will give the same result? Explain one limit and how you would improve the investigation.",
+          "text": "My limits explanation uses the recorded counts from both dishes. One dish per condition cannot show repeatability."
+        }
+      ]
+    },
+    {
+      "heading": "Concept checks and corrections",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Which observation counts as germination in this investigation?",
+          "text": "A root has come out of the seed coat."
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct! A visible root is the sign used here. Water uptake may cause swelling before a root appears. Answer revised after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "What does the dry dish help you investigate?",
+          "text": "How added water affects this batch under the conditions kept the same."
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct! The dishes differ in added water. This comparison does not test light, every species, or an exact water requirement. One recorded check."
+        },
+        {
+          "type": "paragraph",
+          "text": "Classification feedback: Dish A, day 2: selection revised after feedback; current selection confirmed."
+        }
+      ]
+    },
+    {
+      "heading": "Model limits and sources",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "This is a teaching model, not data from a real seed test. Time is shortened. The damp paper stays moist; drying, mold, and changes in oxygen are not modeled. Root sizes are enlarged so you can count them. Real seed batches can differ. One dish per condition cannot show how repeatable the result is or prove a rule for all seeds."
+        },
+        {
+          "type": "paragraph",
+          "text": "University of Illinois Extension: Germination: https://web.extension.illinois.edu/gpe/case3/c3facts3.html"
+        },
+        {
+          "type": "paragraph",
+          "text": "University of Florida / Kentucky / Texas A&M: Seed germination: https://propg.ifas.ufl.edu/04-seeds/03-germination/04-seedsgermination-germination.html"
+        }
+      ]
+    }
+  ],
+  "activityVersion": 1,
+  "locale": "en",
+  "attemptId": "seed-3727927797-1794729290229",
+  "data": {
+    "schemaVersion": 1,
+    "activityVersion": 1,
+    "labId": "seed-germination",
+    "attemptId": "seed-3727927797-1794729290229",
+    "seed": 3727927797,
+    "locale": "en",
+    "stage": 3,
+    "studentName": "Zoë García",
+    "studentClass": "Period 3",
+    "prediction": "I predict that damp seeds will have more roots because water supports growth.",
+    "design": "I will change water and count roots. I will keep the seed batch, temperature, light, air, and sample size the same.",
+    "initialPlan": {
+      "prediction": "I predict that damp seeds will have more roots because water supports growth.",
+      "design": "I will change water and count roots. I will keep the seed batch, temperature, light, air, and sample size the same.",
+      "water": {
+        "a": 5,
+        "b": 0
+      },
+      "recordedAt": "2026-11-15T07:54:50.367Z",
+      "timing": "Before setup and observations"
+    },
+    "dishes": {
+      "a": {
+        "loaded": true,
+        "water": 5,
+        "waterApplied": true
+      },
+      "b": {
+        "loaded": true,
+        "water": 0,
+        "waterApplied": false
+      }
+    },
+    "day": 5,
+    "observations": {
+      "a-2": {
+        "selected": [
+          1,
+          7
+        ],
+        "attempts": [
+          {
+            "selected": [],
+            "correct": false,
+            "recordedAt": "2026-11-15T07:54:50.996Z"
+          },
+          {
+            "selected": [
+              1,
+              7
+            ],
+            "correct": true,
+            "recordedAt": "2026-11-15T07:54:51.146Z"
+          }
+        ],
+        "correct": true
+      },
+      "b-2": {
+        "selected": [],
+        "attempts": [
+          {
+            "selected": [],
+            "correct": true,
+            "recordedAt": "2026-11-15T07:54:51.214Z"
+          }
+        ],
+        "correct": true
+      },
+      "a-5": {
+        "selected": [
+          1,
+          3,
+          4,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "attempts": [
+          {
+            "selected": [
+              1,
+              3,
+              4,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            "correct": true,
+            "recordedAt": "2026-11-15T07:54:51.712Z"
+          }
+        ],
+        "correct": true
+      },
+      "b-5": {
+        "selected": [],
+        "attempts": [
+          {
+            "selected": [],
+            "correct": true,
+            "recordedAt": "2026-11-15T07:54:51.795Z"
+          }
+        ],
+        "correct": true
+      }
+    },
+    "checks": {
+      "root-evidence": {
+        "value": "root",
+        "attempts": [
+          {
+            "value": "swelling",
+            "correct": false
+          },
+          {
+            "value": "root",
+            "correct": true
+          }
+        ],
+        "correct": true
+      },
+      "control": {
+        "value": "water",
+        "attempts": [
+          {
+            "value": "water",
+            "correct": true
+          }
+        ],
+        "correct": true
+      }
+    },
+    "answers": {
+      "conclusion": "My conclusion explanation uses the recorded counts from both dishes. One dish per condition cannot show repeatability.",
+      "fair-test": "My fair-test explanation uses the recorded counts from both dishes. One dish per condition cannot show repeatability.",
+      "limits": "My limits explanation uses the recorded counts from both dishes. One dish per condition cannot show repeatability."
+    },
+    "complete": true
+  },
+  "evidence": [
+    {
+      "goalId": "controlled-comparison",
+      "answerId": "conclusion",
+      "writing": "My conclusion explanation uses the recorded counts from both dishes. One dish per condition cannot show repeatability.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "observe-growth",
+      "answerId": "fair-test",
+      "writing": "My fair-test explanation uses the recorded counts from both dishes. One dish per condition cannot show repeatability.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "evidence-limits",
+      "answerId": "limits",
+      "writing": "My limits explanation uses the recorded counts from both dishes. One dish per condition cannot show repeatability.",
+      "status": "not_graded"
+    }
+  ]
+}

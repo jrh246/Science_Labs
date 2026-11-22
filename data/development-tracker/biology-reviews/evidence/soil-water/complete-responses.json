@@ -1,0 +1,477 @@
+{
+  "schemaVersion": 2,
+  "labId": "soil-water",
+  "title": "Which Soils Retain Water?",
+  "question": "How do selected soil models differ in drainage and retention, and can roots use all the water that remains?",
+  "student": {
+    "name": "Zoë García",
+    "class": "Period 5"
+  },
+  "status": "Complete",
+  "grading": "not_graded",
+  "exportedAt": "2026-11-15T15:24:47.067Z",
+  "exportTimeZone": "America/Los_Angeles",
+  "exportedAtDisplay": "Nov 15, 2026, 7:24 AM PST",
+  "sections": [
+    {
+      "heading": "First prediction and controlled comparison",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Required before setup: Predict which model will retain the most water after drainage: sand-dominant, loam or clay-dominant. Will that model also provide the most water roots can use? Explain your ideas.",
+          "text": "I predict clay will retain most water. I am unsure whether that means roots can use the most; a soil may hold some water too tightly."
+        },
+        {
+          "type": "response",
+          "prompt": "Required before setup: What must stay matched for a fair comparison? Why compare equal soil volumes and water doses at the same drainage endpoint? Why would one model of each composition not show all variation in real soils?",
+          "text": "Match bulk volume, initial dryness, water dose, supports and free-drainage endpoint. Equal volumes need not have equal masses. These three constructed models cannot estimate variation within real soil types."
+        },
+        {
+          "type": "paragraph",
+          "text": "Timing: Before setup or model observations."
+        },
+        {
+          "type": "paragraph",
+          "text": "Use three supplied, initially dry soil cores, each 100 cm³ in bulk volume. Bulk volume includes solid material and pores. All have the same column shape, ideal support, 60 mL water dose and model drainage endpoint. Their assumed pore volumes are 50 mL. Equal bulk volumes do not mean equal dry masses. Real pore volumes depend on structure as well as texture."
+        },
+        {
+          "type": "paragraph",
+          "text": "Three distinct compositions, not three repeated trials or independent samples within a texture. Cores/supports were model-provided."
+        }
+      ]
+    },
+    {
+      "heading": "Drainage and retention evidence",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Student readings from supplied synthetic model collectors. Every initially dry100cm³ core received60mL. Current entries remain visible even when unconfirmed. The endpoint completes assumed free drainage; it is not a measured real settling time or drainage speed."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Model",
+            "Current drainage (mL)",
+            "Reading status",
+            "Current retained (mL)",
+            "Retention status"
+          ],
+          "rows": [
+            [
+              "Sand",
+              "45",
+              "Correct after feedback",
+              "15",
+              "Correct after feedback"
+            ],
+            [
+              "Loam",
+              "30",
+              "Correct first check",
+              "30",
+              "Correct after feedback"
+            ],
+            [
+              "Clay",
+              "20",
+              "Correct first check",
+              "40",
+              "Correct after feedback"
+            ]
+          ]
+        },
+        {
+          "type": "response",
+          "prompt": "Model with most total retention",
+          "text": "Clay\nCorrect after feedback."
+        },
+        {
+          "type": "paragraph",
+          "text": "Retained =60mL input − collected drainage. No evaporation, spill, runoff or support-water loss in this model."
+        }
+      ]
+    },
+    {
+      "heading": "Separate supplied data and potential root availability",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tightly held amounts below come from separate hypothetical soil-water tests. The student did not measure them by collecting drainage. Potentially available = retained − separately supplied tightly held amount. These are modeled root limits, not actual uptake measurements."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Model",
+            "Supplied tightly held (mL)",
+            "Current potentially available (mL)",
+            "Status"
+          ],
+          "rows": [
+            [
+              "Sand",
+              "5",
+              "10",
+              "Correct after feedback"
+            ],
+            [
+              "Loam",
+              "10",
+              "20",
+              "Correct after feedback"
+            ],
+            [
+              "Clay",
+              "25",
+              "15",
+              "Correct after feedback"
+            ]
+          ]
+        },
+        {
+          "type": "response",
+          "prompt": "Model with most potentially available water",
+          "text": "Loam\nCorrect after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "Particle-surface interpretation",
+          "text": "Water held too tightly for the modeled roots\nCorrect after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "Pore beside root interpretation",
+          "text": "Water potentially available to roots\nCorrect after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "Leaving-water interpretation",
+          "text": "Gravity drainage\nCorrect after feedback."
+        },
+        {
+          "type": "paragraph",
+          "text": "The enlarged pore/particle/root drawing combines different times as a concept model. It is not a microscopic observation or exact map of separate water compartments."
+        }
+      ]
+    },
+    {
+      "heading": "Evidence by learning goal",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Make a controlled comparison using matched soil volume, water input and drainage endpoint."
+        },
+        {
+          "type": "response",
+          "prompt": "Name the three model compositions and the conditions kept matched. Why does equal bulk volume not require equal dry mass? What real soil differences were simplified?",
+          "text": "My controls explanation compares matched synthetic100cm³ initially dry cores and60mL inputs. Sand drained 45mL, retained 15mL; loam 30/30mL; clay 20/40mL. Clay retained most, but separate hypothetical tightly held amounts5/10/25mL give potential availability 10/20/15mL; loam is highest here. Water remains in pores/films, not solid grains. These are not real root-uptake or speed measurements; structure, packing, soil depth, salts and roots could change field results."
+        },
+        {
+          "type": "paragraph",
+          "text": "Use collected drainage to calculate retained water and compare the actual model results."
+        },
+        {
+          "type": "response",
+          "prompt": "Use the added, drained and retained volumes for each model, with units. Compare the results with your prediction. Why does the endpoint volume not measure drainage speed or prove a result for every soil of that texture?",
+          "text": "My budget explanation compares matched synthetic100cm³ initially dry cores and60mL inputs. Sand drained 45mL, retained 15mL; loam 30/30mL; clay 20/40mL. Clay retained most, but separate hypothetical tightly held amounts5/10/25mL give potential availability 10/20/15mL; loam is highest here. Water remains in pores/films, not solid grains. These are not real root-uptake or speed measurements; structure, packing, soil depth, salts and roots could change field results."
+        },
+        {
+          "type": "paragraph",
+          "text": "Distinguish retained water from potentially plant-available water and state what drainage alone cannot show."
+        },
+        {
+          "type": "response",
+          "prompt": "Compare total retention with potentially available water using both your calculations and the separate supplied tightly held amounts. Explain the role of pores, surfaces and roots. Why can this drainage test alone not measure plant-available water or identify the best soil for every plant?",
+          "text": "My availability explanation compares matched synthetic100cm³ initially dry cores and60mL inputs. Sand drained 45mL, retained 15mL; loam 30/30mL; clay 20/40mL. Clay retained most, but separate hypothetical tightly held amounts5/10/25mL give potential availability 10/20/15mL; loam is highest here. Water remains in pores/films, not solid grains. These are not real root-uptake or speed measurements; structure, packing, soil depth, salts and roots could change field results."
+        }
+      ]
+    },
+    {
+      "heading": "Concept checks",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "A model collects more water below its column. With the same input and no other losses, what does that show?",
+          "text": "Less of the added water remains in that soil at the endpoint.\nCorrect! Input = collected drainage + retained water in this model. More collected drainage means less retained water. Speed needs a time record, which this comparison does not provide. Correct on first recorded check."
+        },
+        {
+          "type": "response",
+          "prompt": "Why can the clay model retain the most water without providing the most potentially available water?",
+          "text": "A larger portion is held too tightly for the modeled roots to extract.\nCorrect! Water remains in pores and on surfaces. Some is held too tightly for a plant to remove. Available water is a portion of retention, not all of it. Revised after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "What would a real study need beyond our drainage readings to estimate plant-available water?",
+          "text": "Separate soil-water measurements and assumptions about roots, soil depth and conditions.\nCorrect! The tightly held amounts were supplied from imagined separate tests. They were not measured by collecting drainage. Real field capacity and wilting limits need further measurements and clear conditions. Correct on first recorded check."
+        }
+      ]
+    },
+    {
+      "heading": "Model limits and sources",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "All volumes are invented model data, not measured soil samples. Each core starts dry and has an assumed 50 mL of pore space. After the 60 mL dose, the staged model first shows 50 mL in pores and 10 mL collected. The next step completes its assumed free drainage. This is not a real-time flow model. We do not measure drainage speed or a fixed number of real minutes. There is no evaporation, spill, runoff, swelling, trapped air or water held by the support. Real texture, structure, organic matter, packing and initial moisture change results. Our endpoint is an ideal drained state, not a field-capacity measurement. Field capacity describes water remaining after excess water drains. Later tightly held amounts come from separate supplied hypothetical tests. Drainage alone cannot reveal them. Roots, soil depth and salts also affect water use. Soil textures and enlarged pore drawings are explanations, not microscopy or exact volume maps. No physical soil-handling or wilting-test protocol is supplied."
+        },
+        {
+          "type": "paragraph",
+          "text": "UC IPM: Soil Properties and Water Availability to Roots: https://ipm.ucanr.edu/home-and-landscape/soil-properties-and-water-availability-to-roots/"
+        },
+        {
+          "type": "paragraph",
+          "text": "University of Minnesota: How Agricultural Drainage Works: https://extension.umn.edu/natural-resources/conservation/agricultural-soil-and-water/how-agricultural-drainage-works"
+        },
+        {
+          "type": "paragraph",
+          "text": "USDA NRCS: Available Water Capacity: https://www.nrcs.usda.gov/sites/default/files/2022-10/nrcs142p2_051590.pdf"
+        }
+      ],
+      "keepFirst": 4
+    }
+  ],
+  "activityVersion": 1,
+  "locale": "en",
+  "attemptId": "soil-3754919871-1794756282303",
+  "data": {
+    "schemaVersion": 1,
+    "activityVersion": 1,
+    "labId": "soil-water",
+    "attemptId": "soil-3754919871-1794756282303",
+    "seed": 3754919871,
+    "locale": "en",
+    "stage": 3,
+    "studentName": "Zoë García",
+    "studentClass": "Period 5",
+    "prediction": "I predict clay will retain most water. I am unsure whether that means roots can use the most; a soil may hold some water too tightly.",
+    "design": "Match bulk volume, initial dryness, water dose, supports and free-drainage endpoint. Equal volumes need not have equal masses. These three constructed models cannot estimate variation within real soil types.",
+    "initialPlan": {
+      "prediction": "I predict clay will retain most water. I am unsure whether that means roots can use the most; a soil may hold some water too tightly.",
+      "design": "Match bulk volume, initial dryness, water dose, supports and free-drainage endpoint. Equal volumes need not have equal masses. These three constructed models cannot estimate variation within real soil types.",
+      "timing": "Before setup or model observations",
+      "recordedAt": "2026-11-15T15:24:42.470Z"
+    },
+    "current": "clay",
+    "soils": {
+      "sand": {
+        "collector": true,
+        "dosed": true,
+        "settled": true,
+        "entry": "45",
+        "record": {
+          "value": 45,
+          "correctAfterFeedback": true,
+          "sourceId": "student-read-supplied-model-collector"
+        },
+        "attempts": [
+          {
+            "value": "999",
+            "correct": false
+          },
+          {
+            "value": "45",
+            "correct": true
+          }
+        ]
+      },
+      "loam": {
+        "collector": true,
+        "dosed": true,
+        "settled": true,
+        "entry": "30",
+        "record": {
+          "value": 30,
+          "correctAfterFeedback": false,
+          "sourceId": "student-read-supplied-model-collector"
+        },
+        "attempts": [
+          {
+            "value": "30",
+            "correct": true
+          }
+        ]
+      },
+      "clay": {
+        "collector": true,
+        "dosed": true,
+        "settled": true,
+        "entry": "20",
+        "record": {
+          "value": 20,
+          "correctAfterFeedback": false,
+          "sourceId": "student-read-supplied-model-collector"
+        },
+        "attempts": [
+          {
+            "value": "20",
+            "correct": true
+          }
+        ]
+      }
+    },
+    "retention": {
+      "sand": "15",
+      "loam": "30",
+      "clay": "40",
+      "rank": "clay"
+    },
+    "retentionRecord": {
+      "values": {
+        "sand": "15",
+        "loam": "30",
+        "clay": "40",
+        "rank": "clay"
+      },
+      "correctAfterFeedback": true,
+      "sourceId": "student-calculated-input-minus-model-drainage"
+    },
+    "retentionAttempts": [
+      {
+        "values": {
+          "sand": "999",
+          "loam": "",
+          "clay": "",
+          "rank": ""
+        },
+        "correct": false
+      },
+      {
+        "values": {
+          "sand": "15",
+          "loam": "30",
+          "clay": "40",
+          "rank": "clay"
+        },
+        "correct": true
+      }
+    ],
+    "availability": {
+      "sand": "10",
+      "loam": "20",
+      "clay": "15",
+      "rank": "loam"
+    },
+    "availabilityRecord": {
+      "values": {
+        "sand": "10",
+        "loam": "20",
+        "clay": "15",
+        "rank": "loam"
+      },
+      "correctAfterFeedback": true,
+      "sourceId": "student-calculated-retention-minus-separately-supplied-tight-water"
+    },
+    "availabilityAttempts": [
+      {
+        "values": {
+          "sand": "",
+          "loam": "",
+          "clay": "40",
+          "rank": ""
+        },
+        "correct": false
+      },
+      {
+        "values": {
+          "sand": "10",
+          "loam": "20",
+          "clay": "15",
+          "rank": "loam"
+        },
+        "correct": true
+      }
+    ],
+    "tags": {
+      "outlet": "gravity",
+      "pool": "root",
+      "film": "surface"
+    },
+    "tagRecord": {
+      "tags": {
+        "outlet": "gravity",
+        "pool": "root",
+        "film": "surface"
+      },
+      "correctAfterFeedback": true,
+      "sourceId": "student-interpreted-supplied-pore-model"
+    },
+    "tagAttempts": [
+      {
+        "tags": {
+          "outlet": "",
+          "pool": "",
+          "film": "gravity"
+        },
+        "correct": false
+      },
+      {
+        "tags": {
+          "outlet": "gravity",
+          "pool": "root",
+          "film": "surface"
+        },
+        "correct": true
+      }
+    ],
+    "checks": {
+      "roots": {
+        "attempts": [
+          {
+            "value": "all",
+            "correct": false
+          },
+          {
+            "value": "tight",
+            "correct": true
+          }
+        ],
+        "value": "tight",
+        "correct": true
+      },
+      "budget": {
+        "attempts": [
+          {
+            "value": "less",
+            "correct": true
+          }
+        ],
+        "value": "less",
+        "correct": true
+      },
+      "scope": {
+        "attempts": [
+          {
+            "value": "separate",
+            "correct": true
+          }
+        ],
+        "value": "separate",
+        "correct": true
+      }
+    },
+    "answers": {
+      "controls": "My controls explanation compares matched synthetic100cm³ initially dry cores and60mL inputs. Sand drained 45mL, retained 15mL; loam 30/30mL; clay 20/40mL. Clay retained most, but separate hypothetical tightly held amounts5/10/25mL give potential availability 10/20/15mL; loam is highest here. Water remains in pores/films, not solid grains. These are not real root-uptake or speed measurements; structure, packing, soil depth, salts and roots could change field results.",
+      "budget": "My budget explanation compares matched synthetic100cm³ initially dry cores and60mL inputs. Sand drained 45mL, retained 15mL; loam 30/30mL; clay 20/40mL. Clay retained most, but separate hypothetical tightly held amounts5/10/25mL give potential availability 10/20/15mL; loam is highest here. Water remains in pores/films, not solid grains. These are not real root-uptake or speed measurements; structure, packing, soil depth, salts and roots could change field results.",
+      "availability": "My availability explanation compares matched synthetic100cm³ initially dry cores and60mL inputs. Sand drained 45mL, retained 15mL; loam 30/30mL; clay 20/40mL. Clay retained most, but separate hypothetical tightly held amounts5/10/25mL give potential availability 10/20/15mL; loam is highest here. Water remains in pores/films, not solid grains. These are not real root-uptake or speed measurements; structure, packing, soil depth, salts and roots could change field results."
+    },
+    "complete": true
+  },
+  "evidence": [
+    {
+      "goalId": "controls",
+      "answerId": "controls",
+      "writing": "My controls explanation compares matched synthetic100cm³ initially dry cores and60mL inputs. Sand drained 45mL, retained 15mL; loam 30/30mL; clay 20/40mL. Clay retained most, but separate hypothetical tightly held amounts5/10/25mL give potential availability 10/20/15mL; loam is highest here. Water remains in pores/films, not solid grains. These are not real root-uptake or speed measurements; structure, packing, soil depth, salts and roots could change field results.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "budget",
+      "answerId": "budget",
+      "writing": "My budget explanation compares matched synthetic100cm³ initially dry cores and60mL inputs. Sand drained 45mL, retained 15mL; loam 30/30mL; clay 20/40mL. Clay retained most, but separate hypothetical tightly held amounts5/10/25mL give potential availability 10/20/15mL; loam is highest here. Water remains in pores/films, not solid grains. These are not real root-uptake or speed measurements; structure, packing, soil depth, salts and roots could change field results.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "availability",
+      "answerId": "availability",
+      "writing": "My availability explanation compares matched synthetic100cm³ initially dry cores and60mL inputs. Sand drained 45mL, retained 15mL; loam 30/30mL; clay 20/40mL. Clay retained most, but separate hypothetical tightly held amounts5/10/25mL give potential availability 10/20/15mL; loam is highest here. Water remains in pores/films, not solid grains. These are not real root-uptake or speed measurements; structure, packing, soil depth, salts and roots could change field results.",
+      "status": "not_graded"
+    }
+  ]
+}

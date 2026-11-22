@@ -1,0 +1,21 @@
+{
+  "capturedAt": "2026-11-15T13:36:26.220Z",
+  "scope": "Actual reviewed working-tree files; unrelated changes and previous student attempts preserved.",
+  "files": {
+    "src/investigations/dispersal-content.js": "359a06487e86cac43953d2bf86c31e735059d78e2be21b5b3d88a79c8257730a",
+    "src/investigations/dispersal-model.js": "b85d83867e64a338635a4425effd089b7bdcbb7f8c1856d3876ce89cbe85978c",
+    "src/investigations/dispersal-art.js": "a6dd05923297a50afe7f07e37ec514d77996820365b5521b6e8efa9d24fe8ac5",
+    "src/investigations/dispersal-report.js": "85feb1c7625752951c82d8a1b5c44aab515b41696f7403620338d34da904bfec",
+    "src/investigations/dispersal-app.js": "587b9f9337cc9d3fccab66f929db18f548db242303110c2be4cb1f345e684ecf",
+    "src/investigations/dispersal.css": "8cbacbf1c8e849f298845a25c05951a382a4a4e8a488a5dc2f63e9f701d84a07",
+    "tests/dispersal.test.js": "925b6f5c738119104e8fe73955217eca9cddabd39036c1e23caebec3a0756822",
+    "tests/browser/dispersal.spec.js": "04ec8c289457804867ee0ba6203a7f46d3bb7623f055bce1b574cc1e36934c96",
+    "src/investigations/guided-lab-shell.js": "7718d1ab83d65ac8551b25323338c5c2bb4c73afc988331f3c29b767a9abc55f",
+    "src/catalog.js": "5a1db590676abffe86a320984658b3d388dd044e2d5530de4f3802d55560c8d0",
+    "src/investigations/app.js": "10e37b8c951a7b9f6ce83027e3cca4d2faf1a0df99079d79e34f46ca15c55842",
+    "scripts/build-biology-resources.py": "35d03900f42110eb9c08f71281bb8646e9fdaea75245cc2011cec13cd0fb916e",
+    "scripts/verify-resources.py": "8fc750ebacb744e043264121d5b6fb9c07aafb6263596a2db92d3615164a9a85",
+    "public/resources/seed-dispersal-worksheet.pdf": "ebf0552e705fdfd64ce111dfb407188de3a85f9375d6debea1d8c47e903af09b",
+    "public/resources/seed-dispersal-teacher-guide.pdf": "d84fa92b7912f7812ce9cdc09db1fa3efb352ff2618165d4b990357db6455539"
+  }
+}

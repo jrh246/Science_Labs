@@ -1,0 +1,29 @@
+node.exe : [WebServer] (node:56628) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([WebServer] (no... env being set.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] 
+[WebServer] (!) Some chunks are larger than 500 kB after minification. Consider:
+[WebServer] - Using dynamic import() to code-split the application
+[WebServer] - Use build.rollupOptions.output.manualChunks to improve chunking: 
+https://rollupjs.org/configuration-options/#output-manualchunks
+[WebServer] - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[WebServer] (node:53088) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 6 tests using 1 worker
+
+(node:46336) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 tests\browser\biology-browser-contract.mjs:5:2 › blood-flow: complete corrected attempt, truthful saves, named PDF/JSON/native print and edits (4.6s)
+  ok 2 tests\browser\biology-browser-contract.mjs:6:2 › blood-flow: denied storage/retry, Unicode long writing and first offline PDF/native print (2.5s)
+  ok 3 tests\browser\biology-browser-contract.mjs:7:2 › blood-flow: unfinished neutral PDF and export failure recovery (958ms)
+  ok 4 tests\browser\biology-browser-contract.mjs:8:2 › blood-flow: root/development progress isolation and first offline development PDF (1.9s)
+  ok 5 tests\browser\flow.spec.js:8:1 › flow current readings/calculations immediately gate dependent actions and preserve raw results across reload (2.3s)
+  ok 6 tests\browser\flow.spec.js:9:1 › flow native tube drag-release-next collector taps, valve keyboard/focus, phone collection and resized mouse regulator (1.9s)
+
+  6 passed (21.4s)

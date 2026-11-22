@@ -1,0 +1,8 @@
+C:\Python_Workspace\.venv_science_platform_checks\Scripts\python.exe : Prompt missing or spans pages: Use one of your 
+catches to explain M, n, R and M�n/R. How does a marked fraction lead
+At line:2 char:1
++ C:\Python_Workspace\.venv_science_platform_checks\Scripts\python.exe  ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Prompt missing ...d fraction lead:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 

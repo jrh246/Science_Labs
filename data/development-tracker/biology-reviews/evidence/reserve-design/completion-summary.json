@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-15",
+  "scope": "33 sequential Biology builds and 33 separate development reviews",
+  "buildsDone": 33,
+  "reviewsPassed": 33,
+  "mainCatalogAvailable": 48,
+  "units": 8,
+  "resourcePdfsVerified": 105,
+  "fullModelTests": 294,
+  "latestSixLabBrowserTests": 37,
+  "reportSectionAndResponseChecks": 24,
+  "latestSixLabIds": [
+    "immune-memory",
+    "embryonic-development",
+    "microhabitats",
+    "population-estimates",
+    "food-web-energy",
+    "reserve-design"
+  ],
+  "publication": "No deployment, upload or release registration performed",
+  "externalAcceptance": "Classroom comprehension, physical devices/AT, native translations and standards/full-course approval remain separate",
+  "evidence": [
+    "full-model-regression.txt",
+    "final-six-lab-browser-regression.txt",
+    "resource-check.txt",
+    "shared-section-followup/verification.txt",
+    "platform-build.txt"
+  ]
+}

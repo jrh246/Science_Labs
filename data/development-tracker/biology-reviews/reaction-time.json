@@ -1,0 +1,304 @@
+{
+  "schemaVersion": 1,
+  "labId": "reaction-time",
+  "taskId": "BIO-21-REVIEW",
+  "reviewedBy": "Codex - separate development review",
+  "reviewedOn": "2026-11-15",
+  "sourceSnapshot": "sha256:49a96ad9e179f6e66bf05608f3afc85bfd9cea8f5aaf9b6a9fd48490ec1a26d3",
+  "checks": {
+    "G01": {
+      "status": "pass",
+      "notes": "Three goals connect whole-pathway reasoning, actual three-value median/range and controls/exclusions/causal limits to observable actions and original writing.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/reaction-time/build-brief.md",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/complete-responses.json"
+      ]
+    },
+    "G02": {
+      "status": "pass",
+      "notes": "Three valid within-participant repeated observations justify descriptive variability, not independent people/conditions. Early/interrupted attempts excluded rather than0, no default extra trials or speed ranking.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/reaction-time/build-brief.md",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/interrupted.pdf",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/review-notes.md"
+      ]
+    },
+    "G03": {
+      "status": "pass",
+      "notes": "OpenStax A&P12.1/Bio35.2, primary online-timing abstract/relevant device/discussion text and MDN timing contract consulted. Sensory-processing-motor-muscle account, whole-task event timing and median/range rules consistent; no calibration or isolated-nerve claim.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/reaction-time/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/final-model-tests.txt"
+      ]
+    },
+    "G04": {
+      "status": "pass",
+      "notes": "Actual browser callback/handler source, display/input/software/assistive delay, formatted precision versus accuracy, anticipation, omitted diagram connections and small-sample/causal limits explicit. No physical/clinical protocol or score.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/reaction-time/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/review-notes.md"
+      ]
+    },
+    "G05": {
+      "status": "pass",
+      "notes": "Place pathway explanations at actual anatomy, wait for variable cue and perform three actual responses using one method, calculate from own rounded data and interpret variability. No automatic standard times.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/reaction-time/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/pathway-after.png",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/rig-cue-0.png",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/interval-plot.png"
+      ]
+    },
+    "G06": {
+      "status": "pass",
+      "notes": "Before/after pathway and WAIT/RESPOND/RECORDED/plot states inspected, including phone/tablet. Added retinal arc/hand seams, supported cue housing; labels/targets match actual geometry and chart starts at0.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/reaction-time/visual-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/visual-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/visual-contact-3.png",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/phone-pathway.png",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/tablet-pathway.png",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/phone-plot.png"
+      ]
+    },
+    "G07": {
+      "status": "pass",
+      "notes": "Seeded stable explanatory/concept banks; anatomical route meaningful, not shuffled biology. Variable wait prevents fixed countdown cue but anticipation limitation retained. Ties/zero range valid, no forced preferred outcome.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/reaction-time/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/final-browser-tests.txt"
+      ]
+    },
+    "G08": {
+      "status": "pass",
+      "notes": "All authored UI/report/resource language reviewed. Stimulus/ms/sensory/motor/retina/spinal cord/reflex and median/range defined; concrete rule-versus-automatic prompt. Diagnostic grade6.9/10.6words only.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/reaction-time/reading-screen.json",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/review-notes.md"
+      ]
+    },
+    "G09": {
+      "status": "pass",
+      "notes": "Prediction/controls/method before pathway and timings; confirmed pathway before task; exactly three valid records before statistics; current math before concepts/completion. Raw math/pathway edits invalidate dependencies without erasing data.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/reaction-time/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/final-browser-tests.txt"
+      ]
+    },
+    "G10": {
+      "status": "pass",
+      "notes": "Correct!/Try again connects math and whole-task misconceptions to evidence. Early/interrupted records honest, current wrong/empty math and pathway proposals persist unconfirmed; meaningful revisions retained.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/reaction-time/pathway-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/calculation-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/edited-unconfirmed.pdf",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/interrupted.pdf",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/complete.pdf"
+      ]
+    },
+    "G11": {
+      "status": "pass",
+      "notes": "Successful/repeated/reloaded saves, denied-write retry and identity versus academic edits checked; correction requires explicit completion again. Device-local save not submission/grade.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/reaction-time/initial-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/final-browser-tests.txt"
+      ]
+    },
+    "G12": {
+      "status": "pass",
+      "notes": "Versioned scoped first plan, actual values/method/details, exclusions and revisions preserved. Pending old clocks interrupted on restore; no replay or regeneration. Older missing input details remain unrecorded, actual data/completion retained.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/reaction-time/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/edited-unconfirmed.pdf"
+      ]
+    },
+    "G13": {
+      "status": "pass",
+      "notes": "Actual named/neutral complete/draft downloads and native print, optional identity/period, safe filename and standard local date/time/PST verified.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/reaction-time/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/draft.pdf",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/native-print.pdf"
+      ]
+    },
+    "G14": {
+      "status": "pass",
+      "notes": "Learning report groups first reasoning/matched method, pathway proposals/status, original-order actual intervals, median/range/exclusions, goal explanations, concepts and limits. Test writing explicitly identifies automation rather than human performance.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/reaction-time/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/interrupted.pdf"
+      ]
+    },
+    "G15": {
+      "status": "pass",
+      "notes": "All45 current pages inspected through six sheets; teacher2/student3, complete4/native3, other partials3/edited4, long7/7. All15 complete response prompts share page with answer start; Unicode/final marker/common snapshot/offline/recovery pass.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/reaction-time/pdf-inspection.json",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/pdf-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/pdf-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/pdf-contact-3.png",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/pdf-contact-4.png",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/pdf-contact-5.png",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/pdf-contact-6.png",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/pagination-check.txt",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.md"
+      ]
+    },
+    "G16": {
+      "status": "pass",
+      "notes": "Native card drag-release-nextphysical tap, actual pointer/touch/keyboard task,44px sites/exact resized centers, no phone overflow/reduced motion pass. Press-down timestamp retained while redraw waits for release to fix native focus. Assistive click route synthetic only; physical AT/devices pending.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/reaction-time/initial-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/focused-native-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/phone-pathway.png",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/tablet-pathway.png",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/phone-plot.png"
+      ]
+    },
+    "G17": {
+      "status": "pass",
+      "notes": "48 selected model/report regressions then20 final focused/report cases pass. Initial6/7 native-focus failure retained, final eight browser workflows pass.81 current resources and standalone/private37-lab platform compile verified.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/reaction-time/model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/final-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/initial-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/focused-native-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/input-route-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/standalone-build.txt",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/platform-build.txt"
+      ]
+    },
+    "G18": {
+      "status": "pass",
+      "notes": "Stable mode/pathway/trial/check/goal IDs, English version/locale and original student writing retained. AUD-10 native language selection and translated print future; no Spanish readiness claim.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/reaction-time/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/review-notes.md"
+      ]
+    },
+    "RESOURCES": {
+      "status": "pass",
+      "notes": "Student3/teacher2 current PDFs include actual prompts, timing/method/exclusion table and measurement/model limits. Every current page/prompt/hash/catalog download verified; Python build-time only.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/reaction-time/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/pdf-contact-1.png"
+      ]
+    },
+    "ACCESS": {
+      "status": "pass",
+      "notes": "Guest/free complete pathway and PDF/print/offline exports require no account. Existing paid/staff/publication policies preserved; private37-lab runtime compiled without deployment.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/reaction-time/final-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/platform-build.txt"
+      ]
+    },
+    "TRACKING": {
+      "status": "pass",
+      "notes": "Actual English implementation/resources/animal-structure-function route and curriculum/tracker metadata validated/regenerated; standards/Spanish approvals unchanged, shared copy refreshed after this review.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/reaction-time/build-brief.md",
+        "data/development-tracker/biology-reviews/evidence/reaction-time/review-notes.md"
+      ]
+    }
+  },
+  "artifacts": {
+    "workflow": [
+      "data/development-tracker/biology-reviews/evidence/reaction-time/build-brief.md",
+      "data/development-tracker/biology-reviews/evidence/reaction-time/review-notes.md",
+      "data/development-tracker/biology-reviews/evidence/reaction-time/reading-screen.json",
+      "data/development-tracker/biology-reviews/evidence/reaction-time/complete-responses.json",
+      "data/development-tracker/biology-reviews/evidence/reaction-time/source-manifest.json"
+    ],
+    "visuals": [
+      "data/development-tracker/biology-reviews/evidence/reaction-time/visual-contact-1.png",
+      "data/development-tracker/biology-reviews/evidence/reaction-time/visual-contact-2.png",
+      "data/development-tracker/biology-reviews/evidence/reaction-time/visual-contact-3.png",
+      "data/development-tracker/biology-reviews/evidence/reaction-time/phone-pathway.png",
+      "data/development-tracker/biology-reviews/evidence/reaction-time/tablet-pathway.png",
+      "data/development-tracker/biology-reviews/evidence/reaction-time/phone-plot.png",
+      "data/development-tracker/biology-reviews/evidence/reaction-time/rig-wait-0.png",
+      "data/development-tracker/biology-reviews/evidence/reaction-time/rig-cue-0.png",
+      "data/development-tracker/biology-reviews/evidence/reaction-time/rig-recorded-2.png",
+      "data/development-tracker/biology-reviews/evidence/reaction-time/interval-plot.png"
+    ],
+    "pdfReports": [
+      "data/development-tracker/biology-reviews/evidence/reaction-time/complete.pdf",
+      "data/development-tracker/biology-reviews/evidence/reaction-time/draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/reaction-time/development-draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/reaction-time/pathway-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/reaction-time/calculation-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/reaction-time/edited-unconfirmed.pdf",
+      "data/development-tracker/biology-reviews/evidence/reaction-time/interrupted.pdf",
+      "data/development-tracker/biology-reviews/evidence/reaction-time/long-offline.pdf",
+      "data/development-tracker/biology-reviews/evidence/reaction-time/pdf-inspection.json"
+    ],
+    "nativePrint": [
+      "data/development-tracker/biology-reviews/evidence/reaction-time/native-print.pdf",
+      "data/development-tracker/biology-reviews/evidence/reaction-time/long-native-print.pdf"
+    ],
+    "tests": [
+      "data/development-tracker/biology-reviews/evidence/reaction-time/model-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/reaction-time/final-model-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/reaction-time/initial-browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/reaction-time/focused-native-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/reaction-time/input-route-browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/reaction-time/final-browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/reaction-time/resource-check.txt",
+      "data/development-tracker/biology-reviews/evidence/reaction-time/standalone-build.txt",
+      "data/development-tracker/biology-reviews/evidence/reaction-time/platform-build.txt",
+      "data/development-tracker/biology-reviews/evidence/reaction-time/pagination-check.txt"
+    ],
+    "resources": [
+      "public/resources/reaction-time-worksheet.pdf",
+      "public/resources/reaction-time-teacher-guide.pdf"
+    ]
+  },
+  "externalValidation": {
+    "teacherStudentComprehension": {
+      "status": "pending",
+      "notes": "Not performed; development checks do not establish classroom comprehension."
+    },
+    "physicalDevices": {
+      "status": "pending",
+      "notes": "Emulation is not physical-device or assistive-technology acceptance."
+    },
+    "classroomProtocol": {
+      "status": "not-applicable",
+      "notes": "Virtual-only activity; no physical protocol supplied."
+    }
+  },
+  "history": [
+    {
+      "date": "2026-11-15T17:22:14.294Z",
+      "decision": "changes-required",
+      "notes": "Initial6/7 browser workflows passed; native post-response focus failed because press-down replaced the button before touch release. Timestamp remains at press-down; local UI render now waits until release and focused native case passes. Added cue housing supports/eye retinal arc/hand seams. Separate control review records and fixes pointer subtype within a run; older details remain unrecorded, not invented. Initial model assertion corrected to explicitly save completion again after academic correction."
+    },
+    {
+      "date": "2026-11-15T17:24:08.647Z",
+      "decision": "changes-required",
+      "notes": "Authored-language pass adds first-use retina, spinal cord and reflex definitions; explanation prompt now asks a concrete planned-rule versus automatic-response comparison. Refresh current handouts/reports after wording correction."
+    }
+  ],
+  "decision": "pass",
+  "summary": "Development review passed after native press-down focus correction, fixed/recorded pointer subtype, supported apparatus anatomy and first-use term definitions. Actual browser timing and descriptive variability explicit; physical calibration/AT/classroom/translation/release acceptance remains separate.",
+  "blockers": [],
+  "followups": [
+    {
+      "id": "shared-scientific-symbols-2026-11-15",
+      "recordedAt": "2026-11-15T18:31:00.213Z",
+      "scope": "Shared offline scientific-symbol glyph fallback only; original source snapshot/history unchanged. Representative new/old outputs and legacy wrappers validated, not full rerun of this lab.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.md",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.json",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/glyph-all-artifacts.txt"
+      ]
+    }
+  ]
+}

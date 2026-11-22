@@ -1,0 +1,371 @@
+{
+  "schemaVersion": 2,
+  "labId": "muscle-levers",
+  "title": "Muscles, Levers and Force",
+  "question": "How does the distance from a joint to a muscle attachment affect the force needed to hold a load?",
+  "student": {
+    "name": "Zoë García",
+    "class": "Period 5"
+  },
+  "status": "Complete",
+  "grading": "not_graded",
+  "exportedAt": "2026-11-15T19:00:55.705Z",
+  "exportTimeZone": "America/Los_Angeles",
+  "exportedAtDisplay": "Nov 15, 2026, 11:00 AM PST",
+  "sections": [
+    {
+      "heading": "First prediction and matched-condition design",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Required before testing: Predict whether a cable pulling closer to the pivot will need more, less or the same force to balance the same hand load. Explain your reason.",
+          "text": "I predict that a closer cable needs more force to give the same torque. Shorter distance may be offset by a larger pull."
+        },
+        {
+          "type": "response",
+          "prompt": "Required before testing: What should stay the same when attachment distance changes? Why compare two distances rather than repeat one setting three times? How could a real arm differ from this model?",
+          "text": "Keep20N load at30cm with a horizontal arm and perpendicular forces. Compare2cm and4cm, not three identical trials. Real arms have weight, fixed tendons, other muscles and changing angles."
+        },
+        {
+          "type": "paragraph",
+          "text": "Timing: Before any model force test."
+        }
+      ]
+    },
+    {
+      "heading": "Model balance evidence",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ideal model inputs:20N load at30cm, horizontal lever, upward perpendicular cable, fixed pivot. Arm weight/friction ignored. Matched second load supplied after first setup; each cable attachment and balance is separate student work."
+        },
+        {
+          "type": "response",
+          "prompt": "Near attachment · current test",
+          "text": "Cable at2cm; tested force300N; predicted horizontal tendency: balanced. Supplied model cable torque6N·m; load torque6N·m."
+        },
+        {
+          "type": "response",
+          "prompt": "Near attachment · student reading and torque calculation",
+          "text": "Current force entry: 300N; current torque entry: 6N·m.\nCorrect after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "Near attachment · adjustment and feedback evidence",
+          "text": "2 model pull tests; 1 were unbalanced. These are search adjustments, not independent specimens. Revised after feedback or awaiting current correction. Earlier entries: force 999N / torque 999N·m"
+        },
+        {
+          "type": "response",
+          "prompt": "Farther attachment · current test",
+          "text": "Cable at4cm; tested force150N; predicted horizontal tendency: balanced. Supplied model cable torque6N·m; load torque6N·m."
+        },
+        {
+          "type": "response",
+          "prompt": "Farther attachment · student reading and torque calculation",
+          "text": "Current force entry: 150N; current torque entry: 6N·m.\nCorrect after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "Farther attachment · adjustment and feedback evidence",
+          "text": "2 model pull tests; 1 were unbalanced. These are search adjustments, not independent specimens. Revised after feedback or awaiting current correction. Earlier entries: force 999N / torque 999N·m"
+        }
+      ]
+    },
+    {
+      "heading": "Evidence by learning goal",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Use force and perpendicular distance to explain a balanced turning effect."
+        },
+        {
+          "type": "response",
+          "prompt": "Use your checked forces and distances to show the cable torque and load torque in N·m at each balance. Why can the torques balance even though the forces are different?",
+          "text": "My torque explanation: the20N model load at30cm gives20×.30=6N·m. I adjusted/tested then read300N at2cm, giving300×.02=6N·m, and150N at4cm, giving150×.04=6N·m. Doubling cable distance halves balanced force, with matched load/angle and neglected arm weight. These are model balances, not student strength or independent biological trials. A tendon carries muscle tension; an opposing muscle can reverse motion, rather than the first muscle pushing. Real insertions do not move along bones, and arm mass, changing angles, other muscles, friction and stretch matter. The fixture keeps this diagram horizontal and predicts an initial turning tendency only. The pivot reaction has zero moment about the pivot; unequal forces can still balance torques. A short muscle lever can allow greater hand motion per tendon shortening; this is not an energy-efficiency test."
+        },
+        {
+          "type": "paragraph",
+          "text": "Compare the required cable forces at two attachment distances with a matched load."
+        },
+        {
+          "type": "response",
+          "prompt": "Compare your original prediction with the two checked cable forces. What happened when attachment distance doubled? Which conditions stayed fixed, and why are your trial pulls not independent biological samples?",
+          "text": "My compare explanation: the20N model load at30cm gives20×.30=6N·m. I adjusted/tested then read300N at2cm, giving300×.02=6N·m, and150N at4cm, giving150×.04=6N·m. Doubling cable distance halves balanced force, with matched load/angle and neglected arm weight. These are model balances, not student strength or independent biological trials. A tendon carries muscle tension; an opposing muscle can reverse motion, rather than the first muscle pushing. Real insertions do not move along bones, and arm mass, changing angles, other muscles, friction and stretch matter. The fixture keeps this diagram horizontal and predicts an initial turning tendency only. The pivot reaction has zero moment about the pivot; unequal forces can still balance torques. A short muscle lever can allow greater hand motion per tendon shortening; this is not an energy-efficiency test."
+        },
+        {
+          "type": "paragraph",
+          "text": "Connect the lever to muscles and tendons while explaining what the model leaves out."
+        },
+        {
+          "type": "response",
+          "prompt": "Explain how a muscle’s pull reaches a bone and how an opposing muscle helps reverse motion. Why are a real arm’s fixed tendons, own weight and changing angles important limits? Why does a short muscle lever not mean a body is poorly designed?",
+          "text": "My biology explanation: the20N model load at30cm gives20×.30=6N·m. I adjusted/tested then read300N at2cm, giving300×.02=6N·m, and150N at4cm, giving150×.04=6N·m. Doubling cable distance halves balanced force, with matched load/angle and neglected arm weight. These are model balances, not student strength or independent biological trials. A tendon carries muscle tension; an opposing muscle can reverse motion, rather than the first muscle pushing. Real insertions do not move along bones, and arm mass, changing angles, other muscles, friction and stretch matter. The fixture keeps this diagram horizontal and predicts an initial turning tendency only. The pivot reaction has zero moment about the pivot; unequal forces can still balance torques. A short muscle lever can allow greater hand motion per tendon shortening; this is not an energy-efficiency test."
+        }
+      ]
+    },
+    {
+      "heading": "Concept checks",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Does balance require the upward cable force to equal the20N load?",
+          "text": "No. Force × perpendicular distance must balance about the pivot.\nCorrect! Balance depends on turning effects. A short cable distance needs more force for the same torque; the pivot supplies a separate reaction force. Revised after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "What carries a muscle’s pull to a bone in this comparison?",
+          "text": "A tendon; another muscle can pull to reverse the motion.\nCorrect! Tendons transfer tension. Real attachment sites do not move along a bone as the model hook does. Correct on first recorded check."
+        },
+        {
+          "type": "response",
+          "prompt": "What do your two balances establish?",
+          "text": "The distance-force relationship under this model’s stated assumptions.\nCorrect! These are model results, with arm weight and many biological details left out. They are not strength or safety tests. Correct on first recorded check."
+        }
+      ]
+    },
+    {
+      "heading": "Model limits and sources",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "This is an ideal horizontal lever model, not a measurement of a person. The wooden arm’s own weight, cable stretch, friction, changing joint angles and other muscles are ignored. An angle lock keeps it horizontal while the display predicts its turning tendency without the lock. The lock can supply extra torque during an unbalanced setting; no lock torque is needed at balance. Arrows show direction, not relative force size. No moving-arm trajectory is simulated. A fixed pivot can also exert a reaction force: a force from the joint onto the lever; at the pivot this force has no torque about that same pivot. Balanced torques do not require equal muscle and load forces. Real tendons have fixed attachments; moving a model hook does not show an instant change to a person’s anatomy. Muscles pull rather than push. Opposing muscles help move a real joint in the other direction. A shorter muscle lever can trade higher required force for greater hand movement per short tendon movement; force saving alone does not explain every body design. Two ideal settings do not estimate human strength, safety limits or variation."
+        },
+        {
+          "type": "paragraph",
+          "text": "OpenStax College Physics2e9.2: torque and equilibrium: https://openstax.org/books/college-physics-2e/pages/9-2-the-second-condition-for-equilibrium"
+        },
+        {
+          "type": "paragraph",
+          "text": "OpenStax College Physics2e9.6: muscles and joint torques: https://openstax.org/books/college-physics-2e/pages/9-6-forces-and-torques-in-muscles-and-joints"
+        },
+        {
+          "type": "paragraph",
+          "text": "OpenStax Anatomy and Physiology2e11.1: muscle and tendon actions: https://openstax.org/books/anatomy-and-physiology-2e/pages/11-1-interactions-of-skeletal-muscles-their-fascicle-arrangement-and-their-lever-systems"
+        }
+      ],
+      "keepFirst": 4
+    }
+  ],
+  "activityVersion": 1,
+  "locale": "en",
+  "attemptId": "lever-3767890143-1794769252575",
+  "data": {
+    "schemaVersion": 1,
+    "activityVersion": 1,
+    "labId": "muscle-levers",
+    "attemptId": "lever-3767890143-1794769252575",
+    "seed": 3767890143,
+    "locale": "en",
+    "stage": 2,
+    "studentName": "Zoë García",
+    "studentClass": "Period 5",
+    "prediction": "I predict that a closer cable needs more force to give the same torque. Shorter distance may be offset by a larger pull.",
+    "design": "Keep20N load at30cm with a horizontal arm and perpendicular forces. Compare2cm and4cm, not three identical trials. Real arms have weight, fixed tendons, other muscles and changing angles.",
+    "initialPlan": {
+      "prediction": "I predict that a closer cable needs more force to give the same torque. Shorter distance may be offset by a larger pull.",
+      "design": "Keep20N load at30cm with a horizontal arm and perpendicular forces. Compare2cm and4cm, not three identical trials. Real arms have weight, fixed tendons, other muscles and changing angles.",
+      "timing": "Before any model force test"
+    },
+    "current": "far",
+    "settings": {
+      "near": {
+        "load": true,
+        "cable": true,
+        "force": 300,
+        "test": {
+          "force": 300,
+          "torque": 6,
+          "loadTorque": 6,
+          "tendency": "balanced",
+          "sourceId": "ideal-horizontal-lever-model"
+        },
+        "tests": [
+          {
+            "force": 100,
+            "torque": 2,
+            "loadTorque": 6,
+            "tendency": "hand-down",
+            "sourceId": "ideal-horizontal-lever-model"
+          },
+          {
+            "force": 300,
+            "torque": 6,
+            "loadTorque": 6,
+            "tendency": "balanced",
+            "sourceId": "ideal-horizontal-lever-model"
+          }
+        ],
+        "entries": {
+          "force": "300",
+          "torque": "6"
+        },
+        "attempts": [
+          {
+            "values": {
+              "force": "999",
+              "torque": "999"
+            },
+            "tested": {
+              "force": 100,
+              "torque": 2,
+              "loadTorque": 6,
+              "tendency": "hand-down",
+              "sourceId": "ideal-horizontal-lever-model"
+            },
+            "correct": false
+          },
+          {
+            "values": {
+              "force": "300",
+              "torque": "6"
+            },
+            "tested": {
+              "force": 300,
+              "torque": 6,
+              "loadTorque": 6,
+              "tendency": "balanced",
+              "sourceId": "ideal-horizontal-lever-model"
+            },
+            "correct": true
+          }
+        ],
+        "record": {
+          "force": 300,
+          "torque": 6,
+          "correctAfterFeedback": true,
+          "sourceId": "student-read-force-and-calculated-torque"
+        }
+      },
+      "far": {
+        "load": true,
+        "cable": true,
+        "force": 150,
+        "test": {
+          "force": 150,
+          "torque": 6,
+          "loadTorque": 6,
+          "tendency": "balanced",
+          "sourceId": "ideal-horizontal-lever-model"
+        },
+        "tests": [
+          {
+            "force": 100,
+            "torque": 4,
+            "loadTorque": 6,
+            "tendency": "hand-down",
+            "sourceId": "ideal-horizontal-lever-model"
+          },
+          {
+            "force": 150,
+            "torque": 6,
+            "loadTorque": 6,
+            "tendency": "balanced",
+            "sourceId": "ideal-horizontal-lever-model"
+          }
+        ],
+        "entries": {
+          "force": "150",
+          "torque": "6"
+        },
+        "attempts": [
+          {
+            "values": {
+              "force": "999",
+              "torque": "999"
+            },
+            "tested": {
+              "force": 100,
+              "torque": 4,
+              "loadTorque": 6,
+              "tendency": "hand-down",
+              "sourceId": "ideal-horizontal-lever-model"
+            },
+            "correct": false
+          },
+          {
+            "values": {
+              "force": "150",
+              "torque": "6"
+            },
+            "tested": {
+              "force": 150,
+              "torque": 6,
+              "loadTorque": 6,
+              "tendency": "balanced",
+              "sourceId": "ideal-horizontal-lever-model"
+            },
+            "correct": true
+          }
+        ],
+        "record": {
+          "force": 150,
+          "torque": 6,
+          "correctAfterFeedback": true,
+          "sourceId": "student-read-force-and-calculated-torque"
+        }
+      }
+    },
+    "checks": {
+      "force": {
+        "attempts": [
+          {
+            "value": "equal",
+            "correct": false
+          },
+          {
+            "value": "torque",
+            "correct": true
+          }
+        ],
+        "value": "torque",
+        "correct": true
+      },
+      "tendon": {
+        "attempts": [
+          {
+            "value": "tendon",
+            "correct": true
+          }
+        ],
+        "value": "tendon",
+        "correct": true
+      },
+      "limit": {
+        "attempts": [
+          {
+            "value": "model",
+            "correct": true
+          }
+        ],
+        "value": "model",
+        "correct": true
+      }
+    },
+    "answers": {
+      "torque": "My torque explanation: the20N model load at30cm gives20×.30=6N·m. I adjusted/tested then read300N at2cm, giving300×.02=6N·m, and150N at4cm, giving150×.04=6N·m. Doubling cable distance halves balanced force, with matched load/angle and neglected arm weight. These are model balances, not student strength or independent biological trials. A tendon carries muscle tension; an opposing muscle can reverse motion, rather than the first muscle pushing. Real insertions do not move along bones, and arm mass, changing angles, other muscles, friction and stretch matter. The fixture keeps this diagram horizontal and predicts an initial turning tendency only. The pivot reaction has zero moment about the pivot; unequal forces can still balance torques. A short muscle lever can allow greater hand motion per tendon shortening; this is not an energy-efficiency test.",
+      "compare": "My compare explanation: the20N model load at30cm gives20×.30=6N·m. I adjusted/tested then read300N at2cm, giving300×.02=6N·m, and150N at4cm, giving150×.04=6N·m. Doubling cable distance halves balanced force, with matched load/angle and neglected arm weight. These are model balances, not student strength or independent biological trials. A tendon carries muscle tension; an opposing muscle can reverse motion, rather than the first muscle pushing. Real insertions do not move along bones, and arm mass, changing angles, other muscles, friction and stretch matter. The fixture keeps this diagram horizontal and predicts an initial turning tendency only. The pivot reaction has zero moment about the pivot; unequal forces can still balance torques. A short muscle lever can allow greater hand motion per tendon shortening; this is not an energy-efficiency test.",
+      "biology": "My biology explanation: the20N model load at30cm gives20×.30=6N·m. I adjusted/tested then read300N at2cm, giving300×.02=6N·m, and150N at4cm, giving150×.04=6N·m. Doubling cable distance halves balanced force, with matched load/angle and neglected arm weight. These are model balances, not student strength or independent biological trials. A tendon carries muscle tension; an opposing muscle can reverse motion, rather than the first muscle pushing. Real insertions do not move along bones, and arm mass, changing angles, other muscles, friction and stretch matter. The fixture keeps this diagram horizontal and predicts an initial turning tendency only. The pivot reaction has zero moment about the pivot; unequal forces can still balance torques. A short muscle lever can allow greater hand motion per tendon shortening; this is not an energy-efficiency test."
+    },
+    "complete": true
+  },
+  "evidence": [
+    {
+      "goalId": "torque",
+      "answerId": "torque",
+      "writing": "My torque explanation: the20N model load at30cm gives20×.30=6N·m. I adjusted/tested then read300N at2cm, giving300×.02=6N·m, and150N at4cm, giving150×.04=6N·m. Doubling cable distance halves balanced force, with matched load/angle and neglected arm weight. These are model balances, not student strength or independent biological trials. A tendon carries muscle tension; an opposing muscle can reverse motion, rather than the first muscle pushing. Real insertions do not move along bones, and arm mass, changing angles, other muscles, friction and stretch matter. The fixture keeps this diagram horizontal and predicts an initial turning tendency only. The pivot reaction has zero moment about the pivot; unequal forces can still balance torques. A short muscle lever can allow greater hand motion per tendon shortening; this is not an energy-efficiency test.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "compare",
+      "answerId": "compare",
+      "writing": "My compare explanation: the20N model load at30cm gives20×.30=6N·m. I adjusted/tested then read300N at2cm, giving300×.02=6N·m, and150N at4cm, giving150×.04=6N·m. Doubling cable distance halves balanced force, with matched load/angle and neglected arm weight. These are model balances, not student strength or independent biological trials. A tendon carries muscle tension; an opposing muscle can reverse motion, rather than the first muscle pushing. Real insertions do not move along bones, and arm mass, changing angles, other muscles, friction and stretch matter. The fixture keeps this diagram horizontal and predicts an initial turning tendency only. The pivot reaction has zero moment about the pivot; unequal forces can still balance torques. A short muscle lever can allow greater hand motion per tendon shortening; this is not an energy-efficiency test.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "biology",
+      "answerId": "biology",
+      "writing": "My biology explanation: the20N model load at30cm gives20×.30=6N·m. I adjusted/tested then read300N at2cm, giving300×.02=6N·m, and150N at4cm, giving150×.04=6N·m. Doubling cable distance halves balanced force, with matched load/angle and neglected arm weight. These are model balances, not student strength or independent biological trials. A tendon carries muscle tension; an opposing muscle can reverse motion, rather than the first muscle pushing. Real insertions do not move along bones, and arm mass, changing angles, other muscles, friction and stretch matter. The fixture keeps this diagram horizontal and predicts an initial turning tendency only. The pivot reaction has zero moment about the pivot; unequal forces can still balance torques. A short muscle lever can allow greater hand motion per tendon shortening; this is not an energy-efficiency test.",
+      "status": "not_graded"
+    }
+  ]
+}

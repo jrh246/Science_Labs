@@ -1,0 +1,14 @@
+✔ dispersal plan, both masses, pending ruler readings and release count are enforced (2.9111ms)
+✔ dispersal drag integration converges, honors area/mass/wind and retains actual long landings (4.6553ms)
+✔ dispersal manual and supplied releases keep identical separate trajectories and truthful sources (1.169ms)
+✔ dispersal unconfirmed ruler positions survive view/reload and previous correct readings can be revised (13.0158ms)
+✔ dispersal rounded means/ranges use actual readings, accept ties/reversed rankings, retain wrong comparison (3.3852ms)
+✔ dispersal faithful Unicode learning report, source labels, first plan and honest completion (2.4256ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 99.8388

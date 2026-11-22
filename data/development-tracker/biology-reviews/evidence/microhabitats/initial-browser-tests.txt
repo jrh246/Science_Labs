@@ -1,0 +1,29 @@
+node.exe : [WebServer] (node:48236) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([WebServer] (no... env being set.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] 
+[WebServer] (!) Some chunks are larger than 500 kB after minification. Consider:
+[WebServer] - Using dynamic import() to code-split the application
+[WebServer] - Use build.rollupOptions.output.manualChunks to improve chunking: 
+https://rollupjs.org/configuration-options/#output-manualchunks
+[WebServer] - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[WebServer] (node:57404) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 6 tests using 1 worker
+
+(node:6424) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 tests\browser\biology-browser-contract.mjs:5:2 › microhabitats: complete corrected attempt, truthful saves, named PDF/JSON/native print and edits (3.9s)
+  ok 2 tests\browser\biology-browser-contract.mjs:6:2 › microhabitats: denied storage/retry, Unicode long writing and first offline PDF/native print (3.4s)
+  ok 3 tests\browser\biology-browser-contract.mjs:7:2 › microhabitats: unfinished neutral PDF and export failure recovery (1.0s)
+  ok 4 tests\browser\biology-browser-contract.mjs:8:2 › microhabitats: root/development progress isolation and first offline development PDF (1.9s)
+  ok 5 tests\browser\habitat.spec.js:2:106 › saved comparison review direct return preserves completion; count edit immediately gates downstream comparison (2.0s)
+  ok 6 tests\browser\habitat.spec.js:2:922 › native quadrat drag-release-next probe tap, keyboard organism marking and resized mouse counting (1.2s)
+
+  6 passed (21.0s)

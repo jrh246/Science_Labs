@@ -1,0 +1,131 @@
+[
+  {
+    "file": "public/resources/transpiration-teacher-guide.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      3162,
+      3693
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "public/resources/transpiration-worksheet.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1768,
+      1637,
+      2966
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/transpiration/calculation-unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2602,
+      2076,
+      2156
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/transpiration/complete.pdf",
+    "pages": 4,
+    "pageCharacters": [
+      2590,
+      3020,
+      2352,
+      1882
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/transpiration/development-draft.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2276,
+      2086,
+      2156
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/transpiration/draft.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2266,
+      2086,
+      2156
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/transpiration/edited-unconfirmed.pdf",
+    "pages": 4,
+    "pageCharacters": [
+      2597,
+      2984,
+      2355,
+      1885
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/transpiration/leaf-unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2602,
+      2150,
+      2156
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/transpiration/long-native-print.pdf",
+    "pages": 7,
+    "pageCharacters": [
+      2563,
+      3027,
+      1079,
+      837,
+      837,
+      1066,
+      2553
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/transpiration/long-offline.pdf",
+    "pages": 7,
+    "pageCharacters": [
+      2599,
+      3008,
+      1241,
+      905,
+      905,
+      892,
+      3050
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/transpiration/native-print.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2557,
+      3042,
+      3916
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/transpiration/unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2564,
+      2086,
+      2156
+    ],
+    "finalLongMarker": false
+  }
+]

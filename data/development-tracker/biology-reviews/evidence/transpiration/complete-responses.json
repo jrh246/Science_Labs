@@ -1,0 +1,469 @@
+{
+  "schemaVersion": 2,
+  "labId": "transpiration",
+  "title": "What Affects Transpiration?",
+  "question": "How does one environmental change affect modeled plant water loss, and how does water reach the air?",
+  "student": {
+    "name": "Zoë García",
+    "class": "Period 5"
+  },
+  "status": "Complete",
+  "grading": "not_graded",
+  "exportedAt": "2026-11-15T15:06:00.628Z",
+  "exportTimeZone": "America/Los_Angeles",
+  "exportedAtDisplay": "Nov 15, 2026, 7:06 AM PST",
+  "sections": [
+    {
+      "heading": "First prediction and controlled comparison",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Required before setup: For your selected environmental change, predict whether the changed plant will lose more or less water than the reference plant. Explain your reasoning.",
+          "text": "The selected change may alter water loss through the leaf. I expect the result to depend on vapor movement or stomatal opening under the stated conditions."
+        },
+        {
+          "type": "response",
+          "prompt": "Required before setup: Why compare one factor at a time and keep leaf area, water supply, temperature and time matched? Why must soil evaporation be blocked, and why compare mass changes instead of final masses alone?",
+          "text": "Change one environmental factor while matching leaf area, water, temperature and time. Block soil/pot evaporation, keep the module off the pan, and compare each final mass with its own initial mass."
+        },
+        {
+          "type": "paragraph",
+          "text": "Timing: Before setup or balance observations. Selected factor: Airflow: still air → gentle moving air."
+        },
+        {
+          "type": "paragraph",
+          "text": "Two supplied daytime plant models have matched leaf area of 100 cm² and enough water. Air and leaf temperature stay at 25°C. Reference conditions are still air, 50% relative humidity and moderate daytime light. Change only your chosen factor at the other station. Relative humidity describes how close air is to saturation at its temperature. Pot/cover starting masses differ; compare each station with its own initial mass."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Station",
+            "Soil/pot cover",
+            "Plant on own balance",
+            "Provided environment"
+          ],
+          "rows": [
+            [
+              "Reference station",
+              "Placed around stem; leaves exposed",
+              "Yes",
+              "25°C; RH 50%; still air; moderate daytime; leaf area 100 cm²"
+            ],
+            [
+              "Changed station",
+              "Placed around stem; leaves exposed",
+              "Yes",
+              "25°C; RH 50%; gentle moving air; moderate daytime; leaf area 100 cm²"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "External controller at changed station: installed off pan."
+        }
+      ]
+    },
+    {
+      "heading": "Mass-change evidence",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Student readings from supplied synthetic model-balance displays, in grams. Each station has its own covered plant/pot and balance. Different total starting masses do not determine water loss. Model interval: 30 minutes completed; calculations use 30 minutes once the interval finishes."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Station",
+            "Current initial mass (g)",
+            "Status",
+            "Current final mass (g)",
+            "Status"
+          ],
+          "rows": [
+            [
+              "Reference station",
+              "120.00",
+              "Correct after feedback",
+              "119.70",
+              "Correct first check"
+            ],
+            [
+              "Changed station",
+              "123.00",
+              "Correct first check",
+              "122.55",
+              "Correct first check"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Station",
+            "Current loss (g)",
+            "Current rate (g/min)",
+            "Calculation status"
+          ],
+          "rows": [
+            [
+              "Reference station",
+              "0.30",
+              "0.010",
+              "Correct after feedback"
+            ],
+            [
+              "Changed station",
+              "0.45",
+              "0.015",
+              "Correct after feedback"
+            ]
+          ]
+        },
+        {
+          "type": "response",
+          "prompt": "Station with greater average rate",
+          "text": "Changed\nCorrect after feedback."
+        },
+        {
+          "type": "paragraph",
+          "text": "Readings, losses and average rates are model evidence, not field measurements or independent biological replicates. Loss = initial − final mass; rate = loss ÷ 30."
+        }
+      ]
+    },
+    {
+      "heading": "Leaf pathway interpretation",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Wet mesophyll surface annotation",
+          "text": "Evaporation · liquid becomes vapor\nCorrect after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "Stomatal vapor route annotation",
+          "text": "Diffusion · net movement down a concentration difference\nCorrect after feedback."
+        },
+        {
+          "type": "paragraph",
+          "text": "The enlarged section is supplied explanatory anatomy, not microscopy. Liquid reaches wet mesophyll walls; evaporation supplies vapor to leaf air spaces, and net vapor diffusion through stomata reaches outside air. The model omits cuticular loss and other real responses."
+        }
+      ]
+    },
+    {
+      "heading": "Evidence by learning goal",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Compare one selected environmental factor while controlling other sources of water loss."
+        },
+        {
+          "type": "response",
+          "prompt": "Identify the one factor you changed and the conditions you kept matched. Explain the soil/pot cover and why the environment module stayed off the balance pan. Why do different starting masses not settle which plant lost more water?",
+          "text": "My controls explanation uses the controlled synthetic model. I selected airflow; temperature, room humidity, leaf area and water availability stayed matched. The soil/pot cover blocked non-leaf evaporation, and the module stayed off the pan. Reference mass 120.00 to 119.70 g lost 0.30 g, rate 0.010 g/min. Changed mass 123.00 to 122.55 g lost 0.45 g, rate 0.015 g/min over 30 model minutes. Wet mesophyll walls supply vapor by evaporation; it diffuses through air spaces and stomata. Moving air changes the humid boundary near the leaf in this model. Real stomatal stress responses, heat, leaks, balance forces and other mass changes could alter results."
+        },
+        {
+          "type": "paragraph",
+          "text": "Calculate water loss and average rate from each station’s initial/final masses and the same interval."
+        },
+        {
+          "type": "response",
+          "prompt": "Use both initial and final masses, the losses in grams and the average rates in grams per minute. Compare the actual results with your prediction. Why is one controlled model comparison not a reliable estimate for every plant or a population study?",
+          "text": "My rates explanation uses the controlled synthetic model. I selected airflow; temperature, room humidity, leaf area and water availability stayed matched. The soil/pot cover blocked non-leaf evaporation, and the module stayed off the pan. Reference mass 120.00 to 119.70 g lost 0.30 g, rate 0.010 g/min. Changed mass 123.00 to 122.55 g lost 0.45 g, rate 0.015 g/min over 30 model minutes. Wet mesophyll walls supply vapor by evaporation; it diffuses through air spaces and stomata. Moving air changes the humid boundary near the leaf in this model. Real stomatal stress responses, heat, leaks, balance forces and other mass changes could alter results."
+        },
+        {
+          "type": "paragraph",
+          "text": "Connect water loss to evaporation at wet leaf-cell surfaces and vapor diffusion through stomata, with clear model limits."
+        },
+        {
+          "type": "response",
+          "prompt": "Trace water from xylem to wet mesophyll surfaces, leaf air spaces, a stoma and the outside air. Where does liquid become vapor, and where does vapor diffuse? Relate your selected environmental change to this pathway. What omitted plant responses or real-world measurement issues could change the result?",
+          "text": "My mechanism explanation uses the controlled synthetic model. I selected airflow; temperature, room humidity, leaf area and water availability stayed matched. The soil/pot cover blocked non-leaf evaporation, and the module stayed off the pan. Reference mass 120.00 to 119.70 g lost 0.30 g, rate 0.010 g/min. Changed mass 123.00 to 122.55 g lost 0.45 g, rate 0.015 g/min over 30 model minutes. Wet mesophyll walls supply vapor by evaporation; it diffuses through air spaces and stomata. Moving air changes the humid boundary near the leaf in this model. Real stomatal stress responses, heat, leaks, balance forces and other mass changes could alter results."
+        }
+      ]
+    },
+    {
+      "heading": "Concept checks",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "The changed station has the larger final mass. Does that prove it lost less water?",
+          "text": "No. Compare each final mass with that station’s own initial mass, then use the same time interval.\nCorrect! Different starting pot/cover masses can give different final masses. Water loss is initial minus final mass. Rate is that loss divided by the model interval. Correct on first recorded check."
+        },
+        {
+          "type": "response",
+          "prompt": "What normally passes from the leaf air spaces through an open stoma during transpiration?",
+          "text": "Water vapor; evaporation has changed liquid water into gas at wet internal cell surfaces.\nCorrect! Water evaporates from wet mesophyll surfaces into leaf air spaces. Vapor then diffuses through stomata and the air near the leaf. Guard cells regulate pores; they do not pump out liquid water. Revised after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "What does this model comparison support?",
+          "text": "A result under its stated constant settings; real plants need further measurements and may regulate stomata differently.\nCorrect! This model isolates one factor and omits stress, feedback and several mass changes. In real studies, replication, controls and measurement limits matter. Correct on first recorded check."
+        }
+      ]
+    },
+    {
+      "heading": "Model limits and sources",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "These masses and settings are invented model data, not measurements from real plants. Each balance includes the plant, pot, soil and cover. The controller stays off the pan. An ideal seal blocks soil/pot evaporation. Water loss has a constant rate. It depends on the vapor difference and how easily vapor passes through pores and nearby air. Values are chosen for this lesson, not fitted to a species. Settings stay fixed for 30 model minutes. Brighter light opens stomata more without warming the leaf here. Wind changes nearby air; humidity changes the vapor difference. Real plants can respond differently, especially under stress or strong wind. The model leaves out growth, changes in stored water, gas exchange, drainage, leaks and air pushing on the balance. It also leaves out water loss through the waxy leaf coating. Real mass-loss estimates need these limits checked. Drawings are enlarged, not to scale. Vapor symbols explain invisible gas; they are not droplets. No physical weighing or plant-handling protocol is supplied."
+        },
+        {
+          "type": "paragraph",
+          "text": "OpenStax Biology 2e: Transport of Water and Solutes in Plants: https://openstax.org/books/biology-2e/pages/30-5-transport-of-water-and-solutes-in-plants"
+        },
+        {
+          "type": "paragraph",
+          "text": "University of Minnesota: Plants and Water: https://open.lib.umn.edu/horticulture/chapter/11-1-plants-and-water/"
+        },
+        {
+          "type": "paragraph",
+          "text": "Forest Research: Assessing Water Use in Plants: https://cdn.forestresearch.gov.uk/2022/02/vegetation_mgt_2004_assessing_water_use.pdf"
+        },
+        {
+          "type": "paragraph",
+          "text": "Science & Plants for Schools: Investigating Transpiration with a Potometer: https://www.saps.org.uk/teaching-resources/resources/1263/investigating-transpiration-with-a-potometer/"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nebraska Extension G1994: Evapotranspiration and Environmental Factors: https://extensionpubs.unl.edu/publication/g1994/na/html/view"
+        }
+      ],
+      "keepFirst": 6
+    }
+  ],
+  "activityVersion": 1,
+  "locale": "en",
+  "attemptId": "transp-3753794034-1794755156466",
+  "data": {
+    "schemaVersion": 1,
+    "activityVersion": 1,
+    "labId": "transpiration",
+    "attemptId": "transp-3753794034-1794755156466",
+    "seed": 3753794034,
+    "locale": "en",
+    "stage": 3,
+    "studentName": "Zoë García",
+    "studentClass": "Period 5",
+    "prediction": "The selected change may alter water loss through the leaf. I expect the result to depend on vapor movement or stomatal opening under the stated conditions.",
+    "design": "Change one environmental factor while matching leaf area, water, temperature and time. Block soil/pot evaporation, keep the module off the pan, and compare each final mass with its own initial mass.",
+    "factor": "airflow",
+    "initialPlan": {
+      "prediction": "The selected change may alter water loss through the leaf. I expect the result to depend on vapor movement or stomatal opening under the stated conditions.",
+      "design": "Change one environmental factor while matching leaf area, water, temperature and time. Block soil/pot evaporation, keep the module off the pan, and compare each final mass with its own initial mass.",
+      "factorId": "airflow",
+      "timing": "Before setup or balance observations",
+      "recordedAt": "2026-11-15T15:05:56.665Z"
+    },
+    "current": "changed",
+    "stations": {
+      "reference": {
+        "sealed": true,
+        "onBalance": true,
+        "massEntries": {
+          "initial": "120.00",
+          "final": "119.70"
+        },
+        "massRecords": {
+          "initial": {
+            "value": 120,
+            "correctAfterFeedback": true,
+            "sourceId": "student-read-supplied-model-balance"
+          },
+          "final": {
+            "value": 119.7,
+            "correctAfterFeedback": false,
+            "sourceId": "student-read-supplied-model-balance"
+          }
+        },
+        "massAttempts": {
+          "initial": [
+            {
+              "value": "555",
+              "correct": false
+            },
+            {
+              "value": "120.00",
+              "correct": true
+            }
+          ],
+          "final": [
+            {
+              "value": "119.70",
+              "correct": true
+            }
+          ]
+        },
+        "finalModelMass": 119.7
+      },
+      "changed": {
+        "sealed": true,
+        "onBalance": true,
+        "massEntries": {
+          "initial": "123.00",
+          "final": "122.55"
+        },
+        "massRecords": {
+          "initial": {
+            "value": 123,
+            "correctAfterFeedback": false,
+            "sourceId": "student-read-supplied-model-balance"
+          },
+          "final": {
+            "value": 122.55,
+            "correctAfterFeedback": false,
+            "sourceId": "student-read-supplied-model-balance"
+          }
+        },
+        "massAttempts": {
+          "initial": [
+            {
+              "value": "123.00",
+              "correct": true
+            }
+          ],
+          "final": [
+            {
+              "value": "122.55",
+              "correct": true
+            }
+          ]
+        },
+        "finalModelMass": 122.55
+      }
+    },
+    "moduleInstalled": true,
+    "time": 30,
+    "readPhase": "final",
+    "calculations": {
+      "reference-loss": "0.30",
+      "reference-rate": "0.010",
+      "changed-loss": "0.45",
+      "changed-rate": "0.015",
+      "rank": "changed"
+    },
+    "calculationRecord": {
+      "values": {
+        "reference-loss": "0.30",
+        "reference-rate": "0.010",
+        "changed-loss": "0.45",
+        "changed-rate": "0.015",
+        "rank": "changed"
+      },
+      "correctAfterFeedback": true,
+      "sourceId": "student-calculated-recorded-model-mass-loss"
+    },
+    "calculationAttempts": [
+      {
+        "values": {
+          "reference-loss": "99",
+          "reference-rate": "",
+          "changed-loss": "",
+          "changed-rate": "",
+          "rank": ""
+        },
+        "correct": false
+      },
+      {
+        "values": {
+          "reference-loss": "0.30",
+          "reference-rate": "0.010",
+          "changed-loss": "0.45",
+          "changed-rate": "0.015",
+          "rank": "changed"
+        },
+        "correct": true
+      }
+    ],
+    "leafTags": {
+      "wall": "evaporation",
+      "pore": "diffusion"
+    },
+    "leafRecord": {
+      "tags": {
+        "wall": "evaporation",
+        "pore": "diffusion"
+      },
+      "correctAfterFeedback": true,
+      "sourceId": "student-annotated-supplied-leaf-pathway"
+    },
+    "leafAttempts": [
+      {
+        "tags": {
+          "wall": "diffusion",
+          "pore": "evaporation"
+        },
+        "correct": false
+      },
+      {
+        "tags": {
+          "wall": "evaporation",
+          "pore": "diffusion"
+        },
+        "correct": true
+      }
+    ],
+    "checks": {
+      "phase": {
+        "attempts": [
+          {
+            "value": "drop",
+            "correct": false
+          },
+          {
+            "value": "vapor",
+            "correct": true
+          }
+        ],
+        "value": "vapor",
+        "correct": true
+      },
+      "mass": {
+        "attempts": [
+          {
+            "value": "change",
+            "correct": true
+          }
+        ],
+        "value": "change",
+        "correct": true
+      },
+      "scope": {
+        "attempts": [
+          {
+            "value": "limited",
+            "correct": true
+          }
+        ],
+        "value": "limited",
+        "correct": true
+      }
+    },
+    "answers": {
+      "controls": "My controls explanation uses the controlled synthetic model. I selected airflow; temperature, room humidity, leaf area and water availability stayed matched. The soil/pot cover blocked non-leaf evaporation, and the module stayed off the pan. Reference mass 120.00 to 119.70 g lost 0.30 g, rate 0.010 g/min. Changed mass 123.00 to 122.55 g lost 0.45 g, rate 0.015 g/min over 30 model minutes. Wet mesophyll walls supply vapor by evaporation; it diffuses through air spaces and stomata. Moving air changes the humid boundary near the leaf in this model. Real stomatal stress responses, heat, leaks, balance forces and other mass changes could alter results.",
+      "rates": "My rates explanation uses the controlled synthetic model. I selected airflow; temperature, room humidity, leaf area and water availability stayed matched. The soil/pot cover blocked non-leaf evaporation, and the module stayed off the pan. Reference mass 120.00 to 119.70 g lost 0.30 g, rate 0.010 g/min. Changed mass 123.00 to 122.55 g lost 0.45 g, rate 0.015 g/min over 30 model minutes. Wet mesophyll walls supply vapor by evaporation; it diffuses through air spaces and stomata. Moving air changes the humid boundary near the leaf in this model. Real stomatal stress responses, heat, leaks, balance forces and other mass changes could alter results.",
+      "mechanism": "My mechanism explanation uses the controlled synthetic model. I selected airflow; temperature, room humidity, leaf area and water availability stayed matched. The soil/pot cover blocked non-leaf evaporation, and the module stayed off the pan. Reference mass 120.00 to 119.70 g lost 0.30 g, rate 0.010 g/min. Changed mass 123.00 to 122.55 g lost 0.45 g, rate 0.015 g/min over 30 model minutes. Wet mesophyll walls supply vapor by evaporation; it diffuses through air spaces and stomata. Moving air changes the humid boundary near the leaf in this model. Real stomatal stress responses, heat, leaks, balance forces and other mass changes could alter results."
+    },
+    "complete": true
+  },
+  "evidence": [
+    {
+      "goalId": "controls",
+      "answerId": "controls",
+      "writing": "My controls explanation uses the controlled synthetic model. I selected airflow; temperature, room humidity, leaf area and water availability stayed matched. The soil/pot cover blocked non-leaf evaporation, and the module stayed off the pan. Reference mass 120.00 to 119.70 g lost 0.30 g, rate 0.010 g/min. Changed mass 123.00 to 122.55 g lost 0.45 g, rate 0.015 g/min over 30 model minutes. Wet mesophyll walls supply vapor by evaporation; it diffuses through air spaces and stomata. Moving air changes the humid boundary near the leaf in this model. Real stomatal stress responses, heat, leaks, balance forces and other mass changes could alter results.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "rates",
+      "answerId": "rates",
+      "writing": "My rates explanation uses the controlled synthetic model. I selected airflow; temperature, room humidity, leaf area and water availability stayed matched. The soil/pot cover blocked non-leaf evaporation, and the module stayed off the pan. Reference mass 120.00 to 119.70 g lost 0.30 g, rate 0.010 g/min. Changed mass 123.00 to 122.55 g lost 0.45 g, rate 0.015 g/min over 30 model minutes. Wet mesophyll walls supply vapor by evaporation; it diffuses through air spaces and stomata. Moving air changes the humid boundary near the leaf in this model. Real stomatal stress responses, heat, leaks, balance forces and other mass changes could alter results.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "mechanism",
+      "answerId": "mechanism",
+      "writing": "My mechanism explanation uses the controlled synthetic model. I selected airflow; temperature, room humidity, leaf area and water availability stayed matched. The soil/pot cover blocked non-leaf evaporation, and the module stayed off the pan. Reference mass 120.00 to 119.70 g lost 0.30 g, rate 0.010 g/min. Changed mass 123.00 to 122.55 g lost 0.45 g, rate 0.015 g/min over 30 model minutes. Wet mesophyll walls supply vapor by evaporation; it diffuses through air spaces and stomata. Moving air changes the humid boundary near the leaf in this model. Real stomatal stress responses, heat, leaks, balance forces and other mass changes could alter results.",
+      "status": "not_graded"
+    }
+  ]
+}

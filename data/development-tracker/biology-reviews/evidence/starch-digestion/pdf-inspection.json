@@ -1,0 +1,175 @@
+[
+  {
+    "file": "public/resources/starch-digestion-teacher-guide.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      3183,
+      3153
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "public/resources/starch-digestion-worksheet.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1624,
+      1551,
+      2756
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/starch-digestion/complete.pdf",
+    "pages": 4,
+    "pageCharacters": [
+      2452,
+      1483,
+      4128,
+      1737
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/starch-digestion/development-draft.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2053,
+      1508,
+      1740
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/starch-digestion/draft.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2043,
+      1508,
+      1740
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/starch-digestion/edited-unconfirmed.pdf",
+    "pages": 4,
+    "pageCharacters": [
+      2457,
+      1952,
+      3486,
+      1740
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/starch-digestion/long-native-print.pdf",
+    "pages": 7,
+    "pageCharacters": [
+      2422,
+      1902,
+      2235,
+      837,
+      837,
+      837,
+      2796
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/starch-digestion/long-offline.pdf",
+    "pages": 8,
+    "pageCharacters": [
+      2458,
+      1471,
+      2775,
+      905,
+      905,
+      905,
+      1440,
+      1740
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/starch-digestion/native-print.pdf",
+    "pages": 4,
+    "pageCharacters": [
+      2419,
+      1917,
+      3498,
+      1641
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/starch-digestion/pagination-body-heat.pdf",
+    "pages": 4,
+    "pageCharacters": [
+      2143,
+      2406,
+      3131,
+      1890
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/starch-digestion/pagination-fungal-structures.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1829,
+      3140,
+      2702
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/starch-digestion/pagination-legacy-enzyme.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1964,
+      820,
+      832
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/starch-digestion/reference-unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2488,
+      1660,
+      1740
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/starch-digestion/route-edited.pdf",
+    "pages": 4,
+    "pageCharacters": [
+      2458,
+      1423,
+      4140,
+      1740
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/starch-digestion/route-unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2464,
+      1362,
+      2886
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/starch-digestion/unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2445,
+      1705,
+      2021
+    ],
+    "finalLongMarker": false
+  }
+]

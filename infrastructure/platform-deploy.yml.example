@@ -1,0 +1,53 @@
+# Copy to .github/workflows/platform-deploy.yml after configuring OIDC and the
+# development/production GitHub environments. No deployment is triggered by this
+# example. Frontend hosting remains managed by Amplify's branch integration.
+name: Deploy Science Labs API and release
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        type: choice
+        options: [development, production]
+        required: true
+permissions: {contents: read, id-token: write}
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: ${{ inputs.environment }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: 22, cache: npm}
+      - run: npm ci && npm ci --prefix server
+      - run: npm test && npm test --prefix server && npm run build:platform
+      - uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ vars.AWS_DEPLOY_ROLE_ARN }}
+          aws-region: ${{ vars.AWS_REGION }}
+      - uses: aws-actions/setup-sam@v2
+      - run: sam build --template-file infrastructure/template.yaml
+      # Current migrations are additive and remain compatible with the running
+      # API. Apply them before routing traffic to code that needs the new schema.
+      - name: Apply additive database migrations
+        env:
+          PLATFORM_ENV: ${{ inputs.environment }}
+          APP_URL: ${{ vars.APP_ORIGIN }}
+          API_URL: ${{ vars.API_ORIGIN }}
+          PLATFORM_SECRET_ARN: ${{ vars.PLATFORM_SECRET_ARN }}
+        run: npm run migrate --prefix server
+      - run: >-
+          sam deploy --stack-name science-labs-${{ inputs.environment }}
+          --resolve-s3 --capabilities CAPABILITY_IAM --no-confirm-changeset --no-fail-on-empty-changeset
+          --parameter-overrides Environment=${{ inputs.environment }}
+          AppOrigin=${{ vars.APP_ORIGIN }} ApiOrigin=${{ vars.API_ORIGIN }}
+          PlatformSecretArn=${{ vars.PLATFORM_SECRET_ARN }}
+          ApiDomainName=${{ vars.API_DOMAIN }} ApiCertificateArn=${{ vars.API_CERTIFICATE_ARN }}
+      - name: Register uploaded runtime
+        env:
+          PLATFORM_ENV: ${{ inputs.environment }}
+          APP_URL: ${{ vars.APP_ORIGIN }}
+          API_URL: ${{ vars.API_ORIGIN }}
+          PLATFORM_SECRET_ARN: ${{ vars.PLATFORM_SECRET_ARN }}
+          RELEASE_BUCKET: ${{ vars.RELEASE_BUCKET }}
+        run: |
+          node scripts/upload-platform-release.mjs

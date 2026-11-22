@@ -1,0 +1,44 @@
+[
+  {
+    "file": "public/resources/seed-germination-teacher-guide.pdf",
+    "pages": 2,
+    "characters": 4542,
+    "finalLongMarker": false
+  },
+  {
+    "file": "public/resources/seed-germination-worksheet.pdf",
+    "pages": 3,
+    "characters": 4034,
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/seed-germination/complete.pdf",
+    "pages": 2,
+    "characters": 4106,
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/seed-germination/draft.pdf",
+    "pages": 2,
+    "characters": 3378,
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/seed-germination/long-native-print.pdf",
+    "pages": 7,
+    "characters": 9770,
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/seed-germination/long-offline.pdf",
+    "pages": 7,
+    "characters": 10399,
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/seed-germination/native-print.pdf",
+    "pages": 2,
+    "characters": 3978,
+    "finalLongMarker": false
+  }
+]

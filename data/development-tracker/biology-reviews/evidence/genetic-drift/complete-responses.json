@@ -1,0 +1,957 @@
+{
+  "schemaVersion": 2,
+  "labId": "genetic-drift",
+  "title": "Genetic Drift and Natural Selection",
+  "question": "How do population size, chance and reproductive advantage affect allele frequencies?",
+  "student": {
+    "name": "Zoë García",
+    "class": "Period 5"
+  },
+  "status": "Complete",
+  "grading": "not_graded",
+  "exportedAt": "2026-11-15T10:29:43.914Z",
+  "exportTimeZone": "America/Los_Angeles",
+  "exportedAtDisplay": "Nov 15, 2026, 2:29 AM PST",
+  "sections": [
+    {
+      "heading": "Prediction and comparison design",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "Required before sampling: Which population size do you expect to show larger chance changes? Could a favored allele ever decrease in a small population? Explain your predictions.",
+          "text": "Smaller populations may show more chance variation; advantage is not a guarantee."
+        },
+        {
+          "type": "response",
+          "prompt": "Required before sampling: We compare 5 individuals (10 gene copies) with 50 individuals (100 copies). Both begin at 50% A. Why use several independent populations at each size?",
+          "text": "Independent populations show variation at the same starting frequency."
+        },
+        {
+          "type": "paragraph",
+          "text": "Timing: Before any random draws."
+        },
+        {
+          "type": "paragraph",
+          "text": "Neutral populations give A and a equal reproductive contribution. Both sizes begin at 50% A and run for five generations with no migration or mutation. The selection comparison starts again at 50% A and changes only the contribution rule."
+        }
+      ]
+    },
+    {
+      "heading": "Sampling evidence",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Beads symbolize copies in possible gametes; source copies are not removed. Each draw is independent within a generation. Counts are model outcomes; hand-guided and automatic draws are distinguished."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Pool",
+            "Current A / copies drawn",
+            "Guided / automatic draws",
+            "Source"
+          ],
+          "rows": [
+            [
+              "small",
+              "4 / 10",
+              "3 / 7",
+              "Equal contribution; p(A)=1/2"
+            ],
+            [
+              "large",
+              "54 / 100",
+              "1 / 99",
+              "Equal contribution; p(A)=1/2"
+            ],
+            [
+              "selected",
+              "9 / 10",
+              "1 / 9",
+              "A contribution 2:1; p(A)=2/3"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Independent neutral populations",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Source: seeded model-provided samples, including the hand-guided first generation of population 1 at each size. Counts below are A copies at generations 0 → 5. They are not student field measurements."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Individuals / copies",
+            "Population",
+            "A counts, generations 0 → 5",
+            "Final A %"
+          ],
+          "rows": [
+            [
+              "5 / 10",
+              1,
+              "5 → 4 → 3 → 2 → 3 → 3",
+              "30%"
+            ],
+            [
+              "5 / 10",
+              2,
+              "5 → 6 → 7 → 8 → 6 → 6",
+              "60%"
+            ],
+            [
+              "5 / 10",
+              3,
+              "5 → 6 → 7 → 5 → 7 → 5",
+              "50%"
+            ],
+            [
+              "50 / 100",
+              1,
+              "50 → 54 → 51 → 48 → 37 → 42",
+              "42%"
+            ],
+            [
+              "50 / 100",
+              2,
+              "50 → 59 → 53 → 41 → 49 → 49",
+              "49%"
+            ],
+            [
+              "50 / 100",
+              3,
+              "50 → 51 → 49 → 55 → 54 → 56",
+              "56%"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Individuals",
+            "Student range (percentage points)",
+            "Claim / check"
+          ],
+          "rows": [
+            [
+              5,
+              30,
+              "small; Correct after feedback"
+            ],
+            [
+              50,
+              14,
+              "small; Correct after feedback"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Reproductive advantage comparison",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Fresh 5-individual comparison: initial A=50%, weighted sampling chance A=2/3 (about 67%). This expected chance is not the observed percentage or a guarantee."
+        },
+        {
+          "type": "response",
+          "prompt": "Student-recorded A percentage after the weighted sample",
+          "text": "90%"
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct first check."
+        }
+      ]
+    },
+    {
+      "heading": "Evidence by learning goal",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Trace how random gamete sampling can change an allele frequency without a reproductive advantage."
+        },
+        {
+          "type": "response",
+          "prompt": "Use your hand-guided draws to explain why the source pool stays the same during one generation, yet the new generation may have a different A percentage. What becomes the source for the following generation?",
+          "text": "My sampling explanation uses actual independent population outcomes. Random sampling can change neutral frequencies. Expected reproductive contributions differ from a guaranteed sample; finite populations retain chance variation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Compare variation among independent populations while distinguishing an observed result from a long-run expectation."
+        },
+        {
+          "type": "response",
+          "prompt": "Compare the actual final percentages and ranges for both sizes. Did this small set match your prediction? Explain why one unusual run would not disprove the expectation that drift is stronger in smaller breeding populations.",
+          "text": "My variation explanation uses actual independent population outcomes. Random sampling can change neutral frequencies. Expected reproductive contributions differ from a guaranteed sample; finite populations retain chance variation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Distinguish random sampling from a reproductive advantage and explain why both can act together."
+        },
+        {
+          "type": "response",
+          "prompt": "Compare the neutral 50% sampling chance with the 2:1 contribution rule and its observed result. Explain why a reproductive advantage changes the expected direction but does not guarantee every outcome. Name a limit of this model.",
+          "text": "My mechanisms explanation uses actual independent population outcomes. Random sampling can change neutral frequencies. Expected reproductive contributions differ from a guaranteed sample; finite populations retain chance variation."
+        }
+      ]
+    },
+    {
+      "heading": "Concept checks",
+      "blocks": [
+        {
+          "type": "response",
+          "prompt": "An allele increased in one neutral population. What does that show?",
+          "text": "Chance sampling can raise an allele frequency even without an advantage.\nCorrect! In the neutral model the alleles have equal contribution. Random sampling can change their shares. A change alone does not prove an advantage. Revised after feedback."
+        },
+        {
+          "type": "response",
+          "prompt": "A reaches 0% in this model. Can it return in a later generation?",
+          "text": "No. It cannot be sampled from an empty share; mutation and migration are absent.\nCorrect! An allele lost from this closed model cannot return. A real population could gain it through mutation or migration, which are outside this model. Correct on the first recorded check."
+        },
+        {
+          "type": "response",
+          "prompt": "If A has a reproductive advantage, can chance still reduce it in a small population?",
+          "text": "Yes. A higher sampling chance is not a guaranteed result.\nCorrect! Selection changes expected contributions; drift is still present when a finite number of gametes is sampled. Letters alone do not establish dominance. Correct on the first recorded check."
+        }
+      ]
+    },
+    {
+      "heading": "Model limits and sources",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "This is a symbolic probability model, not a jar of real genes or measured wildlife data. Jar colors show proportions; bead sizes are schematic. Sampling with replacement represents many possible gametes, not reuse of one physical egg or sperm. Each new generation contains 2N gene copies for N diploid individuals; pairing the copies into individuals is not shown. Population size stays fixed, generations do not overlap, and mating is random. No mutation or migration restores a lost allele. The selected comparison weights A contributions 2:1 relative to a; it is an abstract allele-level advantage, not a dominance rule or a measured fitness value. Three populations are a small demonstration and may show an unexpected pattern. The size of a real breeding population can differ from its head count."
+        },
+        {
+          "type": "paragraph",
+          "text": "NHGRI: Genetic Drift: https://www.genome.gov/genetics-glossary/Genetic-Drift"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nature Education: Genetic Drift and Effective Population Size: https://www.nature.com/scitable/topicpage/genetic-drift-and-effective-population-size-772523/"
+        }
+      ],
+      "keepFirst": 3
+    }
+  ],
+  "activityVersion": 1,
+  "locale": "en",
+  "attemptId": "drift-3737218278-1794738580710",
+  "data": {
+    "schemaVersion": 1,
+    "activityVersion": 1,
+    "labId": "genetic-drift",
+    "attemptId": "drift-3737218278-1794738580710",
+    "seed": 3737218278,
+    "locale": "en",
+    "studentName": "Zoë García",
+    "studentClass": "Period 5",
+    "stage": 4,
+    "active": "selected",
+    "prediction": "Smaller populations may show more chance variation; advantage is not a guarantee.",
+    "design": "Independent populations show variation at the same starting frequency.",
+    "initialPlan": {
+      "prediction": "Smaller populations may show more chance variation; advantage is not a guarantee.",
+      "design": "Independent populations show variation at the same starting frequency.",
+      "timing": "Before any random draws",
+      "recordedAt": "2026-11-15T10:29:40.878Z"
+    },
+    "demos": {
+      "small": {
+        "draws": [
+          {
+            "allele": "A",
+            "sourceId": "student-guided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "student-guided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "student-guided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "model-provided-random-draw"
+          }
+        ],
+        "held": null,
+        "manual": 3,
+        "automatic": 7
+      },
+      "large": {
+        "draws": [
+          {
+            "allele": "a",
+            "sourceId": "student-guided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          }
+        ],
+        "held": null,
+        "manual": 1,
+        "automatic": 99
+      },
+      "selected": {
+        "draws": [
+          {
+            "allele": "A",
+            "sourceId": "student-guided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "a",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          },
+          {
+            "allele": "A",
+            "sourceId": "model-provided-random-draw"
+          }
+        ],
+        "held": null,
+        "manual": 1,
+        "automatic": 9
+      }
+    },
+    "ensemble": {
+      "small": [
+        {
+          "replicate": 1,
+          "copies": 10,
+          "counts": [
+            5,
+            4,
+            3,
+            2,
+            3,
+            3
+          ],
+          "sourceId": "first-generation-student-guided-rest-model"
+        },
+        {
+          "replicate": 2,
+          "copies": 10,
+          "counts": [
+            5,
+            6,
+            7,
+            8,
+            6,
+            6
+          ],
+          "sourceId": "model-provided-independent-population"
+        },
+        {
+          "replicate": 3,
+          "copies": 10,
+          "counts": [
+            5,
+            6,
+            7,
+            5,
+            7,
+            5
+          ],
+          "sourceId": "model-provided-independent-population"
+        }
+      ],
+      "large": [
+        {
+          "replicate": 1,
+          "copies": 100,
+          "counts": [
+            50,
+            54,
+            51,
+            48,
+            37,
+            42
+          ],
+          "sourceId": "first-generation-student-guided-rest-model"
+        },
+        {
+          "replicate": 2,
+          "copies": 100,
+          "counts": [
+            50,
+            59,
+            53,
+            41,
+            49,
+            49
+          ],
+          "sourceId": "model-provided-independent-population"
+        },
+        {
+          "replicate": 3,
+          "copies": 100,
+          "counts": [
+            50,
+            51,
+            49,
+            55,
+            54,
+            56
+          ],
+          "sourceId": "model-provided-independent-population"
+        }
+      ]
+    },
+    "ranges": {
+      "small": "30",
+      "large": "14"
+    },
+    "rangeClaim": "small",
+    "rangeRecord": {
+      "ranges": {
+        "small": 30,
+        "large": 14
+      },
+      "claim": "small",
+      "correctAfterFeedback": true
+    },
+    "rangeAttempts": [
+      {
+        "ranges": {
+          "small": "999",
+          "large": "888"
+        },
+        "claim": "same",
+        "correct": false
+      },
+      {
+        "ranges": {
+          "small": "30",
+          "large": "14"
+        },
+        "claim": "small",
+        "correct": true
+      }
+    ],
+    "rulePlaced": true,
+    "selectedPercent": "90",
+    "selectedRecord": {
+      "percent": 90,
+      "correctAfterFeedback": false
+    },
+    "selectedAttempts": [
+      {
+        "entered": "90",
+        "correct": true
+      }
+    ],
+    "checks": {
+      "direction": {
+        "attempts": [
+          {
+            "value": "better",
+            "correct": false
+          },
+          {
+            "value": "chance",
+            "correct": true
+          }
+        ],
+        "value": "chance",
+        "correct": true
+      },
+      "loss": {
+        "attempts": [
+          {
+            "value": "no",
+            "correct": true
+          }
+        ],
+        "value": "no",
+        "correct": true
+      },
+      "advantage": {
+        "attempts": [
+          {
+            "value": "possible",
+            "correct": true
+          }
+        ],
+        "value": "possible",
+        "correct": true
+      }
+    },
+    "answers": {
+      "sampling": "My sampling explanation uses actual independent population outcomes. Random sampling can change neutral frequencies. Expected reproductive contributions differ from a guaranteed sample; finite populations retain chance variation.",
+      "variation": "My variation explanation uses actual independent population outcomes. Random sampling can change neutral frequencies. Expected reproductive contributions differ from a guaranteed sample; finite populations retain chance variation.",
+      "mechanisms": "My mechanisms explanation uses actual independent population outcomes. Random sampling can change neutral frequencies. Expected reproductive contributions differ from a guaranteed sample; finite populations retain chance variation."
+    },
+    "complete": true
+  },
+  "evidence": [
+    {
+      "goalId": "sampling",
+      "answerId": "sampling",
+      "writing": "My sampling explanation uses actual independent population outcomes. Random sampling can change neutral frequencies. Expected reproductive contributions differ from a guaranteed sample; finite populations retain chance variation.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "variation",
+      "answerId": "variation",
+      "writing": "My variation explanation uses actual independent population outcomes. Random sampling can change neutral frequencies. Expected reproductive contributions differ from a guaranteed sample; finite populations retain chance variation.",
+      "status": "not_graded"
+    },
+    {
+      "goalId": "mechanisms",
+      "answerId": "mechanisms",
+      "writing": "My mechanisms explanation uses actual independent population outcomes. Random sampling can change neutral frequencies. Expected reproductive contributions differ from a guaranteed sample; finite populations retain chance variation.",
+      "status": "not_graded"
+    }
+  ]
+}

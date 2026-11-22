@@ -1,0 +1,131 @@
+[
+  {
+    "file": "public/resources/reaction-time-teacher-guide.pdf",
+    "pages": 2,
+    "pageCharacters": [
+      2952,
+      3588
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "public/resources/reaction-time-worksheet.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1826,
+      1587,
+      2903
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/reaction-time/calculation-unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2172,
+      1816,
+      2204
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/reaction-time/complete.pdf",
+    "pages": 4,
+    "pageCharacters": [
+      2160,
+      2881,
+      2069,
+      1953
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/reaction-time/development-draft.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1524,
+      1928,
+      2032
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/reaction-time/draft.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1514,
+      1928,
+      2032
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/reaction-time/edited-unconfirmed.pdf",
+    "pages": 4,
+    "pageCharacters": [
+      2160,
+      2864,
+      2082,
+      1956
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/reaction-time/interrupted.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2160,
+      1989,
+      2112
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/reaction-time/long-native-print.pdf",
+    "pages": 7,
+    "pageCharacters": [
+      2124,
+      2866,
+      1020,
+      837,
+      837,
+      1014,
+      2440
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/reaction-time/long-offline.pdf",
+    "pages": 7,
+    "pageCharacters": [
+      2160,
+      2871,
+      1186,
+      905,
+      905,
+      861,
+      2883
+    ],
+    "finalLongMarker": true
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/reaction-time/native-print.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      2127,
+      2879,
+      3733
+    ],
+    "finalLongMarker": false
+  },
+  {
+    "file": "data/development-tracker/biology-reviews/evidence/reaction-time/pathway-unconfirmed.pdf",
+    "pages": 3,
+    "pageCharacters": [
+      1978,
+      1928,
+      2032
+    ],
+    "finalLongMarker": false
+  }
+]

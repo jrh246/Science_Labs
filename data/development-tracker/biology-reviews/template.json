@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "labId": "REPLACE_WITH_LAB_ID",
+  "taskId": "REPLACE_WITH_REVIEW_TASK_ID",
+  "reviewedBy": "",
+  "reviewedOn": "",
+  "sourceSnapshot": "",
+  "decision": "pending",
+  "summary": "",
+  "blockers": [],
+  "checks": {
+    "G01": {
+      "status": "pending",
+      "notes": "",
+      "evidence": []
+    },
+    "G02": {
+      "status": "pending",
+      "notes": "",
+      "evidence": []
+    },
+    "G03": {
+      "status": "pending",
+      "notes": "",
+      "evidence": []
+    },
+    "G04": {
+      "status": "pending",
+      "notes": "",
+      "evidence": []
+    },
+    "G05": {
+      "status": "pending",
+      "notes": "",
+      "evidence": []
+    },
+    "G06": {
+      "status": "pending",
+      "notes": "",
+      "evidence": []
+    },
+    "G07": {
+      "status": "pending",
+      "notes": "",
+      "evidence": []
+    },
+    "G08": {
+      "status": "pending",
+      "notes": "",
+      "evidence": []
+    },
+    "G09": {
+      "status": "pending",
+      "notes": "",
+      "evidence": []
+    },
+    "G10": {
+      "status": "pending",
+      "notes": "",
+      "evidence": []
+    },
+    "G11": {
+      "status": "pending",
+      "notes": "",
+      "evidence": []
+    },
+    "G12": {
+      "status": "pending",
+      "notes": "",
+      "evidence": []
+    },
+    "G13": {
+      "status": "pending",
+      "notes": "",
+      "evidence": []
+    },
+    "G14": {
+      "status": "pending",
+      "notes": "",
+      "evidence": []
+    },
+    "G15": {
+      "status": "pending",
+      "notes": "",
+      "evidence": []
+    },
+    "G16": {
+      "status": "pending",
+      "notes": "",
+      "evidence": []
+    },
+    "G17": {
+      "status": "pending",
+      "notes": "",
+      "evidence": []
+    },
+    "G18": {
+      "status": "pending",
+      "notes": "",
+      "evidence": []
+    },
+    "RESOURCES": {
+      "status": "pending",
+      "notes": "",
+      "evidence": []
+    },
+    "ACCESS": {
+      "status": "pending",
+      "notes": "",
+      "evidence": []
+    },
+    "TRACKING": {
+      "status": "pending",
+      "notes": "",
+      "evidence": []
+    }
+  },
+  "artifacts": {
+    "workflow": [],
+    "visuals": [],
+    "pdfReports": [],
+    "nativePrint": [],
+    "tests": [],
+    "resources": []
+  },
+  "externalValidation": {
+    "teacherStudentComprehension": {
+      "status": "pending",
+      "notes": "Not yet performed; development checks do not establish classroom comprehension."
+    },
+    "physicalDevices": {
+      "status": "pending",
+      "notes": "Not yet performed; browser emulation is not physical-device acceptance."
+    },
+    "classroomProtocol": {
+      "status": "pending",
+      "notes": "Record the selected modes and actual protocol validation separately."
+    }
+  },
+  "futureWork": [
+    {
+      "id": "AUD-10",
+      "status": "planned",
+      "notes": "Full native language switching and translated printing are not certified by the localization-readiness check."
+    }
+  ],
+  "history": []
+}

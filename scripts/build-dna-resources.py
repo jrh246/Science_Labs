@@ -12,7 +12,8 @@ ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'public/resources'
 COPY=ROOT/'output/pdf'
 COPY.mkdir(parents=True,exist_ok=True)
-lab=json.loads(subprocess.check_output(['node','--input-type=module','-e',"import {extendedById} from './src/investigations/extended-content.js'; console.log(JSON.stringify(extendedById['dna-replication']));"],cwd=ROOT,encoding='utf-8'))
+shared=json.loads(subprocess.check_output(['node','--input-type=module','-e',"import {extendedById} from './src/investigations/extended-content.js'; import {explanationQuestions} from './src/investigations/extraction-report.js';import {checkpoints} from './src/investigations/extraction-model.js';console.log(JSON.stringify({lab:extendedById['dna-replication'],explanationQuestions,checkpoints}));"],cwd=ROOT,encoding='utf-8'))
+lab=shared['lab']
 styles=getSampleStyleSheet()
 styles.add(ParagraphStyle(name='TitleDNA',fontName='Times-Roman',fontSize=27,leading=31,textColor=colors.HexColor('#285746'),spaceAfter=14))
 styles.add(ParagraphStyle(name='SectionDNA',fontName='Helvetica-Bold',fontSize=12,leading=16,textColor=colors.HexColor('#285746'),spaceBefore=11,spaceAfter=7))
@@ -51,17 +52,17 @@ student=title('STUDENT WORKSHEET / 1. UNDERSTAND AND PREDICT')+[
  PageBreak()]+title('STUDENT WORKSHEET / 2. PREPARE AND OBSERVE')+[h('One preparation, two required checkpoints'),
  p('Move fruit into the bag; mash it; add water, salt and detergent; mix gently; filter; layer cold alcohol. Drag tools, or select a tool and then its target. For classroom work, use the teacher-approved procedure.'),
  p('In the virtual lab, answer each checkpoint correctly before continuing. The equipment pauses and the next tool instructions stay hidden until the checkpoint is passed. Use feedback to revise your reasoning.'),
- p('Before detergent: what barriers must be disrupted to help release DNA?'),lines(1),
- p('Before alcohol: where could DNA be if the filtrate has no visible strands?'),lines(1),
+ p(shared['checkpoints']['4']['question']),lines(1),
+ p(shared['checkpoints']['8']['question']),lines(1),
  h('Compare after five minutes'),
  p('Inspect the complete sample and two matched controls. Mark the source V (virtual) or C (classroom). Score visibility: 0 none, 1 faint, 2 clear, 3 abundant. These are ordered categories, not DNA concentrations.'),
  table([['Sample','Source','Score','Describe what you see'],['Complete extraction','','',''],['No detergent control','','',''],['No fruit blank','','','']],[150,50,50,254]),
  p('The virtual controls are prepared by the simulation. In the no-detergent control, replace detergent with the same volume of water. Keep fruit mass, salt, alcohol, final liquid volume and observation time matched. The blank contains no fruit.','SmallDNA'),
  PageBreak()]+title('STUDENT WORKSHEET / 3. EXPLAIN WITH EVIDENCE')+[
  h('1. What does the comparison support?'),
- p('Use sample names and your observations. Explain how detergent acts on lipid membranes and why mashing can release some DNA without detergent. What does the no-fruit blank test?'),lines(6),
+ p(shared['explanationQuestions'][0]),p('What does the no-fruit blank test?'),lines(6),
  h('2. How far can the claim go?'),
- p('A student says: "Twice as much white material means twice as much DNA." Explain why this evidence cannot establish that claim.'),lines(5),
+ p(shared['explanationQuestions'][1]),lines(5),
  h('Transfer question / class discussion'),
  p('A group sees no strands. Does that mean its fruit contained no DNA? Give another explanation and a comparison that could test it.'),
  h('Keep your completed work'),p('At the end, use Download lab report (PDF) or Print lab report. The report includes your prediction, checkpoint responses, observations, sources and explanations. An unfinished report is labeled In progress. Name and class fields are optional.','SmallDNA'),

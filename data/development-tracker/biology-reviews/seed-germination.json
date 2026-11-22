@@ -1,0 +1,415 @@
+{
+  "schemaVersion": 1,
+  "labId": "seed-germination",
+  "taskId": "BIO-01-REVIEW",
+  "reviewedBy": "Codex - separate development review",
+  "reviewedOn": "2026-11-15",
+  "sourceSnapshot": "sha256:749307d72b2a3be2c3c44d6e50ddc6e2ca31f74dcbb199d08fbd9dfd05d647c7",
+  "decision": "pass",
+  "summary": "English virtual-only development review passed after correcting touch drag/tap handling, setup labels, learning-rationale integration, standalone offline registration and the report source orphan. External comprehension/hardware/physical protocol and AUD-10 translated delivery remain separate.",
+  "blockers": [],
+  "checks": {
+    "G01": {
+      "status": "pass",
+      "notes": "Three goals connect design choices, root classifications and written evidence/limits. Writings remain ungraded; clicking alone is not mastery.",
+      "evidence": [
+        "src/investigations/seed-content.js",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/complete-responses.json"
+      ]
+    },
+    "G02": {
+      "status": "pass",
+      "notes": "Two conditions have distinct purposes. Ten seeds are subsamples; two dates follow the same seeds. No repeated setup adds empty work. Repeatability requires independently prepared dishes.",
+      "evidence": [
+        "src/investigations/seed-content.js",
+        "src/investigations/learning-design.js",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/review-notes.md"
+      ]
+    },
+    "G03": {
+      "status": "pass",
+      "notes": "Institutional sources support water/air/temperature requirements and emerged-root criterion. Exact counts/dose/time are clearly synthetic model choices, not published empirical parameters. No unresolved mechanism/procedure dispute remains for this virtual-only scope.",
+      "evidence": [
+        "https://web.extension.illinois.edu/gpe/case3/c3facts3.html",
+        "https://propg.ifas.ufl.edu/04-seeds/03-germination/04-seedsgermination-germination.html",
+        "src/investigations/seed-model.js",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/review-notes.md"
+      ]
+    },
+    "G04": {
+      "status": "pass",
+      "notes": "Model clock, enlarged roots, synthetic counts, matched conditions, omitted drying/mold/oxygen change and one-dish limitations appear beside observations and in handouts/reports.",
+      "evidence": [
+        "src/investigations/seed-content.js",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/day-5.png",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/complete.pdf"
+      ]
+    },
+    "G05": {
+      "status": "pass",
+      "notes": "Students choose dish conditions, place actual seed packets and measured water onto dishes, classify root emergence twice, check answers and explain the evidence. State and artwork respond to those actions.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/seed-germination/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/setup-damp.png",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/day-5.png"
+      ]
+    },
+    "G06": {
+      "status": "pass",
+      "notes": "Viewed start, damp setup, day 2/day 5, phone and tablet screenshots. Original shaded seeds, translucent dish rims, damp paper and emerging roots are plausible at the declared enlarged scale. Mouse/touch placement shares container geometry; scroll/resize/reload checked.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/seed-germination/setup-empty.png",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/setup-damp.png",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/day-2.png",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/day-5.png",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/phone-seeds.png",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/tablet-setup.png"
+      ]
+    },
+    "G07": {
+      "status": "pass",
+      "notes": "Concept choice order and root positions are shuffled once per attempt and persist on reload. Neither roots nor answers auto-enter student classifications. No assessment answer is supplied by a separate highlighted match display.",
+      "evidence": [
+        "src/investigations/seed-model.js",
+        "tests/seed.test.js",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/browser-tests.txt"
+      ]
+    },
+    "G08": {
+      "status": "pass",
+      "notes": "Reviewed English authored directions, labels, wrong-action messages, feedback, explanations and both handouts for short concrete wording. Germination/control/percentage/cumulative counts explained at use. Teacher/student comprehension remains pending; no reading-score certification is claimed.",
+      "evidence": [
+        "src/investigations/seed-content.js",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/review-notes.md",
+        "public/resources/seed-germination-worksheet.pdf",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/phone-seeds.png"
+      ]
+    },
+    "G09": {
+      "status": "pass",
+      "notes": "Required prediction/design are explicitly labeled and gated in model and UI before setup. Initial plan is retained with actual before-observation timing; wrong predictions remain acceptable. No seed outcome precedes recorded planning.",
+      "evidence": [
+        "src/investigations/seed-model.js",
+        "tests/seed.test.js",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/complete-responses.json"
+      ]
+    },
+    "G10": {
+      "status": "pass",
+      "notes": "Correct classification and concept answers say Correct! and explain the biology. Wrong selections have a revision path; first checks and subsequent corrections remain in data and are summarized in human reports. Later BIO-03 follow-up: current unconfirmed work is retained; repeated correct checks do not invent corrections; edit feedback/next-step gates clear immediately; rapid real tool choices after dragging remain usable. Verified by the 116-test model suite, 25-test browser group and three edit/recheck cases. BIO-07 shared touch follow-up: suppress the pending native compatibility click across replacement DOM, reset on the next physical pointerdown. All six earlier lab browser files passed in the 50-check group; its only failure was a new singular/plural assertion typo, corrected in the focused 2/2 exact-tap rerun. Verify one increment/toggle/rotation and preserve the next deliberate tap. Science and saved observations unchanged; original acceptance snapshots retained.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/seed-germination/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/complete-responses.json",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/followup-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/followup-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/followup-edit-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-exact-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-regression-initial.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-followup-manifest.json"
+      ]
+    },
+    "G11": {
+      "status": "pass",
+      "notes": "Shared write-result helper confirms only successful storage, including repeated completion clicks. Denied storage/retry, reload, identity edits and invalidation after substantive edits are browser-tested. Reports remain downloadable on failure.",
+      "evidence": [
+        "src/investigations/completion-status.js",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/browser-tests.txt"
+      ]
+    },
+    "G12": {
+      "status": "pass",
+      "notes": "New root-scoped v1 key leaves all previous lab attempts untouched. Partial/completed work and seeded root identities survive reload. Substantive response edits clear completion; identity edits preserve it.",
+      "evidence": [
+        "src/investigations/seed-app.js",
+        "src/investigations/seed-model.js",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/browser-tests.txt"
+      ]
+    },
+    "G13": {
+      "status": "pass",
+      "notes": "Completed and draft downloadable PDFs and native print work, with optional name/period, named/neutral filenames and readable local timestamp/time zone. Reports use the actual state.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/seed-germination/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/draft.pdf",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/native-print.pdf",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/browser-tests.txt"
+      ]
+    },
+    "G14": {
+      "status": "pass",
+      "notes": "Reports organize prediction/design, observed counts and percentages, goal-linked verbatim writing, checked concepts, meaningful corrections and limits. Raw attempts remain in JSON. A repetitive correction log was replaced during review. Follow-up: wrong current entries are retained as unconfirmed work rather than omitted. A real wrong unfinished attempt was exported/printed; 109 model/report tests and the targeted two-lab browser check passed. Later BIO-03 follow-up: current unconfirmed work is retained; repeated correct checks do not invent corrections; edit feedback/next-step gates clear immediately; rapid real tool choices after dragging remain usable. Verified by the 116-test model suite, 25-test browser group and three edit/recheck cases.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/seed-germination/complete.pdf",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/complete-responses.json",
+        "src/investigations/seed-report.js",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/unconfirmed-current-work.pdf",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/unconfirmed-current-work-print.pdf",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/partial-followup-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/partial-followup-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/followup-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/followup-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/followup-edit-tests.txt"
+      ]
+    },
+    "G15": {
+      "status": "pass",
+      "notes": "Rendered and inspected short/draft/completed/long PDF and native-print reports plus both handouts. Accents and symbols retained; final long-answer marker retained. First PDF after offline reload and export-failure recovery pass. Source-only orphan page fixed. Follow-up: wrong current entries are retained as unconfirmed work rather than omitted. A real wrong unfinished attempt was exported/printed; 109 model/report tests and the targeted two-lab browser check passed. Later BIO-03 follow-up: current unconfirmed work is retained; repeated correct checks do not invent corrections; edit feedback/next-step gates clear immediately; rapid real tool choices after dragging remain usable. Verified by the 116-test model suite, 25-test browser group and three edit/recheck cases.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/seed-germination/pdf-inspection.json",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/pdf-contact-1.png",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/pdf-contact-2.png",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/pdf-contact-3.png",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/pdf-contact-4.png",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/long-offline.pdf",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/long-native-print.pdf",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/unconfirmed-current-work.pdf",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/unconfirmed-current-work-print.pdf",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/partial-followup-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/partial-followup-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/followup-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/followup-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/followup-edit-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.md",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.md"
+      ]
+    },
+    "G16": {
+      "status": "pass",
+      "notes": "Mouse, ordinary touch taps, real touch drag then next tap, select/place, keyboard, reduced motion, phone/tablet and scroll/resize/reload checks pass in Chromium. Stable-root pointer capture is released before render; deliberate touch taps activate once. Observable trait descriptions support nonvisual classification. Physical devices remain pending. Later BIO-03 follow-up: current unconfirmed work is retained; repeated correct checks do not invent corrections; edit feedback/next-step gates clear immediately; rapid real tool choices after dragging remain usable. Verified by the 116-test model suite, 25-test browser group and three edit/recheck cases. BIO-07 shared touch follow-up: suppress the pending native compatibility click across replacement DOM, reset on the next physical pointerdown. All six earlier lab browser files passed in the 50-check group; its only failure was a new singular/plural assertion typo, corrected in the focused 2/2 exact-tap rerun. Verify one increment/toggle/rotation and preserve the next deliberate tap. Science and saved observations unchanged; original acceptance snapshots retained.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/seed-germination/browser-tests.txt",
+        "src/investigations/touch-buttons.js",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/phone-seeds.png",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/tablet-setup.png",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/followup-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/followup-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/followup-edit-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-exact-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-regression-initial.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-followup-manifest.json",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.json",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.md",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-native-focus-regressions.txt"
+      ]
+    },
+    "G17": {
+      "status": "pass",
+      "notes": "Model/report suite and targeted browser/library/original-lab regressions pass; resource parity/hashes and both builds checked. Initial failures and actual corrections are retained. External classroom/hardware acceptance is not inferred. Follow-up: wrong current entries are retained as unconfirmed work rather than omitted. A real wrong unfinished attempt was exported/printed; 109 model/report tests and the targeted two-lab browser check passed. Later BIO-03 follow-up: current unconfirmed work is retained; repeated correct checks do not invent corrections; edit feedback/next-step gates clear immediately; rapid real tool choices after dragging remain usable. Verified by the 116-test model suite, 25-test browser group and three edit/recheck cases. BIO-07 shared touch follow-up: suppress the pending native compatibility click across replacement DOM, reset on the next physical pointerdown. All six earlier lab browser files passed in the 50-check group; its only failure was a new singular/plural assertion typo, corrected in the focused 2/2 exact-tap rerun. Verify one increment/toggle/rotation and preserve the next deliberate tap. Science and saved observations unchanged; original acceptance snapshots retained.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/seed-germination/model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/platform-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/platform-build.txt",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/review-notes.md",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/unconfirmed-current-work.pdf",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/unconfirmed-current-work-print.pdf",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/partial-followup-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/partial-followup-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/followup-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/followup-browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/followup-edit-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-exact-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-regression-initial.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-followup-manifest.json"
+      ]
+    },
+    "G18": {
+      "status": "pass",
+      "notes": "English authored content is in a locale bundle with stable IDs; locale/source version recorded in snapshots, original writing preserved. English availability is explicit. Native language switching and reviewed Spanish print/app coverage remain future AUD-10, not certified. Question/goal/prompt English content is bundled; remaining app/report/status source strings still need extraction during future AUD-10. This readiness check does not certify fully externalized UI or language delivery.",
+      "evidence": [
+        "src/investigations/seed-content.js",
+        "src/investigations/seed-report.js",
+        "AGENTS.md",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/review-notes.md"
+      ]
+    },
+    "RESOURCES": {
+      "status": "pass",
+      "notes": "Matching three-page student worksheet and two-page teacher guide use current live content/prompts/limits and explain PDF/print saving. Virtual-only scope and any future physical extension are explicit, not a validated physical protocol.",
+      "evidence": [
+        "public/resources/seed-germination-worksheet.pdf",
+        "public/resources/seed-germination-teacher-guide.pdf",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/resource-check.txt",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/pdf-contact-1.png"
+      ]
+    },
+    "ACCESS": {
+      "status": "pass",
+      "notes": "Guest lab and reports verified without sign-in. Platform package includes the same stable lab ID; service worker is disabled in platform runtime. Existing membership/favorites/assignment/private-publication protections pass server regressions. No release was registered or published as an acceptance side effect.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/seed-germination/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/platform-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/platform-build.txt",
+        "src/platform/runtime-bridge.js",
+        "scripts/build-platform.mjs"
+      ]
+    },
+    "TRACKING": {
+      "status": "pass",
+      "notes": "Stable seed-germination ID/unit/route retained, virtual-only catalog and curriculum record updated, CSV and course checklist regenerated. English implementation status changed; Spanish/standards/whole-course approval unchanged.",
+      "evidence": [
+        "src/catalog.js",
+        "data/curriculum/dataset.json",
+        "data/development-tracker/COURSE_CHECKLIST.md",
+        "data/development-tracker/biology-reviews/evidence/seed-germination/review-notes.md"
+      ]
+    }
+  },
+  "artifacts": {
+    "workflow": [
+      "data/development-tracker/biology-reviews/evidence/seed-germination/browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/seed-germination/review-notes.md"
+    ],
+    "visuals": [
+      "data/development-tracker/biology-reviews/evidence/seed-germination/setup-empty.png",
+      "data/development-tracker/biology-reviews/evidence/seed-germination/setup-damp.png",
+      "data/development-tracker/biology-reviews/evidence/seed-germination/day-2.png",
+      "data/development-tracker/biology-reviews/evidence/seed-germination/day-5.png",
+      "data/development-tracker/biology-reviews/evidence/seed-germination/phone-seeds.png",
+      "data/development-tracker/biology-reviews/evidence/seed-germination/tablet-setup.png",
+      "data/development-tracker/biology-reviews/evidence/seed-germination/mobile-explanation.png"
+    ],
+    "pdfReports": [
+      "data/development-tracker/biology-reviews/evidence/seed-germination/draft.pdf",
+      "data/development-tracker/biology-reviews/evidence/seed-germination/complete.pdf",
+      "data/development-tracker/biology-reviews/evidence/seed-germination/long-offline.pdf",
+      "data/development-tracker/biology-reviews/evidence/seed-germination/pdf-inspection.json",
+      "data/development-tracker/biology-reviews/evidence/seed-germination/unconfirmed-current-work.pdf"
+    ],
+    "nativePrint": [
+      "data/development-tracker/biology-reviews/evidence/seed-germination/native-print.pdf",
+      "data/development-tracker/biology-reviews/evidence/seed-germination/long-native-print.pdf",
+      "data/development-tracker/biology-reviews/evidence/seed-germination/unconfirmed-current-work-print.pdf"
+    ],
+    "tests": [
+      "data/development-tracker/biology-reviews/evidence/seed-germination/model-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/seed-germination/browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/seed-germination/platform-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/seed-germination/platform-build.txt",
+      "data/development-tracker/biology-reviews/evidence/seed-germination/resource-check.txt",
+      "data/development-tracker/biology-reviews/evidence/seed-germination/partial-followup-model-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/seed-germination/partial-followup-browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/seed-germination/followup-model-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/seed-germination/followup-browser-tests.txt",
+      "data/development-tracker/biology-reviews/evidence/seed-germination/followup-edit-tests.txt"
+    ],
+    "resources": [
+      "public/resources/seed-germination-worksheet.pdf",
+      "public/resources/seed-germination-teacher-guide.pdf"
+    ]
+  },
+  "externalValidation": {
+    "teacherStudentComprehension": {
+      "status": "pending",
+      "notes": "Not yet performed; development checks do not establish classroom comprehension."
+    },
+    "physicalDevices": {
+      "status": "pending",
+      "notes": "Not yet performed; browser emulation is not physical-device acceptance."
+    },
+    "classroomProtocol": {
+      "status": "pending",
+      "notes": "Record the selected modes and actual protocol validation separately."
+    }
+  },
+  "futureWork": [
+    {
+      "id": "AUD-10",
+      "status": "planned",
+      "notes": "Full native language switching and translated printing are not certified by the localization-readiness check."
+    }
+  ],
+  "history": [
+    {
+      "finding": "Initial model run found the new lab missing from shared learning rationales.",
+      "resolution": "Added explicit two-dish/time-series sampling rationale; 103 model/report tests passed."
+    },
+    {
+      "finding": "Browser setup needed the installed Chromium path; first PDF offline wait exposed missing standalone service-worker registration.",
+      "resolution": "Used installed Chromium, added guarded standalone worker registration; all four workflow tests passed on rerun."
+    },
+    {
+      "finding": "Touch follow-up suppression could swallow the next button; setup labels covered seeds.",
+      "resolution": "Restricted duplicate-click suppression to tool clicks and moved dish labels to the rim. Touch drag and native controls retested."
+    },
+    {
+      "finding": "Separate review found the completed PDF spilling a lone source onto a third page; mouse test used an offscreen center; touch transition needed an explicit assertion.",
+      "resolution": "Correction summary shortened; target-scrolling test corrected; final touch and rendered-output retests in progress."
+    },
+    {
+      "finding": "Strict drag-then-tap assertion exposed missing compatibility click after a drag; ordinary touch alone passed.",
+      "resolution": "Added deliberate touch-tap handling with pointer movement/cancel guards and duplicate native-click prevention. Stable app capture released before rerender. Actual drag then clock-tap transition, ordinary tap, keyboard and mouse placement all retested."
+    },
+    {
+      "finding": "Final report/layout inspection",
+      "resolution": "All pages reviewed after correction summary change: complete report two pages, draft two, long PDF/print seven each; no clipped final answer or source-only orphan page."
+    },
+    {
+      "recordedOn": "2026-11-15",
+      "sourceSnapshotBefore": "sha256:b46db9c2b492c1874692ffdb283225ca3e6f06386eb6da3f48673d7052269486",
+      "finding": "Food-lab report design exposed a fidelity gap in unfinished reports: incorrect selections appeared missing.",
+      "resolution": "Seed reports now retain the current selected count/percentage with check status; surface reports retain current typed count/volume with unconfirmed labels. Confirmed results and old saved work are unchanged. Follow-up model/browser/PDF/native-print checks passed."
+    },
+    {
+      "recordedOn": "2026-11-15",
+      "sourceSnapshotBefore": "sha256:071a73d67684181104aa176cc4e177f80a7f478edf94a164354f58f59e8177d2",
+      "finding": "Report/current-edit and rapid post-drag behavior were strengthened while building BIO-03.",
+      "resolution": "Preserved current wrong entries, distinguished actual correction history, cleared stale feedback/next actions, and suppressed only generated drag clicks. Current regression outcomes: 116 model/report, 25 browser-group, 3 edit/recheck checks passed. Existing science parameters, IDs and observations retained."
+    },
+    {
+      "id": "BIO-07-touch-once",
+      "finding": "A native compatibility click could hit a new control after a touch redraw; discovered from viral round-2 phone evidence.",
+      "resolution": "BIO-07 shared touch follow-up: suppress the pending native compatibility click across replacement DOM, reset on the next physical pointerdown. All six earlier lab browser files passed in the 50-check group; its only failure was a new singular/plural assertion typo, corrected in the focused 2/2 exact-tap rerun. Verify one increment/toggle/rotation and preserve the next deliberate tap. Science and saved observations unchanged; original acceptance snapshots retained.",
+      "sourceSnapshot": "sha256:615ccee6e5fe3033f3dba30fc3914477c955e54bf3a2271d32febc0b2a768c60",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/viral-spread/browser-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-exact-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-regression-initial.txt",
+        "data/development-tracker/biology-reviews/evidence/viral-spread/touch-followup-manifest.json"
+      ]
+    }
+  ],
+  "followups": [
+    {
+      "id": "shared-touch-focus-2026-11-15",
+      "reviewedOn": "2026-11-15",
+      "reviewedBy": "Codex - shared interaction follow-up",
+      "decision": "pass",
+      "summary": "Pending native compatibility mousedown no longer steals newly assigned focus. Existing deliberate next-tap/mouse/keyboard behavior verified in39 selected browser cases; original lab review snapshot retained.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.json",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-touch-focus-followup.md",
+        "data/development-tracker/biology-reviews/evidence/body-heat/shared-native-focus-regressions.txt"
+      ]
+    },
+    {
+      "id": "shared-response-pagination-2026-11-15",
+      "recordedAt": "2026-11-15T17:05:24.786Z",
+      "scope": "Shared PDF question/answer page-break guard; original review remains its point-in-time snapshot. Representative current starch, stored heat/fungal and legacy enzyme reports checked; not a full rerun of this lab.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.md",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-followup.json",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/pagination-corrected.txt",
+        "data/development-tracker/biology-reviews/evidence/starch-digestion/shared-pagination-model-tests.txt"
+      ]
+    },
+    {
+      "id": "shared-scientific-symbols-2026-11-15",
+      "recordedAt": "2026-11-15T18:31:00.190Z",
+      "scope": "Shared offline scientific-symbol glyph fallback only; original source snapshot/history unchanged. Representative new/old outputs and legacy wrappers validated, not full rerun of this lab.",
+      "evidence": [
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.md",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-followup.json",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/shared-symbol-model-tests.txt",
+        "data/development-tracker/biology-reviews/evidence/blind-spot/glyph-all-artifacts.txt"
+      ]
+    }
+  ]
+}
